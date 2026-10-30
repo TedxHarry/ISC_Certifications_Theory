@@ -1,6 +1,6 @@
 # Capability, update and open-question register
 
-Version 1.3. October 30, 2026.
+Version 1.4. October 30, 2026.
 Source leads: [official source map](../AUTHOR_SOURCE_MAP.md).
 Purpose: stop unsupported current/legacy/availability claims entering lessons.
 
@@ -64,6 +64,14 @@ CRT-003 revision 1.0 connects the stable CAP-01 objects with bounded CAP-04 acce
 OQ-01/02 were refreshed and remain unresolved. The trace supplies confirmed review finalization and actual ready removal work without a universal trigger, duration or campaign-completion order. OQ-03/04 remain pending, and OQ-05 records the newly noticed manual-recipient scope question. The manual branch uses actual task assignment. No release, permission, availability or tenant-execution claim is inferred.
 
 The lesson is author-reviewed locally. Actual learner validation and CRT-003 publication have not occurred. CRT-001 remains the only published learner; CRT-002/003 remain local.
+
+## CRT-004 authored application, October 30, 2026
+
+CRT-004 revision 1.0 develops the CAP-01 purpose comparison and bounded CAP-04 assignment-origin/eligibility behavior, with CAP-12's decision-versus-delivery distinction. Eight fresh official references are mapped in [its author record](revisions/CRT-004_Revision_Record.md). Request approval is configured; a supported removal request is not a certification. Requested access profiles and current LCS-granted profiles have different review treatment.
+
+The lifecycle source explicitly distinguishes access-profile enforcement while the state applies from account enable/disable actions that do not form a persistent retry mechanism. The lesson preserves that distinction and does not promise immediate successful restoration or behavior from a state label alone. No tenant permission/configuration or mutation was inspected or performed.
+
+OQ-01–05 remain open. No exhaustive release or universal availability claim is added. CRT-004 is author-reviewed locally, actual learner validation pending and publication unperformed. CRT-001 through CRT-003 are published and live-verified; earlier local-only authored-application entries are historical.
 
 ## Update log and authoring protocol
 

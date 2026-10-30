@@ -23,3 +23,10 @@ lessons:
     description: "Follow collected access through a review decision, automated or manual removal and exact-account evidence."
     source: "lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md"
     url: "/lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.html"
+  - id: CRT-004
+    module: purpose
+    placement: "Module 1 · Lesson 4"
+    title: "How is a certification different from an access request or lifecycle rule?"
+    description: "Distinguish requested changes, current access reviews and lifecycle requirements, including why assignment origin matters."
+    source: "lessons/CRT-004_Certifications_Access_Requests_and_Lifecycle_Rules.md"
+    url: "/lessons/CRT-004_Certifications_Access_Requests_and_Lifecycle_Rules.html"

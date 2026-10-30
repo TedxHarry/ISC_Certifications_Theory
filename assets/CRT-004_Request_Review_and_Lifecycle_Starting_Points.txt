@@ -1,0 +1,23 @@
+A need for additional access
+    |
+    v
+Access request
+    |
+    v
+Approved grant work
+
+Existing reviewable access
+    |
+    v
+Certification decision
+    |
+    v
+Keep / require removal
+
+Assigned lifecycle state
+    |
+    v
+Configured requirements
+    |
+    v
+State-based access work

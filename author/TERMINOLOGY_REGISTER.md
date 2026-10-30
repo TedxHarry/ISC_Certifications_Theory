@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 1.3. October 30, 2026.
+Version 1.4. October 30, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -97,6 +97,21 @@ These are supporting introductions for this purpose lesson. CRT-002's authored f
 [CRT-003](../lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md) explains source, connector/integration, account aggregation, correlation, entitlement, generated review item, assigned certification, reviewer, scope/start, Approve/Revoke, sign-off, remediation, provisioning and target system as parts of one trace. It distinguishes collection from granting access, reading from writing, accepted work from account change, and historical review data from refreshed account evidence.
 
 [The CRT-003 record](revisions/CRT-003_Revision_Record.md) locates this supporting teaching and its evidence cases. Detailed term owners remain responsible for configuration and engine-specific behavior. A new target-system working row records the exact-account meaning used here.
+
+## Requests and lifecycle context authored in CRT-004
+
+| Term | Working meaning and connection | Teaching location |
+|---|---|---|
+| Access request | A submitted request for a supported access change; grant and removal intentions differ. | CRT-004 |
+| Requester | The person submitting the request, who may differ from the recipient where supported. | CRT-004 |
+| Recipient | The person for whom access is requested; keep the target account distinct. | CRT-004 |
+| Approver | The actor evaluating the requested change under its configured process. | CRT-004 |
+| Mapping | Configuration specifying how incoming information sets an identity value. | CRT-004/005 |
+| Identity processing | Evaluation of identity information and applicable access configuration, including required access work. | CRT-004/005 |
+| Access model | Configured access packages and assignment requirements; distinguish a review decision from changing a requirement. | CRT-004/006/007 |
+| Certifiable access | Access eligible for the supported certification review under the applicable model; not all held access is an individual decision item. | CRT-004/006/007 |
+
+[CRT-004](../lessons/CRT-004_Certifications_Access_Requests_and_Lifecycle_Rules.md) also explains LCS, birthright, assignment origin, the profile as a review unit and the different meanings of request approval and certification Approve. Its state name, configured requirement, data calculation, removal work and account evidence remain distinct. [The author record](revisions/CRT-004_Revision_Record.md) locates the actual teaching; no full lifecycle implementation or universal campaign timing is claimed.
 
 ## Maintenance
 

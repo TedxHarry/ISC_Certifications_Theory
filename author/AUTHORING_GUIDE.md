@@ -1,6 +1,6 @@
 # Authoring guide and lesson briefs
 
-Version 1.4. October 30, 2026.
+Version 1.5. October 30, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
@@ -113,9 +113,9 @@ An unfamiliar reader can explain why review is needed, what is being reviewed, w
 
 The saved lesson contains complete connected prose, useful reasoning/transfer, consistent supplied conditions and no biography, prerequisite announcement, source URLs or invented tenant results. The author record is complete; actual learner validation is separately pending unless it has really occurred.
 
-## Next lesson reservation: CRT-004
+## Next lesson reservation: CRT-005
 
-How is a certification different from an access request or lifecycle rule? is next. Its learner is not written and no stub exists. Prepare its comparison brief and fresh claim checks at the start of that authoring turn, using the design, coverage and terminology registers. CRT-001/002/003 are complete at revision 1.0; their briefs are scope history, not fixed learner layouts.
+How does application access become information ISC can review? is next. Its learner is not written and no stub exists. Prepare its data-path brief and fresh checks at the next authoring step. CRT-001 through CRT-004 are complete at revision 1.0; their briefs record topic scope and do not impose a fixed learner layout.
 
 ## Repository and publication stage
 
@@ -166,3 +166,25 @@ Acceptance: learner can explain where information comes from, which actor/record
 ## CRT-002/003 publication and next local continuation
 
 The user's latest push-and-continue request published the completed CRT-002/003 revision 1.0 learners. [Publication evidence](PUBLICATION_2026-10-30_CRT-002_CRT-003.md) records the content build and live checks. The manifest now lists CRT-001 through CRT-003. Historical local-authoring briefs/records remain historical. Continue with the reserved CRT-004 locally after this publication; do not add it to this publication snapshot.
+
+## CRT-004 author brief, October 30, 2026
+
+Working title: How is a certification different from an access request or lifecycle rule?
+Reserved learner: lessons/CRT-004_Certifications_Access_Requests_and_Lifecycle_Rules.md.
+Preparation state: not yet written; local continuation after verified CRT-002/003 publication. Completed October 30, 2026 as revision 1.0; [learner](../lessons/CRT-004_Certifications_Access_Requests_and_Lifecycle_Rules.md) and [author record](revisions/CRT-004_Revision_Record.md). CRT-004 remains local and unpublished.
+
+Purpose: develop COV-01's comparison through each mechanism's question, starting input, actor/configuration, decision or calculation, resulting work and evidence. Introduce only necessary supporting COV-06/07/20/22/23/24 meanings. Avoid turning the lesson into a general requests/LCS configuration course.
+
+Use a requestable Reporting Export access profile bundling reports-view and reports-export from one reporting source. Supply a correct recipient account, appropriate configured approver, supported authorized write, no delayed-start/JIT condition, no lifecycle/role enforcement retaining the package and a successful grant. Later review of the now-held requested profile establishes current need independently; Revoke follows applicable confirmed removal work. Explain that the profile is the review unit here, not two separate entitlement items.
+
+For lifecycle contrast, use a separate Employee Portal access profile with portal-use in an enabled configured active lifecycle state. Explain identity, state, mapping/calculation, identity processing and source account before relying on them. State labels alone do not define actions. Current LCS profile requirements can be enforced/restored while the state still applies; do not generalize that persistence to account-enable/disable actions, which documentation says execute once. Lifecycle-granted profiles are not individually certifiable; teach the requirement where it is controlled rather than inventing a Revoke button for them.
+
+Compare request approval, certification Approve/Revoke and automatic state-based requirement. Include supported removal requests, so requests are not falsely defined as grants only. Approval/assignment alone is not delivered access. Lack of an individual certification item is not proof the access is absent. Access model means the configured packages and assignment requirements, not an internal code rule.
+
+Useful changed reasoning: prior request approval versus today's need, missing requested access versus existing access review, profile enforced by lifecycle state, wrong lifecycle data versus correct policy, and permission retained through another requirement. Keep overlap explanation bounded; detailed grant origins and effective-access mechanisms remain with later lessons.
+
+Independent transfer uses two access records (one requested profile and one LCS-required profile), changed work and an incorrect proposed fix, with enough facts for the learner to identify each control and missing outcome evidence. A compact comparison/branch diagram is useful if it explains the three inputs without implying a sequential pipeline. No fixed diagram/table/case count.
+
+Sources freshly checked: requests/admin and end-user guidance, supported removal-request guidance, access-profile meaning, lifecycle state setup, certifiable access and provisioning. Existing OQ-01–05 remain open; do not invent unsigned outcomes, campaign trigger timing, manual-task recipients or tenant availability.
+
+Acceptance: learner can explain why all three controls coexist, identify the correct record/control for a new question, distinguish approval from delivery, and explain why an LCS-enforced package needs a requirement/data investigation rather than an individual certification revocation. Actual learner testing and CRT-004 publication remain pending.

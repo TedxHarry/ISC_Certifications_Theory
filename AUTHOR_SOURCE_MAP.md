@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 2.5. Updated October 30, 2026; dated checks below distinguish each stage.
+Authoring source reference 2.6. Updated October 30, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant actions, test campaign or provisioning change was performed. Pages publication for CRT-001 through CRT-003 is verified below; CRT-004 is the next local authoring continuation.
+No tenant actions, test campaign or provisioning change was performed. Pages publication for CRT-001 through CRT-003 is verified below; CRT-004 is complete locally; CRT-005 is the next authoring continuation.
 
 ## Primary source map
 
@@ -153,3 +153,11 @@ Current total: three authored learners, one published learner and 47 unwritten c
 The user authorized push and then local continuation. Content be8e69d3c63c1b9b03e3c40e800c3092b34ea73d built successfully in Pages workflow 41020384730. The corrected live checker verified three lessons, all 343 content units, three diagrams, three tables, three editable text assets, CSS, sixteen internal link visits and four author-route exclusions. A first false failure exposed Markdown list-marker handling in the checker; inspecting rendered list items established the cause, and rerunning after the narrow fix passed. No learner text was changed.
 
 [The publication record](author/PUBLICATION_2026-10-30_CRT-002_CRT-003.md) records this snapshot. Earlier local-only statements are dated authoring history. Actual learner validation remains pending. CRT-004 follows locally after verified publication.
+
+## Fourth learner: CRT-004 revision 1.0, October 30, 2026
+
+[Certification, access request or lifecycle rule?](lessons/CRT-004_Certifications_Access_Requests_and_Lifecycle_Rules.md) is complete locally. [Its author record](author/revisions/CRT-004_Revision_Record.md) maps the saved comparison and worked cases to eight fresh primary references for requests, supported removal requests, profiles, lifecycle states, certification eligibility and provisioning.
+
+COV-01's comparison is authored. Supporting explanations preserve the requested profile as the review unit, distinguish a grant approval from delivered access and explain current LCS-profile enforcement versus account enable/disable action behavior. Actual assignment origin and configured state requirements govern the omission/restoration examples. No existing open question is closed and no tenant/participant result is invented.
+
+The saved beginner author read-through, edited passages and consistency checks are recorded. Four learners are authored; CRT-001 through CRT-003 are published and live-verified. CRT-004 is local and not pushed. Forty-six candidate topics remain unwritten; CRT-005 is next, without a stub. The published reader, verification tool and previous lesson/asset/record files remain unchanged during this continuation.
