@@ -1,0 +1,27 @@
+Application account access
+           |
+           v
+Collected account data
+and identity association
+           |
+           v
+Generated review item
+in an assigned certification
+           |
+           v
+Reviewer assesses need
+and confirms decisions
+           |
+           v
+Applicable removal work
+is ready to be carried out
+           |
+           v
+Automated or manual change
+on the required account
+           |
+           v
+Target outcome checked
+           |
+           v
+Updated ISC data checked

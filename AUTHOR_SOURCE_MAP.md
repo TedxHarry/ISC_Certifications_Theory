@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 2.2. Checked October 29, 2026.
+Authoring source reference 2.4. Updated October 30, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant actions, test campaign, provisioning change or published course was performed.
+No tenant actions, test campaign or provisioning change was performed. Initial Pages publication is verified below; CRT-002 and CRT-003 remain local authoring continuations.
 
 ## Primary source map
 
@@ -118,14 +118,32 @@ This verifies the authoring foundation, not an unwritten lesson or actual learne
 
 ## First learner: CRT-001 revision 1.0
 
-Current local learner: [Why review access that somebody already approved?](lessons/CRT-001_Why_Review_Previously_Approved_Access.md). [Per-lesson coverage and source evidence](author/revisions/CRT-001_Revision_Record.md). Six official pages were freshly reviewed for the bounded purpose, object, ownership, decision and outcome claims. The individual record includes loading/account-correlation references supporting the introductory data path.
+First authored learner: [Why review access that somebody already approved?](lessons/CRT-001_Why_Review_Previously_Approved_Access.md). [Per-lesson coverage and source evidence](author/revisions/CRT-001_Revision_Record.md). Six official pages were freshly reviewed for the bounded purpose, object, ownership, decision and outcome claims. The individual record includes loading/account-correlation references supporting the introductory data path.
 
 This first learner is complete and author-reviewed; initial publication is verified. It has one editable diagram, one evidence table, four changed-condition cases and an independent supplier-bank-detail transfer with an uncertainty branch. Actual learner validation remains pending. The initial Pages publication and responsive reader are verified in the publication record. No tenant operation occurred.
 
-Next is CRT-002. Other planned topics and the exhaustive release audit remain uncompleted. Original foundation counts above record the setup stage, not today's authored learner count.
+At this first-lesson stage, CRT-002 was next. Later authored status appears below. Other planned topics and the exhaustive release audit remain uncompleted. Original foundation counts above record the setup stage, not today's authored learner count.
 
 ## Initial publication request, October 30, 2026
 
 The user authorized a new ISC_Certifications_Theory repository, push and Pages publication before local CRT-002 authoring. The repository is created and the publication manifest includes CRT-001 only. [Publication evidence](author/PUBLICATION_2026-10-30_INITIAL.md) records the build and live checks. Earlier no-repository/local-only statements describe their dated authoring stages. Actual learner validation remains pending.
 
 Initial publication verified October 30, 2026: content 98f1a263e6e8990ab99506de40f2c757a635b18c built successfully in workflow 41007230219. All 104 normalized CRT-001 content units, its diagram/table/asset, internal links and four representative author-route exclusions passed live checks. Desktop/mobile review found no page-wide horizontal overflow; native panel toggle worked and the mobile table scrolled within its own region. Actual learner validation is still unperformed.
+
+## Second learner: CRT-002 revision 1.0, October 30, 2026
+
+[Campaigns, certifications and review items](lessons/CRT-002_Campaigns_Certifications_and_Review_Items.md) is complete locally. [Its author record](author/revisions/CRT-002_Revision_Record.md) maps saved teaching to five freshly checked official references: overview, reports, campaign creation, reviewer guidance and Understanding Certifications.
+
+The lesson teaches stable containment and actor distinctions, with supplied review grouping and arithmetic. It does not claim a universal grouping algorithm, platform-permission matrix, progress formula, unsigned-completion policy or removal timing. OQ-01–04 remain open. Source/coverage and complete saved beginner author read-through are recorded; no actual participant or tenant test occurred.
+
+There are now two authored learners, one published learner and 48 unwritten current candidate topics. CRT-003 is next, with no stub. CRT-001 learner/asset/author record and the publication manifest remain unchanged during this local continuation. Both initial Pages builds succeeded; the author follow-up at 9056f7c6c32f83322bbde12bedaadc3ed24d445d completed in workflow 41007516370. CRT-002 has not been committed or pushed.
+
+## Third learner: CRT-003 revision 1.0, October 30, 2026
+
+[Follow one review from access data to a verified outcome](lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md) is complete locally. [Its author record](author/revisions/CRT-003_Revision_Record.md) connects the saved trace and worked cases to eleven fresh primary references covering source/account data, correlation, campaign generation/review, removal and verification.
+
+Source/coverage and a full saved-file beginner author read-through are recorded. One editable logical flow and a six-row evidence comparison accompany the normal path, manual branch, missing-stage cases and independent two-account transfer. No actual beginner participant, tenant mutation, source change or CRT-003 graphical publication test occurred.
+
+OQ-01–04 remain open. OQ-05 now records the unestablished scope relationship between certification-specific source-owner task guidance and general provisioning's entitlement-owner/fallback guidance. The learner inspects actual assignment and does not invent a universal recipient rule. The timing diagram is a logical trace with confirmed ready removal work, not an exact engine state machine.
+
+Current total: three authored learners, one published learner and 47 unwritten candidate topics. CRT-004 is next, with no stub. CRT-001/002 learners, assets and per-lesson records are preserved. The publication manifest and live site still list CRT-001 only; CRT-002 and CRT-003 have not been pushed.

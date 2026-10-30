@@ -1,8 +1,8 @@
 # ISC certifications: operational task coverage
 
-Planning revision 1.2. October 29, 2026.
-Companion to [course design 2.1](COURSE_DESIGN.md).
-Status: coverage committed for authoring. CRT-001 revision 1.0 develops the purpose/current-need foundation for task 1 and introduces supporting access/decision/outcome meanings. Other task mechanics remain planned. Actual learner performance has not been validated.
+Planning revision 1.4. October 30, 2026.
+Companion to [course design 2.3](COURSE_DESIGN.md).
+Status: coverage committed for authoring. CRT-001 revision 1.0 develops the purpose/current-need foundation for task 1 and introduces supporting access/decision/outcome meanings. CRT-002 adds object/actor and evidence-unit foundations for tasks 7/8/9/10/14. CRT-003 adds a connected data/review/removal/evidence trace supporting tasks 2/7/14/17/18/19/21/22. Detailed task mechanics remain planned. Actual learner performance has not been validated.
 Authoring must follow the [teaching specification](TEACHING_SPECIFICATION.md) and reconcile each completed task against its saved lesson record.
 
 This map gives routine work an explicit place. It is not a statistical ranking of customer task frequency. Planning labels remain provisional. Change lesson boundaries if a task needs a clearer independent explanation.
@@ -63,6 +63,10 @@ A deeper route may be essential for a particular job. Its separate placement kee
 ## Current authored coverage
 
 [CRT-001 author record](author/revisions/CRT-001_Revision_Record.md) maps the purpose foundation and supporting introductions to actual saved sections. This does not complete task 1's campaign-design depth or mark delivery/reporting tasks fully taught. The detailed planned locations above remain responsible for those mechanisms.
+
+[CRT-002 author record](author/revisions/CRT-002_Revision_Record.md) maps campaign/review/item and actor foundations to tasks 7 (inspect generated work), 8 (responsibility versus authority), 9 (count review and item progress), 10 (identify the assignment record) and 14 (connect a decision with the person's exact access). This does not complete preview acceptance, permission matrices, routing/reassignment, sign-off policy or monitoring procedures.
+
+[CRT-003 author record](author/revisions/CRT-003_Revision_Record.md) maps the connected trace to tasks 2 (collected data/ownership), 7 (generated item and reviewer), 14 (current-need judgment), 17 (confirmed review versus actual removal work), 18 (automated/manual change), 19 (find the rejected operation), 21 (verify exact account/right and refresh) and 22 (connect decision and outcome evidence). This introduces how the stages fit together, not full configuration, routing, timing, retry, reporting or closure procedures.
 
 ## Evidence of learning
 

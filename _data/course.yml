@@ -9,3 +9,17 @@ lessons:
     description: "Connect an earlier approval, current business need, the review decision and the verified access outcome."
     source: "lessons/CRT-001_Why_Review_Previously_Approved_Access.md"
     url: "/lessons/CRT-001_Why_Review_Previously_Approved_Access.html"
+  - id: CRT-002
+    module: purpose
+    placement: "Module 1 · Lesson 2"
+    title: "A campaign, a certification and a review item: what is being assigned?"
+    description: "Connect a campaign, assigned reviews, individual access items and the people responsible for the work."
+    source: "lessons/CRT-002_Campaigns_Certifications_and_Review_Items.md"
+    url: "/lessons/CRT-002_Campaigns_Certifications_and_Review_Items.html"
+  - id: CRT-003
+    module: purpose
+    placement: "Module 1 · Lesson 3"
+    title: "Follow one review from access data to a verified outcome"
+    description: "Follow collected access through a review decision, automated or manual removal and exact-account evidence."
+    source: "lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md"
+    url: "/lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.html"

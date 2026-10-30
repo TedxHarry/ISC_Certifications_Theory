@@ -1,6 +1,6 @@
 # Capability, update and open-question register
 
-Version 1.1. October 29, 2026.
+Version 1.3. October 30, 2026.
 Source leads: [official source map](../AUTHOR_SOURCE_MAP.md).
 Purpose: stop unsupported current/legacy/availability claims entering lessons.
 
@@ -41,6 +41,7 @@ All dates below are October 29, 2026. “Scoping checked” means source reviewe
 | OQ-02: Exact remediation trigger and campaign phases | Administrative guidance describes initiation at sign-off; developer overview also describes a campaign-level remediation phase after reviewers finish. These may describe different scopes or engines; the relationship has not been established here. | Verify the engine-specific event/state path before exact timing diagrams or claims. Stable purpose and the distinction between decision/delivery/evidence can be taught without inventing that timing. |
 | OQ-03: Exact tenant capability and permission matrix | No target tenant, entitlement/license inventory or actual user-level test has been supplied or inspected. | Teach verified documented conditions. Identify prerequisites per affected lesson; do not claim screenshots or behavior observed in a tenant. |
 | OQ-04: Exhaustive current-update coverage | Ten primary scoping sources have been reviewed; this is not a release-by-release completeness audit. A discoverable announcement FAQ failed direct retrieval in the earlier check. | Recheck authoritative release information during authoring/publication, maintain the change log below and record unavailable evidence. Do not promote roadmap/search snippets to released behavior. |
+| OQ-05: Manual-task recipient scope | Certification Understanding guidance names the source owner; the general provisioning overview says manual entitlement tasks go to the entitlement owner with source-owner fallback. Their process/engine scope relationship has not been established here. | Inspect actual task assignment in CRT-003; verify the exact certification path before CRT-034 recipient/routing claims. No universal owner rule is inferred. |
 
 These questions affect particular claims. They do not block writing the verified purpose and business reasoning in CRT-001.
 
@@ -49,6 +50,20 @@ These questions affect particular claims. They do not block writing the verified
 CRT-001 revision 1.0 uses CAP-01's stable purpose/objects, a bounded CAP-04 individually reviewable entitlement and CAP-12's distinction between a removal decision and its applicable delivery. Six official pages were freshly checked October 29, 2026 in [the lesson record](revisions/CRT-001_Revision_Record.md).
 
 It explains finishing/confirming a review but makes no exact unsigned-completion or universal remediation-phase timing claim. OQ-01 and OQ-02 remain unresolved, and OQ-03/04 remain pending. This is one bounded learner verification, not a whole-engine, tenant-availability or exhaustive-release validation.
+
+## CRT-002 authored application, October 30, 2026
+
+CRT-002 revision 1.0 uses CAP-01's stable campaign/review/actor concepts. The overview, campaign reports, Search creation guidance, reviewer guidance and Understanding Certifications were freshly checked for its actual claims; see [the lesson record](revisions/CRT-002_Revision_Record.md). CAP-04 supplies the bounded individually reviewable-entitlement condition. CAP-07/08/13 supply limited generation/start, campaign-dependent reviewer choice and current-reviewer versus recorded-actor context, not full mechanisms.
+
+No feature-availability, release-completeness, exact permission, unsigned-completion or removal-timing conclusion was added. OQ-01–04 remain unresolved. The lesson is author-reviewed locally; actual learner validation, tenant execution and CRT-002 publication are unperformed. CRT-001 alone is published.
+
+## CRT-003 authored application, October 30, 2026
+
+CRT-003 revision 1.0 connects the stable CAP-01 objects with bounded CAP-04 access eligibility, CAP-07 generation/start, CAP-10 review confirmation, CAP-12 automated/manual change and CAP-13 evidence. Eleven relevant official pages were freshly checked; see [the lesson record](revisions/CRT-003_Revision_Record.md). Account loading, correlation, source configuration and provisioning references support its necessary introductions.
+
+OQ-01/02 were refreshed and remain unresolved. The trace supplies confirmed review finalization and actual ready removal work without a universal trigger, duration or campaign-completion order. OQ-03/04 remain pending, and OQ-05 records the newly noticed manual-recipient scope question. The manual branch uses actual task assignment. No release, permission, availability or tenant-execution claim is inferred.
+
+The lesson is author-reviewed locally. Actual learner validation and CRT-003 publication have not occurred. CRT-001 remains the only published learner; CRT-002/003 remain local.
 
 ## Update log and authoring protocol
 

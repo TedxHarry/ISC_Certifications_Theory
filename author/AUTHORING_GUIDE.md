@@ -1,6 +1,6 @@
 # Authoring guide and lesson briefs
 
-Version 1.1. October 29, 2026.
+Version 1.3. October 30, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
@@ -113,12 +113,52 @@ An unfamiliar reader can explain why review is needed, what is being reviewed, w
 
 The saved lesson contains complete connected prose, useful reasoning/transfer, consistent supplied conditions and no biography, prerequisite announcement, source URLs or invented tenant results. The author record is complete; actual learner validation is separately pending unless it has really occurred.
 
-## Next lesson reservation: CRT-002
+## Next lesson reservation: CRT-004
 
-A campaign, a certification and a review item: what is being assigned? is next. Its learner is not written and no stub exists. Prepare its detailed brief and fresh claim checks at the start of that authoring turn, using the design, coverage and terminology registers. Do not treat the completed CRT-001 brief as a fixed learner layout.
+How is a certification different from an access request or lifecycle rule? is next. Its learner is not written and no stub exists. Prepare its comparison brief and fresh claim checks at the start of that authoring turn, using the design, coverage and terminology registers. CRT-001/002/003 are complete at revision 1.0; their briefs are scope history, not fixed learner layouts.
 
 ## Repository and publication stage
 
 On October 30, 2026 the user authorized the separate ISC_Certifications_Theory repository, push and Pages publication, then local continuation. Use [the publication record](PUBLICATION_2026-10-30_INITIAL.md) for the exact published snapshot. Ordinary lesson continuation does not implicitly publish new work.
 
 Learner publication must not accidentally expose author records as lesson prose or publish unwritten topic stubs. The current reader uses GitHub Pages/Jekyll, a public repository and _data/course.yml for available lessons. Update the manifest for the explicitly authorized publication scope, preserving local unpublished lesson work.
+
+## CRT-002 author brief, October 30, 2026
+
+Working title: A campaign, a certification and a review item: what is being assigned?
+Reserved file: lessons/CRT-002_Campaigns_Certifications_and_Review_Items.md.
+Status at preparation: not yet written; intended local continuation after verified initial publication. Completed October 30, 2026 as revision 1.0; [learner](../lessons/CRT-002_Campaigns_Certifications_and_Review_Items.md) and [author record](revisions/CRT-002_Revision_Record.md). The completed lesson remains local and unpublished.
+
+Purpose: explain the campaign/assigned-review/item relationship, identify subject/account/access/reviewer and distinguish responsibility from platform permission. COV-02 is primary; COV-03 is introduced without claiming a complete permissions matrix. Routine task rows 7/8/9/10/14 receive object/actor foundations, not full procedure coverage.
+
+Use a supplied generated campaign with two assigned reviews and three individually reviewable entitlement items: review A contains reports-view and reports-export for account reports-user-1 belonging to identity-1; review B contains reports-view for account reports-user-2 belonging to identity-2. The labels identify records, not fictional biographies. Separate appropriate reviewers are already assigned; correct account ownership and no self-review are supplied. Do not infer that these counts arise from a universal one-review-per-person or per-reviewer algorithm.
+
+Explain campaign scope/common administration, assigned review responsibility, subject/account/access context and item-level decisions before counting progress. Show containment with one editable diagram and a supplied-record table if useful. The same permission label on different accounts is not a duplicate decision. One assigned review may contain multiple identities in supported campaign designs; the example's grouping is supplied rather than universal.
+
+Introduce campaign creator/owner, Cert Admin/Org Admin, reviewer/decision maker, source/access owner and removal responsibility through their actual jobs. Ownership is not proof of permission. Keep fallback, detailed routing, reassignment granularity, role composition and user-level matrices for their primary lessons.
+
+Main changed condition: review A has two recorded decisions and confirmed review completion; review B's one item is undecided. Count the supplied units (one of two reviews, two of three item decisions) without equating that with whole-campaign completion or delivered revocation. Other checks distinguish repeated access labels, two reviews assigned to one reviewer, changed assignee versus actor history and unclear status-object wording. Include an independent transfer with different review sizes.
+
+Fresh primary leads: official overview, campaign status/report meanings, campaign creation/reviewer choices, reviewer guidance and Understanding Certifications. Verify relevant claims in the actual draft. OQ-01 unsigned completion and OQ-02 exact removal timing remain open; do not teach those exact outcomes or invented engine state transitions.
+
+Acceptance: an unfamiliar reader can draw the hierarchy, identify the unit of a decision, explain what is assigned to whom, reconcile simple counts and choose which record would answer a campaign/review/item or responsibility/permission question. No prior lesson, story, source link or fixed layout is required.
+
+## CRT-003 author brief, October 30, 2026
+
+Working title: Follow one review from access data to a verified outcome.
+Reserved learner: lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md.
+Preparation state: not yet written; next local continuation after CRT-002. Completed October 30, 2026 as revision 1.0; [learner](../lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md) and [author record](revisions/CRT-003_Revision_Record.md). CRT-002/003 remain local and unpublished.
+
+Purpose: give a beginner a connected process explanation, from an application's existing account access through ISC collection/ownership, campaign generation/assignment, review reasoning, confirmation, applicable removal work and account/outcome evidence. COV-02's end-to-end connection is primary; COV-04/05/09/13/14/15/20/21/22/23/25/26/29/31 are supporting introductions. Do not mark their detailed mechanisms complete.
+
+Use one ordinary reporting account with an individually reviewable reports-export entitlement, meaning permission to export reports. Supply correct account ownership, suitable represented data, campaign inclusion, an appropriate non-self reviewer, a confirmed lack of continuing business need and no containing access package/other requirement keeping or restoring the right. The normal path supports direct automated removal; a branch changes the source write capability to a task-based manual path.
+
+Explain that configuration instructs what to collect/review, generated work has actual contents/assignment, a recorded decision concerns reviewed access and source-account state needs its own evidence. A completed aggregation, review, operation or campaign cannot substitute for the evidence needed at the other stages. No private backend implementation, fixed durations, forced retries or universal status formulas.
+
+OQ-01 and OQ-02 remain unresolved after fresh checks: Understanding describes unsigned decisions and immediate sign-off initiation differently from completion/developer guidance. Therefore use a supplied finalized review and a confirmed removal work record ready for execution. Explain the applicable processing boundary without assigning a universal sign-off-to-write trigger or campaign-completion order. The teaching diagram is a logical trace, not a complete engine state machine or schedule.
+
+Fresh primary scope: account loading/correlation, certification overview, campaign generation/preview, reviewer decisions, Understanding, completion/remediation verification and next-generation developer overview for the open timing question. Verify connector/provisioning terms if used.
+
+Useful changed evidence: item missing before decision; saved decision but no removal work; successful source change followed by older ISC data; failed change; manual task closed without correct-account proof. Independent transfer uses a different permission and two account records, requiring the learner to select exact-account and observation-time evidence.
+
+Acceptance: learner can explain where information comes from, which actor/record changes at each transition, why the normal removal follows, how the manual branch changes the worker and where to investigate a mismatch. Include an editable logical flow and worked answers where useful. No fictional biography, source/course links, fixed content quota or reader-facing method commentary.

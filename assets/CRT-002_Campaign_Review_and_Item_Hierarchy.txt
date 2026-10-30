@@ -1,0 +1,12 @@
+Reporting access campaign
+|
++-- Review A
+|   Assigned to reviewer A
+|   |
+|   +-- Item: view reports
+|   +-- Item: export reports
+|
++-- Review B
+    Assigned to reviewer B
+    |
+    +-- Item: view reports

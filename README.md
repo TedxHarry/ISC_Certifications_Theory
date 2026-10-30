@@ -2,7 +2,7 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-This workspace contains the approved course direction and the authoring foundation. Learner lessons will be written one complete file at a time. CRT-001 is now written and author-reviewed locally. The separate [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) is created. The [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/) is live with CRT-001 revision 1.0.
+This workspace contains the approved course direction and the authoring foundation. Learner lessons will be written one complete file at a time. CRT-001, CRT-002 and CRT-003 are written and author-reviewed. CRT-002 and CRT-003 revision 1.0 are local and unpublished. The separate [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) is created. The [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/) is live with CRT-001 revision 1.0.
 
 ## Start here
 
@@ -29,9 +29,10 @@ The empty-directory markers are repository housekeeping, not learner content.
 Authoring foundation established October 29, 2026.
 Candidate core topics: 50, grouped provisionally into 10 modules.
 Specialist depth routes: 5, required where the learner's role needs them.
-Learner lessons written: 1, revision 1.0, saved locally. Actual learner validation is pending.
-Current: [CRT-001, Why review access that somebody already approved?](lessons/CRT-001_Why_Review_Previously_Approved_Access.md).
-Next: CRT-002, A campaign, a certification and a review item: what is being assigned?
+Learner lessons written and author-reviewed: 3, CRT-001, CRT-002 and CRT-003 revision 1.0. Published: CRT-001 only. Actual learner validation is pending.
+Current local continuation: [CRT-003, Follow one review from access data to a verified outcome](lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md).
+Next: CRT-004, How is a certification different from an access request or lifecycle rule?
+Forty-seven current candidate topics remain unwritten; the inventory can change with coverage needs.
 
 Module and lesson counts are flexible. Preserve complete coverage and clear explanation as the structure develops.
 
@@ -39,6 +40,6 @@ Module and lesson counts are flexible. Preserve complete coverage and clear expl
 
 The user authorized repository creation and GitHub Pages publication on October 30, 2026. This folder is the separate ISC_Certifications_Theory repository, with its own origin remote. Pages deployment and live verification are recorded in [the initial publication record](author/PUBLICATION_2026-10-30_INITIAL.md).
 
-Run npm ci, npm test and node author/verify-site.mjs for local checks. After deployment, node author/verify-site.mjs --live checks published lesson text, diagrams, tables, links, assets and author-content exclusions. Only lessons listed in _data/course.yml appear in the reader.
+Run npm ci, npm test and node author/verify-site.mjs for local checks. After deployment, node author/verify-site.mjs --live checks published lesson text, diagrams, tables, links, assets and author-content exclusions. Only lessons listed in _data/course.yml appear in the reader. The manifest remains CRT-001 only; CRT-002 and CRT-003 have not been pushed. The live check compares local assets with deployed assets, so use it after the intended publication snapshot is deployed, not to test unpublished continuation assets.
 
 The existing ISC_Theory_TedxHarry course is a separate project. Its files and publishing destination are not used for this course.

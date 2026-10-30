@@ -1,11 +1,11 @@
 # ISC Certifications course register
 
-Version 1.2. Updated October 30, 2026.
+Version 1.4. Updated October 30, 2026.
 [Course design](COURSE_DESIGN.md) and [teaching standard](TEACHING_SPECIFICATION.md).
 
 ## Current position
 
-The user authorized preparing this separate course so lessons can be written one at a time. The authoring foundation and the first complete learner CRT-001 revision 1.0 are saved locally. The user authorized creating and publishing the separate ISC_Certifications_Theory repository on October 30, 2026. The repository is created; CRT-001 revision 1.0 is published and live verification passed.
+The user authorized preparing this separate course so lessons can be written one at a time. The authoring foundation and complete learners CRT-001, CRT-002 and CRT-003 revision 1.0 are saved locally. The user authorized creating and publishing the separate ISC_Certifications_Theory repository on October 30, 2026. The repository is created; CRT-001 revision 1.0 is published and live verification passed. CRT-002 and CRT-003 are complete local continuations and have not been pushed.
 
 | Item | Actual state |
 |---|---|
@@ -13,13 +13,13 @@ The user authorized preparing this separate course so lessons can be written one
 | Current grouping | 10 provisional modules; no fixed limit |
 | Specialist depth | 5 job-dependent routes; essential recognition remains core |
 | Routine work | 24 mapped task families; coverage planned, not yet demonstrated |
-| Learner lessons written | 1; CRT-001 revision 1.0 |
-| Learner lessons author-reviewed | 1; source/coverage and full saved beginner author read-through complete |
+| Learner lessons written | 3; CRT-001, CRT-002 and CRT-003 revision 1.0 |
+| Learner lessons author-reviewed | 3; source/coverage and full saved beginner author read-through complete |
 | Actual beginner validation | Not performed |
-| Reference aids authored | 0; one editable teaching diagram accompanies CRT-001 |
-| Current learner | [CRT-001: Why review access that somebody already approved?](lessons/CRT-001_Why_Review_Previously_Approved_Access.md); revision 1.0 local |
-| Next lesson | CRT-002: A campaign, a certification and a review item: what is being assigned? |
-| Current author evidence | [CRT-001 revision record](author/revisions/CRT-001_Revision_Record.md); 27 coverage points, six primary references, four changed cases and one transfer |
+| Reference aids authored | 0 standalone aids; three editable teaching diagrams accompany CRT-001/002/003 |
+| Current local learner | [CRT-003: Follow one review from access data to a verified outcome](lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md); revision 1.0, unpublished |
+| Next lesson | CRT-004: How is a certification different from an access request or lifecycle rule? |
+| Current author evidence | [CRT-003 revision record](author/revisions/CRT-003_Revision_Record.md); data-to-outcome trace, automated/manual branch, missing-stage reasoning and two-account transfer; eleven primary references |
 | Feature currency | Source scoping checks recorded; exhaustive release audit and per-lesson verification not complete |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
 | GitHub / publication | [Repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [Pages](https://tedxharry.github.io/ISC_Certifications_Theory/) live; CRT-001 1.0 verified; [publication record](author/PUBLICATION_2026-10-30_INITIAL.md) |
@@ -29,7 +29,7 @@ The user authorized preparing this separate course so lessons can be written one
 
 Read the [authoring guide](author/AUTHORING_GUIDE.md), then relevant [coverage](author/COVERAGE_REGISTER.md), [terms](author/TERMINOLOGY_REGISTER.md), [capabilities and open questions](author/CAPABILITY_AND_UPDATE_REGISTER.md) and [source leads](AUTHOR_SOURCE_MAP.md).
 
-The next continuation is one complete CRT-002 learner, associated assets if needed, its author record and reconciled status. Prepare its detailed brief and source checks in that turn. Do not count a plan or reference aid as another learner lesson.
+The next continuation is one complete CRT-004 learner, associated assets if needed, its author record and reconciled status. Prepare its detailed brief and source checks in that turn. Do not count a plan or reference aid as another learner lesson.
 
 ## Status meanings
 
@@ -47,9 +47,9 @@ These states are independent facts. A source check does not imply learner valida
 | Planning ID | Learning question | Writing state | Author review | Actual learner validation | Publication |
 |---|---|---|---|---|---|
 | CRT-001 | Why review access that somebody already approved? | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Published revision 1.0 |
-| CRT-002 | A campaign, a certification and a review item: what is being assigned? | Reserved next; no learner file | Not reviewed | Not tested | Not published |
-| CRT-003 | Follow one review from access data to a verified outcome | Planned; not written | Not reviewed | Not tested | Not published |
-| CRT-004 | How is a certification different from an access request or lifecycle rule? | Planned; not written | Not reviewed | Not tested | Not published |
+| CRT-002 | A campaign, a certification and a review item: what is being assigned? | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Local; not pushed |
+| CRT-003 | Follow one review from access data to a verified outcome | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Local; not pushed |
+| CRT-004 | How is a certification different from an access request or lifecycle rule? | Reserved next; no learner file | Not reviewed | Not tested | Not published |
 | CRT-005 | How does application access become information ISC can review? | Planned; not written | Not reviewed | Not tested | Not published |
 | CRT-006 | Are we reviewing an entitlement, an access profile or a role? | Planned; not written | Not reviewed | Not tested | Not published |
 | CRT-007 | Why does some access appear differently or not appear at all? | Planned; not written | Not reviewed | Not tested | Not published |
@@ -111,6 +111,10 @@ The design owns the current module placement and topic descriptions. This table 
 
 | October 30, 2026 | Prepared the separate GitHub Pages reader and repository at the user's request | Learner source preserved; content commit 98f1a263e6e8990ab99506de40f2c757a635b18c built successfully; one live lesson, 104 content units, diagram/table/asset, links, author exclusions and responsive reader checked |
 
+| October 30, 2026 | Authored CRT-002 revision 1.0 after initial publication | Campaign/review/item containment, person/account/right context, assignment and actor history, responsibility versus permission, progress units and outcome evidence; local author review complete, actual learner validation pending; no continuation push |
+
+| October 30, 2026 | Authored CRT-003 revision 1.0 locally | Existing access, source data/identity association, generated review, reasoned decision/confirmation, ready removal work, automated/manual change, exact-account evidence and refresh; source and saved beginner author checks complete, actual learner validation pending; no push |
+
 ## Next action
 
-Write CRT-002 in full under teaching specification 1.0. Prepare its detailed brief and verify the relevant primary claims. Forty-nine candidate topics remain planned; this is a flexible inventory, not a fixed required file count. Initial publication is verified. Continue locally with CRT-002. Do not publish the new continuation merely because this earlier snapshot was authorized.
+Write CRT-004 in full under teaching specification 1.0. Prepare its detailed comparison brief and verify the relevant primary claims. Forty-seven candidate topics remain unwritten; this is a flexible inventory, not a fixed required file count. Initial publication is verified. CRT-002 and CRT-003 stay local until the next authorized publication snapshot.

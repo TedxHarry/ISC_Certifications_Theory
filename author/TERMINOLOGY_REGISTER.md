@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 1.1. October 29, 2026.
+Version 1.3. October 30, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -14,6 +14,7 @@ These are author working meanings. Verify product-specific use in the applicable
 | Identity | ISC's representation of a person or other managed subject, connecting information and accounts/access. | CRT-002/005 |
 | Account | A record in a particular system; distinguish the exact account from the owning identity. | CRT-005/008 |
 | Source | ISC's configured representation of a system or collection of account data. | CRT-005 |
+| Target system | The actual system whose account access must change or be verified; distinguish it from ISC's collected representation. | CRT-003/033/037 |
 | Connector | The supported integration used to read or change data for a source. Reading support does not establish write capability. | CRT-005/033 |
 | Account aggregation | Reading account information into ISC's represented source data. It is not itself an access-review decision. | CRT-005 |
 | Account correlation | Matching/associating an account with its owning identity. A correct value on the wrong account is not the intended person's evidence. | CRT-005/008 |
@@ -87,7 +88,15 @@ These are author working meanings. Verify product-specific use in the applicable
 
 [CRT-001](../lessons/CRT-001_Why_Review_Previously_Approved_Access.md) now explains access, account, identity, entitlement, source, account aggregation/correlation, review item, access certification, reviewer/certifier, campaign, Approve, Revoke, sign-off/finalization and remediation in context. Its evidence comparison distinguishes an earlier approval, current need, decision and actual account result.
 
-These are supporting introductions for this purpose lesson. Primary detailed teaching locations above remain planned. Source checking and simulated author review are recorded in [its author record](revisions/CRT-001_Revision_Record.md); no observed beginner test is claimed.
+These are supporting introductions for this purpose lesson. CRT-002's authored foundations are recorded next; other primary detailed teaching locations remain planned. Source checking and simulated author review are recorded in [its author record](revisions/CRT-001_Revision_Record.md); no observed beginner test is claimed.
+
+[CRT-002](../lessons/CRT-002_Campaigns_Certifications_and_Review_Items.md) now explains certification campaign, certification/assigned review, review item, subject, reviewer/certifier, campaign scope, generation/start, creator/owner, Cert Admin/Org Admin, source/access owner, remediation, decision maker, undecided and sign-off in connected prose. It reintroduces account/access/identity/entitlement and Approve/Revoke as needed. It distinguishes saved item decisions, confirmed review completion, campaign state and target-account outcome.
+
+[The CRT-002 record](revisions/CRT-002_Revision_Record.md) locates each actual teaching purpose. No exact permission matrix, algorithm for grouping reviews, report counter formula or engine finality policy is claimed.
+
+[CRT-003](../lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md) explains source, connector/integration, account aggregation, correlation, entitlement, generated review item, assigned certification, reviewer, scope/start, Approve/Revoke, sign-off, remediation, provisioning and target system as parts of one trace. It distinguishes collection from granting access, reading from writing, accepted work from account change, and historical review data from refreshed account evidence.
+
+[The CRT-003 record](revisions/CRT-003_Revision_Record.md) locates this supporting teaching and its evidence cases. Detailed term owners remain responsible for configuration and engine-specific behavior. A new target-system working row records the exact-account meaning used here.
 
 ## Maintenance
 
