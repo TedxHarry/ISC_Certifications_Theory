@@ -120,10 +120,12 @@ This verifies the authoring foundation, not an unwritten lesson or actual learne
 
 Current local learner: [Why review access that somebody already approved?](lessons/CRT-001_Why_Review_Previously_Approved_Access.md). [Per-lesson coverage and source evidence](author/revisions/CRT-001_Revision_Record.md). Six official pages were freshly reviewed for the bounded purpose, object, ownership, decision and outcome claims. The individual record includes loading/account-correlation references supporting the introductory data path.
 
-This first learner is complete and author-reviewed; initial publication is being verified. It has one editable diagram, one evidence table, four changed-condition cases and an independent supplier-bank-detail transfer with an uncertainty branch. Actual learner validation and graphical publication review remain pending. No tenant operation or publication occurred.
+This first learner is complete and author-reviewed; initial publication is verified. It has one editable diagram, one evidence table, four changed-condition cases and an independent supplier-bank-detail transfer with an uncertainty branch. Actual learner validation remains pending. The initial Pages publication and responsive reader are verified in the publication record. No tenant operation occurred.
 
 Next is CRT-002. Other planned topics and the exhaustive release audit remain uncompleted. Original foundation counts above record the setup stage, not today's authored learner count.
 
 ## Initial publication request, October 30, 2026
 
 The user authorized a new ISC_Certifications_Theory repository, push and Pages publication before local CRT-002 authoring. The repository is created and the publication manifest includes CRT-001 only. [Publication evidence](author/PUBLICATION_2026-10-30_INITIAL.md) records the build and live checks. Earlier no-repository/local-only statements describe their dated authoring stages. Actual learner validation remains pending.
+
+Initial publication verified October 30, 2026: content 98f1a263e6e8990ab99506de40f2c757a635b18c built successfully in workflow 41007230219. All 104 normalized CRT-001 content units, its diagram/table/asset, internal links and four representative author-route exclusions passed live checks. Desktop/mobile review found no page-wide horizontal overflow; native panel toggle worked and the mobile table scrolled within its own region. Actual learner validation is still unperformed.

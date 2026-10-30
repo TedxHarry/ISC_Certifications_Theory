@@ -5,7 +5,7 @@ Version 1.2. Updated October 30, 2026.
 
 ## Current position
 
-The user authorized preparing this separate course so lessons can be written one at a time. The authoring foundation and the first complete learner CRT-001 revision 1.0 are saved locally. The user authorized creating and publishing the separate ISC_Certifications_Theory repository on October 30, 2026. The repository is created; initial Pages verification is in progress.
+The user authorized preparing this separate course so lessons can be written one at a time. The authoring foundation and the first complete learner CRT-001 revision 1.0 are saved locally. The user authorized creating and publishing the separate ISC_Certifications_Theory repository on October 30, 2026. The repository is created; CRT-001 revision 1.0 is published and live verification passed.
 
 | Item | Actual state |
 |---|---|
@@ -22,7 +22,7 @@ The user authorized preparing this separate course so lessons can be written one
 | Current author evidence | [CRT-001 revision record](author/revisions/CRT-001_Revision_Record.md); 27 coverage points, six primary references, four changed cases and one transfer |
 | Feature currency | Source scoping checks recorded; exhaustive release audit and per-lesson verification not complete |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
-| GitHub / publication | [Repository](https://github.com/TedxHarry/ISC_Certifications_Theory) created; initial push/Pages verification in progress; [publication record](author/PUBLICATION_2026-10-30_INITIAL.md) |
+| GitHub / publication | [Repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [Pages](https://tedxharry.github.io/ISC_Certifications_Theory/) live; CRT-001 1.0 verified; [publication record](author/PUBLICATION_2026-10-30_INITIAL.md) |
 | Other ISC course | Separate and unchanged by this setup |
 
 ## Resume order
@@ -46,7 +46,7 @@ These states are independent facts. A source check does not imply learner valida
 
 | Planning ID | Learning question | Writing state | Author review | Actual learner validation | Publication |
 |---|---|---|---|---|---|
-| CRT-001 | Why review access that somebody already approved? | Complete revision 1.0, saved locally | Source/coverage and full saved beginner author review complete | Pending; not observed | Not published |
+| CRT-001 | Why review access that somebody already approved? | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Published revision 1.0 |
 | CRT-002 | A campaign, a certification and a review item: what is being assigned? | Reserved next; no learner file | Not reviewed | Not tested | Not published |
 | CRT-003 | Follow one review from access data to a verified outcome | Planned; not written | Not reviewed | Not tested | Not published |
 | CRT-004 | How is a certification different from an access request or lifecycle rule? | Planned; not written | Not reviewed | Not tested | Not published |
@@ -109,8 +109,8 @@ The design owns the current module placement and topic descriptions. This table 
 
 | October 29, 2026 | Authored CRT-001 revision 1.0 locally | Historical need versus current need, represented person/account/right, reasoned Approve/Revoke, review confirmation/remediation/verified account outcome, evidence timing, four changed cases and independent transfer; first of 50 current candidate topics, actual learner validation pending, no repository or publication |
 
-| October 30, 2026 | Prepared the separate GitHub Pages reader and repository at the user's request | Existing learner source preserved; one published-manifest lesson, local site checks pass; deployment verification pending |
+| October 30, 2026 | Prepared the separate GitHub Pages reader and repository at the user's request | Learner source preserved; content commit 98f1a263e6e8990ab99506de40f2c757a635b18c built successfully; one live lesson, 104 content units, diagram/table/asset, links, author exclusions and responsive reader checked |
 
 ## Next action
 
-Write CRT-002 in full under teaching specification 1.0. Prepare its detailed brief and verify the relevant primary claims. Forty-nine candidate topics remain planned; this is a flexible inventory, not a fixed required file count. Complete and verify the authorized initial publication first, then continue locally with CRT-002. Do not publish the new continuation merely because this earlier snapshot was authorized.
+Write CRT-002 in full under teaching specification 1.0. Prepare its detailed brief and verify the relevant primary claims. Forty-nine candidate topics remain planned; this is a flexible inventory, not a fixed required file count. Initial publication is verified. Continue locally with CRT-002. Do not publish the new continuation merely because this earlier snapshot was authorized.

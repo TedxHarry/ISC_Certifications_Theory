@@ -2,7 +2,7 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-This workspace contains the approved course direction and the authoring foundation. Learner lessons will be written one complete file at a time. CRT-001 is now written and author-reviewed locally. The separate [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) is created. Initial Pages deployment is being verified.
+This workspace contains the approved course direction and the authoring foundation. Learner lessons will be written one complete file at a time. CRT-001 is now written and author-reviewed locally. The separate [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) is created. The [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/) is live with CRT-001 revision 1.0.
 
 ## Start here
 

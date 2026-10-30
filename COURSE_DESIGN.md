@@ -2,7 +2,7 @@
 
 Course design 2.1. October 29, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: course direction accepted for local authoring setup; foundation saved. CRT-001 revision 1.0 is authored and reviewed locally; the initial publication of CRT-001 is being verified.
+Status: course direction accepted for local authoring setup; foundation saved. CRT-001 revision 1.0 is authored and reviewed locally; CRT-001 revision 1.0 is published and live-verified.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
@@ -290,7 +290,7 @@ Each authored lesson needs a coverage record, primary-source check, complete sav
 
 ## Delivery plan and next step
 
-The user authorized establishing the local authoring foundation on October 29, 2026. The folder ISC_Certifications_Theory now contains the teaching specification, progress register, author workflow and first brief, coverage/terminology records, capability/update register and routine task map. The first learner, CRT-001 revision 1.0, is saved locally; the separate GitHub repository is now created and initial Pages deployment is being verified.
+The user authorized establishing the local authoring foundation on October 29, 2026. The folder ISC_Certifications_Theory now contains the teaching specification, progress register, author workflow and first brief, coverage/terminology records, capability/update register and routine task map. The first learner, CRT-001 revision 1.0, is saved locally; the separate GitHub repository and Pages site are live with verified CRT-001 revision 1.0.
 
 Use [README](README.md) to navigate the package and [COURSE_REGISTER](COURSE_REGISTER.md) to resume. Write one complete learner lesson at a time with its necessary reference aids, author record and saved-file checks.
 
