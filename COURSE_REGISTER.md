@@ -1,11 +1,11 @@
 # ISC Certifications course register
 
-Version 1.4. Updated October 30, 2026.
+Version 1.5. Updated October 30, 2026.
 [Course design](COURSE_DESIGN.md) and [teaching standard](TEACHING_SPECIFICATION.md).
 
 ## Current position
 
-The user authorized preparing this separate course so lessons can be written one at a time. The authoring foundation and complete learners CRT-001, CRT-002 and CRT-003 revision 1.0 are saved locally. The user authorized creating and publishing the separate ISC_Certifications_Theory repository on October 30, 2026. The repository is created; CRT-001 revision 1.0 is published and live verification passed. CRT-002 and CRT-003 are complete local continuations and have not been pushed.
+The user authorized preparing this separate course so lessons can be written one at a time. The authoring foundation and complete learners CRT-001, CRT-002 and CRT-003 revision 1.0 are saved locally. The user authorized creating and publishing the separate ISC_Certifications_Theory repository on October 30, 2026. The repository is created; CRT-001, CRT-002 and CRT-003 revision 1.0 are published and live verification passed. The latest push-and-continue request authorizes CRT-004 as the next local continuation.
 
 | Item | Actual state |
 |---|---|
@@ -17,12 +17,12 @@ The user authorized preparing this separate course so lessons can be written one
 | Learner lessons author-reviewed | 3; source/coverage and full saved beginner author read-through complete |
 | Actual beginner validation | Not performed |
 | Reference aids authored | 0 standalone aids; three editable teaching diagrams accompany CRT-001/002/003 |
-| Current local learner | [CRT-003: Follow one review from access data to a verified outcome](lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md); revision 1.0, unpublished |
+| Latest completed learner | [CRT-003: Follow one review from access data to a verified outcome](lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md); revision 1.0, published |
 | Next lesson | CRT-004: How is a certification different from an access request or lifecycle rule? |
 | Current author evidence | [CRT-003 revision record](author/revisions/CRT-003_Revision_Record.md); data-to-outcome trace, automated/manual branch, missing-stage reasoning and two-account transfer; eleven primary references |
 | Feature currency | Source scoping checks recorded; exhaustive release audit and per-lesson verification not complete |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
-| GitHub / publication | [Repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [Pages](https://tedxharry.github.io/ISC_Certifications_Theory/) live; CRT-001 1.0 verified; [publication record](author/PUBLICATION_2026-10-30_INITIAL.md) |
+| GitHub / publication | [Repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [Pages](https://tedxharry.github.io/ISC_Certifications_Theory/) live; CRT-001/002/003 1.0 verified; [latest publication record](author/PUBLICATION_2026-10-30_CRT-002_CRT-003.md) |
 | Other ISC course | Separate and unchanged by this setup |
 
 ## Resume order
@@ -47,8 +47,8 @@ These states are independent facts. A source check does not imply learner valida
 | Planning ID | Learning question | Writing state | Author review | Actual learner validation | Publication |
 |---|---|---|---|---|---|
 | CRT-001 | Why review access that somebody already approved? | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Published revision 1.0 |
-| CRT-002 | A campaign, a certification and a review item: what is being assigned? | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Local; not pushed |
-| CRT-003 | Follow one review from access data to a verified outcome | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Local; not pushed |
+| CRT-002 | A campaign, a certification and a review item: what is being assigned? | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Published revision 1.0 |
+| CRT-003 | Follow one review from access data to a verified outcome | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Published revision 1.0 |
 | CRT-004 | How is a certification different from an access request or lifecycle rule? | Reserved next; no learner file | Not reviewed | Not tested | Not published |
 | CRT-005 | How does application access become information ISC can review? | Planned; not written | Not reviewed | Not tested | Not published |
 | CRT-006 | Are we reviewing an entitlement, an access profile or a role? | Planned; not written | Not reviewed | Not tested | Not published |
@@ -115,6 +115,8 @@ The design owns the current module placement and topic descriptions. This table 
 
 | October 30, 2026 | Authored CRT-003 revision 1.0 locally | Existing access, source data/identity association, generated review, reasoned decision/confirmation, ready removal work, automated/manual change, exact-account evidence and refresh; source and saved beginner author checks complete, actual learner validation pending; no push |
 
+| October 30, 2026 | Published CRT-002/003 at the user's request | Content be8e69d3c63c1b9b03e3c40e800c3092b34ea73d; Pages workflow 41020384730 succeeded; three lessons, all 343 content units, three diagrams/tables/assets and navigation verified live |
+
 ## Next action
 
-Write CRT-004 in full under teaching specification 1.0. Prepare its detailed comparison brief and verify the relevant primary claims. Forty-seven candidate topics remain unwritten; this is a flexible inventory, not a fixed required file count. Initial publication is verified. CRT-002 and CRT-003 stay local until the next authorized publication snapshot.
+Write CRT-004 in full under teaching specification 1.0. Prepare its detailed comparison brief and verify the relevant primary claims. Forty-seven candidate topics remain unwritten; this is a flexible inventory, not a fixed required file count. CRT-001 through CRT-003 publication is verified. Continue CRT-004 locally after this publication.

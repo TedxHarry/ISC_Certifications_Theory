@@ -1,6 +1,6 @@
 # Authoring guide and lesson briefs
 
-Version 1.3. October 30, 2026.
+Version 1.4. October 30, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
@@ -162,3 +162,7 @@ Fresh primary scope: account loading/correlation, certification overview, campai
 Useful changed evidence: item missing before decision; saved decision but no removal work; successful source change followed by older ISC data; failed change; manual task closed without correct-account proof. Independent transfer uses a different permission and two account records, requiring the learner to select exact-account and observation-time evidence.
 
 Acceptance: learner can explain where information comes from, which actor/record changes at each transition, why the normal removal follows, how the manual branch changes the worker and where to investigate a mismatch. Include an editable logical flow and worked answers where useful. No fictional biography, source/course links, fixed content quota or reader-facing method commentary.
+
+## CRT-002/003 publication and next local continuation
+
+The user's latest push-and-continue request published the completed CRT-002/003 revision 1.0 learners. [Publication evidence](PUBLICATION_2026-10-30_CRT-002_CRT-003.md) records the content build and live checks. The manifest now lists CRT-001 through CRT-003. Historical local-authoring briefs/records remain historical. Continue with the reserved CRT-004 locally after this publication; do not add it to this publication snapshot.

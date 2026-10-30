@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 2.4. Updated October 30, 2026; dated checks below distinguish each stage.
+Authoring source reference 2.5. Updated October 30, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant actions, test campaign or provisioning change was performed. Initial Pages publication is verified below; CRT-002 and CRT-003 remain local authoring continuations.
+No tenant actions, test campaign or provisioning change was performed. Pages publication for CRT-001 through CRT-003 is verified below; CRT-004 is the next local authoring continuation.
 
 ## Primary source map
 
@@ -147,3 +147,9 @@ Source/coverage and a full saved-file beginner author read-through are recorded.
 OQ-01–04 remain open. OQ-05 now records the unestablished scope relationship between certification-specific source-owner task guidance and general provisioning's entitlement-owner/fallback guidance. The learner inspects actual assignment and does not invent a universal recipient rule. The timing diagram is a logical trace with confirmed ready removal work, not an exact engine state machine.
 
 Current total: three authored learners, one published learner and 47 unwritten candidate topics. CRT-004 is next, with no stub. CRT-001/002 learners, assets and per-lesson records are preserved. The publication manifest and live site still list CRT-001 only; CRT-002 and CRT-003 have not been pushed.
+
+## CRT-002/003 publication, October 30, 2026
+
+The user authorized push and then local continuation. Content be8e69d3c63c1b9b03e3c40e800c3092b34ea73d built successfully in Pages workflow 41020384730. The corrected live checker verified three lessons, all 343 content units, three diagrams, three tables, three editable text assets, CSS, sixteen internal link visits and four author-route exclusions. A first false failure exposed Markdown list-marker handling in the checker; inspecting rendered list items established the cause, and rerunning after the narrow fix passed. No learner text was changed.
+
+[The publication record](author/PUBLICATION_2026-10-30_CRT-002_CRT-003.md) records this snapshot. Earlier local-only statements are dated authoring history. Actual learner validation remains pending. CRT-004 follows locally after verified publication.

@@ -36,7 +36,7 @@ for(const lesson of course.lessons) {
   for(let line of paragraph.split("\n")) {
    if(/^\|[-|: ]+\|$/.test(line)) {tables++;continue;}
    if(line.startsWith("|"))expected.push(...line.slice(1,-1).split("|").map(x=>inline(x)).filter(Boolean));
-   else expected.push(inline(line.replace(/^#{1,6} /,"")));
+   else expected.push(inline(line.replace(/^#{1,6} /,"").replace(/^\s*(?:[-+*]|\d+[.)])\s+/,"")));
   }
  }
  units+=expected.length;
