@@ -1,0 +1,13 @@
+[Earlier approval]
+[Export needed for the work]
+
+[Current review]
+[Export no longer needed]
+              |
+[Revoke decision]
+              |
+[Required review finalization]
+[Applicable removal work]
+              |
+[Application account checked]
+[reports-export is absent]

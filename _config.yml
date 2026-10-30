@@ -1,0 +1,43 @@
+title: "SailPoint ISC Certifications"
+description: "Understand access reviews, decisions, and verified outcomes."
+url: "https://tedxharry.github.io"
+baseurl: "/ISC_Certifications_Theory"
+repository: "TedxHarry/ISC_Certifications_Theory"
+lang: en
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+titles_from_headings:
+  enabled: true
+  strip_title: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "lessons"
+    values:
+      layout: lesson
+exclude:
+  - README.md
+  - AGENTS.md
+  - COURSE_DESIGN.md
+  - AUTHOR_SOURCE_MAP.md
+  - OPERATIONAL_TASK_COVERAGE.md
+  - COURSE_REGISTER.md
+  - TEACHING_SPECIFICATION.md
+  - DESIGN.md
+  - author
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - package.json
+  - package-lock.json
+  - tests
+  - .github

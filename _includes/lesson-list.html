@@ -1,0 +1,26 @@
+<nav aria-label="Lessons">
+  {% assign nav_current_lesson = site.data.course.lessons | where: "source", page.path | first %}
+  {% for module in site.data.course.modules %}
+  {% assign module_open = false %}
+  {% if nav_current_lesson.module == module.id %}
+    {% assign module_open = true %}
+  {% elsif nav_current_lesson == nil and forloop.first %}
+    {% assign module_open = true %}
+  {% endif %}
+  <details class="nav-module"{% if module_open %} open{% endif %}>
+    <summary id="nav-{{ module.id }}">{{ module.title | escape }}</summary>
+    <ol class="lesson-nav">
+      {% for lesson in site.data.course.lessons %}
+        {% if lesson.module == module.id %}
+        <li>
+          <a href="{{ lesson.url | relative_url }}"{% if page.path == lesson.source %} aria-current="page"{% endif %}>
+            <span class="lesson-id">{{ lesson.id }}</span>
+            <span>{{ lesson.title | escape }}</span>
+          </a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ol>
+  </details>
+  {% endfor %}
+</nav>

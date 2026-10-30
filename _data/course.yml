@@ -1,0 +1,11 @@
+modules:
+  - id: purpose
+    title: "1. Understand the access review"
+lessons:
+  - id: CRT-001
+    module: purpose
+    placement: "Module 1 · Lesson 1"
+    title: "Why review access that somebody already approved?"
+    description: "Connect an earlier approval, current business need, the review decision and the verified access outcome."
+    source: "lessons/CRT-001_Why_Review_Previously_Approved_Access.md"
+    url: "/lessons/CRT-001_Why_Review_Previously_Approved_Access.html"
