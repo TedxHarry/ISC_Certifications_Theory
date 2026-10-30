@@ -10,7 +10,11 @@ Reader design and behavior remain unchanged. Author/control files remain exclude
 
 ## Verification and deployment
 
-Prepublication checks passed: four reader-navigation tests, local manifest validation for four lessons and all 453 content units, four matching diagrams, four tables, four text assets and tracked whitespace. Content commit, terminal build and live results will be recorded after they occur. This preparation does not claim deployment success.
+Prepublication checks passed: four reader-navigation tests, local manifest validation for four lessons and all 453 content units, four matching diagrams, four tables, four text assets and tracked whitespace. All twelve reviewed learner/asset/per-lesson-record files retained their hashes. The staged scope contained exactly fourteen intended files and staged whitespace checks passed.
+
+Content commit: adc71ec17b9ed5a27bc7fa0169bf66b8d174e41c. Pages workflow 41052833609 completed successfully. Full live validation passed: four lessons, all 453 normalized content units, four exact inline/editable diagrams, four tables, four text assets, CSS, twenty-six internal link visits and four representative author/control routes excluded (404).
+
+No new graphical review or learner participant result is claimed. The author-only publication-status follow-up updates excluded course/author documents and this evidence file, then is pushed before CRT-005 authoring; learner, manifest and reader files are unchanged by that follow-up.
 
 ## Continuation
 

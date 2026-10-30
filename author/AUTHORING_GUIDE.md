@@ -1,6 +1,6 @@
 # Authoring guide and lesson briefs
 
-Version 1.5. October 30, 2026.
+Version 1.6. October 30, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
@@ -188,3 +188,7 @@ Independent transfer uses two access records (one requested profile and one LCS-
 Sources freshly checked: requests/admin and end-user guidance, supported removal-request guidance, access-profile meaning, lifecycle state setup, certifiable access and provisioning. Existing OQ-01–05 remain open; do not invent unsigned outcomes, campaign trigger timing, manual-task recipients or tenant availability.
 
 Acceptance: learner can explain why all three controls coexist, identify the correct record/control for a new question, distinguish approval from delivery, and explain why an LCS-enforced package needs a requirement/data investigation rather than an individual certification revocation. Actual learner testing and CRT-004 publication remain pending.
+
+## CRT-004 publication and local continuation
+
+The latest push-and-continue request published CRT-004 revision 1.0 after local and live checks. [Publication evidence](PUBLICATION_2026-10-30_CRT-004.md) records its successful build and all four live lessons. The manifest now includes CRT-001 through CRT-004. Continue the reserved CRT-005 locally; it is outside that publication snapshot. Historical authoring records remain historical.
