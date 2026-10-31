@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 1.4. October 30, 2026.
+Version 1.5. October 30, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -112,6 +112,22 @@ These are supporting introductions for this purpose lesson. CRT-002's authored f
 | Certifiable access | Access eligible for the supported certification review under the applicable model; not all held access is an individual decision item. | CRT-004/006/007 |
 
 [CRT-004](../lessons/CRT-004_Certifications_Access_Requests_and_Lifecycle_Rules.md) also explains LCS, birthright, assignment origin, the profile as a review unit and the different meanings of request approval and certification Approve. Its state name, configured requirement, data calculation, removal work and account evidence remain distinct. [The author record](revisions/CRT-004_Revision_Record.md) locates the actual teaching; no full lifecycle implementation or universal campaign timing is claimed.
+
+## Account-data context authored in CRT-005
+
+| Term | Working meaning and connection | Teaching location |
+|---|---|---|
+| Account schema | Account fields and their interpretation, including identifying attributes, multiple values and entitlement data. | CRT-005 |
+| Account ID | The configured identifier used to reference an account in its source context. | CRT-005/008 |
+| Account Name | The configured account-name attribute; a readable login alone is not a global account identifier. | CRT-005/008 |
+| Multi-valued | A field can contain several values for one account, such as separate group memberships. | CRT-005 |
+| Entitlement catalog | Represented entitlement objects and details; an object definition does not prove a particular account holds it. | CRT-005/009 |
+| Entitlement aggregation | Supported collection of entitlement-object information, distinct from collecting a specific account's held values. | CRT-005 |
+| Entitlement type | The category of entitlement, linked to account-held values under the supported schema model. | CRT-005/006 |
+| Optimized aggregation | Account change checking that can skip unchanged records without reevaluating their correlation. | CRT-005 |
+| Unoptimized aggregation | Supported reexamination that includes unchanged account records and correlation evaluation. | CRT-005 |
+
+[CRT-005](../lessons/CRT-005_From_Application_Access_to_Reviewable_Information.md) also explains existing identity/account, source/connector, attributes, account aggregation, correlation/uncorrelated accounts, review objects, reviewer, access model and certifiable-access eligibility. Its supporting meanings are located in [the author record](revisions/CRT-005_Revision_Record.md). It supplies correct unique ownership and actual field values rather than assuming all catalog entries are held by all accounts.
 
 ## Maintenance
 

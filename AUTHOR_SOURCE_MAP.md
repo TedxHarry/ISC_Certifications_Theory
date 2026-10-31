@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 2.7. Updated October 30, 2026; dated checks below distinguish each stage.
+Authoring source reference 2.8. Updated October 30, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant actions, test campaign or provisioning change was performed. Pages publication for CRT-001 through CRT-004 is verified below; CRT-005 is the next local authoring continuation.
+No tenant actions, test campaign or provisioning change was performed. Pages publication for CRT-001 through CRT-004 is verified below; CRT-005 is complete locally; CRT-006 is the next authoring continuation.
 
 ## Primary source map
 
@@ -167,3 +167,11 @@ The saved beginner author read-through, edited passages and consistency checks a
 The user authorized push and continuation. Content adc71ec17b9ed5a27bc7fa0169bf66b8d174e41c built successfully in Pages workflow 41052833609. Full live validation passed for four lessons, all 453 content units, four diagrams/tables/text assets, CSS, twenty-six internal link visits and four author/control route exclusions. All twelve reviewed learner/diagram/per-lesson-record files retained their hashes. [Publication evidence](author/PUBLICATION_2026-10-30_CRT-004.md) records the scope.
 
 Earlier local-only entries are dated authoring history. CRT-005 continues locally after this verified publication. Actual learner validation and tenant execution remain unperformed.
+
+## Fifth learner: CRT-005 revision 1.0, October 30, 2026
+
+[How application access becomes reviewable information](lessons/CRT-005_From_Application_Access_to_Reviewable_Information.md) is complete locally. [Its author record](author/revisions/CRT-005_Revision_Record.md) maps its actual schema/collection/catalog/correlation explanation to eight fresh official sources. The guessed schema path failed; the canonical official schema reference was obtained through account-loading navigation and verified successfully.
+
+COV-04's data foundation and basic COV-05 ownership association are authored. The learner distinguishes catalog presence from held account values, current source observation from older collection/review history and configuration changes from existing-account reevaluation. Illustrative field names and clock observations are not connector contracts or duration guarantees. CAP-15 records this concrete data/association source scope; OQ-01–05 remain open.
+
+Five learners are authored, four are published and live-verified, and 45 candidate topics remain unwritten. CRT-005 is local and not pushed; CRT-006 is next without a stub. Source/coverage, complete saved beginner author reading and structural checks are recorded, while actual participant/tenant validation remains unperformed. Earlier learner, asset, record and publication files and the four-entry manifest remain unchanged during this continuation.

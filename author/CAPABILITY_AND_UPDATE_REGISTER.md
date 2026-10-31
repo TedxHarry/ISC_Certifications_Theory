@@ -1,6 +1,6 @@
 # Capability, update and open-question register
 
-Version 1.4. October 30, 2026.
+Version 1.5. October 30, 2026.
 Source leads: [official source map](../AUTHOR_SOURCE_MAP.md).
 Purpose: stop unsupported current/legacy/availability claims entering lessons.
 
@@ -14,7 +14,7 @@ The administrative help paths currently use Identity Services/Human Fabric headi
 
 ## Capability inventory
 
-All dates below are October 29, 2026. “Scoping checked” means source reviewed for curriculum planning; per-lesson verification and target-tenant execution remain pending.
+The original CAP-01–14 scoping rows date to October 29, 2026; later dated authored applications give their actual claim checks. CAP-15 was added October 30, 2026 with CRT-005. “Scoping checked” is planning evidence, not verification of an unwritten lesson or a tenant run.
 
 | Key | Capability / claim area | Engine and availability handling | Primary source and current check | Affected topics |
 |---|---|---|---|---|
@@ -32,6 +32,7 @@ All dates below are October 29, 2026. “Scoping checked” means source reviewe
 | CAP-12 | Manual/automatic fulfillment, overlap and failures | Verify source write permission, supported operation, actual task assignment and grant paths. | [Reviewer guidance](https://documentation.sailpoint.com/saas/user-help/certs/reviewing/index.html), [Completion](https://documentation.sailpoint.com/saas/help/certs/completing_campaigns.html), scoping checked. | CRT-033–037/046 |
 | CAP-13 | Notifications, deadlines, reports and retirement | Verify settings/state/engine and which report is available when; do not treat status/report fields as universal. | [Completion](https://documentation.sailpoint.com/saas/help/certs/completing_campaigns.html), [Reports](https://documentation.sailpoint.com/saas/help/certs/campaign_status_reports.html), scoping checked. | CRT-038–044 |
 | CAP-14 | Specialist capability and rich context | Core recognition is required; exact licensed/phased behavior checked before deeper route claims. | [Search](https://documentation.sailpoint.com/saas/help/certs/starting_search_campaign.html), [Reviewer guidance](https://documentation.sailpoint.com/saas/user-help/certs/reviewing/index.html), scoping checked. | CRT-008/015/027/031; X-01–05 |
+| CAP-15 | Source/account data, schema and identity association | Source-supported collection, account versus catalog data, correct correlation and observation time; no universal connector contract or refresh duration. | [Account loading](https://documentation.sailpoint.com/saas/help/accounts/loading_data.html), [schemas](https://documentation.sailpoint.com/saas/help/accounts/schema.html), [correlation](https://documentation.sailpoint.com/saas/help/accounts/correlation.html), freshly checked October 30, 2026 with CRT-005. | CRT-005/008/009/010/019/045 |
 
 ## Open questions
 
@@ -72,6 +73,14 @@ CRT-004 revision 1.0 develops the CAP-01 purpose comparison and bounded CAP-04 a
 The lifecycle source explicitly distinguishes access-profile enforcement while the state applies from account enable/disable actions that do not form a persistent retry mechanism. The lesson preserves that distinction and does not promise immediate successful restoration or behavior from a state label alone. No tenant permission/configuration or mutation was inspected or performed.
 
 OQ-01–05 remain open. No exhaustive release or universal availability claim is added. CRT-004 is author-reviewed locally, actual learner validation pending and publication unperformed. CRT-001 through CRT-003 are published and live-verified; earlier local-only authored-application entries are historical.
+
+## CRT-005 authored application, October 30, 2026
+
+CRT-005 revision 1.0 develops CAP-15's collection/schema/catalog/association foundation, with bounded CAP-04 certifiability and CAP-07 generation context. Eight official references are mapped in [its author record](revisions/CRT-005_Revision_Record.md). The account's entitlement attribute/type/value linkage and supplied unique ownership establish the example's represented held access; a catalog record alone does not.
+
+Optimized aggregation can skip correlation on unchanged records; supported unoptimized reexamination is explained without promising all associations are repaired or proposing destructive resets. Source-supported capabilities and actual collected values remain necessary evidence. Example clock values are observation order, not duration or propagation guarantees.
+
+OQ-01–05 remain open. No exhaustive release or tenant-availability conclusion is added. CRT-005 is author-reviewed locally, participant validation pending and publication unperformed. CRT-001 through CRT-004 are published and live-verified; earlier authored-application publication states are historical.
 
 ## Update log and authoring protocol
 

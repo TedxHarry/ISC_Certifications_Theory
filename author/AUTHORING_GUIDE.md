@@ -1,6 +1,6 @@
 # Authoring guide and lesson briefs
 
-Version 1.6. October 30, 2026.
+Version 1.7. October 30, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
@@ -113,9 +113,9 @@ An unfamiliar reader can explain why review is needed, what is being reviewed, w
 
 The saved lesson contains complete connected prose, useful reasoning/transfer, consistent supplied conditions and no biography, prerequisite announcement, source URLs or invented tenant results. The author record is complete; actual learner validation is separately pending unless it has really occurred.
 
-## Next lesson reservation: CRT-005
+## Next lesson reservation: CRT-006
 
-How does application access become information ISC can review? is next. Its learner is not written and no stub exists. Prepare its data-path brief and fresh checks at the next authoring step. CRT-001 through CRT-004 are complete at revision 1.0; their briefs record topic scope and do not impose a fixed learner layout.
+Are we reviewing an entitlement, an access profile or a role? is next. Its learner is not written and no stub exists. Prepare its access-object and assignment-origin brief and fresh claims during the next authoring step. CRT-001 through CRT-005 are complete at revision 1.0; their briefs preserve scope rather than a fixed learner layout.
 
 ## Repository and publication stage
 
@@ -192,3 +192,27 @@ Acceptance: learner can explain why all three controls coexist, identify the cor
 ## CRT-004 publication and local continuation
 
 The latest push-and-continue request published CRT-004 revision 1.0 after local and live checks. [Publication evidence](PUBLICATION_2026-10-30_CRT-004.md) records its successful build and all four live lessons. The manifest now includes CRT-001 through CRT-004. Continue the reserved CRT-005 locally; it is outside that publication snapshot. Historical authoring records remain historical.
+
+## CRT-005 author brief, October 30, 2026
+
+Working title: How does application access become information ISC can review?
+Reserved learner: lessons/CRT-005_From_Application_Access_to_Reviewable_Information.md.
+Preparation state: not yet written; local continuation after verified CRT-004 publication. Completed October 30, 2026 as revision 1.0; [learner](../lessons/CRT-005_From_Application_Access_to_Reviewable_Information.md) and [author record](revisions/CRT-005_Revision_Record.md). CRT-005 remains local and unpublished.
+
+Purpose: develop COV-04's source/connector/account-schema/aggregation path and COV-05's necessary ownership association, retaining freshness and generated-review boundaries. Later CRT-008/009/010/019 own multi-account depth, business descriptions, completeness and snapshot mechanics.
+
+Use an existing reporting-system account, not a biography: accountId report-014, login reports-user-14, staffNumber 1007, groups RPT.VIEW and RPT.EXPORT. Supply supported schema/account retrieval, entitlement and multiple-value interpretation, separate entitlement catalog/type/identifier linkage and established meanings (view/export reports). Existing identity has staffNumber 1007; configured criteria match the correct identity uniquely. These are illustrative field names and supplied records, not connector/API contracts.
+
+Explain source versus actual system, connector read capability versus write capability, schema/attribute/account identifier, account memberships versus entitlement catalog definitions and account correlation versus granting access. Supported entitlement aggregation can enrich/link catalog information but is not proof an account holds a right. Sources differ in available collection paths; do not require a separate entitlement aggregation universally.
+
+The main permission is individually reviewable with no containing package or other automatic retention requirement. Suitable generated campaign inclusion and non-self reviewer are supplied. Show how represented account/identity/access information reaches one generated item without re-teaching campaign configuration or promising immediate UI updates.
+
+Explain correct information at different times: collection versus later source change versus generated review history. A successful aggregation label does not prove intended population completeness or correct association. Unmatched accounts retain potential actual access; supported account-review/ownership handling is required. Changed correlation configuration alone does not prove existing associations changed; optimized aggregation can skip unchanged records.
+
+Useful reasoning: source has permission but no imported value; catalog has definition but membership is absent; source account linked to wrong identity; fresh target observation differs from older ISC collection; generated item remains historical after current data changes. Do not silently interpret any absence as zero access or every data issue as a reviewer decision.
+
+Independent transfer changes field names and permission to invoice approval: current payment account extract contains permissions INV.APPROVE, but configured/imported membership path expects groups and lacks that value. Catalog/identity association are supplied separately. Learner must identify the missing membership interpretation, choose evidence and reject catalog-only proof. Then change current membership while preserving the catalog.
+
+Fresh claims: official account loading, schema and entitlement linking, entitlement aggregation, correlation, source configuration, certification eligibility and generated campaign context. Use bounded source facts; no actual tenant run, guessed backend internals, destructive reset, universal retry or exact propagation guarantee.
+
+Acceptance: learner can trace system account values into represented held access for a specific identity, distinguish account collection/catalog collection/correlation, explain what the review does and does not know, and choose the first useful evidence for a mismatch. Dynamic prose, neutral records, editable visual(s) where useful; no learner URLs, prerequisites or fixed quotas.

@@ -1,6 +1,8 @@
 modules:
   - id: purpose
     title: "1. Understand the access review"
+  - id: review-access
+    title: "2. Understand the access that reaches a review"
 lessons:
   - id: CRT-001
     module: purpose
@@ -30,3 +32,10 @@ lessons:
     description: "Distinguish requested changes, current access reviews and lifecycle requirements, including why assignment origin matters."
     source: "lessons/CRT-004_Certifications_Access_Requests_and_Lifecycle_Rules.md"
     url: "/lessons/CRT-004_Certifications_Access_Requests_and_Lifecycle_Rules.html"
+  - id: CRT-005
+    module: review-access
+    placement: "Module 2 · Lesson 1"
+    title: "How does application access become information ISC can review?"
+    description: "Connect source account fields, schema, aggregation, entitlement details and identity ownership with the access presented for review."
+    source: "lessons/CRT-005_From_Application_Access_to_Reviewable_Information.md"
+    url: "/lessons/CRT-005_From_Application_Access_to_Reviewable_Information.html"

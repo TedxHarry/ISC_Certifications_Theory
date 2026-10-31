@@ -1,0 +1,20 @@
+Application account values
+            |
+            v
+Connector + account schema
+            |
+            v
+Collected account in ISC
+  + entitlement information
+  + identity association
+            |
+            v
+Person / account /
+held access
+            |
+            v
+Campaign selection and
+certifiable-access rules
+            |
+            v
+Generated review item

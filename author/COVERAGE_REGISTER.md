@@ -1,9 +1,9 @@
 # Coverage ownership register
 
-Version 1.4. October 30, 2026.
+Version 1.5. October 30, 2026.
 Companions: [course design](../COURSE_DESIGN.md), [routine task map](../OPERATIONAL_TASK_COVERAGE.md), [teaching specification](../TEACHING_SPECIFICATION.md).
 
-The entries below define planned coverage ownership. CRT-001 revision 1.0 now develops its purpose/current-need foundation within COV-01. CRT-004 now develops COV-01's request/review/lifecycle comparison. Detailed mechanisms owned by later lessons remain planned. CRT-002 now develops COV-02's containment/decision-unit foundation and COV-03's actor/permission distinction. CRT-003 now connects the process from existing access through applicable removal work and verified account evidence. Detailed data, routing, permissions and delivery mechanisms remain planned. Supporting introductions do not mark those units complete. An authored lesson's record maps its actual saved sections, examples and reasoning checks.
+The entries below define planned coverage ownership. CRT-001 revision 1.0 now develops its purpose/current-need foundation within COV-01. CRT-004 now develops COV-01's request/review/lifecycle comparison. Detailed mechanisms owned by later lessons remain planned. CRT-002 now develops COV-02's containment/decision-unit foundation and COV-03's actor/permission distinction. CRT-003 now connects the process from existing access through applicable removal work and verified account evidence. CRT-005 now develops COV-04's source-data foundation and the basic account/identity association within COV-05. Detailed routing, multiple-account, permissions and delivery mechanisms remain planned. Supporting introductions do not mark those units complete. An authored lesson's record maps its actual saved sections, examples and reasoning checks.
 
 Primary teaching means comprehensive treatment. Other lessons still explain the supporting meaning and connection needed for independent reading. Topic ownership does not justify sending an unfamiliar reader away.
 
@@ -53,6 +53,8 @@ Primary teaching means comprehensive treatment. Other lessons still explain the 
 [CRT-003 revision record](revisions/CRT-003_Revision_Record.md) develops COV-02's end-to-end connection. Supporting COV-04/05/09/13/14/15/20/21/22/23/25/26/29/31 meanings appear where the trace needs them, with automated/manual branches, a six-row evidence comparison and independent two-account transfer. This does not complete those later mechanisms or resolve exact engine timing. Actual learner validation remains pending.
 
 [CRT-004 revision record](revisions/CRT-004_Revision_Record.md) develops COV-01's comparison: different starting questions, actors, requirements, work and evidence. Supporting COV-06/07/20/22/23/24 meanings preserve profile scope, assignment origin, LCS enforcement/omission and outcome evidence without claiming full configuration or removal procedures. Its changed cases and independent invoice/portal transfer are author-reviewed; actual learner validation remains pending.
+
+[CRT-005 revision record](revisions/CRT-005_Revision_Record.md) develops COV-04 through source/connector/schema, account values, entitlement catalog linkage and represented-versus-current information. COV-05's basic ownership association is authored, while complex multiple-account/non-human/uncorrelated review depth remains in CRT-008. Supporting COV-02/06/07/08/09/13/26/29/31 meanings connect generated eligibility, freshness and missing-stage reasoning. The independent payment-field transfer is author-reviewed; actual learner validation remains pending.
 
 ## Job-dependent depth
 
