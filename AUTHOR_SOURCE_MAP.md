@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 2.8. Updated October 30, 2026; dated checks below distinguish each stage.
+Authoring source reference 2.9. Updated October 31, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant actions, test campaign or provisioning change was performed. Pages publication for CRT-001 through CRT-004 is verified below; CRT-005 is complete locally; CRT-006 is the next authoring continuation.
+No tenant actions, test campaign or provisioning change was performed. Pages publication for CRT-001 through CRT-005 is verified below; CRT-006 is the next local authoring continuation.
 
 ## Primary source map
 
@@ -175,3 +175,9 @@ Earlier local-only entries are dated authoring history. CRT-005 continues locall
 COV-04's data foundation and basic COV-05 ownership association are authored. The learner distinguishes catalog presence from held account values, current source observation from older collection/review history and configuration changes from existing-account reevaluation. Illustrative field names and clock observations are not connector contracts or duration guarantees. CAP-15 records this concrete data/association source scope; OQ-01–05 remain open.
 
 Five learners are authored, four are published and live-verified, and 45 candidate topics remain unwritten. CRT-005 is local and not pushed; CRT-006 is next without a stub. Source/coverage, complete saved beginner author reading and structural checks are recorded, while actual participant/tenant validation remains unperformed. Earlier learner, asset, record and publication files and the four-entry manifest remain unchanged during this continuation.
+
+## CRT-005 publication, October 31, 2026
+
+Content 597642170c9246bc9ab2c6cbe5747abbb8aca3c5 built successfully in Pages workflow 41196568923. Full live validation passed for five lessons, two available modules, all 568 content units, five matching diagrams/tables/assets, CSS, 38 internal link visits and four author/control route exclusions. All fifteen reviewed learner/diagram/per-lesson records retained their hashes. [Publication evidence](author/PUBLICATION_2026-10-31_CRT-005.md) records the scope. Account-schema linkage and optimized-correlation descriptions were refreshed from official sources on publication day; no learner change was required.
+
+Earlier local-only statements describe their dated authoring stages. CRT-006 continues locally after publication. Actual participant validation, tenant execution and exhaustive update completeness remain unperformed.

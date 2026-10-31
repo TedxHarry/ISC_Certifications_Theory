@@ -1,6 +1,6 @@
 # Authoring guide and lesson briefs
 
-Version 1.7. October 30, 2026.
+Version 1.8. October 31, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
@@ -216,3 +216,7 @@ Independent transfer changes field names and permission to invoice approval: cur
 Fresh claims: official account loading, schema and entitlement linking, entitlement aggregation, correlation, source configuration, certification eligibility and generated campaign context. Use bounded source facts; no actual tenant run, guessed backend internals, destructive reset, universal retry or exact propagation guarantee.
 
 Acceptance: learner can trace system account values into represented held access for a specific identity, distinguish account collection/catalog collection/correlation, explain what the review does and does not know, and choose the first useful evidence for a mismatch. Dynamic prose, neutral records, editable visual(s) where useful; no learner URLs, prerequisites or fixed quotas.
+
+## CRT-005 publication and local continuation
+
+The latest push-and-continue request published CRT-005 revision 1.0, including module 2's first available reader entry. [Publication evidence](PUBLICATION_2026-10-31_CRT-005.md) records the successful build and live checks. The manifest now includes CRT-001 through CRT-005. Continue the reserved CRT-006 locally; it is outside that publication snapshot. Preserve historical authored-application evidence.

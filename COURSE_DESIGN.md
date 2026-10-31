@@ -1,8 +1,8 @@
 # SailPoint ISC Certifications: Understanding Access Reviews from Scope to Verified Outcome
 
-Course design 2.7. October 30, 2026.
+Course design 2.8. October 31, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: course direction accepted for local authoring setup; foundation saved. CRT-001 through CRT-005 revision 1.0 are authored and reviewed; CRT-001 through CRT-004 are published and live-verified, while CRT-005 is local.
+Status: course direction accepted for local authoring setup; foundation saved. CRT-001 through CRT-005 revision 1.0 are authored and reviewed; all five are published and live-verified.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
@@ -290,7 +290,7 @@ Each authored lesson needs a coverage record, primary-source check, complete sav
 
 ## Delivery plan and next step
 
-The user authorized establishing the local authoring foundation on October 29, 2026. The folder ISC_Certifications_Theory now contains the teaching specification, progress register, author workflow and first brief, coverage/terminology records, capability/update register and routine task map. Five learners, CRT-001 through CRT-005 revision 1.0, are saved locally; the separate GitHub repository and Pages site are live with verified CRT-001 through CRT-004 revision 1.0.
+The user authorized establishing the local authoring foundation on October 29, 2026. The folder ISC_Certifications_Theory now contains the teaching specification, progress register, author workflow and first brief, coverage/terminology records, capability/update register and routine task map. Five learners, CRT-001 through CRT-005 revision 1.0, are saved locally; the separate GitHub repository and Pages site are live with verified CRT-001 through CRT-005 revision 1.0.
 
 Use [README](README.md) to navigate the package and [COURSE_REGISTER](COURSE_REGISTER.md) to resume. Write one complete learner lesson at a time with its necessary reference aids, author record and saved-file checks.
 
@@ -298,6 +298,8 @@ CRT-001 through CRT-005 have complete local author records. CRT-002 develops the
 
 On October 30, 2026 the user authorized creating ISC_Certifications_Theory, pushing the saved work and publishing Pages before continuing locally. The new reader reuses the established course layout and lists only completed lessons included in the publication. See [publication evidence](author/PUBLICATION_2026-10-30_INITIAL.md).
 
-The latest push-and-continue request published CRT-002/003 without changing their reviewed content. All three learners are live-verified; [publication evidence](author/PUBLICATION_2026-10-30_CRT-002_CRT-003.md). CRT-004 is now published and live-verified; CRT-005 is complete locally; CRT-006 is next.
+The latest push-and-continue request published CRT-002/003 without changing their reviewed content. All three learners are live-verified; [publication evidence](author/PUBLICATION_2026-10-30_CRT-002_CRT-003.md). CRT-004 is now published and live-verified; CRT-005 is published and live-verified; CRT-006 is next locally.
 
-The latest push-and-continue request published CRT-004 unchanged from its author-reviewed learner/asset snapshot. Four lessons are live-verified; [publication evidence](author/PUBLICATION_2026-10-30_CRT-004.md). CRT-005 is now complete locally; continue CRT-006.
+The latest push-and-continue request published CRT-004 unchanged from its author-reviewed learner/asset snapshot. Four lessons are live-verified; [publication evidence](author/PUBLICATION_2026-10-30_CRT-004.md). CRT-005 is now published and live-verified; continue CRT-006 locally.
+
+On October 31, 2026, the latest push-and-continue request published CRT-005 and opened module 2's first available lesson in the reader. All five lessons are live-verified; [publication evidence](author/PUBLICATION_2026-10-31_CRT-005.md). Continue CRT-006 locally.
