@@ -1,6 +1,6 @@
 # Authoring guide and lesson briefs
 
-Version 1.8. October 31, 2026.
+Version 1.9. October 31, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
@@ -113,9 +113,9 @@ An unfamiliar reader can explain why review is needed, what is being reviewed, w
 
 The saved lesson contains complete connected prose, useful reasoning/transfer, consistent supplied conditions and no biography, prerequisite announcement, source URLs or invented tenant results. The author record is complete; actual learner validation is separately pending unless it has really occurred.
 
-## Next lesson reservation: CRT-006
+## Next lesson reservation: CRT-007
 
-Are we reviewing an entitlement, an access profile or a role? is next. Its learner is not written and no stub exists. Prepare its access-object and assignment-origin brief and fresh claims during the next authoring step. CRT-001 through CRT-005 are complete at revision 1.0; their briefs preserve scope rather than a fixed learner layout.
+Why does some access appear differently or not appear at all? is next. Its learner is not written and no stub exists. Prepare its appearance/eligibility brief and fresh checks at the next authoring step. CRT-001 through CRT-006 are complete at revision 1.0; their briefs record scope rather than a fixed learner layout.
 
 ## Repository and publication stage
 
@@ -220,3 +220,27 @@ Acceptance: learner can trace system account values into represented held access
 ## CRT-005 publication and local continuation
 
 The latest push-and-continue request published CRT-005 revision 1.0, including module 2's first available reader entry. [Publication evidence](PUBLICATION_2026-10-31_CRT-005.md) records the successful build and live checks. The manifest now includes CRT-001 through CRT-005. Continue the reserved CRT-006 locally; it is outside that publication snapshot. Preserve historical authored-application evidence.
+
+## CRT-006 author brief, October 31, 2026
+
+Working title: Are we reviewing an entitlement, an access profile or a role?
+Reserved learner: lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.md.
+Preparation state: not yet written; local continuation after verified CRT-005 publication. Completed October 31, 2026 as revision 1.0; [learner](../lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.md) and [author record](revisions/CRT-006_Revision_Record.md). CRT-006 remains local and unpublished.
+
+Purpose: develop COV-06's access objects, their relationships and assignment origins into the unit of a review decision. Supporting COV-07/20/22/23/24 explains containment, available actions and outcome scope. Detailed omission combinations remain CRT-007; complete role-composition governance is X-01/CRT-015 and deeper removal/overlap belongs CRT-032–037.
+
+Use separate supplied access contexts, not one invented sequential upgrade: (1) individual reports-export entitlement on the reporting account, outside containing packages/automatic retention; (2) requested Reporting Access profile containing reports-view and reports-export from one source; (3) requested Report Reviewer role containing that profile plus Case Read from a different source. Correct identity/account associations, actual generated inclusion, suitable non-self reviewer and supported standing access are supplied. No other assignment keeps the example rights. Explain each business capability.
+
+Define source, entitlement, single-source access profile, role, assignment and assignment origin before relying on them. Roles can contain direct entitlements and/or access profiles across sources; do not teach profiles as a mandatory middle layer. Use a clearly bounded example hierarchy, not a universal three-layer engine design.
+
+Explain that individual review concerns one account/right; profile review concerns the package; role assignment review concerns this identity's assignment and its access scope. It does not edit the role definition or remove everyone's role. Decisions and confirmed/removal work remain different from delivered account outcomes, especially across sources.
+
+Origin matters: requested role supports Approve/Revoke, criteria-assigned role can only be acknowledged, requested/detected profiles may be certifiable, role/lifecycle-contained profiles are not separate individual items, contained entitlements are not individually certifiable. Detection recognizes already-held entitlements, not proof a new grant occurred. Introduce lifecycle state only as needed for independently understandable eligibility. Explain Acknowledge as reviewed automatically controlled access, not an override/removal. Do not resolve unsigned/timing/manual-recipient questions.
+
+Briefly distinguish assignment from role-composition review and mark current legacy-engine scope for composition. Owner responsibility is not permission to edit; changing a role definition has broader implications. No composition-remediation procedure or universal propagation assertion.
+
+Reasoning cases: export no longer needed but viewing remains; one source changed but another remains; a current automatic role should not apply; missing component can be contained rather than absent. Independent transfer uses a requested Payments Approver role with invoice and supplier profiles, only part of whose access is no longer needed, plus an origin-change branch to automatic role. Require correct object/scope, preservation of remaining approved access and account-level evidence.
+
+Fresh primary sources: entitlement/profile/role management, certifiability, automatic role assignment, reviewer decisions, overview and campaign composition guidance. Preserve all five open questions and separate simulated author review from participant/tenant evidence. Topic-led structure, meaningful editable hierarchy/comparison, no quota/biography/learner links or prerequisite announcements.
+
+Acceptance: unfamiliar reader can identify the actual unit, explain contents and assignment origin, predict which decision actions are appropriate in supplied cases, distinguish definition from assignment and choose the evidence needed for the intended access outcome. CRT-006 stays local.

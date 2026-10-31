@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 2.9. Updated October 31, 2026; dated checks below distinguish each stage.
+Authoring source reference 3.0. Updated October 31, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant actions, test campaign or provisioning change was performed. Pages publication for CRT-001 through CRT-005 is verified below; CRT-006 is the next local authoring continuation.
+No tenant actions, test campaign or provisioning change was performed. Pages publication for CRT-001 through CRT-005 is verified below; CRT-006 is complete locally; CRT-007 is the next authoring continuation.
 
 ## Primary source map
 
@@ -181,3 +181,11 @@ Five learners are authored, four are published and live-verified, and 45 candida
 Content 597642170c9246bc9ab2c6cbe5747abbb8aca3c5 built successfully in Pages workflow 41196568923. Full live validation passed for five lessons, two available modules, all 568 content units, five matching diagrams/tables/assets, CSS, 38 internal link visits and four author/control route exclusions. All fifteen reviewed learner/diagram/per-lesson records retained their hashes. [Publication evidence](author/PUBLICATION_2026-10-31_CRT-005.md) records the scope. Account-schema linkage and optimized-correlation descriptions were refreshed from official sources on publication day; no learner change was required.
 
 Earlier local-only statements describe their dated authoring stages. CRT-006 continues locally after publication. Actual participant validation, tenant execution and exhaustive update completeness remain unperformed.
+
+## Sixth learner: CRT-006 revision 1.0, October 31, 2026
+
+[Entitlement, access profile or role?](lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.md) is complete locally. [Its author record](author/revisions/CRT-006_Revision_Record.md) maps actual teaching to eight current official references for access objects, assignment origins, eligibility, reviewer actions and composition recognition.
+
+Current role guidance explicitly allows direct entitlements as well as profiles; the example hierarchy is not taught as a mandatory middle layer. The learner preserves single-source profiles, multi-source role scope, one identity's assignment versus a shared definition, requested/detected profile recognition, criteria-role Acknowledge and current legacy composition scope. All five open questions remain open.
+
+Six learners are authored and five are published/live-verified. CRT-006 is local and not pushed; 44 candidate topics remain unwritten and CRT-007 is next without a stub. The complete saved beginner author read-through, examples and file checks are recorded separately from pending actual participant/tenant validation. Earlier learner/asset/record/publication files, the five-entry manifest and reader code remain unchanged during this local continuation.

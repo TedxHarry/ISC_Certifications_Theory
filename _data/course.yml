@@ -39,3 +39,10 @@ lessons:
     description: "Connect source account fields, schema, aggregation, entitlement details and identity ownership with the access presented for review."
     source: "lessons/CRT-005_From_Application_Access_to_Reviewable_Information.md"
     url: "/lessons/CRT-005_From_Application_Access_to_Reviewable_Information.html"
+  - id: CRT-006
+    module: review-access
+    placement: "Module 2 · Lesson 2"
+    title: "Are we reviewing an entitlement, an access profile or a role?"
+    description: "Identify the actual review object and assignment origin, then connect the decision with its complete access scope."
+    source: "lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.md"
+    url: "/lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.html"

@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 1.5. October 30, 2026.
+Version 1.6. October 31, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -23,7 +23,7 @@ These are author working meanings. Verify product-specific use in the applicable
 | Attribute | A named piece of information on a record. Identity and account attributes can belong to different objects. | CRT-005/009 |
 | Entitlement | An access right represented from a source, such as a group membership; explain what that right allows. | CRT-006 |
 | Access profile | A named bundle of entitlements from one source; review and removal depend on how it was assigned. | CRT-006/007 |
-| Role | An access package associated with a business responsibility, with configured assignment behavior. Distinguish role access from campaign responsibility. | CRT-006/007 |
+| Role | An ISC access package that can contain direct entitlements and access profiles from one or multiple sources; definition and an identity's assignment are separate. | CRT-006/007 |
 | Assignment origin | How access was assigned or recognized; it affects what is independently reviewable or removable. | CRT-006/007 |
 | Lifecycle state | A configured business stage that can drive access behavior. Its grants are not interchangeable with individually requested items. | CRT-004/007 |
 | Birthright access | Access automatically assigned under defined business conditions; verify the particular role/model behavior rather than assume manual revocation overrides it. | CRT-007/035 |
@@ -65,7 +65,7 @@ These are author working meanings. Verify product-specific use in the applicable
 |---|---|---|
 | Approve | Accept continued reviewed access under the applicable conditions; not an instruction to grant unrelated missing access. | CRT-028 |
 | Revoke | A decision requiring removal/change of the reviewed access; it is not proof that the target change is complete. | CRT-028/032 |
-| Acknowledge | A supported review action for access controlled through applicable automated assignment; do not present it as a freely revocable manual grant. | CRT-007/028 |
+| Acknowledge | Review action for a role assigned through automated membership criteria; it does not override the criteria or request removal. | CRT-006/007/028 |
 | Sign-off / finalization | Confirmation/finalization of the assigned review's decisions. Exact consequences and unsigned cases require engine-specific verification. | CRT-030 |
 | Undecided | A review item has no decision; distinguish it from a review with saved decisions but no finalization. | CRT-030/039 |
 | Unsigned review | A review not signed off/finalized; documented completion behavior has an unresolved scope question in the capability register. | CRT-030/039 |
@@ -128,6 +128,20 @@ These are supporting introductions for this purpose lesson. CRT-002's authored f
 | Unoptimized aggregation | Supported reexamination that includes unchanged account records and correlation evaluation. | CRT-005 |
 
 [CRT-005](../lessons/CRT-005_From_Application_Access_to_Reviewable_Information.md) also explains existing identity/account, source/connector, attributes, account aggregation, correlation/uncorrelated accounts, review objects, reviewer, access model and certifiable-access eligibility. Its supporting meanings are located in [the author record](revisions/CRT-005_Revision_Record.md). It supplies correct unique ownership and actual field values rather than assuming all catalog entries are held by all accounts.
+
+## Review-object context authored in CRT-006
+
+| Term | Working meaning and connection | Teaching location |
+|---|---|---|
+| Assignment | The association through which an identity holds an access object; distinguish it from the object's shared definition. | CRT-006/007 |
+| Role assignment | One identity's holding of a role, with the access scope it provides; it is not the role definition for everyone. | CRT-006 |
+| Role definition | The role's configured contents and related requirements, separate from each identity's assignment. | CRT-006; X-01 |
+| Membership criteria | Configured conditions used to determine automatic role membership. | CRT-006/007 |
+| Access profile detection | Recognition of an already-held entitlement set as a profile where supported; not proof of a newly issued grant. | CRT-006/007 |
+| Role-composition review | Review of the role itself, including contents/description/criteria; current campaign support uses the legacy experience. | CRT-006/015; X-01 |
+| Role owner | Responsibility for the role; this label alone does not establish platform permission to change the definition. | CRT-006/022 |
+
+[CRT-006](../lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.md) reintroduces entitlement/profile/role meanings and connects them with actual item scope and assignment origin. Requested roles, criteria roles, requested/detected profiles and contained components receive the locally needed action/eligibility explanation. [Its author record](revisions/CRT-006_Revision_Record.md) locates the teaching and partial-need transfer. Detailed overlap, role configuration and composition remediation remain with their primary owners.
 
 ## Maintenance
 

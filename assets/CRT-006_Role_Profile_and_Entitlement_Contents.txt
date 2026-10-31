@@ -1,0 +1,10 @@
+Report Reviewer role
+|
++-- Reporting Access profile
+|   Reporting source
+|   +-- View reports
+|   +-- Export reports
+|
++-- Case Read profile
+    Case-management source
+    +-- Read cases

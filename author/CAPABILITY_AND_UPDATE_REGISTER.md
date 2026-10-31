@@ -1,6 +1,6 @@
 # Capability, update and open-question register
 
-Version 1.5. October 30, 2026.
+Version 1.6. October 31, 2026.
 Source leads: [official source map](../AUTHOR_SOURCE_MAP.md).
 Purpose: stop unsupported current/legacy/availability claims entering lessons.
 
@@ -81,6 +81,14 @@ CRT-005 revision 1.0 develops CAP-15's collection/schema/catalog/association fou
 Optimized aggregation can skip correlation on unchanged records; supported unoptimized reexamination is explained without promising all associations are repaired or proposing destructive resets. Source-supported capabilities and actual collected values remain necessary evidence. Example clock values are observation order, not duration or propagation guarantees.
 
 OQ-01–05 remain open. No exhaustive release or tenant-availability conclusion is added. CRT-005 is author-reviewed locally, participant validation pending and publication unperformed. CRT-001 through CRT-004 are published and live-verified; earlier authored-application publication states are historical.
+
+## CRT-006 authored application, October 31, 2026
+
+CRT-006 revision 1.0 develops CAP-04's object/origin/eligibility foundation and CAP-03's composition recognition, with scoped CAP-10/12 decision/outcome distinctions. Eight current primary references are mapped in [its author record](revisions/CRT-006_Revision_Record.md). Role management explicitly permits direct entitlements and profiles across sources; no universal role-to-profile-only hierarchy is taught.
+
+Requested role Approve/Revoke, automated criteria role Acknowledge, requested/detected profile eligibility and role/LCS containment are explained with supplied conditions. Acknowledge is not an override/removal action. The overview continues to place composition in the legacy experience. No full role-change propagation, dynamic-dimension, activation, unsigned-completion or manual-recipient procedure is inferred.
+
+OQ-01–05 remain open. No exhaustive release or tenant-availability conclusion is added. CRT-006 is author-reviewed locally, actual learner validation pending and publication unperformed; CRT-001 through CRT-005 are published/live-verified. Earlier authored-application publication states are historical.
 
 ## Update log and authoring protocol
 

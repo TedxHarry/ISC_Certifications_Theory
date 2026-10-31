@@ -1,8 +1,8 @@
 # ISC certifications: operational task coverage
 
-Planning revision 1.6. October 30, 2026.
-Companion to [course design 2.7](COURSE_DESIGN.md).
-Status: coverage committed for authoring. CRT-001 revision 1.0 develops the purpose/current-need foundation for task 1 and introduces supporting access/decision/outcome meanings. CRT-002 adds object/actor and evidence-unit foundations for tasks 7/8/9/10/14. CRT-003 adds a connected data/review/removal/evidence trace supporting tasks 2/7/14/17/18/19/21/22. CRT-004 develops the purpose/control comparison and supports tasks 1/13/14/17/20. CRT-005 develops source-data/ownership foundations supporting tasks 2/7/13/21/22. Detailed remaining task mechanics remain planned. Actual learner performance has not been validated.
+Planning revision 1.7. October 31, 2026.
+Companion to [course design 2.9](COURSE_DESIGN.md).
+Status: coverage committed for authoring. CRT-001 revision 1.0 develops the purpose/current-need foundation for task 1 and introduces supporting access/decision/outcome meanings. CRT-002 adds object/actor and evidence-unit foundations for tasks 7/8/9/10/14. CRT-003 adds a connected data/review/removal/evidence trace supporting tasks 2/7/14/17/18/19/21/22. CRT-004 develops the purpose/control comparison and supports tasks 1/13/14/17/20. CRT-005 develops source-data/ownership foundations supporting tasks 2/7/13/21/22. CRT-006 develops review-object/assignment-scope foundations supporting tasks 3/13/14/20/21. Detailed remaining task mechanics remain planned. Actual learner performance has not been validated.
 Authoring must follow the [teaching specification](TEACHING_SPECIFICATION.md) and reconcile each completed task against its saved lesson record.
 
 This map gives routine work an explicit place. It is not a statistical ranking of customer task frequency. Planning labels remain provisional. Change lesson boundaries if a task needs a clearer independent explanation.
@@ -71,6 +71,8 @@ A deeper route may be essential for a particular job. Its separate placement kee
 [CRT-004 author record](author/revisions/CRT-004_Revision_Record.md) supports task 1 (review versus requested change or lifecycle requirement), 13 (origin-related omission and the package being reviewed), 14 (current need and full-profile decision scope), 17 (decision versus delivered removal) and 20 (current requirement behind retained/restored access). Complete lifecycle design, certifiability/overlap mechanics and operational change procedures remain with their primary topics.
 
 [CRT-005 author record](author/revisions/CRT-005_Revision_Record.md) maps account field interpretation/collection and identity association to task 2, the actual generated relationship to task 7, field/catalog/ownership mismatches to task 13, current-versus-old account evidence to task 21, and the records/times supporting an explanation to task 22. It does not complete campaign acceptance, reporting, multiple-account governance or remediation procedures.
+
+[CRT-006 author record](author/revisions/CRT-006_Revision_Record.md) supports task 3 (assignment versus composition intent), 13 (contained access absence), 14 (object/current-need scope), 20 (origin-controlled retention) and 21 (all affected source-account outcomes). Complete composition governance, overlap troubleshooting and delivery procedures remain with their primary topics.
 
 ## Evidence of learning
 
