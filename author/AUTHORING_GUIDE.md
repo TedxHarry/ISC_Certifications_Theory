@@ -1,6 +1,6 @@
 # Authoring guide and lesson briefs
 
-Version 1.9. October 31, 2026.
+Version 2.0. October 31, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
@@ -244,3 +244,7 @@ Reasoning cases: export no longer needed but viewing remains; one source changed
 Fresh primary sources: entitlement/profile/role management, certifiability, automatic role assignment, reviewer decisions, overview and campaign composition guidance. Preserve all five open questions and separate simulated author review from participant/tenant evidence. Topic-led structure, meaningful editable hierarchy/comparison, no quota/biography/learner links or prerequisite announcements.
 
 Acceptance: unfamiliar reader can identify the actual unit, explain contents and assignment origin, predict which decision actions are appropriate in supplied cases, distinguish definition from assignment and choose the evidence needed for the intended access outcome. CRT-006 stays local.
+
+## CRT-006 publication and local continuation
+
+The user's latest push-and-continue request published CRT-006 revision 1.0 after local and live checks. [Publication evidence](PUBLICATION_2026-10-31_CRT-006.md) records the successful build and all six live lessons. The manifest now lists CRT-001 through CRT-006. Continue the reserved CRT-007 locally; it is outside that publication snapshot. Preserve historical lesson evidence.
