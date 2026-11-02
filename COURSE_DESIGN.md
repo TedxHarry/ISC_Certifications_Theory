@@ -1,8 +1,8 @@
 # SailPoint ISC Certifications: Understanding Access Reviews from Scope to Verified Outcome
 
-Course design 3.4. November 2, 2026.
+Course design 3.5. November 2, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: course direction accepted for local authoring setup; foundation saved. Eight learners are authored and reviewed: CRT-001/004 are locally at revision 1.1, the other six at 1.0. CRT-001 through CRT-006 revision 1.0 are published and historically live-verified. CRT-001/004 revision 1.1 and CRT-007/008 revision 1.0 are local.
+Status: eight learners are authored, author-reviewed, published and live-verified. CRT-001/004 are revision 1.1; the other six are 1.0. The five earlier-lesson rewrites remain CRT-002/003/005/006/007, with CRT-002 next. CRT-009 stays parked.
 
 Current priority: apply the clearer explanation to all existing lessons, one at a time, before new-topic writing resumes. CRT-001 is rewritten locally, CRT-004's accepted rewrite and current-style CRT-008 are preserved, and CRT-002 is next. The remaining revision queue is CRT-002/003/005/006/007. CRT-009 is parked; the 42 unwritten topics remain separate from this revision work.
 
@@ -292,7 +292,7 @@ Each authored lesson needs a coverage record, primary-source check, complete sav
 
 ## Delivery plan and next step
 
-The user authorized establishing the local authoring foundation on October 29, 2026. The folder ISC_Certifications_Theory now contains the teaching specification, progress register, author workflow and first brief, coverage/terminology records, capability/update register and routine task map. Eight learners are saved locally, with CRT-001/004 revised to 1.1 and the other six at 1.0; the separate GitHub repository and Pages site remain live with verified CRT-001 through CRT-006 revision 1.0.
+The user authorized establishing the local authoring foundation on October 29, 2026. The folder ISC_Certifications_Theory now contains the teaching specification, progress register, author workflow and first brief, coverage/terminology records, capability/update register and routine task map. Eight learners are published, with CRT-001/004 at 1.1 and the other six at 1.0; the separate GitHub repository and Pages site are live-verified for this snapshot.
 
 Use [README](README.md) to navigate the package and [COURSE_REGISTER](COURSE_REGISTER.md) to resume. Write one complete learner lesson at a time with its necessary reference aids, author record and saved-file checks.
 
@@ -311,3 +311,5 @@ The latest October 31 push-and-continue request published CRT-006 unchanged from
 On November 2, 2026 the user reported the revised CRT-004 explanation better and requested continuation. CRT-008 is complete locally under teaching specification 1.1, covering exact account context, different needs on one person's accounts, ownership and core special-account recognition. It includes a wrong-account removal transfer and preserves the earlier lesson files. No push occurred. Eight topics are authored and 42 current candidates remain unwritten; CRT-009 is next. The dated continuation paragraphs above remain historical.
 
 On November 2, 2026 the user clarified that the improved explanation was intended for all lessons. Moving directly to new CRT-008 had skipped that existing-lesson pass. CRT-001 is now rewritten locally at 1.1 with its original coverage preserved. Continue with CRT-002's rewrite, followed by CRT-003/005/006/007. Preserve CRT-004 and CRT-008; no new topic or publication was added during this scope correction.
+
+Later on November 2, 2026 the user's push instruction published all saved work. The current eight-lesson snapshot is live-verified: CRT-001/004 revision 1.1 and the other six revision 1.0. [Publication evidence](author/PUBLICATION_2026-11-02_EIGHT_LESSONS.md) records content, deployment and checks. This does not complete the five pending rewrites; CRT-002 remains next. Historical local/unpublished statements above describe their dated authoring stages.

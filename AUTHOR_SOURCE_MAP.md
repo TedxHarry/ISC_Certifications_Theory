@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 3.4. Updated November 2, 2026; dated checks below distinguish each stage.
+Authoring source reference 3.5. Updated November 2, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant actions, test campaign or provisioning change was performed. Pages publication for CRT-001 through CRT-006 revision 1.0 is historically verified below. CRT-001/004 revision 1.1 and CRT-007/008 revision 1.0 are local. Existing lessons now take priority for explanation revision: CRT-002 is next; CRT-009 is parked.
+No tenant actions, test campaign or provisioning change was performed. The November 2 publication is live-verified for all eight authored learners: CRT-001/004 revision 1.1 and the other six revision 1.0. Existing-lesson revision remains the priority; CRT-002 is next and CRT-009 is parked. Dated local/unpublished statements below remain historical evidence.
 
 ## Primary source map
 
@@ -225,3 +225,7 @@ The source comparison adds OQ-07: reviewer and profile-administration guidance d
 The user clarified that the improved explanation applies to all lessons, including the existing ones. New-topic authoring is paused. [CRT-001 revision 1.1](lessons/CRT-001_Why_Review_Previously_Approved_Access.md) is saved locally; [its separate record](author/revisions/CRT-001_Revision_1_1_Record.md) records the prepared brief, six refreshed primary references, preserved coverage, saved author review and local verification. The original revision/publication evidence remains historical.
 
 Next: revise CRT-002, followed by CRT-003/005/006/007. Preserve CRT-004 1.1 and current-style CRT-008. Eight topics remain authored and 42 remain unwritten; five earlier lessons remain to revise. All seven product questions stay open. No source check or local consistency test is presented as an observed learner pass, and no pending work was pushed or deployed.
+
+## Eight-lesson publication, November 2, 2026
+
+At the user's push instruction, content 0ad8a37e497013d6ec08660393f815bc463498e0 published CRT-001/004 1.1 and CRT-002/003/005/006/007/008 1.0. Pages run 41469886314 succeeded. Live verification passed for eight lessons, all 885 content units, eight diagrams/tables/assets, CSS, 86 internal link visits and four author/control route exclusions. [Publication evidence](author/PUBLICATION_2026-11-02_EIGHT_LESSONS.md) records the snapshot. These deployment checks do not resolve the seven product questions or constitute a learner assessment. The next task is CRT-002's rewrite.

@@ -1,6 +1,6 @@
 # Authoring guide and lesson briefs
 
-Version 2.4. November 2, 2026.
+Version 2.5. November 2, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
@@ -115,7 +115,7 @@ The saved lesson contains complete connected prose, useful reasoning/transfer, c
 
 ## Current priority: revise CRT-002
 
-The user clarified that the improved explanation applies to all lessons, including those already written. New-topic authoring is paused. CRT-001 is now rewritten locally at 1.1; preserve the accepted CRT-004 1.1 and current-style CRT-008. Rewrite CRT-002 next, then CRT-003, CRT-005, CRT-006 and CRT-007, one complete file at a time. CRT-009 is the next unwritten topic, parked until the revision queue is complete or the user changes the priority.
+The user clarified that the improved explanation applies to all lessons, including those already written. New-topic authoring is paused. CRT-001 is now rewritten and published at 1.1; preserve the accepted CRT-004 1.1 and current-style CRT-008. Rewrite CRT-002 next, then CRT-003, CRT-005, CRT-006 and CRT-007, one complete file at a time. CRT-009 is the next unwritten topic, parked until the revision queue is complete or the user changes the priority.
 
 For each rewrite, compare the full saved lesson and its original coverage record, preserve all needed concepts and distinctions, refresh affected source claims, prepare a brief before drafting, update its actual diagram and create a separate dated revision record. Do not silently rewrite historical checks or claim independent learner understanding. Keep publication separate. Apply teaching specification 1.1 dynamically; no fixed section, example or visual counts.
 
@@ -284,3 +284,7 @@ OQ-07 records contradictory profile-overlap guidance encountered during source c
 ## CRT-001 local rewrite and scope correction, November 2, 2026
 
 The previous continuation moved to CRT-008 when the user expected the clearer style to be applied to earlier lessons as well. The user clarified the scope. [CRT-001 revision 1.1](../lessons/CRT-001_Why_Review_Previously_Approved_Access.md) is complete locally, with the prepared brief, source checks and preserved original teaching purposes recorded in [its new record](revisions/CRT-001_Revision_1_1_Record.md). CRT-002 is the next revision. This does not increase the authored-topic count or publish pending work. Historical authoring briefs above remain historical.
+
+## Eight-lesson publication, November 2, 2026
+
+The user's push instruction published the complete saved snapshot: CRT-001/004 1.1 and the other six learners 1.0. [Publication evidence](PUBLICATION_2026-11-02_EIGHT_LESSONS.md) records the successful Pages deployment and live comparison. The manifest lists all eight authored learners. No new topic or rewrite was added while publishing. Continue with CRT-002's complete local revision; new-topic authoring remains paused and historical local-stage evidence stays historical.

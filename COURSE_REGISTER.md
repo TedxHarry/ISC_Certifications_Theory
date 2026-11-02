@@ -1,11 +1,11 @@
 # ISC Certifications course register
 
-Version 2.5. Updated November 2, 2026.
+Version 2.6. Updated November 2, 2026.
 [Course design](COURSE_DESIGN.md) and [teaching standard](TEACHING_SPECIFICATION.md).
 
 ## Current position
 
-The user clarified that the improved explanation must be applied to all existing lessons. New-topic authoring is paused while the earlier lessons are revised one at a time from the start. Eight topics remain authored: CRT-001 and CRT-004 are locally at revision 1.1, the other six are at 1.0. CRT-008 was written in the current style and is preserved. CRT-001 through CRT-006 revision 1.0 remain the published, historically verified snapshot. Local revisions and CRT-007/008 have not been pushed. The next task is rewriting CRT-002; CRT-009 remains the next unwritten topic, parked behind the revision queue.
+The clearer explanation applies to all existing and future lessons. New-topic authoring remains paused while five earlier lessons are revised one at a time: CRT-002/003/005/006/007. The November 2 push published all eight saved learners: CRT-001/004 revision 1.1 and the other six revision 1.0. Pages deployment and live verification passed. CRT-004's accepted rewrite and current-style CRT-008 are preserved. The next task remains rewriting CRT-002; CRT-009 is parked behind the revision queue.
 
 | Item | Actual state |
 |---|---|
@@ -13,17 +13,17 @@ The user clarified that the improved explanation must be applied to all existing
 | Current grouping | 10 provisional modules; no fixed limit |
 | Specialist depth | 5 job-dependent routes; essential recognition remains core |
 | Routine work | 24 mapped task families; coverage planned, not yet demonstrated |
-| Learner lessons written | 8; CRT-001/004 local revision 1.1, other six at revision 1.0 |
+| Learner lessons written | 8; CRT-001/004 revision 1.1, other six at revision 1.0; all published |
 | Learner lessons author-reviewed | 8; source/coverage and full saved author read-through complete; no simulated review is an observed learner pass |
 | Reader feedback / learner assessment | User reported CRT-004 1.1 better on November 2 after difficulty with 1.0; independent uncoached assessment remains pending |
 | Reference aids authored | 0 standalone aids; eight editable teaching diagrams accompany CRT-001 through CRT-008 |
-| Current local learner | [CRT-008: One person has two accounts. Which account's access is under review?](lessons/CRT-008_One_Person_Two_Accounts_and_the_Correct_Review_Target.md); revision 1.0, unpublished |
-| Current revision | [CRT-001](lessons/CRT-001_Why_Review_Previously_Approved_Access.md); revision 1.1, local explanation rewrite; [revision evidence](author/revisions/CRT-001_Revision_1_1_Record.md) |
+| Latest authored learner | [CRT-008: One person has two accounts. Which account's access is under review?](lessons/CRT-008_One_Person_Two_Accounts_and_the_Correct_Review_Target.md); revision 1.0, published |
+| Current revision | [CRT-001](lessons/CRT-001_Why_Review_Previously_Approved_Access.md); revision 1.1, published explanation rewrite; [revision evidence](author/revisions/CRT-001_Revision_1_1_Record.md) |
 | Next task | Rewrite CRT-002 under teaching specification 1.1; new-topic authoring is paused |
 | Current author evidence | [CRT-001 revision 1.1 record](author/revisions/CRT-001_Revision_1_1_Record.md); original purpose/coverage preserved, expanded explanation and flow, six primary checks; independent learner assessment pending |
 | Feature currency | Source scoping checks recorded; exhaustive release audit and per-lesson verification not complete |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
-| GitHub / publication | [Repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [Pages](https://tedxharry.github.io/ISC_Certifications_Theory/) live; CRT-001 through CRT-006 1.0 verified; [latest publication record](author/PUBLICATION_2026-10-31_CRT-006.md) |
+| GitHub / publication | [Repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [Pages](https://tedxharry.github.io/ISC_Certifications_Theory/) live; all eight current revisions verified; [latest publication record](author/PUBLICATION_2026-11-02_EIGHT_LESSONS.md) |
 | Other ISC course | Separate and unchanged by this setup |
 
 ## Resume order
@@ -36,10 +36,10 @@ Continue with the next revision in the queue below, not the next unwritten topic
 
 | Lesson | Current explanation status | Next action |
 |---|---|---|
-| CRT-001 | Rewritten locally at 1.1 in this turn | Preserve; learner feedback pending |
+| CRT-001 | Rewritten and published at 1.1 | Preserve; learner feedback pending |
 | CRT-002 | Earlier wording, revision pending | Rewrite next |
 | CRT-003 | Earlier wording, revision pending | Rewrite after CRT-002 |
-| CRT-004 | Rewritten locally at 1.1; user reports it is better | Preserve the revised lesson |
+| CRT-004 | Rewritten and published at 1.1; user reports it is better | Preserve the revised lesson |
 | CRT-005 | Earlier wording, revision pending | Rewrite after CRT-003 |
 | CRT-006 | Earlier wording, revision pending | Rewrite after CRT-005 |
 | CRT-007 | Earlier wording, revision pending | Rewrite after CRT-006 |
@@ -62,14 +62,14 @@ These states are independent facts. A source check does not imply learner valida
 
 | Planning ID | Learning question | Writing state | Author review | Actual learner validation | Publication |
 |---|---|---|---|---|---|
-| CRT-001 | Why review access that somebody already approved? | Complete local revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.0; 1.1 local only |
+| CRT-001 | Why review access that somebody already approved? | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
 | CRT-002 | A campaign, a certification and a review item: what is being assigned? | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Published revision 1.0 |
 | CRT-003 | Follow one review from access data to a verified outcome | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Published revision 1.0 |
-| CRT-004 | How is a certification different from an access request or lifecycle rule? | Complete local revision 1.1 | Fresh source checks, coverage reconciliation and saved-file language/flow review complete | User reports 1.1 better; independent assessment pending | Published revision 1.0; 1.1 local only |
+| CRT-004 | How is a certification different from an access request or lifecycle rule? | Complete revision 1.1 | Fresh source checks, coverage reconciliation and saved-file language/flow review complete | User reports 1.1 better; independent assessment pending | Published revision 1.1 |
 | CRT-005 | How does application access become information ISC can review? | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Published revision 1.0 |
 | CRT-006 | Are we reviewing an entitlement, an access profile or a role? | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Published revision 1.0 |
-| CRT-007 | Why does some access appear differently or not appear at all? | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Local; not pushed |
-| CRT-008 | One person has two accounts. Which account's access is under review? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Local; not pushed |
+| CRT-007 | Why does some access appear differently or not appear at all? | Complete revision 1.0 | Source/coverage and full saved beginner author review complete | Pending; not observed | Published revision 1.0 |
+| CRT-008 | One person has two accounts. Which account's access is under review? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-009 | Can the reviewer understand what this access actually permits? | Parked next new topic; no learner file | Not reviewed | Not tested | Not published |
 | CRT-010 | How do we establish that the review population is complete? | Planned; not written | Not reviewed | Not tested | Not published |
 | CRT-011 | When is a manager review the right choice? | Planned; not written | Not reviewed | Not tested | Not published |
@@ -137,7 +137,8 @@ The design owns the current module placement and topic descriptions. This table 
 | October 31, 2026 | Revised CRT-004 to 1.1 locally at the user's request | Slower permission/package explanation, explicit approval/account distinction, employment-value-to-state-to-access flow, simpler diagram/table and expanded worked reasoning; technical depth retained, fresh source and author checks recorded; revised learner assessment pending; no push |
 | November 2, 2026 | User reports CRT-004 1.1 better; authored CRT-008 locally | One identity/two accounts, exact source/account/right context, collection and correlation, current need and actual decision scope, removal evidence, wrong association, uncorrelated and service-account recognition, independent wrong-account transfer; author review complete, learner assessment pending; no push |
 | November 2, 2026 | Corrected course-wide revision scope; revised CRT-001 locally to 1.1 | User clarified that all existing lessons need the clearer explanation; pause new topics, preserve CRT-004/008, revise earlier lessons one at a time. CRT-001 retains all original teaching purposes with expanded connections and clearer flow; five revisions remain; no push |
+| November 2, 2026 | Published the eight-lesson snapshot at the user's request | Content 0ad8a37e497013d6ec08660393f815bc463498e0; Pages run 41469886314 succeeded; all eight lessons, 885 content units, eight diagrams/tables/assets and 86 internal link visits verified live. CRT-001/004 are 1.1; the other six are 1.0. The five-revision queue remains active |
 
 ## Next action
 
-Rewrite CRT-002 completely under teaching specification 1.1, with its existing substantive coverage preserved. Then revise CRT-003, CRT-005, CRT-006 and CRT-007 in order. Preserve current-style CRT-004 and CRT-008. Forty-two candidate topics remain unwritten, but new-topic authoring stays paused during this revision pass. All work remains local until publication is requested.
+Rewrite CRT-002 completely under teaching specification 1.1, with its existing substantive coverage preserved. Then revise CRT-003, CRT-005, CRT-006 and CRT-007 in order. Preserve current-style CRT-004 and CRT-008. Forty-two candidate topics remain unwritten, but new-topic authoring stays paused during this revision pass. Subsequent authoring remains local until its publication is requested.
