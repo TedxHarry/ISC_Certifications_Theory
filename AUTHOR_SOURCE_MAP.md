@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 3.1. Updated October 31, 2026; dated checks below distinguish each stage.
+Authoring source reference 3.4. Updated November 2, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant actions, test campaign or provisioning change was performed. Pages publication for CRT-001 through CRT-006 is verified below; CRT-007 is the next local authoring continuation.
+No tenant actions, test campaign or provisioning change was performed. Pages publication for CRT-001 through CRT-006 revision 1.0 is historically verified below. CRT-001/004 revision 1.1 and CRT-007/008 revision 1.0 are local. Existing lessons now take priority for explanation revision: CRT-002 is next; CRT-009 is parked.
 
 ## Primary source map
 
@@ -195,3 +195,33 @@ Six learners are authored and five are published/live-verified. CRT-006 is local
 Content bc61e24a70c0015f1808bf4d4bfc1a35818e3f39 built successfully in Pages workflow 41197281835. Full live validation passed for six lessons, all 683 content units, six diagrams/tables/assets, CSS, 52 internal link visits and four author/control route exclusions. All eighteen reviewed learner/asset/per-lesson records retained their hashes. Current role/profile/eligibility references were refreshed with the continuation checks; no published learner edit was required. [Publication evidence](author/PUBLICATION_2026-10-31_CRT-006.md) records the scope.
 
 Earlier local-only entries describe dated authoring stages. CRT-007 continues locally after this publication. Actual learner validation, tenant execution and exhaustive release completeness remain unperformed.
+
+## Seventh learner: CRT-007 revision 1.0, October 31, 2026
+
+[Why access appears differently or is missing](lessons/CRT-007_Why_Access_Appears_Differently_or_Is_Missing.md) is complete locally. [Its author record](author/revisions/CRT-007_Revision_Record.md) maps saved appearance/eligibility and diagnostic teaching to nine current primary references. COV-07's foundation is authored, with source values, ownership, actual origin/container, selection, review assignment/actions and observation time kept distinct.
+
+The supplied four-right example yields three review units without claiming universal counts or individual review of the LCS portal requirement. The transfer distinguishes containment, lifecycle omission and unresolved collection-versus-later-grant evidence; a later grant alone does not prove the original campaign was wrong.
+
+OQ-01–05 remain open. New OQ-06 records the unit-of-selection wording issue between the Role-filter introduction and member-based examples; this learner teaches a supported single-entitlement exclusion rather than a universal role-filter interpretation. Detailed role-filter claims need scoped verification in CRT-017/018.
+
+Seven learners are authored; six are published/live-verified. CRT-007 is local and not pushed, 43 candidate topics remain unwritten and CRT-008 is next without a stub. Source/coverage and saved beginner author review are recorded; actual participant and tenant validation remain unperformed. Earlier learners/assets/records, publication evidence and the six-entry reader manifest remain preserved during this continuation.
+
+## CRT-004 local explanation revision, October 31, 2026
+
+The user reported that revision 1.0 required repeated reading because of difficult English and technical phrasing, then approved a complete local rewrite. [Revision 1.1 evidence](author/revisions/CRT-004_Revision_1_1_Record.md) records eight freshly checked primary sources, preserved coverage and the author language/flow review. The lesson and its editable diagram were revised locally. Teaching specification 1.1 applies the resulting clarity checks to subsequent work without imposing a fixed layout or reducing technical depth.
+
+Published CRT-004 remains revision 1.0; local revision 1.1 has not been pushed. The feedback is evidence of reader difficulty with 1.0, not a successful assessment of the revised lesson. CRT-007 remains local and unchanged by this rewrite, the candidate count remains 50, and the six product questions remain open.
+
+## Eighth learner: CRT-008, November 2, 2026
+
+The user reported that CRT-004's revised explanation was better and asked to continue. [CRT-008](lessons/CRT-008_One_Person_Two_Accounts_and_the_Correct_Review_Target.md) is complete locally under teaching specification 1.1. [Its record](author/revisions/CRT-008_Revision_Record.md) maps the actual account/identity/source explanation, current need, item scope, target verification and special-account recognition to thirteen official references checked during authoring.
+
+The account-specific main and wrong-account transfer cases supply their precise direct-entitlement targets and exclude package/automatic requirements. Current experimental review-item/account-detail APIs support authorized record inspection, not a universal UI layout or a script prerequisite. Authoritative identities and shadow records remain distinct, and non-human accountability is not employee correlation.
+
+The source comparison adds OQ-07: reviewer and profile-administration guidance disagree about shared-entitlement handling during profile revocation. Its scope remains unresolved for CRT-035/046; no blanket retention/removal rule enters this learner. OQ-01–06 remain open. Eight learners are authored, six are published at revision 1.0, 42 current candidates remain unwritten, and CRT-009 was next at that authoring stage. No push, tenant test or observed independent learner pass is claimed.
+
+## Course-wide explanation pass: CRT-001 revision 1.1, November 2, 2026
+
+The user clarified that the improved explanation applies to all lessons, including the existing ones. New-topic authoring is paused. [CRT-001 revision 1.1](lessons/CRT-001_Why_Review_Previously_Approved_Access.md) is saved locally; [its separate record](author/revisions/CRT-001_Revision_1_1_Record.md) records the prepared brief, six refreshed primary references, preserved coverage, saved author review and local verification. The original revision/publication evidence remains historical.
+
+Next: revise CRT-002, followed by CRT-003/005/006/007. Preserve CRT-004 1.1 and current-style CRT-008. Eight topics remain authored and 42 remain unwritten; five earlier lessons remain to revise. All seven product questions stay open. No source check or local consistency test is presented as an observed learner pass, and no pending work was pushed or deployed.

@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 1.6. October 31, 2026.
+Version 2.0. November 2, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -90,6 +90,8 @@ These are author working meanings. Verify product-specific use in the applicable
 
 These are supporting introductions for this purpose lesson. CRT-002's authored foundations are recorded next; other primary detailed teaching locations remain planned. Source checking and simulated author review are recorded in [its author record](revisions/CRT-001_Revision_Record.md); no observed beginner test is claimed.
 
+The local [CRT-001 revision 1.1 record](revisions/CRT-001_Revision_1_1_Record.md) preserves the earlier meanings and explains them through separate person/account/right and source/collection/association steps. No distinct working meaning is added or removed. The existing 94-term register remains an author consistency aid, not a prerequisite vocabulary list. Later lessons in the active revision queue must provide their own needed explanations.
+
 [CRT-002](../lessons/CRT-002_Campaigns_Certifications_and_Review_Items.md) now explains certification campaign, certification/assigned review, review item, subject, reviewer/certifier, campaign scope, generation/start, creator/owner, Cert Admin/Org Admin, source/access owner, remediation, decision maker, undecided and sign-off in connected prose. It reintroduces account/access/identity/entitlement and Approve/Revoke as needed. It distinguishes saved item decisions, confirmed review completion, campaign state and target-account outcome.
 
 [The CRT-002 record](revisions/CRT-002_Revision_Record.md) locates each actual teaching purpose. No exact permission matrix, algorithm for grouping reviews, report counter formula or engine finality policy is claimed.
@@ -113,6 +115,8 @@ These are supporting introductions for this purpose lesson. CRT-002's authored f
 
 [CRT-004](../lessons/CRT-004_Certifications_Access_Requests_and_Lifecycle_Rules.md) also explains LCS, birthright, assignment origin, the profile as a review unit and the different meanings of request approval and certification Approve. Its state name, configured requirement, data calculation, removal work and account evidence remain distinct. [The author record](revisions/CRT-004_Revision_Record.md) locates the actual teaching; no full lifecycle implementation or universal campaign timing is claimed.
 
+Its local [revision 1.1 record](revisions/CRT-004_Revision_1_1_Record.md) records the expanded contextual explanation of these existing terms, the supporting assignment meaning and locally explained sign-off. The revision adds no distinct working term. Existing primary owners remain unchanged.
+
 ## Account-data context authored in CRT-005
 
 | Term | Working meaning and connection | Teaching location |
@@ -133,7 +137,7 @@ These are supporting introductions for this purpose lesson. CRT-002's authored f
 
 | Term | Working meaning and connection | Teaching location |
 |---|---|---|
-| Assignment | The association through which an identity holds an access object; distinguish it from the object's shared definition. | CRT-006/007 |
+| Assignment | The association through which an identity holds an access object; distinguish it from the object's shared definition. | CRT-006/007; supporting explanation in CRT-004 1.1 |
 | Role assignment | One identity's holding of a role, with the access scope it provides; it is not the role definition for everyone. | CRT-006 |
 | Role definition | The role's configured contents and related requirements, separate from each identity's assignment. | CRT-006; X-01 |
 | Membership criteria | Configured conditions used to determine automatic role membership. | CRT-006/007 |
@@ -142,6 +146,27 @@ These are supporting introductions for this purpose lesson. CRT-002's authored f
 | Role owner | Responsibility for the role; this label alone does not establish platform permission to change the definition. | CRT-006/022 |
 
 [CRT-006](../lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.md) reintroduces entitlement/profile/role meanings and connects them with actual item scope and assignment origin. Requested roles, criteria roles, requested/detected profiles and contained components receive the locally needed action/eligibility explanation. [Its author record](revisions/CRT-006_Revision_Record.md) locates the teaching and partial-need transfer. Detailed overlap, role configuration and composition remediation remain with their primary owners.
+
+## Appearance and absence context authored in CRT-007
+
+| Term | Working meaning and connection | Teaching location |
+|---|---|---|
+| Encapsulation | A component is contained in the access object through which it is reviewed; separate component absence does not prove absent access. | CRT-007/017/035 |
+| Platform permissions | Authorization to perform actions in ISC, distinct from the application's access being reviewed. | CRT-002/007/021 |
+
+[CRT-007](../lessons/CRT-007_Why_Access_Appears_Differently_or_Is_Missing.md) connects held access, represented values, eligible review units and available actions. It reintroduces objects/origins, campaign filter, certifiable access/model, collection/catalog/correlation and review context where required. [Its author record](revisions/CRT-007_Revision_Record.md) maps the four-right main example and three-absence transfer. A missing item or button alone does not establish its cause.
+
+## Multiple-account and ownership context authored in CRT-008
+
+| Term | Working meaning and connection | Teaching location |
+|---|---|---|
+| Privileged account | An account with rights for sensitive actions; verify actual purpose/permissions rather than a readable account label. Application privileges do not establish ISC administrative authority. | CRT-008 |
+| Authoritative source | A source configured to establish ISC identities from its accounts, such as a personnel source for employees. | CRT-008; supporting CRT-005 context |
+| Authoritative identity | An identity established from authoritative-source information; distinguish it from a placeholder representing an unmatched account. | CRT-008; X-02 |
+| Account owner | The person recorded as responsible for an account; responsibility for a service account does not make it a personal employee login or establish every platform permission. | CRT-008/022; X-03 |
+| Application identity | Representation of a program or process with associated machine accounts; the reviewer experience also uses machine identity terminology. Capability and actual subject need verification. | CRT-008/015; X-03 |
+
+[CRT-008](../lessons/CRT-008_One_Person_Two_Accounts_and_the_Correct_Review_Target.md) reintroduces account/identity/source, Account Name/ID, entitlement, aggregation/correlation, campaign/certification/review item, decision, sign-off, remediation/provisioning and package scope at the points needed. Uncorrelated and machine/service-account meanings are now developed in core prose. [Its author record](revisions/CRT-008_Revision_Record.md) maps those relationships and the exact-account transfer. Five new distinct working terms are added; source account identifiers, display names and platform record IDs remain separate concepts.
 
 ## Maintenance
 

@@ -1,6 +1,6 @@
 # Authoring guide and lesson briefs
 
-Version 2.0. October 31, 2026.
+Version 2.4. November 2, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
@@ -113,9 +113,11 @@ An unfamiliar reader can explain why review is needed, what is being reviewed, w
 
 The saved lesson contains complete connected prose, useful reasoning/transfer, consistent supplied conditions and no biography, prerequisite announcement, source URLs or invented tenant results. The author record is complete; actual learner validation is separately pending unless it has really occurred.
 
-## Next lesson reservation: CRT-007
+## Current priority: revise CRT-002
 
-Why does some access appear differently or not appear at all? is next. Its learner is not written and no stub exists. Prepare its appearance/eligibility brief and fresh checks at the next authoring step. CRT-001 through CRT-006 are complete at revision 1.0; their briefs record scope rather than a fixed learner layout.
+The user clarified that the improved explanation applies to all lessons, including those already written. New-topic authoring is paused. CRT-001 is now rewritten locally at 1.1; preserve the accepted CRT-004 1.1 and current-style CRT-008. Rewrite CRT-002 next, then CRT-003, CRT-005, CRT-006 and CRT-007, one complete file at a time. CRT-009 is the next unwritten topic, parked until the revision queue is complete or the user changes the priority.
+
+For each rewrite, compare the full saved lesson and its original coverage record, preserve all needed concepts and distinctions, refresh affected source claims, prepare a brief before drafting, update its actual diagram and create a separate dated revision record. Do not silently rewrite historical checks or claim independent learner understanding. Keep publication separate. Apply teaching specification 1.1 dynamically; no fixed section, example or visual counts.
 
 ## Repository and publication stage
 
@@ -248,3 +250,37 @@ Acceptance: unfamiliar reader can identify the actual unit, explain contents and
 ## CRT-006 publication and local continuation
 
 The user's latest push-and-continue request published CRT-006 revision 1.0 after local and live checks. [Publication evidence](PUBLICATION_2026-10-31_CRT-006.md) records the successful build and all six live lessons. The manifest now lists CRT-001 through CRT-006. Continue the reserved CRT-007 locally; it is outside that publication snapshot. Preserve historical lesson evidence.
+
+## CRT-007 author brief, October 31, 2026
+
+Working title: Why does some access appear differently or not appear at all?
+Reserved learner: lessons/CRT-007_Why_Access_Appears_Differently_or_Is_Missing.md.
+Preparation state: not yet written; local continuation after verified CRT-006 publication. Completed October 31, 2026 as revision 1.0; [learner](../lessons/CRT-007_Why_Access_Appears_Differently_or_Is_Missing.md) and [author record](revisions/CRT-007_Revision_Record.md). CRT-007 remains local and unpublished.
+
+Purpose: develop COV-07's appearance/containment/action reasoning, connecting correct account data, identity association, access-model origin, campaign selection and generation time. COV-06 is supporting foundation; COV-09/11/12/13/19/20/24/29/31 receive bounded introductions. Keep full filter Boolean composition, snapshot policy, permissions and remediation procedures with their primary lessons.
+
+Main supplied identity has four held rights across correctly associated reporting/case/portal accounts. reports-view belongs to requested Reporting Read profile; reports-export is individually certifiable outside containing packages or automatic requirements; cases-read belongs to Case Read profile within automatically criteria-assigned Case Reader role; portal-use belongs to Employee Portal profile required by the active LCS. Explain each capability, container and origin. Current ISC data/associations are accurate, campaign selects applicable person/access, and no filter removes eligible example objects. Expected review units: Reporting Read profile (Approve/Revoke), reports-export entitlement (Approve/Revoke), Case Reader role (Acknowledge); no individual LCS profile/portal entitlement, Case Read profile or contained component entitlements. Three units for four supplied rights is example arithmetic, not a universal counter formula or proof the portal requirement was reviewed.
+
+Explain held access, represented access, certifiable review unit and permitted action as distinct questions. Containment means a component is considered through the governing package where reviewable, not lost or already removed. Requested/detected AP treatment versus role/LCS containment, and requested role versus automated criteria role, must be locally understandable without repeating a full role-creation lesson.
+
+Use an evidence-guided diagnosis: exact account/current observation; collected account value; correct identity; actual origin/container and eligible unit; campaign's selection/filter; actual generated contents/time and assigned review/view. Successful collection, catalog presence, include-all wording or editing a saved filter alone does not prove the intended item was generated. No universal live-refresh/rebuild or role-filter unit assumed.
+
+Useful variations: standalone export excluded by one verified entitlement filter; permission granted after the data/preview used by the campaign; expected profile absent because assignment actually came through role; disabled Revoke versus Acknowledge; missing source value/incorrect ownership; representation grouped by identity/access or assigned to another review. Do not teach hiding as automatic actual removal or broaden a filter as overriding certifiability.
+
+Independent transfer changes to requested Ledger Review profile (ledger-read/export), standalone archive-export missing from collected account data though current source holds it, and LCS-required Staff Portal. Supply correct association, relevant scope and no exclusion. Ask which absences are expected, which need investigation and which evidence is missing before claiming coverage. Change the ledger origin to criteria-assigned role to test changed unit/action.
+
+Nine current primary leads: Understanding, profile/role management, filters, Search/manager-source campaign generation, account loading/correlation and user review guidance. Official Role-filter introduction and member-based examples have an unresolved unit-of-selection relationship; record OQ-06 for later scoped verification and teach only the supported single-entitlement exclusion here. OQ-01–05 remain open.
+
+Acceptance: learner can explain why the item is different/missing, identify its actual control and action, select discriminating evidence, distinguish expected omission from a real gap and avoid claims unsupported by the supplied observations. Use useful editable diagnostic flow/table dynamically; no reader-source links, biography, prerequisite or content quotas. CRT-007 stays local.
+
+## CRT-008 authoring, November 2, 2026
+
+The user found CRT-004 revision 1.1 better and requested continuation. [CRT-008](../lessons/CRT-008_One_Person_Two_Accounts_and_the_Correct_Review_Target.md) is complete locally. [Its record](revisions/CRT-008_Revision_Record.md) contains the brief prepared before drafting, thirteen source checks, actual coverage, example conditions and saved-file author review.
+
+The core question connects one identity with ordinary/administrator accounts, source/account identifiers, aggregation/correlation, different current needs, actual item scope and exact removal evidence. Required core recognition includes uncorrelated/shadow records and service/machine account ownership without inventing employee links or a universal reviewer fallback. The independent payments transfer exposes a completed operation on the wrong account and changes the subject to a scheduled job. The exact account target is a supplied condition; no one-item-per-account UI or separate-decision guarantee is taught.
+
+OQ-07 records contradictory profile-overlap guidance encountered during source checks. The lesson's direct-entitlement example excludes package/automatic requirements and does not depend on resolving that contradiction. Earlier questions remain open. CRT-004 1.1, CRT-007 and CRT-008 remain local. CRT-009 is reserved next; there is no new publication or learner-assessment claim.
+
+## CRT-001 local rewrite and scope correction, November 2, 2026
+
+The previous continuation moved to CRT-008 when the user expected the clearer style to be applied to earlier lessons as well. The user clarified the scope. [CRT-001 revision 1.1](../lessons/CRT-001_Why_Review_Previously_Approved_Access.md) is complete locally, with the prepared brief, source checks and preserved original teaching purposes recorded in [its new record](revisions/CRT-001_Revision_1_1_Record.md). CRT-002 is the next revision. This does not increase the authored-topic count or publish pending work. Historical authoring briefs above remain historical.

@@ -1,6 +1,6 @@
 # ISC Certifications teaching specification
 
-Version 1.0. October 29, 2026.
+Version 1.1. Updated October 31, 2026.
 Applies to every learner lesson, reference aid and later revision in this course.
 
 ## Audience and result
@@ -22,6 +22,10 @@ Prefer concrete verbs and explain unfamiliar nouns. A sentence can be grammatica
 Do not introduce long lists of unfamiliar objects before explaining the first useful relationship. Introduce a term when its purpose becomes visible, explain its plain meaning, then show what it does in the present situation.
 
 Do not use textbook-like definition blocks as a substitute for explanation, or technical-blog summaries as a substitute for the missing steps. Avoid inflated language, em dashes, canned conclusions and repeated negative comparisons.
+
+The CRT-004 reader feedback showed that definitions and technically accurate short sentences can still require repeated reading. Check the explanation itself: can the reader identify what information is present, who or what uses it, what changes and why? Where a sentence hides these steps behind phrases such as “represented access,” “applicable processing” or “proposed grant,” name the actual access, action or result. Explain one useful relationship before adding the next term. There is no fixed sentence length, paragraph count or lesson layout.
+
+Let familiar words carry the reasoning while retaining the correct ISC terms. After explaining provisioning, for example, connect it to adding the named permissions to the person's account. Do not repeatedly depend on the label alone. Complete an ordinary flow before introducing variations, while keeping the conditions needed for a truthful explanation next to the step they affect. If the causal explanation needs more space, expand it rather than remove depth.
 
 ## Independence without announcements
 
@@ -140,6 +144,7 @@ Before calling a lesson author-reviewed:
 1. Reconcile its intended coverage against the actual saved prose and relevant operational tasks.
 2. Verify technical claims and example conditions against primary sources.
 3. Read the entire saved lesson as an unfamiliar beginner, including its middle, ending and worked answers.
+   For each substantial passage, ask which exact person, record, input, decision or change its words refer to. Expand missing connections and replace abstract wording that requires the reader to translate the sentence before learning the concept. A term being defined is not evidence that its relationship to the other objects is clear.
 4. Resolve unexplained terms, skipped transitions, ambiguous actors, unsupported outcomes and unnecessary repetition.
 5. Check all values, identifiers, branches, tables, diagrams and worked reasoning agree.
 6. Test applicable file links and diagram/source correspondence; inspect publication rendering when available.

@@ -46,3 +46,17 @@ lessons:
     description: "Identify the actual review object and assignment origin, then connect the decision with its complete access scope."
     source: "lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.md"
     url: "/lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.html"
+  - id: CRT-007
+    module: review-access
+    placement: "Module 2 · Lesson 3"
+    title: "Why does some access appear differently or not appear at all?"
+    description: "Distinguish expected package or lifecycle representation from missing data, excluded access and different observation times."
+    source: "lessons/CRT-007_Why_Access_Appears_Differently_or_Is_Missing.md"
+    url: "/lessons/CRT-007_Why_Access_Appears_Differently_or_Is_Missing.html"
+  - id: CRT-008
+    module: review-access
+    placement: "Module 2 · Lesson 4"
+    title: "One person has two accounts. Which account's access is under review?"
+    description: "Connect exact account references, ownership, current need and verified access outcomes, including uncorrelated and service-account recognition."
+    source: "lessons/CRT-008_One_Person_Two_Accounts_and_the_Correct_Review_Target.md"
+    url: "/lessons/CRT-008_One_Person_Two_Accounts_and_the_Correct_Review_Target.html"

@@ -1,216 +1,221 @@
 # How is a certification different from an access request or lifecycle rule?
 
-A manager approves an access request. A month later, a reviewer approves access in a certification campaign. Another person receives access automatically because of their lifecycle state.
+Suppose a person needs to export reports for their work. They already have an account in the reporting application, but that account does not have permission to export reports.
 
-All three involve deciding what access a person should have. But they start with different information and answer different questions.
+They need a way to ask for that permission. Later, when their work changes, someone needs to check whether they should keep it. They may also receive other access automatically because they are an active employee.
 
-Let's connect each one with the work it is meant to do.
+These are different reasons for giving or checking access. Let's follow what happens in each case.
 
-## Start with the access someone needs
+## First, connect the person, the account and the permissions
 
-An **account** is a person's record in an application or system. **Access** is what that account is allowed to do.
+An **account** is the person's record in an application. **Access** means what that account is allowed to do. Having an account does not necessarily give the person every permission they need.
 
-SailPoint Identity Security Cloud (ISC) represents the person through an **identity**, which connects information about them with their accounts and access.
+SailPoint Identity Security Cloud, or **ISC**, keeps an **identity** for the person. This is ISC's record of that person. It connects information about them with their accounts and access. The identity in ISC and the account in the reporting application are separate records.
 
-An **entitlement** represents a particular access right, such as permission to view reports. An **access profile** groups related entitlements from one **source**. A source is ISC's configured representation of the system or account-data collection being managed.
+For our reporting task, two permissions are relevant. The permission reports-view allows the person to view reports. The permission reports-export allows them to export reports. ISC represents access rights like these as **entitlements**.
 
-For example, an access profile named Reporting Export contains reports-view and reports-export from a reporting source. Those entitlements allow viewing reports and exporting them.
+An administrator has grouped these two entitlements into a package named Reporting Export. In ISC, this kind of package is called an **access profile**. When the profile is made available for requests, a person can request the package instead of requesting each permission separately.
 
-The profile is a named package. Its name helps a person choose the access, while its contents determine the rights involved.
+The entitlements in an access profile come from one **source**. A source is a configuration in ISC used to collect and manage account data for a system or a collection of accounts. Here, the reporting source represents the reporting application's account data. The application itself is still where the person's account and working permissions exist.
 
-For the request below, the intended account is correctly associated with the identity. It does not yet have either permission. The profile is available for requests, and ISC's connection to the reporting system supports and is authorized to grant its access. There is no delayed start or additional activation needed.
+So Reporting Export is the package name. Viewing and exporting reports are the permissions inside it. We need to know both, because a decision about the package can affect both permissions.
 
-## An access request asks for a change
+## The person asks for access they need
 
-The person needs to export reports for an approved piece of work. They submit an **access request** for Reporting Export.
+The person's reporting account currently has neither permission. In ISC, that account is correctly linked to their identity, so ISC knows whose account it is.
 
-The request identifies what access is wanted and who should receive it. The person submitting it is the **requester**. The person receiving the access is the **recipient**. They are the same person in this example; supported requests for others can make them different.
+Reporting Export has been made available for requests. The person selects it and submits an **access request**. This records who needs access and which access they want.
 
-The request follows its configured approval process. An **approver** evaluates whether the requested access is appropriate for the recipient.
+The person submitting the request is the **requester**. The person who should receive the access is the **recipient**. Here, they are the same person. Where requesting for others is allowed, you can submit a request for someone else; you are then the requester, and the other person is the recipient.
 
-Here, the configured approver confirms the reporting need and approves the request.
+In this example, the request needs approval. ISC sends it through the approval process configured for that request. The **approver** checks whether the person needs the reporting permissions for their work and approves it.
 
-That approval accepts the proposed grant. ISC then uses the supported access-change process to provide the profile's entitlements to the recipient's account.
+The approver has now agreed that the person should receive this access. The application account has not necessarily received the permissions yet.
 
-**Provisioning** means changing access in systems. It includes granting access and removing it.
+ISC still needs to make the change in the reporting application. In this example, its connection to the application can add these permissions and is authorized to make that change. This request is for access that can start now, without the person having to activate it separately.
 
-In this example, the change succeeds: the account receives reports-view and reports-export. The person can perform the approved reporting work.
+Making a change to access in a system is called **provisioning**. Provisioning includes adding access and removing it. Here, the work is to add reports-view and reports-export to the recipient's reporting account.
 
-Notice the separate observations: the request was submitted, its required approval was obtained, and the account received the permissions. A record saying “approved” does not, by itself, establish that the grant succeeded in the application.
+Suppose that work succeeds. The account now has both permissions, and the person can view and export reports.
 
-The approval requirements come from configuration. Do not assume that every access request has the same approver or number of approval steps.
+There are therefore two results to check: the request was approved, and the account received the permissions. Seeing “approved” on the request tells you about the approval. To confirm that access was provided, check the result of the change and the permissions on the intended account.
 
-Requests can also ask for supported access removals. In that case, the requested change is to take access away, and the configured removal-approval process applies. A removal request and a certification review remain different records, even when both ultimately require removing the same access.
+The approval process can differ between requests. The organization's settings determine who must approve and which approval steps apply.
 
-## A certification asks about access the person already has
+An access request can also ask for access to be removed, where that removal is supported. That request follows its configured removal-approval process, if approval is required. So the purpose of an access request is broader than asking for new access: someone is asking for a particular access change.
 
-Now move forward. The person has stopped doing reporting work. The account still holds the requested Reporting Export profile.
+## Later, someone checks whether the access is still needed
 
-The earlier approval explained why the access was granted. It does not establish that the person needs it today.
+Now suppose the person has stopped doing reporting work. Their account still has the permissions that were granted earlier.
 
-An administrator includes the represented access in a **certification campaign**, an organized set of access reviews. A **certification** is one assigned review within that campaign. Its **reviewer**, also called the certifier, examines whether the access remains appropriate.
+The original request explains why they received access at that time. We now have a different question: should they keep it for the work they do today?
 
-A **review item** is the particular access presented for a decision with its person and account context.
+An administrator organizes access reviews in a **certification campaign**. The campaign brings together the access that needs to be reviewed and assigns the reviews to people.
 
-Here, the review item is the requested Reporting Export access profile. Its two entitlements are the contents of that package; we are not treating them as two separate, individually reviewable items.
+A **certification** is an assigned review within that campaign. The person responsible for making its review decisions is the **reviewer**, also called the certifier.
 
-The reviewer confirms that the person no longer needs either viewing or exporting reports. No separate automatic requirement or other access assignment is keeping this package for them.
+In this example, ISC has collected information showing the person's reporting access, and the campaign includes their Reporting Export profile. The reviewer sees that profile as a **review item**: the access they must make a decision about, shown with information about the person and their account.
 
-Those conditions support **Revoke**, a decision that the reviewed access should be removed.
+The reviewer checks what Reporting Export allows and whether the person still needs those permissions. Here, the reviewer confirms that the person no longer needs to view or export reports. We have also checked that nothing else in ISC requires this person to keep either permission.
 
-After the required review confirmation and applicable campaign processing, the resulting removal work must be carried out. **Remediation** means making the change needed to address the review decision. We still need evidence of the resulting access on the correct account.
+The reviewer selects **Revoke**. This records the decision that the reviewed access should be removed.
 
-Now change the current business need. If the person still has an approved responsibility requiring this reporting package, **Approve** accepts keeping that reviewed access.
+Selecting Revoke does not itself show that the reporting account has lost its permissions. The reviewer also needs to finish and confirm the review. This confirmation is called **sign-off**: the reviewer confirms that they have completed their decisions.
 
-Certification Approve does not ask ISC to grant an unrelated missing permission. The item concerns access represented for the review.
+The campaign's process determines when those decisions lead to removal work. Whatever the timing, the required change must then be carried out in the reporting application. Recording the decision and changing the account are separate steps.
 
-The same word, approval, therefore needs its context. Request approval accepts a proposed change. Certification approval accepts keeping the reviewed access under the conditions being assessed.
+You will see the term **remediation** for the work needed to act on a review decision. For this Revoke decision, remediation means carrying out the required removal. To confirm the outcome, check that the intended reporting account no longer has the permissions that should have been removed.
 
-## Check what the review item includes
+Now suppose the reviewer finds that the person still needs both permissions for their current work. In that case, **Approve** means the reviewer accepts that the person should keep the access being reviewed.
 
-Suppose the person no longer needs export but still needs to view reports.
+Notice what approval means in each situation. In the earlier access request, the approver agreed to give the person the requested access. In this certification, the reviewer agrees that the person should keep the access shown for review. A certification approval does not request an unrelated permission that the person is missing.
 
-That differs from our removal example, where neither right was needed.
+A request to remove access and a certification Revoke can both lead to removal. Their starting points are different: one begins with a submitted request for a change; the other begins with an assigned review of existing access. They remain separate records and processes.
 
-Here, nothing else grants the viewing permission. Removing Reporting Export would therefore remove that permission too. You cannot treat a decision about the whole profile as though it concerns only the entitlement whose name caught your attention.
+## What if only one permission is no longer needed?
 
-Establish how the approved viewing access will be preserved before treating removal of the whole package as the right outcome.
+Reporting Export contains permission to view reports and permission to export them. In our review, the profile is one item. The two permissions are its contents; they are not separate items with their own decisions here.
 
-The review item, its contents and the person's remaining need must agree. A familiar Revoke button does not make those questions disappear.
+Suppose the person still needs to view reports but no longer needs to export them.
 
-## Lifecycle-based access starts with a configured requirement
+If you revoke the whole profile, the removal concerns both permissions. In this example, nothing else in ISC requires the person to keep the viewing permission. Removing the package would therefore also take away viewing access the person still needs.
 
-Some access is intended for everyone who meets a defined business condition. It would be repetitive to ask each person to request it separately.
+Before choosing that outcome, establish how the person will keep the approved viewing access. An authorized administrator may need to arrange access that fits the remaining need. Check the effect of that arrangement together with the proposed removal. After all changes are complete, viewing should still be allowed and exporting should no longer be allowed. Do not assume that adding another package with the viewing permission guarantees that result.
 
-A **lifecycle state**, often shortened to **LCS**, represents a configured stage in the person's relationship with the organization, such as active employment or termination. The state can have configured access requirements and account actions.
+The question is therefore more specific than “Does this person need export?” You also need to ask, “What exactly will this decision remove, and what does the person still need?”
 
-A state can be calculated from mapped identity data or assigned by an authorized administrator. A **mapping** specifies how incoming information is used to set an identity value.
+## Some access is given because of the person's lifecycle state
 
-For example, a configured calculation can use personnel-status information to determine that the identity belongs in the active lifecycle state. That state has been enabled and configured to grant an Employee Portal access profile containing portal-use, permission to use the employee portal.
+Consider access to an employee portal. An organization may decide that everyone in a particular employment stage should receive this access. Asking every person to submit the same request would repeat work that the organization has already decided should happen automatically.
 
-**Identity processing** evaluates identity information and the applicable access configuration. With the state and profile correctly configured, ISC initiates the access work needed for that lifecycle requirement.
+ISC can represent a stage in the person's relationship with the organization through a **lifecycle state**, often shortened to **LCS**. Examples include active employment and termination. Administrators configure what access and account actions belong to a state.
 
-There is no separate personal request for the portal package in this example. The configured state requirement supplies the reason for the grant.
+For the portal example, the administrator has enabled an active lifecycle state. In that state's settings, they have selected an access profile named Employee Portal. It contains portal-use, the permission to use the employee portal.
 
-This is a form of **birthright access**: access assigned automatically under defined business conditions.
+That setting gives ISC an instruction: a person assigned to this state should receive Employee Portal.
 
-The label active alone does not tell you which access will be granted. You must inspect that state's configuration. One organization can require a portal package in its active state; another configuration can define different requirements.
+How does ISC know which state applies to the person?
 
-## Why can lifecycle-required access come back?
+One way is to use information received about them. A **mapping** tells ISC which incoming information to use for an identity value. Here, the mapping uses an employment-status field to set the person's lifecycle state. The supplied field value is active, and it matches the active state configured in ISC.
 
-Suppose the identity remains in the active state and Employee Portal is still one of that state's required access profiles.
+During **identity processing**, ISC evaluates the person's information and the related access settings. In this example, it uses the mapping to establish the active state. It then uses that state's settings to determine that the person should receive Employee Portal.
 
-Someone removes the portal access manually in the application. That changes the account, but it does not remove the lifecycle requirement in ISC.
+These are two connected decisions. The employment information helps determine the person's state. The settings for that state determine which access it requires.
 
-Lifecycle-granted access profiles are enforced while the state applies. Subsequent processing can generate provisioning work to restore the required profile. The actual application result still depends on the supported change path and successful delivery.
+ISC then initiates provisioning for the required profile. The person's portal account is available, and the connection supports granting the portal permission in this example. Suppose the change succeeds: the account now has portal-use.
 
-If the portal requirement itself is wrong, repeating manual removal leaves the instruction that caused the grant in place.
+The person did not submit a portal request. The reason for giving access came from the configured lifecycle state. Access given automatically under business conditions like this is called **birthright access**.
 
-Investigate whether the identity's state is correct and whether that state should require this package. An authorized correction belongs where the incorrect data, calculation or access requirement is defined.
+A mapping can include a calculation when the incoming information needs to be interpreted. An authorized administrator can also assign a lifecycle state manually. Whichever way a state is assigned, you still need to inspect that state's settings to understand its access effects.
 
-Do not generalize this into “every lifecycle action is continuously retried.” Account enable or disable actions have their own behavior; the access-profile enforcement described here does not establish a persistent retry rule for those account actions.
+The name active does not, by itself, mean “give Employee Portal.” That access is granted because the administrator configured this state to require that profile. Another configuration can use the same state name with different access requirements.
 
-## That also affects what a certification can review
+## Why can portal access return after someone removes it?
 
-Access profiles granted through the person's lifecycle state do not appear as individual profile items in these certifications. Their entitlements are not individually certifiable while they are included in that required profile, meaning they are not offered as separate review decisions.
+Suppose someone removes portal-use directly from the person's account in the portal application. The person remains in the active lifecycle state, and that state still requires Employee Portal.
 
-Our requested Reporting Export profile and lifecycle-required Employee Portal profile therefore have different review behavior because their assignments come from different places.
+The account has changed, but ISC's instruction has not changed. ISC still has a reason to provide the portal profile to this person.
 
-**Assignment origin** means how the person received the access: through a request, a lifecycle requirement or another supported path.
+Access profiles granted through a lifecycle state are enforced while that state applies. Later processing can generate provisioning work to restore the required access. Whether the account receives it successfully still depends on the connection and the result of that provisioning work. This does not mean the change is immediate.
 
-If Employee Portal is absent as an individual certification item, do not immediately conclude that the person lacks portal access. Check its assignment origin, current lifecycle state and the campaign's actual scope.
+If you are investigating access that returned, check the person's lifecycle state and whether it requires the profile. Then follow the recorded provisioning operation and the account result. This lets you establish whether the lifecycle requirement actually caused the restoration in the case you are investigating.
 
-A certification decision is not a way to rewrite the lifecycle requirement behind that access.
+If the requirement is wrong, repeatedly removing the permission from the application leaves its cause in place. Find out which part is wrong: the employment information, the mapping or calculation that determines the state, or the profile selected in the state's settings. Have the authorized person correct that part, then check the resulting state and access.
 
-The **access model** is the configured organization of access packages and assignment requirements. When the wrong requirement is causing access, the investigation must reach that configuration and the data it evaluates.
+For example, an incorrect employment-status value can lead ISC to assign the wrong state even when the mapping follows its configuration correctly. Changing a certification decision does not correct that incoming employment information.
 
-## These controls work alongside each other
+The continuing enforcement described here concerns lifecycle-required access profiles. Enabling or disabling an account is a different lifecycle action. Those actions execute once; they do not continuously retry to keep an account enabled or disabled. Do not assume that every action configured in a lifecycle state behaves like its required profiles.
 
-The first branch below follows an approved request for additional access. Removal requests are another request intention. The branches are separate starting points, not three stages that every access item passes through.
+## Why might the portal profile be missing from a certification?
+
+We now have two access profiles with different reasons for being assigned. Reporting Export came from an approved request. Employee Portal is required by the person's current lifecycle state.
+
+An **assignment** connects access to the person who receives it. How that assignment came about is called its **assignment origin**. Here, one came from a request and the other came from a lifecycle state. Checking the origin helps you understand which process controls that access.
+
+In these certifications, an access profile required by the person's current lifecycle state is left out of the review. Its entitlements are also not offered as separate review items while they are included in that required profile. The reviewer therefore does not get a separate Employee Portal item to approve or revoke in this example.
+
+The requested Reporting Export profile can be included for review. As before, the reviewer decides about that package as a whole.
+
+So the person can have working portal access without a separate portal profile item in the certification. An item missing from the review does not, by itself, tell you that the person lacks the access.
+
+For an actual missing item, check why the access was assigned and what the campaign was configured to include. A lifecycle requirement is one possible explanation; do not assume it explains every missing item.
+
+If the portal requirement is inappropriate, the investigation needs to reach the settings that require it and the information that puts the person in that state. A certification decision does not change those settings.
+
+You may hear these packages and assignment rules described together as the **access model**. Here, the relevant part of the access model is the instruction connecting the active lifecycle state to Employee Portal.
+
+## Put the three starting points side by side
+
+The diagram follows an approved reporting request, a review of existing reporting access and the configured portal requirement. Each flow has its own starting point.
 
 ```text
-A need for additional access
+Person needs reporting access
     |
     v
-Access request
+Reporting request is approved
     |
     v
-Approved grant work
+Start adding report permissions
 
-Existing reviewable access
+Person already has report access
     |
     v
-Certification decision
+Reviewer checks today's need
     |
     v
-Keep / require removal
+Decide whether to keep or remove
 
-Assigned lifecycle state
+Person is in the active state
     |
     v
-Configured requirements
+That state requires portal access
     |
     v
-State-based access work
+Start providing portal access
 ```
 
-Where a change is required, follow the actual access-change work and the account result. The diagram shows the reason for the work; it does not promise that a grant or removal has already succeeded.
+The last line of the request and lifecycle flows means that access-change work is initiated. To know whether access was provided, check the application's account. The certification flow ends with a decision; any required removal still needs to be carried out and checked.
 
-| Control | What starts the reasoning? | Main question | Record or configuration to inspect |
-|---|---|---|---|
-| Access request | A submitted request for a supported access change | Should this requested change be allowed? | Request, recipient, item, required approvals and resulting access work |
-| Certification | Generated review work for represented access | Should the person keep this reviewed access now? | Review item, person/account context, decision, confirmation and required follow-up |
-| Lifecycle-based access | An assigned state with configured requirements | What access does this state require under the current configuration? | State value, its data/calculation, configured requirements and resulting access work |
+These flows can all apply to the same person. Their active state can require portal access, a request can provide additional reporting access, and a later certification can check whether the reporting access is still needed. The flows are not three steps that every permission must pass through in order.
 
-A person's active lifecycle state can justify their portal access while a separate reporting request supplies project access. Later, a certification can question whether the requested reporting package should remain.
+| Process | Question it answers here | What you check |
+|---|---|---|
+| Access request | Should the person receive the reporting access they asked for? | Who should receive it, what was requested, required approval and whether the account received it |
+| Certification | Should the person keep the reporting access they already have? | What the review item contains, today's need, the review decision and confirmation, and any required removal result |
+| Lifecycle-based access | What access should the person's current state provide? | The assigned state, the information used to set it, its required profiles and the resulting account access |
 
-The portal requirement does not establish a continuing need for every additional permission on the person's accounts. The reporting request's original approval does not settle today's review. Each control contributes a different part of the access decision.
+For a supported removal request, the first question changes to whether the requested access should be taken away. It is still a request for a change, rather than a periodic review decision.
 
-## Use the starting question to choose what to inspect
+## Use the problem to decide where to look
 
-Someone says, “The person needs reporting access but does not have it.”
+If someone says, “I need reporting access, but I don't have it,” first check how that access can be requested or assigned under the organization's process. If a request already exists, follow its approval and provisioning result. Approving an unrelated certification item will not supply the missing permission.
 
-You first need a supported way to request or assign that access under the organization's process. A certification approval is not a substitute for a missing grant request.
+If someone says, “This access was approved six months ago, so approve it again,” ask what work requires it now. The earlier approval may have been correct. Today's review still needs today's reason for keeping it.
 
-Someone says, “This was approved six months ago, so approve it again.”
+If someone says, “The portal permission returned after I removed it,” check the assignment origin and the current state's requirements, then verify the actual restoration work. Removing a permission and removing the reason ISC must provide it are different changes.
 
-Ask what work requires the access now. The historic request and the current review answer questions about different times and conditions.
+Finally, suppose someone suggests changing an active employee to an inactive state just to remove one project permission. First check whether that state would describe the person correctly. A lifecycle state can affect other access and account actions as well. Find the assignment responsible for the project permission, and use the appropriate process to address that access. Making the person's state inaccurate can introduce other incorrect access changes.
 
-Someone says, “I removed the portal permission, but ISC added it back.”
+## Work through a different pair of permissions
 
-Inspect the access requirement and assignment origin. If the current lifecycle state still requires Employee Portal, that requirement explains why ISC can generate restoration work. Verify the actual operation and account result rather than assuming every reappearance has this cause.
+A person has access to approve supplier invoices in a payments application. They received it through an approved request for an access profile named Invoice Approval. That profile contains invoice-approve, the permission to approve those invoices.
 
-Now suppose the underlying personnel status is wrong.
+They also have Employee Portal access through their active lifecycle state. Its portal-use permission lets them use the employee portal.
 
-A correctly configured calculation can produce the wrong business result from inaccurate input. Establish the correct personnel information and authorized correction, then verify the resulting state and access behavior. Changing a review decision does not repair the personnel record.
+The person is still actively employed and needs the portal, but their work no longer includes invoice approval. The reviewer has confirmed that invoice approval is no longer needed.
 
-Finally, someone says, “Move this person into an inactive state so one project permission goes away.”
+The campaign includes an Invoice Approval review item. There is no separate Employee Portal profile item. The account information and lifecycle state are correct, and no other assignment requires the invoice-approval permission.
 
-Check whether the proposed state actually describes the person. It may affect much more access than that one project permission. Identify the assignment responsible for the project access instead of falsifying the person's lifecycle information to obtain a narrow result.
+Someone proposes approving Invoice Approval because its original request was approved. Someone else proposes changing the person to an inactive state to remove access.
 
-## Try it with two different access packages
+What would you do instead? Explain which access should change, which information should stay as it is, and what would prove the change happened.
 
-An identity holds these packages:
+Start with Invoice Approval. The original request explains why the person received it. The reviewer has now confirmed that the person no longer needs it. These facts support Revoke for that review item, followed by review confirmation and the required removal work.
 
-- Invoice Approval was granted through an approved request. It provides invoice-approve, permission to approve supplier invoices through the person's payments-system account.
-- Employee Portal is granted by the identity's active lifecycle state. It provides portal-use.
+Next, check the lifecycle state. The person is still actively employed, so the supplied active state remains correct. Changing it to remove the invoice permission would make that information inaccurate and could affect other configured access. The invoice permission came from its separate request; address that access through the appropriate review and removal process.
 
-The person remains actively employed and still needs the portal. Their work has changed, and an appropriate reviewer confirms that invoice approval is no longer needed.
+The portal profile is required by the current state. That explains why it is not a separate profile item in this review. The missing review item does not mean the person's portal access is missing, and the supplied facts give no reason to remove it.
 
-A campaign contains an individually reviewable Invoice Approval item. There is no separate Employee Portal profile item. The account and identity information are accurate, and no other assignment requires invoice-approve.
+Finally, follow the invoice-removal work to the person's payments account. Confirm that invoice-approve has actually been removed. If all you have is a recorded Revoke decision, you know what the reviewer decided; you do not yet know that the account lost the permission.
 
-Two suggestions are made: approve Invoice Approval because its original request was approved, or change the lifecycle state to inactive.
-
-Which suggestion follows the facts? What should you inspect and verify?
-
-Neither suggestion follows.
-
-The current review asks about today's invoice-approval need. The supplied evidence supports Revoke for the requested Invoice Approval package, followed by the required review confirmation and applicable removal work. The original approval explains the earlier grant.
-
-The active lifecycle state remains correct. Changing it to remove one unrelated requested package would make the identity information inaccurate and could affect its other configured access behavior.
-
-Employee Portal's lifecycle origin explains why it is not a separate profile decision in this example. Its absence is not evidence that the portal grant is missing.
-
-To establish the invoice-removal outcome, follow the actual change for invoice-approve on the intended payments-system account and verify its resulting access. Keep that evidence separate from the correct portal requirement.
-
-If the proposed Revoke has only been recorded, the supplied facts do not yet establish that account-level removal happened.
+Now change one fact: the reviewer finds that the person's current work still requires invoice approval. With that need established, Approve can be appropriate. The reason is the current work that needs the permission. The old request alone would not have answered that question.

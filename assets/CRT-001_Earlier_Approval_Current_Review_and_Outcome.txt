@@ -1,13 +1,21 @@
-[Earlier approval]
-[Export needed for the work]
+Earlier: export needed for work
+        |
+        v
+Access was approved
 
-[Current review]
-[Export no longer needed]
-              |
-[Revoke decision]
-              |
-[Required review finalization]
-[Applicable removal work]
-              |
-[Application account checked]
-[reports-export is absent]
+Today: export no longer needed
+        |
+        v
+Reviewer records Revoke
+        |
+        v
+Finish and confirm the review
+        |
+        v
+Carry out required removal
+        |
+        v
+Check the application account
+        |
+        v
+Export permission is absent

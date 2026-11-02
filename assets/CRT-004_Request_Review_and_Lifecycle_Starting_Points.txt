@@ -1,23 +1,23 @@
-A need for additional access
+Person needs reporting access
     |
     v
-Access request
+Reporting request is approved
     |
     v
-Approved grant work
+Start adding report permissions
 
-Existing reviewable access
+Person already has report access
     |
     v
-Certification decision
+Reviewer checks today's need
     |
     v
-Keep / require removal
+Decide whether to keep or remove
 
-Assigned lifecycle state
+Person is in the active state
     |
     v
-Configured requirements
+That state requires portal access
     |
     v
-State-based access work
+Start providing portal access

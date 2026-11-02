@@ -1,6 +1,6 @@
 # Capability, update and open-question register
 
-Version 1.6. October 31, 2026.
+Version 1.8. November 2, 2026.
 Source leads: [official source map](../AUTHOR_SOURCE_MAP.md).
 Purpose: stop unsupported current/legacy/availability claims entering lessons.
 
@@ -32,7 +32,13 @@ The original CAP-01–14 scoping rows date to October 29, 2026; later dated auth
 | CAP-12 | Manual/automatic fulfillment, overlap and failures | Verify source write permission, supported operation, actual task assignment and grant paths. | [Reviewer guidance](https://documentation.sailpoint.com/saas/user-help/certs/reviewing/index.html), [Completion](https://documentation.sailpoint.com/saas/help/certs/completing_campaigns.html), scoping checked. | CRT-033–037/046 |
 | CAP-13 | Notifications, deadlines, reports and retirement | Verify settings/state/engine and which report is available when; do not treat status/report fields as universal. | [Completion](https://documentation.sailpoint.com/saas/help/certs/completing_campaigns.html), [Reports](https://documentation.sailpoint.com/saas/help/certs/campaign_status_reports.html), scoping checked. | CRT-038–044 |
 | CAP-14 | Specialist capability and rich context | Core recognition is required; exact licensed/phased behavior checked before deeper route claims. | [Search](https://documentation.sailpoint.com/saas/help/certs/starting_search_campaign.html), [Reviewer guidance](https://documentation.sailpoint.com/saas/user-help/certs/reviewing/index.html), scoping checked. | CRT-008/015/027/031; X-01–05 |
-| CAP-15 | Source/account data, schema and identity association | Source-supported collection, account versus catalog data, correct correlation and observation time; no universal connector contract or refresh duration. | [Account loading](https://documentation.sailpoint.com/saas/help/accounts/loading_data.html), [schemas](https://documentation.sailpoint.com/saas/help/accounts/schema.html), [correlation](https://documentation.sailpoint.com/saas/help/accounts/correlation.html), freshly checked October 30, 2026 with CRT-005. | CRT-005/008/009/010/019/045 |
+| CAP-15 | Source/account data, schema and identity association | Source-supported collection, account versus catalog data, correct correlation and observation time; no universal connector contract or refresh duration. | [Account loading](https://documentation.sailpoint.com/saas/help/accounts/loading_data.html), [schemas](https://documentation.sailpoint.com/saas/help/accounts/schema.html), [correlation](https://documentation.sailpoint.com/saas/help/accounts/correlation.html), refreshed November 2, 2026 for CRT-008's account-specific teaching; earlier CRT-005 check remains historical. | CRT-005/008/009/010/019/045 |
+
+## CRT-008 authored application, November 2, 2026
+
+[CRT-008's record](revisions/CRT-008_Revision_Record.md) documents thirteen primary checks. CAP-15 supplies exact account/source/identifier context, multiple accounts on one identity, collection, correlation and observation time. CAP-04/12 support the scoped direct-entitlement decision and actual target result. CAP-14 supplies recognition of conditional uncorrelated and machine-account review routes. CAP-02's Experimental limitation applies to the two inspected next-generation read API references; no request, response payload or universal tenant capability is claimed.
+
+The main example confirms the precise account-specific target before following removal. It does not assert that every UI item maps to one account or permits a separate decision for each account. The service-account section distinguishes responsible human ownership from a personal login and supplies no universal reviewer fallback. Source comparison discovered OQ-07 below. Seven product questions remain open; this bounded learner does not require their resolution.
 
 ## Open questions
 
@@ -43,6 +49,8 @@ The original CAP-01–14 scoping rows date to October 29, 2026; later dated auth
 | OQ-03: Exact tenant capability and permission matrix | No target tenant, entitlement/license inventory or actual user-level test has been supplied or inspected. | Teach verified documented conditions. Identify prerequisites per affected lesson; do not claim screenshots or behavior observed in a tenant. |
 | OQ-04: Exhaustive current-update coverage | Ten primary scoping sources have been reviewed; this is not a release-by-release completeness audit. A discoverable announcement FAQ failed direct retrieval in the earlier check. | Recheck authoritative release information during authoring/publication, maintain the change log below and record unavailable evidence. Do not promote roadmap/search snippets to released behavior. |
 | OQ-05: Manual-task recipient scope | Certification Understanding guidance names the source owner; the general provisioning overview says manual entitlement tasks go to the entitlement owner with source-owner fallback. Their process/engine scope relationship has not been established here. | Inspect actual task assignment in CRT-003; verify the exact certification path before CRT-034 recipient/routing claims. No universal owner rule is inferred. |
+| OQ-06: Role-filter selection unit | The filter guide introduces a Role criterion in terms of roles but its examples describe role-member identity inclusion/exclusion. The exact object/subject effect for the supported engine/type is not established here. | Before CRT-017/018/045 role-filter unit claims, verify scoped documentation or explicitly permitted generated evidence. CRT-007 uses only the supported single-entitlement exclusion and does not infer a universal role-filter model. |
+| OQ-07: Overlapping access-profile entitlement removal | On November 2, 2026, the reviewer guide says a common entitlement is retained when revoking one of two profiles, while the access-profile administration guide says overlapping entitlements between profiles are revoked. The process/engine/assignment scope explaining the difference has not been established. | Before CRT-035/046 or specialist overlap outcomes, verify the exact assignment, operation and engine with authoritative evidence. CRT-004 1.1 promises no shared-permission protection; CRT-008 excludes package/automatic requirements from its account-specific example and verifies actual account results. [Reviewer guide](https://documentation.sailpoint.com/saas/user-help/certs/reviewing/index.html), [profile administration](https://documentation.sailpoint.com/saas/help/access/access-profiles.html). |
 
 These questions affect particular claims. They do not block writing the verified purpose and business reasoning in CRT-001.
 
@@ -89,6 +97,14 @@ CRT-006 revision 1.0 develops CAP-04's object/origin/eligibility foundation and 
 Requested role Approve/Revoke, automated criteria role Acknowledge, requested/detected profile eligibility and role/LCS containment are explained with supplied conditions. Acknowledge is not an override/removal action. The overview continues to place composition in the legacy experience. No full role-change propagation, dynamic-dimension, activation, unsigned-completion or manual-recipient procedure is inferred.
 
 OQ-01–05 remain open. No exhaustive release or tenant-availability conclusion is added. CRT-006 is author-reviewed locally, actual learner validation pending and publication unperformed; CRT-001 through CRT-005 are published/live-verified. Earlier authored-application publication states are historical.
+
+## CRT-007 authored application, October 31, 2026
+
+CRT-007 revision 1.0 develops CAP-04 origin/containment/eligibility with bounded CAP-06 selection, CAP-07 generation context, CAP-09 assignment/view context and CAP-15 collected values/association. Nine current primary references are mapped in [its author record](revisions/CRT-007_Revision_Record.md). The active authorized main review produces three supplied units from four rights; no universal count or implicit certification of lifecycle requirements is claimed.
+
+The single-entitlement exclusion is documented. Role-filter unit wording is separately recorded in OQ-06 instead of generalized. OQ-01–05 remain unresolved, and no finality, manual recipient, automatic refresh or full permission matrix is inferred. A current source grant can postdate the data used for generation; actual timing and intended observation scope must be established before correction.
+
+CRT-007 is author-reviewed locally, actual learner validation pending and publication unperformed. CRT-001 through CRT-006 are published/live-verified; earlier authored-application states are historical. No exhaustive release or tenant-result claim is added.
 
 ## Update log and authoring protocol
 

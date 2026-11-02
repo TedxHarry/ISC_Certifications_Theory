@@ -1,0 +1,21 @@
+Check source/account values
+  Missing -> collection
+  Present
+     |
+     v
+Check identity association
+  Wrong -> ownership
+  Correct
+     |
+     v
+Check origin and containment
+     |
+     v
+Check scope and filters
+     |
+     v
+Check generated contents,
+time and assigned review
+     |
+     v
+Compare item and action

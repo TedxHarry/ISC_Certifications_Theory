@@ -1,9 +1,11 @@
 # ISC certifications: operational task coverage
 
-Planning revision 1.7. October 31, 2026.
-Companion to [course design 2.9](COURSE_DESIGN.md).
-Status: coverage committed for authoring. CRT-001 revision 1.0 develops the purpose/current-need foundation for task 1 and introduces supporting access/decision/outcome meanings. CRT-002 adds object/actor and evidence-unit foundations for tasks 7/8/9/10/14. CRT-003 adds a connected data/review/removal/evidence trace supporting tasks 2/7/14/17/18/19/21/22. CRT-004 develops the purpose/control comparison and supports tasks 1/13/14/17/20. CRT-005 develops source-data/ownership foundations supporting tasks 2/7/13/21/22. CRT-006 develops review-object/assignment-scope foundations supporting tasks 3/13/14/20/21. Detailed remaining task mechanics remain planned. Actual learner performance has not been validated.
+Planning revision 1.9. November 2, 2026.
+Companion to [course design 3.3](COURSE_DESIGN.md).
+Status: coverage committed for authoring. CRT-001 revision 1.0 develops the purpose/current-need foundation for task 1 and introduces supporting access/decision/outcome meanings. CRT-002 adds object/actor and evidence-unit foundations for tasks 7/8/9/10/14. CRT-003 adds a connected data/review/removal/evidence trace supporting tasks 2/7/14/17/18/19/21/22. CRT-004 develops the purpose/control comparison and supports tasks 1/13/14/17/20. CRT-005 develops source-data/ownership foundations supporting tasks 2/7/13/21/22. CRT-006 develops review-object/assignment-scope foundations supporting tasks 3/13/14/20/21. CRT-007 develops appearance/absence diagnosis supporting tasks 2/7/12/13/14. Detailed remaining task mechanics remain planned. Actual learner performance has not been validated.
 Authoring must follow the [teaching specification](TEACHING_SPECIFICATION.md) and reconcile each completed task against its saved lesson record.
+
+CRT-008 now develops exact account/ownership foundations for tasks 2/7/13/14/17/18/19/21/22: distinguish repeated-looking access on different accounts, confirm the actual decision/operation target and verify both intended removal and retained approved access. Its uncorrelated and machine/service sections develop required X-02/X-03 recognition, not full dedicated campaign procedures. [The author record](author/revisions/CRT-008_Revision_Record.md) reconciles the saved teaching and independent wrong-account transfer. This is authored task support, not demonstrated production competence or an observed learner pass.
 
 This map gives routine work an explicit place. It is not a statistical ranking of customer task frequency. Planning labels remain provisional. Change lesson boundaries if a task needs a clearer independent explanation.
 
@@ -73,6 +75,8 @@ A deeper route may be essential for a particular job. Its separate placement kee
 [CRT-005 author record](author/revisions/CRT-005_Revision_Record.md) maps account field interpretation/collection and identity association to task 2, the actual generated relationship to task 7, field/catalog/ownership mismatches to task 13, current-versus-old account evidence to task 21, and the records/times supporting an explanation to task 22. It does not complete campaign acceptance, reporting, multiple-account governance or remediation procedures.
 
 [CRT-006 author record](author/revisions/CRT-006_Revision_Record.md) supports task 3 (assignment versus composition intent), 13 (contained access absence), 14 (object/current-need scope), 20 (origin-controlled retention) and 21 (all affected source-account outcomes). Complete composition governance, overlap troubleshooting and delivery procedures remain with their primary topics.
+
+[CRT-007 author record](author/revisions/CRT-007_Revision_Record.md) supports task 2 (actual data/ownership), 7 (expected versus generated unit), 12 (assignment/state/allowed-action context), 13 (missing/different items) and 14 (appropriate review unit/action). Its single entitlement exclusion does not complete full filter composition, scope acceptance, permission matrices or campaign correction procedures.
 
 ## Evidence of learning
 

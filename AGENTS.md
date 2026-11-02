@@ -8,6 +8,8 @@ The user's latest instructions take priority. For lesson work, use TEACHING_SPEC
 
 A request to continue this course normally means the next complete learner lesson named in COURSE_REGISTER.md, with its necessary assets and author record. Do not skip ahead, create lesson stubs or claim that planned topics are authored.
 
+The user clarified on November 2, 2026 that the improved CRT-004 explanation must be applied to all existing lessons. While the revision queue in COURSE_REGISTER.md is active, continue with its next complete lesson revision before authoring a new topic. Preserve the already revised CRT-004 and current-style CRT-008 unless a specific gap needs correction. A revision does not increase the authored-topic count. Do not resume CRT-009 merely because it is the next unwritten topic.
+
 Prepare the next lesson's brief and primary-source checks before writing. Keep a lesson independently understandable through locally explained terms and connected reasoning. No fictional company or continuing character, no reader-facing teaching-method commentary, no external source citations in learner lessons, no fixed content quotas.
 
 Preserve the distinction between planned coverage, documentation verification, simulated beginner author review, actual learner validation and publication. Never claim a tenant test or observed learner result that did not occur.
