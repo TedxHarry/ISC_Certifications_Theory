@@ -2,7 +2,7 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-Thirteen lessons are complete and author-reviewed. CRT-001 through CRT-007 are revision 1.1; CRT-008 through CRT-013 are revision 1.0. The earlier explanation rewrite pass is complete. The user authorized publishing all saved work on November 11, 2026; deployment and live verification are pending.
+Thirteen lessons are complete and author-reviewed. CRT-001 through CRT-007 are revision 1.1; CRT-008 through CRT-013 are revision 1.0. The earlier explanation rewrite pass is complete. All saved work was pushed and published on November 11, 2026. GitHub Pages deployment succeeded, and the full live-content check passed for all thirteen learners.
 
 The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/). The separate general ISC course is unchanged.
 
@@ -41,6 +41,6 @@ The reader keeps the collapsible side panel and independently collapsible module
 
 ## Publication
 
-The user first authorized this separate repository and Pages site on October 30, 2026. The latest verified snapshot before the current publication is [the November 2 eight-lesson record](author/PUBLICATION_2026-11-02_EIGHT_LESSONS.md). The new [thirteen-lesson publication record](author/PUBLICATION_2026-11-11_THIRTEEN_LESSONS.md) records this task's scope and actual checks; deployment evidence is added after execution.
+The user first authorized this separate repository and Pages site on October 30, 2026. The [November 2 eight-lesson record](author/PUBLICATION_2026-11-02_EIGHT_LESSONS.md) preserves the earlier snapshot. The latest [thirteen-lesson publication record](author/PUBLICATION_2026-11-11_THIRTEEN_LESSONS.md) records content commit 470c4a5008b7d6d6724cf16ce57c9c4e64fabd5d, successful deployment and full live verification of thirteen lessons, diagrams and assets, fifteen tables, 206 internal link visits and representative author-content exclusions.
 
 Earlier local-only statements in dated per-lesson records describe their historical authoring stages. Current publication status belongs in this README, the course register and the latest publication record.

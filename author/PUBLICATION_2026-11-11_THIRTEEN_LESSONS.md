@@ -20,7 +20,7 @@ A pre-task SHA-256 inventory protects earlier learner, asset and per-lesson reco
 
 ## Deployment status
 
-Prepared for local verification. No new successful deployment or live thirteen-lesson result is claimed at this stage.
+Published. Content commit 470c4a5008b7d6d6724cf16ce57c9c4e64fabd5d was pushed to origin/main. [Pages run 43024965366](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/43024965366) completed successfully, including build and deployment. The full live verification passed afterward.
 
 ## Executed prepublication checks
 
@@ -29,3 +29,13 @@ Four reader navigation tests passed with all thirteen manifest entries and three
 Structural verification passed: 82 authored/site files, 52 Markdown documents, 294 resolving relative links, 93 consistent table groups with 1229 rows, closed fences, 112 working meanings, seven open questions and the same 50 ordered planned topics. No CRT-014 learner stub exists. Tracked whitespace checks passed.
 
 All pre-task learner, asset and per-lesson record hashes remain unchanged; only the four new CRT-013/publication files were added alongside ten current metadata/manifest changes. Reader implementation, stylesheet, tests, configuration and previous historical publication records are preserved. These checks do not claim live rendering or learner assessment.
+
+## Live verification and checker correction
+
+The complete live run passed for thirteen lessons, 1555 normalized content units, thirteen exact inline/editable diagrams, fifteen tables, thirteen text assets, CSS and 206 internal link visits. Four representative author/control paths returned 404. Published text matches the local reviewed learners.
+
+The first live run failed on CRT-013's italic word holding: the page correctly used an em element, but the checker expected literal single asterisks. A direct fetch confirmed status 200, the correct paragraph text and correct emphasis HTML. The existing live assertion supplied the failing regression. The author-only verifier's inline normalization was minimally corrected for single-asterisk emphasis; rerunning the same full live check passed. All four navigation tests also passed afterward. Learner content was not changed to satisfy the check.
+
+The follow-up includes current publication/status documents and this author-only verifier correction, all excluded from Pages. Learners, editable assets, per-lesson records, manifest, reader implementation, stylesheet, configuration and navigation tests retain their content-commit hashes. This is automated live-content/navigation evidence, not a new graphical review, tenant test or participant assessment. CRT-014 remains next.
+
+Follow-up structural checks passed for 82 authored/site files, 52 Markdown documents, 300 resolving relative links and 93 consistent table groups containing 1230 rows. All 50 protected learner/asset/per-lesson-directory files, including markers, retain their content-commit hashes. Only seven excluded author/current-status files changed. The same full live verifier passed after its correction; tracked whitespace checks passed before the follow-up commit.

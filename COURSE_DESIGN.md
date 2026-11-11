@@ -2,9 +2,9 @@
 
 Course design 4.5. November 11, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: thirteen topics are authored and author-reviewed. CRT-001 through CRT-007 are revision 1.1; CRT-008 through CRT-013 are 1.0. Publication of all completed work is authorized and being verified. CRT-014 is the next new topic.
+Status: thirteen topics are authored and author-reviewed. CRT-001 through CRT-007 are revision 1.1; CRT-008 through CRT-013 are 1.0. All completed work is pushed, published and live-verified on November 11. CRT-014 is the next new topic.
 
-Current priority: publish and verify the thirteen-lesson snapshot, then prepare CRT-014's brief and source checks before drafting one complete lesson. Thirty-seven candidate topics remain unwritten.
+Current priority: prepare CRT-014's brief and source checks before drafting one complete lesson. Thirty-seven candidate topics remain unwritten.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
@@ -292,7 +292,7 @@ Each authored lesson needs a coverage record, primary-source check, complete sav
 
 ## Delivery plan and next step
 
-The user authorized establishing the local authoring foundation on October 29, 2026. The folder ISC_Certifications_Theory now contains the teaching specification, progress register, author workflow and first brief, coverage/terminology records, capability/update register and routine task map. Thirteen learners are authored; the user has authorized publishing all completed work to the separate repository and Pages site. Deployment and live verification are pending.
+The user authorized establishing the local authoring foundation on October 29, 2026. The folder ISC_Certifications_Theory now contains the teaching specification, progress register, author workflow and first brief, coverage/terminology records, capability/update register and routine task map. Thirteen learners are authored, published and live-verified in the separate repository and Pages site. See [the November 11 publication record](author/PUBLICATION_2026-11-11_THIRTEEN_LESSONS.md) for the exact snapshot and executed checks.
 
 Use [README](README.md) to navigate the package and [COURSE_REGISTER](COURSE_REGISTER.md) to resume. Write one complete learner lesson at a time with its necessary reference aids, author record and saved-file checks.
 
@@ -349,3 +349,7 @@ On November 11, 2026 CRT-003 was rewritten locally under teaching specification 
 ## CRT-013 authored, November 11, 2026
 
 [CRT-013](lessons/CRT-013_Starting_with_People_or_Access_Items.md) is complete at revision 1.0. [Its record](author/revisions/CRT-013_Revision_Record.md) reconciles COV-11 selection meaning, eight primary references, local term explanations, the two-path diagram and independent requested-role transfer. Both creation routes retain a later access choice; standalone/container conditions and reviewer responsibility are kept distinct. Thirteen topics are authored, 37 remain unwritten and CRT-014 is next. All saved work is authorized for publication; deployment evidence is recorded after execution. Independent learner assessment remains pending.
+
+## Thirteen-lesson publication, November 11, 2026
+
+All thirteen learners and the five earlier local rewrites are pushed and live-verified. Content 470c4a5008b7d6d6724cf16ce57c9c4e64fabd5d deployed successfully in [Pages run 43024965366](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/43024965366). Live checks passed for 1555 content units, thirteen diagrams/assets, fifteen tables, 206 internal link visits, CSS and representative author/control exclusions. [Publication evidence](author/PUBLICATION_2026-11-11_THIRTEEN_LESSONS.md) distinguishes this from learner assessment or graphical review. CRT-014 remains next; 37 candidate core topics remain unwritten.

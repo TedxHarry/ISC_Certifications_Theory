@@ -113,11 +113,11 @@ An unfamiliar reader can explain why review is needed, what is being reviewed, w
 
 The saved lesson contains complete connected prose, useful reasoning/transfer, consistent supplied conditions and no biography, prerequisite announcement, source URLs or invented tenant results. The author record is complete; actual learner validation is separately pending unless it has really occurred.
 
-## Current priority: publish and then prepare CRT-014
+## Current priority: prepare CRT-014
 
-CRT-013 is complete at revision 1.0 with its editable diagram and author record. Thirteen topics are authored and 37 remain unwritten. The user authorized pushing all completed work on November 11; update the manifest, run checks, deploy and verify live content before recording publication as complete. Preserve earlier learners/assets and historical evidence.
+CRT-013 is complete at revision 1.0 with its editable diagram and author record. Thirteen topics are authored and 37 remain unwritten. All completed work was pushed and live-verified on November 11; see [publication evidence](PUBLICATION_2026-11-11_THIRTEEN_LESSONS.md). Preserve earlier learners/assets and historical evidence.
 
-After publication, prepare the brief and current primary-source checks for CRT-014, Do we need to review everyone selected, or only particular access they hold? Develop the actual access-refinement mechanism without repeating CRT-013's full campaign-orientation comparison. No CRT-014 learner file exists yet. Apply teaching specification 1.1 dynamically, with no fixed content quotas or independent learner-understanding claim without observed evidence.
+Prepare the brief and current primary-source checks for CRT-014, Do we need to review everyone selected, or only particular access they hold? Develop the actual access-refinement mechanism without repeating CRT-013's full campaign-orientation comparison. No CRT-014 learner file exists yet. Apply teaching specification 1.1 dynamically, with no fixed content quotas or independent learner-understanding claim without observed evidence.
 
 ## Repository and publication stage
 

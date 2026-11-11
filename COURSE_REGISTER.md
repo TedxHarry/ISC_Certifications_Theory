@@ -5,7 +5,7 @@ Version 3.6. Updated November 11, 2026.
 
 ## Current position
 
-CRT-013 is complete locally at revision 1.0. Thirteen topics are authored and 37 remain unwritten. CRT-001 through CRT-007 are 1.1; CRT-008 through CRT-013 are 1.0. The user authorized publishing all completed files on November 11. The thirteen-entry manifest is prepared; deployment and live verification are pending. CRT-014 is the next new topic.
+CRT-013 is complete at revision 1.0. All thirteen authored learners are pushed, published and live-verified on November 11. CRT-001 through CRT-007 are 1.1; CRT-008 through CRT-013 are 1.0. The existing rewrite pass is complete. Thirty-seven candidate topics remain unwritten; CRT-014 is next.
 
 | Item | Actual state |
 |---|---|
@@ -23,7 +23,7 @@ CRT-013 is complete locally at revision 1.0. Thirteen topics are authored and 37
 | Current author evidence | [CRT-013 record](author/revisions/CRT-013_Revision_Record.md); people/access-object selection, separate access scope, equal-count differences, package boundaries and requested-role transfer; learner assessment pending |
 | Feature currency | Source scoping checks recorded; exhaustive release audit and per-lesson verification not complete |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
-| GitHub / publication | All completed files authorized for publication; thirteen-entry manifest prepared. Deployment/live verification pending; November 2 remains the last verified snapshot |
+| GitHub / publication | All thirteen learners published and live-verified; [publication evidence](author/PUBLICATION_2026-11-11_THIRTEEN_LESSONS.md); content 470c4a5, successful Pages run 43024965366 |
 | Other ISC course | Separate and unchanged by this setup |
 
 ## Resume order
@@ -37,12 +37,12 @@ The existing-lesson revision pass below is complete. Continue with CRT-014 as th
 | Lesson | Current explanation status | Next action |
 |---|---|---|
 | CRT-001 | Rewritten and published at 1.1 | Preserve; learner feedback pending |
-| CRT-002 | Rewritten locally at 1.1 | Preserve; revised learner feedback pending |
-| CRT-003 | Rewritten locally at 1.1 | Preserve; revised learner feedback pending |
+| CRT-002 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
+| CRT-003 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
 | CRT-004 | Rewritten and published at 1.1; user reports it is better | Preserve the revised lesson |
-| CRT-005 | Rewritten locally at 1.1 | Preserve; revised learner feedback pending |
-| CRT-006 | Rewritten locally at 1.1 | Preserve; revised learner feedback pending |
-| CRT-007 | Rewritten locally at 1.1 | Preserve; revised learner feedback pending |
+| CRT-005 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
+| CRT-006 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
+| CRT-007 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
 | CRT-008 | Authored in the current style with author review | Preserve; no learner assessment claimed |
 
 No earlier lesson remains in this revision pass. CRT-009 through CRT-013 are complete as new topics; CRT-014 is next. Thirty-seven current candidate topics remain unwritten. A rewrite is not an additional topic, and author review is not independent learner validation.
@@ -63,18 +63,18 @@ These states are independent facts. A source check does not imply learner valida
 | Planning ID | Learning question | Writing state | Author review | Actual learner validation | Publication |
 |---|---|---|---|---|---|
 | CRT-001 | Why review access that somebody already approved? | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
-| CRT-002 | A campaign, a certification and a review item: what is being assigned? | Complete local revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.0; 1.1 local only |
-| CRT-003 | Follow one review from access data to a verified outcome | Complete local revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.0; 1.1 local only |
+| CRT-002 | A campaign, a certification and a review item: what is being assigned? | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
+| CRT-003 | Follow one review from access data to a verified outcome | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
 | CRT-004 | How is a certification different from an access request or lifecycle rule? | Complete revision 1.1 | Fresh source checks, coverage reconciliation and saved-file language/flow review complete | User reports 1.1 better; independent assessment pending | Published revision 1.1 |
-| CRT-005 | How does application access become information ISC can review? | Complete local revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.0; 1.1 local only |
-| CRT-006 | Are we reviewing an entitlement, an access profile or a role? | Complete local revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.0; 1.1 local only |
-| CRT-007 | Why does some access appear differently or not appear at all? | Complete local revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.0; 1.1 local only |
+| CRT-005 | How does application access become information ISC can review? | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
+| CRT-006 | Are we reviewing an entitlement, an access profile or a role? | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
+| CRT-007 | Why does some access appear differently or not appear at all? | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
 | CRT-008 | One person has two accounts. Which account's access is under review? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
-| CRT-009 | Can the reviewer understand what this access actually permits? | Complete local revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Not published |
-| CRT-010 | How do we establish that the review population is complete? | Complete local revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Not published |
-| CRT-011 | When is a manager review the right choice? | Complete local revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Not published |
-| CRT-012 | When should source owners review access? | Complete local revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Not published |
-| CRT-013 | Start with people or start with access items? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Publication authorized; pending deployment |
+| CRT-009 | Can the reviewer understand what this access actually permits? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
+| CRT-010 | How do we establish that the review population is complete? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
+| CRT-011 | When is a manager review the right choice? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
+| CRT-012 | When should source owners review access? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
+| CRT-013 | Start with people or start with access items? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-014 | Do we need to review everyone selected, or only particular access they hold? | Reserved next; no learner file | Not reviewed | Not tested | Not published |
 | CRT-015 | Which campaign design answers this business question? | Planned; not written | Not reviewed | Not tested | Not published |
 | CRT-016 | What does this search actually select for the campaign? | Planned; not written | Not reviewed | Not tested | Not published |
@@ -147,8 +147,9 @@ The design owns the current module placement and topic descriptions. This table 
 | November 11, 2026 | Authored CRT-010 revision 1.0 locally | Independent baseline versus complete generated people/account/access, equal-count mismatch, package/route/time and retrieval/report limits, warehouse three-account transfer; author/local checks recorded, learner assessment pending; ten authored and 40 unwritten; no push |
 | November 11, 2026 | Authored CRT-011 revision 1.0 locally | Manager current-need knowledge, source-to-manager match and actual review assignment, dedicated/Search missing-manager differences, stale/changed relationships and warehouse transfer; author/local checks recorded, learner assessment pending; eleven authored and 39 unwritten; no push |
 | November 11, 2026 | Authored CRT-012 revision 1.0 locally | Source-owner question, ownership and actual assignment, included-source prerequisites, current need, package/account boundaries and warehouse changed-owner/new-source transfer; author/local checks recorded, learner assessment pending; twelve authored and 38 unwritten; no push |
-| November 11, 2026 | Authored CRT-013 revision 1.0; publication authorized | People versus access-object selection, separate access choice, supplied equal-count mismatch, containers and role-holder transfer; thirteen authored, 37 unwritten, CRT-014 next; deployment pending |
+| November 11, 2026 | Authored CRT-013 revision 1.0; publication authorized | People versus access-object selection, separate access choice, supplied equal-count mismatch, containers and role-holder transfer; thirteen authored, 37 unwritten, CRT-014 next; source/author checks complete |
+| November 11, 2026 | Published all thirteen learners and earlier rewrites | Content 470c4a5; Pages run 43024965366 succeeded; live text/diagrams/tables/assets, 206 internal link visits and author exclusions passed; [publication record](author/PUBLICATION_2026-11-11_THIRTEEN_LESSONS.md); CRT-014 next |
 
 ## Next action
 
-Publish and live-verify all thirteen completed learners and the five earlier explanation rewrites under the user's November 11 instruction. Then prepare CRT-014's brief and relevant primary-source checks before its complete learner: Do we need to review everyone selected, or only particular access they hold? Preserve earlier learners, assets and historical evidence. Thirteen topics are authored; 37 candidate topics remain unwritten. No CRT-014 stub exists.
+All completed work is published and live-verified. Prepare CRT-014's brief and relevant primary-source checks before its complete learner: Do we need to review everyone selected, or only particular access they hold? Preserve earlier learners, assets and historical evidence. Thirteen topics are authored; 37 candidate topics remain unwritten. No CRT-014 stub exists.

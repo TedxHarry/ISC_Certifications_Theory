@@ -2,7 +2,7 @@
 
 Authoring source reference 4.5. Updated November 11, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant action, test campaign or provisioning change was performed. Thirteen learners and the earlier five rewrites are complete and authorized for publication. Deployment and live verification are pending. CRT-014 is next; dated evidence below remains historical.
+No tenant action, test campaign or provisioning change was performed. All thirteen completed learners and the earlier five rewrites are pushed, published and live-verified on November 11. CRT-014 is next; dated evidence below remains historical.
 
 ## Primary source map
 
@@ -289,3 +289,7 @@ Ten primary references support scoped product claims; same-day object/data/revie
 [CRT-013](lessons/CRT-013_Starting_with_People_or_Access_Items.md) and [its record](author/revisions/CRT-013_Revision_Record.md) develop people-first versus access-first selection, actual returned record types, a separate all/refined-access decision and generated-result checks. Search creation, Understanding Certifications and query-building passages were reopened. Five same-day supporting profile/role/reviewer/account references are reused within scope. The Search page still marks phased availability. No exact query/API/limit contract, role-filter interpretation or universal grouping is inferred.
 
 The main comparison and requested-role transfer preserve object definitions versus holdings, exact source references and container restrictions. All seven product questions remain open. Thirteen topics are authored and 37 unwritten; CRT-014 is next. The user authorized publication of all saved work. See the separate publication record for executed deployment evidence when available.
+
+## Thirteen-lesson publication evidence, November 11, 2026
+
+Content 470c4a5008b7d6d6724cf16ce57c9c4e64fabd5d was pushed and built successfully in [Pages run 43024965366](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/43024965366). The full live verifier passed for thirteen learners, 1555 content units, thirteen diagrams/assets, fifteen tables, 206 internal link visits, CSS and representative author exclusions. The initial live failure was a verifier bug: single-asterisk emphasis was not normalized, although the page correctly rendered the emphasized word. The author-only checker was corrected; the actual learner files were preserved and the full live run then passed. [Publication record](author/PUBLICATION_2026-11-11_THIRTEEN_LESSONS.md) records evidence. No independent learner result, tenant execution, graphical inspection or exhaustive release audit is implied.

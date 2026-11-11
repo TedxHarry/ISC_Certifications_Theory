@@ -9,7 +9,7 @@ const config = parse(await read("_config.yml"));
 const live = process.argv.includes("--live");
 const base = config.url + config.baseurl;
 const normalize = s => s.normalize("NFKC").replace(/[‘’]/g,"'").replace(/[“”]/g,'"').replace(/[–—]/g,"-").replace(/\s+/g," ").trim();
-const inline = s => normalize(s.replace(/\*\*|\x60/g,""));
+const inline = s => normalize(s.replace(/\*\*|\x60/g,"").replace(/\*([^*\n]+)\*/g,"$1"));
 const assetNames = (await readdir(new URL("assets/",root))).filter(n=>n.endsWith(".txt"));
 const assets = await Promise.all(assetNames.map(async n=>[n,(await read("assets/"+n)).trimEnd()]));
 const fetched = new Map();
