@@ -1,0 +1,15 @@
+Selected source/account/access
+              |
+              v
+Correct collected relationships
+and reviewable items
+              |
+              v
+Source-owner reviewer rule
+uses recorded source owner
+              |
+              v
+Generated certification
+              |
+              v
+Inspect contents AND assignee

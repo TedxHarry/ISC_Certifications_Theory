@@ -1,6 +1,6 @@
 # Authoring guide and lesson briefs
 
-Version 2.5. November 2, 2026.
+Version 3.5. November 11, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
@@ -113,11 +113,11 @@ An unfamiliar reader can explain why review is needed, what is being reviewed, w
 
 The saved lesson contains complete connected prose, useful reasoning/transfer, consistent supplied conditions and no biography, prerequisite announcement, source URLs or invented tenant results. The author record is complete; actual learner validation is separately pending unless it has really occurred.
 
-## Current priority: revise CRT-002
+## Current priority: publish and then prepare CRT-014
 
-The user clarified that the improved explanation applies to all lessons, including those already written. New-topic authoring is paused. CRT-001 is now rewritten and published at 1.1; preserve the accepted CRT-004 1.1 and current-style CRT-008. Rewrite CRT-002 next, then CRT-003, CRT-005, CRT-006 and CRT-007, one complete file at a time. CRT-009 is the next unwritten topic, parked until the revision queue is complete or the user changes the priority.
+CRT-013 is complete at revision 1.0 with its editable diagram and author record. Thirteen topics are authored and 37 remain unwritten. The user authorized pushing all completed work on November 11; update the manifest, run checks, deploy and verify live content before recording publication as complete. Preserve earlier learners/assets and historical evidence.
 
-For each rewrite, compare the full saved lesson and its original coverage record, preserve all needed concepts and distinctions, refresh affected source claims, prepare a brief before drafting, update its actual diagram and create a separate dated revision record. Do not silently rewrite historical checks or claim independent learner understanding. Keep publication separate. Apply teaching specification 1.1 dynamically; no fixed section, example or visual counts.
+After publication, prepare the brief and current primary-source checks for CRT-014, Do we need to review everyone selected, or only particular access they hold? Develop the actual access-refinement mechanism without repeating CRT-013's full campaign-orientation comparison. No CRT-014 learner file exists yet. Apply teaching specification 1.1 dynamically, with no fixed content quotas or independent learner-understanding claim without observed evidence.
 
 ## Repository and publication stage
 
@@ -288,3 +288,61 @@ The previous continuation moved to CRT-008 when the user expected the clearer st
 ## Eight-lesson publication, November 2, 2026
 
 The user's push instruction published the complete saved snapshot: CRT-001/004 1.1 and the other six learners 1.0. [Publication evidence](PUBLICATION_2026-11-02_EIGHT_LESSONS.md) records the successful Pages deployment and live comparison. The manifest lists all eight authored learners. No new topic or rewrite was added while publishing. Continue with CRT-002's complete local revision; new-topic authoring remains paused and historical local-stage evidence stays historical.
+
+## CRT-002 explanation revision, November 11, 2026
+
+[CRT-002 revision 1.1](../lessons/CRT-002_Campaigns_Certifications_and_Review_Items.md) is complete locally. [Its new record](revisions/CRT-002_Revision_1_1_Record.md) preserves the prepared brief, five refreshed primary-source checks, coverage reconciliation and saved author review. One item leads to assigned review work and campaign organization, with explicit target/actor/progress distinctions and the original P/Q/R transfer. Four earlier lessons remain to revise. No topic was added and no push occurred.
+
+## CRT-003 explanation revision, November 11, 2026
+
+[CRT-003 revision 1.1](../lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md) is complete locally. [Its separate record](revisions/CRT-003_Revision_1_1_Record.md) contains the pre-drafting brief, ten current source references, original-coverage reconciliation and saved author review. The revision follows the same permission through source data, identity association, generated work, current-need judgment, confirmation, actual removal work, automatic/manual change and verified target/refreshed ISC evidence. The original two-account wrong-task-note transfer remains. CRT-005 is next; three earlier lessons remain to revise. No topic, commit or publication was added.
+
+## CRT-005 local explanation revision, November 11, 2026
+
+[CRT-005 revision 1.1](../lessons/CRT-005_From_Application_Access_to_Reviewable_Information.md) is complete locally. [Its new record](revisions/CRT-005_Revision_1_1_Record.md) preserves the prepared brief, eight primary-source references, all 26 original teaching purposes and saved-file author review. Account fields lead through schema interpretation and collection to separate entitlement details, correct identity association and selected review work. Reprocessing limits, observation times and the original payments-field transfer remain. Two earlier lessons remain to revise: CRT-006 next, then CRT-007. New-topic writing remains paused. No topic, commit or publication was added.
+
+## CRT-006 local explanation revision, November 11, 2026
+
+[CRT-006 revision 1.1](../lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.md) is complete locally. [Its new record](revisions/CRT-006_Revision_1_1_Record.md) preserves the prepared brief, eight reopened sources, all 25 original purposes and saved-file author review. Concrete permissions lead through a one-source package and cross-source role to the scope of this person's decision. Requested/detected/automatic origins, Acknowledge, containment, shared composition and the payments partial-need transfer remain. CRT-007 is the one remaining rewrite; no new topic or publication was added.
+
+## CRT-007 local explanation revision, November 11, 2026
+
+[CRT-007 revision 1.1](../lessons/CRT-007_Why_Access_Appears_Differently_or_Is_Missing.md) is complete locally. [Its new record](revisions/CRT-007_Revision_1_1_Record.md) preserves the prepared brief, nine primary references, all 24 original purposes and saved-file author reading. Package/origin/action, actual scope/filter, account data/ownership, assigned views and observation times lead to distinct next checks. The four-right example and uncertain archive transfer remain. This completes the earlier-lesson rewrite pass. CRT-009 is next; no new learner topic or publication was added.
+
+## CRT-009 authored locally, November 11, 2026
+
+[CRT-009](../lessons/CRT-009_Understanding_What_Access_Actually_Permits.md) is complete at revision 1.0. [Its author record](revisions/CRT-009_Revision_Record.md) contains the prepared brief, seven primary references, saved COV-08 teaching, example/term reconciliation and complete author reading. The finance description and independent Basic Support profile explain actual capability before current-need judgment, including owner, package, privilege/metadata and correction limits. Nine topics are authored and 41 unwritten. CRT-010 is next; no learner assessment or publication is claimed.
+
+## CRT-010 authored locally, November 11, 2026
+
+[CRT-010](../lessons/CRT-010_Checking_That_the_Review_Population_Is_Complete.md) is complete at revision 1.0. [Its record](revisions/CRT-010_Revision_Record.md) contains the pre-drafting brief, ten primary references, saved COV-09/term/example reconciliation and complete author reading. Three expected versus three actual finance relationships expose missing/unexpected records; the warehouse transfer distinguishes people counts, exact accounts, profile scope, assigned views and later grants. Ten topics are authored and 40 unwritten. CRT-011 is next; no publication or learner pass is claimed.
+
+## CRT-011 authored locally, November 11, 2026
+
+[CRT-011](../lessons/CRT-011_When_a_Manager_Review_Is_the_Right_Choice.md) is complete at revision 1.0. [Its record](revisions/CRT-011_Revision_Record.md) contains the pre-drafting brief, eight primary references, saved coverage/term/example reconciliation and full author reading. Manager knowledge is connected to permissions and present duties, while manager reference, configured match, actual relationship and generated assignment remain separate. The two missing-manager routes and stale-manager transfer preserve state/permission/self-review limits. Eleven topics are authored and 39 unwritten. CRT-012 is next; no publication or learner pass is claimed.
+
+## CRT-012 authored locally, November 11, 2026
+
+[CRT-012](../lessons/CRT-012_When_Source_Owners_Should_Review_Access.md) is complete at revision 1.0. [Its record](revisions/CRT-012_Revision_Record.md) contains the prepared brief, ten primary references, actual coverage/example/term reconciliation and full author reading. Source-focused capability judgment uses current-work evidence, with ownership separated from actual assignee, platform authority and later removal. The warehouse transfer tests changed owner and broadened source scope without inventing automatic repair or missing-owner fallback. Twelve topics are authored and 38 unwritten. CRT-013 is next; no publication or learner pass is claimed.
+
+## CRT-013 author brief, November 11, 2026
+
+Working title: Start with people or start with access items?
+Reserved learner: lessons/CRT-013_Starting_with_People_or_Access_Items.md.
+Preparation state: brief and primary checks prepared before drafting. Completed revision 1.0 during the user's instruction to continue and publish all completed work; [learner](../lessons/CRT-013_Starting_with_People_or_Access_Items.md) and [record](revisions/CRT-013_Revision_Record.md).
+
+Purpose: develop COV-11's people-first/access-first selection and COV-10's campaign orientation. Explain what kind of record is selected, which people result, which access is subsequently included and why equal counts can conceal different populations. Routine task foundations: 1/3/4/7/13. CRT-014 retains detailed access refinement; CRT-016/017/018 retain exact query/filter construction and combination.
+
+Normal example: identities 501/502 have Finance department values, 503 Operations. Correctly linked Reporting accounts rep-501/502/503 hold respectively VIEW+EXPORT, VIEW, EXPORT. Identity 502 also has Case Management account case-502 with CASE.READ. Meanings are supplied from the applications. All are individually reviewable standalone entitlements, outside profiles/roles/lifecycle requirements; no detected profile or exclusion changes the supplied example. Collected values and department information agree with the supplied current observations. A suitable authorized reviewer outside this population is held constant; grouping is not inferred.
+
+People selection yields 501/502; exact Reporting RPT.EXPORT selection yields 501/503. Both later choose Certify All Access: supplied generated contents contain four versus three named permission holdings. Trace the identity/account/item differences, not a universal row/count algorithm. The starting export object is not automatically the final access-only boundary. If the requirement is only Finance export holders, both conditions matter.
+
+Explain identity, source, account, entitlement, query/results, access profile, role, standalone/container, population, refinement, preview and assigned reviewer where needed. A query returning identities remains a people selection even when its condition concerns access. Object definitions and people's holdings are distinct; source and stable reference identify repeated labels.
+
+One editable diagram shows two selection routes joining the access-scope decision and actual generated-work check. It is a reasoning/dependency guide, not undocumented backend implementation or exact execution order.
+
+Independent transfer: requested Production Deploy role held by identities 701 (employee) and 702 (contractor); 701 additionally holds a separate Reports View profile. Review only that role's holdings for all its holders. An employee-only selection misses 702, one role definition is not one holder, and all-access can introduce the separate profile. Changed case: 703 holds a component permission outside the role, so equivalent capability does not establish role membership. Explain role composition separately from reviewing people's role holdings.
+
+Primary checks before draft: Search campaign creation reopened November 11 for both selection routes, all/specific results, subsequent all/refined access, standalone/container notes, route-dependent reviewers, preview versus start and phased availability. Understanding Certifications reopened for review eligibility and assignment-origin distinctions. Search query-building reopened for categories, fields, nested access conditions and selected-record meaning; no exact syntax or limit contract taught. Same-day profile/role/account/reviewer checks from preceding records support locally reintroduced meanings within their stated scope. All seven product questions remain unresolved.
+
+Acceptance: complete connected beginner explanation, correct main and changed examples, independent worked reasoning, explained editable diagram, saved-file read-through and source/coverage record. No learner URLs, story, method announcement, guessed tenant outcome or fixed layout quota. Publication follows actual checks and deployment; learner assessment remains pending.

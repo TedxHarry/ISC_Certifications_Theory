@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 2.0. November 2, 2026.
+Version 3.0. November 11, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -96,7 +96,11 @@ The local [CRT-001 revision 1.1 record](revisions/CRT-001_Revision_1_1_Record.md
 
 [The CRT-002 record](revisions/CRT-002_Revision_Record.md) locates each actual teaching purpose. No exact permission matrix, algorithm for grouping reviews, report counter formula or engine finality policy is claimed.
 
+The local [CRT-002 revision 1.1 record](revisions/CRT-002_Revision_1_1_Record.md) preserves these meanings with a clearer one-item-to-review-to-campaign explanation. Scope, generation and starting are existing campaign concepts, explained where used; no distinct working term is added or removed. The current register remains at 94 working meanings. An author review is not evidence that an independent learner has mastered the vocabulary.
+
 [CRT-003](../lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md) explains source, connector/integration, account aggregation, correlation, entitlement, generated review item, assigned certification, reviewer, scope/start, Approve/Revoke, sign-off, remediation, provisioning and target system as parts of one trace. It distinguishes collection from granting access, reading from writing, accepted work from account change, and historical review data from refreshed account evidence.
+
+Its local [revision 1.1 record](revisions/CRT-003_Revision_1_1_Record.md) records the clearer contextual explanations and preserved process. No distinct working term is added or removed; the register remains at 94 meanings. A term is connected with its input/action/result where used rather than treated as sufficient explanation by itself.
 
 [The CRT-003 record](revisions/CRT-003_Revision_Record.md) locates this supporting teaching and its evidence cases. Detailed term owners remain responsible for configuration and engine-specific behavior. A new target-system working row records the exact-account meaning used here.
 
@@ -175,3 +179,68 @@ When a lesson is authored, add the actual teaching location to its author record
 Introduce abbreviations with their plain meaning in each lesson that depends on them. Important examples include ISC, API and lifecycle state (LCS); do not create an acronym solely to shorten a one-time mention.
 
 New terms may be added when a real explanation needs them. Avoid growing a glossary with unrelated IAM material or exposing these author tables as a preliminary vocabulary test.
+
+## CRT-005 explanation revision, November 11, 2026
+
+[Its new revision 1.1 record](revisions/CRT-005_Revision_1_1_Record.md) records the clearer explanations of attributes/schema, identifiers, multi-valued memberships, aggregation, entitlement details/type, correlation and review objects. Each meaning connects to the example's record or operation before being used in the flow. All existing meanings and owners remain; no distinct working term was added or removed. The register remains at 94 meanings. Author reading is not an observed learner vocabulary assessment.
+
+## CRT-006 explanation revision, November 11, 2026
+
+[Its revision 1.1 record](revisions/CRT-006_Revision_1_1_Record.md) locates the clearer entitlement/profile/role, definition/assignment/origin, membership criteria, detection, Acknowledge, lifecycle, composition/owner and removal-work meanings. Existing identity processing and attribute meanings are connected to the concrete workFunction comparison where needed. No distinct term or primary owner changed; the register remains at 94 working meanings. Author reading is not an independent learner vocabulary assessment.
+
+## CRT-007 explanation revision, November 11, 2026
+
+[Its new revision 1.1 record](revisions/CRT-007_Revision_1_1_Record.md) locates the clearer encapsulation, assignment-origin, certifiable-access, campaign-filter, collected-account/correlation and platform-permission meanings. Held permission, package, actual item and allowed action are connected in prose before the diagnosis relies on them. Campaign scope receives its local existing meaning; no distinct term or primary owner changed. The register remains at 94 working meanings. Completion of the rewrite pass does not establish an observed learner vocabulary pass.
+
+## Access meaning and descriptions authored in CRT-009
+
+| Term | Working meaning and connection | Teaching location |
+|---|---|---|
+| Display name | A readable entitlement label; source and identifying value remain necessary for exact access context. | CRT-009 |
+| Entitlement description | Text explaining the actual access capability, relevant scope/data and verified boundaries; editing it in ISC does not change source permissions. | CRT-009 |
+| Business purpose | The work access is intended to support, distinct from this person's current need; not a guaranteed ISC field. | CRT-009 |
+| Metadata | Information describing an access object; configured access fields differ from identity attributes and are not automatically all visible to reviewers. | CRT-009/027 |
+| Privileged access | Access to sensitive actions or information; inspect actual capability and context, not only an account name or flag. | CRT-009/027; supporting account context in CRT-008 |
+| Privilege classification | Categorization of entitlement privilege through configured methods or manual handling; not proof of this person's need or absence of risk when unset. | CRT-009/027; X-04 |
+
+[CRT-009's record](revisions/CRT-009_Revision_Record.md) maps these six added meanings to connected explanations and examples. Existing access-owner, source-owner, attribute, package, catalog, action and recommendation/flag meanings are locally reintroduced. The register now has 100 distinct working meanings; no earlier term is removed. Actual learner vocabulary assessment remains pending.
+
+## Population comparison authored in CRT-010
+
+| Term | Working meaning and connection | Teaching location |
+|---|---|---|
+| Review population | The people, accounts and access intended for a review, under an explicit scope and observation time. | CRT-010/013/014 |
+| Expected baseline | Evidence-supported list of relationships that should be accounted for, independently checked against the business requirement. | CRT-010/021 |
+| Reconciliation | Comparing actual records and explaining missing and unexpected relationships, not merely matching totals. | CRT-010/021 |
+| Coverage gap | Intended review content not adequately accounted for; a label or progress percentage does not establish resolution. | CRT-010/021/045 |
+
+[CRT-010 record](revisions/CRT-010_Revision_Record.md) locates these four new meanings and the locally reintroduced pagination, preview, query/refinement/filter, collection/correlation and review-unit meanings. The register now has 104 distinct working meanings. No earlier meaning is removed, and no observed learner vocabulary result is claimed.
+
+## Manager-review foundations authored in CRT-011
+
+| Term | Working meaning and connection | Teaching location |
+|---|---|---|
+| Manager review | Manager assessment of current access need for supervised people's work; reliable technical meaning and actual assignment are still needed. | CRT-011 |
+| Manager relationship | The link identifying one identity as another identity's manager; distinguish source reference and generated reviewer assignment. | CRT-011/022/023 |
+| Manager correlation | Configured matching of an employee account's manager reference with an attribute of the intended manager identity. | CRT-011/023 |
+| Identity profile | Settings for establishing/maintaining identities from source data, including identity attribute mappings; distinct from an access package. | CRT-011; source-data support |
+| Reviewer fallback | Alternative review responsibility when the normal reviewer cannot be determined; actual handling is campaign-route specific and does not establish expertise. | CRT-023; supporting CRT-011 |
+
+[CRT-011 record](revisions/CRT-011_Revision_Record.md) maps these five new meanings to the source value, unique identity match, actual assignment and worked transfer. Existing account correlation/aggregation, attribute, identity processing, campaign objects, creator, package/rule, preview, sign-off and reassignment meanings remain locally understandable. The register now has 109 distinct working meanings. No earlier meaning is removed or independent learner result claimed.
+
+## Source-owner review authored in CRT-012
+
+| Term | Working meaning and connection | Teaching location |
+|---|---|---|
+| Source-owner review | Review of access within selected sources using appropriate source-owner responsibility and expertise, with actual assignment and current need verified. | CRT-012 |
+
+[CRT-012 record](revisions/CRT-012_Revision_Record.md) locates the new meaning and primary explanation of the existing source-owner term. Existing access-owner, reviewer, campaign object, source/connector/account, collection/correlation, package/rule, population, preview and reassignment meanings are explained locally. The register now has 110 distinct working meanings; none is removed and no observed learner vocabulary pass is claimed.
+
+## Selection orientation authored in CRT-013
+
+| Term | Working meaning and connection | Teaching location |
+|---|---|---|
+| Identity-oriented selection | Choose person identity records first, then determine which of their access belongs in the campaign. | CRT-013 |
+| Access-item-oriented selection | Choose access definitions first to identify included holders; a later access choice determines what is reviewed for those people. | CRT-013 |
+
+[CRT-013 record](revisions/CRT-013_Revision_Record.md) maps these two meanings and locally explained query/result type, all versus specific selection, object definition versus holding, entitlement/profile/role, standalone/container, refinement, preview and reviewer. There are now 112 distinct working meanings. No earlier meaning is removed or observed learner vocabulary pass claimed.

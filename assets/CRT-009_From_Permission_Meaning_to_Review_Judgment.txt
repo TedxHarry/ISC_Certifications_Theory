@@ -1,0 +1,14 @@
+Application capability
+        |
+        v
+Confirmed item meaning
+        |
+        v
+What this access allows
+        |
+        +----------+
+                   v
+             Review judgment
+                   ^
+                   |
+          Person's current need

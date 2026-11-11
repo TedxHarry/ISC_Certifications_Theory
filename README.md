@@ -2,47 +2,45 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-This workspace contains the approved course direction and the authoring foundation. Learner lessons are written one complete file at a time. CRT-001 through CRT-008 are written and author-reviewed. All eight lessons are published and live-verified: CRT-001/004 revision 1.1, and CRT-002/003/005/006/007/008 revision 1.0. The separate [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/) are live.
+Thirteen lessons are complete and author-reviewed. CRT-001 through CRT-007 are revision 1.1; CRT-008 through CRT-013 are revision 1.0. The earlier explanation rewrite pass is complete. The user authorized publishing all saved work on November 11, 2026; deployment and live verification are pending.
 
-The clearer explanation applies to every existing and future lesson. New-topic writing is paused while the earlier lessons are revised one at a time. [CRT-001 revision 1.1](lessons/CRT-001_Why_Review_Previously_Approved_Access.md) is the latest published rewrite; [its record](author/revisions/CRT-001_Revision_1_1_Record.md) preserves the original coverage and separates author checks from learner assessment. CRT-004's accepted revision and current-style CRT-008 are preserved. CRT-002 is next in the [revision queue](COURSE_REGISTER.md).
+The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/). The separate general ISC course is unchanged.
 
 ## Start here
 
-- [Course design and provisional contents](COURSE_DESIGN.md): purpose, learning outcomes, 50 candidate topics and job-dependent depth.
-- [Teaching specification](TEACHING_SPECIFICATION.md): required explanation, tone, independence and quality standards.
-- [Course register](COURSE_REGISTER.md): what is actually written, reviewed and next.
-- [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md): 24 routine task families mapped to planned topics.
-- [Authoring guide and first lesson brief](author/AUTHORING_GUIDE.md): how to produce and review the next complete lesson.
-- [Coverage register](author/COVERAGE_REGISTER.md): concept ownership, flows, evidence and overlap checks.
-- [Terminology register](author/TERMINOLOGY_REGISTER.md): consistent meanings and primary teaching locations.
-- [Capability and update register](author/CAPABILITY_AND_UPDATE_REGISTER.md): engine/availability checks and unresolved product questions.
-- [Official source map](AUTHOR_SOURCE_MAP.md): scoping references and their limits.
-
-## Working structure
-
-- lessons/: completed learner lesson Markdown files only; no unwritten-lesson stubs.
-- assets/: editable diagrams and reference aids produced when needed.
-- author/revisions/: per-lesson coverage, source, example, review and verification records.
-
-The empty-directory markers are repository housekeeping, not learner content.
+- [Course design and provisional contents](COURSE_DESIGN.md): learning outcomes, 50 candidate topics and five job-dependent specialist routes.
+- [Teaching specification](TEACHING_SPECIFICATION.md): clear explanation, mentor voice, local meanings and content-driven structure.
+- [Course register](COURSE_REGISTER.md): actual writing, review, publication and next lesson.
+- [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md): 24 routine task families and their planned teaching locations.
+- [Authoring guide](author/AUTHORING_GUIDE.md): briefs, source checks, saved-file reading and continuation.
+- [Coverage register](author/COVERAGE_REGISTER.md): actual concept ownership and overlap boundaries.
+- [Terminology register](author/TERMINOLOGY_REGISTER.md): 112 consistent working meanings.
+- [Capability and update register](author/CAPABILITY_AND_UPDATE_REGISTER.md): engine/availability checks and seven unresolved product questions.
+- [Official source map](AUTHOR_SOURCE_MAP.md): primary references, dated checks and limits.
 
 ## Current position
 
-Authoring foundation established October 29, 2026.
-Candidate core topics: 50, grouped provisionally into 10 modules.
-Specialist depth routes: 5, required where the learner's role needs them.
-Learner lessons written and author-reviewed: 8, CRT-001/004 at 1.1 and the other six at 1.0. All eight current revisions are published and live-verified. The user's feedback on CRT-004 1.1 is positive; independent learner assessment remains pending.
-Latest authored learner: [CRT-008, One person has two accounts. Which account's access is under review?](lessons/CRT-008_One_Person_Two_Accounts_and_the_Correct_Review_Target.md).
-Current revision: [CRT-001](lessons/CRT-001_Why_Review_Previously_Approved_Access.md), revision 1.1, published.
-Next task: rewrite CRT-002, then CRT-003/005/006/007. Five revisions remain. CRT-009 is the next unwritten topic and is parked until the revision pass is complete.
-Forty-two current candidate topics remain unwritten; the inventory can change with coverage needs.
+Latest learner: [CRT-013, Start with people or start with access items?](lessons/CRT-013_Starting_with_People_or_Access_Items.md), revision 1.0. [Its author record](author/revisions/CRT-013_Revision_Record.md) covers selection, resulting people, later access scope, package boundaries and the independent role-holder transfer.
 
-Module and lesson counts are flexible. Preserve complete coverage and clear explanation as the structure develops.
+Next: prepare the brief and source checks for CRT-014, Do we need to review everyone selected, or only particular access they hold? No CRT-014 learner stub exists.
+
+Thirteen of the 50 provisional core topics are authored; 37 remain unwritten. Counts and module boundaries can change to preserve coverage and understanding. Five specialist routes remain job-dependent planned depth, not five completed lessons.
+
+The user reported that CRT-004 revision 1.1 was better after difficulty reading 1.0. Independent uncoached assessment remains pending. Source checks and author review do not establish learner mastery, tenant execution or exhaustive release currency.
+
+## Files and reader
+
+- lessons/: complete learner Markdown files, one topic at a time.
+- assets/: editable teaching diagrams, paired with their learner explanations.
+- author/revisions/: historical per-lesson coverage, sources, assumptions and actual checks.
+- _data/course.yml: available reader lessons, now CRT-001 through CRT-013 in three modules.
+
+Run npm ci, npm test and node author/verify-site.mjs for local checks. After deployment, node author/verify-site.mjs --live checks published content, diagrams, tables, links, assets and representative author-content exclusions.
+
+The reader keeps the collapsible side panel and independently collapsible modules. Author/control documents are excluded from Pages. This publication changes the available lessons, not the reader implementation.
 
 ## Publication
 
-The user authorized repository creation and GitHub Pages publication on October 30, 2026. This folder is the separate ISC_Certifications_Theory repository, with its own origin remote. Pages deployment and live verification are recorded in [the initial publication record](author/PUBLICATION_2026-10-30_INITIAL.md), [the CRT-002/003 publication record](author/PUBLICATION_2026-10-30_CRT-002_CRT-003.md), [the CRT-004 publication record](author/PUBLICATION_2026-10-30_CRT-004.md), [the CRT-005 publication record](author/PUBLICATION_2026-10-31_CRT-005.md), [the CRT-006 publication record](author/PUBLICATION_2026-10-31_CRT-006.md) and [the eight-lesson publication record](author/PUBLICATION_2026-11-02_EIGHT_LESSONS.md).
+The user first authorized this separate repository and Pages site on October 30, 2026. The latest verified snapshot before the current publication is [the November 2 eight-lesson record](author/PUBLICATION_2026-11-02_EIGHT_LESSONS.md). The new [thirteen-lesson publication record](author/PUBLICATION_2026-11-11_THIRTEEN_LESSONS.md) records this task's scope and actual checks; deployment evidence is added after execution.
 
-Run npm ci, npm test and node author/verify-site.mjs for local checks. After deployment, node author/verify-site.mjs --live checks published lesson text, diagrams, tables, links, assets and author-content exclusions. Only lessons listed in _data/course.yml appear in the reader. The manifest includes CRT-001 through CRT-008. The current learner texts and assets match the verified eight-lesson publication. The live check compares local content and assets with deployed files, so use it after the intended publication snapshot is deployed, not to test unpublished changes.
-
-The existing ISC_Theory_TedxHarry course is a separate project. Its files and publishing destination are not used for this course.
+Earlier local-only statements in dated per-lesson records describe their historical authoring stages. Current publication status belongs in this README, the course register and the latest publication record.

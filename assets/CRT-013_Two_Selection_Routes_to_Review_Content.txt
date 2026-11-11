@@ -1,0 +1,21 @@
+Decide what the review must answer
+                 |
+       +---------+----------+
+       |                    |
+       v                    v
+Select identities     Select access objects
+       |                    |
+       |             Find their included holders
+       |                    |
+       +---------+----------+
+                 |
+                 v
+       Resulting people in scope
+                 |
+                 v
+       Choose their access to review
+       (all eligible access or refine)
+                 |
+                 v
+       Inspect generated people,
+       access items and reviewers

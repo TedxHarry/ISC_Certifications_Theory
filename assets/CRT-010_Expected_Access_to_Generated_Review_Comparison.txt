@@ -1,0 +1,13 @@
+Expected account/access list
+            |
+            v
+Identify correct review units
+            |
+            v
+Compare ALL generated work
+            |
+            v
+Matching / missing / unexpected
+            |
+            v
+Explain and verify differences

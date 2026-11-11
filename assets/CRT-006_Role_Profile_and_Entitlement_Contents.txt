@@ -2,9 +2,12 @@ Report Reviewer role
 |
 +-- Reporting Access profile
 |   Reporting source
-|   +-- View reports
-|   +-- Export reports
+|   +-- reports-view
+|   |   View reports
+|   +-- reports-export
+|       Export reports
 |
 +-- Case Read profile
     Case-management source
-    +-- Read cases
+    +-- cases-read
+        Read cases

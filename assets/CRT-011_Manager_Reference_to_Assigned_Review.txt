@@ -1,0 +1,16 @@
+Employee's source manager value
+              |
+              v
+Mapped manager reference
+              |
+              v
+Match existing manager identity
+              |
+              v
+Resolved manager relationship
+              |
+              v
+Campaign reviewer rule
+              |
+              v
+Actual assigned certification

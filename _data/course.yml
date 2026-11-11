@@ -3,6 +3,8 @@ modules:
     title: "1. Understand the access review"
   - id: review-access
     title: "2. Understand the access that reaches a review"
+  - id: choose-review
+    title: "3. Choose the review approach"
 lessons:
   - id: CRT-001
     module: purpose
@@ -60,3 +62,38 @@ lessons:
     description: "Connect exact account references, ownership, current need and verified access outcomes, including uncorrelated and service-account recognition."
     source: "lessons/CRT-008_One_Person_Two_Accounts_and_the_Correct_Review_Target.md"
     url: "/lessons/CRT-008_One_Person_Two_Accounts_and_the_Correct_Review_Target.html"
+  - id: CRT-009
+    module: review-access
+    placement: "Module 2 · Lesson 5"
+    title: "Can the reviewer understand what this access actually permits?"
+    description: "Connect permission meaning, useful descriptions, access context and current business need."
+    source: "lessons/CRT-009_Understanding_What_Access_Actually_Permits.md"
+    url: "/lessons/CRT-009_Understanding_What_Access_Actually_Permits.html"
+  - id: CRT-010
+    module: review-access
+    placement: "Module 2 · Lesson 6"
+    title: "How do we establish that the review population is complete?"
+    description: "Compare an independent expected population with actual generated people, accounts and access."
+    source: "lessons/CRT-010_Checking_That_the_Review_Population_Is_Complete.md"
+    url: "/lessons/CRT-010_Checking_That_the_Review_Population_Is_Complete.html"
+  - id: CRT-011
+    module: choose-review
+    placement: "Module 3 · Lesson 1"
+    title: "When is a manager review the right choice?"
+    description: "Connect current work, manager information and the actual assignment of review work."
+    source: "lessons/CRT-011_When_a_Manager_Review_Is_the_Right_Choice.md"
+    url: "/lessons/CRT-011_When_a_Manager_Review_Is_the_Right_Choice.html"
+  - id: CRT-012
+    module: choose-review
+    placement: "Module 3 · Lesson 2"
+    title: "When should source owners review access?"
+    description: "Connect selected sources, recorded ownership, technical knowledge and actual review responsibility."
+    source: "lessons/CRT-012_When_Source_Owners_Should_Review_Access.md"
+    url: "/lessons/CRT-012_When_Source_Owners_Should_Review_Access.html"
+  - id: CRT-013
+    module: choose-review
+    placement: "Module 3 · Lesson 3"
+    title: "Start with people or start with access items?"
+    description: "Choose the right starting records, follow the included people and check which access reaches review."
+    source: "lessons/CRT-013_Starting_with_People_or_Access_Items.md"
+    url: "/lessons/CRT-013_Starting_with_People_or_Access_Items.html"

@@ -1,162 +1,173 @@
 # How does application access become information ISC can review?
 
-A reporting account belongs to two groups. One allows viewing reports; the other allows exporting them.
+A reviewer sees an item called Export reports. Behind that item, SailPoint Identity Security Cloud (**ISC**) needs to know which account has the permission, what the permission allows and which person the account belongs to.
 
-A reviewer needs to see whose account this is, which access it holds and what that access permits. The application already knows about its account and group memberships. ISC needs to collect and connect that information before it can present a useful review.
+Those details do not all come from one description. The account supplies its memberships. Information about the access item explains those memberships. The identity link connects the account to its person.
 
-Let's follow those connections.
+Let's follow those connections for one reporting account.
 
-## Begin with the application's account record
+## Begin with what the application already knows
 
-An **account** is a record in a particular system. **Access** is what that account can do.
+An **account** is a person's record in an application or system. Its **access** determines what someone using that account can do.
 
-In SailPoint Identity Security Cloud (ISC), an **identity** represents the person and connects information about them with their accounts and access.
+ISC keeps an **identity** representing the person. It connects information about them with their accounts and access. In this example, the identity already exists in ISC; we are collecting information about their reporting account.
 
-For this example, the person's identity already exists in ISC. We are adding information about their reporting account.
+The reporting application supplies these values:
 
-The reporting system supplies these account values:
-
-| Field | Example value | Meaning here |
+| Field | Example value | What it tells us here |
 |---|---|---|
-| accountId | report-014 | The identifier of this account in the reporting system |
+| accountId | report-014 | Which account this is in the reporting system |
 | login | reports-user-14 | The account's login name |
-| staffNumber | 1007 | The personnel number used to associate this account with its person |
-| groups | RPT.VIEW, RPT.EXPORT | Two group memberships held by the account |
+| staffNumber | 1007 | The personnel number available for matching the account to its person |
+| groups | RPT.VIEW, RPT.EXPORT | Two separate group memberships held by this account |
 
-These are illustrative field names for this source. A different system can use different names and representations.
+A **group membership** means the account belongs to that group. Here, the groups field lists two memberships for one account. Each membership gives the account the access configured for that group.
 
-The application's access configuration establishes that RPT.VIEW allows viewing reports and RPT.EXPORT allows exporting them. We are not guessing the rights from the group names.
+The field names are examples for this source. Another application can use different names and data formats.
 
-The account already has those memberships. Reading them into ISC will record existing access; it will not grant the permissions for the first time.
+For the reporting application, its access configuration establishes that membership in RPT.VIEW allows viewing reports and membership in RPT.EXPORT allows exporting them. We know those meanings from the application configuration, rather than guessing from the group names.
 
-## The source tells ISC what it is managing
+The account already has both memberships. Collecting them in ISC will describe existing access; it will not give the account these permissions for the first time.
 
-A **source** is ISC's configured representation of a system or collection of account data. The reporting application and the source configured in ISC are different things.
+## Use a source and connector to collect the information
 
-The application holds the actual account. The source configuration tells ISC how to work with information from that system.
+A **source** is the configuration in ISC for the system or collection of account data being managed. The reporting application holds the actual account. The reporting source in ISC provides the settings for working with that account information.
 
-A **connector** provides the integration: how ISC communicates with that type of system or reads its account-data file.
+A **connector** supplies the integration: the way ISC communicates with that type of application or reads its account-data file.
 
-A directly connected source can read account information from the application through its supported connection. A file-based source imports a file representing the accounts.
+For a directly connected source, ISC reads account information through the supported connection. For a file-based source, it imports a file representing the application accounts.
 
-The available operations depend on the connector and configuration. Being able to read an account does not establish permission or support for changing it.
+Both routes can provide information for a review. Neither route, by itself, proves that ISC can change the application's permissions. Reading the memberships and removing a membership are different operations. Their support and authorization depend on the actual source and configuration.
 
-That distinction matters even before a review. A source can provide useful access information while removal later requires separate manual work.
+A source can therefore supply useful review information even when a later removal needs someone to make the change manually in the application.
 
-## The schema gives the fields their meaning
+## Explain what each returned field means
 
-An **attribute** is a named piece of information, such as staffNumber or groups.
+The connector can return accountId, login, staffNumber and groups. ISC needs configuration explaining how to use those fields.
 
-The **account schema** defines the account attributes ISC uses and how those attributes are interpreted. It identifies the account and describes details such as whether a field can contain multiple values or represents entitlements.
+A named piece of information like staffNumber is an **attribute**. Its value for this account is 1007. The attribute name tells us which piece of information we are discussing; the value tells us what was returned for this account.
 
-For this example, the schema uses accountId as the Account ID and login as the Account Name.
+The **account schema** defines the account attributes ISC uses and how it interprets them. It identifies which values refer to the account and which fields describe access.
 
-The Account ID is used to reference the account. A familiar login name alone is not enough to distinguish every account across every source. Keep the source and the account identifier together.
+In this example, the schema uses accountId for the **Account ID** and login for the **Account Name**. ISC can therefore reference account report-014 and show its readable name reports-user-14.
 
-An **entitlement** is an access right represented from a source. In this example, each group membership is represented as an entitlement because that membership provides the corresponding application access.
+Keep the source with that account reference. A readable login can also exist in another system, so the login alone does not identify an account across all sources.
 
-The schema also marks groups as a **multi-valued** entitlement attribute. Multi-valued means one account can hold several values in that field. Here, those are RPT.VIEW and RPT.EXPORT.
+Now consider groups. The application uses these memberships to provide access. ISC represents an access right from a source as an **entitlement**. Here, the group memberships are the entitlement values held by the account.
 
-Marking the membership field correctly matters. If a field is only treated as ordinary text, you cannot assume its values are also being interpreted as held access.
+The schema marks groups as an entitlement attribute. It also marks it as **multi-valued**, meaning that one account can have more than one value in that field. The connector returns two group values for report-014: RPT.VIEW and RPT.EXPORT.
 
-The schema must agree with the actual data the connector provides. A field named groups in one integration does not make groups the universal field name for every application.
+These settings help ISC interpret the values as the account's access memberships. An ordinary field such as staffNumber has a different job. Storing that field as account information does not turn its value into a permission.
 
-## Account aggregation reads who holds what
+The settings must agree with the data the connector actually provides. Configuring a field called groups will not supply memberships from a differently named field unless the supported extraction or mapping connects that data correctly.
 
-**Account aggregation** brings account information into ISC through the source's supported collection process.
+## Account aggregation tells ISC what this account holds
 
-For our reporting account, the incoming values identify report-014, its login, staffNumber and both group memberships. ISC processes those values according to the configured schema.
+**Account aggregation** collects account information into ISC through the source's supported process.
 
-The result is an account record in ISC that represents the reporting account and its collected access values.
+For report-014, the collected data includes its login, personnel number and the two group values. ISC uses the configured schema to interpret that data and represent the account and its access.
 
-This is the account-to-access connection: report-014 holds RPT.VIEW and RPT.EXPORT as represented by the collected data.
+We can now inspect the account record in ISC and establish whether it contains RPT.VIEW and RPT.EXPORT.
 
-A completed aggregation status is useful evidence that a collection operation finished. It does not, by itself, prove that every intended account or attribute was included correctly.
+A completed aggregation tells you that the collection operation finished. To establish that the intended access arrived correctly, you still need to inspect the account and its values.
 
-For example, an account filter can limit which accounts are read. An incorrectly configured field can leave out a membership value. To establish that the right data arrived, inspect the relevant account and values rather than relying only on a successful operation label.
+For example, an account filter could exclude report-014 from collection. A field configuration could miss its memberships. The operation could finish without establishing the particular account/access connection you expected.
 
-For a file-based source, the file itself also matters. Importing yesterday's file again does not turn yesterday's account information into a current observation.
+For a file-based source, also check which file was imported and when its information was obtained. Importing an old file again does not turn its account data into a current observation.
 
-## Entitlement information answers a different question
+## Entitlement details explain the access item, not who holds it
 
-The account data tells us that report-014 holds RPT.EXPORT. We also need information explaining that access item.
+The account information tells us that report-014 has RPT.EXPORT. We also want to connect that value with a useful description of the access.
 
-An **entitlement catalog** is the collection of represented entitlement records and their details. A record can identify the entitlement, give it a display name and describe what it permits.
+An **entitlement catalog** is the collection of entitlement records and their details. For this source, suppose it contains a record identified by RPT.EXPORT, displayed as Export reports, with a description explaining that it allows someone to export reports.
 
-Where supported, **entitlement aggregation** collects information about the entitlement objects themselves. That is different from reading an account's memberships.
+That record describes the permission. It does not, by itself, establish that report-014 has it. Another account could have the permission, or the access item could exist without this account being a member.
 
-For the reporting source, suppose the catalog contains RPT.EXPORT with the display name Export reports and an established description of its capability. The record belongs to an entitlement type called groups.
+Where supported, **entitlement aggregation** collects information about the entitlement objects themselves. Account aggregation and entitlement aggregation therefore answer different questions: what the account holds, and what the access objects are.
 
-The **entitlement type** identifies the category of access represented here. In this source, the type is groups. Other sources can have other types.
+Some sources do not support a separate entitlement aggregation. Check the actual source's supported collection paths instead of expecting every integration to have identical jobs.
 
-The account's group value must link to the correct entitlement record. In the supported schema-linking model, the account attribute is marked as an entitlement, its name matches the entitlement type and its value matches that entitlement's identifier.
+## Link the account value to the correct entitlement record
 
-For this example, groups and RPT.EXPORT match the catalog's type and identifier. The source also identifies which reporting system those values belong to.
+The reporting-source entitlement record has a type called groups. An **entitlement type** identifies the category of access being represented. Here, the category is group membership.
 
-Now ISC can connect “this account holds RPT.EXPORT” with “this is the reporting-source entitlement described as Export reports.”
+For the account value to connect with this source's entitlement record, these details must agree:
 
-Both connections are needed. A catalog entry for Export reports does not prove that report-014, or any particular account, holds it. Collecting more descriptions cannot substitute for missing account membership information.
+- The account's groups attribute is marked as entitlement information in the schema.
+- The attribute name groups matches the entitlement type groups.
+- The collected value RPT.EXPORT matches the entitlement's identifier RPT.EXPORT.
 
-Not every source supports a separate entitlement aggregation. Check what account and entitlement information the actual source can collect rather than assuming that every integration has identical jobs.
+The source keeps this match in the reporting system's context. A similar value on another source would need its own source context.
 
-## Correlation connects the account with its person
+Those details connect two useful facts: report-014 has the RPT.EXPORT membership, and the reporting-source entitlement with that identifier is described as Export reports.
 
-We now have an account and its represented access. Who owns that account?
+A good description cannot replace the account's missing membership value. If the catalog contains Export reports but the account record does not show that membership, collecting the description again has not established that this account holds it.
 
-**Account correlation** matches and associates a source account with an identity in ISC.
+Likewise, a returned group value needs the correct interpretation and access meaning. The name alone is not a reason to assume it matches whichever catalog description looks familiar.
 
-The existing identity in our example has staffNumber 1007. The configured correlation criteria compare the account's staffNumber with the identity's staffNumber. The supplied values match the intended identity uniquely.
+## Match the account to the person's identity
 
-The account is therefore associated with that identity under the supplied configuration.
+The next connection concerns whose account report-014 is. **Account correlation** matches and associates the account with an identity in ISC.
 
-This adds the person-to-account connection. The identity matched through staffNumber 1007 is associated with report-014 on the reporting source, with login reports-user-14. That account's collected membership RPT.EXPORT links to the reporting-source entitlement.
+The existing identity in this example has staffNumber 1007. The configured comparison uses the account's staffNumber and the identity's staffNumber. Here, both records contain 1007, and no other identity matches that number. The comparison therefore identifies the intended person.
 
-Correlation does not decide whether the person should keep export access. It establishes whose represented account is involved.
+Under those conditions, the account is linked to the correct person's identity. We can connect that person with report-014 on the reporting source, and that account with its collected RPT.EXPORT membership.
 
-If the association is wrong, accurate account permissions can be presented in the wrong person's context. If an account cannot be matched to an identity, it is **uncorrelated**.
+The number 1007 identifies the person for this configured match. It does not identify the export permission or establish that the person needs to keep it.
 
-An uncorrelated account can still exist and hold access in the application. Missing a person association is not evidence of zero access. It needs the appropriate ownership investigation or supported account-review handling.
+If the link is wrong, accurate account permissions can appear in the wrong person's context. If ISC cannot match the account to its established identity, the account is **uncorrelated**, meaning that it has no identity link. The application account can still exist and hold access even though the person link is missing.
 
-Also distinguish changing correlation configuration from changing existing account associations.
+Investigate the ownership information or use the appropriate supported account-review process. Do not treat an unmatched account as evidence that nobody has its permissions.
 
-An **optimized aggregation** checks account records for changes and can skip those whose data is unchanged. Correlation is not reevaluated for those skipped records. Where supported, an **unoptimized aggregation** reexamines unchanged records for correlation too.
+## Changing a matching rule does not prove existing accounts were rechecked
 
-That difference explains why saving a matching rule and running an optimized aggregation does not prove that old associations were corrected. Use the appropriate supported reprocessing for that source, and inspect the actual association afterward.
+Suppose a matching configuration needs correction. Saving the corrected setting changes the instruction ISC should use. You also need to establish whether the relevant existing account was examined under that instruction.
 
-## Now check what reaches the review
+An **optimized aggregation** checks account records for changes and can skip further processing of unchanged records. Correlation is not reevaluated for those skipped records.
 
-A **certification campaign** organizes assigned access reviews. A **certification** is one assigned review, and a **review item** is the particular access presented for a decision.
+That means an account can remain associated as before if its returned data has not changed and it is skipped, even though the correlation settings were changed.
 
-The **reviewer** is the person assigned to assess whether that access remains appropriate.
+Where supported, an **unoptimized aggregation** reexamines unchanged records for correlation as well. Use the appropriate supported reprocessing for the source and situation, then inspect the account's actual identity association.
 
-The **access model** includes the configured access packages and assignment requirements. **Certifiable access** is access eligible for review under that model. Having an entitlement represented in ISC does not make every component a separate review item.
+The evidence you need is the resulting correct link. A saved configuration and a completed optimized run do not, on their own, establish that the old association was corrected.
 
-Some access is managed through a containing package or an automatic requirement. The campaign's selection also determines which people or access it is intended to review.
+## Check what the campaign actually presents for review
 
-For our example, RPT.EXPORT is individually reviewable, has no containing package or automatic requirement retaining it, and is included by the campaign's selection. An appropriate reviewer is assigned and is not reviewing their own access.
+We now have account membership information, matching entitlement details and the correct identity association. These connections tell us what access ISC can represent for the person.
 
-Generation produces an item connecting the intended identity, report-014 and its export entitlement.
+A **certification campaign** organizes access reviews. An administrator selects which people or access should be included.
 
-The reviewer can inspect the person/account context and the entitlement's meaning, then investigate whether exporting reports remains appropriate for the person's current work.
+When ISC prepares the campaign, it creates the review work. A **certification** is an assigned access review within that campaign. The person responsible for that review is its **reviewer**.
 
-Collection, interpretation and association have made the question possible to ask. They have not supplied the business answer.
+Inside the assigned review, each **review item** presents access for a decision. For example, an item can show this person's export permission on report-014. The reviewer assesses whether the person still needs that access for their work.
 
-## See the connections together
+Having a permission represented in ISC does not automatically mean it will appear as its own review item.
 
-The arrows below follow information and dependencies. They do not describe a fixed sequence of internal batch jobs or promise that every screen updates immediately.
+The **access model** describes how access is organized and assigned in ISC. A permission can be included in a larger package of access. A configured rule can also require the person to have certain access automatically.
 
-Entitlement information and the identity association can come from their supported processing paths. Both must fit the account information before you rely on the resulting person/account/access context.
+These relationships affect the review. ISC may present the larger package for a decision rather than each permission inside it. Access required by an automatic rule may not be available for individual removal through a certification.
+
+**Certifiable access** means access eligible for review under the applicable rules. The campaign's selection also needs to include the intended access.
+
+For this example, RPT.EXPORT is individually reviewable. It is not part of a larger package that must be reviewed together, and no configured automatic rule requires the person to keep it. The campaign includes the intended person and access, and a suitable reviewer is assigned without reviewing their own access.
+
+When ISC generates the review work, it produces an item connecting the correct identity, report-014 and the export entitlement. The reviewer can inspect those details and investigate the person's current reporting need.
+
+Collecting and connecting the information makes that question possible. The current business reason for keeping or removing export still needs to be established by the review.
+
+## Put the connections together
 
 ```text
-Application account values
+Reporting account values
             |
             v
-Connector + account schema
+Connector reads the data
+Schema interprets the fields
             |
             v
-Collected account in ISC
-  + entitlement information
-  + identity association
+Collected account record
+  + matching access details
+  + correct identity link
             |
             v
 Person / account /
@@ -164,64 +175,64 @@ held access
             |
             v
 Campaign selection and
-certifiable-access rules
+eligible review unit
             |
             v
-Generated review item
+Generated export review item
 ```
 
-The source account record, the entitlement record, the identity association and the generated review are different records. Finding one of them is not proof that every connection is correct.
+The arrows show information and dependencies. They do not prescribe a fixed order of internal batch jobs or promise that every screen updates immediately.
 
-## Check when each piece of information was observed
+Entitlement details and the identity link can come through their supported processing paths. Both need to fit the collected account information before you rely on the resulting review.
 
-Suppose account aggregation reads RPT.EXPORT at 08:00. A campaign generated at 09:00 includes it for review.
+The account record, entitlement record, identity link and generated item remain different records. Finding one of them does not establish that all the other connections are correct.
 
-At 10:00, an authorized application administrator removes that membership directly in the reporting system.
+## Compare the time of each observation
 
-The account data collected at 08:00 still describes the earlier state. The generated review also has a history of the access it was created to assess.
+Suppose an account aggregation reads RPT.EXPORT at 08:00. A campaign generated at 09:00 includes that access for review.
 
-Seeing RPT.EXPORT in either of those earlier records does not, by itself, establish that the membership remains in the application after 10:00.
+At 10:00, an authorized application administrator removes the membership from report-014 in the reporting system.
 
-Now suppose a supported collection and processing run after the removal confirms that report-014 no longer holds RPT.EXPORT. That supplies newer represented account information.
+The 08:00 account data describes the account before that removal. The generated review also records the access it was created to assess. Seeing the membership in those earlier records does not establish that it is still present after 10:00.
 
-Do not assume the historical review item must disappear simply because current account data changed. Inspect the account observation and review context separately.
+A later supported collection and processing run confirms that report-014 no longer holds RPT.EXPORT. That supplies newer account information in ISC.
 
-The reverse timing problem matters too. If export access was added after the account data was read, the older collected record cannot establish that the account lacks it now.
+Inspect the generated review and the current account information according to the time each represents. Do not assume that a historical review item must disappear when the account changes.
 
-A display name that looks current and a freshly opened page do not tell you when the underlying account information was collected.
+The reverse matters too. If the application granted export after the 08:00 collection, that older record could not establish that the account lacks the permission now.
 
-## Find the first missing connection
+These times show the order of events in this example; they do not predict how long a real collection or campaign takes. A freshly opened page or a readable display name does not tell you when the underlying account data was collected.
 
-If the application account has export access but ISC's account record lacks that value, start with what the source actually returned and how the schema interpreted it.
+## Find the connection that needs investigation
 
-Was the intended account read? Did the membership field contain RPT.EXPORT? Was that field interpreted as entitlement data?
+If the application account has export but ISC's account record lacks RPT.EXPORT, compare what the source returned with how the schema interprets it. Establish whether the intended account was read, whether its membership field contained the value and whether that field was treated as entitlement information.
 
-If the value is present on the correct ISC account but appears under the wrong person, investigate the identity association. Rewriting the entitlement's description would not correct account ownership.
+If the correct value is on the ISC account but appears under the wrong person, inspect correlation. Changing the entitlement's description would not correct the account's identity link.
 
-If the entitlement exists in the catalog but no membership is represented on this account, distinguish the definition from the holding. Another entitlement aggregation is not proof that it will supply the missing account value.
+If the entitlement is in the catalog but no membership is shown on this account, check the account-data path. Another entitlement aggregation can collect access-object information without supplying the missing account membership.
 
-If the correct identity/account/access relationship exists but the generated review lacks the item, inspect the campaign's actual scope, generation context and certifiable-access rules. A missing review item is not automatically a collection failure.
+If the correct person/account/access connection exists but the generated review lacks the item, inspect campaign selection, whether the access can be reviewed separately, and what information was captured when the review was generated. A missing review item does not, by itself, establish that collection failed.
 
-Each observation points to a different record. Establish where the expected information stops before choosing a correction.
+The next check follows the missing connection. First identify which record or relationship is absent or wrong, then choose the appropriate correction.
 
-## Try a different source and field name
+## Work through a different source and membership field
 
-A payment-system account pay-088 is correctly associated with its identity. A current account extract contains a permissions field with the value INV.APPROVE, meaning permission to approve supplier invoices.
+A payments account named pay-088 is correctly linked to its identity. A current account extract has a field called permissions containing INV.APPROVE, meaning permission to approve supplier invoices.
 
-The source's account configuration still expects a groups field for entitlement memberships. In the supplied ISC account record, INV.APPROVE is not represented as held access.
+The source configuration still expects entitlement memberships in groups. In the ISC account record, INV.APPROVE is not shown as access held by pay-088.
 
-The entitlement catalog does contain INV.APPROVE with a useful Invoice approval description. The current campaign has no invoice-approval item for this account.
+The catalog does contain INV.APPROVE with an Invoice approval description. The campaign has no invoice-approval item for this account.
 
-Does the catalog prove that this account's access has reached the review correctly? Should you start by collecting the entitlement descriptions again?
+Explain why the catalog is not enough to establish that the account's access reached the review. What would you inspect first, and what would you need to verify after a correction?
 
-No. The catalog establishes information about the access object. The missing connection is the account's membership value being represented through the configured account-data path.
+The catalog describes the access object. The account extract supplies a membership in permissions, while the configured account-data path expects groups. The missing connection is the account's membership being interpreted and represented correctly.
 
-Compare the actual permissions field returned for pay-088 with the source's extraction, mapping and schema interpretation. Verify the supported configuration needed to represent that field as entitlement information.
+Compare the returned field with the source's extraction, mapping and schema interpretation. Establish the supported configuration needed to treat the actual membership field as entitlement information. Do not assume that collecting the entitlement description again will repair the account-data mismatch.
 
-After the appropriate correction and supported processing, inspect the exact account's held-access value and identity association. Then validate whether the applicable campaign includes that access under its selection and review rules. Do not assume an existing campaign's contents were repaired merely because a source setting was saved.
+After the appropriate correction and supported processing, inspect pay-088's actual held-access value and correct identity link. Then check whether the campaign includes that access under its selection and review rules. Saving a source setting does not prove that an already generated campaign was repaired.
 
-Now change one fact. A later, accurate collection shows that pay-088's permissions no longer include INV.APPROVE, while the entitlement catalog still contains its definition.
+Now change one fact. A later accurate collection shows that pay-088's permissions no longer include INV.APPROVE. The catalog still contains the entitlement definition.
 
-The catalog can retain that entitlement because the access object still exists. Its presence does not make pay-088 a holder again.
+Those records can agree. The catalog says the access object exists; the newer account information says pay-088 no longer holds it. Keeping the definition does not assign the permission back to that account.
 
-The useful evidence remains the connection between the current account, its collected membership values and the correct identity, followed by the review's own contents and timing.
+Use the current account membership, its correct identity and the review's own contents and timing to explain what has actually been established.

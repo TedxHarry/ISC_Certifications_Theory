@@ -1,220 +1,254 @@
 # Why does some access appear differently or not appear at all?
 
-An account can export reports, but the review does not show a separate export permission. Another item appears as a role, with Acknowledge available instead of Revoke.
+You check an application account and find that it can export reports. Then you open the access review and cannot find a separate export item.
 
-Those observations do not have one common explanation.
+Has the review missed that permission?
 
-The access may be represented through a package. An automatic requirement may control it. The campaign may exclude it. Or the information needed for the review may not have reached ISC correctly.
+It may have. But first, look at how the person holds the access and what the campaign was created to review. The permission might be included in a larger package. A rule might control it automatically. It might have been excluded from this campaign, or added after the information used for the review was collected.
 
-Let's work out which explanation the evidence supports.
+Let's follow those possibilities so that the next check comes from the evidence you have.
 
-## Separate what the account has from what the review presents
+## Begin with the account and the review item
 
-An **account** is a record in a system. Its **access** determines what it can do.
+An **account** is a record used to access an application or system. Its **access** determines what someone using that account can do.
 
-SailPoint Identity Security Cloud (ISC) represents the person through an **identity**. A **source** is ISC's configured representation of a system or collection of account data.
+SailPoint Identity Security Cloud (**ISC**) keeps an **identity** representing the person and connects it with their accounts. A **source** is the configuration in ISC for the system or collection of account data being managed.
 
-An **entitlement** represents an access right from that source, such as permission to export reports.
+An **entitlement** represents an access right from a source. In the reporting application, reports-export allows exporting reports. We know that meaning from the application's access configuration.
 
-A **certification campaign** organizes access reviews. A **certification** is an assigned review within the campaign. Its **reviewer** examines whether the access remains appropriate.
+Now consider the review. A **certification campaign** organizes access reviews. A **certification** is an assigned review within that campaign, and the **reviewer** is the person responsible for assessing it.
 
-The **review item** is the actual unit presented for a decision. That unit is not always one underlying entitlement.
+Inside the assigned review, a **review item** presents access for a decision. The item may represent one permission or a package containing permissions.
 
-There are separate questions to establish: what the account holds, what ISC represents, how the access is assigned, and what this campaign actually presents.
+So finding reports-export on the application account gives us a starting fact: that account has export access. We still need to establish what ISC collected, whose account it is and how that access should appear in this particular review.
 
-Finding a permission in the application answers only the first of those questions.
+## A permission can be reviewed through its package
 
-## A package can be the review item
+Suppose reports-view allows viewing reports. ISC includes it in a package called Reporting Read.
 
-An **access profile** groups one or more related entitlements from a single source. A **role** groups related access that can include profiles, direct entitlements or both, across one or multiple sources.
+An **access profile** is a named bundle of related entitlements from one source. Here, Reporting Read is the access profile, and reports-view is its included permission.
 
-Suppose reports-view permits viewing reports and belongs to a Reporting Read access profile that the person requested.
+The person asked for Reporting Read through an access request, and the request was approved. The review presents the Reporting Read profile.
 
-The review can present Reporting Read as the profile item. You inspect the profile's contents to understand that it includes the viewing right.
+When you inspect that profile's contents, you find reports-view. The viewing permission is being considered through the package. You should not expect an additional independent entitlement decision for the same contained permission.
 
-The absence of a separate reports-view entitlement item does not mean viewing access disappeared.
+ISC calls this containment **encapsulation**. The permission is inside the access object through which it is managed for the review. Its absence as a separate item does not mean that it has been removed from the account.
 
-This is **encapsulation**: the component is contained within the access object through which it is managed for the review. Treating the component as a second independent decision would ignore that relationship.
+A profile can also be **detected**. Where detection applies, ISC recognizes that the person already holds the entitlements making up the profile and associates the profile with their identity. That recognition does not establish that a new permission was just added to the application.
 
-An eligible profile may also be detected when ISC recognizes that the person already holds its entitlement set. Requested and detected profiles can be reviewable. A request is therefore not the only explanation for a profile appearing.
+Requested and detected profiles can be reviewed. A profile appearing in the item list therefore does not prove that the person submitted a request for it.
 
-## The assignment origin also matters
+## A role can contain the profile
 
-**Assignment origin** means how the person received the access.
+A **role** groups access for a responsibility or purpose. It can contain access profiles, direct entitlements, or both, from one source or multiple sources.
 
-If the Case Read access profile was granted through the Case Reader role, the profile is contained in that role. The role is the relevant review object; Case Read does not become a separate individual profile item just because it has its own name.
+Suppose Case Read is a profile containing cases-read, which allows reading cases. The person received Case Read through a role called Case Reader.
 
-Now suppose Case Reader is assigned automatically through **membership criteria**, the configured conditions that determine who should receive it.
+The review can present Case Reader as the role item. The Case Read profile and its cases-read permission are included through that role. They do not become separate individual decisions just because each has its own name.
 
-A criteria-assigned role can be reviewed with **Acknowledge**. This records review of the automatically controlled access. It does not override the criteria or request removal of the role.
+This is why you need the **assignment origin**, meaning how the person received the access. Looking only at the permission name does not show whether it came through a requested profile, a role or an automatic requirement.
 
-By comparison, a requested role can support **Approve**, accepting continued reviewed access, or **Revoke**, recording that it should be removed.
+Inspect the actual role and profile contents. A role can include access to more than one system, so its name alone does not establish all the permissions involved.
 
-A role being visible therefore does not establish that Revoke must be available.
+## An automatic role has a different action
 
-Another automatic origin is a **lifecycle state**, a configured stage in the person's relationship with the organization that can have access requirements.
+Now suppose Case Reader is assigned automatically through **membership criteria**. These are configured conditions that determine who should receive the role.
 
-For example, the person's active state can be configured to require an Employee Portal profile. A profile granted through the current lifecycle state does not appear individually in certifications. Its contained entitlement is not offered separately to bypass that requirement.
+For example, a criterion can require the person's work-function value to match the work responsibility covered by Case Reader. ISC evaluates the person's information against that configured requirement. The rule controls the assignment.
 
-If the requirement is inappropriate, investigate the correct state, its data and configured access requirements with the authorized administrators. An absent individual Revoke item does not establish that the requirement is correct.
+In the certification, a role assigned through automated membership criteria can only be reviewed with **Acknowledge**. This records that the reviewer examined the automatically controlled access. It does not override the rule or ask ISC to remove the role.
 
-## Follow one set of held access into the review
+A requested role has different supported actions. **Approve** accepts keeping the reviewed access. **Revoke** records that the reviewed access should be removed. The required review confirmation and actual removal work are separate from selecting that decision.
 
-Consider these supplied records for one identity:
+If Case Reader appears with Acknowledge, inspect its assignment origin before treating the absence of Revoke as a fault. Under automatic membership criteria, that is the supported review action.
 
-- The reporting account holds reports-view and reports-export, permitting viewing and exporting reports.
-- The case-management account holds cases-read, permitting reading cases.
-- The portal account holds portal-use, permitting use of the employee portal.
+If the role is inappropriate, investigate whether the person's information is wrong or the configured requirement gives them the wrong access. Correcting the relevant data or rule requires proper authority and checks of the resulting access. Acknowledge does not make that correction.
 
-All three accounts are correctly associated with the identity. ISC's collected information accurately represents those four rights for this review.
+## Some access is required by a lifecycle state
 
-Reporting Read was requested and contains reports-view. reports-export is outside any containing package or automatic requirement.
+A **lifecycle state** is a configured stage in the person's relationship with the organization. For example, an active employment state can require access needed while the person is active.
 
-Case Read contains cases-read and was granted through the automatically criteria-assigned Case Reader role. Employee Portal contains portal-use and is required by the person's configured active lifecycle state.
+Suppose that state requires an Employee Portal access profile. The profile contains portal-use, which allows using the employee portal.
 
-The campaign includes the intended person and eligible example access. No campaign filter removes those eligible items, and an appropriate reviewer has the generated review. The review is active and open for decisions, and the reviewer is authorized to make them.
+Profiles included in the person's current lifecycle state do not appear individually in certifications. The contained portal-use permission is not offered as a separate entitlement decision to bypass the requirement.
 
-With those conditions, the expected presentation is:
+The access can still be present on the portal account. The absence of an individual review item follows how it is required.
 
-| Access actually held | Controlling assignment | Expected review item and action |
+That does not establish that the requirement is appropriate. If it looks wrong, check whether the person is in the correct state and whether that state's configured access matches the intended policy. An authorized administrator needs to correct the state information or access configuration that is actually wrong, then check the resulting access.
+
+## Follow four permissions into one review
+
+Consider one person's reporting, case-management and portal accounts. All three are correctly linked to their identity. ISC's collected account information accurately shows these permissions:
+
+- The reporting account has reports-view and reports-export, allowing viewing and exporting reports.
+- The case-management account has cases-read, allowing reading cases.
+- The portal account has portal-use, allowing use of the employee portal.
+
+Now follow how the person holds each permission.
+
+They requested Reporting Read, which contains reports-view. Their reports-export permission is held individually, outside a profile or role, with no automatic requirement keeping it.
+
+Case Read contains cases-read and comes through the automatically assigned Case Reader role. Employee Portal contains portal-use and is required by the person's current active lifecycle state.
+
+The campaign selects the person and the eligible example access. No campaign setting excludes those reviewable items. An appropriate reviewer has the assigned review, is not reviewing their own access and has permission to decide while the review is active and open.
+
+With those facts, compare each permission with what the review presents:
+
+| Permission held by the account | How the person holds it | Expected item and action |
 |---|---|---|
 | reports-view | Requested Reporting Read profile | Reporting Read profile, with Approve/Revoke |
-| reports-export | Individual entitlement, without a containing package or automatic requirement | reports-export entitlement, with Approve/Revoke |
-| cases-read | Case Read profile inside criteria-assigned Case Reader role | Case Reader role, with Acknowledge |
+| reports-export | Individual entitlement outside packages and automatic requirements | reports-export entitlement, with Approve/Revoke |
+| cases-read | Case Read profile through criteria-assigned Case Reader | Case Reader role, with Acknowledge |
 | portal-use | Employee Portal profile required by the current lifecycle state | No individual Employee Portal profile or portal-use entitlement item |
 
-The four supplied rights produce three expected review items here: a profile, an entitlement and a role.
+Here, four permissions lead to three review items: Reporting Read, reports-export and Case Reader.
 
-That is an explanation of these particular records. It is not a formula for every campaign's item count.
+The numbers follow these particular assignments. Another set of packages, people or campaign selections can produce different counts.
 
-Nor does it mean that the portal requirement has been judged appropriate through an individual certification decision. The requirement remains a separate governance question.
+More importantly, the three items do not mean that every access requirement has received an individual decision. The lifecycle-state requirement for the portal remains outside those individual decisions.
 
-The useful comparison is between the expected review units and the actual generated units, not simply between the number of permissions and the number of rows.
+To check whether the campaign contains what it should, identify the expected packages and permissions first. Then compare them with the generated items. Counting account permissions and review rows alone cannot establish that the intended access is covered.
 
-## An intentional exclusion is a different cause
+## A filter can deliberately leave access out
 
-A **campaign filter** applies configured inclusion or exclusion criteria to the campaign. Selection and filtering determine which relevant people or access are included.
+The campaign's **scope** is the people and access it is intended to assess. The administrator selects its contents and can use a **campaign filter** to include or exclude people or access according to configured conditions.
 
-Change one condition in the example. The campaign uses an entitlement exclusion that removes reports-export from this campaign.
+Change one fact in the example. The campaign now applies an entitlement exclusion for reports-export.
 
-The reporting account still holds export, and ISC represents it correctly. The entitlement is individually reviewable. However, the filter deliberately excludes it from this review.
+The reporting account still has export access. ISC has collected it correctly, and the entitlement can be reviewed individually. The campaign excludes it because of that filter.
 
-That absence is explained by campaign configuration. It is not evidence that the source removed the permission.
+This explains the missing review item. It does not establish that the application permission was removed.
 
-You still need to judge whether the exclusion matches the intended review requirement. A filter behaving as configured can produce a campaign that misses access the business intended to assess.
+It also does not establish that the campaign's scope is right. If the business requirement was to review export access, excluding it would leave that requirement unmet even though the filter worked as configured.
 
-Now consider reports-view, which belongs to Reporting Read. Asking for a broader selection does not turn that contained entitlement into an independent entitlement decision. Follow the reviewable profile and the supported criteria for that object.
+Now consider reports-view, which is inside Reporting Read. Selecting more access does not turn it into an independent entitlement decision. Inspect the profile and the selection or filter that applies to that reviewable package.
 
-An inclusion setting does not make every held right an independently reviewable item.
+**Certifiable access** means access eligible for certification review under the applicable rules. The **access model** describes how access is organized and assigned, including packages and automatic requirements.
 
-**Certifiable access** means access eligible for the supported certification review under the configured access model. The **access model** is the organization of access packages and assignment requirements.
+Those relationships explain which items can be reviewed separately. A broad inclusion setting does not remove them.
 
-## If the data is missing, begin before the campaign
+## If ISC lacks the account value, check collection
 
-**Account aggregation** reads account information into ISC. An aggregation can finish without establishing that every intended account value arrived correctly.
+**Account aggregation** collects account information into ISC. For a permission to be represented on the account, the source must supply the relevant value and ISC must interpret it as account access.
 
-If reports-export exists in the application but is absent from the relevant collected account record, investigate collection and interpretation first.
+Suppose the reporting application shows reports-export, but ISC's collected record for that same account does not.
 
-Check the exact source and account, the values the connection returned, and whether the membership field was interpreted as entitlement data.
+Check the exact source and account, what data was returned and how the membership field was interpreted. A completed aggregation does not, by itself, establish that this account and its expected permission values were included correctly.
 
-An entitlement description in ISC's catalog is not enough. The **entitlement catalog** contains information about the access objects; its listing does not establish that this account holds one.
+A listing called Export reports in the **entitlement catalog** answers a different question. The catalog contains entitlement records and their details: what access objects exist and what they mean.
 
-If the account and membership are present but connected to the wrong identity, investigate **account correlation**, the association between source accounts and identities.
+It does not establish that this reporting account holds reports-export. Collecting the permission's description again cannot replace a missing account membership value.
 
-A permission can be collected correctly yet appear in the wrong person's context because the association is wrong.
+A campaign filter selects review content from the relevant information. It cannot supply an account value that was never collected correctly.
 
-If the account is **uncorrelated**, it lacks the intended identity association. It can still have actual access. Establish the appropriate ownership and supported review context rather than treating it as an account with no permissions.
+## If the account is linked to the wrong person, check correlation
 
-A campaign filter cannot repair missing source values or incorrect ownership.
+The account can have the correct permission values but appear under the wrong identity.
 
-## Check which review and observation you are looking at
+**Account correlation** matches and links source accounts with identities in ISC. This association connects the account's permissions to the person whose access is being reviewed.
 
-A reviewer's screen is an assigned portion of the campaign, not automatically every review in it.
+If the association is wrong, the access can be shown in the wrong person's context. Changing the campaign's filter would not correct whose account it is.
 
-If the expected item exists in another assigned certification, the issue is different from the item never having been generated. Inspect the actual assignment before calling it missing.
+An **uncorrelated** account has not been matched and linked to an established identity in ISC. That account can still exist in the application and have permissions.
 
-The reviewer experience can also organize information by identity or by access item. Those views arrange related information differently. Compare the actual person/account/access details rather than assuming a different grouping represents a different grant.
+Establish the account's ownership and the appropriate supported review context. A missing person link does not prove that nobody has the access.
 
-If the item exists but its action is unavailable, inspect the assignment, the review's current state and the reviewer's platform permissions as well as its origin. Platform permissions determine what the person can do in ISC. A missing button alone does not prove that the access was automatically assigned.
+## Check the assigned review before calling the item missing
 
-Time can explain another difference.
+A reviewer sees the certification assigned to them. That does not automatically contain every item from every assigned review in the campaign.
 
-Suppose the account information used for a generated review did not include reports-export. The permission was granted later, and a current application check now shows it.
+If the expected item exists in another certification, it was generated. The next question concerns its assignment and where it is being viewed, rather than whether source data failed to arrive.
 
-That current check establishes the later account state. It does not prove that the already generated review contains the new entitlement.
+The reviewer experience can also arrange the same relationships in different ways. An identity view starts with a person and lists their access. An access-item view starts with a permission or package and lists the identities that hold it.
 
-Inspect the data and campaign context used at generation, along with the actual review contents. Do not assume a fresh page view or a later account aggregation rebuilt that review.
+Compare the actual person, account and access details. A different grouping is not evidence of a new grant or a missing permission.
 
-The same caution applies to a changed filter. Saving a revised filter is not, by itself, proof that an existing campaign's contents have been corrected.
+There is another distinction: an item can exist while an action is unavailable.
 
-## Use the missing item to choose your next check
+**Platform permissions** determine which actions a person may perform in ISC. Along with assignment origin, inspect the assigned reviewer, the review's current state and that reviewer's permissions. A review that is no longer open for decisions is a different situation from an active automatic-role item that uses Acknowledge.
 
-The sequence below is a guide to evidence, not a universal order of internal ISC jobs.
+A missing Revoke button alone does not establish why the action is unavailable.
+
+## Compare when the information was observed
+
+Suppose the account information used for generation did not contain reports-export. The review was generated from that information. Later, the application granted export access, and a current account check now shows it.
+
+The current check describes the account after the grant. It does not establish that export was included in the earlier generated review.
+
+Compare the account information available at generation with the current account and the actual review contents. Opening the page again does not establish that its review items were rebuilt using newer access data.
+
+The same applies after a later account aggregation or a filter edit. A saved configuration or newer account value is not proof that an existing campaign has been corrected.
+
+Establish what the campaign was intended to assess and which supported correction is needed. A newly added permission and a collection failure can both produce a difference between today's account and an older review, but they require different explanations.
+
+## Choose the next check from the missing connection
+
+This diagram follows the evidence you need:
 
 ```text
-Check source/account values
-  Missing -> collection
-  Present
-     |
-     v
-Check identity association
-  Wrong -> ownership
-  Correct
-     |
-     v
-Check origin and containment
-     |
-     v
-Check scope and filters
-     |
-     v
-Check generated contents,
-time and assigned review
-     |
-     v
-Compare item and action
+Correct account value in ISC?
+  No -> inspect collection
+  Yes
+   |
+   v
+Linked to correct identity?
+  No -> inspect association
+  Yes
+   |
+   v
+Which package or requirement
+controls this access?
+   |
+   v
+Selected or excluded by
+this campaign?
+   |
+   v
+What was generated, when,
+and in whose review?
+   |
+   v
+Expected item and action?
 ```
 
-Start with the observation you actually have. If the correct collected relationship is already established, you can move directly to its containing object and campaign context.
+The arrows guide an investigation. They do not describe a fixed sequence of internal ISC jobs. If the correct account value and identity link are already established, begin with the package, requirement or campaign fact you still need to check.
 
-For a known individual reports-export entitlement absent from the review, inspect the generated selection and any relevant exclusion once its data and ownership are established.
+For reports-view, inspect Reporting Read. For cases-read, inspect Case Reader and its automatic membership. For portal-use, inspect the lifecycle-state requirement.
 
-For reports-view, inspect Reporting Read before assuming a missing independent entitlement.
+For reports-export held individually, once collection and ownership are correct, check whether the campaign actually selected it or excluded it, then inspect the generated review and its timing.
 
-For cases-read, inspect Case Reader and its automatic assignment. Acknowledge is consistent with that origin; it is not a hidden Revoke operation.
+Each explanation points to different work. Fixing collection will not decide whether an automatic requirement is appropriate. Broadening a filter will not make a contained permission an independent review item.
 
-For portal-use, inspect the lifecycle requirement. Its omission from individual decisions is not proof of absent access or automatic approval.
+Decisions on the visible items apply to those reviewed items. They do not silently settle a collection gap, excluded access or an inappropriate automatic requirement.
 
-The reviewer can act only on the access and actions presented through the supported review. Decisions on the visible items do not silently settle missing data, excluded scope or an inappropriate automatic requirement.
+## Try three missing items with different explanations
 
-## Try three absences with different explanations
+A person holds a requested Ledger Review profile. It contains ledger-read and ledger-export, allowing reading and exporting ledger information.
 
-An identity holds Ledger Review through an approved request. The profile contains ledger-read and ledger-export, allowing reading and exporting ledger information.
+Their archive-system account also holds archive-export, which allows exporting archive records. This entitlement is outside any profile, role or automatic requirement.
 
-The identity also has archive-export on an archive-system account, permitting exporting archive records. That entitlement is outside any containing package or automatic requirement.
+Their current lifecycle state requires the Staff Portal profile. That profile contains portal-use, which allows using the staff portal.
 
-The Staff Portal access profile supplies portal-use through the identity's current lifecycle state, permitting use of the staff portal.
+The source accounts belong to the correct identity. The campaign's intended selection covers the person and relevant access, with no exclusion removing the eligible example items.
 
-The source accounts and their identity associations are correct. The campaign's intended selection includes the relevant person and access, with no exclusion removing the eligible example items.
+The generated review contains Ledger Review. You cannot find a separate ledger-export entitlement item, an archive-export item or an individual Staff Portal profile item.
 
-The generated review contains Ledger Review. It has no separate ledger-export item, no archive-export item and no individual Staff Portal profile item.
+One observation needs careful attention: today's archive account has archive-export, but the account data used to generate the review did not contain it.
 
-One more observation is supplied: a current archive-system check shows archive-export, but the account data used to generate the campaign did not contain it.
+Which absences can you explain already, and which one needs more evidence?
 
-Are all three absences expected? What would you inspect before claiming that the intended review content is complete?
+The missing separate ledger-export item is expected. Ledger Review contains that permission, so inspect the profile's contents when assessing whether the person should keep the package.
 
-Ledger export is contained in the requested Ledger Review profile. Its absence as a separate entitlement item is expected under the supplied conditions. Inspect the profile to assess the package's actual access.
+The missing individual Staff Portal item is also expected. The current lifecycle state requires it. That absence does not establish that the portal requirement itself is appropriate.
 
-Staff Portal is required through the lifecycle state. Its absence as an individual profile decision is also expected. That does not certify the correctness of the lifecycle requirement.
+Archive export needs investigation. The current account has it, but the review's account data did not. Compare the source history and the relevant collection to establish whether the permission was omitted from collection or granted after that observation.
 
-Archive export needs investigation. The generated campaign did not have the account-held value used by the current application observation. Compare the relevant account collection with the source information and establish whether the permission was missing from collection or was granted after that observation.
+You also need the intended observation point for this campaign. Was it meant to assess access held at generation, or is the review requirement to include this later grant too? A later grant alone does not prove that the earlier campaign was generated incorrectly.
 
-Also establish which observation point the campaign was intended to assess. A later grant does not, by itself, mean the earlier campaign generated incorrectly. Whether this review needs to include it depends on the intended timing and supported correction process.
+If there is an actual data problem, correct it through the supported process. Then check that the required access has reached the appropriate generated review before relying on its coverage. A catalog entry or a saved source setting does not establish that result.
 
-Correct any actual data problem through the supported process, then validate the required generated contents before relying on the review. Neither another catalog listing nor a saved source-setting change proves that archive-export reached this campaign.
+Now change Ledger Review's origin. It comes through the automatically assigned Ledger Worker role instead of an individual request. The campaign selects that role.
 
-Now change Ledger Review's origin. It is granted through an automatically criteria-assigned Ledger Worker role rather than an individual request. The role is included by the supplied selection.
+The profile is included through Ledger Worker. Expect the role item with Acknowledge, rather than the earlier separate profile item with Approve/Revoke.
 
-The profile is now contained within that role. Expect the eligible role item with Acknowledge, rather than assuming the old independent profile decision must remain.
-
-The reason for each result comes from its evidence: the held account value, the controlling assignment, the eligible review object and the campaign that was actually generated.
+The useful explanation connects the same facts all the way through: the account's permission, the person it belongs to, the package or rule controlling it, and the contents and time of the actual review.

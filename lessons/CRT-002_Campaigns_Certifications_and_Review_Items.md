@@ -1,209 +1,179 @@
 # A campaign, a certification and a review item: what is being assigned?
 
-An administrator says, “The campaign has started.” A reviewer says, “I have finished my certification.” A report still shows an access item waiting for a decision.
+Suppose you are asked to review someone's reporting access. You need to decide whether they should still be able to view reports and whether they should still be able to export them.
 
-Those statements can all be true. They describe different amounts of work.
+Those are two access decisions. SailPoint Identity Security Cloud (ISC) can put them together into a review assigned to you. An administrator can organize your review and other people's assigned reviews in one campaign.
 
-Let's connect them, starting with the access someone is being asked to review.
+The item, the assigned review and the campaign describe different parts of that work. Let's follow the connections.
 
-## Start with a person, an account and a permission
+## Start with one permission someone already has
 
 An **account** is a person's record in an application or system. **Access** is what that account is allowed to do.
 
-For example, an account in a reporting application may have permission to view reports and a separate permission to export them. Being able to read a report and being able to take a copy out of the application are different capabilities.
+In a reporting application, viewing a report and exporting a report are different permissions. Viewing allows the person to read the report. Exporting allows them to take a copy out of the application. Needing one permission does not automatically establish a need for the other.
 
-SailPoint Identity Security Cloud (ISC) represents the person through an **identity**. It connects information about that person with their accounts and access. An **entitlement** represents an access right from a system, such as permission to export reports.
+ISC keeps an **identity** representing the person. It connects information about them with their accounts and access.
 
-An access review brings those connections together. A permission may remain on an account after the person's work changes. The review asks whether this particular person should continue to have this particular access now.
+ISC represents an access right as an **entitlement**. In this example, reports-view means permission to view reports, and reports-export means permission to export them.
 
-The person whose access is being examined is the **review subject**. The person responsible for judging it is the **reviewer**, also called the certifier. These are different jobs: having access does not make someone the appropriate person to approve their own access.
+We need to review these permissions because the person's work may have changed while their account access remained. The decision needs to connect what the permission allows with what the person does now.
 
-For the records below, the accounts are correctly connected to their identities, and the access information is suitable for the review. Each permission can be reviewed individually. It is not bundled into a larger access package that must be reviewed as a whole, and no separate automatic access requirement would keep or restore it.
+## One review item gives you a particular decision to make
 
-## One access decision needs a clear target
+Suppose the person is represented by identity-1 in ISC. Their reporting account is reports-user-1, and it holds reports-export.
 
-Suppose the review contains permission to export reports for account reports-user-1, belonging to identity-1.
+These labels identify different records. identity-1 identifies the person in ISC. reports-user-1 identifies their application account. reports-export identifies the permission on that account.
 
-Here, identity-1 is simply a label for one person's ISC record. reports-user-1 identifies that person's account in the reporting application. The permission is called reports-export.
+Together, they tell us what we are deciding: whether this person should keep permission to export reports through this account.
 
-The **review item** is the individual piece of access presented for a decision, together with the context needed to identify whose access it is.
+ISC presents access for a decision as a **review item**. The item needs enough context to establish whose access is being reviewed and which access the decision concerns.
 
-Reading only “reports-export” loses part of the question. You also need to know the person and account it concerns.
+For the examples here, the accounts are correctly linked to their identities and the access information is accurate. Each permission is available as its own review item with Approve and Revoke choices. The permissions are not being reviewed through a larger package, and nothing else requires them to remain or would restore them after removal.
 
-The useful question is:
+If the person still needs the export permission for approved work, **Approve** accepts keeping that reviewed access. If the permission should be removed, **Revoke** records that decision.
 
-“Should the person represented by identity-1 continue to have permission to export reports through account reports-user-1?”
+The decision concerns the particular access shown in that item. Approving reports-export here does not approve every other permission on the account. Revoking it does not ask for the whole account to be deleted.
 
-If that access is still appropriate, **Approve** records acceptance of keeping it. If it should be removed, **Revoke** records that decision.
+The person whose access is being examined is the **review subject**. The person responsible for judging it is the **reviewer**, also called the certifier. These responsibilities differ, and someone holding access should not be assumed to be its reviewer. In our supplied records, the reviewers are not reviewing their own access.
 
-The decision applies to the reviewed access relationship. Approving this item does not approve every permission on the account. Revoking it does not, by itself, mean the entire account should be deleted.
+## A certification is the review assigned to someone
 
-## A certification puts review work in someone's hands
+Now add the viewing permission for the same person and account. The reviewer has two items to examine: reports-view and reports-export.
 
-A reviewer may have several permissions to assess. ISC collects the relevant review items into an assigned review.
+ISC can collect the items into an assigned review. That assigned review is called a **certification**.
 
-That assigned review is a **certification**.
+You receive the review and work through its contents. You might approve viewing because the person still needs to read reports, and revoke exporting because their current work no longer requires taking copies out.
 
-Imagine being assigned a review containing two items: permission to view reports and permission to export reports. You examine each item and decide whether it should remain.
+Making those decisions deals with the individual items. Finishing the assigned review also requires the review's confirmation step: the reviewer confirms that they have completed its decisions.
 
-You might approve viewing because the person still needs to read reports, and revoke exporting because their work no longer requires taking copies out. Finishing the assigned review means dealing with its contents and confirming the review as required.
+A certification therefore gives someone a defined set of review work. Its items identify the access questions inside that work.
 
-So when someone says, “My certification has two items,” they mean that their assigned review contains two access decisions to work through.
+You may hear certification used more broadly for the activity of reviewing access. When following campaign records, keep the assigned review in mind. It is the record whose contents and current reviewer you need to inspect.
 
-The word certification can also describe the general activity of checking access. When you are working with campaign records, use the more precise meaning: the certification is the assigned review.
+## The campaign brings the assigned reviews together
 
-## A campaign organizes the related reviews
+A **certification campaign** organizes a set of assigned reviews for a particular access-review purpose.
 
-A **certification campaign** brings a set of assigned reviews together for an organized access review.
+For example, an administrator may arrange a campaign to check selected reporting access. They define the **scope**: which people or access should be included. They also configure how that campaign should operate.
 
-Its purpose might be to check whether selected reporting access is still appropriate. An administrator defines the intended review scope, meaning which people or access should be included, and the relevant campaign settings.
+ISC uses those choices to **generate** the reviews and their items. Generation prepares the actual review work. You can then inspect which reviews were created, who has been assigned and what access they contain.
 
-ISC uses the configured choices to generate the reviews and their contents. Starting the campaign makes that prepared review work available for reviewers to carry out.
+**Starting** the campaign opens the prepared work for reviewers to carry out. Having generated review contents and having started the review are different facts to check.
 
-Generation and starting answer different questions. “What review work has been prepared?” concerns the generated contents. “Has the review work been opened for reviewers?” concerns starting it.
+For our example, generation and starting are already complete. The actual campaign records show Review A assigned to reviewer A, and Review B assigned to reviewer B.
 
-For our example, the campaign is already generated and started. Its saved records contain two assigned reviews, A and B, with appropriate reviewers. Neither reviewer is reviewing their own access.
+Review A contains two permissions for the first person. Review B contains one permission for a different person:
 
-An assigned review can contain access for several identities. The number of reviews and their contents are things to inspect in the generated campaign. Do not calculate them by assuming there must always be exactly one review per person.
-
-Let's look at the three access items in those two reviews.
-
-| Assigned review | Person represented in ISC | Reporting account | Access being reviewed |
+| Assigned review | Person represented in ISC | Reporting account | Permission being reviewed |
 |---|---|---|---|
 | Review A | identity-1 | reports-user-1 | reports-view: view reports |
 | Review A | identity-1 | reports-user-1 | reports-export: export reports |
 | Review B | identity-2 | reports-user-2 | reports-view: view reports |
 
-Review A is assigned to one reviewer. Review B is assigned to a different reviewer. There are two assigned reviews and three review items in one campaign.
-
-The relationship looks like this:
+There is one campaign, two assigned reviews and three review items. We count the review records to get two. We count the permission questions inside them to get three.
 
 ```text
 Reporting access campaign
 |
-+-- Review A
-|   Assigned to reviewer A
++-- Review A: reviewer A
+|   identity-1 / reports-user-1
 |   |
 |   +-- Item: view reports
 |   +-- Item: export reports
 |
-+-- Review B
-    Assigned to reviewer B
++-- Review B: reviewer B
+    identity-2 / reports-user-2
     |
     +-- Item: view reports
 ```
 
-The branches mean “contains.” They show how the work is organized, not the order in which decisions must happen. The table supplies the person and account context for each item.
+The branches mean contains. The campaign contains the reviews; each review contains its items. They do not show an order in which the reviewers must make decisions.
 
-Now read the relationship from the bottom upward. An item receives an access decision. That item belongs to an assigned review. The review belongs to the campaign.
+This grouping is supplied by the example's generated records. In an actual campaign, inspect the grouping ISC produced. An assigned review can contain access for more than one identity, so do not assume that the number of reviews must equal the number of people whose access is included.
 
-A decision on one item therefore tells you something about that item. It does not establish that every item in the review, or every review in the campaign, is finished.
+## The same permission name can appear in different decisions
 
-## Why does “view reports” appear twice?
+reports-view appears twice in the table. One item concerns the first person's account, and the other concerns the second person's account.
 
-The two reports-view rows concern different accounts belonging to different people.
+The first reviewer might confirm that the first person needs viewing access for their work. That gives a reason to keep viewing on reports-user-1. It does not tell us whether the second person needs viewing on reports-user-2.
 
-One decision asks whether identity-1 should keep viewing reports through reports-user-1. The other asks whether identity-2 should keep viewing reports through reports-user-2.
+The permission has the same meaning, but the people, accounts and work requirements differ. Compare those details before deciding that repeated names represent duplicate items.
 
-The capability has the same name, but the people and accounts being assessed differ. The reasons for keeping it can differ too.
+The reverse counting mistake is also possible. Review A has only one person's access in this example, but it contains two items. One person can have several permissions requiring separate decisions.
 
-Suppose the reviewer confirms that identity-1 still needs to view reports. That supports a decision about the first relationship. It supplies no evidence that identity-2 needs the same permission.
+Count the actual items and review records. A familiar access name or a count of people cannot replace that inspection.
 
-This is why a repeated access name alone does not establish a duplicate review item. Compare the subject, account and access context before deciding that two rows represent the same work.
+## Connect the screen with the work it represents
 
-The opposite counting mistake is also easy to make. Review A contains two permissions for one person. There are two items to decide on, although only one person's access is involved in this review.
+In the campaign view, an authorized administrator works with the overall campaign and monitors the assigned reviews it contains.
 
-## How does this connect to what someone sees in ISC?
+The reviewer opens their assigned certification and examines its contents. The details connect each decision with the relevant identity, account and access.
 
-The campaign view lets an authorized administrator work with the campaign and monitor the reviews it contains.
+For identity access certifications, the reviewer experience can organize the information around identities or around access items. Starting with a person helps you see the access being reviewed for them. Starting with an access item helps you find the people whose access to it is being reviewed.
 
-A reviewer's assigned certification is the work they need to examine. Within it, the reviewer follows the identity and access details to reach the individual decisions.
+Changing the grouping changes how you examine the information. It does not give anyone an additional permission or create another access grant.
 
-For identity access certifications, the reviewer experience can organize the contents around identities or around access items. Starting with a person helps answer, “What access is being reviewed for this person?” Starting with an access item helps answer, “Whose access to this item is being reviewed?”
+This helps when someone reports, “The review is missing.” First establish what they expected to find. Is the campaign missing, is an assigned certification missing from their work, or is an expected access item absent from an existing certification?
 
-Changing that grouping does not give somebody another permission. It changes how the review information is presented.
+Those observations point to different records. Checking the campaign alone will not establish that a particular item was included or that the expected person received the review.
 
-There is a record behind each useful part of the screen: the campaign identifies the overall review, the assignment identifies who has review work, and the item connects an access decision with its subject.
+## Explain progress using the unit you actually checked
 
-That connection is useful when a question sounds vague. If someone says, “The review is missing,” first establish whether they mean the whole campaign, an assigned certification, or one expected access item. Each question calls for a different check.
+Return to Review A and Review B. Suppose the reviewer of A has recorded Approve for reports-view and Revoke for reports-export.
 
-## Who is responsible for which part?
+The reviewer has also finished and confirmed Review A. This confirmation is called **sign-off**. In this example, A's review record confirms completion.
 
-Preparing the review, judging access and carrying out a removal require different kinds of work.
+Review B still has no decision for its viewing item. That item is **undecided**.
 
-An administrator needs the appropriate ISC permissions to define, generate and start campaigns. **Cert Admin** and **Org Admin** are administration levels relevant to that work.
+We can now say that two of the three review items have decisions. They are the two items inside A. We can also say that one of the two assigned reviews is confirmed complete.
 
-The **campaign creator** is the person who created it. A **campaign owner** has responsibility for the campaign. Those labels help identify responsibility; they are not substitutes for checking what an account is permitted to do in ISC.
+These statements count different things. The first counts item decisions; the second counts completed assigned reviews. Neither statement is a formula for every progress percentage ISC displays. Check the meaning of the particular status, view or report you are reading.
 
-The **reviewer** is assigned to assess the review contents. That requires enough relevant knowledge to judge whether the access should remain. The person holding the access is still the subject of that decision.
+Review A's completion does not establish completion of the whole campaign. B still has undecided work, and the campaign's own completion state needs to be checked.
 
-A **source** is ISC's configured representation of a system whose account and access information it manages. A **source owner** is responsible for that source. An **access owner** is responsible for the particular access object.
+A's Revoke decision also does not establish that exporting has been removed from the application account. The required removal work must be carried out and its account result verified.
 
-A source or access owner may have useful knowledge about what a permission allows. Whether such an owner is assigned to review depends on the supported campaign design and configured reviewer choices. The owner label alone does not tell you who currently holds this review.
+That work is called **remediation**: acting on the removal or change required by the review. Depending on the supported connection and configuration, it can involve an automated change or a task assigned to someone who makes the change in the application.
 
-After a valid removal requirement is established, **remediation** is the work needed to carry out the required access change. That can involve an automated change or work assigned to someone who must make the change in the system.
+So when someone says something is complete, identify what they mean. A saved decision, a confirmed review, the campaign's completion and a successful account change each need the corresponding evidence.
 
-The assigned reviewer and the person carrying out a manual removal can therefore have different responsibilities. Find the actual removal work and its assignment when you need to establish who must act.
+## The people involved have different responsibilities
 
-One person may perform several of these jobs. Even then, keep the jobs clear. Knowing how to manage the campaign does not, by itself, supply the business reason for keeping a permission. Knowing the business reason does not, by itself, grant permission to administer the campaign.
+An administrator prepares and manages the campaign. A reviewer judges whether the access should remain. The person holding the access is the subject of that judgment. Someone may also need to carry out a manual removal.
 
-## The assigned reviewer and the decision maker can differ
+One person can do more than one of these jobs, but each job still needs its own authority and information.
+
+For campaign administration, ISC permissions determine what actions someone can perform. **Cert Admin** and **Org Admin** are administration levels relevant to defining, generating and starting campaigns. Check the permissions for the action being attempted.
+
+The **campaign creator** is the person who created the campaign. The **campaign owner** has responsibility for the campaign. Those labels help you find the relevant person, but a responsibility label alone does not prove that their account can perform every administrative action.
+
+The reviewer needs enough knowledge of the permission and the subject's current work to make the access decision. Having permission to administer ISC does not, by itself, explain whether the subject needs report export.
+
+Other owners may help explain the access. A **source** is ISC's configuration for the system or account data it manages. The **source owner** is responsible for that source. An **access owner** is responsible for the particular access object.
+
+For example, the owner responsible for reporting access may understand what export allows. Whether that owner actually receives this review depends on the supported campaign design and its configured reviewer choices. Inspect the assignment instead of inferring it from the owner label.
+
+The person assigned a manual removal task can also differ from the reviewer. Follow the actual removal work and its assignment to establish who needs to make that change.
+
+If someone says, “I own the source, so I should be able to start this campaign,” check their ISC permissions for starting it. Ownership of the source and permission to start the campaign are separate facts.
+
+Likewise, knowing the business reason for access does not automatically authorize someone to change campaign settings. Both the assigned work and the allowed action matter.
+
+## The current reviewer may not be the person who made an earlier decision
 
 The **decision maker** is the person recorded as having made a particular decision.
 
-Often this is the assigned reviewer. However, a review can change hands, and its decision history may include work done before the change. An authorized administrator may also make a decision that is recorded under their own name.
+Suppose reviewer A makes a decision and the review is later assigned to reviewer B. The assignment now names B, while the earlier decision history still names A. Both records can be correct.
 
-Suppose a record shows that reviewer A made a decision, and the certification is now assigned to reviewer B. Those facts do not necessarily conflict.
+The assignment tells you who currently has the review responsibility. The decision history tells you who performed that recorded decision and when.
 
-The assignment answers, “Who currently has this review responsibility?” The decision history answers, “Who performed this recorded decision?”
+An authorized Cert Admin or Org Admin can also make a decision that is recorded under their own name, even when someone else is the assigned reviewer.
 
-If you need to explain an earlier decision, inspect its recorded actor and time. Copying the current assignee's name would not establish who did the earlier work.
+To explain an earlier decision, inspect its recorded actor and time. Using the current reviewer's name would not establish who did the earlier work.
 
-## What does “finished” mean in our campaign?
+The same distinction helps with review counts. If two certification records are now assigned to one person, there are still two assigned reviews. One person can hold both. Count the review records before treating a difference between reviewer count and review count as an error.
 
-Return to the two reviews and three items.
-
-Suppose review A now has these recorded decisions:
-
-- Approve reports-view.
-- Revoke reports-export.
-
-The reviewer has also completed the required review confirmation. **Sign-off** is the reviewer's confirmation of the review decisions. For this example, review A's completion is confirmed in its review record.
-
-Review B's reports-view item is still undecided, meaning no decision has been recorded for it.
-
-We can now make two precise statements:
-
-- One of the two assigned reviews is confirmed complete.
-- Two of the three review items have recorded decisions.
-
-These statements count different units. One counts assigned reviews; the other counts item decisions.
-
-They are counts from the supplied records, not a rule for how every ISC progress percentage is calculated. When reading a percentage or status, check what that particular view or report counts.
-
-Can we say the whole campaign is complete? No. One review still has undecided work, and we have not established the campaign's completion state.
-
-Can we say reports-export has been removed from the application? No. We know that review A contains a Revoke decision and its review completion is confirmed. We have not supplied evidence of the application's access change.
-
-A review decision, a completed assigned review, the campaign's completion state and the account's actual access answer different questions. Keep each statement attached to the record that supports it.
-
-## Use the distinction to choose your next check
-
-Suppose someone reports, “There are two certifications, but only one reviewer.”
-
-Is that automatically an error? The count alone cannot tell you. Two separate assigned review records could name the same current reviewer. Count the review records and inspect their assignments before treating the number of people as the number of reviews.
-
-Now suppose someone says, “The item is complete, so the campaign is complete.”
-
-Ask which item they mean, what its status establishes, and what the other review records show. An item-level result does not supply the state of the whole collection.
-
-Or someone says, “I own the source, so I should be able to start this campaign.”
-
-There are two separate facts to check. Ownership concerns responsibility for the source. Starting a campaign requires the applicable platform permission. Inspect the person's allowed actions rather than inferring them from the owner label.
-
-In each case, naming the right unit turns a broad claim into something you can check.
-
-## Try it with a different set of review records
+## Work through another set of assignments
 
 A campaign contains three assigned reviews:
 
@@ -211,16 +181,18 @@ A campaign contains three assigned reviews:
 - Review Q contains one item.
 - Review R contains three items.
 
-The assignment records show that one reviewer holds P and Q, and another reviewer holds R. P has two saved item decisions, but there is no evidence of its required review confirmation. Q and R have no decisions.
+One reviewer currently holds P and Q. A different reviewer holds R.
 
-How many campaigns, assigned reviews, reviewers and item decisions are represented? What additional evidence would establish that P is complete?
+P has two saved item decisions, but no evidence of its required review confirmation has been supplied. Q and R have no decisions.
 
-There is one campaign, three assigned reviews and two currently assigned reviewers. The reviews contain six items in total: two plus one plus three.
+Explain how many campaigns, assigned reviews, current reviewers and items these records describe. Then explain what is still missing before you can say that P is complete.
 
-Two of those six items have saved decisions. They are both in P. Counting people would give two, but counting assigned review records gives three because one person holds two reviews.
+There is one campaign and three assigned reviews. There are two current reviewers because one person holds two of the reviews.
 
-P's saved decisions show that its items have received decisions. To establish P's completion, inspect the review's confirmation and completion record. The supplied facts do not establish that step. Q and R still have undecided work.
+There are six items altogether: two in P, one in Q and three in R. Two of those six items have saved decisions, both in P.
 
-Finally, suppose one of P's saved decisions is Revoke. What would you need before saying the permission has actually gone?
+Those saved decisions show that P's items have received decisions. They do not establish that the reviewer finished and confirmed P. Inspect P's confirmation and completion record before claiming that its assigned review is complete. Q and R still contain undecided work.
 
-You would need evidence of the applicable removal work and the resulting access on the correct system account. The decision alone identifies what should change. The account outcome establishes whether that required change happened.
+Now suppose one of P's saved decisions is Revoke. To say the permission is gone, you also need evidence of the required removal work and the resulting access on the correct application account.
+
+The saved decision tells you what should change. The account result tells you whether the change actually happened. Keep that account check connected to the particular item, even when you are reporting progress for the whole campaign.

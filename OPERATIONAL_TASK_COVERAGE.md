@@ -1,8 +1,8 @@
 # ISC certifications: operational task coverage
 
-Planning revision 1.9. November 2, 2026.
-Companion to [course design 3.3](COURSE_DESIGN.md).
-Status: coverage committed for authoring. CRT-001 revision 1.0 develops the purpose/current-need foundation for task 1 and introduces supporting access/decision/outcome meanings. CRT-002 adds object/actor and evidence-unit foundations for tasks 7/8/9/10/14. CRT-003 adds a connected data/review/removal/evidence trace supporting tasks 2/7/14/17/18/19/21/22. CRT-004 develops the purpose/control comparison and supports tasks 1/13/14/17/20. CRT-005 develops source-data/ownership foundations supporting tasks 2/7/13/21/22. CRT-006 develops review-object/assignment-scope foundations supporting tasks 3/13/14/20/21. CRT-007 develops appearance/absence diagnosis supporting tasks 2/7/12/13/14. Detailed remaining task mechanics remain planned. Actual learner performance has not been validated.
+Planning revision 2.4. November 11, 2026.
+Companion to [course design 4.5](COURSE_DESIGN.md).
+Status: coverage committed for authoring. CRT-001 revision 1.0 develops the purpose/current-need foundation for task 1 and introduces supporting access/decision/outcome meanings. CRT-002 adds object/actor and evidence-unit foundations for tasks 7/8/9/10/14. CRT-003 adds a connected data/review/removal/evidence trace supporting tasks 2/7/14/17/18/19/21/22. CRT-004 develops the purpose/control comparison and supports tasks 1/13/14/17/20. CRT-005 develops source-data/ownership foundations supporting tasks 2/7/13/21/22. CRT-006 develops review-object/assignment-scope foundations supporting tasks 3/13/14/20/21. CRT-007 develops appearance/absence diagnosis supporting tasks 2/7/12/13/14. CRT-009 develops access-meaning/description readiness and current-need reasoning for tasks 2/8/13/14. CRT-010 develops baseline and generated-population evidence for tasks 1/2/4/7/8/13/22. CRT-011 develops manager-question/data/assignment foundations for tasks 1/2/3/7/8/10/11/14. CRT-012 develops source-owner purpose/readiness/assignment foundations for tasks 1/2/3/7/8/10/11/14/21. CRT-013 develops people/access-object selection and actual resulting scope for tasks 1/3/4/7/13. Detailed remaining task mechanics remain planned. Actual learner performance has not been validated.
 Authoring must follow the [teaching specification](TEACHING_SPECIFICATION.md) and reconcile each completed task against its saved lesson record.
 
 CRT-008 now develops exact account/ownership foundations for tasks 2/7/13/14/17/18/19/21/22: distinguish repeated-looking access on different accounts, confirm the actual decision/operation target and verify both intended removal and retained approved access. Its uncorrelated and machine/service sections develop required X-02/X-03 recognition, not full dedicated campaign procedures. [The author record](author/revisions/CRT-008_Revision_Record.md) reconciles the saved teaching and independent wrong-account transfer. This is authored task support, not demonstrated production competence or an observed learner pass.
@@ -33,7 +33,7 @@ Every mapped task must teach the purpose, actor/permission, required input, appl
 | 11. Handle reviewer absence or departure | Campaign reassignment versus work reassignment, eligible replacement, state and self-review restrictions. | CRT-024–026 |
 | 12. Investigate why the reviewer cannot see or open work | Correct identity/environment, actual assignment, campaign state, sign-off and permitted access; no assumed universal cause. | CRT-021/025/042/045 |
 | 13. Investigate missing, unexpected or repeated-looking items | Scope, filter, grant origin, account identifier, uncorrelated data and snapshot timing. | CRT-005–010/016–019/045 |
-| 14. Help the reviewer understand and record a decision | Access meaning, business need, Approve/Revoke/Acknowledge, comments and limits of bulk decisions. | CRT-027–031 |
+| 14. Help the reviewer understand and record a decision | Access meaning, business need, Approve/Revoke/Acknowledge, comments and limits of bulk decisions. | CRT-009/027–031 |
 | 15. Distinguish undecided work from an unsigned review | Item decisions, review finality, deadline/completion policy and engine-verified behavior. | CRT-030/039/040 |
 | 16. Investigate notifications and follow up | Notification configuration versus assignment/visibility, reminder work and evidence of the actual delivery issue. | CRT-021/038/045 |
 
@@ -90,3 +90,23 @@ For example:
 - A report is complete but was generated before the latest review changes.
 
 Do not treat reading completion, matching totals or a memorized button sequence as an assessment pass. Tenant execution remains separate later practice.
+
+## CRT-009 authored foundations, November 11, 2026
+
+[CRT-009 author record](author/revisions/CRT-009_Revision_Record.md) supports task 2 (description/owner information ready for review), 8 (understandable context before relying on review work), 13 (misleading item labels/details) and 14 (actual capability, current need and useful decision evidence). The finance and Basic Support cases preserve package scope and text-versus-permission distinctions. This does not complete launch procedures, reviewer routing, rich insight interpretation, deadline/uncertainty policy or remediation. Actual task performance remains untested.
+
+## CRT-010 authored foundations, November 11, 2026
+
+[CRT-010 record](author/revisions/CRT-010_Revision_Record.md) supports task 1 (explicit population requirement/time), 2 (source/ownership evidence), 4 (verify actual selected population), 7 (complete generated comparison), 8 (coverage evidence before reliance), 13 (missing/unexpected account/item context) and 22 (records and unresolved findings). Finance equal-count and warehouse multi-account cases retain package/assignment/time distinctions. Full query/filter configuration, campaign activation, specialist account setup and report/API procedures remain planned. Actual learner task performance remains untested.
+
+## CRT-011 authored foundations, November 11, 2026
+
+[CRT-011 record](author/revisions/CRT-011_Revision_Record.md) supports task 1 (business need question), 2 (manager data readiness), 3 (manager-oriented approach), 7 (actual assignees/items), 8 (suitability/authority), 10 (missing or incorrect reviewer), 11 (absence recognition) and 14 (need and meaningful access explanation). Source reference, resolved manager and existing review work remain different evidence. The creator fallback/dedicated exclusion comparison and warehouse transfer do not complete later routing, reassignment or source configuration procedures. Actual task performance remains untested.
+
+## CRT-012 authored foundations, November 11, 2026
+
+[CRT-012 record](author/revisions/CRT-012_Revision_Record.md) supports task 1 (source-focused question), 2 (source/account/owner readiness), 3 (appropriate approach), 7 (actual items/assignees), 8 (suitable authorized review), 10 (wrong/missing ownership inputs), 11 (absence recognition), 14 (capability/current-need judgment) and 21 (actual account outcome recognition). Source/access/review/removal responsibilities remain distinct. Included-source prerequisites and warehouse changed-owner/new-source reasoning do not complete later routing, state matrices, special-account setup or remediation. Actual task performance remains untested.
+
+## CRT-013 saved task support, November 11, 2026
+
+[CRT-013 record](author/revisions/CRT-013_Revision_Record.md) reconciles tasks 1/3/4/7/13 with Finance versus export-holder selection, all/specific query results, later access choice, exact object/container checks and actual preview/assignment. The contractor role-holder transfer requires both the correct people and role-only scope. Full refinement/query/filter/launch procedures remain planned. Authored reasoning is not an observed production task result or learner pass.

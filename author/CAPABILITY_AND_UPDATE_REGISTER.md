@@ -1,6 +1,6 @@
 # Capability, update and open-question register
 
-Version 1.8. November 2, 2026.
+Version 2.3. November 11, 2026.
 Source leads: [official source map](../AUTHOR_SOURCE_MAP.md).
 Purpose: stop unsupported current/legacy/availability claims entering lessons.
 
@@ -31,7 +31,7 @@ The original CAP-01–14 scoping rows date to October 29, 2026; later dated auth
 | CAP-11 | Revocation timing and remediation phase | Verify exact trigger/date/state for the engine; see OQ-02. Do not infer a universal private sequence. | [Understanding](https://documentation.sailpoint.com/saas/help/certs/understanding_certifications.html), [API overview](https://developer.sailpoint.com/docs/api/next-generation-certification-campaigns/), scoped, exact timing unresolved. | CRT-003/032–040/046 |
 | CAP-12 | Manual/automatic fulfillment, overlap and failures | Verify source write permission, supported operation, actual task assignment and grant paths. | [Reviewer guidance](https://documentation.sailpoint.com/saas/user-help/certs/reviewing/index.html), [Completion](https://documentation.sailpoint.com/saas/help/certs/completing_campaigns.html), scoping checked. | CRT-033–037/046 |
 | CAP-13 | Notifications, deadlines, reports and retirement | Verify settings/state/engine and which report is available when; do not treat status/report fields as universal. | [Completion](https://documentation.sailpoint.com/saas/help/certs/completing_campaigns.html), [Reports](https://documentation.sailpoint.com/saas/help/certs/campaign_status_reports.html), scoping checked. | CRT-038–044 |
-| CAP-14 | Specialist capability and rich context | Core recognition is required; exact licensed/phased behavior checked before deeper route claims. | [Search](https://documentation.sailpoint.com/saas/help/certs/starting_search_campaign.html), [Reviewer guidance](https://documentation.sailpoint.com/saas/user-help/certs/reviewing/index.html), scoping checked. | CRT-008/015/027/031; X-01–05 |
+| CAP-14 | Reviewer descriptions/context and specialist capability | Core recognition is required; exact licensed/phased behavior checked before deeper route claims. | [Search](https://documentation.sailpoint.com/saas/help/certs/starting_search_campaign.html), [Reviewer guidance](https://documentation.sailpoint.com/saas/user-help/certs/reviewing/index.html), scoping checked. | CRT-008/009/015/027/031; X-01–05 |
 | CAP-15 | Source/account data, schema and identity association | Source-supported collection, account versus catalog data, correct correlation and observation time; no universal connector contract or refresh duration. | [Account loading](https://documentation.sailpoint.com/saas/help/accounts/loading_data.html), [schemas](https://documentation.sailpoint.com/saas/help/accounts/schema.html), [correlation](https://documentation.sailpoint.com/saas/help/accounts/correlation.html), refreshed November 2, 2026 for CRT-008's account-specific teaching; earlier CRT-005 check remains historical. | CRT-005/008/009/010/019/045 |
 
 ## CRT-008 authored application, November 2, 2026
@@ -106,6 +106,30 @@ The single-entitlement exclusion is documented. Role-filter unit wording is sepa
 
 CRT-007 is author-reviewed locally, actual learner validation pending and publication unperformed. CRT-001 through CRT-006 are published/live-verified; earlier authored-application states are historical. No exhaustive release or tenant-result claim is added.
 
+## CRT-009 authored application, November 11, 2026
+
+[CRT-009's record](revisions/CRT-009_Revision_Record.md) develops CAP-14's foundational description/metadata/privilege recognition, with CAP-04 item scope and CAP-15 source/account context. Seven primary references support source versus ISC description editing, responsible ownership, configurable displayed identity/entitlement fields, package meaning and conditional reviewer indicators. The inspected entitlement guide explicitly states display/description edits are not sent to the source; generated descriptions need approval where supported.
+
+No flag or classification is treated as automatic need/safety evidence. New Access is interpreted as not previously certified, not a grant timestamp. Detailed licensed insights, classification setup/inheritance and automatic campaign repair are outside this scope. All seven product questions remain open. CRT-009 is local and author-reviewed; learner assessment, tenant execution and publication remain unperformed. Earlier dated authored-application states remain historical.
+
+## CRT-010 authored application, November 11, 2026
+
+[CRT-010's record](revisions/CRT-010_Revision_Record.md) develops CAP-15 account/association evidence with CAP-04 certifiable unit, CAP-05/06/07 route/selection/generated context and CAP-13 report scope. CAP-02's next-generation-only Experimental API limitation informs the generic retrieval warning; no endpoint contract is taught. Ten primary references support the bounded claims. Independent baselines and full record comparison are engineering methods, not a built-in automatic ISC completeness guarantee.
+
+The dedicated manager-route missing-manager exclusion is kept separate from Search manager-reviewer behavior. Special account types need explicit scope/ownership and supported conditional review routes. All seven product questions remain open; no universal Role-filter model, manager fallback, report matrix or refresh behavior is inferred. CRT-010 is local and author-reviewed; participant assessment, tenant execution and publication remain unperformed. Earlier dated authored-application states remain historical.
+
+## CRT-011 authored application, November 11, 2026
+
+[CRT-011's record](revisions/CRT-011_Revision_Record.md) develops CAP-05 manager purpose/prerequisites with CAP-08/09 routing and assignment support, CAP-15 manager data and CAP-04 review-unit boundaries. Manager correlation and identity-profile mapping were checked directly: configured employee source reference matches the manager identity; Manager Name mapping plus source configuration are required. Documented field matching can retain an old manager when a changed value fails to match, so a nonblank relationship does not prove correctness.
+
+Dedicated Manager Campaign missing-manager exclusion is separate from Search Manager creator handling. Self-review and reassignment limits remain applicable, and actual generated assignment must be inspected after data changes. No universal custom-rule/priority model, owner fallback, exact state matrix or automatic old-review refresh is inferred. All seven product questions remain open. CRT-011 is local and author-reviewed; participant assessment, tenant execution and publication remain unperformed. Earlier dated states remain historical.
+
+## CRT-012 authored application, November 11, 2026
+
+[CRT-012's record](revisions/CRT-012_Revision_Record.md) develops CAP-05's source-owner purpose/readiness with CAP-08/09 assignment, CAP-15 account/source data, CAP-04 review-unit boundaries and limited CAP-12 actual-result recognition. Dedicated source-owner campaign generation requires recorded owners for included sources. Source configuration records system responsibility; Search Source Owner and Access Owner choices are distinct and campaign-type dependent. No missing-owner creator or manager fallback is inferred.
+
+Recorded source owner, actual reviewer, current decision actor and actual change-task recipient remain separate. Updating ownership does not establish that generated work was reassigned or newly selected sources were included. All seven product questions remain open, including OQ-05's manual-recipient conflict. CRT-012 is local and author-reviewed; participant assessment, tenant execution and publication remain unperformed. Earlier dated states remain historical.
+
 ## Update log and authoring protocol
 
 For each actual relevant change, record:
@@ -120,3 +144,9 @@ Do not create fake release entries to fill a register. No release-completeness c
 Before marking a lesson technically checked, link the concrete claims to sources in its own author record. Record unresolved scope rather than using “verified” for a whole document that contains unchecked behavior.
 
 Never perform a live campaign, source permission change, email, API mutation or remediation experiment merely to clear an authoring note. Such actions need authorization in the actual task context.
+
+## CRT-013 authored application, November 11, 2026
+
+[CRT-013 record](revisions/CRT-013_Revision_Record.md) develops CAP-05 targeted identity/access selection, with limited CAP-06 later access refinement, CAP-04 containment/actions, CAP-07 preview, CAP-08/09 reviewer separation and CAP-15 source/account information. Fresh Search guidance confirms that both identity and access-item routes offer all/refined access afterward. Access-object selection respects standalone/container conditions; a saved query is not actual generated work.
+
+The page marks phased availability; no universal engine/options equivalence, exact query/API/limit contract, role-filter meaning or grouping formula is inferred. All seven product questions remain open. CRT-013 is author-reviewed; independent learner assessment and tenant execution are pending. Publication is authorized and its actual results belong in the publication record.

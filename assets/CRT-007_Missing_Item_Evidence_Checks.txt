@@ -1,21 +1,23 @@
-Check source/account values
-  Missing -> collection
-  Present
-     |
-     v
-Check identity association
-  Wrong -> ownership
-  Correct
-     |
-     v
-Check origin and containment
-     |
-     v
-Check scope and filters
-     |
-     v
-Check generated contents,
-time and assigned review
-     |
-     v
-Compare item and action
+Correct account value in ISC?
+  No -> inspect collection
+  Yes
+   |
+   v
+Linked to correct identity?
+  No -> inspect association
+  Yes
+   |
+   v
+Which package or requirement
+controls this access?
+   |
+   v
+Selected or excluded by
+this campaign?
+   |
+   v
+What was generated, when,
+and in whose review?
+   |
+   v
+Expected item and action?

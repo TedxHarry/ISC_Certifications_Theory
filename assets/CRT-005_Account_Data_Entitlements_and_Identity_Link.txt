@@ -1,12 +1,13 @@
-Application account values
+Reporting account values
             |
             v
-Connector + account schema
+Connector reads the data
+Schema interprets the fields
             |
             v
-Collected account in ISC
-  + entitlement information
-  + identity association
+Collected account record
+  + matching access details
+  + correct identity link
             |
             v
 Person / account /
@@ -14,7 +15,7 @@ held access
             |
             v
 Campaign selection and
-certifiable-access rules
+eligible review unit
             |
             v
-Generated review item
+Generated export review item

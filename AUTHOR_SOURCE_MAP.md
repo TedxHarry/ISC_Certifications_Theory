@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 3.5. Updated November 2, 2026; dated checks below distinguish each stage.
+Authoring source reference 4.5. Updated November 11, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant actions, test campaign or provisioning change was performed. The November 2 publication is live-verified for all eight authored learners: CRT-001/004 revision 1.1 and the other six revision 1.0. Existing-lesson revision remains the priority; CRT-002 is next and CRT-009 is parked. Dated local/unpublished statements below remain historical evidence.
+No tenant action, test campaign or provisioning change was performed. Thirteen learners and the earlier five rewrites are complete and authorized for publication. Deployment and live verification are pending. CRT-014 is next; dated evidence below remains historical.
 
 ## Primary source map
 
@@ -229,3 +229,63 @@ Next: revise CRT-002, followed by CRT-003/005/006/007. Preserve CRT-004 1.1 and 
 ## Eight-lesson publication, November 2, 2026
 
 At the user's push instruction, content 0ad8a37e497013d6ec08660393f815bc463498e0 published CRT-001/004 1.1 and CRT-002/003/005/006/007/008 1.0. Pages run 41469886314 succeeded. Live verification passed for eight lessons, all 885 content units, eight diagrams/tables/assets, CSS, 86 internal link visits and four author/control route exclusions. [Publication evidence](author/PUBLICATION_2026-11-02_EIGHT_LESSONS.md) records the snapshot. These deployment checks do not resolve the seven product questions or constitute a learner assessment. The next task is CRT-002's rewrite.
+
+## CRT-002 explanation revision, November 11, 2026
+
+[CRT-002 revision 1.1](lessons/CRT-002_Campaigns_Certifications_and_Review_Items.md) is complete locally. [Its new record](author/revisions/CRT-002_Revision_1_1_Record.md) maps the preserved hierarchy, account/person/item context, assigned work, progress, roles/authority and independent six-item transfer to five refreshed official references. The current reviewer versus decision-maker distinction was rechecked against report guidance. No universal grouping, percentage, routing, finality or removal-timing behavior is inferred.
+
+All seven product questions remain open. Eight topics are authored and 42 remain unwritten; four earlier lessons remain to revise. The source/author checks do not establish independent learner performance. No commit, push or deployment occurred. CRT-003's rewrite is next.
+
+## CRT-003 explanation revision, November 11, 2026
+
+[CRT-003 revision 1.1](lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md) is complete locally. [Its new record](author/revisions/CRT-003_Revision_1_1_Record.md) maps the preserved process and evidence reasoning to ten current primary references, including the four campaign/reviewer/eligibility references checked during CRT-002 and six reopened data/delivery/snapshot/engine sources. Exact remediation timing and manual-task recipient scope remain unresolved; the learner follows supplied ready removal work rather than an invented universal sequence.
+
+All seven product questions remain open. Eight topics are authored and 42 remain unwritten. CRT-005/006/007 remain to revise; CRT-002/003 1.1 remain local. No independent learner pass, commit, push or deployment is claimed.
+
+## CRT-005 explanation revision, November 11, 2026
+
+[CRT-005 revision 1.1](lessons/CRT-005_From_Application_Access_to_Reviewable_Information.md) is complete locally. [Its new record](author/revisions/CRT-005_Revision_1_1_Record.md) maps all 26 original teaching purposes to the saved revision and eight primary references. Four source/schema/entitlement references were reopened; four data/correlation/eligibility/snapshot checks from today's CRT-003 work were reused within their verified scope. The explanation retains account-held values versus access-object definitions, documented linking conditions, unique correct correlation, optimized reprocessing limits and captured review times.
+
+All seven product questions remain open. No tenant result, exhaustive update audit or participant mastery is claimed. CRT-002/003/005 1.1 remain local; CRT-006 is next, followed by CRT-007. Eight topics are authored and 42 remain unwritten. No commit, push or deployment occurred.
+
+## CRT-006 explanation revision, November 11, 2026
+
+[CRT-006 revision 1.1](lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.md) is complete locally. [Its new record](author/revisions/CRT-006_Revision_1_1_Record.md) maps all 25 original teaching purposes to saved sections and eight reopened primary references. Direct entitlements in roles, single-source profiles, requested/detected origins, criteria-controlled Acknowledge, lifecycle/role containment and legacy composition scope remain verified within the stated limits. The two official profile-overlap descriptions still conflict; OQ-07 remains open and the examples do not assume overlap protection.
+
+All seven product questions remain open. No tenant test, exhaustive update audit, participant mastery, commit, push or deployment occurred. CRT-002/003/005/006 1.1 remain local. CRT-007 is the one remaining rewrite; eight topics are authored and 42 remain unwritten.
+
+## CRT-007 explanation revision, November 11, 2026
+
+[CRT-007 revision 1.1](lessons/CRT-007_Why_Access_Appears_Differently_or_Is_Missing.md) is complete locally. [Its new record](author/revisions/CRT-007_Revision_1_1_Record.md) maps all 24 original purposes to saved sections and nine primary references. Filter, manager/source campaign, account loading and correlation passages were reopened; today's CRT-006 object/eligibility/Search/reviewer checks were reused within scope, with selection/grouping passages reinspected. Role-filter unit ambiguity remains open; no universal refresh, correction or permission matrix was inferred.
+
+All seven product questions remain open. The existing-lesson rewrite pass is complete locally. Eight topics remain authored, 42 remain unwritten and CRT-009 is next. CRT-002/003/005/006/007 1.1 remain unpublished. No tenant test, exhaustive release audit, independent learner pass, commit, push or deployment occurred.
+
+## CRT-009 authored locally, November 11, 2026
+
+[CRT-009](lessons/CRT-009_Understanding_What_Access_Actually_Permits.md) and [its author record](author/revisions/CRT-009_Revision_Record.md) connect descriptions, business capability, responsible ownership, person attributes, entitlement metadata and actual reviewer judgment. Entitlement management, certification identity details, reviewer context and privilege classification were inspected afresh; profile/role and generated-context checks reuse today's verified scope, with profile/role description/owner passages reinspected. Display/description edits in ISC are not sent to the source. Conditional GenAI suggestions require approval; no model output, missing flag or readable label proves actual capability or need.
+
+Seven primary references support the scoped claims. Detailed scoring/inheritance, insight configuration, automatic snapshot repair and uncertainty policies are not inferred. All seven product questions remain open. Nine topics are authored and 41 remain unwritten. The eight-entry publication manifest and published snapshot are unchanged; CRT-009 and earlier five local rewrites are unpublished. CRT-010 is next.
+
+## CRT-010 authored locally, November 11, 2026
+
+[CRT-010](lessons/CRT-010_Checking_That_the_Review_Population_Is_Complete.md) and [its author record](author/revisions/CRT-010_Revision_Record.md) connect independent expected-population evidence with actual generated people/account/access. Ten primary references cover data/association, selection/containment, campaign-route prerequisites, generated preview, reports and complete-result retrieval. Search campaign, manager/source route and reports were reopened; collection-parameter and next-generation-only API scope were checked. Earlier same-day eligibility/filter/data/reviewer checks are reused within scope.
+
+Reconciliation and sampling limits are engineering reasoning, not an ISC built-in automatic population validator. No exact API contract, universal report columns, Role-filter interpretation or automatic repair is inferred. All seven product questions remain open. Ten topics are authored and 40 remain unwritten. CRT-009/010 and five earlier local rewrites are unpublished; the eight-entry publication manifest is unchanged. CRT-011 is next.
+
+## CRT-011 authored locally, November 11, 2026
+
+[CRT-011](lessons/CRT-011_When_a_Manager_Review_Is_the_Right_Choice.md) and [its record](author/revisions/CRT-011_Revision_Record.md) develop manager business-need judgment and source-to-relationship-to-assigned-review reasoning. Manager correlation and identity-profile mapping, dedicated manager and Search routes, self-review and reassignment were reopened. The documented field-match behavior can retain an existing manager when a changed reference cannot match. Missing-manager Search creator assignment is kept distinct from dedicated-route exclusion and separate self-review controls.
+
+Eight primary references support scoped product claims; earlier same-day reviewer/report/account-data checks are reused. No universal priority/custom-rule, hierarchy expansion, owner fallback, automatic reassignment or exact permission matrix is inferred. All seven product questions remain open. Eleven topics are authored and 39 remain unwritten. CRT-012 is next; CRT-009/010/011 and earlier five rewrites are local and unpublished. The eight-entry publication manifest remains unchanged.
+
+## CRT-012 authored locally, November 11, 2026
+
+[CRT-012](lessons/CRT-012_When_Source_Owners_Should_Review_Access.md) and [its record](author/revisions/CRT-012_Revision_Record.md) develop source-owner purpose, selected source/account/access, recorded ownership and actual assigned work. Dedicated source-owner campaign, source configuration and Search reviewer passages were reopened. The included-source owner prerequisite is kept distinct from other reviewer hierarchies; no creator/manager fallback is invented for a missing source owner.
+
+Ten primary references support scoped product claims; same-day object/data/reviewer/reassignment/report checks are reused. OQ-05's manual-removal recipient question is not resolved from a reviewer label, and all seven product questions remain open. Twelve topics are authored and 38 remain unwritten. CRT-013 is next. CRT-009 through CRT-012 and the five earlier rewrites remain local/unpublished; the eight-entry publication manifest is unchanged.
+
+## CRT-013 authored and publication authorized, November 11, 2026
+
+[CRT-013](lessons/CRT-013_Starting_with_People_or_Access_Items.md) and [its record](author/revisions/CRT-013_Revision_Record.md) develop people-first versus access-first selection, actual returned record types, a separate all/refined-access decision and generated-result checks. Search creation, Understanding Certifications and query-building passages were reopened. Five same-day supporting profile/role/reviewer/account references are reused within scope. The Search page still marks phased availability. No exact query/API/limit contract, role-filter interpretation or universal grouping is inferred.
+
+The main comparison and requested-role transfer preserve object definitions versus holdings, exact source references and container restrictions. All seven product questions remain open. Thirteen topics are authored and 37 unwritten; CRT-014 is next. The user authorized publication of all saved work. See the separate publication record for executed deployment evidence when available.

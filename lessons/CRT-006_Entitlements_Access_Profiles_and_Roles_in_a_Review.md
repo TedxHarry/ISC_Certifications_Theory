@@ -1,216 +1,244 @@
 # Are we reviewing an entitlement, an access profile or a role?
 
-A review item says Reporting Access. Its details show permission to view reports and permission to export them.
+A person still needs to view reports, but no longer needs to export them. In the access review, you find an item called Reporting Access. Its details include both permissions.
 
-Are you deciding whether one permission should remain, whether the whole reporting package should remain, or whether the person should keep a role that includes that package?
+Would selecting Revoke remove only export access, or would it also affect viewing?
 
-The answer changes the scope of the decision. Let's identify the object before deciding what should happen to its access.
+To answer, we need to know what the item represents. A review can ask about one permission, a package of permissions or a role containing access to more than one system. Let's build that connection from the account upward.
 
-## Start with the right in the application
+## Begin with what the account can do
 
-An **account** is a person's record in a system. **Access** is what that account can do.
+An **account** is a person's record in an application or system. Its **access** determines what someone using that account can do.
 
-SailPoint Identity Security Cloud (ISC) connects information about the person through an **identity**. A **source** is ISC's configured representation of a system or collection of account data.
+For example, the reporting application uses two permissions:
 
-An **entitlement** represents an access right from a source. It might represent membership in a group that allows an account to export reports.
+- reports-view allows the account to view reports.
+- reports-export allows the account to export reports.
 
-For our reporting source, reports-view permits viewing reports and reports-export permits exporting them. Those meanings are established by the application's access configuration.
+These meanings come from the application's access configuration. A readable name helps us discuss a permission, but we still need to establish what it actually allows.
 
-The entitlement identifies a represented right. To understand a person's access, you also need the identity, source and exact account that holds it.
+SailPoint Identity Security Cloud (**ISC**) keeps an **identity** representing the person. That identity connects the person's information with their accounts and access. A **source** is the configuration in ISC for the system or collection of account data being managed.
 
-An entitlement's name alone does not establish that every account holding it has the same current business need.
+ISC represents an access right from a source as an **entitlement**. If membership in an application group allows exporting reports, that membership can be represented as an entitlement in ISC.
 
-## An access profile groups related rights from one source
+Keep the person, source and account together when inspecting this access. Two accounts can hold reports-export, while only one account's owner still needs to export reports. The permission's meaning can be the same even though the business reason for keeping it differs.
 
-An **access profile** is a named bundle of related entitlements from one source.
+## Put the reporting permissions into one package
 
-Suppose the Reporting Access profile contains reports-view and reports-export from the reporting source.
+Suppose the reporting work requires both viewing and exporting. An administrator defines a package called Reporting Access in ISC and includes reports-view and reports-export.
 
-The profile gives those rights a package name that can be used when assigning and reviewing access. Its contents explain what that package actually permits.
+That package is an **access profile**: a named bundle of related entitlements from one source.
 
-The access profile is a package defined in ISC. The account in the reporting application holds the underlying rights. Giving the profile a friendly name does not replace those rights with a new application account.
+The profile lets ISC refer to the two permissions together. A person can receive Reporting Access as one package, and a review can ask whether they should keep that package.
 
-This distinction is useful in a review. Seeing one profile item can mean that several underlying rights are involved.
+The package is defined in ISC. The actual reporting account holds the permissions used by the application. Creating a package name does not create a different reporting account or replace the application's permissions.
 
-## A role can organize access across sources
+When someone holds Reporting Access, inspect its contents to understand the access involved. In this example, the package includes both viewing and exporting. Its friendly name does not make export a separate decision inside a review of the complete profile.
 
-A **role** groups related access, such as the access needed for a defined work responsibility. In ISC, a role can contain access profiles, direct entitlements, or both. Its access can come from one source or multiple sources.
+An access profile takes its entitlements from one source. To bring reporting access and access from another system together, ISC can use a role.
 
-For example, the Report Reviewer role contains:
+## Bring access from different systems together
 
-- Reporting Access from the reporting source, including reports-view and reports-export.
-- Case Read from the case-management source, including cases-read, permission to read cases.
+A **role** groups access for a responsibility or purpose. It can contain access profiles, direct entitlements, or both. Its access can come from one source or multiple sources.
 
-Here, each access profile has entitlements from its own source. The role brings the two packages together.
+Consider a role called Report Reviewer. Here, it contains two access profiles.
 
-The person has a correctly associated reporting account and a correctly associated case-management account. The underlying rights belong on those respective accounts.
+Reporting Access comes from the reporting source and includes reports-view and reports-export. Case Read comes from the case-management source and includes cases-read, which allows reading cases.
 
-The example's role contents look like this:
+The role combines those packages. The reporting permissions belong on the person's reporting account; the case-reading permission belongs on their case-management account. Both accounts are correctly linked to the person's identity in this example.
+
+Here are the contents:
 
 ```text
 Report Reviewer role
 |
 +-- Reporting Access profile
 |   Reporting source
-|   +-- View reports
-|   +-- Export reports
+|   +-- reports-view
+|   |   View reports
+|   +-- reports-export
+|       Export reports
 |
 +-- Case Read profile
     Case-management source
-    +-- Read cases
+    +-- cases-read
+        Read cases
 ```
 
-The branches mean “contains.” This role uses access profiles, but roles do not universally require that middle layer: a role can also contain direct entitlements.
+Each branch means “contains.” It is a map of this role's access, not the order in which ISC changes the accounts.
 
-When you inspect a real role, follow its actual contents. Do not assume its name describes every permission or that all of its access reaches one application.
+This role happens to use profiles for both sources. A role can also include an entitlement directly, without putting it inside an access profile first. Follow the actual contents of the role you are examining.
 
-## An assignment connects the person with the access object
+## Connect the role with one person
 
-A package definition says what access it includes. An **assignment** connects that access object with an identity.
+The Report Reviewer role can exist in ISC before a particular person receives it. Its **role definition** describes the shared role, including its contents and configured requirements.
 
-For a role, these are different facts:
+An **assignment** connects an access object, such as a role, with an identity. A **role assignment** means that this identity holds that role.
 
-The role definition contains Reporting Access and Case Read.
+For example, the shared Report Reviewer definition contains Reporting Access and Case Read. One person's assignment connects their identity to that role and the access it provides.
 
-The identity has an assignment to that role.
+This gives us two different questions. Does this person still need the role? And is the role itself designed with the right access?
 
-Reviewing this person's role assignment asks whether this person should continue to hold the role. It does not, by itself, ask whether the role definition should change for everyone.
+Removing one person's assignment addresses the first question. Editing the shared role definition addresses the second and can affect other people who hold it.
 
-**Assignment origin** means how the person received that access. A role might have been requested and approved, or it might have been assigned automatically because the identity met configured criteria.
+We also need to establish how the assignment came about. **Assignment origin** means how the person received the access. An approved request and an automatic membership rule are different origins.
 
-The object type tells you what is being reviewed. The assignment origin helps explain which review actions are available and what continues to control the access.
+## First review one permission
 
-## First consider an individually reviewed entitlement
+A **certification campaign** organizes access reviews. When ISC generates the campaign's review work, a **certification** is an assigned review within it. The **reviewer** is the person responsible for that review.
 
-Suppose the reporting account holds reports-export outside any containing access profile or role. No automatic requirement is keeping it, and the campaign includes it as an individual entitlement item.
+Inside the assigned review, a **review item** presents access for a decision.
 
-A **certification campaign** organizes access reviews. A **certification** is an assigned review, and its **reviewer** is the person responsible for assessing the access. A **review item** is the particular access presented for a decision.
+Suppose the item is reports-export on the person's reporting account. Here, that entitlement is held outside an access profile or role, and no automatic requirement keeps it. The campaign includes it as an individually reviewable item. The account belongs to the correct identity, and an appropriate reviewer is assigned without reviewing their own access.
 
-For this item, the question is whether the intended person should continue to hold reports-export through that reporting account.
+The question is whether this person still needs to export reports using that account.
 
-**Approve** accepts keeping the reviewed access. **Revoke** records that the reviewed access should be removed.
+**Approve** accepts keeping the reviewed access. **Revoke** records that the reviewed access should be removed. The reviewer needs evidence about the person's current work to choose between them.
 
-The decision's target is that entitlement relationship. It does not mean “delete the account” or “remove every reporting permission.”
+For this item, Revoke concerns reports-export on the specified account. Other reporting permissions are outside that decision. Removing a permission also does not mean deleting the account.
 
-The reviewer still needs current business evidence. Correctly identifying the entitlement does not establish whether the person needs it.
+The item tells you the scope of the decision. The person's current work tells you whether keeping that access is justified.
 
-## Now consider a requested access profile
+## Now review the reporting package
 
-Change the access context. The person holds Reporting Access through an approved access request. That requested profile is the generated review item.
+Consider a different situation. The person holds Reporting Access through an approved **access request**, which asks for access to be added or changed. That request originally provided the package containing viewing and exporting.
 
-An **access request** asks for a supported access change. In this case, the approved request originally provided the reporting package.
+The generated review item is the Reporting Access profile.
 
-The review now asks whether the person should keep the profile, including both viewing and exporting reports.
+Open its details and follow both permissions. The review asks whether the person should keep the package, so the decision concerns reports-view and reports-export together.
 
-If neither capability is still needed, Revoke for the profile can be appropriate. After the required review confirmation and applicable processing, its removal work concerns the package's access on the reporting account.
+If neither permission is still needed, revoking the profile can match the intended change. In this example, no other assignment requires either permission.
 
-For this example, no other assignment keeps those entitlements.
+The review decision must be confirmed through the required review process. The resulting removal work then needs to reach the reporting account. Selecting Revoke alone does not demonstrate that the application has removed the permissions.
 
-Now suppose export is no longer needed but viewing remains part of the person's approved work. Revoking the whole profile would also affect viewing in this example.
+Return to the question at the beginning: what if the person still needs viewing, but no longer needs exporting?
 
-That is a different requirement. Establish how the needed viewing access will be preserved before treating removal of the complete package as the correct outcome.
+The package still contains both. Revoking the complete profile would also affect viewing in this example. The review cannot be described as removing only export while leaving the rest untouched.
 
-A profile decision cannot be interpreted as an isolated decision about whichever component first attracted the reviewer's attention.
+Establish an authorized way to retain viewing without export. That could involve an approved viewing-only package, if one exists and is suitable for this person. Inspect its actual contents and the required assignment changes before relying on it.
 
-## A profile can also be detected from access already held
+The reason to pause is concrete: the intended change is smaller than the access covered by this review item.
 
-Not every reviewable profile began with a personal request.
+## A profile can appear even without a request
 
-Where access-profile detection applies, ISC can recognize that an identity already holds all the entitlements making up a profile and represent that access through the profile.
+Suppose an account already has reports-view and reports-export. Where **access profile detection** applies, ISC can recognize during identity processing that the identity holds all the entitlements in Reporting Access and associate that profile with the identity.
 
-Detection identifies the package in access already present. The detection record is not proof that a new grant was just sent to the application.
+**Identity processing** is ISC's evaluation of identity information and access configuration. Here, it is recognizing a complete set of permissions already held.
 
-Requested and detected profiles can be certifiable, meaning eligible for the supported certification review. Inspect the actual profile association and origin rather than assuming a request must exist whenever a profile appears.
+Detection explains the package represented in ISC. It does not establish that ISC has just sent a new instruction to add those permissions to the application.
 
-## A requested role is a broader assignment decision
+Requested and detected profiles can be **certifiable**, meaning eligible for certification review. Whether the profile appears also depends on what the campaign selects and how the person holds the profile.
 
-Change the context again. The person requested Report Reviewer, and the approved role assignment supplied its reporting and case-reading access.
+If Reporting Access appears in a review, inspect how the person holds it. The item alone is not proof that a personal access request exists.
 
-The campaign presents that requested role for an assignment review.
+## Review a requested role across its accounts
 
-The decision now concerns this identity's role assignment and the access it provides across the relevant sources.
+Now consider a person who requested the Report Reviewer role. The request was approved, and the person holds the role's reporting and case-reading access.
 
-Suppose the reviewer confirms that none of the role's capabilities are needed anymore. No other assignment requires the example rights.
+The campaign presents that requested role assignment for review.
 
-Revoke can be appropriate for that requested role assignment. **Remediation** is the work needed to carry out the required change. Here, following that work means checking the relevant reporting access and case-reading access on their respective accounts.
+The item concerns this person's role assignment, including the access it provides through Reporting Access and Case Read. Inspect both profiles and their underlying permissions before deciding.
 
-One successful change in the reporting application would not establish that the case-management access was removed too.
+Suppose the reviewer confirms that the person no longer needs any of those capabilities. No other assignment requires these example permissions. Revoke can then match the intended removal of this person's requested role assignment.
 
-**Provisioning** means changing access in systems. A certification decision, its required confirmation, the resulting provisioning work and the actual account results are different evidence.
+**Remediation** is the work needed to carry out the required change. **Provisioning** means making access changes in the systems. For this role, the removal work must account for the relevant permissions on both the reporting account and the case-management account.
 
-Revoking this person's role assignment does not delete the role definition or revoke everyone else's assignment to it.
+If the reporting change succeeds but cases-read remains on the case-management account, we have not established the complete intended result.
 
-## Automatic assignment changes the review action
+Follow the evidence through the required review confirmation, the resulting change work and the actual account permissions. A recorded decision and a successful update to one application answer different questions.
 
-Suppose Report Reviewer is instead assigned automatically through configured membership criteria.
+The shared Report Reviewer definition still exists for other people. Revoking this identity's assignment is not a decision to delete the role or remove everyone else's assignment.
 
-**Membership criteria** are conditions used to determine who should receive the role. For example, a configured criterion can compare an identity's work-function value with the value required for that role.
+## An automatic role follows a rule
 
-ISC evaluates the identity information and access configuration during **identity processing**. The role's assignment requirements therefore continue to control who should hold it.
+Change how the role is assigned. Instead of an approved request, a configured rule determines who should receive Report Reviewer.
 
-In a certification, a role assigned through automated membership criteria can only be **acknowledged**. Acknowledge records that the reviewer examined this automatically controlled access. It does not override the membership criteria or request removal of the role.
+The rule uses **membership criteria**, meaning the conditions an identity must meet for automatic assignment.
 
-If the access is inappropriate, identify whether the person's data or the configured role requirement is wrong. An authorized correction belongs there, with its resulting access work and account outcome verified.
+For a simple example, the criterion requires an identity value called workFunction to equal ReportReview. A named piece of information such as workFunction is an **attribute**; ReportReview is the value being compared.
 
-Do not falsify accurate identity data simply to make one permission disappear.
+During identity processing, ISC evaluates the person's information against the configured requirement. A matching identity qualifies for the role under that rule. The role's configured access is then governed by that automatic assignment.
 
-If the criterion itself is wrong, changing it can affect other identities that use the same rule. Establish the intended scope before changing a shared requirement.
+The review action changes because the rule continues to control membership. A role assigned through automated membership criteria can only be **acknowledged** in the certification.
 
-## Contained access is not a second independent decision
+The **Acknowledge** action records that the reviewer examined this automatically controlled access. It does not request removal or override the membership rule.
 
-If Reporting Access was granted through Report Reviewer, it is part of that role's access. It does not appear as a separate individually certifiable profile simply because it has its own name.
+If the role seems wrong for the person, identify which part is wrong. Does workFunction incorrectly say ReportReview, or is the rule assigning too much access to people whose work function really is ReportReview?
 
-Likewise, entitlements contained in the person's access profiles or roles are not offered as independent entitlement decisions to bypass their containing object.
+In the first situation, correct the inaccurate information through the authorized process and establish that ISC has received the corrected value. The relevant identity processing then needs to evaluate the person against the role criteria again. Inspect the resulting assignment and account permissions to establish what changed.
 
-Another automatic origin is a **lifecycle state**, a configured stage in the person's relationship with the organization that can define access requirements. Profiles granted through the person's lifecycle state do not appear individually in certifications.
+In the second situation, changing accurate person information would hide the real problem. Investigate which people should receive the role and which permissions it should contain.
 
-This is why a review can show a role while you know its account has several underlying permissions. The individual permission names are not necessarily separate decision items.
+Changing a shared rule can affect other identities that meet it. Establish the intended impact before making a correction, then verify the resulting assignments and application access. Acknowledge itself does not make those changes.
 
-A missing component item does not establish that the person lacks that capability. Follow the containing access object, the assignment origin and the campaign's actual selection.
+## Why the component permissions are not separate decisions
 
-| Actual review context | What is being judged? | Meaning to preserve |
+When the person receives Reporting Access through Report Reviewer, the profile is included through that role. ISC does not present it as a separate individual profile decision that bypasses the role.
+
+The same applies to entitlements included through the person's profiles or roles. They are not separate individual entitlement decisions merely because their names can be found in the account's permissions.
+
+For the Report Reviewer example, a role review can therefore concern viewing reports, exporting reports and reading cases without showing three independent entitlement decisions.
+
+Another automatic access requirement can come from a **lifecycle state**: a configured stage in the person's relationship with the organization, such as an active employment state. That state can require access profiles.
+
+Profiles included in the person's assigned lifecycle state do not appear individually in certifications. Their underlying permissions are not independent entitlement decisions to bypass that requirement either.
+
+If you cannot find a component as its own item, follow how the person holds it. Check the containing role or profile, any automatic requirement and what the campaign actually selected.
+
+Absence from the item list does not prove absence from the application account.
+
+The main review contexts now fit together:
+
+| What the item represents | Question for the reviewer | Scope to check |
 |---|---|---|
-| Individually certifiable entitlement | This person's right on the specified source account | A decision about that entitlement is not a decision to delete the account |
-| Requested or detected profile | This person's reviewed access package | Inspect all included rights and other requirements before assuming the full removal effect |
-| Requested role assignment | This person's assignment to the role | Its access can reach multiple sources; the role definition and other people's assignments remain separate |
-| Criteria-assigned role | The automatically controlled role presented for review | Acknowledge does not replace the criteria or remove the assignment |
+| Individual entitlement | Does this person still need this permission? | Exact source account and permission |
+| Requested or detected access profile | Does this person still need this package? | All permissions included in the reviewed profile |
+| Requested role assignment | Does this person still need this role? | This identity's assignment and the access it provides across its sources |
+| Role assigned through membership criteria | Has the reviewer examined the automatically controlled access? | Acknowledge records the review; the criteria continue to govern assignment |
 
-## Reviewing a role's contents is a different job
+For a removal decision, also inspect other assignments and requirements before predicting the final permissions. The examples above exclude another assignment keeping the same rights; a different arrangement needs its own investigation.
 
-A **role-composition review** examines the role itself: what it contains, its description and the membership criteria associated with it.
+## Sometimes the shared role itself needs review
 
-That differs from deciding whether one identity should keep a requested assignment to an otherwise appropriate role.
+Suppose export is unnecessary for everyone using Report Reviewer, rather than only for one person. That raises a question about the role's shared contents.
 
-For example, if the role gives every member an unnecessary export capability, the concern may be the shared role definition. Removing one person's assignment would not correct that definition for the remaining members.
+A **role-composition review** examines the role itself, including its description, membership criteria and included access. It is a different job from reviewing one person's assignment.
 
-The **role owner** is responsible for the role. Changes to its definition also need the appropriate platform authority and an understood impact on the people using it.
+The **role owner** is responsible for the role. Responsibility and platform permission remain separate: changing the definition also requires appropriate authority in ISC and an understood effect on the people using it.
 
-In the current campaign split, role-composition campaigns use the legacy certification experience. Identify the campaign type and supported engine before interpreting its actions as though it were an ordinary identity-access review.
+Role-composition campaigns currently use the legacy certification experience. “Legacy” identifies the older campaign experience alongside the newer certification engine. Check the actual campaign type and supported experience before interpreting its actions.
 
-Do not turn “this person no longer needs the role” into “remove this access from the role for everyone” without establishing that broader requirement.
+A proposed role-definition correction also needs its own application and outcome checks. Do not assume that saving a changed definition immediately changes every member's account permissions.
 
-## Try a role with only part of its access no longer needed
+If only one person has changed responsibilities, removing their assignment and editing the shared role are different possible changes with different effects. Establish the actual requirement before changing something shared.
 
-Payments Approver was granted to an identity through an approved request.
+## Try the decision with invoice access
 
-The role contains two access profiles. Invoice Approval comes from a payments source and contains invoice-read and invoice-approve, allowing invoice reading and approval. Supplier View comes from a supplier source and contains supplier-view, permission to view supplier information.
+A person holds a requested role called Payments Approver. It contains two profiles:
 
-The person still needs to read invoices and view suppliers. An appropriate reviewer confirms that approving invoices is no longer needed. The role is the presented review item. The account associations are correct, and no other assignment supplies these rights.
+- Invoice Approval, from a payments source, contains invoice-read and invoice-approve. These allow reading and approving invoices.
+- Supplier View, from a supplier source, contains supplier-view, which allows viewing supplier information.
 
-Someone proposes revoking the entire role and reporting that only invoice-approve was removed.
+The person still needs to read invoices and view suppliers. An appropriate reviewer confirms that approving invoices is no longer needed.
 
-Does the proposed explanation match the decision's scope?
+The role is the item presented for review. The person's accounts are correctly linked to their identity, and no other assignment supplies these permissions.
 
-No. The requested role assignment includes the invoice-reading and supplier-viewing access as well. In this supplied context, revoking it would affect rights that are still needed.
+Someone proposes revoking Payments Approver and recording that only invoice-approve was removed.
 
-Establish an authorized access arrangement that preserves the remaining approved capabilities while removing invoice approval. For example, separate approved profiles for invoice reading and supplier viewing could preserve those rights without invoice approval, if those profiles exist and are authorized for this person.
+Before accepting that explanation, follow the contents of the role. Which continuing permissions would the proposed decision also affect?
 
-Inspect the actual replacement contents and plan the required assignment changes. A change to the shared role definition would need a separate justification and impact assessment.
+The role includes invoice-read and supplier-view as well as invoice-approve. Under these conditions, removing the whole assignment would affect both capabilities the person still needs. The proposed explanation is narrower than the actual decision.
 
-Then follow the actual required changes on the correct accounts. A saved decision or one successful application update does not establish the complete intended outcome.
+An authorized replacement arrangement must preserve invoice reading and supplier viewing without invoice approval. Separate approved profiles for those remaining capabilities could serve that purpose if they exist and are authorized for this person.
 
-Now change the assignment origin: the same role is automatically assigned through membership criteria.
+Inspect those profiles before relying on their names. A replacement called Invoice Read must actually exclude invoice-approve. Plan the necessary assignment changes and verify the resulting rights on both source accounts.
 
-You cannot treat Acknowledge as a Revoke decision for invoice-approve. Inspect the relevant identity data and role requirements, identify the appropriate authorized correction and verify its access results.
+Changing the shared Payments Approver definition would be a different decision, with consequences for other people who use it. One person's changed work does not establish that everyone should lose invoice approval.
 
-The starting check remains concrete: identify the review item, inspect its contents, establish why this person holds it, and match the intended change to the full scope of that object.
+Finally, check the intended result: the correct payments account can still read invoices but cannot approve them, and the correct supplier account can still view supplier information. A saved review decision or one completed application update cannot establish all of that.
+
+Now change one fact: Payments Approver is assigned automatically through membership criteria.
+
+The review uses Acknowledge for that role. Selecting it does not remove invoice-approve. Investigate whether the person's information or the shared role requirement needs an authorized correction, preserve the continuing access and verify the resulting account permissions.
+
+In either situation, start with what the review item contains and why this person holds it. Then match the intended access change to the decision or governing requirement that actually controls it.

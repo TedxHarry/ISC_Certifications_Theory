@@ -1,27 +1,26 @@
-Application account access
+Account has export permission
            |
            v
-Collected account data
-and identity association
+ISC reads account information
+and links it to the person
            |
            v
-Generated review item
-in an assigned certification
+Campaign creates review item
+and assigns the review
            |
            v
-Reviewer assesses need
-and confirms decisions
+Reviewer judges current need
+and confirms the decisions
            |
            v
-Applicable removal work
-is ready to be carried out
+Required removal work exists
            |
            v
-Automated or manual change
-on the required account
+Remove export automatically
+or through an assigned task
            |
            v
-Target outcome checked
+Check the application account
            |
            v
-Updated ISC data checked
+Check updated ISC account data
