@@ -1,0 +1,14 @@
+Shared role definition: Payment Approver
+        PAY.VIEW + PAY.APPROVE
+                    |
+        +-----------+-----------+
+        |                       |
+        v                       v
+ Holding for 1001         Holding for 1002
+ Finance                 Operations
+
+ Assignment question:
+ Should this person keep this role?
+
+ Composition question:
+ Is this role designed appropriately?

@@ -1,0 +1,26 @@
+INTENDED REVIEW
+People + source accounts + access + reviewers + settings
+        |
+        | compare with collected data and generated work
+        v
+ACTUAL PREVIEW CHECK
+Missing work? Unwanted work? Wrong assignment or setting?
+        |
+        +-- Required work or settings still wrong
+        |       |
+        |       v
+        |   Hold the launch
+        |   Correct the cause using supported actions
+        |   Inspect the resulting work again
+        |       |
+        +-------+--> Return to the preview check
+        |
+        +-- Contents and settings meet the agreed requirement
+                |
+                v
+          Authorized administrator starts this campaign
+                |
+                | inspect the actual resulting state
+                v
+          Confirm running work and reviewer access
+          Check launch communication separately

@@ -1,0 +1,24 @@
+People condition:
+Finance AND (Chennai OR Pune)
+       |
+       v
+1801, 1802, 1804 actually selected
+Six available entitlement holdings
+       |
+       v
+Chosen access:
+Reporting Production:
+View Reports + Export Reports
+Four holdings fit this choice
+       |
+       v
+Exclusion: Export Reports
+Source: Reporting Production
+       |
+       v
+Expected review content:
+1801 View Reports
+1802 View Reports
+       |
+       v
+Compare with actual generated work

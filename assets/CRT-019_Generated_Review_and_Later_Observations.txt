@@ -1,0 +1,28 @@
+BEFORE GENERATION
+Source account: View Reports + Export Reports
+        |
+        | collected and linked to identity 2001
+        v
+Confirmed ISC inputs: those two permissions; manager 2101
+        |
+        | campaign C-1 is generated
+        v
+Review R-1: two items; assigned to 2101
+
+LATER, TWO RECORDS ARE INSPECTED
+Current source and ISC data        Existing review R-1
+Three permissions:                Two original items:
+  View Reports                      View Reports
+  Export Reports                    Export Reports
+  Manage Report Settings          Still assigned to 2101
+Current manager: 2102
+
+SUPPORTED WORKFLOW CHANGE
+Responsibility for R-1 is reassigned to 2102
+        |
+        v
+New campaign report: current reviewer 2102
+Earlier decision remains recorded as made by 2101
+
+A new report describes campaign work.
+It does not itself add the third permission to that work.

@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 4.5. Updated November 11, 2026; dated checks below distinguish each stage.
+Authoring source reference 5.4. Updated November 11, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant action, test campaign or provisioning change was performed. All thirteen completed learners and the earlier five rewrites are pushed, published and live-verified on November 11. CRT-014 is next; dated evidence below remains historical.
+No tenant action, test campaign or provisioning change was performed. Twenty-two learners are authored and prepared for authorized publication; deployment/live verification is pending. The prior thirteen-lesson snapshot remains historical evidence. CRT-023 is next; eight product questions remain open and dated evidence below remains historical.
 
 ## Primary source map
 
@@ -12,6 +12,10 @@ No tenant action, test campaign or provisioning change was performed. All thirte
 | [Understanding certifications](https://documentation.sailpoint.com/saas/help/certs/understanding_certifications.html) | CRT-006/007/024/028/030/032–037; certifiable access, grant origins, self-certification, automated/manual remediation and sign-off. |
 | [Starting a manager or source-owner campaign](https://documentation.sailpoint.com/saas/help/certs/starting_campaign.html) | CRT-011/012/019/021/023; prerequisites, manager/source-owner scope, missing-manager behavior and generated snapshot. |
 | [Starting a campaign from Search](https://documentation.sailpoint.com/saas/help/certs/starting_search_campaign.html) | CRT-013–021/022/023; identity/access selection, reviewer choices, templates/schedules, preview generation and activation; extensions X-01–03. |
+| [Building a Search query](https://documentation.sailpoint.com/saas/help/search/building-query.html) | CRT-016; category/field/value, exact strings, quoted phrases, Boolean operators, grouping and nested conditions; later query-evidence support remains scoped. |
+| [Searchable fields](https://documentation.sailpoint.com/saas/help/search/searchable-fields.html) | CRT-016/044/045; record-specific paths, exact field names and types, identity versus related-account source context. |
+| [Search FAQ and data models](https://documentation.sailpoint.com/saas/help/search/search_guide.html) | CRT-016/019/045; repeated account models and Search data timing, without a universal refresh guarantee. |
+| [Search overview](https://documentation.sailpoint.com/saas/help/search/index.html) | CRT-016; actual search category/field/nested-query meaning. Availability of optional query assistance needs separate verification when taught. |
 | [Using campaign filters](https://documentation.sailpoint.com/saas/help/certs/campaign_filters.html) | CRT-017/018/045; inclusion/exclusion, criteria scope, documented combination behavior and encapsulated access. |
 | [Reassigning certifications](https://documentation.sailpoint.com/saas/help/certs/config_reassignment.html) | CRT-024–026; permitted administrative reassignment, self-review checks, signed-off restriction and work reassignment. |
 | [Reviewer experience](https://documentation.sailpoint.com/saas/user-help/certs/reviewing/index.html) | CRT-027–031; item context, decisions, acknowledgement, comments, sign-off, overlap and conditionally licensed evidence. |
@@ -293,3 +297,69 @@ The main comparison and requested-role transfer preserve object definitions vers
 ## Thirteen-lesson publication evidence, November 11, 2026
 
 Content 470c4a5008b7d6d6724cf16ce57c9c4e64fabd5d was pushed and built successfully in [Pages run 43024965366](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/43024965366). The full live verifier passed for thirteen learners, 1555 content units, thirteen diagrams/assets, fifteen tables, 206 internal link visits, CSS and representative author exclusions. The initial live failure was a verifier bug: single-asterisk emphasis was not normalized, although the page correctly rendered the emphasized word. The author-only checker was corrected; the actual learner files were preserved and the full live run then passed. [Publication record](author/PUBLICATION_2026-11-11_THIRTEEN_LESSONS.md) records evidence. No independent learner result, tenant execution, graphical inspection or exhaustive release audit is implied.
+
+## CRT-014 authored locally, November 11, 2026
+
+[CRT-014](lessons/CRT-014_Choosing_Access_for_the_Selected_People.md) and [its record](author/revisions/CRT-014_Revision_Record.md) develop subsequent access refinement, actual holdings, saved per-type choices, container eligibility and generated-work checks. Search creation, Understanding Certifications, filters, reviewer guidance and profile administration were reopened. Three earlier same-day role/account references are reused within scope. Eight references support the stated product claims; the six/two/five holding comparisons and independent account-scope reasoning use supplied inputs, not tenant observations.
+
+No exact query/filter combination, account-selector contract, display-as-completeness guarantee, unsigned completion policy or private backend is inferred. All seven product questions remain open. Fourteen topics are authored and 36 unwritten. CRT-015 is next; CRT-014 is local, and the thirteen-entry publication manifest and live snapshot remain unchanged. No observed participant pass or publication is claimed for this continuation.
+
+## CRT-015 authored locally, November 11, 2026
+
+[CRT-015](lessons/CRT-015_Choosing_a_Campaign_Design_for_the_Business_Question.md) and [its record](author/revisions/CRT-015_Revision_Record.md) develop business-question/subject/access/reviewer/evidence alignment, role holdings versus shared design, legacy composition follow-up and account-type recognition. Search campaign creation, Manager/Source Owner guidance, Understanding Certifications and machine-account configuration were reopened and inspected. Five supporting same-day object/reviewer/account references are reused within scope; nine primary references are mapped to saved teaching.
+
+The composition task's selected permitted remediation owner is scoped to that documented path and does not resolve OQ-05. Role eligibility, type-dependent reviewer options, dedicated/Search missing-manager differences and actual machine classification remain bounded. No universal native role object, account mapping, automatic role rewrite, exact query/filter contract or release-completeness guarantee is inferred. Seven questions stay open. Fifteen authored, 35 unwritten, CRT-016 next; CRT-014/015 and the unchanged thirteen-entry publication manifest retain their distinct local/published states.
+
+## CRT-016 authored locally, November 11, 2026
+
+[CRT-016](lessons/CRT-016_Understanding_What_a_Campaign_Search_Selects.md) and [its record](author/revisions/CRT-016_Revision_Record.md) develop Search category/field/value meaning, exact text, capitalized operators and explicit grouping, same-account nesting, authoritative versus account source, actual saved selection and Search-data timing. Query construction, fields, campaign creation, FAQ/models and overview were reopened; relevant long official-page passages were extracted read-only for inspection. Three same-day data/eligibility references support the local foundations. Eight primary references are reconciled with saved teaching.
+
+CAP-16 records the newly authored query-contract area, separate from configured campaign filters. Local predicate checks confirm supplied logical outcomes and do not execute ISC syntax. No default field mapping, parser/tenant test, fixed synchronization duration, successful-login inference, filter-builder equivalence or automatic campaign update is claimed. All seven questions stay open. Sixteen authored, 34 unwritten, CRT-017 next; CRT-014 through CRT-016 and the thirteen-entry publication retain distinct states.
+
+## CRT-017 authored locally, November 11, 2026
+
+[CRT-017](lessons/CRT-017_Including_and_Excluding_Review_Content_with_Campaign_Filters.md) and [its record](author/revisions/CRT-017_Revision_Record.md) develop saved filter/criterion/mode, documented entitlement inclusion/exclusion, person-level effects, display-name/value comparisons and package/source boundaries. The filter guide, Search creation, Understanding Certifications, next-generation overview and both list-filter references were reopened. Four same-day object/account references are reused within scope; ten primary references map to saved teaching.
+
+Current Role descriptions/examples remain insufficient to settle OQ-06. Schema type/operation enums do not prove runtime affected work or arbitrary UI grouping. New OQ-08 records unestablished account-attribute effects across unrelated accounts/sources; the lesson uses a single-source/single-account case and explicit verification boundary. This is a scope gap, not a claimed product defect. Seven earlier questions remain unresolved, making eight now. Local predicate checks cover supplied five/two/three holdings, person exclusion, package transfer and renamed label, not an ISC filter execution.
+
+Seventeen authored, 33 unwritten, CRT-018 next. CRT-014 through CRT-017 are local; the thirteen-entry manifest and verified live snapshot are preserved. No participant or exhaustive release result is claimed.
+
+## CRT-018 authored locally, November 11, 2026
+
+[CRT-018](lessons/CRT-018_Combining_People_Access_Selection_and_Campaign_Filters.md) and [its record](author/revisions/CRT-018_Revision_Record.md) develop query/actual selected people, refined reviewable objects, supported exclusion and actual generated evidence. Search creation, campaign filters, next-generation overview, query construction and Understanding Certifications were reopened; optional filter attachment and parenthesis passages were specifically inspected. Five same-day field/object/account references are reused within scope. Ten primary references support the mapped claims.
+
+The six/four/two expected-scope trace is a supplied normal deduction, not a tenant observation or universal engine-order rule. The conflicting-inclusion case establishes no common requested item without assigning a winner or empty-result status. Current guide/overview material does not resolve OQ-06/OQ-08; Role and mixed-account effects remain bounded. Same-unit OR, different-unit equal-count results and a role-contained-profile change receive worked reasoning. All eight questions remain open.
+
+Eighteen authored, 32 unwritten, CRT-019 next. No source mutation, participant assessment, push or deployment occurred. Local CRT-014 through CRT-018 and the thirteen-entry publication remain distinct.
+
+## CRT-019 authored locally, November 11, 2026
+
+[CRT-019](lessons/CRT-019_Understanding_the_Data_Captured_When_a_Review_Is_Generated.md) and [CRT-019 record](author/revisions/CRT-019_Revision_Record.md) develop primary COV-13: actual source observation, collected/linked inputs, generated work, later access/manager changes, supported reassignment and later report production. Dedicated Manager/Source Owner creation, Search creation, reports, reassignment, completion, Search FAQ, Understanding Certifications and next-generation overview were reopened. Account loading/correlation reuse same-day verified local meanings; ten references map to saved teaching.
+
+The dedicated-route snapshot and later-manager note does not establish every field's immutability for every engine. Current permission counts and existing review contents are supplied example observations, not a tenant result. Report date is not source freshness or newly generated review coverage. Deletion evidence loss, unsigned reassignment restrictions and historical actor versus current assignee are scoped separately; OQ-01/02/05 are not resolved from those facts. All eight questions remain open.
+
+Nineteen authored, 31 unwritten, CRT-020 next. Local CRT-014 through CRT-019 preserve the thirteen-entry publication. No live campaign action, participant assessment, push or deployment occurred.
+
+## CRT-020 authored locally, November 11, 2026
+
+[CRT-020](lessons/CRT-020_Understanding_Templates_Schedules_Previews_and_Running_Campaigns.md) and [its record](author/revisions/CRT-020_Revision_Record.md) develop primary COV-14 through saved definition, supported generation choices, actual preview, separate start, timing and independent cycles. Search creation/scheduling/start, certifications overview, next-generation create-template/generate/set-schedule/activate references and pre-generation reminder documentation were freshly inspected. Four same-day eligibility/data/association references support local meanings: eleven sources in total.
+
+The early-generation note explicitly preserves the original scheduled occurrence. Direct generation API creates a new campaign; activation submits a job for the documented staged state and is Experimental. Search Preview Ready and API staged are not declared universally interchangeable. Template edits/schedule changes do not, by themselves, prove changes in existing campaign records. No guessed end-date calculation, all-field propagation, dynamic-query promise, payload or private engine sequence is supplied.
+
+Reminder purpose is used without a universal owner/creator recipient inference. All eight existing product questions remain open. Twenty authored, 30 unwritten, CRT-021 next. Local CRT-014 through CRT-020 preserve the thirteen-entry publication; no participant assessment, tenant operation, push or deployment occurred.
+
+## CRT-021 authored locally, November 11, 2026
+
+[CRT-021](lessons/CRT-021_Checking_a_Generated_Campaign_Before_It_Reaches_Reviewers.md) and [its record](author/revisions/CRT-021_Revision_Record.md) develop actual preview acceptance and verified authorized launch. Search creation/start, dedicated manager/source-owner prerequisites, reports, Understanding Certifications, activation API, user-level matrix, email settings/testing and activated-email purpose were freshly inspected. Three same-day account/data/freshness references support local meanings: eleven scoped sources total.
+
+The four-versus-four discrepancy is supplied example evidence, not a tenant result. Separate missing collected input and broad saved access scope require separate corrections and reinspection. Dedicated missing-manager exclusion is not merged with Search Manager creator fallback. Current API role/staged/Experimental/accepted-job requirements remain scoped rather than treated as universal UI labels or a tenant matrix.
+
+Global Test Address diversion and incomplete process-specific/conditional data in presentation tests are verified operational readiness checks. No email was sent or setting changed. Undecided-policy readiness does not resolve the unsigned-completion conflict. All eight questions remain open. Twenty-one authored, 29 unwritten, CRT-022 next; local CRT-014 through CRT-021 preserve the thirteen-entry publication. No push, participant assessment or tenant action occurred.
+
+## CRT-022 authored and publication prepared, November 11, 2026
+
+[CRT-022](lessons/CRT-022_How_ISC_Chooses_the_Reviewer.md) and [its record](author/revisions/CRT-022_Revision_Record.md) develop supported reviewer choice, actual owner/identity/group inputs, generated responsibility, knowledge/authority and decision actor. Search creation, dedicated campaigns, reassignment, Understanding Certifications, reports, entitlement ownership, governance groups and manager correlation were freshly inspected. Five same-day supporting permission/package/account references are reused within scope: thirteen sources total.
+
+All seven reviewer choices are type-scoped. Primary/additional ownership and group owner/member/actor differ; no universal owner hierarchy or group quorum/finalization contract is invented. Current manager/owner changes do not prove existing work moved. The independent Warehouse case distinguishes correct Access Owner execution from a mismatched manager-assessment requirement. All eight questions stay open. Twenty-two authored, 28 unwritten, CRT-023 next.
+
+Explicit user authorization covers pushing complete local CRT-014 through CRT-022 with earlier learners and expanding the reader to five modules. The [publication record](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md) separates prepared content from observed deployment/live verification. Earlier author records and source-scoped uncertainties remain historical; no tenant or participant result is claimed.

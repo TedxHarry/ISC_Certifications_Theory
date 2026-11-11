@@ -1,0 +1,20 @@
+Selected people and their collected access
+                    |
+                    v
+          Choose the review's access
+                    |
+          +---------+---------+
+          |                   |
+          v                   v
+     All access          Refined access
+          |                   |
+          v                   v
+  Reviewable access    Holdings of the chosen
+  for those people     reviewable access items
+          |                   |
+          +---------+---------+
+                    |
+                    v
+        Inspect the generated work:
+        right people, sources, accounts,
+        access items and reviewers

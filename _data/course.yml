@@ -5,6 +5,10 @@ modules:
     title: "2. Understand the access that reaches a review"
   - id: choose-review
     title: "3. Choose the review approach"
+  - id: scope-generate
+    title: "4. Scope, generate and validate the campaign"
+  - id: review-routing
+    title: "5. Get the review to the right person"
 lessons:
   - id: CRT-001
     module: purpose
@@ -97,3 +101,66 @@ lessons:
     description: "Choose the right starting records, follow the included people and check which access reaches review."
     source: "lessons/CRT-013_Starting_with_People_or_Access_Items.md"
     url: "/lessons/CRT-013_Starting_with_People_or_Access_Items.html"
+  - id: CRT-014
+    module: choose-review
+    placement: "Module 3 · Lesson 4"
+    title: "Which access should we review for the selected people?"
+    description: "Choose eligible access for selected people and compare saved scope with actual review work."
+    source: "lessons/CRT-014_Choosing_Access_for_the_Selected_People.md"
+    url: "/lessons/CRT-014_Choosing_Access_for_the_Selected_People.html"
+  - id: CRT-015
+    module: choose-review
+    placement: "Module 3 · Lesson 5"
+    title: "Which campaign design answers this business question?"
+    description: "Match the business question to the campaign approach, review object and knowledgeable reviewer."
+    source: "lessons/CRT-015_Choosing_a_Campaign_Design_for_the_Business_Question.md"
+    url: "/lessons/CRT-015_Choosing_a_Campaign_Design_for_the_Business_Question.html"
+  - id: CRT-016
+    module: scope-generate
+    placement: "Module 4 · Lesson 1"
+    title: "What does this search actually select for the campaign?"
+    description: "Understand query fields, grouping and same-account conditions before selecting review subjects."
+    source: "lessons/CRT-016_Understanding_What_a_Campaign_Search_Selects.md"
+    url: "/lessons/CRT-016_Understanding_What_a_Campaign_Search_Selects.html"
+  - id: CRT-017
+    module: scope-generate
+    placement: "Module 4 · Lesson 2"
+    title: "How do campaign filters include or exclude review content?"
+    description: "Follow inclusion and exclusion criteria to the people or access actually retained for review."
+    source: "lessons/CRT-017_Including_and_Excluding_Review_Content_with_Campaign_Filters.md"
+    url: "/lessons/CRT-017_Including_and_Excluding_Review_Content_with_Campaign_Filters.html"
+  - id: CRT-018
+    module: scope-generate
+    placement: "Module 4 · Lesson 3"
+    title: "What happens when selection rules and filters are combined?"
+    description: "Trace combined people selection, access refinement and campaign filters without losing intended scope."
+    source: "lessons/CRT-018_Combining_People_Access_Selection_and_Campaign_Filters.md"
+    url: "/lessons/CRT-018_Combining_People_Access_Selection_and_Campaign_Filters.html"
+  - id: CRT-019
+    module: scope-generate
+    placement: "Module 4 · Lesson 4"
+    title: "What was captured when this review was generated?"
+    description: "Separate source observations, generated review work, later changes and report production."
+    source: "lessons/CRT-019_Understanding_the_Data_Captured_When_a_Review_Is_Generated.md"
+    url: "/lessons/CRT-019_Understanding_the_Data_Captured_When_a_Review_Is_Generated.html"
+  - id: CRT-020
+    module: scope-generate
+    placement: "Module 4 · Lesson 5"
+    title: "A template, a schedule and a running campaign are different things"
+    description: "Connect reusable templates and schedules with generated previews and separately verified campaign starts."
+    source: "lessons/CRT-020_Understanding_Templates_Schedules_Previews_and_Running_Campaigns.md"
+    url: "/lessons/CRT-020_Understanding_Templates_Schedules_Previews_and_Running_Campaigns.html"
+  - id: CRT-021
+    module: scope-generate
+    placement: "Module 4 · Lesson 6"
+    title: "What must be checked before the campaign reaches reviewers?"
+    description: "Check actual people, accounts, access, reviewers and settings before an authorized verified launch."
+    source: "lessons/CRT-021_Checking_a_Generated_Campaign_Before_It_Reaches_Reviewers.md"
+    url: "/lessons/CRT-021_Checking_a_Generated_Campaign_Before_It_Reaches_Reviewers.html"
+  - id: CRT-022
+    module: review-routing
+    placement: "Module 5 · Lesson 1"
+    title: "Who becomes the reviewer, and why?"
+    description: "Trace the chosen reviewer option and relevant identity, owner or group data to actual assigned responsibility."
+    source: "lessons/CRT-022_How_ISC_Chooses_the_Reviewer.md"
+    url: "/lessons/CRT-022_How_ISC_Chooses_the_Reviewer.html"

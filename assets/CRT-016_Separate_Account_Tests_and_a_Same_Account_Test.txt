@@ -1,0 +1,15 @@
+Identity 1301
+    |
+    +-- Directory Production account
+    |      disabled: true
+    |
+    +-- Directory Test account
+           disabled: false
+
+Separate tests:
+    Has a Production account?       Yes
+    Has an account not disabled?    Yes
+
+One-account test:
+    Has a Production account
+    whose disabled flag is false?   No

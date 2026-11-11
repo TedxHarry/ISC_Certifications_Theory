@@ -1,0 +1,15 @@
+Starting work: five entitlement holdings
+                   |
+                   v
+Match Reporting Production / Export Reports
+                   |
+          +--------+--------+
+          |                 |
+          v                 v
+      Inclusion         Exclusion
+      Keep the two      Omit the two
+      export holdings   export holdings
+          |                 |
+          v                 v
+      Two holdings      Three other
+      for review        holdings remain

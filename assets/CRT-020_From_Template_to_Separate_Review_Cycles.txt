@@ -1,0 +1,30 @@
+SAVED TEMPLATE T-1
+People/access selection + reviewer choice + review settings
+        |
+        | schedule requests generation at a future time
+        v
+GENERATION WORK
+        |
+        | actual completed preview is inspected
+        v
+CAMPAIGN C-1 IN PREVIEW
+People + accounts + access items + assigned reviewers
+        |
+        | administrator checks and starts this campaign
+        v
+CAMPAIGN C-1 RUNNING
+Reviewers can work on its assigned reviews
+
+LATER REUSE OF T-1
+        |
+        | another generation completes
+        v
+SEPARATE CAMPAIGN C-2 IN PREVIEW
+Inspect this cycle's contents and assignments
+        |
+        | its own authorized start, then result checked
+        v
+CAMPAIGN C-2 RUNNING
+
+The schedule triggers generation.
+Each generated campaign needs its own verified start.

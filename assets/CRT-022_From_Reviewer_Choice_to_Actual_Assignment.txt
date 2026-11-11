@@ -1,0 +1,26 @@
+SELECTED PEOPLE AND ACCESS
+2701: View Reports on rep-2701
+2702: Export Reports on rep-2702
+        |
+        | supported reviewer choice: Manager
+        v
+RELEVANT ISC IDENTITY DATA
+2701's manager -> 2710
+2702's manager -> 2710
+        |
+        | generate campaign C-1
+        v
+ACTUAL ASSIGNED REVIEW WORK
+2710 is assigned both people's intended access
+        |
+        | inspect identities, accounts, items and assignee
+        v
+CONFIRMED ROUTING RESULT
+
+OTHER RECORDED RESPONSIBILITIES
+2740: creates and owns campaign C-1
+2720: owns the Reporting Production source
+2730: primary owner of Export Reports
+
+Those responsibilities do not replace the selected
+Manager rule in this ordinary example.

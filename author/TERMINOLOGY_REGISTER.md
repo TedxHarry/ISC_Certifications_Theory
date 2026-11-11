@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 3.0. November 11, 2026.
+Version 3.9. November 11, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -38,24 +38,24 @@ These are author working meanings. Verify product-specific use in the applicable
 | Certification / assigned review | A review assigned to a reviewer within the campaign. Do not use campaign and individual review as identical objects. | CRT-002 |
 | Review subject | The identity/account or other subject whose access is under review, as used by the supported campaign type. | CRT-002/008 |
 | Review item | An individual unit on which a decision is recorded; identify its access and subject/account context. | CRT-002/006 |
-| Certifier / reviewer | The person or supported review group assigned to review; the actual decision actor can differ in recorded history. | CRT-002/022/043 |
+| Certifier / reviewer | The identity or supported group actually assigned review work through the campaign type/choice, relevant input and supported controls. Distinguish configured choice, generated assignee and recorded decision actor. | CRT-002/022/043 |
 | Decision maker | The actor recorded as making a decision; distinguish them from the currently assigned reviewer. | CRT-022/043 |
 | Campaign creator | The actor who created the campaign; do not infer every later responsibility or permission from that fact. | CRT-002/022 |
 | Campaign owner | Responsibility for the campaign according to configuration; owner, creator and reviewer are not assumed identical. | CRT-002/022 |
 | Source owner | The responsible source owner recorded in ISC; relevant to some review/routing/removal paths, not automatic permission for every action. | CRT-012/022/034 |
-| Access owner | The responsible owner of the access object, with object/type-specific supported routing. | CRT-009/022 |
+| Access owner | Recorded responsibility for the reviewed access object. The documented Access Owner choice uses its primary owner and supported fallback; additional entitlement owners do not by themselves establish separate assignees. | CRT-009/022 |
 | Remediation owner | The person responsible for carrying out or coordinating the required removal/change in the applicable path. Verify actual task assignment. | CRT-002/034; X-01 |
 | Cert Admin / Org Admin | Platform administration levels relevant to certification actions. Verify the current permission matrix and task scope. | CRT-002/021/022 |
-| Governance group | A configured group that may be used for review responsibility where supported. Verify how members can act. | CRT-022 |
-| Authorization | Permission to perform an action; being responsible for a campaign does not itself establish that permission. | CRT-002/021/025 |
-| Query | A request selecting records under defined search conditions; identify which kind of records the query returns. | CRT-013/016 |
-| Access refinement | Selecting which access to include for selected identities; people selection alone does not express every access restriction. | CRT-014 |
-| Campaign filter | Configured campaign inclusion/exclusion criteria applied under supported combination rules. | CRT-017/018 |
-| Template | A reusable campaign definition; it is not the same as a generated active campaign. | CRT-020 |
-| Schedule | Timing instructions for a supported generation process; do not assume it also activates the campaign. | CRT-020 |
-| Generated review data / snapshot | Review information captured/generated at a particular point; verify exact engine behavior for later changes. | CRT-019 |
-| Preview | Generated campaign content/settings available for validation before starting; distinguish this from proposed identity-mapping Preview in other ISC features. | CRT-019/021 |
-| Activation | Starting the campaign for reviewer work under its supported state/permissions. | CRT-020/021 |
+| Governance group | Configured identities whose member can act for the group in supported review scope. Group owner, actual membership and individual decision actor differ; inactive/disabled identity status does not automatically update membership. | CRT-022 |
+| Authorization | Permission to perform an action. Business acceptance, campaign ownership, assigned review responsibility and actual administrative platform permission are distinct; verify the actor's required scope/state. | CRT-002/021/025 |
+| Query | Search instruction matching records through fields and conditions; returned category and actual saved selections determine what is selected. | CRT-016; supporting CRT-013 |
+| Access refinement | Choosing which reviewable access to include for already selected identities; a saved choice does not grant missing access or establish an account-specific restriction. | CRT-014; supporting CRT-013 |
+| Campaign filter | Saved criteria for review content to include or exclude; affected work depends on criterion type and supported combination, not an access grant/removal decision. | CRT-017/018 |
+| Template | Reusable saved campaign instructions, including actual saved selection/reviewer/settings in the supported route. Distinguish this definition from each campaign generated from it; edits alone do not prove an existing instance changed. | CRT-020 |
+| Schedule | Supported one-time/recurring timing instructions for preview generation, with configured time zone. Search scheduling does not replace administrator start, and an early preview does not cancel the documented planned occurrence. | CRT-020 |
+| Generated review data / snapshot | Review work established from the scope/data used for generation. Source observation, generation and report times differ. Dedicated-route snapshot guidance does not prove every field immutable across all engines; inspect actual work and permitted workflow changes. | CRT-019 |
+| Preview | Actual generated campaign work/settings inspected before launch. Compare intended people/account/access/assignment relationships and settings, explain gaps, correct and reinspect; distinguish this from identity-mapping Preview in other ISC features. | CRT-019/021 |
+| Activation | Starting a particular generated campaign for reviewer work under supported state/permissions. An accepted activation-job request is distinct from a verified running result; UI/API state labels need their own documented scope. | CRT-020/021 |
 | Reassignment | Changing review responsibility within supported scope/state; distinguish campaign reassignment from general work reassignment. | CRT-025/026 |
 | Self-certification | Reviewing one's own access; teach the supported prevention/routing controls rather than assume any reassignment is permitted. | CRT-024 |
 
@@ -77,7 +77,7 @@ These are author working meanings. Verify product-specific use in the applicable
 | Retry | Another supported attempt at failed work; conditions and limits are operation-specific. | CRT-036 |
 | Status | A recorded state of a particular object or operation. Always identify what the status describes. | CRT-042 |
 | Audit evidence | Records supporting what was scoped, reviewed, decided and done, with actor/time/context. It does not automatically establish every claim. | CRT-043/044 |
-| Report freshness | When a report was generated and which state it represents; an old report may not show later work. | CRT-044 |
+| Report freshness | When a report was generated and which campaign state it represents; later campaign changes require a fresh report. A new report does not itself generate new review items or prove current source coverage. | CRT-019/044 |
 | API | An application programming interface through which software requests operations or data. Core coverage includes interpreting read-only evidence. | CRT-044 |
 | Object ID | An identifier for the relevant platform record; a matching display name alone is not an exact record reference. | CRT-042/044 |
 | Request/response | An operation/data request and the returned result. An accepted request is not automatically completion of downstream work. | CRT-044 |
@@ -146,7 +146,7 @@ Its local [revision 1.1 record](revisions/CRT-004_Revision_1_1_Record.md) record
 | Role definition | The role's configured contents and related requirements, separate from each identity's assignment. | CRT-006; X-01 |
 | Membership criteria | Configured conditions used to determine automatic role membership. | CRT-006/007 |
 | Access profile detection | Recognition of an already-held entitlement set as a profile where supported; not proof of a newly issued grant. | CRT-006/007 |
-| Role-composition review | Review of the role itself, including contents/description/criteria; current campaign support uses the legacy experience. | CRT-006/015; X-01 |
+| Role-composition review | Review of a shared role's definition, contents and membership requirements; distinguish the documented legacy review and manual correction from removing one person's holding. | CRT-006/015; X-01 |
 | Role owner | Responsibility for the role; this label alone does not establish platform permission to change the definition. | CRT-006/022 |
 
 [CRT-006](../lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.md) reintroduces entitlement/profile/role meanings and connects them with actual item scope and assignment origin. Requested roles, criteria roles, requested/detected profiles and contained components receive the locally needed action/eligibility explanation. [Its author record](revisions/CRT-006_Revision_Record.md) locates the teaching and partial-need transfer. Detailed overlap, role configuration and composition remediation remain with their primary owners.
@@ -211,7 +211,7 @@ New terms may be added when a real explanation needs them. Avoid growing a gloss
 |---|---|---|
 | Review population | The people, accounts and access intended for a review, under an explicit scope and observation time. | CRT-010/013/014 |
 | Expected baseline | Evidence-supported list of relationships that should be accounted for, independently checked against the business requirement. | CRT-010/021 |
-| Reconciliation | Comparing actual records and explaining missing and unexpected relationships, not merely matching totals. | CRT-010/021 |
+| Reconciliation | Comparing intended and actual records and explaining missing/unexpected person-account-access relationships. Equal totals or a clean selected case cannot erase another known gap. | CRT-010/021 |
 | Coverage gap | Intended review content not adequately accounted for; a label or progress percentage does not establish resolution. | CRT-010/021/045 |
 
 [CRT-010 record](revisions/CRT-010_Revision_Record.md) locates these four new meanings and the locally reintroduced pagination, preview, query/refinement/filter, collection/correlation and review-unit meanings. The register now has 104 distinct working meanings. No earlier meaning is removed, and no observed learner vocabulary result is claimed.
@@ -244,3 +244,58 @@ New terms may be added when a real explanation needs them. Avoid growing a gloss
 | Access-item-oriented selection | Choose access definitions first to identify included holders; a later access choice determines what is reviewed for those people. | CRT-013 |
 
 [CRT-013 record](revisions/CRT-013_Revision_Record.md) maps these two meanings and locally explained query/result type, all versus specific selection, object definition versus holding, entitlement/profile/role, standalone/container, refinement, preview and reviewer. There are now 112 distinct working meanings. No earlier meaning is removed or observed learner vocabulary pass claimed.
+
+## Access refinement authored in CRT-014
+
+[CRT-014 record](revisions/CRT-014_Revision_Record.md) locates the primary access-refinement explanation and locally reintroduced identity/account/source/entitlement, object reference, profile/role/model, access request, membership criteria, lifecycle state, campaign/review/item, reviewer, preview and campaign-filter meanings. Saved scope, current holding, review decision and actual account change remain distinct. No new meaning is added solely to increase glossary size: 112 distinct working meanings remain. No earlier term is removed or learner vocabulary pass claimed.
+
+## Review targets authored in CRT-015
+
+| Term | Working meaning and connection | Teaching location |
+|---|---|---|
+| Assignment review | Review purpose assessing whether a particular person's holding of an access object remains appropriate; this is not a separate invented campaign tile. | CRT-015; supporting CRT-006/013 |
+
+[CRT-015 record](revisions/CRT-015_Revision_Record.md) locates the new assignment-review entry and the expanded existing role-composition meaning, along with local identity/account/source/object, manager/source/role ownership, actual reviewer, remediation owner, preview, uncorrelated and application/machine identity explanations. The register now has 113 distinct working meanings. Earlier meanings are preserved; no observed learner vocabulary result is claimed.
+
+## Search meanings authored in CRT-016
+
+| Term | Working meaning and connection | Teaching location |
+|---|---|---|
+| Search category | The kind of record being searched and returned; account/access conditions inside identity data still return identities. | CRT-016 |
+| Search field | The specific named information checked on the selected record model; exact path, case, type and related-record context matter. | CRT-016 |
+| Data model | Organization of fields and related records for an object type; source on an identity differs from source inside an account. | CRT-016 |
+| Boolean operator | Logical combination such as AND or OR; the scoped Search rules do not establish another filter builder's behavior. | CRT-016 |
+| Nested query | Query conditions applied inside related records, such as accounts; one grouped account query differs from separately satisfied account tests. | CRT-016 |
+
+[CRT-016 record](revisions/CRT-016_Revision_Record.md) locates the five new meanings and local attribute/mapping, query, person/account/source, authoritative source, access object, refinement, filter, preview and reviewer explanations. There are now 118 distinct working meanings. Earlier meanings are preserved, and no observed learner vocabulary pass is claimed.
+
+## Filter meanings authored in CRT-017
+
+| Term | Working meaning and connection | Teaching location |
+|---|---|---|
+| Filter criterion | A test identifying the kind of information, source/field where relevant, operation and value used to find matches. | CRT-017/018 |
+| Inclusion filter | Filter mode retaining matching review content under the supported criterion's scope; entitlement matching can narrow both people and items. | CRT-017 |
+| Exclusion filter | Filter mode omitting matching review content; an entitlement exclusion and a person exclusion do not remove the same work. | CRT-017 |
+| Comparison operation | How a criterion checks a value, such as Equals, Contains or supported Starts With; separate from the filter's inclusion/exclusion mode. | CRT-017 |
+
+[CRT-017 record](revisions/CRT-017_Revision_Record.md) locates these four new meanings and local person/account/source, attribute/display label/source value, entitlement/profile/role/lifecycle, preview and reviewer explanations. There are now 122 distinct working meanings; none is removed and no observed learner vocabulary pass is claimed.
+
+## Combined meanings developed in CRT-018
+
+[CRT-018 record](revisions/CRT-018_Revision_Record.md) locates the connected use of identity/account/source/attribute/mapping, query and grouping, actual people selection, holdings, access refinement, filter/criterion/mode, entitlement versus identity scope, requested profile/role containment, preview and reviewer. Meaning is supplied locally instead of relying on a glossary or prior lesson. This unit consolidates existing meanings; 122 distinct working meanings remain, with no artificial entry added and no learner vocabulary pass claimed.
+
+## Time and record meanings developed in CRT-019
+
+[CRT-019 record](revisions/CRT-019_Revision_Record.md) locates observation/collection, identity/account correlation, generation/snapshot, current source/ISC data, Search availability, current reviewer versus decision maker, saved decision/sign-off, reassignment, preview/start and report freshness in connected prose. The three time labels organize these existing meanings without adding glossary filler. Generated snapshot is scoped to certification review work rather than another product's similarly named feature. Existing 122 working meanings remain; no standalone learner glossary or tooltip implementation is claimed.
+
+## Reusable instructions and campaign-cycle meanings in CRT-020
+
+[CRT-020 record](revisions/CRT-020_Revision_Record.md) locates template, schedule/recurrence/time zone, generation, preview, activation, deadline, campaign/assigned certification/item, owner/administrator/authorization, identity/account/source/entitlement and API/request/result meanings in the saved explanation. Staged and Experimental are explained only within the checked activation reference, not declared universal UI labels. Source/account and software-interface meanings were expanded during beginner author reading. Existing 122 working meanings remain; no standalone glossary or tooltip implementation is claimed.
+
+## Preview acceptance meanings developed in CRT-021
+
+[CRT-021 record](revisions/CRT-021_Revision_Record.md) locates scope/identity/account/holding, entitlement/source/collection, campaign/certification/item/generation/preview, actual reviewer/Individual choice, authority, role/profile/filter, deadline/comments, undecided versus saved/unsigned/sign-off, template/email redirection, operational exception and API/job/start evidence. Exception is explained as a business-process departure, not a native campaign status. Existing 122 working meanings remain; no ordinary-language label is added just to increase the glossary. No learner tooltip implementation is claimed.
+
+## Reviewer responsibility meanings developed in CRT-022
+
+[CRT-022 record](revisions/CRT-022_Revision_Record.md) locates campaign/certification/item, identity/account/source/entitlement, manager relationship/correlation, creator/campaign owner, primary/additional access ownership, source/account/role owner, named Individual, governance group/member/owner/actor, fallback/self-review/work reassignment, current reviewer versus decision maker, sign-off and platform authorization. Ordinary Manager routing and independent Access Owner mismatch are distinguished from missing-input effects. Existing 122 working meanings remain; group voting/sign-off contracts and every owner hierarchy are not invented.
