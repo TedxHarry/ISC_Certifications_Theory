@@ -2,7 +2,7 @@
 
 Authoring source reference 5.4. Updated November 11, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant action, test campaign or provisioning change was performed. Twenty-two learners are authored and prepared for authorized publication; deployment/live verification is pending. The prior thirteen-lesson snapshot remains historical evidence. CRT-023 is next; eight product questions remain open and dated evidence below remains historical.
+No tenant action, test campaign or provisioning change was performed. Twenty-two learners are authored, pushed, published and live-verified. The [twenty-two-lesson publication record](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md) contains the observed deployment/live results; the prior thirteen-lesson snapshot remains historical evidence. CRT-023 is next; eight product questions remain open and dated evidence below remains historical.
 
 ## Primary source map
 
@@ -363,3 +363,5 @@ Global Test Address diversion and incomplete process-specific/conditional data i
 All seven reviewer choices are type-scoped. Primary/additional ownership and group owner/member/actor differ; no universal owner hierarchy or group quorum/finalization contract is invented. Current manager/owner changes do not prove existing work moved. The independent Warehouse case distinguishes correct Access Owner execution from a mismatched manager-assessment requirement. All eight questions stay open. Twenty-two authored, 28 unwritten, CRT-023 next.
 
 Explicit user authorization covers pushing complete local CRT-014 through CRT-022 with earlier learners and expanding the reader to five modules. The [publication record](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md) separates prepared content from observed deployment/live verification. Earlier author records and source-scoped uncertainties remain historical; no tenant or participant result is claimed.
+
+Publication follow-up, November 11: content 80723fec7f476669b3ba62d3a2e848225c6e545d deployed successfully in Pages run 43059165625. The full live verifier passed for twenty-two learners, 2795 normalized content units, twenty-two exact diagrams/assets, twenty-seven tables, 548 internal link visits, CSS and four representative excluded author/control paths. These are publication-content checks, not a graphical/participant/tenant result. CRT-023 remains next.

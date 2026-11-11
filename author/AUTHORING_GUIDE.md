@@ -113,11 +113,11 @@ An unfamiliar reader can explain why review is needed, what is being reviewed, w
 
 The saved lesson contains complete connected prose, useful reasoning/transfer, consistent supplied conditions and no biography, prerequisite announcement, source URLs or invented tenant results. The author record is complete; actual learner validation is separately pending unless it has really occurred.
 
-## Current priority: publish, then prepare CRT-023
+## Current priority: prepare CRT-023
 
-CRT-022 is complete at revision 1.0 with its editable diagram and author record. Twenty-two topics are authored and 28 remain unwritten. The user explicitly requested continuation and push. Complete the existing repository/Pages publication of all twenty-two learners and record actual deployment/live results before resuming new authoring. The expanded reader manifest contains five modules; prior reader implementation and earlier learner/evidence files are preserved.
+CRT-022 is complete at revision 1.0 with its editable diagram and author record. Twenty-two topics are authored and 28 remain unwritten. All twenty-two learners are pushed, published and live-verified on November 11, 2026. The [publication record](PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md) records content 80723fe and successful Pages run 43059165625. The reader has five modules; earlier learner/evidence and reader implementation files are preserved.
 
-Then prepare the brief and current primary-source checks for CRT-023, What happens when a manager or owner is missing? Establish route/type, missing versus invalid data, required identity/owner/group inputs, supported exclusion/fallback and actual resulting responsibility. Do not merge all owner hierarchies or general group-work descriptions into an unverified universal campaign rule. No CRT-023 learner stub exists. All eight questions stay open. Apply teaching specification 1.1 dynamically and keep participant/tenant assessment separate from publication.
+Prepare the brief and current primary-source checks for CRT-023, What happens when a manager or owner is missing? Establish route/type, missing versus invalid data, required identity/owner/group inputs, supported exclusion/fallback and actual resulting responsibility. Do not merge all owner hierarchies or general group-work descriptions into an unverified universal campaign rule. No CRT-023 learner stub exists. All eight questions stay open. Apply teaching specification 1.1 dynamically and keep participant/tenant assessment separate from publication.
 
 ## Repository and publication stage
 

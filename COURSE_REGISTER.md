@@ -5,7 +5,7 @@ Version 4.5. Updated November 11, 2026.
 
 ## Current position
 
-CRT-022 is complete at revision 1.0. Twenty-two topics are authored and 28 remain unwritten. CRT-001 through CRT-007 are 1.1; CRT-008 through CRT-022 are 1.0. Publication of all twenty-two learners is prepared under the user's explicit instruction; deployment/live verification is pending. The prior thirteen-lesson snapshot remains the last verified live publication until those checks pass. CRT-023 is next.
+CRT-022 is complete at revision 1.0. Twenty-two topics are authored and 28 remain unwritten. CRT-001 through CRT-007 are 1.1; CRT-008 through CRT-022 are 1.0. All twenty-two are pushed, published and live-verified on November 11, 2026 in five reader modules. CRT-023 is next.
 
 | Item | Actual state |
 |---|---|
@@ -23,7 +23,7 @@ CRT-022 is complete at revision 1.0. Twenty-two topics are authored and 28 remai
 | Current author evidence | [CRT-022 record](author/revisions/CRT-022_Revision_Record.md); reviewer options/input/actual assignment, group membership, distinct owners/permissions and current reviewer versus decision maker; thirteen scoped references and saved author reading; learner assessment pending |
 | Feature currency | Scoped checks recorded; eight product questions open, including OQ-08 mixed-account filter scope; exhaustive release and future-lesson verification remain incomplete |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
-| GitHub / publication | Twenty-two-entry reader prepared for authorized push; deployment/live checks pending. [Current publication record](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md). Prior verified thirteen-lesson snapshot: content 470c4a5, Pages run 43024965366 |
+| GitHub / publication | Twenty-two learners published and live-verified. [Publication evidence](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md); content 80723fe, successful Pages run 43059165625; twenty-two diagrams/assets, twenty-seven tables, 548 internal link visits |
 | Other ISC course | Separate and unchanged by this setup |
 
 ## Resume order
@@ -75,15 +75,15 @@ These states are independent facts. A source check does not imply learner valida
 | CRT-011 | When is a manager review the right choice? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-012 | When should source owners review access? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-013 | Start with people or start with access items? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
-| CRT-014 | Which access should we review for the selected people? | Complete local revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Prepared for publication |
-| CRT-015 | Which campaign design answers this business question? | Complete local revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Prepared for publication |
-| CRT-016 | What does this search actually select for the campaign? | Complete local revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Prepared for publication |
-| CRT-017 | How do campaign filters include or exclude review content? | Complete local revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Prepared for publication |
-| CRT-018 | What happens when selection rules and filters are combined? | Complete local revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Prepared for publication |
-| CRT-019 | What was captured when this review was generated? | Complete local revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Prepared for publication |
-| CRT-020 | A template, a schedule and a running campaign are different things | Complete local revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Prepared for publication |
-| CRT-021 | What must be checked before the campaign reaches reviewers? | Complete local revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Prepared for publication |
-| CRT-022 | Who becomes the reviewer, and why? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Prepared for publication |
+| CRT-014 | Which access should we review for the selected people? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
+| CRT-015 | Which campaign design answers this business question? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
+| CRT-016 | What does this search actually select for the campaign? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
+| CRT-017 | How do campaign filters include or exclude review content? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
+| CRT-018 | What happens when selection rules and filters are combined? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
+| CRT-019 | What was captured when this review was generated? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
+| CRT-020 | A template, a schedule and a running campaign are different things | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
+| CRT-021 | What must be checked before the campaign reaches reviewers? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
+| CRT-022 | Who becomes the reviewer, and why? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-023 | What happens when a manager or owner is missing? | Reserved next; no learner file | Not reviewed | Not tested | Not published |
 | CRT-024 | How does ISC prevent someone reviewing their own access? | Planned; not written | Not reviewed | Not tested | Not published |
 | CRT-025 | When should a review be reassigned? | Planned; not written | Not reviewed | Not tested | Not published |
@@ -154,15 +154,12 @@ The design owns the current module placement and topic descriptions. This table 
 | November 11, 2026 | Authored CRT-016 revision 1.0 locally | Search category/field/value, exact strings, operators/grouping, same-record account query, data timing and actual selection; independent Warehouse transfer; sixteen authored, 34 unwritten, CRT-017 next; no push |
 | November 11, 2026 | Authored CRT-017 revision 1.0 locally | Single-filter criterion/mode/affected work, display-name comparisons, person/account/package/source boundaries and rename transfer; Role ambiguity remains open, new mixed-account question recorded; seventeen authored, 33 unwritten, CRT-018 next; no push |
 | November 11, 2026 | Authored CRT-018 revision 1.0 locally | Combined query/selection/refinement/exclusion trace, query grouping versus UI alternatives, equal-count mismatch, route checks and profile-origin transfer; eighteen authored, 32 unwritten, CRT-019 next; no push |
-
 | November 11, 2026 | Authored CRT-019 revision 1.0 locally | Observation/generation/report times, dedicated-route snapshot, current access versus review work, supported reassignment/history and independent later-grant versus earlier-uncollected transfer; nineteen authored, 31 unwritten, CRT-020 next; no push |
-
 | November 11, 2026 | Authored CRT-020 revision 1.0 locally | Reusable definition, one-time/recurring generation, actual preview and verified activation; early generation preserves schedule, separate instances/decisions and changed-scope transfer; twenty authored, 30 unwritten, CRT-021 next; no push |
-
 | November 11, 2026 | Authored CRT-021 revision 1.0 locally | Requirement versus actual people/account/access/reviewers; distinct input/scope gaps, representative checks, deadline/comments/undecided/communication, operational exceptions and verified authorized launch; twenty-one authored, 29 unwritten, CRT-022 next; no push |
-
 | November 11, 2026 | Authored CRT-022 revision 1.0 and prepared full publication | Reviewer choice/input/assignment, seven supported choices, group membership/actors, ownership versus authority and independent mismatched-choice transfer; twenty-two authored, 28 unwritten, CRT-023 next; explicit user push instruction, deployment pending |
+| November 11, 2026 | Published and live-verified twenty-two lessons | Content 80723fe; successful Pages run 43059165625; 2795 content units, twenty-two diagrams/assets, twenty-seven tables, 548 internal link visits and representative author exclusions; reader implementation unchanged |
 
 ## Next action
 
-Complete the authorized twenty-two-lesson push, Pages deployment and live verification, then prepare CRT-023's brief and relevant primary-source checks: What happens when a manager or owner is missing? Establish exact campaign route/type, missing versus invalid data, exclusion/fallback and actual assignee before teaching a hierarchy. Preserve earlier learners/assets/historical records and the separate other course. Twenty-two topics are authored and 28 candidate topics remain unwritten. Eight product questions remain open. No CRT-023 stub exists.
+Prepare CRT-023's brief and relevant primary-source checks: What happens when a manager or owner is missing? Establish exact campaign route/type, missing versus invalid data, exclusion/fallback and actual assignee before teaching a hierarchy. Preserve earlier learners/assets/historical records and the separate other course. Twenty-two topics are authored and 28 candidate topics remain unwritten. All twenty-two are published and live-verified; eight product questions remain open. No CRT-023 stub exists.

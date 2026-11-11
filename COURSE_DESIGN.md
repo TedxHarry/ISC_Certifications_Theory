@@ -2,9 +2,9 @@
 
 Course design 5.4. November 11, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: twenty-two topics are authored and author-reviewed. CRT-001 through CRT-007 are revision 1.1; CRT-008 through CRT-022 are 1.0. All twenty-two learners are prepared for authorized publication; deployment/live checks are pending. CRT-023 is the next new topic.
+Status: twenty-two topics are authored and author-reviewed. CRT-001 through CRT-007 are revision 1.1; CRT-008 through CRT-022 are 1.0. All twenty-two learners are pushed, published and live-verified. CRT-023 is the next new topic.
 
-Current priority: finish authorized publication checks, then prepare CRT-023's brief and source checks. Twenty-eight candidate topics remain unwritten. Preserve earlier complete learners and historical evidence. Eight product questions remain open.
+Current priority: prepare CRT-023's brief and source checks. Twenty-eight candidate topics remain unwritten. Preserve earlier complete learners and historical evidence. Eight product questions remain open.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
@@ -388,4 +388,4 @@ All thirteen learners and the five earlier local rewrites are pushed and live-ve
 
 ## CRT-022 authored and publication prepared, November 11, 2026
 
-[CRT-022](lessons/CRT-022_How_ISC_Chooses_the_Reviewer.md) is complete at revision 1.0. [Its record](author/revisions/CRT-022_Revision_Record.md) maps primary COV-16 and COV-03 to thirteen scoped references, full saved beginner author reading and the independent Warehouse requirement/choice mismatch. Seven documented reviewer choices depend on type; actual input/assignment, group members, owners/permissions and historical decision actor remain distinct. Existing 122 meanings and eight questions remain. Twenty-two authored, 28 unwritten; CRT-023 next. The [current publication](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md) prepares all twenty-two learners in five reader modules under explicit user authorization; deployment/live checks are pending.
+[CRT-022](lessons/CRT-022_How_ISC_Chooses_the_Reviewer.md) is complete at revision 1.0. [Its record](author/revisions/CRT-022_Revision_Record.md) maps primary COV-16 and COV-03 to thirteen scoped references, full saved beginner author reading and the independent Warehouse requirement/choice mismatch. Seven documented reviewer choices depend on type; actual input/assignment, group members, owners/permissions and historical decision actor remain distinct. Existing 122 meanings and eight questions remain. Twenty-two authored, 28 unwritten; CRT-023 next. The [current publication](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md) records all twenty-two learners in five reader modules, content 80723fe, successful deployment and complete live verification. No tenant or observed learner assessment is inferred.
