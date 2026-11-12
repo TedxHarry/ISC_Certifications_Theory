@@ -1,0 +1,14 @@
+One campaign
+     |
+     +--> 3 assigned certifications
+               |
+               +--> 4 subjects in this example
+                         |
+                         +--> 8 review items
+                                   |
+                                   +--> 5 saved choices
+
+Separate checks:
+  Subjects with all choices:       2 of 4
+  Signed assigned reviews:        1 of 3
+  Verified due removals:          check actual work/account

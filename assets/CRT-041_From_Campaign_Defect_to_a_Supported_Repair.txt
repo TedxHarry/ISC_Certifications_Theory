@@ -1,0 +1,19 @@
+Identify the exact defect, campaign and current state
+                         |
+          What record needs to change?
+                         |
+       +-----------------+------------------+
+       |                 |                  |
+ Supported field    Assignment or      Wrong generated
+ correction         unsigned choice    population/data
+       |                 |                  |
+ Check state,       Check actor,       Correct inputs;
+ authority and      scope and          validate a new
+ allowed field      finalization       generated review
+       |                 |                  |
+       +-----------------+------------------+
+                         |
+       Verify actual result and remaining work
+                         |
+       Before any approved deletion: preserve
+       evidence and establish task/account effects

@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 3.27. November 12, 2026.
+Version 3.29. November 12, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -74,6 +74,8 @@ These are author working meanings. Verify product-specific use in the applicable
 | Notification | Message drawing attention to an event or assigned work; distinguish event, intended recipient, delivery and the actual work record. | CRT-038 |
 | Reminder | Follow-up drawing attention to unfinished work; applicable configuration/timing and actual recipient matter. Does not decide access, finalize reviews or extend deadlines. | CRT-038 |
 | Email template | Subject/body pattern for a particular notification, populated with available context. Template content, suppression, actual trigger and delivery are separate. | CRT-038 |
+| Numerator | Count meeting the stated condition in a chosen fraction, such as included items with saved choices. Match unit, subset and time to the denominator. | CRT-042 |
+| Denominator | Whole included set against which the numerator is compared; actual campaign/user/filter/page/time and completion condition matter. Zero supplies no defined ordinary completion fraction. | CRT-042 |
 | Progress unit | What is counted and what result qualifies it as complete, such as item choices, finalized assigned reviews or fulfilled removal requirements. Working teaching phrase, not an asserted ISC field or native percentage formula. | CRT-038/042 |
 | Approve | Accept continued access to the actual reviewed item under assessed conditions. Does not grant missing access, approve unrelated permissions or freeze future access requirements. | CRT-028 |
 | Revoke | Record removal/change for the actual reviewed item. Package scope, origin and review type matter; decision, finalization, required removal work and verified account result differ. Not an account-delete instruction. | CRT-028/032 |
@@ -89,6 +91,9 @@ These are author working meanings. Verify product-specific use in the applicable
 | Overdue | The relevant deadline has passed; determine the applicable object and handling rather than assume access changed. | CRT-039 |
 | Maintain access to undecided items | Configured completion handling that approves affected never-decided items and keeps existing access. Distinguish this policy outcome from a fresh reviewer's informed judgment or a new grant; exact saved-unsigned scope remains OQ-01. | CRT-039/040 |
 | Closure evidence | Connected records supporting a specific finished-work claim and remaining obligations: actual scope, decisions/actors, review/campaign results, work/account outcomes and accepted follow-up. Working teaching phrase, not an asserted native ISC state/report/field. | CRT-040 |
+| Regeneration | Producing new campaign work from the actual definition/inputs; verify the resulting record and contents rather than assume in-place repair or old-decision carryover. | CRT-041 |
+| Campaign retirement | Decision to stop relying on a campaign for a review requirement, with supported platform handling, evidence and outstanding work accounted for. Working management phrase, not an asserted native state/button. | CRT-041 |
+| Campaign deletion | Supported removal of the identified campaign; documented decisions/participant views/reports are lost. Acceptance, final deletion, future schedule and actual account/task side effects differ; no assumed rollback. | CRT-041 |
 | Campaign completion | The campaign's completed state/action under the relevant engine; not a universal synonym for verified target removal. | CRT-040 |
 | Revocation date | A specified removal date where the review action supports it. Does not prove completed removal; the described reviewer path for individual entitlements does not offer this setting. | CRT-028/032 |
 | Remediation | Work required to carry out a removal/change decided in the review. The applicable trigger, path and outcome need evidence. | CRT-032–037 |
@@ -420,3 +425,11 @@ New terms may be added when a real explanation needs them. Avoid growing a gloss
 ## CRT-040 authored terminology, November 12, 2026
 
 [CRT-040 record](revisions/CRT-040_Revision_Record.md) adds Closure evidence, bringing 171 to 172. Existing account/access/source, campaign/certification/item, Approve/Revoke, saved/unsigned/finalization, engine/API, remediation/task/ticket, aggregation and policy-maintenance meanings are local. Evidence supports named records and scoped outcomes; a human task close is not every current account result, and policy approval is not original-reviewer judgment. No glossary dependency or tooltip implementation.
+
+## CRT-041 authored terminology, November 12, 2026
+
+[CRT-041 record](revisions/CRT-041_Revision_Record.md) adds Regeneration, Campaign retirement and Campaign deletion, bringing 172 to 175. Supporting source/account/access, campaign/review/item, template/preview/activation, API/engine/state, undecided/unsigned/sign-off, recommendations, reassignment, remediation and schedule meanings are local. Exact field-edit scope, new generated work, evidence export and actual source outcome stay distinct. No glossary prerequisite, native retirement-state claim or tooltip implementation.
+
+## CRT-042 authored terminology, November 12, 2026
+
+[CRT-042 record](revisions/CRT-042_Revision_Record.md) adds Numerator and Denominator, bringing175 to177. Existing identity/account/subject/item/review/campaign, progress/status, Approve/Revoke/Acknowledge/role, signed/unsigned, API/pagination and remediation meanings remain local. Certification.Completed, signature evidence, report-item Complete and work Finished retain distinct scopes. Arithmetic is labelled example reasoning, not a universal native metric definition. No glossary prerequisite or tooltip implementation.

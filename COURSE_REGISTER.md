@@ -1,11 +1,11 @@
 # ISC Certifications course register
 
-Version 6.3. Updated November 12, 2026.
+Version 6.5. Updated November 12, 2026.
 [Course design](COURSE_DESIGN.md) and [teaching standard](TEACHING_SPECIFICATION.md).
 
 ## Current position
 
-CRT-040 is complete at revision 1.0. Forty topics are authored and 10 remain unwritten. CRT-001–007 are 1.1; CRT-008–040 are 1.0. All forty are published and live-verified in eight reader modules. CRT-041 is next.
+CRT-042 is complete at revision 1.0. Forty-two topics are authored and eight remain unwritten. CRT-001–007 are 1.1; CRT-008–042 are 1.0. All forty-two are prepared in nine modules for authorized publication; forty remain the last live-verified snapshot pending deployment. CRT-043 is next.
 
 | Item | Actual state |
 |---|---|
@@ -13,24 +13,24 @@ CRT-040 is complete at revision 1.0. Forty topics are authored and 10 remain unw
 | Current grouping | 10 provisional modules; no fixed limit |
 | Specialist depth | 5 job-dependent routes; essential recognition remains core |
 | Routine work | 24 mapped task families; coverage planned, not yet demonstrated |
-| Learner lessons written | 40; CRT-001 through CRT-007 revision 1.1 and CRT-008 through CRT-040 revision 1.0 |
-| Learner lessons author-reviewed | 40; source/coverage and full saved author read-through complete; independent learner assessment remains pending |
+| Learner lessons written | 42; CRT-001 through CRT-007 revision 1.1 and CRT-008 through CRT-042 revision 1.0 |
+| Learner lessons author-reviewed | 42; source/coverage and full saved author read-through complete; independent learner assessment remains pending |
 | Reader feedback / learner assessment | User reported CRT-004 1.1 better on November 2 after difficulty with 1.0; independent uncoached assessment remains pending |
-| Reference aids authored | 0 standalone aids; forty editable teaching diagrams accompany CRT-001 through CRT-040 |
-| Latest authored learner | [CRT-040: What does completing a campaign actually establish?](lessons/CRT-040_Understanding_Campaign_Completion_and_Closure_Evidence.md); revision 1.0, published and live-verified |
-| Current revision | CRT-040 revision 1.0; [author evidence](author/revisions/CRT-040_Revision_Record.md) |
-| Next task | Prepare CRT-041's brief and primary checks, then write one complete local learner |
-| Current author evidence | [CRT-040 record](author/revisions/CRT-040_Revision_Record.md); eight fresh plus one same-day scoped reference, full saved beginner author reading, whole-population/result reconciliation and closure evidence; learner assessment pending |
-| Feature currency | Scoped checks recorded; ten product questions open. OQ-07 overlap conflict re-investigated and bounded; CAP-17 records role removal propagation. Exhaustive release/tenant/future-lesson verification remains incomplete |
+| Reference aids authored | 0 standalone aids; forty-two editable teaching diagrams accompany CRT-001 through CRT-042 |
+| Latest authored learner | [CRT-042: What are the campaign's counts and statuses counting?](lessons/CRT-042_Understanding_Campaign_Counts_Progress_and_Statuses.md); revision 1.0, included in authorized publication preparation |
+| Current revision | CRT-042 revision 1.0; [author evidence](author/revisions/CRT-042_Revision_Record.md) |
+| Next task | Finish the authorized forty-two-lesson publication, then prepare CRT-043's brief and primary checks |
+| Current author evidence | [CRT-042 record](author/revisions/CRT-042_Revision_Record.md); eleven fresh primary references, native Completed/DateSigned separation, verified labelled arithmetic and independent unequal-review transfer; full saved beginner author reading; learner assessment pending |
+| Feature currency | Scoped checks recorded; eleven product questions open. OQ-10 freshly re-investigated; OQ-11 records unestablished cancellation/deletion effects on outstanding removal. Exhaustive release/tenant/future-lesson verification remains incomplete |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
-| GitHub / publication | Forty learners published/live-verified in eight modules; [publication record](author/PUBLICATION_2026-11-12_FORTY_LESSONS.md). Content 858267c, successful Pages run 43202690075, forty diagrams/assets, forty-five tables and 1718 internal link visits. |
+| GitHub / publication | Forty-two complete learners prepared in nine modules; [publication record](author/PUBLICATION_2026-11-12_FORTY_TWO_LESSONS.md). Forty remain the last live-verified snapshot pending new deployment. |
 | Other ISC course | Separate and unchanged by this setup |
 
 ## Resume order
 
 Read the [authoring guide](author/AUTHORING_GUIDE.md), then relevant [coverage](author/COVERAGE_REGISTER.md), [terms](author/TERMINOLOGY_REGISTER.md), [capabilities and open questions](author/CAPABILITY_AND_UPDATE_REGISTER.md) and [source leads](AUTHOR_SOURCE_MAP.md).
 
-The existing-lesson revision pass below is complete. Continue with CRT-041 as the next new topic, preparing its brief and source checks before drafting one complete learner file with its necessary asset and author evidence. The clearer teaching standard applies to all future lessons. Preserve the earlier rewrites and distinguish a newly authored topic from a revision.
+The existing-lesson revision pass below is complete. Continue with CRT-043 as the next new topic, preparing its brief and source checks before drafting one complete learner file with its necessary asset and author evidence. The clearer teaching standard applies to all future lessons. Preserve the earlier rewrites and distinguish a newly authored topic from a revision.
 
 ## Completed explanation revision pass
 
@@ -45,7 +45,7 @@ The existing-lesson revision pass below is complete. Continue with CRT-041 as th
 | CRT-007 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
 | CRT-008 | Authored in the current style with author review | Preserve; no learner assessment claimed |
 
-No earlier lesson remains in this revision pass. CRT-009 through CRT-040 are complete as new topics; CRT-041 is next. Ten current candidate topics remain unwritten. A rewrite is not an additional topic, and author review is not independent learner validation.
+No earlier lesson remains in this revision pass. CRT-009 through CRT-042 are complete as new topics; CRT-043 is next. Eight current candidate topics remain unwritten. A rewrite is not an additional topic, and author review is not independent learner validation.
 
 ## Status meanings
 
@@ -102,9 +102,9 @@ These states are independent facts. A source check does not imply learner valida
 | CRT-038 | How do reminders and progress monitoring help the campaign? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published; live-verified |
 | CRT-039 | What happens to overdue, undecided or unsigned reviews? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published; live-verified |
 | CRT-040 | What does completing a campaign actually establish? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published; live-verified |
-| CRT-041 | When should a campaign be corrected, regenerated or retired? | Reserved next; no learner file | Not reviewed | Not tested | Not published |
-| CRT-042 | What are the campaign's counts and statuses counting? | Planned; not written | Not reviewed | Not tested | Not published |
-| CRT-043 | Who made the decision, and what was finally signed off? | Planned; not written | Not reviewed | Not tested | Not published |
+| CRT-041 | When should a campaign be corrected, regenerated or retired? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Publication prepared; deployment pending |
+| CRT-042 | What are the campaign's counts and statuses counting? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Publication prepared; deployment pending |
+| CRT-043 | Who made the decision, and what was finally signed off? | Reserved next; no learner file | Not reviewed | Not tested | Not published |
 | CRT-044 | Which report answers the question we are asking? | Planned; not written | Not reviewed | Not tested | Not published |
 | CRT-045 | The person, item or reviewer is wrong. Where did the mismatch begin? | Planned; not written | Not reviewed | Not tested | Not published |
 | CRT-046 | The review says Revoke, but access still works. How do we investigate? | Planned; not written | Not reviewed | Not tested | Not published |
@@ -184,6 +184,10 @@ The design owns the current module placement and topic descriptions. This table 
 
 | November 12, 2026 | Observed forty-lesson publication | Content 858267c, successful Pages run 43202690075 and all-forty live verification: 4582 content units, forty diagrams/assets, forty-five tables, 1718 internal link visits and representative exclusions. No learner/tenant/graphical claim. |
 
+| November 12, 2026 | Authored CRT-041 revision 1.0 locally | Defect/state/affected record, supported next-generation edits, checked replacement, signed limits, deletion/evidence/schedule scope and Payments transfer; OQ-11 added, eleven questions open; forty-one authored, nine unwritten, CRT-042 next; no push |
+
+| November 12, 2026 | Authored CRT-042 and prepared forty-two-lesson publication | Units/denominator/condition, native Completed versus DateSigned, exact subsets and labelled arithmetic; unequal-review transfer. Forty-two authored, eight unwritten; CRT-043 next. CRT-041/042 added to manifest, deployment pending. |
+
 ## Next action
 
-Prepare CRT-041's brief and primary checks: When should a campaign be corrected, regenerated or retired? Explain the actual error, current state, supported correction/cancellation/deletion or replacement path, affected decisions and retained evidence for the exact engine. Do not invent a universal reopen, post-sign-off edit, harmless deletion or automatic replacement outcome. Retain OQ-01/OQ-02/OQ-10 boundaries unless authoritative new evidence resolves them. Preserve earlier learners/assets/evidence and the authorized forty-entry/eight-module reader/manifest. Forty topics are authored and 10 remain unwritten; five specialist routes stay planned. Ten questions remain open. No CRT-041 stub exists. Ordinary future continuation is one complete local learner; this request has published and live-verified the forty completed learners.
+Prepare CRT-043's brief and primary checks: Who made the decision, and what was finally signed off? Connect current assignment, actual item decision maker, saved choice/comment/time, reassignment history, original versus administrative confirmation and authoritative finalization evidence for the actual engine. Do not infer a human actor from a display name, an original-reviewer signature from administrator completion, or an all-engine edit/reopen rule. Preserve earlier learners/assets/per-lesson/publication evidence and the authorized forty-two-entry/nine-module manifest, reader/style/configuration/tests/verifier. Forty-two topics are authored and eight core candidates remain unwritten; five specialist routes stay planned. Eleven product questions remain open. No CRT-043 stub exists. Ordinary future continuation is one complete local learner; this request explicitly publishes all forty-two complete learners.

@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 7.2. Updated November 12, 2026; dated checks below distinguish each stage.
+Authoring source reference 7.4. Updated November 12, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant action, test campaign or provisioning change was performed. Forty learners are authored and published/live-verified in eight modules; [current publication record](author/PUBLICATION_2026-11-12_FORTY_LESSONS.md) records content 858267c, successful Pages run 43202690075 and full live checks. CRT-041 is next. Ten questions stay open; dated records remain historical.
+No tenant action, test campaign or provisioning change was performed. Forty-two learners are authored and prepared for authorized publication in nine modules; [publication record](author/PUBLICATION_2026-11-12_FORTY_TWO_LESSONS.md) separates preparation from observed deployment. Forty remain the last live-verified snapshot. CRT-043 is next. Eleven questions stay open; dated records remain historical.
 
 ## Primary source map
 
@@ -468,3 +468,11 @@ Ten questions remain open. Thirty-one authored, 19 unwritten; CRT-032 next. User
 ## Forty-lesson publication observed, November 12, 2026
 
 All forty complete learners are pushed and live-verified after successful Pages run 43202690075 for content 858267c75695e77d89ff232fca40da0026869c10. Actual live result: 4582 normalized content units, forty exact diagrams/assets, forty-five tables and 1718 internal link visits; CSS and representative author/control exclusions passed. No source contract was changed by publication; ten questions remain open. Forty authored, ten unwritten; CRT-041 next. Historical per-lesson authoring and prior publication records remain unchanged; no tenant or learner observation.
+
+## CRT-041 correction and retirement verification, November 12, 2026
+
+[CRT-041 record](author/revisions/CRT-041_Revision_Record.md) maps twelve fresh primary references: next-generation overview, completion/deletion help, Search and manager/source-owner creation, reports, campaign PATCH/Delete, template PATCH/generation, official scoped PowerShell SDK, reviewer and reassignment guides. The actual SDK body supplies STAGED/ACTIVE edit fields hidden in rendered request details; separate objects/operations prevent implied population rebuild. Deletion removes decisions/views/reports and lacks an established queued/in-flight task rollback contract. OQ-10 remains scoped; OQ-11 records the latter missing side-effect contract rather than inventing a Cancel route. Three meanings total 175; eleven questions remain. Forty-one authored, nine unwritten; CRT-042 next. No tenant action, issue submission, push or learner observation.
+
+## CRT-042 count and status verification, November 12, 2026
+
+[CRT-042 record](author/revisions/CRT-042_Revision_Record.md) maps eleven fresh primary bodies: next-generation overview, reports, official SDK methods and four count/subject/certification models, direct Get Certification/Decision Summary, Understanding and administrative overview. Nine checks preceded drafting; two later bounded Acknowledge and legacy composition. Completed means all decisions in the Certification model, with separate DateSigned; campaign aggregate equivalence/native UI percentage is not inferred. Actor/filter/page/time and denominator identify the counted set. Two new meanings total177; eleven questions remain. Forty-two authored, eight unwritten; CRT-043 next. Authorized publication remains pending deployment observation; no tenant or learner result.

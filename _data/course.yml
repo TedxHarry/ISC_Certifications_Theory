@@ -15,6 +15,8 @@ modules:
     title: "7. Follow revocation into actual access removal"
   - id: run-close
     title: "8. Run and close the campaign"
+  - id: read-evidence
+    title: "9. Read the evidence and diagnose problems"
 lessons:
   - id: CRT-001
     module: purpose
@@ -296,3 +298,17 @@ lessons:
     description: "Explain what review, campaign and task completion prove, and what closure still needs."
     source: "lessons/CRT-040_Understanding_Campaign_Completion_and_Closure_Evidence.md"
     url: "/lessons/CRT-040_Understanding_Campaign_Completion_and_Closure_Evidence.html"
+  - id: CRT-041
+    module: run-close
+    placement: "Module 8 · Lesson 4"
+    title: "When should a campaign be corrected, regenerated or retired?"
+    description: "Choose a supported repair from the actual campaign defect and state, preserving evidence and outstanding access work."
+    source: "lessons/CRT-041_Correcting_Regenerating_and_Retiring_a_Campaign.md"
+    url: "/lessons/CRT-041_Correcting_Regenerating_and_Retiring_a_Campaign.html"
+  - id: CRT-042
+    module: read-evidence
+    placement: "Module 9 · Lesson 1"
+    title: "What are the campaign's counts and statuses counting?"
+    description: "Interpret count units, denominators, record-specific status and observation time before judging progress."
+    source: "lessons/CRT-042_Understanding_Campaign_Counts_Progress_and_Statuses.md"
+    url: "/lessons/CRT-042_Understanding_Campaign_Counts_Progress_and_Statuses.html"
