@@ -1,0 +1,17 @@
+Finalized assigned review
+        |
+        +--> Reviewer confirmed the recorded choices
+
+Completed campaign record
+        |
+        +--> Campaign reached its recorded completed state
+
+Closed manual removal task
+        |
+        +--> Work was reported complete
+
+Current correct application account
+        |
+        +--> Establishes the observed permission result
+
+Connect these records before making a closure claim.

@@ -1,0 +1,23 @@
+Finalized removal requirement
+  Procurement Production / pur-4801 / ORD_APPROVE
+  Remove Approve Orders; retain View Orders
+                         |
+                         v
+Check applicable trigger and timing
+  No deferred date in this entitlement example
+                         |
+                         v
+Identify the supported configured delivery path
+
+Automatic path                 Manual path
+  Authorized account change      Assigned person/task
+  Inspect operation/result      Inspect action/task result
+              |                       |
+              +-----------+-----------+
+                          v
+Verify the actual target account
+  Approve Orders absent; View Orders retained
+                          |
+                          v
+Check later ISC collection and report freshness
+  A new observation is different from the removal action

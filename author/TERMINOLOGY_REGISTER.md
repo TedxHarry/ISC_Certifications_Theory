@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 3.18. November 11, 2026.
+Version 3.27. November 12, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -14,6 +14,7 @@ These are author working meanings. Verify product-specific use in the applicable
 | Identity | ISC's representation of a person or other managed subject, connecting information and accounts/access. | CRT-002/005 |
 | Account | A record in a particular system; distinguish the exact account from the owning identity. | CRT-005/008 |
 | Source | ISC's configured representation of a system or collection of account data. | CRT-005 |
+| Removal requirement | The reviewed access to remove, the exact account/source and applicable conditions/timing; a working teaching phrase, not an asserted ISC object or API field. | CRT-032 |
 | Target system | The actual system whose account access must change or be verified; distinguish it from ISC's collected representation. | CRT-003/033/037 |
 | Connector | The supported integration used to read or change data for a source. Reading support does not establish write capability. | CRT-005/033 |
 | Account aggregation | Reading account information into ISC's represented source data. It is not itself an access-review decision. | CRT-005 |
@@ -27,6 +28,11 @@ These are author working meanings. Verify product-specific use in the applicable
 | Assignment origin | How access was assigned or recognized; it affects what is independently reviewable or removable. | CRT-006/007 |
 | Lifecycle state | A configured business stage that can drive access behavior. Its grants are not interchangeable with individually requested items. | CRT-004/007 |
 | Birthright access | Access automatically assigned under defined business conditions. The Birthright Access flag points to automated grants such as lifecycle rules; inspect origin and actual action. Manual revocation does not establish that the assigning rule stops requiring it. | CRT-007/027/035 |
+| Grant path | The assignment and access-package relationships through which a permission is supplied to a particular source account; a teaching phrase, not an asserted new ISC object. | CRT-035 |
+| Shared entitlement | The same entitlement type/value on the same source account included through more than one relevant access relationship. Shared labels or different accounts do not establish that overlap. | CRT-035 |
+| Role access removal propagation | Configuration controlling removal for certain role content changes, subject to enabled-role state, supported change type and processing. Separate from a person's membership change or a certification decision. | CRT-035 |
+| Verification | Checking whether reliable evidence supports the required outcome for the correct account/access/time, including what must remain and the limits of the claim. | CRT-037 |
+| Session | An application's continuing signed-in interaction with a user; ending it and removing one permission are different operations with source/application-specific behavior. | CRT-037 |
 | Effective access | Access that remains through applicable assignment paths and target permissions; removing one path does not establish that every path is gone. | CRT-035/037 |
 
 ## Campaign objects, scope and responsibility
@@ -65,6 +71,10 @@ These are author working meanings. Verify product-specific use in the applicable
 
 | Term | Working meaning and important connection | Primary planned teaching |
 |---|---|---|
+| Notification | Message drawing attention to an event or assigned work; distinguish event, intended recipient, delivery and the actual work record. | CRT-038 |
+| Reminder | Follow-up drawing attention to unfinished work; applicable configuration/timing and actual recipient matter. Does not decide access, finalize reviews or extend deadlines. | CRT-038 |
+| Email template | Subject/body pattern for a particular notification, populated with available context. Template content, suppression, actual trigger and delivery are separate. | CRT-038 |
+| Progress unit | What is counted and what result qualifies it as complete, such as item choices, finalized assigned reviews or fulfilled removal requirements. Working teaching phrase, not an asserted ISC field or native percentage formula. | CRT-038/042 |
 | Approve | Accept continued access to the actual reviewed item under assessed conditions. Does not grant missing access, approve unrelated permissions or freeze future access requirements. | CRT-028 |
 | Revoke | Record removal/change for the actual reviewed item. Package scope, origin and review type matter; decision, finalization, required removal work and verified account result differ. Not an account-delete instruction. | CRT-028/032 |
 | Acknowledge | Record examination of a role assigned through automated membership criteria. Does not remove access, override criteria, fix a mismatch or provide a general uncertainty response; investigate governing data/rule/contents separately. | CRT-006/007/028 |
@@ -77,16 +87,38 @@ These are author working meanings. Verify product-specific use in the applicable
 | Unsigned review | Assigned review not finalized, which can contain some or all saved item decisions. Does not mean every item is undecided. Treatment at administrator completion remains OQ-01, not a universal preserve/discard rule. | CRT-030/039 |
 | Reauthentication | Confirming the acting person's identity again through the configured sign-in service when required for completion. A prompt alone is not successful review sign-off or business justification. | CRT-030 |
 | Overdue | The relevant deadline has passed; determine the applicable object and handling rather than assume access changed. | CRT-039 |
+| Maintain access to undecided items | Configured completion handling that approves affected never-decided items and keeps existing access. Distinguish this policy outcome from a fresh reviewer's informed judgment or a new grant; exact saved-unsigned scope remains OQ-01. | CRT-039/040 |
+| Closure evidence | Connected records supporting a specific finished-work claim and remaining obligations: actual scope, decisions/actors, review/campaign results, work/account outcomes and accepted follow-up. Working teaching phrase, not an asserted native ISC state/report/field. | CRT-040 |
 | Campaign completion | The campaign's completed state/action under the relevant engine; not a universal synonym for verified target removal. | CRT-040 |
 | Revocation date | A specified removal date where the review action supports it. Does not prove completed removal; the described reviewer path for individual entitlements does not offer this setting. | CRT-028/032 |
 | Remediation | Work required to carry out a removal/change decided in the review. The applicable trigger, path and outcome need evidence. | CRT-032–037 |
 | Provisioning | Supported work that changes external accounts/access; inspect the actual operation and result. | CRT-033 |
+| Flat-file source | A source that imports supplied account data from a file; file information does not itself change the actual application's access. | CRT-034 |
+| CSV | Comma-separated values: a text file of rows and columns used in the illustrated account import; format, identifiers and scope must match the source. | CRT-034 |
+| Task Manager | The assigned user's area for inspecting external-system work and recording completion or supported handover; distinct from the administrator's Tasks view. | CRT-034 |
+| Entitlement owner | The recorded owner responsible for an access right; relevance to task routing does not establish a universal certification-removal recipient or target-system permission. | CRT-034 |
+| Manual task reassignment | Transfer of responsibility for a removal/fulfillment task through a supported action; verify new assignment and ability to carry out the external change. Separate from certification reassignment. | CRT-034 |
+| Service-desk ticket | A work record in a service-management system, potentially used by an integration; ticket closure is not independently observed target access. | CRT-034/044 |
 | Manual fulfillment task | Assigned human work to make an external change. Task closure and actual target state are separate observations. | CRT-034 |
+| Retryable error | A failure recognized by the applicable service or connector as eligible for another attempt under its conditions and limits; not every error is retryable. | CRT-036 |
+| Timeout | Reaching a communication waiting limit without the expected timely result; this alone does not establish whether the target account changed. | CRT-036 |
+| Partial outcome | Some required changes succeeded while others remain unresolved or failed; preserve and verify each part separately. | CRT-036 |
+| Rate limiting | Restricting the rate at which a service accepts requests; additional repeated calls can add to the condition rather than resolve it. | CRT-036 |
+| Retry-After | Response information requesting a wait before another attempt; the illustrated Web Services SaaS policy uses numeric seconds after checking a valid fixed retryDelay. | CRT-036 |
 | Retry | Another supported attempt at failed work; conditions and limits are operation-specific. | CRT-036 |
 | Status | A recorded state of a particular object or operation. Always identify what the status describes. | CRT-042 |
 | Audit evidence | Records supporting what was scoped, reviewed, decided and done, with actor/time/context. It does not automatically establish every claim. | CRT-043/044 |
 | Report freshness | When a report was generated and which campaign state it represents; later campaign changes require a fresh report. A new report does not itself generate new review items or prove current source coverage. | CRT-019/044 |
 | Asynchronous processing | Work proceeds separately from the submitted request, with task/result evidence needed before claiming the business outcome. A tracking task or accepted request alone does not establish the intended review assignment. | CRT-025; supporting CRT-044/045 |
+| API endpoint | The address used for a particular software interaction; its operation, inputs and response handling depend on the target API and connector configuration. | CRT-033 |
+| Integration credentials | Configured account/password, token or other authentication material used by the software connection; distinct from reviewer authority and the target user's sign-in. | CRT-033 |
+| Authentication | Establishing who is connecting; separate from authorization for a specific operation. | CRT-033 |
+| HTTP | The protocol used for web requests/responses in the illustrated integration; a success code alone may not establish a successful application change. | CRT-033 |
+| Deprovisioning | Removing access through provisioning work; identify the exact account/right and required change rather than assume account deletion. | CRT-033 |
+| Virtual appliance (VA) | A virtual machine on the organization's infrastructure used by applicable connections to communicate with systems and obtain requested work. Not a step in every connector. | CRT-033 |
+| Account Activity | Records of actions on external accounts; inspect the relevant source/account/operation and result rather than rely only on a review state. | CRT-033/044 |
+| Account Request Status | The status of an individual part within Account Activity; its values have different meanings from overall Status and Stage. | CRT-033/044 |
+| Stage | Progress of an Account Activity action, separate from its overall Status and the result of a particular account request. | CRT-033/044 |
 | API | An application programming interface through which software requests operations or data. Core includes interpreting action/data requests and their results without requiring code execution. | CRT-025/044 |
 | Object ID | An identifier for the relevant platform record; a matching display name alone is not an exact record reference. | CRT-042/044 |
 | Request/response | An operation/data request and the returned result. An accepted request is not automatically completion of downstream work. | CRT-044 |
@@ -353,3 +385,38 @@ New terms may be added when a real explanation needs them. Avoid growing a gloss
 ## Uncertainty meanings developed in CRT-031
 
 [CRT-031 record](revisions/CRT-031_Revision_Record.md) adds Consultation, bringing the register to 140 working meanings. Existing source/person/account/access/review, owners/authority, package/origin, reassignment/preview/self-review, recommendation/peer/flag/activity, undecided/unsigned/sign-off/Acknowledge and evidence meanings are locally reintroduced. Missing capability/need evidence is not confirmed no need; knowledge and permission are separate; answers, actual transfer and account result establish different facts. No glossary prerequisite, tooltip or automatic escalation/pause feature is claimed.
+## CRT-032 authored terminology, November 11, 2026
+
+[CRT-032 record](revisions/CRT-032_Revision_Record.md) adds Removal requirement, bringing the register to 141 working meanings. Identity/account/source/target, entitlement, review/certification/campaign, Approve/Revoke, unsigned/sign-off, remediation, revocation date, provisioning/connector, manual task and aggregation are explained locally. Permission name Approve Orders is distinct from review action Approve. Review deadline and supported removal time answer different questions. No glossary dependency, new product object or implemented tooltip is claimed.
+
+## CRT-033 authored terminology, November 12, 2026
+
+[CRT-033 record](revisions/CRT-033_Revision_Record.md) adds nine meanings, bringing the total to 150. Existing supporting meanings are explained locally. Account identifiers are source-specific; a person's ISC identity ID is not a universal account identifier. Stock Adjust's name, identifying value and action are distinct. Reviewer, target user and integration credentials serve different purposes. No glossary prerequisite or tooltip implementation is claimed.
+
+## CRT-034 authored terminology, November 12, 2026
+
+[CRT-034 record](revisions/CRT-034_Revision_Record.md) adds six meanings, bringing the total to 156. Necessary review/identity/account/source/access, owner/authority, manual task/remediation/provisioning, schema/aggregation and status/evidence meanings are explained locally. A completion record is a report of work, and imported data must describe the actual source outcome. No glossary dependency or implemented tooltip is claimed.
+
+## CRT-035 authored terminology, November 12, 2026
+
+[CRT-035 record](revisions/CRT-035_Revision_Record.md) adds three meanings, bringing the total to 159. Existing assignment/origin/model, requested/detected/automatic access, profile/role/criteria, lifecycle/processing, effective access and actual source/account/result meanings are explained locally. No universal reference counting, duplicate physical permissions, glossary prerequisite or implemented tooltip is claimed.
+
+## CRT-036 authored terminology, November 12, 2026
+
+[CRT-036 record](revisions/CRT-036_Revision_Record.md) adds five meanings, bringing the total to 164. Retry already existed. Status, Stage and Account Request Status keep their exact object/field scopes; a retry intention and missing response are not successful delivery. Necessary access/account/source/review, authority/credentials, API/HTTP and collection meanings are explained locally. No glossary prerequisite or implemented tooltip is claimed.
+
+## CRT-037 authored terminology, November 12, 2026
+
+[CRT-037 record](revisions/CRT-037_Revision_Record.md) adds Verification and Session, bringing the total to 166. Necessary access/account/source/review, delivery/task/report status, assignment/profile/role/effective access and CSV/schema/aggregation meanings are locally explained. Application-native roles are distinguished from ISC roles; group absence is not automatically every-path capability absence. No glossary prerequisite or tooltip implementation.
+
+## CRT-038 authored terminology, November 12, 2026
+
+[CRT-038 record](revisions/CRT-038_Revision_Record.md) adds Notification, Reminder, Email template and Progress unit, bringing 166 to 170. Account/access, campaign/certification/item/subject, assigned reviewer/decision maker, Approve/Revoke, unsigned/sign-off, due removal and deadline are explained locally. The email subject line differs from a certification subject. No glossary dependency or tooltip implementation; controls and messages do not change assignment or complete work.
+
+## CRT-039 authored terminology, November 12, 2026
+
+[CRT-039 record](revisions/CRT-039_Revision_Record.md) adds Maintain access to undecided items, bringing 170 to 171. Existing overdue/undecided/unsigned/finalization meanings are explained as different dimensions before example reasoning. Engine/API, authority, campaign completion, deadline/removal timing and remediation evidence remain locally explained. Policy approval is distinct from an informed human decision and does not imply a missing permission grant. OQ-01's exact saved-unsigned scope remains unresolved. No glossary prerequisite or tooltip implementation.
+
+## CRT-040 authored terminology, November 12, 2026
+
+[CRT-040 record](revisions/CRT-040_Revision_Record.md) adds Closure evidence, bringing 171 to 172. Existing account/access/source, campaign/certification/item, Approve/Revoke, saved/unsigned/finalization, engine/API, remediation/task/ticket, aggregation and policy-maintenance meanings are local. Evidence supports named records and scoped outcomes; a human task close is not every current account result, and policy approval is not original-reviewer judgment. No glossary dependency or tooltip implementation.

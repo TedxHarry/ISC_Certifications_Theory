@@ -1,0 +1,19 @@
+Inspect current campaign and assigned review records
+                         |
+              What remains unfinished?
+                         |
+       +-----------------+------------------+
+       |                 |                  |
+ Item decision      Final review       Required removal
+    missing        confirmation missing    pending
+       |                 |                  |
+ Find missing      Check choices and   Inspect actual
+ facts or correct  permitted sign-off  operation/task
+ review assignment      |                  |
+       |                 |                  |
+ Reviewer decides  Reviewer finalizes  Delivery owner
+ with a reason     the actual review   resolves due work
+       |                 |                  |
+       +-----------------+------------------+
+                         |
+           Recheck the relevant result

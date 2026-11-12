@@ -1,0 +1,18 @@
+Required removal
+  Correct source / account / entitlement / due decision
+                            |
+                            v
+Find the actual work and its results
+  Compare each required change with the current account
+                            |
+          +-----------------+------------------+
+          |                 |                  |
+          v                 v                  v
+Change confirmed     Work still active    Failed or uncertain
+  Preserve result      Track that work     Establish cause/state
+  Check retained       Check next result   Choose supported action
+  justified access                         Verify new result
+
+If only some changes succeeded, keep each result separate.
+A correction is complete only when its required outcome is checked.
+

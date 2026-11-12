@@ -1,0 +1,22 @@
+Required outcome
+  Records Production / rec-5901
+  REC_EXPORT removed; REC_READ and account retained
+                           |
+                           v
+Connect the finalized decision to the removal work
+  Same source, account, right and relevant times
+                           |
+                           v
+Establish the current target outcome
+  Confirmed source evidence for the required change
+  Check other paths if the claim concerns actual ability
+                           |
+                           v
+Reconcile what ISC and the reports now show
+  Account data collected after the change
+  Report generation time kept separate
+                           |
+                           v
+State the conclusion and its limits
+  What was removed, what remains, when it was checked
+

@@ -1,0 +1,22 @@
+Deadline passed; unfinished campaign work observed
+                       |
+      Inspect current state, choices and sign-off
+                       |
+       What is allowed and authorized now?
+                       |
+        +--------------+----------------+
+        |                               |
+ Review work can finish       Administrative completion
+        |                               |
+ Resolve missing facts        Check configured handling
+ Confirm correct choices      and exact affected items
+ Obtain permitted sign-off    Verify unsigned-choice handling
+        |                               |
+        +--------------+----------------+
+                       |
+        Verify actual review/campaign result
+                       |
+         If removal is required and due:
+                       |
+          Follow matching work and verify
+          the correct application account

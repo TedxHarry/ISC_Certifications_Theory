@@ -1,0 +1,17 @@
+Identity 5501: doc-5501 on Documents Production
+                         |
+       +-----------------+------------------+
+       |                                    |
+Automatic role: Document Staff       Requested profile:
+       |                            Document Export
+       v                                    |
+Profile: Document Reading                   |
+       |                                    |
+       +------ DOC_READ <-------------------+
+                                            |
+                                       DOC_EXPORT
+
+Revoke the requested Document Export profile.
+Document Staff still requires DOC_READ on this account.
+Check the result: DOC_EXPORT absent; DOC_READ retained.
+

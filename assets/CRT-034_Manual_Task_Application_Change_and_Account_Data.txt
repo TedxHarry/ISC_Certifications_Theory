@@ -1,0 +1,19 @@
+Finalized, due removal
+  Document Archive Production / arc-5301 / ARCH_EXPORT
+                          |
+                          v
+ISC creates and assigns manual work
+  Inspect actual task, recipient and required change
+                          |
+                          v
+Authorized person changes the application account
+  Export Archive removed; Read Archive retained
+                          |
+                          v
+Bring back truthful, updated account information
+  File-based path: upload and check aggregation result
+                          |
+                          v
+Record completion of the required work
+  Check task, current account and later report together
+

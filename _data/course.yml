@@ -11,6 +11,10 @@ modules:
     title: "5. Get the review to the right person"
   - id: decide-finalize
     title: "6. Make and finalize a defensible decision"
+  - id: follow-removal
+    title: "7. Follow revocation into actual access removal"
+  - id: run-close
+    title: "8. Run and close the campaign"
 lessons:
   - id: CRT-001
     module: purpose
@@ -229,3 +233,66 @@ lessons:
     description: "Resolve missing facts, consult suitable people and verify a permitted independent handover."
     source: "lessons/CRT-031_Resolving_Uncertainty_Before_an_Access_Decision.md"
     url: "/lessons/CRT-031_Resolving_Uncertainty_Before_an_Access_Decision.html"
+  - id: CRT-032
+    module: follow-removal
+    placement: "Module 7 · Lesson 1"
+    title: "Revoke was selected. What should happen next?"
+    description: "Connect a finalized removal decision to due work, delivery and the correct account outcome."
+    source: "lessons/CRT-032_Following_a_Revoke_Decision_into_Required_Removal_Work.md"
+    url: "/lessons/CRT-032_Following_a_Revoke_Decision_into_Required_Removal_Work.html"
+  - id: CRT-033
+    module: follow-removal
+    placement: "Module 7 · Lesson 2"
+    title: "How does automated removal reach the application?"
+    description: "Trace an authorized automated removal through the integration to its actual application result."
+    source: "lessons/CRT-033_How_Automated_Removal_Reaches_the_Application.md"
+    url: "/lessons/CRT-033_How_Automated_Removal_Reaches_the_Application.html"
+  - id: CRT-034
+    module: follow-removal
+    placement: "Module 7 · Lesson 3"
+    title: "What happens when access must be removed manually?"
+    description: "Follow assigned manual work, the external account change and truthful updated data."
+    source: "lessons/CRT-034_Removing_Access_Through_Manual_Fulfillment.md"
+    url: "/lessons/CRT-034_Removing_Access_Through_Manual_Fulfillment.html"
+  - id: CRT-035
+    module: follow-removal
+    placement: "Module 7 · Lesson 4"
+    title: "Why can access remain after one assignment is revoked?"
+    description: "Explain how other access assignments and continuing requirements affect the removal outcome."
+    source: "lessons/CRT-035_Overlapping_Access_and_Assignment_Origins.md"
+    url: "/lessons/CRT-035_Overlapping_Access_and_Assignment_Origins.html"
+  - id: CRT-036
+    module: follow-removal
+    placement: "Module 7 · Lesson 5"
+    title: "How do we investigate pending, failed or partial removal?"
+    description: "Investigate pending, failed, partial and uncertain removal using the actual work and account."
+    source: "lessons/CRT-036_Investigating_Pending_Failed_and_Partial_Removal.md"
+    url: "/lessons/CRT-036_Investigating_Pending_Failed_and_Partial_Removal.html"
+  - id: CRT-037
+    module: follow-removal
+    placement: "Module 7 · Lesson 6"
+    title: "What evidence establishes that the required removal happened?"
+    description: "Match the required removal to reliable decision, delivery, target and refreshed-data evidence."
+    source: "lessons/CRT-037_Verifying_That_Required_Access_Was_Removed.md"
+    url: "/lessons/CRT-037_Verifying_That_Required_Access_Was_Removed.html"
+  - id: CRT-038
+    module: run-close
+    placement: "Module 8 · Lesson 1"
+    title: "How do reminders and progress monitoring help the campaign?"
+    description: "Interpret progress units, investigate missing notifications and follow up on the actual unfinished work."
+    source: "lessons/CRT-038_Using_Reminders_and_Monitoring_Campaign_Progress.md"
+    url: "/lessons/CRT-038_Using_Reminders_and_Monitoring_Campaign_Progress.html"
+  - id: CRT-039
+    module: run-close
+    placement: "Module 8 · Lesson 2"
+    title: "What happens to overdue, undecided or unsigned reviews?"
+    description: "Distinguish overdue work, undecided items, unsigned reviews and supported completion handling."
+    source: "lessons/CRT-039_Handling_Overdue_Undecided_and_Unsigned_Reviews.md"
+    url: "/lessons/CRT-039_Handling_Overdue_Undecided_and_Unsigned_Reviews.html"
+  - id: CRT-040
+    module: run-close
+    placement: "Module 8 · Lesson 3"
+    title: "What does completing a campaign actually establish?"
+    description: "Explain what review, campaign and task completion prove, and what closure still needs."
+    source: "lessons/CRT-040_Understanding_Campaign_Completion_and_Closure_Evidence.md"
+    url: "/lessons/CRT-040_Understanding_Campaign_Completion_and_Closure_Evidence.html"

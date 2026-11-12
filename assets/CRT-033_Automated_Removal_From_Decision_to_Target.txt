@@ -1,0 +1,28 @@
+Finalized, due removal
+  Warehouse Production / acct-8842 / STOCK_ADJUST
+                         |
+                         v
+ISC provisioning work
+  Remove Stock Adjust from this account
+                         |
+                         v
+Configured connector operation
+  Correct destination, account and entitlement value
+  Supported write enabled; connection authorized
+                         |
+                         v
+Application receives the change
+  Application result returns through the connector
+                         |
+                         v
+Inspect activity and operation details
+  Correct target? Success, error or unresolved work?
+                         |
+                         v
+Check the actual account
+  Stock Adjust absent; Stock Read retained
+                         |
+                         v
+Check later account information in ISC
+  Read the changed source state; compare times
+
