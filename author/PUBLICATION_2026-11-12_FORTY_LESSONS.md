@@ -30,4 +30,14 @@ SHA-256 comparison with the 162-file task baseline preserves 152 files byte-for-
 
 The expanded staged audit also checks the previously untracked CRT-032–039 packages. It reports only extra terminal blank lines already present in fifteen CRT-033–037 learner/asset/record files. Those historical bytes are deliberately preserved. The staged whitespace check with only blank-at-EOF excluded passes; the new CRT-040/publication files have clean whitespace and one final newline. This formatting observation does not establish a content, rendering or learner result.
 
-Pending the authorized content push, successful Pages build/deployment and complete live verification. Prepared content is not yet claimed published.
+Content commit 858267c75695e77d89ff232fca40da0026869c10 was pushed to origin/main. [Pages run 43202690075](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/43202690075) completed successfully, including build and deployment. Full live verification passed afterward.
+
+## Complete live verification and status follow-up
+
+The actual --live result passed for all forty learners: 4582 normalized content units, forty exact inline/editable diagrams, forty-five tables, forty downloadable text assets and 1718 internal link visits. Home entries, every lesson's current navigation, CSS and four representative author/control 404 paths passed. This covers every newly published CRT-032–040 URL, not only the home page.
+
+This is served-content/navigation evidence, not a graphical browser assessment, observed participant understanding, exhaustive release audit or tenant operation. All ten product questions remain open.
+
+The observed-status follow-up updates only this record and five excluded current author/status documents. Learners/assets/manifest/reader/style/configuration/tests/verifier and historical per-lesson/publication records remain byte-identical to the content commit. Its preservation, structure and whitespace checks precede a separate status-record push. No new learner change or publication scope is added.
+
+Final status checks passed: 166 course/site files, 109 Markdown documents, 612 resolving relative links, 162 consistent table groups across 1937 rows, the same 50 candidate IDs, 172 meanings, seventeen capability rows and ten questions. SHA-256 comparison with the content snapshot preserves 160 files; only these six excluded status documents changed and none is missing. Whitespace checks pass. Full live content evidence remains the successful content deployment and all-forty verification above; no repeat learner or tenant assessment is inferred.

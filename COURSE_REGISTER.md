@@ -5,7 +5,7 @@ Version 6.3. Updated November 12, 2026.
 
 ## Current position
 
-CRT-040 is complete at revision 1.0. Forty topics are authored and 10 remain unwritten. CRT-001–007 are 1.1; CRT-008–040 are 1.0. All forty are prepared in eight reader modules for the user's authorized push. Thirty-one remain the last live-verified snapshot pending the new deployment. CRT-041 is next.
+CRT-040 is complete at revision 1.0. Forty topics are authored and 10 remain unwritten. CRT-001–007 are 1.1; CRT-008–040 are 1.0. All forty are published and live-verified in eight reader modules. CRT-041 is next.
 
 | Item | Actual state |
 |---|---|
@@ -17,13 +17,13 @@ CRT-040 is complete at revision 1.0. Forty topics are authored and 10 remain unw
 | Learner lessons author-reviewed | 40; source/coverage and full saved author read-through complete; independent learner assessment remains pending |
 | Reader feedback / learner assessment | User reported CRT-004 1.1 better on November 2 after difficulty with 1.0; independent uncoached assessment remains pending |
 | Reference aids authored | 0 standalone aids; forty editable teaching diagrams accompany CRT-001 through CRT-040 |
-| Latest authored learner | [CRT-040: What does completing a campaign actually establish?](lessons/CRT-040_Understanding_Campaign_Completion_and_Closure_Evidence.md); revision 1.0, included in authorized publication preparation |
+| Latest authored learner | [CRT-040: What does completing a campaign actually establish?](lessons/CRT-040_Understanding_Campaign_Completion_and_Closure_Evidence.md); revision 1.0, published and live-verified |
 | Current revision | CRT-040 revision 1.0; [author evidence](author/revisions/CRT-040_Revision_Record.md) |
-| Next task | Finish the authorized forty-lesson publication, then prepare CRT-041's brief and primary checks |
+| Next task | Prepare CRT-041's brief and primary checks, then write one complete local learner |
 | Current author evidence | [CRT-040 record](author/revisions/CRT-040_Revision_Record.md); eight fresh plus one same-day scoped reference, full saved beginner author reading, whole-population/result reconciliation and closure evidence; learner assessment pending |
 | Feature currency | Scoped checks recorded; ten product questions open. OQ-07 overlap conflict re-investigated and bounded; CAP-17 records role removal propagation. Exhaustive release/tenant/future-lesson verification remains incomplete |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
-| GitHub / publication | Forty learners prepared in eight modules; [publication record](author/PUBLICATION_2026-11-12_FORTY_LESSONS.md). Thirty-one remain the last live-verified snapshot pending the new deployment. |
+| GitHub / publication | Forty learners published/live-verified in eight modules; [publication record](author/PUBLICATION_2026-11-12_FORTY_LESSONS.md). Content 858267c, successful Pages run 43202690075, forty diagrams/assets, forty-five tables and 1718 internal link visits. |
 | Other ISC course | Separate and unchanged by this setup |
 
 ## Resume order
@@ -93,15 +93,15 @@ These states are independent facts. A source check does not imply learner valida
 | CRT-029 | What makes a decision explainable later? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-030 | Is a saved decision the same as a signed-off review? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-031 | What if the reviewer cannot confidently decide? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
-| CRT-032 | Revoke was selected. What should happen next? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Publication prepared; deployment pending |
-| CRT-033 | How does automated removal reach the application? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Publication prepared; deployment pending |
-| CRT-034 | What happens when access must be removed manually? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Publication prepared; deployment pending |
-| CRT-035 | Why can access remain after one assignment is revoked? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Publication prepared; deployment pending |
-| CRT-036 | How do we investigate pending, failed or partial removal? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Publication prepared; deployment pending |
-| CRT-037 | What evidence establishes that the required removal happened? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Publication prepared; deployment pending |
-| CRT-038 | How do reminders and progress monitoring help the campaign? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Publication prepared; deployment pending |
-| CRT-039 | What happens to overdue, undecided or unsigned reviews? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Publication prepared; deployment pending |
-| CRT-040 | What does completing a campaign actually establish? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Publication prepared; deployment pending |
+| CRT-032 | Revoke was selected. What should happen next? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published; live-verified |
+| CRT-033 | How does automated removal reach the application? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published; live-verified |
+| CRT-034 | What happens when access must be removed manually? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published; live-verified |
+| CRT-035 | Why can access remain after one assignment is revoked? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published; live-verified |
+| CRT-036 | How do we investigate pending, failed or partial removal? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published; live-verified |
+| CRT-037 | What evidence establishes that the required removal happened? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published; live-verified |
+| CRT-038 | How do reminders and progress monitoring help the campaign? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published; live-verified |
+| CRT-039 | What happens to overdue, undecided or unsigned reviews? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published; live-verified |
+| CRT-040 | What does completing a campaign actually establish? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published; live-verified |
 | CRT-041 | When should a campaign be corrected, regenerated or retired? | Reserved next; no learner file | Not reviewed | Not tested | Not published |
 | CRT-042 | What are the campaign's counts and statuses counting? | Planned; not written | Not reviewed | Not tested | Not published |
 | CRT-043 | Who made the decision, and what was finally signed off? | Planned; not written | Not reviewed | Not tested | Not published |
@@ -182,6 +182,8 @@ The design owns the current module placement and topic descriptions. This table 
 
 | November 12, 2026 | Authored CRT-040 revision 1.0 and prepared forty-lesson publication | Review/campaign/work/account evidence, whole-scope reconciliation, accepted follow-up and independent policy-approval transfer; forty authored, 10 unwritten; CRT-041 next. Nine completed learners added to manifest, deployment pending. |
 
+| November 12, 2026 | Observed forty-lesson publication | Content 858267c, successful Pages run 43202690075 and all-forty live verification: 4582 content units, forty diagrams/assets, forty-five tables, 1718 internal link visits and representative exclusions. No learner/tenant/graphical claim. |
+
 ## Next action
 
-Prepare CRT-041's brief and primary checks: When should a campaign be corrected, regenerated or retired? Explain the actual error, current state, supported correction/cancellation/deletion or replacement path, affected decisions and retained evidence for the exact engine. Do not invent a universal reopen, post-sign-off edit, harmless deletion or automatic replacement outcome. Retain OQ-01/OQ-02/OQ-10 boundaries unless authoritative new evidence resolves them. Preserve earlier learners/assets/evidence and the authorized forty-entry/eight-module reader/manifest. Forty topics are authored and 10 remain unwritten; five specialist routes stay planned. Ten questions remain open. No CRT-041 stub exists. Ordinary future continuation is one complete local learner; this request explicitly publishes the forty completed learners.
+Prepare CRT-041's brief and primary checks: When should a campaign be corrected, regenerated or retired? Explain the actual error, current state, supported correction/cancellation/deletion or replacement path, affected decisions and retained evidence for the exact engine. Do not invent a universal reopen, post-sign-off edit, harmless deletion or automatic replacement outcome. Retain OQ-01/OQ-02/OQ-10 boundaries unless authoritative new evidence resolves them. Preserve earlier learners/assets/evidence and the authorized forty-entry/eight-module reader/manifest. Forty topics are authored and 10 remain unwritten; five specialist routes stay planned. Ten questions remain open. No CRT-041 stub exists. Ordinary future continuation is one complete local learner; this request has published and live-verified the forty completed learners.

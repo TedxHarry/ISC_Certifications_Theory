@@ -2,7 +2,7 @@
 
 Authoring source reference 7.2. Updated November 12, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant action, test campaign or provisioning change was performed. Forty learners are authored and prepared for authorized publication in eight modules. Thirty-one remain the last live-verified snapshot until the new deployment is observed; [current publication record](author/PUBLICATION_2026-11-12_FORTY_LESSONS.md) distinguishes preparation and observed evidence. CRT-041 is next. Ten questions stay open; dated records remain historical.
+No tenant action, test campaign or provisioning change was performed. Forty learners are authored and published/live-verified in eight modules; [current publication record](author/PUBLICATION_2026-11-12_FORTY_LESSONS.md) records content 858267c, successful Pages run 43202690075 and full live checks. CRT-041 is next. Ten questions stay open; dated records remain historical.
 
 ## Primary source map
 
@@ -464,3 +464,7 @@ Ten questions remain open. Thirty-one authored, 19 unwritten; CRT-032 next. User
 ## CRT-040 completion and closure verification, November 12, 2026
 
 [CRT-040 record](author/revisions/CRT-040_Revision_Record.md) maps eight freshly inspected sources: next-generation overview, Complete, completion help, reports, Understanding, Finalize, monitoring and account loading. Same-day CRT-039 manager/source-owner creation is reused narrowly for untouched maintenance. Normal request completion, admin outcome, report/task closure and actual account truth differ; no universal phase sequence or unsigned-saved result resolves OQ-01/OQ-02/OQ-10. Whole-intended-scope and required-result evidence, accepted follow-up and actual decision actor bound closure claims. One new meaning totals 172; forty authored, 10 unwritten, CRT-041 next. [Forty-lesson publication](author/PUBLICATION_2026-11-12_FORTY_LESSONS.md) is explicitly authorized; deployment and complete live checks must be observed before publication claims. No tenant or learner observation.
+
+## Forty-lesson publication observed, November 12, 2026
+
+All forty complete learners are pushed and live-verified after successful Pages run 43202690075 for content 858267c75695e77d89ff232fca40da0026869c10. Actual live result: 4582 normalized content units, forty exact diagrams/assets, forty-five tables and 1718 internal link visits; CSS and representative author/control exclusions passed. No source contract was changed by publication; ten questions remain open. Forty authored, ten unwritten; CRT-041 next. Historical per-lesson authoring and prior publication records remain unchanged; no tenant or learner observation.
