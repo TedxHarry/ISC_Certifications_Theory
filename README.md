@@ -2,7 +2,7 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-Thirty-one lessons are complete and author-reviewed. CRT-001 through CRT-007 are revision 1.1; CRT-008 through CRT-031 are revision 1.0. Twenty-two lessons remain the last live-verified snapshot. All thirty-one complete lessons are prepared in the six-module manifest for the user's authorized publication; deployment/live verification is pending.
+Thirty-one lessons are complete and author-reviewed. CRT-001 through CRT-007 are revision 1.1; CRT-008 through CRT-031 are revision 1.0. All thirty-one lessons are pushed, published and live-verified in the six-module reading site.
 
 The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/). The separate general ISC course is unchanged.
 
@@ -20,7 +20,7 @@ The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Cert
 
 ## Current position
 
-Latest learner: [CRT-031, What if the reviewer cannot confidently decide?](lessons/CRT-031_Resolving_Uncertainty_Before_an_Access_Decision.md), revision 1.0. [Its author record](author/revisions/CRT-031_Revision_Record.md) covers missing facts, consultation versus reassignment, suitable evidence, conditional insights and a verified next action. Publication is authorized and pending.
+Latest learner: [CRT-031, What if the reviewer cannot confidently decide?](lessons/CRT-031_Resolving_Uncertainty_Before_an_Access_Decision.md), revision 1.0. [Its author record](author/revisions/CRT-031_Revision_Record.md) covers missing facts, consultation versus reassignment, suitable evidence, conditional insights and a verified next action. Published and live-verified.
 
 Next learner: CRT-032, Revoke was selected. What should happen next? No CRT-032 learner stub exists.
 
@@ -33,14 +33,14 @@ The user reported that CRT-004 revision 1.1 was better after difficulty reading 
 - lessons/: complete learner Markdown files, one topic at a time.
 - assets/: editable teaching diagrams, paired with their learner explanations.
 - author/revisions/: historical per-lesson coverage, sources, assumptions and actual checks.
-- _data/course.yml: thirty-one complete reader lessons, CRT-001 through CRT-031 in six modules, prepared for authorized publication.
+- _data/course.yml: thirty-one complete published reader lessons, CRT-001 through CRT-031 in six modules.
 
-Run npm ci, npm test and node author/verify-site.mjs for local checks. After an authorized deployment, node author/verify-site.mjs --live checks published content, diagrams, tables, links, assets and representative author-content exclusions. The thirty-one-entry manifest passes local checks; its deployment and live verification are pending. The twenty-two-lesson snapshot remains the last verified publication.
+Run npm ci, npm test and node author/verify-site.mjs for local checks. After an authorized deployment, node author/verify-site.mjs --live checks published content, diagrams, tables, links, assets and representative author-content exclusions. The thirty-one-entry manifest is deployed and fully live-verified, including all lesson text, diagrams, tables, navigation, assets and representative author-content exclusions.
 
 The reader keeps the collapsible side panel and independently collapsible modules. Author/control documents are excluded from Pages. This publication expands the content manifest while preserving the reader implementation.
 
 ## Publication
 
-The user authorized continuation and pushing all complete work. The [thirty-one-lesson publication record](author/PUBLICATION_2026-11-11_THIRTY_ONE_LESSONS.md) tracks the current authorized deployment, pending. The [twenty-two-lesson publication record](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md) records content commit 80723fec7f476669b3ba62d3a2e848225c6e545d, successful Pages run 43059165625 and complete live checks for twenty-two learners, diagrams/assets, twenty-seven tables and 548 internal link visits. The [prior thirteen-lesson record](author/PUBLICATION_2026-11-11_THIRTEEN_LESSONS.md) remains historical evidence of the previous verified snapshot.
+The user authorized continuation and pushing all complete work. The [thirty-one-lesson publication record](author/PUBLICATION_2026-11-11_THIRTY_ONE_LESSONS.md) records content 670f0c8cdb7535057ffe285034d33a6762156e98, successful Pages run 43159502534 and full live checks: thirty-one learners, diagrams/assets, thirty-eight tables and 1052 internal link visits. The [twenty-two-lesson publication record](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md) records content commit 80723fec7f476669b3ba62d3a2e848225c6e545d, successful Pages run 43059165625 and complete live checks for twenty-two learners, diagrams/assets, twenty-seven tables and 548 internal link visits. The [prior thirteen-lesson record](author/PUBLICATION_2026-11-11_THIRTEEN_LESSONS.md) remains historical evidence of the previous verified snapshot.
 
 Earlier local-only statements in dated per-lesson records describe their historical authoring stages. Current publication status belongs in this README, the course register and the latest publication record.

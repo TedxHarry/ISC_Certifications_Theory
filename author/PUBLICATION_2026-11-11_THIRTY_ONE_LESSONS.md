@@ -20,7 +20,7 @@ The user explicitly authorizes publication. Earlier ordinary continuations were 
 
 All four navigation tests passed against the thirty-one-entry manifest and six modules. The local verifier passed for thirty-one learners, 3743 normalized content units, thirty-one diagrams, thirty-eight tables and thirty-one editable assets. Manifest IDs, titles, sources, module placement and .html URLs are checked before commit. No uncreated lesson is listed.
 
-Deployment is pending. Exact content commit, actual Pages run and full live results will be appended after they are observed.
+Published. Content commit 670f0c8cdb7535057ffe285034d33a6762156e98 was pushed to origin/main. [Pages run 43159502534](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/43159502534) completed successfully, including build and deployment. Full live verification passed afterward.
 
 ## Final prepublication reconciliation
 
@@ -29,3 +29,17 @@ The expanded manifest passed all four navigation tests and the disk content veri
 Structural checks passed for 138 course/site files, 90 Markdown documents, 525 relative links and 142 consistent table groups across 1738 rows, closed fences, 50 ordered design/register candidates, 140 working meanings and ten open questions. New package whitespace/newlines and tracked whitespace passed. These counts precede observed-deployment follow-up.
 
 SHA-256 comparison with the saved task baseline preserves 124 existing files byte-for-byte, including all earlier learners, assets, per-lesson/publication records and reader/style/configuration/tests/verifier. Ten current metadata/manifest documents changed, and four new CRT-031/publication files were added. No earlier local-only historical record was rewritten as published.
+
+## Observed deployment and complete live verification
+
+The content push and Pages build/deploy completed successfully. The actual full live verifier passed for all 31 learners: 3743 normalized content units, 31 exact inline/editable diagrams, 38 tables, 31 downloadable text assets, CSS and 1052 internal link visits. Every lesson's active navigation and home-page entry was checked, including all nine newly published URLs. Four representative author/control paths returned 404.
+
+This is actual served-content/navigation evidence, not only a home-page availability check. It does not establish graphical layout, participant understanding, production competence or tenant behavior. The ten open product questions remain unresolved.
+
+The observed-status follow-up changes only seven excluded author/current-status documents. Learners, assets, manifest, reader implementation, configuration, tests and verifier remain byte-identical to the content commit. Historical per-lesson records remain unchanged. Its structure/preservation/whitespace checks and push follow below; the content commit and full live result above remain the learner snapshot evidence.
+
+## Observed-status follow-up verification
+
+Structural checks passed for 138 files, 90 Markdown documents, 527 resolving relative links and 142 consistent table groups across 1739 rows, closed fences, the same 50 ordered candidates, 140 meanings and ten open questions. All 31 learner IDs/titles/sources/module placements/.html URLs match the six-module manifest; no CRT-032 stub exists.
+
+SHA-256 comparison confirms only the seven excluded status/evidence documents changed since the content snapshot; the other 131 files remain byte-identical, including every learner/asset/per-lesson record and all published reader inputs. Tracked whitespace passed. The unchanged learner snapshot retains its observed full live result above. This follow-up records observed publication facts and is pushed separately; it adds no learner content and does not manufacture graphical, tenant or participant evidence.

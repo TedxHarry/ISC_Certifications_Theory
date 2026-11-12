@@ -2,7 +2,7 @@
 
 Authoring source reference 6.3. Updated November 11, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant action, test campaign or provisioning change was performed. Thirty-one learners are authored; their publication is explicitly authorized and the expanded manifest passes local checks. Deployment/live verification is pending; twenty-two remains the last verified snapshot. The [twenty-two-lesson publication record](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md) contains the observed deployment/live results; the prior thirteen-lesson snapshot remains historical evidence. CRT-032 is next; ten product questions remain open and dated evidence below remains historical.
+No tenant action, test campaign or provisioning change was performed. Thirty-one learners are authored, pushed, published and live-verified in six modules. The [twenty-two-lesson publication record](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md) contains the observed deployment/live results; the prior thirteen-lesson snapshot remains historical evidence. CRT-032 is next; ten product questions remain open and dated evidence below remains historical.
 
 ## Primary source map
 
@@ -425,3 +425,7 @@ OQ-01 was actively investigated through both conflicting passages, exact adminis
 [CRT-031](lessons/CRT-031_Resolving_Uncertainty_Before_an_Access_Decision.md) and [its record](author/revisions/CRT-031_Revision_Record.md) develop specific missing facts, relevant consultation, true capability/current need and permitted verified reassignment. Reviewer/reassignment guidance, Recommendations, Activity Insights, Understanding, entitlement metadata, reports and manager/source-owner context were freshly inspected; three same-day account/profile supports make eleven scoped sources. No universal pause, default unsure decision, recommendation substitute, own-review bypass or all-state correction is invented.
 
 Ten questions remain open. Thirty-one authored, 19 unwritten; CRT-032 next. User authorizes publication of all complete lessons; [the thirty-one-lesson publication record](author/PUBLICATION_2026-11-11_THIRTY_ONE_LESSONS.md) records local checks and pending deployment/live verification. Prior source and learner records remain historical. No tenant, graphical or participant result is inferred.
+
+## Thirty-one-lesson deployment observed, November 11, 2026
+
+[Current publication record](author/PUBLICATION_2026-11-11_THIRTY_ONE_LESSONS.md) records content 670f0c8cdb7535057ffe285034d33a6762156e98 and successful Pages run 43159502534. Full live checks passed for 31 learners, 3743 content units, 31 diagrams/assets, 38 tables and 1052 internal link visits, CSS and representative author/control exclusions. Previous pending/local-only dated statements describe their authoring checkpoints. Publication does not close ten open questions or establish tenant behavior, exhaustive releases, graphical quality or participant understanding. CRT-032 remains next.

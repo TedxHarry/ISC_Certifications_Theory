@@ -2,9 +2,9 @@
 
 Course design 6.3. November 11, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: thirty-one topics are authored and author-reviewed. CRT-001 through CRT-007 are revision 1.1; CRT-008 through CRT-031 are 1.0. All completed work is authorized for publication; the thirty-one-entry/six-module manifest passes local checks, with deployment/live verification pending. CRT-032 is next.
+Status: thirty-one topics are authored and author-reviewed. CRT-001 through CRT-007 are revision 1.1; CRT-008 through CRT-031 are 1.0. All thirty-one complete learners are pushed, published and live-verified in six reader modules. CRT-032 is next.
 
-Current priority: finish the authorized publication, then prepare CRT-032's brief and source checks. Nineteen candidate topics remain unwritten. Preserve earlier complete learners and historical evidence. Ten product questions remain open.
+Current priority: prepare CRT-032's brief and source checks. Nineteen candidate topics remain unwritten. Preserve earlier complete learners and historical evidence. Ten product questions remain open.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
@@ -425,3 +425,7 @@ All thirteen learners and the five earlier local rewrites are pushed and live-ve
 ## CRT-031 authored and publication prepared, November 11, 2026
 
 [CRT-031](lessons/CRT-031_Resolving_Uncertainty_Before_an_Access_Decision.md) is complete at revision 1.0. [Its record](author/revisions/CRT-031_Revision_Record.md) maps COV-08/20 to eleven scoped sources and full saved beginner reading. Specific capability/need/data/action gaps lead to relevant consultation, justified decision or verified permitted independent handover; insight signals do not fill missing authorization. The Support transfer distinguishes unknown from confirmed absent need and rejects a manual own-access handover. Consultation brings meanings to 140; ten questions remain open. Thirty-one authored, 19 unwritten; CRT-032 next. User explicitly authorizes pushing all complete work; [current publication record](author/PUBLICATION_2026-11-11_THIRTY_ONE_LESSONS.md) tracks the expanded six-module manifest and pending deployment. Earlier learners, historical evidence and reader implementation remain preserved. No tenant or participant result is claimed.
+
+## Thirty-one-lesson publication observed, November 11, 2026
+
+[Publication evidence](author/PUBLICATION_2026-11-11_THIRTY_ONE_LESSONS.md): content 670f0c8cdb7535057ffe285034d33a6762156e98, successful Pages run 43159502534 and full live verification for 31 lessons, 3743 content units, 31 diagrams/assets, 38 tables, 1052 internal link visits, CSS and representative author exclusions. All complete work is published in six modules. Reader implementation and earlier content/evidence remain unchanged. Thirty-one authored, 19 unwritten; CRT-032 next. No tenant, observed learner assessment or graphical review is inferred.

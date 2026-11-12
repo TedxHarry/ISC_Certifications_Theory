@@ -113,11 +113,11 @@ An unfamiliar reader can explain why review is needed, what is being reviewed, w
 
 The saved lesson contains complete connected prose, useful reasoning/transfer, consistent supplied conditions and no biography, prerequisite announcement, source URLs or invented tenant results. The author record is complete; actual learner validation is separately pending unless it has really occurred.
 
-## Current priority: publish complete work, then prepare CRT-032
+## Current priority: prepare CRT-032
 
-CRT-031 is complete at revision 1.0 with its editable diagram and author record. Thirty-one topics are authored and 19 remain unwritten. User explicitly authorizes all completed work to GitHub/Pages. Expanded manifest contains thirty-one learners in six modules and passes local navigation/content checks; deployment/live verification is pending. Preserve earlier learner/evidence files, reader implementation/exclusions and separate course.
+CRT-031 is complete at revision 1.0 with its editable diagram and author record. Thirty-one topics are authored and 19 remain unwritten. All thirty-one learners are pushed, published and live-verified in six reader modules. Content 670f0c8cdb7535057ffe285034d33a6762156e98, successful Pages run 43159502534; full live checks cover 3743 content units, thirty-one diagrams/assets, thirty-eight tables, 1052 internal link visits, CSS and representative author exclusions. Preserve earlier learner/evidence files, published manifest, reader implementation/exclusions and separate course.
 
-Finish the authorized thirty-one-lesson publication and verify the actual deployed content, assets and links. Then prepare the brief and current primary-source checks for CRT-032, Revoke was selected. What should happen next? Connect finalized removal requirement, applicable trigger/date, exact account/access and required outcome evidence without a universal phase or unsigned-completion claim. No CRT-032 stub exists. Ten questions remain open. Apply teaching specification 1.1 dynamically; observed learner/tenant assessment remains separate.
+Prepare the brief and current primary-source checks for CRT-032, Revoke was selected. What should happen next? Connect finalized removal requirement, applicable trigger/date, exact account/access and required outcome evidence without a universal phase or unsigned-completion claim. No CRT-032 stub exists. Ten questions remain open. Apply teaching specification 1.1 dynamically; observed learner/tenant assessment remains separate. Ordinary continuation remains one complete local learner; a new publication needs explicit scope.
 
 ## Repository and publication stage
 
