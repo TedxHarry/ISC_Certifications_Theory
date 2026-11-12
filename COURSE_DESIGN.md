@@ -2,9 +2,9 @@
 
 Course design 8.1. November 12, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: forty-nine topics are authored and author-reviewed. CRT-001–007 are revision1.1; CRT-008–049 are1.0. All49 are prepared for authorized publication in ten modules; the last observed live snapshot remains42/nine until deployment verification. CRT-050 is next.
+Status: forty-nine topics are authored, author-reviewed, published and live-verified in ten modules. CRT-001–007 are revision1.1; CRT-008–049 are1.0. One core candidate remains unwritten: CRT-050.
 
-Current priority: finish and verify the authorized49-lesson publication, then prepare CRT-050's brief and primary checks for changed-condition defense/handoff. One core candidate remains unwritten; five specialist routes stay planned. Preserve prior learner/evidence and reader implementation; eleven questions remain open.
+Current priority: prepare CRT-050's brief and fresh primary checks for changed-condition defense/handoff, then write one complete learner. Authorized49-lesson publication is verified. Five specialist routes remain planned. Preserve earlier content/evidence and reader implementation; eleven questions remain open.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
@@ -510,3 +510,7 @@ Content 15e521850e62f1914638f0a2c1f5c54458d4482d is pushed. Pages run 4326087030
 [CRT-049](lessons/CRT-049_Designing_and_Explaining_a_Complete_Periodic_Access_Review.md) and [its record](author/revisions/CRT-049_Revision_Record.md) connect the full project without a fictional-company dependency. CRT-049 develops COV-32 whole-project justification: a current four-account export baseline, supported selection and independent reviewer, inspected preview/start, four finalized choices, automatic and manual fulfillment, retained reading, full reconciliation and evidence-based closure. At the intermediate checkpoint only one of two removals is verified. Both are verified before closure. The changed next cycle preserves both removals: five total accounts/four identities, three export accounts/two export-holder identities. Twelve scoped primary bodies checked; 199 working meanings, seventeen capabilities and eleven unresolved questions remain. All outcomes are supplied teaching illustrations, not tenant execution or observed learner competence.
 
 The49-entry/ten-module manifest adds complete043–049 and preserves the earlier42 entries/nine modules. [Publication evidence](author/PUBLICATION_2026-11-12_FORTY_NINE_LESSONS.md) will distinguish push, deployment and full live verification. CRT-050 is the only unwritten core candidate; specialist routes remain planned.
+
+## Observed49-lesson publication, November12,2026
+
+Content 66ecaadfe6ca5c2230abe002801696747b3e5d79 was pushed to main. [Pages run 43276626821](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/43276626821) completed successfully. Full live verification passed for all49 learners:5789 normalized content units,49 diagrams/assets,58 learner tables and2546 internal link visits. Home entries, current-page navigation, CSS and four representative author/control exclusions passed. The first full attempt reached the last diagram asset and received HTTP503; an immediate complete rerun passed without changing content or the verifier. This proves served content/navigation, not graphical layout, learner understanding or tenant operation. The [publication record](author/PUBLICATION_2026-11-12_FORTY_NINE_LESSONS.md) separates content publication and excluded status follow-up. One core candidate remains; CRT-050 next.
