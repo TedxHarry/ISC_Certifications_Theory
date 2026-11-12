@@ -2,7 +2,7 @@
 
 Authoring source reference 7.4. Updated November 12, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant action, test campaign or provisioning change was performed. Forty-two learners are authored and prepared for authorized publication in nine modules; [publication record](author/PUBLICATION_2026-11-12_FORTY_TWO_LESSONS.md) separates preparation from observed deployment. Forty remain the last live-verified snapshot. CRT-043 is next. Eleven questions stay open; dated records remain historical.
+No tenant action, test campaign or provisioning change was performed. Forty-two learners are authored and published/live-verified in nine modules; [publication record](author/PUBLICATION_2026-11-12_FORTY_TWO_LESSONS.md) records content 15e5218, successful Pages run 43260870301 and all-forty-two live checks. CRT-043 is next. Eleven questions stay open; dated records remain historical.
 
 ## Primary source map
 
@@ -476,3 +476,7 @@ All forty complete learners are pushed and live-verified after successful Pages 
 ## CRT-042 count and status verification, November 12, 2026
 
 [CRT-042 record](author/revisions/CRT-042_Revision_Record.md) maps eleven fresh primary bodies: next-generation overview, reports, official SDK methods and four count/subject/certification models, direct Get Certification/Decision Summary, Understanding and administrative overview. Nine checks preceded drafting; two later bounded Acknowledge and legacy composition. Completed means all decisions in the Certification model, with separate DateSigned; campaign aggregate equivalence/native UI percentage is not inferred. Actor/filter/page/time and denominator identify the counted set. Two new meanings total177; eleven questions remain. Forty-two authored, eight unwritten; CRT-043 next. Authorized publication remains pending deployment observation; no tenant or learner result.
+
+## Forty-two-lesson publication observed, November 12, 2026
+
+All forty-two complete learners are pushed and live-verified after successful Pages run 43260870301 for content 15e521850e62f1914638f0a2c1f5c54458d4482d. Actual live result: 4789 normalized content units, forty-two exact diagrams/assets, forty-eight tables and 1888 internal link visits, CSS and representative author/control exclusions. Publication changes no product contract; eleven questions remain open. Forty-two authored, eight unwritten; CRT-043 next. Historical author/per-lesson/publication evidence is preserved. No tenant, graphical or learner observation.

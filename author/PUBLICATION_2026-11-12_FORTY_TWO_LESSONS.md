@@ -20,7 +20,7 @@ Eleven product questions remain open. No universal native percentage, inferred c
 
 ## Prepublication checks
 
-All four navigation tests and disk content verification passed for 42 learners,4789 normalized content units,42 exact editable diagrams,48 learner tables and 42 assets. Manifest validation confirms ordered IDs, exact H 1 titles, valid module references and .html URLs, preserving first 40 entries/eight modules. No CRT-043 stub exists. Main/changed-A/X-Y arithmetic passed without asserting a native UI formula.
+All four navigation tests and disk content verification passed for 42 learners,4789 normalized content units,42 exact editable diagrams,48 learner tables and 42 assets. Manifest validation confirms ordered IDs, exact H1 titles, valid module references and .html URLs, preserving first 40 entries/eight modules. No CRT-043 stub exists. Main/changed-A/X-Y arithmetic passed without asserting a native UI formula.
 
 Structural checks passed for 173 files,114 Markdown documents,634 resolving relative links and 169 consistent table groups across 1987 rows; fences, source/diagram match, fifty candidate IDs,177 meanings,seventeen capability rows,eleven questions and new-package whitespace/newlines passed.
 
@@ -28,4 +28,14 @@ SHA-256 comparison against the 169-file task baseline preserves 159 existing fil
 
 ## Observed deployment
 
-Pending the authorized content push, successful Pages build/deployment and complete all-forty-two live verification. Prepared content is not yet claimed published.
+Content commit 15e521850e62f1914638f0a2c1f5c54458d4482d was pushed to origin/main. [Pages run 43260870301](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/43260870301) completed successfully, including build and deployment. Full live verification passed afterward.
+
+## Complete live verification and observed-status follow-up
+
+The actual --live result passed for all forty-two learners: 4789 normalized content units, forty-two exact inline/editable diagrams, forty-eight tables, forty-two downloadable assets and 1888 internal link visits. All home entries, every lesson's current navigation, CSS and four representative author/control 404 paths passed, including both newly published CRT-041/042 URLs.
+
+This is served-content/navigation evidence, not a graphical assessment, participant understanding, exhaustive release audit or tenant operation. All eleven product questions remain open.
+
+This observed-status update changes only this record and five excluded current author/status documents. Learners/assets/manifest/reader/style/configuration/tests/verifier and historical per-lesson/publication records remain byte-identical to the content commit. Structure, whitespace and preservation are checked before the status-record push. No new reader content or publication scope is added.
+
+Final status checks passed for 173 files, 114 Markdown documents, 635 resolving relative links and 170 consistent table groups across 1988 rows. Fences, every manifest title/HTML path and diagram/asset pairing, fifty ordered candidate IDs, 177 meanings, seventeen capability rows and eleven questions passed. SHA-256 comparison with the content snapshot preserves 167 files; only six excluded status documents changed and none is missing. Whitespace checks pass. The successful content deployment and all-forty-two live check remain the actual reader evidence; no repeat learner or tenant assessment is inferred.

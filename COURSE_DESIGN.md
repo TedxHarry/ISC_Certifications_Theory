@@ -2,9 +2,9 @@
 
 Course design 7.4. November 12, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: forty-two topics are authored and author-reviewed. CRT-001–007 are revision 1.1; CRT-008–042 are 1.0. Forty-two are prepared in nine reader modules for authorized publication; forty remain the last live-verified snapshot pending deployment. CRT-043 is next.
+Status: forty-two topics are authored and author-reviewed. CRT-001–007 are revision 1.1; CRT-008–042 are 1.0. All forty-two are published/live-verified in nine reader modules. CRT-043 is next.
 
-Current priority: finish authorized publication, then prepare CRT-043's brief and primary checks for actual decision actor/history and finalization. Eight core candidates remain unwritten; five specialist routes stay planned. Preserve earlier learners/evidence and reader implementation; eleven questions remain open.
+Current priority: prepare CRT-043's brief and primary checks for actual decision actor/history and finalization, then write one complete local learner. Eight core candidates remain unwritten; five specialist routes stay planned. Preserve earlier learners/evidence and reader implementation; eleven questions remain open.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
@@ -292,7 +292,7 @@ Each authored lesson needs a coverage record, primary-source check, complete sav
 
 ## Delivery plan and next step
 
-The user authorized establishing the local authoring foundation on October 29, 2026. The folder ISC_Certifications_Theory now contains the teaching specification, progress register, author workflow and first brief, coverage/terminology records, capability/update register and routine task map. Forty-two learners are authored and prepared in nine reader modules for authorized publication; forty remain the previous live-verified snapshot pending the new deployment. The [forty-lesson publication record](author/PUBLICATION_2026-11-12_FORTY_LESSONS.md) gives the current snapshot; earlier publication records are historical. See [the thirty-one-lesson publication record](author/PUBLICATION_2026-11-11_THIRTY_ONE_LESSONS.md) for the exact published snapshot and executed checks.
+The user authorized establishing the local authoring foundation on October 29, 2026. The folder ISC_Certifications_Theory now contains the teaching specification, progress register, author workflow and first brief, coverage/terminology records, capability/update register and routine task map. Forty-two learners are authored and published/live-verified in nine reader modules. The [forty-two-lesson publication record](author/PUBLICATION_2026-11-12_FORTY_TWO_LESSONS.md) gives the current snapshot. The [forty-lesson publication record](author/PUBLICATION_2026-11-12_FORTY_LESSONS.md) gives the current snapshot; earlier publication records are historical. See [the thirty-one-lesson publication record](author/PUBLICATION_2026-11-11_THIRTY_ONE_LESSONS.md) for the exact published snapshot and executed checks.
 
 Use [README](README.md) to navigate the package and [COURSE_REGISTER](COURSE_REGISTER.md) to resume. Write one complete learner lesson at a time with its necessary reference aids, author record and saved-file checks.
 
@@ -476,3 +476,7 @@ Content 858267c75695e77d89ff232fca40da0026869c10 is pushed. Pages run 4320269007
 ## CRT-042 authored and publication prepared, November 12, 2026
 
 [CRT-042](lessons/CRT-042_Understanding_Campaign_Counts_Progress_and_Statuses.md) and [its record](author/revisions/CRT-042_Revision_Record.md) develop COV-29 units, condition, denominator and observation scope. The A/B/C fixture counts decisions/subjects/signatures separately; native Completed can mean all choices while DateSigned remains absent. X/Y transfer exposes filtered100%, misleading equal-review average and correct1/10 item share. Status belongs to campaign/review/item/work, with user/page/time and zero-denominator boundaries. Two meanings total177; eleven questions stay open. Forty-two authored, eight unwritten; CRT-043 next. [Publication preparation](author/PUBLICATION_2026-11-12_FORTY_TWO_LESSONS.md) adds two complete learners in nine modules; successful deployment and full live checks still need observation.
+
+## Forty-two-lesson publication observed, November 12, 2026
+
+Content 15e521850e62f1914638f0a2c1f5c54458d4482d is pushed. Pages run 43260870301 succeeded, and complete live verification passed for forty-two learners, 4789 normalized content units, forty-two diagrams/assets, forty-eight tables and 1888 internal link visits. CSS and representative author/control exclusions passed. Reader implementation, prior learners and historical records are unchanged. Forty-two authored/published, eight core topics unwritten; CRT-043 next. This is served-content/navigation evidence, not graphical layout, participant understanding or tenant behavior.
