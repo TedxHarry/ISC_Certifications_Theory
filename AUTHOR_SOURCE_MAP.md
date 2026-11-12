@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 5.4. Updated November 11, 2026; dated checks below distinguish each stage.
+Authoring source reference 6.3. Updated November 11, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant action, test campaign or provisioning change was performed. Twenty-two learners are authored, pushed, published and live-verified. The [twenty-two-lesson publication record](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md) contains the observed deployment/live results; the prior thirteen-lesson snapshot remains historical evidence. CRT-023 is next; eight product questions remain open and dated evidence below remains historical.
+No tenant action, test campaign or provisioning change was performed. Thirty-one learners are authored; their publication is explicitly authorized and the expanded manifest passes local checks. Deployment/live verification is pending; twenty-two remains the last verified snapshot. The [twenty-two-lesson publication record](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md) contains the observed deployment/live results; the prior thirteen-lesson snapshot remains historical evidence. CRT-032 is next; ten product questions remain open and dated evidence below remains historical.
 
 ## Primary source map
 
@@ -365,3 +365,63 @@ All seven reviewer choices are type-scoped. Primary/additional ownership and gro
 Explicit user authorization covers pushing complete local CRT-014 through CRT-022 with earlier learners and expanding the reader to five modules. The [publication record](author/PUBLICATION_2026-11-11_TWENTY_TWO_LESSONS.md) separates prepared content from observed deployment/live verification. Earlier author records and source-scoped uncertainties remain historical; no tenant or participant result is claimed.
 
 Publication follow-up, November 11: content 80723fec7f476669b3ba62d3a2e848225c6e545d deployed successfully in Pages run 43059165625. The full live verifier passed for twenty-two learners, 2795 normalized content units, twenty-two exact diagrams/assets, twenty-seven tables, 548 internal link visits, CSS and four representative excluded author/control paths. These are publication-content checks, not a graphical/participant/tenant result. CRT-023 remains next.
+
+## CRT-023 authored locally, November 11, 2026
+
+[CRT-023](lessons/CRT-023_Handling_Missing_Managers_Owners_and_Fallback_Reviewers.md) and [its record](author/revisions/CRT-023_Revision_Record.md) develop missing manager/owner diagnosis, input versus relationship versus work, route-specific exclusion/fallback, group readiness and supported correction. Search creation, dedicated prerequisites/troubleshooting, manager correlation, governance groups, reassignment and Understanding Certifications were freshly inspected. Four supporting same-day data/ownership/report references are reused within scope: ten sources total.
+
+The manager table is bounded to one applicable attribute-based mapping; unmatched changes can retain a prior link while null clears it. General empty-group Org Admin routing does not establish all-inactive-as-empty or an individual administrator. Missing final source ownership in Search Account Owner/Access Owner routes remains unestablished by inspected material and targeted official-source searches. New OQ-09 records that terminal gap; access-request approval escalation and forum/user replies are not certification authority.
+
+Twenty-three authored, 27 unwritten, CRT-024 next. Nine questions remain open. The prior final author-only Pages run 43059772625 is observed successful; publication, earlier evidence and manifest remain unchanged. No push, tenant mutation or participant result occurred.
+
+## CRT-024 authored locally, November 11, 2026
+
+[CRT-024](lessons/CRT-024_Preventing_Self_Certification_and_Checking_Own_Access_Routing.md) and [its record](author/revisions/CRT-024_Revision_Record.md) develop subject/reviewer comparison, automatic own-access separation, bounded manager/owner/admin routing, manual any-own-access block and actual responsibility/decision evidence. Understanding Certifications, reassignment, work reassignment, governance groups, Search creation and reports were freshly inspected. Three same-day account/permission references support local meanings: nine sources total.
+
+The direct work-reassignment guide confirms automatic separation and the multiple-identity certification-group exception for member redirects. Access-request per-member behavior is not imported. Automatic routing and blocked manual action are distinct, not conflicting universal rules. No random-admin pool, group-internal member split/quorum, all-state manual override or API execution is invented. Nine questions remain unresolved.
+
+Twenty-four authored, 26 unwritten, CRT-025 next. Local CRT-023/024, the published manifest and earlier evidence remain preserved. No push, tenant operation, graphical/participant assessment or exhaustive release claim occurred.
+
+## CRT-025 authored locally, November 11, 2026
+
+[CRT-025](lessons/CRT-025_Reassigning_Review_Work_and_Verifying_the_Result.md) and [its record](author/revisions/CRT-025_Revision_Record.md) develop existing-review reason/scope/state/authority/recipient, supported action, actual coverage/history and handover visibility. Reassignment, reports, Understanding Certifications, Work Reassignment and direct whole-certification/subject-item/asynchronous subject-item APIs were freshly inspected. Three same-day account/permission references support local meanings: ten scoped sources.
+
+Whole-certification API authority/task response is distinguished from identity-campaign subject/item reviewer-or-admin scope and response variants. Experimental documentation does not establish every UI, campaign state, decision-copy behavior or identifier preservation. Main and transfer results are supplied evidence rather than a tenant operation. Existing administrative signed-off/self-review rules are kept scoped; finer APIs are not treated as a bypass. Nine questions remain open.
+
+Twenty-five authored, 25 unwritten, CRT-026 next. Local CRT-023 through CRT-025, earlier evidence, published manifest and reader remain preserved. No push, authenticated tenant action, graphical or participant assessment occurred.
+
+## CRT-026 authored locally, November 11, 2026
+
+[CRT-026](lessons/CRT-026_Keeping_Reviews_Moving_During_Absence_and_Departure.md) and [its record](author/revisions/CRT-026_Revision_Record.md) develop existing-work cover versus configured as-created redirection, work type/person/recipient/period/time zone/actor, replacement, end/delete/disable, permanent departure and actual responsibility/history. Administrative and user-help Work Reassignment, certification reassignment, Understanding Certifications, governance groups and reports were freshly inspected; three scoped same-day account/correlation/permission references support local meanings.
+
+User-help history's first configured Assignee and 90-day view are distinguished from the actual current recipient after a chain. Four automatic redirects do not prohibit necessary own-access escalation. Multiple-identity certification groups do not apply members' redirects. No universal inactive/group fallback, API payload, private ordering or automatic return/retroactive transfer is inferred. Nine product questions remain unresolved. Twenty-six authored, 24 unwritten; CRT-027 next. Local CRT-023 through CRT-026 and prior publication remain separate; no push, tenant, graphical or participant result occurred.
+
+## CRT-027 authored locally, November 11, 2026
+
+[CRT-027](lessons/CRT-027_Inspecting_Review_Context_Before_Deciding.md) and [its record](author/revisions/CRT-027_Revision_Record.md) connect exact person/account/access, actual capability, current authorized task, origin and evidence timing to reasoned judgment. Reviewer guidance, Access Recommendations, Activity Insights, cloud details, Understanding Certifications, manager/source-owner generation, privilege classification and entitlement metadata were freshly inspected. Four same-day account/correlation/package references support the local meanings: twelve scoped sources.
+
+Eight documented flags receive plain meanings and useful next questions. New Access concerns previous certification; peer comparisons do not prove current need, source-use observations do not prove use of every permission, and absent data is not zero. Optional data/cloud detail remains conditional. No classification score, group algorithm, universal field freshness, all-type recommendation availability or automatic replacement/removal is inferred. Nine questions remain open. Twenty-seven authored, 23 unwritten; CRT-028 next. Local CRT-023 through CRT-027 preserve prior learners/evidence and published manifest; no push, tenant, graphical or participant assessment occurred.
+
+## CRT-028 authored locally, November 11, 2026
+
+[CRT-028](lessons/CRT-028_Understanding_Approve_Revoke_and_Acknowledge.md) and [its record](author/revisions/CRT-028_Revision_Record.md) develop action meaning by reviewed unit, origin and type, automatic membership requirements, package scope and decision/finality/removal evidence. Understanding, reviewer guidance, roles/role assignment, profiles, completion/reports, next-generation overview, direct Decide/Finalize bodies and Search composition were freshly inspected. Two same-day account-data references support local meanings: thirteen scoped sources.
+
+Direct Experimental Decide and Finalize operations are distinct; finalization initiates needed remediation without proving completed source change. Current unsigned-completion and overlap contradictions remain unresolved. Criteria-role Acknowledge does not remove access or fix data/criteria/contents; requested role Revoke does not edit the shared definition. Legacy composition uses manual work with actual recipient verification. Nine questions remain open; no universal phase timing, package overlap protection, immediate deletion, API payload or actual action is inferred. Twenty-eight authored, 22 unwritten; CRT-029 next. Local CRT-023 through CRT-028 preserve earlier evidence and published manifest; no push, tenant, graphical or participant assessment occurred.
+
+## CRT-029 authored locally, November 11, 2026
+
+[CRT-029](lessons/CRT-029_Recording_Clear_Reasons_and_Checking_Bulk_Decisions.md) and [its record](author/revisions/CRT-029_Revision_Record.md) develop decision criteria, exact item/current facts, useful comment/evidence references and multi-item selection/result verification. Reviewer/report guidance, Search and manager/source-owner comment settings, direct Decide/Finalize bodies, Understanding and reassignment were freshly inspected; three same-day account/profile references support local meanings. Eleven scoped sources; SDK payloads and misrouted aggregate V3 search output are not action-contract evidence.
+
+Decision Comments differs from status Comments; current reviewer differs from historical decision maker and does not identify every text author. No universal bulk UI scope, default shared comment, atomic result, exact comment enum/length or target completion is asserted. Four-item and Invoice transfers expose unjustified copied reasons and misleading package descriptions. Nine questions remain open. Twenty-nine authored, 21 unwritten; CRT-030 next, investigating/bounding unsigned finality. Local CRT-023 through CRT-029 preserve earlier evidence and published reader; no push, tenant, graphical or participant assessment occurred.
+
+## CRT-030 authored locally, November 11, 2026
+
+[CRT-030](lessons/CRT-030_Distinguishing_Saved_Decisions_and_Review_Sign_Off.md) and [its record](author/revisions/CRT-030_Revision_Record.md) develop saved item choices, undecided/unsigned versus sign-off, permitted changes, signer/time, reauthentication and campaign/account evidence. Reviewer, Understanding, completion, next-generation overview, direct Complete/Get/Finalize/List, reports and reassignment were freshly inspected; same-day Decide/loading/correlation provide three supporting checks: thirteen scoped sources.
+
+OQ-01 was actively investigated through both conflicting passages, exact administrative Complete body and targeted ISC searches. Neither SDK defaults nor IdentityIQ metadata/closing behavior resolves the saved-unsigned outcome. Normal next-generation readonly finalization is taught without universal retention/discard or phase timing. New OQ-10 records reviewer editing ambiguity; no unsupported Undo/reopen/after-signoff reassignment is invented. Ten questions remain open. Thirty authored, 20 unwritten; CRT-031 next. Local CRT-023 through CRT-030 preserve earlier evidence and published reader; no push, tenant, graphical or participant assessment.
+
+## CRT-031 authored and publication authorized, November 11, 2026
+
+[CRT-031](lessons/CRT-031_Resolving_Uncertainty_Before_an_Access_Decision.md) and [its record](author/revisions/CRT-031_Revision_Record.md) develop specific missing facts, relevant consultation, true capability/current need and permitted verified reassignment. Reviewer/reassignment guidance, Recommendations, Activity Insights, Understanding, entitlement metadata, reports and manager/source-owner context were freshly inspected; three same-day account/profile supports make eleven scoped sources. No universal pause, default unsure decision, recommendation substitute, own-review bypass or all-state correction is invented.
+
+Ten questions remain open. Thirty-one authored, 19 unwritten; CRT-032 next. User authorizes publication of all complete lessons; [the thirty-one-lesson publication record](author/PUBLICATION_2026-11-11_THIRTY_ONE_LESSONS.md) records local checks and pending deployment/live verification. Prior source and learner records remain historical. No tenant, graphical or participant result is inferred.

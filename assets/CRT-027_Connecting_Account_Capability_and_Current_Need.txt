@@ -1,0 +1,24 @@
+Locate the exact reviewed access
+  Identity 3701 -> rep-3701
+  Reporting Production -> EXP-CUST
+                 |
+                 v
+Confirm what the permission allows
+  Export customer reports with contact details
+                 |
+                 v
+Connect it to current authorized work
+  Investigating delivery problems needs this export
+                 |
+                 v
+Check the evidence agrees and is current enough
+  Account, capability, task and relevant dates
+                 |
+       +---------+----------+
+       |                    |
+       v                    v
+Facts support keeping   Material gap or conflict
+this reviewed access    Clarify before deciding
+
+Flags, activity and recommendations help inspection.
+They do not supply a missing business justification.

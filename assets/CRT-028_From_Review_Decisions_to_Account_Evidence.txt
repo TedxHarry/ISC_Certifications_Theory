@@ -1,0 +1,22 @@
+Account rep-3901 currently has:
+  View Reports + Export Reports
+
+Current authorized work needs:
+  View Reports only
+               |
+               v
+Review decisions
+  View Reports   -> Approve: keep reviewed access
+  Export Reports -> Revoke: remove reviewed access
+               |
+               v
+Check required finalization and removal processing
+  A saved choice is not a verified account change
+               |
+               v
+Verify the intended account result
+  View Reports remains
+  Export Reports is removed
+
+The decision concerns these items on rep-3901.
+It is not an instruction to delete the account.

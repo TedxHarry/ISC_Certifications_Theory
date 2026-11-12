@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 3.9. November 11, 2026.
+Version 3.18. November 11, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -26,7 +26,7 @@ These are author working meanings. Verify product-specific use in the applicable
 | Role | An ISC access package that can contain direct entitlements and access profiles from one or multiple sources; definition and an identity's assignment are separate. | CRT-006/007 |
 | Assignment origin | How access was assigned or recognized; it affects what is independently reviewable or removable. | CRT-006/007 |
 | Lifecycle state | A configured business stage that can drive access behavior. Its grants are not interchangeable with individually requested items. | CRT-004/007 |
-| Birthright access | Access automatically assigned under defined business conditions; verify the particular role/model behavior rather than assume manual revocation overrides it. | CRT-007/035 |
+| Birthright access | Access automatically assigned under defined business conditions. The Birthright Access flag points to automated grants such as lifecycle rules; inspect origin and actual action. Manual revocation does not establish that the assigning rule stops requiring it. | CRT-007/027/035 |
 | Effective access | Access that remains through applicable assignment paths and target permissions; removing one path does not establish that every path is gone. | CRT-035/037 |
 
 ## Campaign objects, scope and responsibility
@@ -56,21 +56,29 @@ These are author working meanings. Verify product-specific use in the applicable
 | Generated review data / snapshot | Review work established from the scope/data used for generation. Source observation, generation and report times differ. Dedicated-route snapshot guidance does not prove every field immutable across all engines; inspect actual work and permitted workflow changes. | CRT-019 |
 | Preview | Actual generated campaign work/settings inspected before launch. Compare intended people/account/access/assignment relationships and settings, explain gaps, correct and reinspect; distinguish this from identity-mapping Preview in other ISC features. | CRT-019/021 |
 | Activation | Starting a particular generated campaign for reviewer work under supported state/permissions. An accepted activation-job request is distinct from a verified running result; UI/API state labels need their own documented scope. | CRT-020/021 |
-| Reassignment | Changing review responsibility within supported scope/state; distinguish campaign reassignment from general work reassignment. | CRT-025/026 |
-| Self-certification | Reviewing one's own access; teach the supported prevention/routing controls rather than assume any reassignment is permitted. | CRT-024 |
+| Fallback | Alternative routing used when required responsibility cannot be supplied under the applicable campaign rule. Distinguish a verified fallback, exclusion and an unestablished terminal outcome; the receiving person still needs suitability and permission. | CRT-023 |
+| Reassignment | Changing responsibility for selected existing review work under supported state/actor/recipient rules. Whole certification, selected subject and selected item can be different scopes. Verify the resulting assignment, retained coverage, decision state/history and visibility; distinguish as-created work redirection. | CRT-025/026 |
+| Work reassignment | Configured automatic redirection of a selected person's work type as work is created during a specified period. Distinguish this instruction from existing-work handover and actual assignment; replacement/end/delete/feature-disable do not return prior work. Check recipient, period/time zone, enabled feature and group/self-review/chain conditions. | CRT-026 |
+| Self-certification | A person assessing their own access. Documented automatic handling separates own-access review work and routes it elsewhere; a manual certification reassignment containing any proposed new reviewer's own access is blocked. Verify subject, actual reviewer and actor, preserving coverage. | CRT-024 |
 
 ## Decisions, delivery and evidence
 
 | Term | Working meaning and important connection | Primary planned teaching |
 |---|---|---|
-| Approve | Accept continued reviewed access under the applicable conditions; not an instruction to grant unrelated missing access. | CRT-028 |
-| Revoke | A decision requiring removal/change of the reviewed access; it is not proof that the target change is complete. | CRT-028/032 |
-| Acknowledge | Review action for a role assigned through automated membership criteria; it does not override the criteria or request removal. | CRT-006/007/028 |
-| Sign-off / finalization | Confirmation/finalization of the assigned review's decisions. Exact consequences and unsigned cases require engine-specific verification. | CRT-030 |
+| Approve | Accept continued access to the actual reviewed item under assessed conditions. Does not grant missing access, approve unrelated permissions or freeze future access requirements. | CRT-028 |
+| Revoke | Record removal/change for the actual reviewed item. Package scope, origin and review type matter; decision, finalization, required removal work and verified account result differ. Not an account-delete instruction. | CRT-028/032 |
+| Acknowledge | Record examination of a role assigned through automated membership criteria. Does not remove access, override criteria, fix a mismatch or provide a general uncertainty response; investigate governing data/rule/contents separately. | CRT-006/007/028 |
+| Consultation | Asking someone with relevant knowledge for facts supporting the review decision. Does not itself change the assigned reviewer, finalize choices, extend a deadline or change account access. | CRT-031 |
+| Decision criteria | Organization-approved conditions used to judge access against current authorized work and actual account/capability facts. Distinct from campaign filters that select review content; not asserted as a built-in ISC field or universal policy. | CRT-029 |
+| Decision comment | Explanation retained with an item decision, connecting current facts, actual item and usable evidence to the choice. Mandatory entry does not establish truth; report Decision Comments differs from status Comments. | CRT-029 |
+| Bulk decision | A supported operation applying a decision to multiple selected items. Each item still needs valid reasoning; inspect exact selection, saved choice/comment and operation result without assuming all-pages scope or shared-comment propagation. | CRT-029 |
+| Sign-off / finalization | Separate confirmation of the assigned review's decisions, distinct from saved item choices, campaign completion and source result. Normal next-generation sign-off makes review decisions read-only and initiates needed remediation; unsigned administrator-completion and broader editing scope remain bounded questions. | CRT-030 |
 | Undecided | A review item has no decision; distinguish it from a review with saved decisions but no finalization. | CRT-030/039 |
-| Unsigned review | A review not signed off/finalized; documented completion behavior has an unresolved scope question in the capability register. | CRT-030/039 |
+| Unsigned review | Assigned review not finalized, which can contain some or all saved item decisions. Does not mean every item is undecided. Treatment at administrator completion remains OQ-01, not a universal preserve/discard rule. | CRT-030/039 |
+| Reauthentication | Confirming the acting person's identity again through the configured sign-in service when required for completion. A prompt alone is not successful review sign-off or business justification. | CRT-030 |
 | Overdue | The relevant deadline has passed; determine the applicable object and handling rather than assume access changed. | CRT-039 |
 | Campaign completion | The campaign's completed state/action under the relevant engine; not a universal synonym for verified target removal. | CRT-040 |
+| Revocation date | A specified removal date where the review action supports it. Does not prove completed removal; the described reviewer path for individual entitlements does not offer this setting. | CRT-028/032 |
 | Remediation | Work required to carry out a removal/change decided in the review. The applicable trigger, path and outcome need evidence. | CRT-032–037 |
 | Provisioning | Supported work that changes external accounts/access; inspect the actual operation and result. | CRT-033 |
 | Manual fulfillment task | Assigned human work to make an external change. Task closure and actual target state are separate observations. | CRT-034 |
@@ -78,11 +86,21 @@ These are author working meanings. Verify product-specific use in the applicable
 | Status | A recorded state of a particular object or operation. Always identify what the status describes. | CRT-042 |
 | Audit evidence | Records supporting what was scoped, reviewed, decided and done, with actor/time/context. It does not automatically establish every claim. | CRT-043/044 |
 | Report freshness | When a report was generated and which campaign state it represents; later campaign changes require a fresh report. A new report does not itself generate new review items or prove current source coverage. | CRT-019/044 |
-| API | An application programming interface through which software requests operations or data. Core coverage includes interpreting read-only evidence. | CRT-044 |
+| Asynchronous processing | Work proceeds separately from the submitted request, with task/result evidence needed before claiming the business outcome. A tracking task or accepted request alone does not establish the intended review assignment. | CRT-025; supporting CRT-044/045 |
+| API | An application programming interface through which software requests operations or data. Core includes interpreting action/data requests and their results without requiring code execution. | CRT-025/044 |
 | Object ID | An identifier for the relevant platform record; a matching display name alone is not an exact record reference. | CRT-042/044 |
 | Request/response | An operation/data request and the returned result. An accepted request is not automatically completion of downstream work. | CRT-044 |
 | Pagination | Returning a collection in portions; seeing one page does not establish the whole population. | CRT-010/044; X-05 |
-| Recommendation / access flag | Available decision-support context. Interpret source/meaning/freshness; it is not a replacement for the reviewer understanding the access. | CRT-027/031; X-04 |
+| Recommendation / access flag | A certification recommendation suggests decision support using available peer/identity analysis; an access flag identifies a specific fact to inspect. Interpret actual reason, type, source and freshness. Neither supplies a missing current business justification. | CRT-027/031; X-04 |
+| Peer group | A comparison group based on similar access patterns; common access can support investigation without establishing this person's current authorized need. | CRT-027; X-04 |
+| Source activity | Events gathered from a supported configured application source. Certification active-days context can cover 90 days; source use is not proof of each permission's use or authorization, and absent data is not zero. | CRT-027; X-04 |
+| New Access flag | The access has not previously been certified; this does not establish its grant date. | CRT-027 |
+| High Privilege (Overridden) flag | An entitlement's privilege classification was manually changed to indicate high privilege; inspect actual sensitive capabilities and need. | CRT-027 |
+| Contains Privileged Access flag | A role or profile includes privileged entitlement access; inspect which component and the actual package under decision. | CRT-027 |
+| Timebound Access flag | Access has a set end date; the time limit does not itself justify the access until that date. | CRT-027 |
+| Comments flag | Comments are associated with access; read author/date/relevance rather than assume a current approval. | CRT-027 |
+| Cloud Enabled flag | Access relates to cloud infrastructure; deeper resource/privilege/path and activity context is conditional on support/configuration/licensing. | CRT-027; X-04 |
+| Critical Data Access flag | Access includes critical data; investigate actual data/scope and authorized need, using licensed context where available. | CRT-027; X-04 |
 
 ## Actual introductory teaching
 
@@ -222,7 +240,7 @@ New terms may be added when a real explanation needs them. Avoid growing a gloss
 |---|---|---|
 | Manager review | Manager assessment of current access need for supervised people's work; reliable technical meaning and actual assignment are still needed. | CRT-011 |
 | Manager relationship | The link identifying one identity as another identity's manager; distinguish source reference and generated reviewer assignment. | CRT-011/022/023 |
-| Manager correlation | Configured matching of an employee account's manager reference with an attribute of the intended manager identity. | CRT-011/023 |
+| Manager correlation | Configured establishment of an employee's manager link. In the documented attribute-based case, null can clear the link while an unmatched changed reference can retain the existing manager; source text, current link and generated assignee are distinct. | CRT-011/023 |
 | Identity profile | Settings for establishing/maintaining identities from source data, including identity attribute mappings; distinct from an access package. | CRT-011; source-data support |
 | Reviewer fallback | Alternative review responsibility when the normal reviewer cannot be determined; actual handling is campaign-route specific and does not establish expertise. | CRT-023; supporting CRT-011 |
 
@@ -299,3 +317,39 @@ New terms may be added when a real explanation needs them. Avoid growing a gloss
 ## Reviewer responsibility meanings developed in CRT-022
 
 [CRT-022 record](revisions/CRT-022_Revision_Record.md) locates campaign/certification/item, identity/account/source/entitlement, manager relationship/correlation, creator/campaign owner, primary/additional access ownership, source/account/role owner, named Individual, governance group/member/owner/actor, fallback/self-review/work reassignment, current reviewer versus decision maker, sign-off and platform authorization. Ordinary Manager routing and independent Access Owner mismatch are distinguished from missing-input effects. Existing 122 working meanings remain; group voting/sign-off contracts and every owner hierarchy are not invented.
+
+## Missing-responsibility meanings developed in CRT-023
+
+[CRT-023 record](revisions/CRT-023_Revision_Record.md) introduces Fallback as a primary operational routing meaning, raising the register to 123. Exclusion, null/absent reference, retained manager link, missing versus unusable identity, primary/additional ownership, source prerequisite, empty versus inactive-member group, current assignment, reassignment/sign-off and actual review outcome are explained where used. The owner sequence is not a universal access-request approval hierarchy. No standalone learner glossary or tooltip behavior is implemented.
+
+## Own-access meanings developed in CRT-024
+
+[CRT-024 record](revisions/CRT-024_Revision_Record.md) locates self-certification, human subject versus reviewer, identity/account/source/entitlement, complete access object, campaign/certification/item/generation/preview, manager/owner/creator/admin, automatic work redirection versus manual reassignment, mixed review, group/member/actor, sign-off and decision maker in connected prose. New owner of an assigned certification means recipient responsibility, not campaign ownership. Existing 123 working meanings remain. A group identifier or administrator title is not used to invent an own-access exception, voting rule or hidden permission algorithm.
+
+## Handover and task/result meanings developed in CRT-025
+
+[CRT-025 record](revisions/CRT-025_Revision_Record.md) locates whole certification, subject versus item, exact account/access, actor/recipient/knowledge/state, reason, saved versus signed off, current assignee versus actual decision maker, recipient visibility and future-work configuration in connected prose. Asynchronous processing is a new explicitly explained technical meaning, raising the register to 124. Experimental APIs and object/task responses are interpreted within their checked scopes rather than used as a universal completion, identity-preservation or retry guarantee.
+
+## Absence and configured work meanings developed in CRT-026
+
+[CRT-026 record](revisions/CRT-026_Revision_Record.md) connects existing reassignment with the new Work reassignment meaning: configuration instruction versus current certification, separate work types, recipient/period/time zone, one-per-person/type replacement, no end date and retained prior work. The register becomes 125 working meanings. Campaign/certification/item, source/identity/account/entitlement, preview/sign-off, actor/authority, permanent manager/owner/group responsibility, API, own-access routing, history, audit, current reviewer and earlier decision maker are reintroduced locally. First configured recipient is not assumed to be the last assignee. No glossary dependency or tooltip implementation is claimed.
+
+## Review-context meanings developed in CRT-027
+
+[CRT-027 record](revisions/CRT-027_Revision_Record.md) connects exact identity/account/source/entitlement, Additional Attributes and person attributes, capability/current need/authorization, package/origin, capture versus business-confirmation times and decision/outcome. Peer group, Source activity and seven newly registered flag labels add nine meanings, bringing the register to 134. Existing Birthright access and recommendation/flag meanings are extended without duplicate rows. Cloud/data/AI product context remains conditional, and all necessary reasoning is inline. No glossary prerequisite, universal activity coverage or tooltip implementation is claimed.
+
+## Action meanings developed in CRT-028
+
+[CRT-028 record](revisions/CRT-028_Revision_Record.md) extends Approve/Revoke/Acknowledge through exact person/account/item, unit/origin/type, continued need, automatic conditions and the selected package's contents. Revocation date adds one meaning, bringing the register to 135. Existing sign-off, remediation/provisioning, role/profile/lifecycle, membership/identity processing, owner/authority and undecided/unsigned meanings are locally connected without duplication. A component view is not an independent decision, and a person's role assignment is not the shared definition. No tooltip implementation, universal date control or target-result guarantee is claimed.
+
+## Decision-quality meanings developed in CRT-029
+
+[CRT-029 record](revisions/CRT-029_Revision_Record.md) introduces Decision criteria, Decision comment and Bulk decision in connected prose, raising the register from 135 to 138 working meanings. Existing identity/account/source/entitlement, review objects, Approve/Revoke, package/role, filters, authority, finalization, current Reviewer/Decision Maker, report freshness and evidence meanings are locally reintroduced. Business criteria are not selection filters; valid shared action is not necessarily identical reason text. Comments-field names do not establish all text authorship. No glossary prerequisite, tooltip, universal UI control or completed-removal inference.
+
+## Finalization meanings developed in CRT-030
+
+[CRT-030 record](revisions/CRT-030_Revision_Record.md) connects item choices, undecided versus unsigned, sign-off, distinct object state/count, permitted edits, campaign completion, signer/owner/decision maker, report dates/freshness and actual account outcome. Reauthentication adds one working meaning, raising the register to 139. Three choices out of three do not establish one signed review; first decision time does not establish sign-off. OQ-01 and new OQ-10 retain unresolved broader outcomes rather than manufacturing a rule. No glossary dependence, exact API status enum or universal progress-widget claim.
+
+## Uncertainty meanings developed in CRT-031
+
+[CRT-031 record](revisions/CRT-031_Revision_Record.md) adds Consultation, bringing the register to 140 working meanings. Existing source/person/account/access/review, owners/authority, package/origin, reassignment/preview/self-review, recommendation/peer/flag/activity, undecided/unsigned/sign-off/Acknowledge and evidence meanings are locally reintroduced. Missing capability/need evidence is not confirmed no need; knowledge and permission are separate; answers, actual transfer and account result establish different facts. No glossary prerequisite, tooltip or automatic escalation/pause feature is claimed.

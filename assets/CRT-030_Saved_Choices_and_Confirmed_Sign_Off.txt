@@ -1,0 +1,19 @@
+R-30: three review items on rep-4401
+
+First saved work
+  View: Approve | Export: Revoke | Schedules: undecided
+  Review is unsigned
+                    |
+                    v
+All item decisions saved
+  View: Approve | Export: Revoke | Schedules: Approve
+  Review is still unsigned
+                    |
+                    v
+Permitted sign-off, then inspect the result
+  Signed review, signer and sign-off time confirmed
+  Intended decisions retained
+
+Separate evidence still needed:
+  Did the required export removal reach rep-4401?
+  Are justified viewing and scheduling rights retained?

@@ -1,0 +1,23 @@
+CHECK THE ISC MANAGER RELATIONSHIP USED FOR GENERATION
+        |
+        +-- No manager link
+        |       |
+        |       +-- Dedicated Manager Campaign
+        |       |       -> person is excluded
+        |       |
+        |       +-- Search identity campaign, Manager reviewer
+        |               -> campaign creator is fallback
+        |                  (ordinary permitted, non-self case)
+        |
+        +-- Existing manager link still points to 2910
+                |
+                -> investigate source reference and matching
+                -> do not treat it as a missing-manager case
+
+THEN INSPECT THE ACTUAL GENERATED WORK
+Expected person/account/access present?
+Who is assigned, or what error is recorded?
+Is that person suitable and permitted to review?
+
+Correct the cause and verify the resulting work.
+A source-field edit alone does not move an existing review.

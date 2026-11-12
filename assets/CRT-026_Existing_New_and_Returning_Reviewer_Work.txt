@@ -1,0 +1,21 @@
+Ordinary assignment selects 3501.
+Certification redirect: 3501 -> 3502
+Period: Mon 09:00 to Fri 18:00, Asia/Kolkata
+
+BEFORE THE PERIOD
+R-old already belongs to 3501
+  -> separate authorized existing-work handover
+  -> verified reviewer 3502
+
+DURING THE PERIOD
+R-new is created for 3501
+  -> active certification work reassignment
+  -> verified reviewer 3502
+
+AFTER THE PERIOD
+R-after is created for returned reviewer 3501
+  -> this redirect no longer applies
+  -> verified reviewer 3501
+
+R-old and R-new remain with 3502.
+Ending the period does not return earlier work.

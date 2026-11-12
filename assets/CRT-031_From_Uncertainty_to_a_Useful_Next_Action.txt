@@ -1,0 +1,22 @@
+Review item is unclear
+  Identify exact account, access and missing fact
+                       |
+                       v
+Ask someone with the relevant knowledge
+  Capability, current need, data or review-state question
+                       |
+                       v
+Compare the answer with the actual reviewed item
+
+Facts now establish the justified decision
+  -> record the choice, reason and useful evidence
+
+Another person should assess the review
+  -> check recipient, scope, state and permission
+  -> use a supported handover and verify responsibility
+
+Material facts are still missing or conflicting
+  -> raise the gap with the person running the campaign
+  -> agree the next action and follow up before the deadline
+
+Clarification is not sign-off or verified access removal.

@@ -1,0 +1,26 @@
+SELECTED ACCESS
+3101: Export Reports on rep-3101
+3102: View Reports on rep-3102
+
+PROPOSED INDIVIDUAL REVIEWER: 3101
+        |
+        | compare the access subject with the reviewer
+        |
+        +-- Subject 3102: someone else's access
+        |       |
+        |       v
+        |   R-other: assigned to 3101
+        |   3102 / rep-3102 / View Reports
+        |
+        +-- Subject 3101: the reviewer's own access
+                |
+                | separate own-access review work
+                | valid distinct manager is 3110
+                v
+            R-own: assigned to 3110
+            3101 / rep-3101 / Export Reports
+
+CHECK THE GENERATED RESULT
+Both intended holdings remain in review.
+Neither holding has received a decision merely by routing.
+3101's own access has a different assigned reviewer.

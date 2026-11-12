@@ -1,0 +1,18 @@
+Proposed selection: I1 + I2 + I3 + I4
+Proposed common reason: current case-handling need
+                       |
+                       v
+Check the reason against each item
+
+I1: Read Cases, current duty confirmed C-71
+I2: Read Cases, current duty confirmed C-72
+  -> Approve can be justified for these items
+
+I3: Read Cases, duty ended C-73
+  -> Revoke; continuing-duty reason does not apply
+
+I4: Case Bulk Export, no authorized need C-71
+  -> Revoke; assigned-case reading does not justify export
+
+Inspect the saved choice and explanation for each item.
+Grouping items does not establish equivalent need.

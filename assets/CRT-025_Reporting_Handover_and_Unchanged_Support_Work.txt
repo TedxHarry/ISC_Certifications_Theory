@@ -1,0 +1,22 @@
+CAMPAIGN C-1 BEFORE THE MOVE
+R-report -> reviewer 3310
+  3301 / rep-3301 / View Reports
+  3301 / rep-3301 / Export Reports
+  3302 / rep-3302 / View Reports
+
+R-support -> reviewer 3310
+  3303 / case-3303 / Read Cases
+        |
+        | permitted action selects whole R-report only
+        | new reviewer: 3320
+        v
+INSPECTED RESULT
+Reporting work -> reviewer 3320
+  Same three intended reporting holdings verified
+  Earlier decision still records its actual maker, 3310
+
+Support work -> reviewer 3310
+  Read Cases remains with the original reviewer
+
+Then confirm remaining work and recipient visibility.
+A submitted request alone does not establish this result.
