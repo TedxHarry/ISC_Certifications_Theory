@@ -1,0 +1,25 @@
+Match the exact account, permission and expected outcome
+                         |
+              Is the removal finalized and due?
+                         |
+          Find the actual required work and its state
+                         |
+       +-----------------+------------------+
+       |                 |                  |
+  Not attempted     Failed/unknown     Reported complete
+       |                 |                  |
+  Check scheduling  Inspect operation  Establish what
+  and ownership     and target result  completed means
+       |                 |                  |
+       +-----------------+------------------+
+                         |
+           Inspect current account permission
+                         |
+       Still present? Check the cause with evidence:
+       failed change / wrong account / another grant
+       returned access / old observation / session
+                         |
+         Correct the cause through a supported path
+                         |
+           Verify removal and required retained access
+

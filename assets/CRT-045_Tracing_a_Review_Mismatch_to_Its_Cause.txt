@@ -1,0 +1,22 @@
+Start with the reported mismatch
+             |
+Match campaign, review, account, item and time
+             |
+      Compare expected with observed
+             |
+    +--------+------------------+------------------+
+    |                           |                  |
+Wrong person/account      Missing/wrong item   Unexpected reviewer
+    |                           |                  |
+Source ownership          Collected holdings   Selected reviewer rule
+Account association       Selection/filter    Manager/owner input
+Population selection      Package/origin      Handover/redirect
+    |                           |                  |
+    +---------------------------+------------------+
+                                |
+                 Establish the actual cause
+                                |
+          Correct the affected data, rule or work
+                                |
+           Inspect current work and future inputs
+

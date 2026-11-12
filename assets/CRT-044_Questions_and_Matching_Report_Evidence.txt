@@ -1,0 +1,20 @@
+What do you need to establish for this campaign?
+                       |
+    +------------------+--------------------+
+    |                  |                    |
+Configuration     Item choices       Final confirmation
+    |                  |                    |
+Composition       Campaign Status    Certification
+Report            Report             Sign Off Report
+
+Required removal work
+    |
+Campaign Remediation Status Report
+    |
+Match the actual task, ticket or provisioning event
+    |
+Establish the result for the correct account/right
+
+For every branch:
+match campaign and records, then check scope and time.
+

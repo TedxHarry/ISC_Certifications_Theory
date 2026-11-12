@@ -138,7 +138,7 @@ Because the global delivery setting affects other processes too, a correction ne
 
 From the documented campaign reviewer view, the **Email** action opens your default email application with the reviewer's address filled in. Opening that composer is not proof that you sent the message or that the recipient received it.
 
-Before following up, check that you are contacting the current reviewer. A report can retain the person who made an earlier decision even after responsibility moves. The Campaign Status Report separates **Current Reviewer**, who is now assigned, from **Decision Maker**, who recorded a decision.
+Before following up, check that you are contacting the current reviewer. A report can retain the person who made an earlier decision even after responsibility moves. The Campaign Status Report separates **Reviewer**, the person currently assigned, from **Decision Maker**, who recorded a decision.
 
 Also read the field's meaning before relying on the word Complete. For example, the report's **Decision Made** field describes item status. A Complete value there is not a sign-off record for every certification or proof that rejected access is absent from the application.
 

@@ -1,0 +1,23 @@
+Approved requirement and expected results
+                    |
+        Check inputs and required capabilities
+                    |
+        Inspect the actual generated preview
+                    |
+       Correct contents, assignments and settings?
+                    |
+       Verify the planned fulfillment path safely
+                    |
+       Resolve blocking gaps and record authority
+                    |
+             Ready to start the campaign
+                    |
+       Real reviewer decisions and final confirmation
+                    |
+       Actual removal work and current account evidence
+                    |
+       Accept the achieved results or retain open work
+
+A changed input can invalidate dependent evidence.
+Recheck what relies on that input before proceeding.
+

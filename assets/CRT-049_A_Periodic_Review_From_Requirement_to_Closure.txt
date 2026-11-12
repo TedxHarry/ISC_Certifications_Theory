@@ -1,0 +1,28 @@
+Quarterly requirement and current account baseline
+                         |
+       Current source data and correct identity links
+                         |
+       Saved instructions T-910 -> generated C-910
+                         |
+       Validate actual items, reviewer and readiness
+                         |
+          Authorized start, decisions and sign-off
+                         |
+             Two required export removals
+                         |
+           +-------------+---------------+
+           |                             |
+  Reporting Production           Archive Production
+  Authorized connector write     Assigned manual work
+           |                             |
+  Verify rep-1002 result         Verify arc-1003 result
+           |                             |
+           +-------------+---------------+
+                         |
+       Reconcile all decisions and account outcomes
+                         |
+       Retain evidence and prepare the next cycle
+
+One completed branch does not complete the other.
+Each new cycle needs current inputs and actual coverage.
+

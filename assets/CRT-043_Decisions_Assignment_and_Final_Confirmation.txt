@@ -1,0 +1,18 @@
+Match the same campaign, assigned review and access item
+                           |
+            +--------------+---------------+
+            |                              |
+     Item's saved choice            Current assignment
+     decision maker                 who handles the work now
+     reason and decision time
+            |
+     Final confirmed choices <---- successful sign-off
+            |                      confirmation actor and time
+            |
+     Any required access removal
+            |
+     Separate task and current account evidence
+
+Earlier saved records can help explain a changed choice.
+One current row does not contain every earlier change.
+

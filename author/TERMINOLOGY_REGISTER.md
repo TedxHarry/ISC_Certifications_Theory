@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 3.29. November 12, 2026.
+Version 3.36. November 12, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -34,6 +34,7 @@ These are author working meanings. Verify product-specific use in the applicable
 | Verification | Checking whether reliable evidence supports the required outcome for the correct account/access/time, including what must remain and the limits of the claim. | CRT-037 |
 | Session | An application's continuing signed-in interaction with a user; ending it and removing one permission are different operations with source/application-specific behavior. | CRT-037 |
 | Effective access | Access that remains through applicable assignment paths and target permissions; removing one path does not establish that every path is gone. | CRT-035/037 |
+| Regrant | Access added again after actual removal; establish earlier absence and later addition before using this explanation. Distinguish retained access and a removal that never succeeded. Working meaning, not an asserted native field. | CRT-046 |
 
 ## Campaign objects, scope and responsibility
 
@@ -46,6 +47,7 @@ These are author working meanings. Verify product-specific use in the applicable
 | Review item | An individual unit on which a decision is recorded; identify its access and subject/account context. | CRT-002/006 |
 | Certifier / reviewer | The identity or supported group actually assigned review work through the campaign type/choice, relevant input and supported controls. Distinguish configured choice, generated assignee and recorded decision actor. | CRT-002/022/043 |
 | Decision maker | The actor recorded as making a decision; distinguish them from the currently assigned reviewer. | CRT-022/043 |
+| Decision history | Evidence of the correct item's recorded choices, changes, actors, reasons and times; a current row or assignment trail is not automatically the complete sequence. Working teaching meaning, not an asserted native history object. | CRT-043 |
 | Campaign creator | The actor who created the campaign; do not infer every later responsibility or permission from that fact. | CRT-002/022 |
 | Campaign owner | Responsibility for the campaign according to configuration; owner, creator and reviewer are not assumed identical. | CRT-002/022 |
 | Source owner | The responsible source owner recorded in ISC; relevant to some review/routing/removal paths, not automatic permission for every action. | CRT-012/022/034 |
@@ -85,6 +87,7 @@ These are author working meanings. Verify product-specific use in the applicable
 | Decision comment | Explanation retained with an item decision, connecting current facts, actual item and usable evidence to the choice. Mandatory entry does not establish truth; report Decision Comments differs from status Comments. | CRT-029 |
 | Bulk decision | A supported operation applying a decision to multiple selected items. Each item still needs valid reasoning; inspect exact selection, saved choice/comment and operation result without assuming all-pages scope or shared-comment propagation. | CRT-029 |
 | Sign-off / finalization | Separate confirmation of the assigned review's decisions, distinct from saved item choices, campaign completion and source result. Normal next-generation sign-off makes review decisions read-only and initiates needed remediation; unsigned administrator-completion and broader editing scope remain bounded questions. | CRT-030 |
+| Signer | Person giving final review confirmation; distinguish current assignee, per-item decision makers and administrative policy-completion attribution. Working meaning, not a claimed native field or cryptographic mechanism. | CRT-043 |
 | Undecided | A review item has no decision; distinguish it from a review with saved decisions but no finalization. | CRT-030/039 |
 | Unsigned review | Assigned review not finalized, which can contain some or all saved item decisions. Does not mean every item is undecided. Treatment at administrator completion remains OQ-01, not a universal preserve/discard rule. | CRT-030/039 |
 | Reauthentication | Confirming the acting person's identity again through the configured sign-in service when required for completion. A prompt alone is not successful review sign-off or business justification. | CRT-030 |
@@ -114,6 +117,25 @@ These are author working meanings. Verify product-specific use in the applicable
 | Status | A recorded state of a particular object or operation. Always identify what the status describes. | CRT-042 |
 | Audit evidence | Records supporting what was scoped, reviewed, decided and done, with actor/time/context. It does not automatically establish every claim. | CRT-043/044 |
 | Report freshness | When a report was generated and which campaign state it represents; later campaign changes require a fresh report. A new report does not itself generate new review items or prove current source coverage. | CRT-019/044 |
+| Expected result | What the approved requirement and verified supporting facts say should be present or happen; distinguish current requirements from those used for an earlier generation. | CRT-045 |
+| Acceptance criterion | Clear required result judged against evidence for a named requirement and stage; readiness to start differs from achieved production-account outcome. Organizational meaning, not a native ISC gate. | CRT-048 |
+| Test case | Specified starting conditions, check/action and expected result, with environment/object/actor/evidence sufficient for another person to follow. | CRT-048 |
+| Retest | Repeating the relevant failed check after correction, identifying actual new instance/configuration/result; not necessarily reopening a signed review or repeating every step. | CRT-048 |
+| Regression check | Checking affected previously successful requirements after a change to ensure required behavior remains correct; earlier proof can be reused only within unchanged conditions and justified scope. | CRT-048 |
+| Discovery | Establishing the review's purpose, relevant facts, constraints and unanswered questions so design choices follow an approved requirement. Organizational working meaning, not a native ISC step. | CRT-047 |
+| Assumption | Belief relied on without sufficient confirming evidence; identify its design impact and who must establish or replace it. | CRT-047 |
+| Dependency | Prerequisite or result another part of the review design/work needs, with an owner, required evidence and affected commitment. | CRT-047 |
+| Agreed exception | Explicitly authorized departure from the requirement with recorded affected scope, reason, authority, owner, review date and follow-up under the organization's process. Not silently missing coverage or a claimed native ISC state. | CRT-047 |
+| Observed result | What the matched records actually show within their source, object, scope and observation time; not an inferred cause or an intended outcome. | CRT-045 |
+| Root cause | Evidenced cause that explains the named mismatch and identifies what needs correction. Working diagnostic meaning, not a native ISC field or a guarantee that a campaign has only one defect. | CRT-045 |
+| Campaign Composition Report | Report describing campaign configuration, including selection instructions; settings and Sources All do not establish complete actual membership. | CRT-044 |
+| Campaign Status Report | Item-level review report: actual choice, item state, current assignee, recorded decision maker/reason and applicable result fields have distinct meanings. | CRT-043/044 |
+| Certification Sign Off Report | Assigned-review confirmation evidence with actor and time; administrative attribution must be distinguished from original-reviewer personal confirmation. | CRT-043/044 |
+| Campaign Remediation Status Report | Rejected-item removal-state report; Finished/Completed can reflect source verification or manual task/ticket closure. Inspect actual path and current account outcome. | CRT-044 |
+| Provisioning Activity report | Report of provisioning events, with event details and query-scoped downloads; not automatically certification-only or full current-access proof. | CRT-044 |
+| Report metadata | Information describing the report record, such as campaign/report IDs, type, format, creation time and generation status; distinct from access-item rows. | CRT-044 |
+| HTTP response status | Request-level web response code interpreted for its operation; successful read or started report generation is not source-removal proof. | CRT-044 |
+| JSON | Text format holding named values and lists in API data; returned structure/field meanings belong to the actual documented operation. | CRT-044 |
 | Asynchronous processing | Work proceeds separately from the submitted request, with task/result evidence needed before claiming the business outcome. A tracking task or accepted request alone does not establish the intended review assignment. | CRT-025; supporting CRT-044/045 |
 | API endpoint | The address used for a particular software interaction; its operation, inputs and response handling depend on the target API and connector configuration. | CRT-033 |
 | Integration credentials | Configured account/password, token or other authentication material used by the software connection; distinct from reviewer authority and the target user's sign-in. | CRT-033 |
@@ -433,3 +455,31 @@ New terms may be added when a real explanation needs them. Avoid growing a gloss
 ## CRT-042 authored terminology, November 12, 2026
 
 [CRT-042 record](revisions/CRT-042_Revision_Record.md) adds Numerator and Denominator, bringing175 to177. Existing identity/account/subject/item/review/campaign, progress/status, Approve/Revoke/Acknowledge/role, signed/unsigned, API/pagination and remediation meanings remain local. Certification.Completed, signature evidence, report-item Complete and work Finished retain distinct scopes. Arithmetic is labelled example reasoning, not a universal native metric definition. No glossary prerequisite or tooltip implementation.
+
+## CRT-043 authored terminology, November 12, 2026
+
+[CRT-043 record](revisions/CRT-043_Revision_Record.md) adds Decision history and Signer, bringing177 to179. Existing campaign/review/item, identity/account/access, Approve/Revoke, assignment/source/group/API/SDK, reference/actor, comments and time meanings are locally explained. Current assignee, original item maker, later choice maker and final confirmation can differ. Group assignment and administrator policy completion do not establish all-member personal judgment. Native report labels and current versus historical records remain scoped. No glossary dependency, native history/signer object claim or tooltip implementation.
+
+## CRT-044 authored terminology, November 12, 2026
+
+[CRT-044 record](revisions/CRT-044_Revision_Record.md) adds the five report names, Report metadata, HTTP response status and JSON, bringing179 to187. JSON extends the brief's initial seven-term proposal because the saved API explanation needs it. Campaign/review/item/source/account, role/Acknowledge, request/response, asynchronous work, pagination, report freshness and the experimental header are explained locally. Report job state, item status, signature and account result remain distinct. No glossary prerequisite, invented JSON payload/schema, ready enum or tooltip implementation.
+
+## CRT-045 authored terminology, November 12, 2026
+
+[CRT-045 record](revisions/CRT-045_Revision_Record.md) adds Expected result, Observed result and Root cause, bringing187 to190. Existing campaign/review/item, identity/account/source, account/manager correlation, aggregation/optimized/unoptimized, scope/query/filter, entitlement/profile/role/lifecycle state, preview/activation/sign-off, ownership/transfer/visibility/API/header and time meanings are locally connected. Actual requirement, observed cause, requested repair and verified current/future result differ. No glossary dependency, native root-cause field or tooltip implementation.
+
+## CRT-046 authored terminology, November12,2026
+
+[CRT-046 record](revisions/CRT-046_Revision_Record.md) adds Regrant, bringing190 to191. Existing source/connector/identity/account/entitlement, integration credentials/service account, API/HTTP, Approve/Revoke/sign-off, remediation/provisioning/aggregation, retry/timeout/partial, profile/role/lifecycle state/effective access and session meanings stay local. Confirmed decision, actual operation, current permission and later collection remain separate. No native regrant object, glossary dependency or tooltip implementation.
+
+## CRT-047 authored terminology, November12,2026
+
+[CRT-047 record](revisions/CRT-047_Revision_Record.md) adds Discovery, Assumption, Dependency and Agreed exception, bringing191 to195. These describe organizational reasoning/records, not new ISC fields/features. Scope, identity/account/source, profile/entitlement/role/LCS, account/manager correlation, criteria/reviewer/authority, read-only integration, preview/activation/finality, remediation/provisioning/evidence and role definition/composition are locally explained. A reduced population does not silently fulfill all-holder scope; a read-only connection differs from retained reading access. No glossary dependency or tooltip implementation.
+
+## CRT-048 authored terminology, November12,2026
+
+[CRT-048 record](revisions/CRT-048_Revision_Record.md) adds Acceptance criterion, Test case, Retest and Regression check, bringing195 to199. Case/result labels and project checkpoints are organizational practices, not ISC states. Supporting roster/scope, account/source/entitlement/profile/role, actual data/correlation/manager, preview/activation, decision/sign-off, remediation/provisioning and evidence/time are locally connected. Unknown permission differs from failed write; corrected account-result proof differs from a fresh workflow exercise. No glossary dependency or tooltip implementation.
+
+## CRT-049 reused working meanings, November12,2026
+
+[CRT-049 record](revisions/CRT-049_Revision_Record.md) reuses the199 existing meanings; no glossary growth is forced. Scope, source/account/identity, entitlement/profile/role/lifecycle state, aggregation/correlation, selection/refinement, reviewer/permission, template/preview/start, decision/sign-off, remediation/provisioning/manual work and evidence are explained locally as needed. Project labels, business deadlines and observed illustration records are not asserted native fields/states. Next-cycle total accounts/identities differ from current export-holder counts. No tooltip implementation or learner glossary dependency.

@@ -17,6 +17,8 @@ modules:
     title: "8. Run and close the campaign"
   - id: read-evidence
     title: "9. Read the evidence and diagnose problems"
+  - id: project-reasoning
+    title: "10. Reason through a real campaign project"
 lessons:
   - id: CRT-001
     module: purpose
@@ -312,3 +314,52 @@ lessons:
     description: "Interpret count units, denominators, record-specific status and observation time before judging progress."
     source: "lessons/CRT-042_Understanding_Campaign_Counts_Progress_and_Statuses.md"
     url: "/lessons/CRT-042_Understanding_Campaign_Counts_Progress_and_Statuses.html"
+  - id: CRT-043
+    module: read-evidence
+    placement: "Module 9 · Lesson 2"
+    title: "Who made the decision, and what was finally signed off?"
+    description: "Trace item choices, current responsibility, decision history and final confirmation."
+    source: "lessons/CRT-043_Tracing_Decision_Makers_History_and_Final_Sign_Off.md"
+    url: "/lessons/CRT-043_Tracing_Decision_Makers_History_and_Final_Sign_Off.html"
+  - id: CRT-044
+    module: read-evidence
+    placement: "Module 9 · Lesson 3"
+    title: "Which report answers the question we are asking?"
+    description: "Choose report and API evidence by question, scope, generation state and permission."
+    source: "lessons/CRT-044_Choosing_Reports_and_Reading_API_Evidence.md"
+    url: "/lessons/CRT-044_Choosing_Reports_and_Reading_API_Evidence.html"
+  - id: CRT-045
+    module: read-evidence
+    placement: "Module 9 · Lesson 4"
+    title: "The person, item or reviewer is wrong. Where did the mismatch begin?"
+    description: "Find the demonstrated cause across source data, identity association, scope, routing and visibility."
+    source: "lessons/CRT-045_Tracing_Person_Item_and_Reviewer_Mismatches.md"
+    url: "/lessons/CRT-045_Tracing_Person_Item_and_Reviewer_Mismatches.html"
+  - id: CRT-046
+    module: read-evidence
+    placement: "Module 9 · Lesson 5"
+    title: "The review says Revoke, but access still works. How do we investigate?"
+    description: "Trace finalized removal through actual work, account results, other grants and observation time."
+    source: "lessons/CRT-046_Investigating_Access_That_Remains_After_Revoke.md"
+    url: "/lessons/CRT-046_Investigating_Access_That_Remains_After_Revoke.html"
+  - id: CRT-047
+    module: project-reasoning
+    placement: "Module 10 · Lesson 1"
+    title: "What do we need to discover before designing the campaign?"
+    description: "Connect the business requirement to scope, decision units, responsibility, fulfillment and evidence."
+    source: "lessons/CRT-047_Discovering_Requirements_Before_Designing_a_Campaign.md"
+    url: "/lessons/CRT-047_Discovering_Requirements_Before_Designing_a_Campaign.html"
+  - id: CRT-048
+    module: project-reasoning
+    placement: "Module 10 · Lesson 2"
+    title: "How do we build a campaign readiness and acceptance plan?"
+    description: "Define stage-specific criteria and evidence, investigate failed checks and revalidate changed conditions."
+    source: "lessons/CRT-048_Building_a_Campaign_Readiness_and_Acceptance_Plan.md"
+    url: "/lessons/CRT-048_Building_a_Campaign_Readiness_and_Acceptance_Plan.html"
+  - id: CRT-049
+    module: project-reasoning
+    placement: "Module 10 · Lesson 3"
+    title: "Design and explain a complete periodic access review"
+    description: "Justify a quarterly review from current access through decisions, two removal paths and verified closure."
+    source: "lessons/CRT-049_Designing_and_Explaining_a_Complete_Periodic_Access_Review.md"
+    url: "/lessons/CRT-049_Designing_and_Explaining_a_Complete_Periodic_Access_Review.html"

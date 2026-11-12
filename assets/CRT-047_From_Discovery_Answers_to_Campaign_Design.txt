@@ -1,0 +1,22 @@
+Business question and required result
+                    |
+      Current people, accounts and access evidence
+                    |
+       +------------+-------------------+
+       |                                |
+What can be reviewed?          Who can judge the need?
+Object and grant origin        Knowledge and independence
+       |                                |
+       +------------+-------------------+
+                    |
+       Supported scope and reviewer design
+                    |
+       Removal responsibility and evidence
+                    |
+       Timing, dependencies and exceptions
+                    |
+       Recorded design basis for validation
+
+An unanswered requirement stays visible with an owner.
+A saved configuration does not prove the requirement.
+
