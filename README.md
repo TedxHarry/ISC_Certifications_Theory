@@ -2,7 +2,7 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-Fifty core lessons are published and live-verified in ten modules. Fresh core audit rereads cover CRT-001–048;2 of50 remain. CRT-005 revision1.2 is now published and live-verified. Other published versions are CRT-001–004/006–007 revision1.1 and CRT-008–050 revision1.0.
+Fifty core lessons are published and live-verified in ten modules. The [fresh core author audit](author/CORE_AUDIT_SUMMARY.md) is complete for CRT-001–050; zero core rereads remain. CRT-005 revision1.2 is the published audit correction. Other published versions are CRT-001–004/006–007 revision1.1 and CRT-008–050 revision1.0. Specialist depth and independent learner assessment remain separate work.
 
 The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/). The separate general ISC course is unchanged.
 
@@ -22,7 +22,7 @@ The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Cert
 
 Latest learner: [CRT-050, Can you defend the outcome when conditions change?](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md), revision1.0, published and live-verified. [Its author record](author/revisions/CRT-050_Revision_Record.md) maps missing-manager coverage, reviewer absence, denied removal, evidence-based handoff and changed-role reasoning.
 
-Next work: finish the [core audit](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) with CRT-049/050. All50 lessons are indexed;48 have complete fresh beginner author rereads.2 deep rereads remain before specialist sequencing. The accumulated audits and0051.2 correction are [published and live-verified](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md).
+Next work: prepare the X-01 role-composition route design and first-lesson brief, guided by the [whole-core findings](author/CORE_AUDIT_SUMMARY.md). All50 core lessons,32 concept rows,24 routine-task families and200 meanings have been reconciled as author evidence. Do not create a learner stub or fix an extension lesson count. The final audit/synthesis is authorized for publication after checks.
 
 All50 currently inventoried core topics are authored; zero remain unwritten in that inventory. This is an authoring milestone, not a claim that specialist routes, independent learner assessment or the entire course are complete. The coverage audit can identify justified additions or corrections. Five specialist routes remain planned depth, not five completed lessons.
 
@@ -74,3 +74,5 @@ The final currently planned core learner is published. Next continue the core co
 ## Observed publication, November 13, 2026
 
 [Publication record](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md) confirms contentdb42cca, successful Pages run43389639229 and full live50 verification:5935 units,50 diagrams/assets,59 tables and2648 internal link visits.0051.2 and all eight audit reports are pushed.48 fresh core rereads complete,2 remain,next049/050. No tenant, graphical or independent participant result is claimed.
+
+[Final batch](author/CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) completes049/050 with seventeen scoped primary bodies and no new learner correction. The [whole-core synthesis](author/CORE_AUDIT_SUMMARY.md) completes all50 fresh author rereads and reconciles32 concept rows,24 task families and200 meanings.0051.2 remains the single confirmed correction in this audit. Five specialist routes and independent learner assessment remain pending.

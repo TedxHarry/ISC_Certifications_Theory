@@ -1,27 +1,27 @@
 # ISC Certifications course register
 
-Version 8.1. Updated November 13, 2026.
+Version 8.2. Updated November 13, 2026.
 [Course design](COURSE_DESIGN.md) and [teaching standard](TEACHING_SPECIFICATION.md).
 
 ## Current position
 
-All50 core topics are authored/published in ten modules. [Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) completes043–048; cumulative001–048 fully reread,2 remain. No learner correction required in this batch.0051.2 and all accumulated audit records are now [published/live-verified](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md). Next049/050; five specialist routes planned.
+All50 core topics are authored/published in ten modules. [Batch09](author/CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) completes049/050; the [whole-core synthesis](author/CORE_AUDIT_SUMMARY.md) reconciles all50 fresh full author rereads,32 concept rows,24 task families and200 meanings. Zero core rereads remain. No new learner correction required;0051.2 is already published. Final audit/synthesis publication is authorized and pending verification. Five specialist routes and independent learner assessment remain pending.
 
 | Item | Actual state |
 |---|---|
 | Candidate core topics | 50; flexible coverage inventory, not a fixed lesson count |
 | Current grouping | 10 provisional modules; no fixed limit |
 | Specialist depth | 5 job-dependent routes; essential recognition remains core |
-| Routine work | 24 mapped task families; coverage planned, not yet demonstrated |
+| Routine work | 24 mapped task families; core theory locations author-audited; independent task performance remains unobserved |
 | Learner lessons written | 50 topics; published005 revision1.2,001–004/006–007 revision1.1 and008–050 revision1.0 |
 | Learner lessons author-reviewed | 50; source/coverage and full saved author read-through complete; independent learner assessment pending |
 | Reader feedback / learner assessment | User reported CRT-004 1.1 better on November 2 after difficulty with 1.0; independent uncoached assessment remains pending |
 | Reference aids authored | 0 standalone aids; fifty editable teaching diagrams accompany CRT-001–050 |
 | Latest authored learner | [CRT-050: Can you defend the outcome when conditions change?](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md); revision1.0, published/live-verified |
 | Current revision | Published/live-verified CRT-005 revision1.2; [evidence](author/revisions/CRT-005_Revision_1_2_Record.md). Latest new topic remains050, published1.0; earlier records preserved |
-| Next task | Audit049/050 in full;001–048 complete as fresh author rereads,all50 indexed.2 rereads remain before specialist sequencing. Authorized publication completed and live-verified |
-| Current author evidence | [Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md): six complete saved rereads, traced evidence/troubleshooting/readiness cases and twenty-five scoped primary bodies; no learner correction.0051.2 manual persistence rechecked before publication |
-| Feature currency | 17 capabilities/11 questions; fresh report/model/API scope, manager/account correlation, review routing, overlap and write-capability checks. OQ-01/07/09 remain bounded; no exhaustive update/tenant claim |
+| Next task | Publish/verify the final core audit and synthesis, then prepare X-01 role-composition route design and first-lesson brief; no051 stub or fixed extension count |
+| Current author evidence | [Batch09](author/CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md): two complete capstone rereads, reconciled changed cases and seventeen scoped primary bodies; [synthesis](author/CORE_AUDIT_SUMMARY.md) covers all nine batches. One confirmed core-audit correction: published0051.2 |
+| Feature currency | 17 capabilities/11 unresolved questions; selected source checks recorded per batch. Full reading is not exhaustive update coverage, tenant validation or a universal outcome for the bounded product questions |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
 | GitHub / publication | Fifty learners/ten modules published/live-verified; [latest record](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md). Contentdb42cca, successful Pages run43389639229;5935 units,50 diagrams/assets,59 tables,2648 internal link visits.0051.2 and all eight audits pushed |
 | Other ISC course | Separate and unchanged by this setup |
@@ -240,6 +240,10 @@ The design owns the current module placement and topic descriptions. This table 
 
 [Publication record](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md) confirms contentdb42cca, successful Pages run43389639229 and complete live50 verification:5935 units,50 diagrams/assets,59 tables,2648 internal link visits.0051.2 and all eight audits are pushed. Earlier local-only records retain their historical status; current continuation is049/050.
 
+## Final core audit and synthesis, November 13, 2026
+
+[Batch09](author/CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) fully rereads049/050 and checks seventeen primary bodies. [Synthesis](author/CORE_AUDIT_SUMMARY.md) completes all50 fresh author rereads; zero core rereads remain.32 concept rows/24 task families/200 meanings reconcile. No new learner correction;0051.2 already published. Five specialist routes,11 product questions and independent learner assessment remain open. Final publication authorized.
+
 ## Next action
 
-Next audit049/050 in full: complete periodic access-review design and defense when conditions change.001–048 have complete fresh author rereads;049/050 remain indexed with2 deep rereads pending. Repair demonstrated gaps one complete learner file at a time.0051.2 and the accumulated audits are published/live-verified; preserve historical evidence. Finish the core audit before sequencing five specialist routes.200 meanings/17 capabilities/11 open questions; no051 or independent participant/tenant result.
+Publish and verify the completed final audit/synthesis. The fresh author core audit is complete for001–050; zero core rereads remain. Next prepare the X-01 role-composition extension design and first complete-lesson brief, reusing the core and verifying engine/manual-change responsibilities before detailed claims. Let content determine lesson boundaries and count; do not create051 or a stub as a placeholder. Five specialist routes remain planned.200 meanings/17 capabilities/11 open questions; independent learner assessment and later hands-on validation remain separate.

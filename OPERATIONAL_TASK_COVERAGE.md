@@ -1,8 +1,8 @@
 # ISC certifications: operational task coverage
 
-Planning revision 6.9. November 13, 2026.
-Companion to [course design 9.0](COURSE_DESIGN.md).
-Status: coverage committed for authoring. CRT-001 revision 1.0 develops the purpose/current-need foundation for task 1 and introduces supporting access/decision/outcome meanings. CRT-002 adds object/actor and evidence-unit foundations for tasks 7/8/9/10/14. CRT-003 adds a connected data/review/removal/evidence trace supporting tasks 2/7/14/17/18/19/21/22. CRT-004 develops the purpose/control comparison and supports tasks 1/13/14/17/20. CRT-005 develops source-data/ownership foundations supporting tasks 2/7/13/21/22. CRT-006 develops review-object/assignment-scope foundations supporting tasks 3/13/14/20/21. CRT-007 develops appearance/absence diagnosis supporting tasks 2/7/12/13/14. CRT-009 develops access-meaning/description readiness and current-need reasoning for tasks 2/8/13/14. CRT-010 develops baseline and generated-population evidence for tasks 1/2/4/7/8/13/22. CRT-011 develops manager-question/data/assignment foundations for tasks 1/2/3/7/8/10/11/14. CRT-012 develops source-owner purpose/readiness/assignment foundations for tasks 1/2/3/7/8/10/11/14/21. CRT-013 develops people/access-object selection and actual resulting scope for tasks 1/3/4/7/13. CRT-014 develops access-refinement and saved-scope/decision boundaries for tasks 1/3/4/7/13/14. CRT-015 develops approach-selection and review-target reasoning for tasks 1/2/3/4/7/8/13/14/20. CRT-016 develops query matching and actual selection/evidence reasoning for tasks 1/2/4/7/13/22. CRT-017 develops single-filter and actual-content reasoning for tasks 1/2/4/5/7/13/14/22. CRT-018 develops supported combined-scope reasoning for tasks 1/2/4/5/7/13/14/22. CRT-019 develops observation/generation/report time and existing-work reasoning for tasks 2/6/7/9/10/11/13/14/22. CRT-020 develops reusable-definition/schedule/preview/activation and separate-cycle reasoning for tasks 2/6/7/8/12/13/22/24. CRT-021 develops actual preview acceptance and verified authorized launch for tasks 1/2/4/5/7/8/10/12/13/14/15/16/22/24. CRT-022 develops reviewer choice/input/assignment and actor/permission reasoning for tasks 1/2/3/7/8/10/11/12/13/14/22. CRT-023 develops missing/stale/invalid responsibility and route-specific fallback diagnosis for tasks 2/3/7/8/10/11/12/13/14/22. CRT-024 develops own-access routing/manual restriction and exact actor/coverage reasoning for tasks 2/7/8/10/11/12/13/14/15/22. CRT-025 develops precise existing-work handover and actual result/visibility for tasks 1/2/7/8/10/11/12/13/14/15/22. CRT-026 develops absence/departure continuity, configured new-work redirection and actual existing-work responsibility for tasks 1/2/7/8/10/11/12/13/14/15/22. CRT-027 develops decision-input and conditional context reasoning for tasks 1/2/7/8/13/14/15/20/22. CRT-028 develops action/origin/type and decision-versus-result reasoning for tasks 1/2/7/8/13/14/15/17/18/19/20/21/22. CRT-029 develops useful reasons/evidence, criteria, multi-item scope/result and actual actor/report interpretation for tasks 1/2/7/8/13/14/15/17/21/22. CRT-030 develops saved/unsigned versus signed review, scoped change/reauthentication and distinct campaign/account evidence for tasks 2/7/8/9/11/12/14/15/17/18/19/21/22. CRT-031 develops specific evidence gaps, consultation/verified handover and conditional context for tasks 1/2/7/8/10/11/12/13/14/15/16/17/21/22. Detailed remaining task mechanics remain planned. Actual learner performance has not been validated.
+Planning revision 7.0. November 13, 2026.
+Companion to [course design 9.1](COURSE_DESIGN.md).
+Status: all24 routine-task families have authored core locations and have been reconciled through the complete fresh author audit of CRT-001–050. The whole-core synthesis records the evidence and its limits. This is theory/author review, not observed learner task performance, a tenant run or a statistical frequency ranking. Five job-dependent specialist routes remain planned.
 Authoring must follow the [teaching specification](TEACHING_SPECIFICATION.md) and reconcile each completed task against its saved lesson record.
 
 CRT-008 now develops exact account/ownership foundations for tasks 2/7/13/14/17/18/19/21/22: distinguish repeated-looking access on different accounts, confirm the actual decision/operation target and verify both intended removal and retained approved access. Its uncorrelated and machine/service sections develop required X-02/X-03 recognition, not full dedicated campaign procedures. [The author record](author/revisions/CRT-008_Revision_Record.md) reconciles the saved teaching and independent wrong-account transfer. This is authored task support, not demonstrated production competence or an observed learner pass.
@@ -13,7 +13,7 @@ Every mapped task must teach the purpose, actor/permission, required input, appl
 
 ## Before launch
 
-| Task | What the learner must reason through | Planned location |
+| Task | What the learner must reason through | Authored core locations |
 |---|---|---|
 | 1. Clarify the review request | Business question, people/access/accounts in scope, accountable owners and required outcome. | CRT-001/011–015/047 |
 | 2. Check source data and ownership readiness | Collected versus live access, correlation, manager/source owner, missing data and account identity. | CRT-005/008–010/023 |
@@ -26,7 +26,7 @@ Every mapped task must teach the purpose, actor/permission, required input, appl
 
 ## During an active review
 
-| Task | What the learner must reason through | Planned location |
+| Task | What the learner must reason through | Authored core locations |
 |---|---|---|
 | 9. Check campaign and reviewer progress | Correct unit, status, pending work, generated data and current observation time. | CRT-038/042/044 |
 | 10. Investigate a missing or incorrect reviewer | Manager/owner inputs, selected campaign rules, fallback and generated assignee. | CRT-022–024/045 |
@@ -39,7 +39,7 @@ Every mapped task must teach the purpose, actor/permission, required input, appl
 
 ## After decisions and through closure
 
-| Task | What the learner must reason through | Planned location |
+| Task | What the learner must reason through | Authored core locations |
 |---|---|---|
 | 17. Establish whether removal work should have started | Decision finality, supported trigger, revocation timing and exact item/account. | CRT-028/030/032 |
 | 18. Track automated or manual fulfillment | Applicable write path, authorized integration or assigned human task, action versus completion. | CRT-033/034/044 |
@@ -279,3 +279,5 @@ Do not treat reading completion, matching totals or a memorized button sequence 
 [Batch07](author/CORE_AUDIT_07_Verification_Progress_and_Closure.md) rereads037–042 chiefly for tasks9/12/15/16/21/22/23/24, supporting7/8/10/11/13/14/17/18/19/20. Actual cases require correct target/capability evidence, current work state, meaningful follow-up, scoped completion/correction and an explicit count denominator. Task/report labels do not replace account outcomes or judgment.42 full rereads,8 pending,next043–048; no production/participant result.
 
 [Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) rereads043–048 chiefly for tasks10/12/13/19/20/21/22/24 and supporting1–9/11/14–18/23. Cases require the correct actor/record, query/permission scope, diagnosed cause, preserved justified access, independent expected sets and stage-specific evidence.48 full rereads,2 pending,next049/050. Project planning examples are supplied teaching cases, not observed production or participant results.
+
+[Whole-core synthesis](author/CORE_AUDIT_SUMMARY.md) reconciles all24 task families with authored, freshly reread locations across001–050.049/050 integrate periodic design, two fulfillment paths, changed population, reviewer absence, denied write and accepted handoff. The map's present-tense status now distinguishes authored theory support from unobserved learner execution; historical author evidence remains unchanged. No new task row.

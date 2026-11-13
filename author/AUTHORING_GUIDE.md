@@ -1,6 +1,6 @@
 # Authoring guide and lesson briefs
 
-Version 8.0. November 13, 2026.
+Version 8.1. November 13, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
@@ -1398,3 +1398,21 @@ Local checks passed November 13, 2026:208 files,141 Markdown files,888 resolving
 ## Observed publication, November 13, 2026
 
 [Publication record](PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md) confirms contentdb42cca, successful Pages run43389639229 and full live50 verification:5935 units,50 diagrams/assets,59 tables and2648 internal link visits.0051.2 and all eight audit reports are pushed.48 fresh core rereads complete,2 remain,next049/050. No tenant, graphical or independent participant result is claimed.
+
+## Final core audit and publication brief, November 13, 2026
+
+Read CRT-049/050 in full, reconcile their ordinary and changed cases, and recheck the material product dependencies. Complete cumulative fresh author rereads001–050, then synthesize all nine audit batches against32 concept rows,24 routine-task rows,200 meanings and11 open questions. Separate full reading, selected source verification, learner performance, tenant behavior and publication.
+
+Baseline209 files at e4b9ce8e1ee398182940caa002652916e2322d09 includes the published0051.2 correction and eight historical audit reports. Preserve all50 learners/assets and prior records unless a demonstrated learner gap requires correction. Change nine current metadata documents and add the complete final batch and whole-core synthesis. The user's latest request authorizes pushing completed work and verifying Pages.
+
+Do not mark specialist routes authored or invent051. After whole-core synthesis, the next task is a scoped X-01 role-composition route design and first-lesson brief, reusing the core and verifying its engine/manual-change dependencies. Let the required explanation determine the eventual lesson count. Actual independent learner assessment and hands-on validation remain separate.
+
+## Final batch and whole-core continuation, November 13, 2026
+
+[Batch09](CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) reads049/050 completely without truncation and records seventeen scoped primary bodies. No new learner correction. [Synthesis](CORE_AUDIT_SUMMARY.md) completes all50 fresh author rereads, reconciles32 concept rows/24 task families/200 meanings and retains17 capabilities/11 questions. The single demonstrated fresh-audit correction is published0051.2. Earlier records remain historical; no learner or reader change in this final batch.
+
+Publish and verify the completed final audit/synthesis. The fresh author core audit is complete for001–050; zero core rereads remain. Next prepare the X-01 role-composition extension design and first complete-lesson brief, reusing the core and verifying engine/manual-change responsibilities before detailed claims. Let content determine lesson boundaries and count; do not create051 or a stub as a placeholder. Five specialist routes remain planned.200 meanings/17 capabilities/11 open questions; independent learner assessment and later hands-on validation remain separate.
+
+## Executed local checks
+
+Prepublication checks passed November 13, 2026:211 files,144 Markdown files,933 resolving relative links,228 table groups and2607 rows. Against209 baseline files,200 remain byte-identical; only nine current metadata documents change and the complete final batch/synthesis are added. All50 learners/assets, published0051.2, prior audit/revision/publication evidence, manifest, reader, styles, tests and verifier remain unchanged. Ordered lesson IDs/headings/URLs, ten modules,32 coverage rows,24 task rows,200 unique meanings,17 capabilities and11 questions reconcile; all mapped primary references resolve. Local verifier passes50 lessons/5935 units/50 diagrams/59 tables/50 assets. All four navigation tests and Markdown structure/whitespace checks pass. These are author/local checks; actual deployment follows separately.

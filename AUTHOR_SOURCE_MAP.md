@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 9.0. Updated November 13, 2026; dated checks distinguish each stage.
+Authoring source reference 9.1. Updated November 13, 2026; dated checks distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant action, test campaign or provisioning change was performed. [Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) records043–048 full rereads and twenty-five scoped primary bodies;48 complete,2 pending,next049/050.0051.2 manual-link persistence is freshly rechecked and now published. [Actual deployment/live verification](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md) is separate from source/learner/tenant evidence.200 meanings/17 capabilities/11 questions.
+No tenant action, test campaign or provisioning change was performed. [Batch09](author/CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) records049/050 full rereads and seventeen scoped primary bodies. [Synthesis](author/CORE_AUDIT_SUMMARY.md) completes the50-lesson fresh author audit; source checks remain selected, not exhaustive releases.0051.2 is published.200 meanings/17 capabilities/11 open questions remain. Final audit publication is separately observed.
 
 ## Primary source map
 
@@ -542,3 +542,5 @@ Content 66ecaadfe6ca5c2230abe002801696747b3e5d79 was pushed to main. [Pages run 
 ## Observed publication, November 13, 2026
 
 [Publication record](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md) confirms contentdb42cca, successful Pages run43389639229 and full live50 verification:5935 units,50 diagrams/assets,59 tables and2648 internal link visits.0051.2 and all eight audit reports are pushed.48 fresh core rereads complete,2 remain,next049/050. No tenant, graphical or independent participant result is claimed.
+
+[Final batch](author/CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) records seventeen current primary bodies and two complete capstone rereads. Current source comparisons retain OQ-01/02/05/07; the other questions retain earlier scoped investigations. [Synthesis](author/CORE_AUDIT_SUMMARY.md) separates all50 full author reads from selected source checks, exhaustive release coverage, tenant behavior and actual learner results.17 capabilities/11 questions and200 meanings remain.

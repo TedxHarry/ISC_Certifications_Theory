@@ -1,10 +1,10 @@
 # SailPoint ISC Certifications: Understanding Access Reviews from Scope to Verified Outcome
 
-Course design 9.0. November 13, 2026.
+Course design 9.1. November 13, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: all50 core topics authored/published in ten modules. Fresh audit001–048 complete as author rereads;2 deep rereads remain,all50 indexed. Batch08 needs no learner correction.0051.2 and all accumulated audits are published/live-verified. Five specialist routes planned.
+Status: all50 core topics authored/published in ten modules. Fresh author audit001–050 complete; zero core rereads remain. [Whole-core synthesis](author/CORE_AUDIT_SUMMARY.md) reconciles32 concepts/24 task families/200 meanings.0051.2 is published; no final-batch learner correction required. Final audit/synthesis is ready for authorized publication. Five specialist routes remain planned.
 
-Current priority: audit049/050. Authorized publication and complete live50 verification succeeded.043–048 connect actors/history, question-led evidence, exact mismatch causes, retained access and stage-specific readiness.200 meanings/17 capabilities/11 questions; independent learner assessment, wider product boundaries and specialist depth remain pending.
+Current priority: publish/verify the final audit and synthesis, then prepare the X-01 role-composition route design and first-lesson brief. Avoid duplicating core teaching; verify the engine and actual manual-change responsibility. Lesson count follows the content.17 capabilities/11 open questions, independent learner assessment and specialist depth remain pending.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
@@ -546,3 +546,5 @@ All50 current core candidates are authored; zero remain unwritten in this invent
 ## Observed publication, November 13, 2026
 
 [Publication record](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md) confirms contentdb42cca, successful Pages run43389639229 and full live50 verification:5935 units,50 diagrams/assets,59 tables and2648 internal link visits.0051.2 and all eight audit reports are pushed.48 fresh core rereads complete,2 remain,next049/050. No tenant, graphical or independent participant result is claimed.
+
+[Final batch](author/CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) completes049/050; the [synthesis](author/CORE_AUDIT_SUMMARY.md) closes the fresh author audit of all50 core learners. Scope/data/route/reviewer/decision/finality/delivery/evidence/closure and changed conditions are connected in the capstones. Zero core rereads remain. No new learner edit;0051.2 already published. Next prepare X-01 depth against the existing core; no fixed count or learner stub.

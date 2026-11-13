@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 3.45. November 13, 2026.
+Version 3.46. November 13, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -510,3 +510,5 @@ New terms may be added when a real explanation needs them. Avoid growing a gloss
 [Batch07](CORE_AUDIT_07_Verification_Progress_and_Closure.md) checks local meanings for verification/effective access/session, observation/report time, notification/reminder/template, overdue/undecided/unsigned, completion/closure, template/preview/activation, correction/regeneration/retirement/deletion, numerator/denominator/subject/pagination and field-specific completed status. Existing200 meanings suffice. No new term, glossary dependency or learner revision. Local0051.2 preserved.
 
 [Batch08](CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) checks local meanings for reviewer/decision maker/signer/history; report metadata/IDs/request/response/HTTP/header; account/manager correlation and root cause; retry/regrant/effective access; discovery/criteria/dependency/exception; acceptance/test/blocked/retest/regression and stage/environment scope. Existing200 meanings suffice. No new term or glossary dependency; earlier0051.2 preserved.
+
+[Final batch](CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) checks local meanings through periodic review and changed-condition defense. Existing200 meanings suffice; no term added or glossary dependency introduced. [Whole-core synthesis](CORE_AUDIT_SUMMARY.md) confirms primary references resolve to authored, freshly reread lessons. This is author traceability/clarity evidence, not an observed learner explanation of every term. Published0051.2 preserved.
