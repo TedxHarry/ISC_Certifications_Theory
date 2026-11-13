@@ -1,10 +1,10 @@
 # Authoring guide and lesson briefs
 
-Version 8.15. November 13, 2026.
+Version 8.16. November 13, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
-Current priority: [local reader readiness](LOCAL_READER_READINESS_REVIEW_2026-11-13.md) is complete. Maintain the curated term dictionary alongside the relevant lesson meanings; never depend on a popup to supply missing teaching.109 helper meanings do not replace214 author entries.0591.0, six revisions and reader changes remain local; next publish only when requested and verify the actual Pages output. No automatic060; actual learner validation remains pending.
+Current priority: the [59-topic edition](PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md) is published/live-verified, including059, six revisions and109 curated reader meanings. Maintain needed reasoning in the prose and the214-entry author register separately. No automatic060 or module quota; actual learner validation remains pending.
 
 ## Resume without losing the task
 
@@ -1413,7 +1413,7 @@ Do not mark specialist routes authored or invent051. After whole-core synthesis,
 
 [Batch09](CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) reads049/050 completely without truncation and records seventeen scoped primary bodies. No new learner correction. [Synthesis](CORE_AUDIT_SUMMARY.md) completes all50 fresh author rereads, reconciles32 concept rows/24 task families/200 meanings and retains17 capabilities/11 questions. The single demonstrated fresh-audit correction is published0051.2. Earlier records remain historical; no learner or reader change in this final batch.
 
-Local reader preparation is complete for the59-topic edition. The main route stays30 lessons, with26 task references and3 practice cases.109 curated term meanings now support hold-to-read help; this is not the entire214-entry author register. The release also includes0591.0 and six focused lesson revisions. Next publish the prepared changes only when requested, then verify the actual Pages build and served content. No new lesson is required by a quota; actual learner/tenant validation remains pending.
+The59-topic edition is published and live-verified in30 main/26 task reference/3 practice, with109 curated hold-to-read meanings. No new lesson is queued merely to meet a count. Maintain verified content when a demonstrated teaching gap or supported product change requires it; the later hands-on course remains separate. Actual learner/tenant validation and the11 scoped product questions remain open.
 
 ## Executed local checks
 

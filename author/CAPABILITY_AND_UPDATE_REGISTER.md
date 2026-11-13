@@ -1,6 +1,8 @@
 # Capability, update and open-question register
 
-Version 6.21. November 13, 2026.
+Version 6.22. November 13, 2026.
+
+The [current publication](PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md) deploys059, six revisions and reader help. Actual build/served-content checks add publication evidence, not product or tenant evidence.17 capabilities and11 open questions remain unchanged.
 Source leads: [official source map](../AUTHOR_SOURCE_MAP.md).
 Purpose: stop unsupported current/legacy/availability claims entering lessons.
 

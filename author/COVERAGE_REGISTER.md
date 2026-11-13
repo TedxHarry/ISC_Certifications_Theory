@@ -1,13 +1,13 @@
 # Coverage ownership register
 
-Version 3.59. November 13, 2026.
+Version 3.60. November 13, 2026.
 Companions: [course design](../COURSE_DESIGN.md), [routine task map](../OPERATIONAL_TASK_COVERAGE.md), [teaching specification](../TEACHING_SPECIFICATION.md).
 
 All32 concept rows have authored core teaching locations reconciled against the complete fresh author audit001–050. [Whole-core synthesis](CORE_AUDIT_SUMMARY.md) groups the concepts and records the evidence. Every mapped primary location is authored and freshly reread, including the published0051.2 manual-correlation repair. Specific unresolved product claims remain bounded in the capability register; independent learner assessment and specialist depth are pending. Earlier per-lesson evidence below retains its historical authoring stage.
 
 The published [reading-load revision](BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) changes placement, not the thirty-two coverage commitments: thirty main lessons, seventeen task references and three practice cases. Earlier audit statements describe the prior complete-read baseline. Five published revisions remove repeated introductions/diagnostics and move detailed flag lookup from027 to009. No task-specific reference is claimed unnecessary for someone doing that work.
 
-051–059 retain nine focused specialist tasks without changing the32 core commitments. The [combined review](SPECIALIST_CORE_CLARITY_AND_OVERLAP_REVIEW_2026-11-13.md) distinguishes useful local supporting explanations from repeated full teaching. Six local revisions correct a transition, meanings and wording; no topic is merged or removed. Local59/30/26/3; published58/30/25/3 at its recorded revisions.
+051–059 retain nine distinct specialist tasks and32 core commitments. The [current publication](PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md) confirms59/30/26/3 and six focused clarity revisions published/live-verified.109 curated reader meanings support the prose; no topic is merged or removed.
 
 Primary teaching means comprehensive treatment. Other lessons still explain the supporting meaning and connection needed for independent reading. Topic ownership does not justify sending an unfamiliar reader away.
 
@@ -82,7 +82,7 @@ Primary teaching means comprehensive treatment. Other lessons still explain the 
 | X-02 | Uncorrelated account and scope/ownership implications | [CRT-052](../lessons/CRT-052_Carrying_Out_an_Uncorrelated_Account_Access_Review.md) completes a focused local dedicated-campaign procedure, actual access outcome and separate verified association repair. [Evidence](revisions/CRT-052_Revision_Record.md);005 precision fixed, existing core ownership retained. |
 | X-03 | Machine/service account and responsible ownership | [CRT-053](../lessons/CRT-053_Carrying_Out_a_Machine_Account_Access_Review.md) completes a focused local dedicated-campaign walkthrough, accountable human review, exact permission removal and retained-use verification. [Evidence](revisions/CRT-053_Revision_Record.md); core008/015 preserved. |
 | X-04 | Available reviewer evidence and its limits | Local054–056 own activity/recommendation/cloud tasks; [CRT-057](../lessons/CRT-057_Using_Sensitive_Data_Details_in_an_Access_Review.md) adds sensitive-data interpretation with [evidence](revisions/CRT-057_Revision_Record.md). Core/reference foundations are preserved. Four bounded tasks are authored; no DAS deployment or exhaustive route claim. |
-| X-05 | IDs, read-only API observations and status meaning | Published058 plus local [CRT-059](../lessons/CRT-059_Reconciling_Review_Items_Across_an_Entire_Campaign.md) teach single-review paging and campaign-wide parent/item reconciliation. [059 evidence](revisions/CRT-059_Revision_Record.md); core042/044 remain. Combined overlap/clarity author review complete; no scripting course or exhaustive route claim. |
+| X-05 | IDs, read-only API observations and status meaning | Published058 and [CRT-059](../lessons/CRT-059_Reconciling_Review_Items_Across_an_Entire_Campaign.md) teach single-review paging and campaign-wide parent/item reconciliation. [059 author evidence](revisions/CRT-059_Revision_Record.md); core042/044 remain. Combined overlap/clarity author review complete; no scripting course or exhaustive route claim. |
 
 ## Coverage discipline
 

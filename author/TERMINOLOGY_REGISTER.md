@@ -1,6 +1,8 @@
 # Author terminology register
 
-Version 3.58. November 13, 2026.
+Version 3.59. November 13, 2026.
+
+The [current publication](PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md) serves109 curated helper meanings with59 learners. This214-entry register remains the separate author consistency aid. Definitions stay in lesson prose; publication does not establish learner understanding.
 
 The [local reader review](LOCAL_READER_READINESS_REVIEW_2026-11-13.md) adds109 concise helper meanings in ../_data/term_help.json. These are selected learner reminders drawn from existing teaching, not109 new author terms or a complete interactive version of this214-entry register. Keep aliases unambiguous and essential reasoning inline. The shared script limits ordinary-word matching to emphasized terminology.
 Purpose: consistent working meanings and primary teaching locations.

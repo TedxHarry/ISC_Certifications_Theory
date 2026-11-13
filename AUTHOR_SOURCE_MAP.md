@@ -1,13 +1,13 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 9.14. Updated November 13, 2026; dated checks distinguish each stage.
+Authoring source reference 9.15. Updated November 13, 2026; dated checks distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
 
 The [combined specialist/core review](author/SPECIALIST_CORE_CLARITY_AND_OVERLAP_REVIEW_2026-11-13.md) rechecks Search campaign start, authoritative/placeholder identity distinctions and the identity-campaign review-item API's authorized callers against primary documentation. Six local revisions correct wording or a missing transition; no availability conflict or open question is declared resolved. Historical source records below retain their original scope.
 
-Local [CRT-059](lessons/CRT-059_Reconciling_Review_Items_Across_an_Entire_Campaign.md) and [its record](author/revisions/CRT-059_Revision_Record.md) map four current primary bodies to campaign certification/item reconciliation. The exact parent/child SDK parameter sections supplement direct API descriptions; no unsupported name-filter example is copied. Authorization, campaign selection, parent completeness, child completeness and intended account/access relationships are separate checks. Local59/30/26/3; published58/30/25/3 remains.214 meanings/17 capabilities/11 questions, no tenant or learner result.
+[CRT-059](lessons/CRT-059_Reconciling_Review_Items_Across_an_Entire_Campaign.md) and [its record](author/revisions/CRT-059_Revision_Record.md) map four primary bodies to campaign certification/item reconciliation.0591.0 is published/live-verified. Exact parent/child parameter scope and caller visibility remain bounded.59/30/26/3;214 meanings/17 capabilities/11 questions; no tenant or learner result.
 
-Current [specialist publication](author/PUBLICATION_2026-11-13_SPECIALIST_REFERENCES_051_058.md) is pushed/live-verified:58 lessons/6,483 units/58 diagrams/assets/60 tables/3,532 internal link visits and all58 served routes. Pages run43474252543 succeeded for91299dd. Local statements below retain their original authoring checkpoints; publication does not establish tenant execution, exhaustive updates or learner mastery.
+Current [publication](author/PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md) is pushed/live-verified:59 lessons/6,575 units/59 diagrams/assets/61 tables/3,652 internal link visits and all59 served routes. Pages run43482061664 succeeded for87a4dd1. Earlier local/publication paragraphs retain their authoring checkpoints.
 
 [CRT-058](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) and [its record](author/revisions/CRT-058_Revision_Record.md) map three current primary teaching bodies to the X-05 page/set task: direct List Review Items, its official Python SDK contract and Standard Collection Parameters. Explicit record-based offset definition takes precedence over inconsistent prose in a later general example. No SDK code, unsupported id sorter, immutable snapshot or source-removal conclusion is copied.58 authored/214 meanings/17 capabilities/11 questions; user-authorized publication evidence remains separate.
 

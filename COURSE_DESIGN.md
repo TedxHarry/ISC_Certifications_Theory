@@ -1,10 +1,10 @@
 # SailPoint ISC Certifications: Understanding Access Reviews from Scope to Verified Outcome
 
-Course design 9.15. November 13, 2026.
+Course design 9.16. November 13, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status:59 complete learners locally in30 main/26 reference/3 practice. Six focused clarity revisions and0591.0 remain local. The [published edition](author/PUBLICATION_2026-11-13_SPECIALIST_REFERENCES_051_058.md) remains58/30/25/3 at its recorded revisions. The combined specialist/core author pass is complete; actual learner validation remains pending.
+Status:59 complete learners authored, published and live-verified in30 main/26 reference/3 practice. The [publication record](author/PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md) includes0591.0, six focused revisions and109 curated reader meanings. Historical evidence is retained; actual learner validation remains pending.
 
-Current priority: [local reader preparation](author/LOCAL_READER_READINESS_REVIEW_2026-11-13.md) is complete. The109 curated meanings supplement the prose; they do not replace its explanations or cover every author-register entry.059, six revisions and reader changes await requested publication and actual Pages verification. No extra lesson is required by a quota.
+The59-topic edition is published and live-verified in30 main/26 task reference/3 practice, with109 curated hold-to-read meanings. No new lesson is queued merely to meet a count. Maintain verified content when a demonstrated teaching gap or supported product change requires it; the later hands-on course remains separate. Actual learner/tenant validation and the11 scoped product questions remain open.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).

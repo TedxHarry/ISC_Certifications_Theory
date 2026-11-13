@@ -2,7 +2,7 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-Fifty-nine topics are authored locally in30 main/26 reference/3 practice. CRT-0591.0, six focused clarity revisions and the reader's hold-to-read term help remain local. The [reader readiness record](author/LOCAL_READER_READINESS_REVIEW_2026-11-13.md) records109 curated meanings, browser checks and the pending release scope. The [live edition](author/PUBLICATION_2026-11-13_SPECIALIST_REFERENCES_051_058.md) remains58 topics in30/25/3. Actual learner/tenant validation remains pending.
+Fifty-nine topics are authored, published and live-verified in30 main/26 reference/3 practice. The [current publication](author/PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md) covers0591.0, six clarity revisions and109 curated hold-to-read meanings. Actual learner/tenant validation remains pending.
 
 The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/). The separate general ISC course is unchanged.
 
@@ -20,11 +20,11 @@ The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Cert
 
 ## Current position
 
-Latest learner: [CRT-059, How do you reconcile review items across an entire campaign?](lessons/CRT-059_Reconciling_Review_Items_Across_an_Entire_Campaign.md), complete local revision1.0, not published. [Its record](author/revisions/CRT-059_Revision_Record.md) maps current API scope, parent/item collections, exact reconciliation and author review.
+Latest learner: [CRT-059](lessons/CRT-059_Reconciling_Review_Items_Across_an_Entire_Campaign.md), published revision1.0 and live-verified. [Its record](author/revisions/CRT-059_Revision_Record.md) retains the authoring-stage source and reading evidence.
 
-Local reader preparation is complete for the59-topic edition. The main route stays30 lessons, with26 task references and3 practice cases.109 curated term meanings now support hold-to-read help; this is not the entire214-entry author register. The release also includes0591.0 and six focused lesson revisions. Next publish the prepared changes only when requested, then verify the actual Pages build and served content. No new lesson is required by a quota; actual learner/tenant validation remains pending.
+The59-topic edition is published and live-verified in30 main/26 task reference/3 practice, with109 curated hold-to-read meanings. No new lesson is queued merely to meet a count. Maintain verified content when a demonstrated teaching gap or supported product change requires it; the later hands-on course remains separate. Actual learner/tenant validation and the11 scoped product questions remain open.
 
-The fifty-topic foundation and eight specialist references remain published/live-verified. The ninth specialist reference,059, is complete locally. The combined specialist/core author review is complete; its six focused revisions remain local.
+The fifty-topic foundation and nine specialist references are published. The combined specialist/core author pass and six focused revisions are complete. Counts follow teaching needs; publication is separate from observed learner competence.
 
 The user reported that CRT-004 revision 1.1 was better after difficulty reading 1.0. Independent uncoached assessment remains pending. Source checks and author review do not establish learner mastery, tenant execution or exhaustive release currency.
 
@@ -35,13 +35,13 @@ The user reported that CRT-004 revision 1.1 was better after difficulty reading 
 - author/revisions/: historical per-lesson coverage, sources, assumptions and actual checks.
 - _data/course.yml:59 complete local topics in30/26/3; the published58-topic edition remains30/25/3. Nine groups contain main-route lessons.
 
-Run npm ci, npm test and node author/verify-site.mjs for local checks. The published58-topic edition passed complete live checks. Local059 must be published before using --live against the current59-entry manifest.
+Run npm ci, npm test and node author/verify-site.mjs for local checks. The59-entry manifest matches the published edition; node author/verify-site.mjs --live now checks current public content.
 
 The reader keeps its collapsible panel and groups. Hold a marked term with the primary mouse button or a finger to see its meaning; release to close it. Keyboard users hold Space or Enter. Hover alone does not open help. Essential explanations remain in the lessons. Author/control documents are excluded from Pages.
 
 ## Publication
 
-The [latest publication record](author/PUBLICATION_2026-11-13_SPECIALIST_REFERENCES_051_058.md) records the58-topic edition: content91299dd, successful Pages run43474252543 and subsequent status commitfc378f4. It passed full content and route checks. The59-topic reader update has not been pushed; local browser checks do not establish a new Pages deployment.
+The [latest publication record](author/PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md) records content87a4dd1, successful Pages run43482061664,59 lessons/6,575 units/59 diagrams/assets/61 tables/3,652 internal link visits and all59 served routes. Earlier publication records remain historical.
 
 Earlier local-only statements in dated per-lesson records describe their historical authoring stages. Current publication status belongs in this README, the course register and the latest publication record.
 
