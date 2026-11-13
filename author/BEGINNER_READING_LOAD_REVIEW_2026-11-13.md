@@ -2,6 +2,8 @@
 
 November 13, 2026. Local changes, not published.
 
+Publication update after the user's later push request: [the lighter edition is published and live-verified](PUBLICATION_2026-11-13_LIGHTER_READING_ROUTES.md). Earlier local-only statements below record the editorial work before publication.
+
 ## Request and decision
 
 The user asked to reevaluate the entire course, remove redundancy and unnecessary material, and avoid overwhelming beginners. Pause specialist expansion for this work.

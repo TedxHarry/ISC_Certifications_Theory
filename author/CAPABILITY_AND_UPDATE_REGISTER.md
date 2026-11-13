@@ -4,7 +4,7 @@ Version 6.10. November 13, 2026.
 Source leads: [official source map](../AUTHOR_SOURCE_MAP.md).
 Purpose: stop unsupported current/legacy/availability claims entering lessons.
 
-The local [reading-load revision](BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) changes reader routes and five explanations. It does not change the seventeen capability areas or resolve the eleven open product questions. Exact engine triggers, unsigned completion, task recipients and other disputed outcomes remain bounded. Detailed licensed cloud/data mechanics are removed from the main reviewer explanation; X-04 remains planned rather than authored.
+The published [reading-load revision](BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) changes reader routes and five explanations. It does not change the seventeen capability areas or resolve the eleven open product questions. Exact engine triggers, unsigned completion, task recipients and other disputed outcomes remain bounded. Detailed licensed cloud/data mechanics are removed from the main reviewer explanation; X-04 remains planned rather than authored.
 
 A documentation scoping check is not a tenant test or final lesson verification. Exact relevant claims must be checked when the lesson is written and before affected publication. No exhaustive release-by-release audit or tenant-specific availability check has been completed.
 

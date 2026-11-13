@@ -3,7 +3,7 @@
 Planning revision 7.1. November 13, 2026.
 Companion to [course design 9.2](COURSE_DESIGN.md).
 Status: all24 routine-task families have authored core locations and have been reconciled through the complete fresh author audit of CRT-001–050. The whole-core synthesis records the evidence and its limits. This is theory/author review, not observed learner task performance, a tenant run or a statistical frequency ranking. Five job-dependent specialist routes remain planned.
-The local [reading-load revision](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) retains all twenty-four task families. Their locations now span main lessons, task reference and practice; the shorter main route alone is not a claim of full task readiness. Someone handling absence, failures, repairs or project acceptance must use the corresponding reference. No new task frequency measurement is claimed.
+The published [reading-load revision](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) retains all twenty-four task families. Their locations now span main lessons, task reference and practice; the shorter main route alone is not a claim of full task readiness. Someone handling absence, failures, repairs or project acceptance must use the corresponding reference. No new task frequency measurement is claimed.
 
 Authoring must follow the [teaching specification](TEACHING_SPECIFICATION.md) and reconcile each completed task against its saved lesson record.
 

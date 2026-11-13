@@ -5,25 +5,25 @@ Version 8.3. Updated November 13, 2026.
 
 ## Current position
 
-Fifty topics are authored. The local [reading-load revision](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) separates thirty main lessons, seventeen task references and three practice cases. Five learner edits and route-aware navigation are complete locally; they are not yet published. The previous fifty-lesson edition and [full author audit](author/CORE_AUDIT_SUMMARY.md) remain published/live-verified. All thirty-two concept rows, twenty-four task families and two hundred meanings retain teaching locations. Specialist expansion is paused; independent learner assessment remains pending.
+Fifty topics are authored and published in the [lighter edition](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md): thirty main lessons, seventeen task references and three practice cases. All five learner revisions and route-aware navigation are [published and live-verified](author/PUBLICATION_2026-11-13_LIGHTER_READING_ROUTES.md). Thirty-two concept rows, twenty-four task families and two hundred meanings retain teaching locations. Specialist expansion awaits evaluation of this edition; independent learner assessment remains pending.
 
 | Item | Actual state |
 |---|---|
-| Authored teaching topics | 50; thirty main lessons, seventeen task references and three practice cases locally |
+| Authored teaching topics | 50; thirty main lessons, seventeen task references and three practice cases published/live-verified |
 | Current grouping | Ten subject groups retained; nine have main-route lessons. Project material is reference/practice. No fixed module or lesson quota |
 | Specialist depth | 5 job-dependent routes; essential recognition remains core |
 | Routine work | 24 mapped task families; core theory locations author-audited; independent task performance remains unobserved |
-| Learner lessons written | 50 topics; local001/003 revision1.2 and009/015/027 revision1.1. Published versions remain earlier, with005 already at1.2 |
-| Learner lessons author-reviewed | Prior full fifty-lesson author audit complete; new editorial review and five local revisions recorded separately. Independent learner assessment pending |
+| Learner lessons written | 50 topics published;001/003/005 revision1.2,009/015/027 revision1.1; other current revisions unchanged |
+| Learner lessons author-reviewed | Prior full fifty-lesson author audit complete; editorial review and five published revisions recorded separately. Independent learner assessment pending |
 | Reader feedback / learner assessment | User reported CRT-004 1.1 better on November 2 after difficulty with 1.0; independent uncoached assessment remains pending |
-| Reference aids authored | No new standalone aids; seventeen existing lessons are task references locally. Fifty editable diagrams are retained |
+| Reference aids authored | No new standalone aids; seventeen existing lessons are published task references. Fifty editable diagrams are retained |
 | Latest authored learner | [CRT-050: Can you defend the outcome when conditions change?](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md); revision1.0, published/live-verified |
-| Current revision | Local reading-load changes:001/0031.2;009/015/0271.1.005 remains published1.2. Latest new topic remains050; no new topic or learner stub |
-| Next task | Keep the lighter edition local; obtain beginner feedback before specialist expansion. Publish only when requested |
+| Current revision | Reading-load changes published/live-verified:001/0031.2;009/015/0271.1.005 remains published1.2. Latest new topic remains050; no new topic or stub |
+| Next task | Obtain beginner feedback on the published lighter edition before adding specialist depth; no fixed lesson count or placeholder |
 | Current author evidence | [Batch09](author/CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md): two complete capstone rereads, reconciled changed cases and seventeen scoped primary bodies; [synthesis](author/CORE_AUDIT_SUMMARY.md) covers all nine batches. One confirmed core-audit correction: published0051.2 |
 | Feature currency | 17 capabilities/11 unresolved questions; selected source checks recorded per batch. Full reading is not exhaustive update coverage, tenant validation or a universal outcome for the bounded product questions |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
-| GitHub / publication | Fifty learners/ten modules published/live-verified; [latest record](author/PUBLICATION_2026-11-13_CORE_AUDIT_COMPLETE.md). Final-audit commitfe06f54, successful Pages run43391468176;5935 units,50 diagrams/assets,59 tables,2648 internal link visits. All nine audits and synthesis pushed |
+| GitHub / publication | [Lighter edition publication](author/PUBLICATION_2026-11-13_LIGHTER_READING_ROUTES.md): content f16c82c, successful Pages run43401120246;50 lessons/5841 units/50 diagrams/assets/57 tables/2644 internal link visits. Live30/17/3 grouping and all50 route boundaries verified |
 | Other ISC course | Separate and unchanged by this setup |
 
 ## Resume order
@@ -36,9 +36,9 @@ All fifty topics and the earlier full author audit are complete. The local readi
 
 | Lesson | Current explanation status | Next action |
 |---|---|---|
-| CRT-001 | Published1.1; shorter local1.2 complete | Learner feedback pending; local edition not published |
+| CRT-001 | Shorter revision1.2 published/live-verified | Preserve; actual learner feedback pending |
 | CRT-002 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
-| CRT-003 | Published1.1; shorter local1.2 complete | Learner feedback pending; local edition not published |
+| CRT-003 | Shorter revision1.2 published/live-verified | Preserve; actual learner feedback pending |
 | CRT-004 | Rewritten and published at 1.1; user reports it is better | Preserve the revised lesson |
 | CRT-005 | Published/live-verified1.2; earlier1.1 retained historically | Preserve1.2; no further edit in the reading-load revision |
 | CRT-006 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
@@ -62,21 +62,21 @@ These states are independent facts. A source check does not imply learner valida
 
 | Planning ID | Learning question | Writing state | Author review | Actual learner validation | Publication |
 |---|---|---|---|---|---|
-| CRT-001 | Why review access that somebody already approved? | Local revision1.2 complete | Focused reading-load revision recorded | Revised learner assessment pending | Published1.1;1.2 local |
+| CRT-001 | Why review access that somebody already approved? | Complete revision1.2 | Focused reading-load revision recorded | Revised learner assessment pending | Published revision1.2 |
 | CRT-002 | A campaign, a certification and a review item: what is being assigned? | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
-| CRT-003 | Follow one review from access data to a verified outcome | Local revision1.2 complete | Focused reading-load revision recorded | Revised learner assessment pending | Published1.1;1.2 local |
+| CRT-003 | Follow one review from access data to a verified outcome | Complete revision1.2 | Focused reading-load revision recorded | Revised learner assessment pending | Published revision1.2 |
 | CRT-004 | How is a certification different from an access request or lifecycle rule? | Complete revision 1.1 | Fresh source checks, coverage reconciliation and saved-file language/flow review complete | User reports 1.1 better; independent assessment pending | Published revision 1.1 |
 | CRT-005 | How does application access become information ISC can review? | Complete revision1.2 | Source check and full saved author language/flow reread complete | Revised learner assessment pending | Published revision1.2 |
 | CRT-006 | Are we reviewing an entitlement, an access profile or a role? | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
 | CRT-007 | Why does some access appear differently or not appear at all? | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
 | CRT-008 | One person has two accounts. Which account's access is under review? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
-| CRT-009 | Can the reviewer understand what this access actually permits? | Local revision1.1 complete; task reference | Context/flag lookup relocation recorded | Pending; not observed | Published1.0;1.1 local |
+| CRT-009 | Can the reviewer understand what this access actually permits? | Complete revision1.1; task reference | Context/flag lookup relocation recorded | Pending; not observed | Published revision1.1 |
 | CRT-010 | How do we establish that the review population is complete? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-011 | When is a manager review the right choice? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-012 | When should source owners review access? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-013 | Start with people or start with access items? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-014 | Which access should we review for the selected people? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
-| CRT-015 | Which campaign design answers this business question? | Local revision1.1 complete | Specialist-detail cuts recorded | Pending; not observed | Published1.0;1.1 local |
+| CRT-015 | Which campaign design answers this business question? | Complete revision1.1 | Specialist-detail cuts recorded | Pending; not observed | Published revision1.1 |
 | CRT-016 | What does this search actually select for the campaign? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-017 | How do campaign filters include or exclude review content? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-018 | What happens when selection rules and filters are combined? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
@@ -88,7 +88,7 @@ These states are independent facts. A source check does not imply learner valida
 | CRT-024 | How does ISC prevent someone reviewing their own access? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-025 | When should a review be reassigned? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-026 | The reviewer is absent or leaves during the campaign. What now? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
-| CRT-027 | What information should a reviewer inspect before deciding? | Local revision1.1 complete | Reviewer reasoning retained; lookup moved | Pending; not observed | Published1.0;1.1 local |
+| CRT-027 | What information should a reviewer inspect before deciding? | Complete revision1.1 | Reviewer reasoning retained; lookup moved | Pending; not observed | Published revision1.1 |
 | CRT-028 | What do Approve, Revoke and Acknowledge actually mean? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-029 | What makes a decision explainable later? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-030 | Is a saved decision the same as a signed-off review? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
@@ -246,4 +246,4 @@ The design owns the current module placement and topic descriptions. This table 
 
 ## Next action
 
-The local reading-load revision is complete: thirty main lessons, seventeen task references and three practice cases, with five edited learner files. Keep the lighter edition local until publication is requested. Seek actual beginner feedback on the shorter opening and route before expanding specialist depth. Any later specialist lesson needs a concrete task and a distinct gap in the existing teaching; no fixed lesson count or placeholder051.
+The lighter edition is published and live-verified: thirty main lessons, seventeen task references and three practice cases, with the five prose revisions. Seek actual beginner feedback on the shorter opening and route before adding specialist depth. Any new lesson needs a concrete certification task and a distinct gap in existing teaching; no fixed count or placeholder051.

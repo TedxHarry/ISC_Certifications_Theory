@@ -2,7 +2,7 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-Fifty teaching topics are authored. The local [reading-load revision](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) separates thirty main lessons, seventeen task references and three practice cases, and cuts repeated prose in five learner files. Permanent IDs and URLs are retained. This lighter edition is not yet published; the live site retains the previously verified fifty-lesson sequence. The earlier [full author audit](author/CORE_AUDIT_SUMMARY.md) remains evidence for that baseline. Specialist depth and independent learner assessment remain pending.
+Fifty teaching topics are authored and published. The [lighter reading edition](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) separates thirty main lessons, seventeen task references and three practice cases, with repeated prose cut from five learner files. Permanent IDs and URLs are retained. [Publication and live verification](author/PUBLICATION_2026-11-13_LIGHTER_READING_ROUTES.md) passed for the revised edition. Specialist depth and independent learner assessment remain pending.
 
 The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/). The separate general ISC course is unchanged.
 
@@ -22,9 +22,9 @@ The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Cert
 
 Latest learner: [CRT-050, Can you defend the outcome when conditions change?](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md), revision1.0, published and live-verified. [Its author record](author/revisions/CRT-050_Revision_Record.md) maps missing-manager coverage, reviewer absence, denied removal, evidence-based handoff and changed-role reasoning.
 
-The local reading-load revision is complete: thirty main lessons, seventeen task references and three practice cases, with five edited learner files. Keep the lighter edition local until publication is requested. Seek actual beginner feedback on the shorter opening and route before expanding specialist depth. Any later specialist lesson needs a concrete task and a distinct gap in the existing teaching; no fixed lesson count or placeholder051.
+The lighter edition is published and live-verified: thirty main lessons, seventeen task references and three practice cases, with the five prose revisions. Seek actual beginner feedback on the shorter opening and route before adding specialist depth. Any new lesson needs a concrete certification task and a distinct gap in existing teaching; no fixed count or placeholder051.
 
-No existing teaching topic is unwritten. The local edition makes thirty lessons the main route; seventeen topics are task reference and three are practice. Thirty is not a fixed target. Five possible specialist routes and independent learner assessment remain pending; add depth only for a concrete need.
+No existing teaching topic is unwritten. The published edition makes thirty lessons the main route; seventeen topics are task reference and three are practice. Thirty is not a fixed target. Five possible specialist routes and independent learner assessment remain pending; add depth only for a concrete need.
 
 The user reported that CRT-004 revision 1.1 was better after difficulty reading 1.0. Independent uncoached assessment remains pending. Source checks and author review do not establish learner mastery, tenant execution or exhaustive release currency.
 
@@ -33,7 +33,7 @@ The user reported that CRT-004 revision 1.1 was better after difficulty reading 
 - lessons/: complete learner Markdown files, one topic at a time.
 - assets/: editable teaching diagrams, paired with their learner explanations.
 - author/revisions/: historical per-lesson coverage, sources, assumptions and actual checks.
-- _data/course.yml: fifty complete reader lessons, CRT-001–050 in ten modules, published and live-verified.
+- _data/course.yml: fifty authored topics in the published main/reference/practice routes; thirty main lessons in nine nonempty subject groups.
 
 Run npm ci, npm test and node author/verify-site.mjs for local checks. node author/verify-site.mjs --live checks all published text, diagrams, tables, navigation, assets and representative author/control exclusions. All50 entries passed complete live checks. Quote markers are treated as Markdown formatting while quoted lesson text remains checked.
 
@@ -41,7 +41,7 @@ The reader keeps the collapsible side panel and independently collapsible module
 
 ## Publication
 
-All50 core learners are published and live-verified. The [latest publication record](author/PUBLICATION_2026-11-13_CORE_AUDIT_COMPLETE.md) records final-audit commitfe06f54, successful Pages run43391468176 and the complete live result:5935 units,50 diagrams/assets,59 tables and2648 internal link visits. All nine audit reports and the whole-core synthesis are pushed;0051.2 remains the published audit correction. Earlier publication records remain historical.
+The [latest publication record](author/PUBLICATION_2026-11-13_LIGHTER_READING_ROUTES.md) confirms commit f16c82c, successful Pages run 43401120246 and full live verification: fifty lessons, 5,841 content units, fifty diagrams/assets, fifty-seven tables and 2,644 internal link visits. Additional live checks passed all fifty route boundaries and the separate main/reference/practice groups. Earlier publication records remain historical.
 
 Earlier local-only statements in dated per-lesson records describe their historical authoring stages. Current publication status belongs in this README, the course register and the latest publication record.
 

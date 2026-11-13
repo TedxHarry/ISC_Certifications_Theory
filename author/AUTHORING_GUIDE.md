@@ -4,7 +4,7 @@ Version 8.2. November 13, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
-Current priority: the [reading-load revision](BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) supersedes earlier briefs below. Thirty main lessons, seventeen task references and three practice cases are implemented locally. Five learner revisions are local and not published. Specialist authoring is paused while the lighter edition is evaluated; no new topic, placeholder or fixed lesson quota.
+Current priority: the [reading-load revision](BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) supersedes earlier briefs below. Thirty main lessons, seventeen task references and three practice cases are published/live-verified, including all five learner revisions. Specialist authoring is paused while the published lighter edition is evaluated; no new topic, placeholder or fixed lesson quota.
 
 ## Resume without losing the task
 
@@ -1413,7 +1413,7 @@ Do not mark specialist routes authored or invent051. After whole-core synthesis,
 
 [Batch09](CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) reads049/050 completely without truncation and records seventeen scoped primary bodies. No new learner correction. [Synthesis](CORE_AUDIT_SUMMARY.md) completes all50 fresh author rereads, reconciles32 concept rows/24 task families/200 meanings and retains17 capabilities/11 questions. The single demonstrated fresh-audit correction is published0051.2. Earlier records remain historical; no learner or reader change in this final batch.
 
-The local reading-load revision is complete: thirty main lessons, seventeen task references and three practice cases, with five edited learner files. Keep the lighter edition local until publication is requested. Seek actual beginner feedback on the shorter opening and route before expanding specialist depth. Any later specialist lesson needs a concrete task and a distinct gap in the existing teaching; no fixed lesson count or placeholder051.
+The lighter edition is published and live-verified: thirty main lessons, seventeen task references and three practice cases, with the five prose revisions. Seek actual beginner feedback on the shorter opening and route before adding specialist depth. Any new lesson needs a concrete certification task and a distinct gap in existing teaching; no fixed count or placeholder051.
 
 ## Executed local checks
 

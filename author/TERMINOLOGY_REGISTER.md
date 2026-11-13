@@ -4,7 +4,7 @@ Version 3.47. November 13, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
-The local [reading-load revision](BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) retains two hundred meanings. Six extended flag lookup primary locations move to task reference009;027 keeps representative flag reasoning, recommendations and activity. Learners do not need to memorize this author register or complete every task reference in sequence.
+The published [reading-load revision](BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) retains two hundred meanings. Six extended flag lookup primary locations move to task reference009;027 keeps representative flag reasoning, recommendations and activity. Learners do not need to memorize this author register or complete every task reference in sequence.
 
 These are author working meanings. Verify product-specific use in the applicable lesson/engine. Reintroduce necessary terms in prose where they become useful. The learner should not be sent here to understand a missing explanation.
 

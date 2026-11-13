@@ -2,9 +2,9 @@
 
 Course design 9.2. November 13, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: fifty topics authored. Local [reading-load review](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) selects thirty main lessons, seventeen task references and three practice cases. Five learner revisions and navigation changes are local, not published. The previous full author audit and fifty-lesson edition remain published; specialist depth and independent learner assessment are pending.
+Status: fifty topics authored and published. The [reading-load review](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) selects thirty main lessons, seventeen task references and three practice cases. Five prose revisions and route-aware navigation are [published and live-verified](author/PUBLICATION_2026-11-13_LIGHTER_READING_ROUTES.md). Earlier audit records remain historical; specialist depth and independent learner assessment remain pending.
 
-Current priority: evaluate the lighter local edition before adding specialist lessons. Preserve independent explanations, normal flows and useful task reference. New depth needs a concrete certification task and a distinct gap; no fixed lesson or module count. Seventeen capabilities and eleven open questions remain.
+Current priority: evaluate the published lighter edition before adding specialist lessons. Preserve independent explanations, normal flows and useful task reference. New depth needs a concrete certification task and a distinct gap; no fixed lesson or module count. Seventeen capabilities and eleven open questions remain.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
