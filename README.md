@@ -22,7 +22,7 @@ The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Cert
 
 Latest learner: [CRT-050, Can you defend the outcome when conditions change?](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md), revision1.0, published and live-verified. [Its author record](author/revisions/CRT-050_Revision_Record.md) maps missing-manager coverage, reviewer absence, denied removal, evidence-based handoff and changed-role reasoning.
 
-Next work: prepare the X-01 role-composition route design and first-lesson brief, guided by the [whole-core findings](author/CORE_AUDIT_SUMMARY.md). All50 core lessons,32 concept rows,24 routine-task families and200 meanings have been reconciled as author evidence. Do not create a learner stub or fix an extension lesson count. The final audit/synthesis is authorized for publication after checks.
+Next work: prepare the X-01 role-composition route design and first-lesson brief, guided by the [whole-core findings](author/CORE_AUDIT_SUMMARY.md). All50 core lessons,32 concept rows,24 routine-task families and200 meanings have been reconciled as author evidence. The final audit/synthesis is [pushed and publication-verified](author/PUBLICATION_2026-11-13_CORE_AUDIT_COMPLETE.md); no learner stub or fixed extension count.
 
 All50 currently inventoried core topics are authored; zero remain unwritten in that inventory. This is an authoring milestone, not a claim that specialist routes, independent learner assessment or the entire course are complete. The coverage audit can identify justified additions or corrections. Five specialist routes remain planned depth, not five completed lessons.
 
@@ -41,7 +41,7 @@ The reader keeps the collapsible side panel and independently collapsible module
 
 ## Publication
 
-All50 core learners are published and live-verified. The [latest publication record](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md) records contentdb42cca, successful Pages run43389639229 and the complete live result:5935 units,50 diagrams/assets,59 tables and2648 internal link visits. CRT-0051.2 and all eight audit reports are pushed. The [earlier fifty-lesson record](author/PUBLICATION_2026-11-12_FIFTY_LESSONS.md) remains historical.
+All50 core learners are published and live-verified. The [latest publication record](author/PUBLICATION_2026-11-13_CORE_AUDIT_COMPLETE.md) records final-audit commitfe06f54, successful Pages run43391468176 and the complete live result:5935 units,50 diagrams/assets,59 tables and2648 internal link visits. All nine audit reports and the whole-core synthesis are pushed;0051.2 remains the published audit correction. Earlier publication records remain historical.
 
 Earlier local-only statements in dated per-lesson records describe their historical authoring stages. Current publication status belongs in this README, the course register and the latest publication record.
 

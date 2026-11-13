@@ -2,9 +2,9 @@
 
 Course design 9.1. November 13, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: all50 core topics authored/published in ten modules. Fresh author audit001–050 complete; zero core rereads remain. [Whole-core synthesis](author/CORE_AUDIT_SUMMARY.md) reconciles32 concepts/24 task families/200 meanings.0051.2 is published; no final-batch learner correction required. Final audit/synthesis is ready for authorized publication. Five specialist routes remain planned.
+Status: all50 core topics authored/published in ten modules. Fresh author audit001–050 complete; zero core rereads remain. [Synthesis](author/CORE_AUDIT_SUMMARY.md) reconciles32 concepts/24 task families/200 meanings.0051.2 and all nine audit reports/synthesis are published; final deployment/live verification passed. Five specialist routes and independent learner assessment remain pending.
 
-Current priority: publish/verify the final audit and synthesis, then prepare the X-01 role-composition route design and first-lesson brief. Avoid duplicating core teaching; verify the engine and actual manual-change responsibility. Lesson count follows the content.17 capabilities/11 open questions, independent learner assessment and specialist depth remain pending.
+Current priority: prepare the X-01 role-composition route design and first-lesson brief. Avoid duplicating the core; verify engine and actual manual-change responsibility. Lesson count follows the content. The full core audit and its publication are complete;17 capabilities/11 open questions, participant validation and specialist depth remain pending.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).

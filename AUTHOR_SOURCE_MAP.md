@@ -2,7 +2,7 @@
 
 Authoring source reference 9.1. Updated November 13, 2026; dated checks distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant action, test campaign or provisioning change was performed. [Batch09](author/CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) records049/050 full rereads and seventeen scoped primary bodies. [Synthesis](author/CORE_AUDIT_SUMMARY.md) completes the50-lesson fresh author audit; source checks remain selected, not exhaustive releases.0051.2 is published.200 meanings/17 capabilities/11 open questions remain. Final audit publication is separately observed.
+No tenant action, test campaign or provisioning change was performed. [Batch09](author/CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) records049/050 full rereads and seventeen scoped primary bodies; [synthesis](author/CORE_AUDIT_SUMMARY.md) completes all50 fresh author rereads. Source checks remain selected, not exhaustive updates. [Final publication](author/PUBLICATION_2026-11-13_CORE_AUDIT_COMPLETE.md) deployed and passed full live verification.200 meanings/17 capabilities/11 questions remain.
 
 ## Primary source map
 
