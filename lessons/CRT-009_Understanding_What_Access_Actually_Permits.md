@@ -144,11 +144,25 @@ Storing information on an access object does not establish that every field is a
 
 A field saying “Report totals only” does not outweigh confirmed evidence that the permission exports supplier bank details. Investigate the conflicting value, who maintains it and which information is current.
 
-## Flags and recommendations help with specific questions
+## Interpret a flag when it appears
 
-An **access flag** draws attention to information about the reviewed access.
+An **access flag** draws attention to information about the reviewed access. These labels answer different questions.
 
-For example, New Access means the access has not been certified previously. It does not, on its own, tell you the date the application granted it.
+| Flag | What it tells you | What to inspect next |
+|---|---|---|
+| New Access | The access has not previously been certified. | Its current need; use assignment history to establish its grant date. |
+| High Privilege (Overridden) | The entitlement was manually classified as highly privileged. | Its sensitive capabilities and why this account needs them. |
+| Contains Privileged Access | A profile or role includes privileged entitlement access. | Which component provides that access and whether the package is justified. |
+| Timebound Access | The access has an end date. | The relevant date and the authorized need up to that date. |
+| Comments | Comments are associated with the access. | Their author, date and relevance to this review. |
+| Cloud Enabled | The access relates to cloud infrastructure. | The relevant resources, permissions and available access details. |
+| Critical Data Access | The access includes critical data. | What data is reachable and why the person's task requires it. |
+
+The flag describes a fact to investigate; it does not supply this person's business justification. Read a comment's actual author and date, identify the component behind a package flag, and confirm what a time limit applies to. A missing flag is not evidence that the access is safe or necessary.
+
+Some richer context depends on licensed services and configuration. Data-access details can help explain sensitive information; cloud details can help identify resources and permissions. Inspect the actual scope presented rather than assume every tenant supplies the same fields.
+
+## Recommendations and activity supply other context
 
 A recommendation is suggested decision-support information. If it is available, inspect the reason behind it rather than treating the suggestion as an explanation of the permission.
 

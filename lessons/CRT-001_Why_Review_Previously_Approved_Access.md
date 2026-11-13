@@ -18,23 +18,13 @@ This is why the earlier approval is useful information, but not enough informati
 
 A handover could be one reason to keep the permission temporarily. A continuing reporting task could be another. If neither applies, the permission may have remained after its purpose ended. The permission's presence alone cannot tell us which explanation is true.
 
-## Connect the person with the permission ISC shows
+## Connect the person with the account
 
-SailPoint Identity Security Cloud, or **ISC**, keeps an **identity** representing the person. This identity connects information about them with their accounts and access.
+SailPoint Identity Security Cloud, or **ISC**, keeps an **identity** representing the person and connects it with their application accounts.
 
-The person's reporting account is still a record in the reporting application. ISC's identity and the application's account are separate records. The identity tells us which person we are discussing; the linked account tells us where their access exists.
+The account is where the permission exists. The identity helps establish whose work should justify that permission. Check that you are discussing the correct person and account.
 
-ISC represents an access right as an **entitlement**. For example, reports-export is an entitlement meaning permission to export reports.
-
-An administrator sets up a **source** in ISC to manage account data from the reporting application. The source is ISC's configuration for that data. The application remains the system where the account holds its working permissions.
-
-ISC reads account information from the application and records it against the source. This collection is called **account aggregation**. Here, the collected information shows that the reporting account holds reports-export.
-
-ISC also needs to connect that account to the correct person's identity. This association is called **account correlation**. Without the correct association, we could be discussing an account using the wrong person's responsibilities.
-
-For this example, both the association and collected information are correct. We know which person owns the account, which account we are reviewing and which permission it holds.
-
-Reading the permission into ISC has not granted it or approved it. It has given ISC information about access that already exists, so someone can review whether it should remain.
+ISC represents an access right as an **entitlement**. Here, reports-export means permission to export reports. The account already has it; showing that access in ISC does not grant or approve it.
 
 ## What does an access certification ask the reviewer to do?
 
@@ -117,55 +107,6 @@ Export permission is absent
 The first part explains why access was originally given. The second part follows the later review through the steps needed for the successful removal described above. The campaign's processing determines when removal work begins; the arrows do not promise that every step happens immediately.
 
 At the final check, someone verifies the account's actual permission. A Revoke decision by itself cannot supply that evidence.
-
-## If access remains, find out which step has not succeeded
-
-Suppose the review records Revoke, but a current check of the account still shows reports-export. No evidence of completed removal work has been supplied.
-
-The required outcome has not yet been established. The reviewer may have made the right decision while the removal remains unfinished or has failed.
-
-Check whether the review was finished and confirmed. Then follow the applicable removal work and inspect the result for the correct application account and permission.
-
-These checks help you establish where the difference began. From the facts above alone, you cannot say that the connection failed, that a task was ignored or that a particular campaign setting caused the problem. You need the evidence for the actual step.
-
-The old approval does not cancel the current Revoke decision. Equally, the current Revoke decision does not prove the application changed.
-
-## Use each record to answer the question it can answer
-
-The information about an access review serves different purposes. Keeping those purposes clear helps you choose what to inspect.
-
-| What you need to know | What you inspect | What it tells you |
-|---|---|---|
-| Why access was originally given | The earlier request and approval, when available | Why the access was accepted at that time |
-| Whether the person needs it today | What the permission allows and the person's current approved work | Whether keeping it is justified now |
-| What the reviewer decided | The review item and its recorded decision | Whether the reviewer chose to keep or remove the access |
-| Whether the required removal happened | Review confirmation, removal work and the correct account's current permissions | Whether the decision reached the intended account outcome |
-
-For example, the earlier approval can explain the original reporting task. To decide about continued export, you need information about today's task. To confirm removal, you need evidence about the account after the change.
-
-One record cannot answer all those questions simply because it says approved, revoked or complete. Establish what the label describes before using it as evidence.
-
-## A changed job title can leave the decision unanswered
-
-Suppose the person's job title changed, and the account still holds reports-export. Nobody has yet checked whether they still need to export reports during a handover or another continuing task.
-
-A title change gives us a reason to investigate. It has not established that the permission is unnecessary. It also has not established that keeping it is justified.
-
-Find out what reporting work remains, what that work requires and who has enough knowledge to confirm it. Then connect those facts with the permission.
-
-In this situation, gathering the missing information is part of doing the review properly. Choosing an answer without that information would make the decision look more certain than the facts support.
-
-## Two access records can describe different moments
-
-A certification includes reports-export. Later, an application administrator checks the account and confirms that the export permission has been removed.
-
-Both observations can be correct. The review used information available when its access data was collected or generated. The administrator checked the account after the later change.
-
-Before treating the records as a contradiction, confirm that they concern the same person, account and permission. Then compare when the data was collected, when the review was generated and when the later application check occurred.
-
-Also check the later account information in ISC after the relevant source collection and processing. Do not assume that every visible ISC record reads the application live or that an already generated review automatically changes when the source changes.
-
-This matters in both directions. Earlier data can show access that has since been removed. Missing or incomplete data can also leave actual account access out of what someone is inspecting.
 
 ## Why a later review can still be needed
 

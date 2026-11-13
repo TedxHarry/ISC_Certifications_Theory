@@ -1,10 +1,10 @@
 # SailPoint ISC Certifications: Understanding Access Reviews from Scope to Verified Outcome
 
-Course design 9.1. November 13, 2026.
+Course design 9.2. November 13, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: all50 core topics authored/published in ten modules. Fresh author audit001–050 complete; zero core rereads remain. [Synthesis](author/CORE_AUDIT_SUMMARY.md) reconciles32 concepts/24 task families/200 meanings.0051.2 and all nine audit reports/synthesis are published; final deployment/live verification passed. Five specialist routes and independent learner assessment remain pending.
+Status: fifty topics authored. Local [reading-load review](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) selects thirty main lessons, seventeen task references and three practice cases. Five learner revisions and navigation changes are local, not published. The previous full author audit and fifty-lesson edition remain published; specialist depth and independent learner assessment are pending.
 
-Current priority: prepare the X-01 role-composition route design and first-lesson brief. Avoid duplicating the core; verify engine and actual manual-change responsibility. Lesson count follows the content. The full core audit and its publication are complete;17 capabilities/11 open questions, participant validation and specialist depth remain pending.
+Current priority: evaluate the lighter local edition before adding specialist lessons. Preserve independent explanations, normal flows and useful task reference. New depth needs a concrete certification task and a distinct gap; no fixed lesson or module count. Seventeen capabilities and eleven open questions remain.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
@@ -229,6 +229,14 @@ Uncorrelated-account recognition and its effect on ordinary scope/ownership inve
 
 The specialist distinction concerns depth and job responsibility. A learner should recognize a specialist review need, explain its purpose and know the relevant limits after the core. Detailed configuration, unusual scenarios and automation belong in a job-dependent extension. An extension becomes required for a learner whose actual responsibilities need it.
 
+## Reading routes after the load review
+
+The manifest assigns every authored topic to one reading role: main, task reference or practice. The current result is thirty main lessons, seventeen task references and three practice cases. See the [fifty-topic decision map](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md); these counts are an editorial outcome, not quotas.
+
+The main sequence teaches the ordinary flow through data, scope, routing, decisions, delivery, verification and closure. Detailed queries, fallback branches, absence setup, diagnostics, audit history and project planning remain available when the work needs them. Combined-scope and end-to-end cases are practice. Main Next/Previous links do not silently continue into the other routes.
+
+Short local explanations still support opening any lesson directly. A reference label does not remove that teaching or imply its task is unimportant.
+
 ## Specialist extensions
 
 These are deeper routes selected by job or project need. They are not a classification of unimportant or rare work. Essential recognition and operational implications are taught in the core. Complete the relevant extension before claiming readiness for that specialist responsibility.
@@ -241,7 +249,7 @@ These are deeper routes selected by job or project need. They are not a classifi
 | X-04 | Rich decision support | Core CRT-027/031 teaches how to interpret available reviewer context. This route deepens licensed insights, configuration, limitations and unusual cases. |
 | X-05 | API and automation depth | Core CRT-042/044/045 includes basic operational API literacy. This route develops bulk/paginated investigations, template/filter/schedule automation and version/engine dependencies; no scripting exercises in this theory course. |
 
-Do not expand these into broad AI, non-human identity or API-development courses. Include deeper treatment only when it answers an actual certification requirement.
+Do not expand these into broad AI, non-human identity or API-development courses. Before adding a specialist lesson, identify the concrete certification task and the gap existing main/reference teaching cannot answer. The five routes are possible job-specific depth, not a required additional fifty-lesson course.
 
 ## Length and overlap review
 
@@ -267,7 +275,7 @@ Use a visual when it makes a relationship or branching flow easier to follow. Pl
 
 These are candidate visuals, not one per lesson or a fixed quota. Editable diagrams need a clear actor, arrow meaning, assumptions and supporting prose.
 
-Develop these aids with the relevant lessons:
+Create a standalone aid only when it solves a demonstrated lookup problem more clearly than the existing teaching. The following are candidates, not seven additional required lessons:
 - Certification object and terminology map.
 - Certifiable-access and assignment-origin comparison.
 - Campaign scope/preview validation worksheet.

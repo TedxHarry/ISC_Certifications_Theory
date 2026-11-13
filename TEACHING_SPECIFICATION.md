@@ -1,6 +1,6 @@
 # ISC Certifications teaching specification
 
-Version 1.1. Updated October 31, 2026.
+Version 1.2. Updated November 13, 2026.
 Applies to every learner lesson, reference aid and later revision in this course.
 
 ## Audience and result
@@ -87,6 +87,10 @@ Do not force every distinction into every lesson. Include the ones needed for it
 There is no target for modules, lessons, words, headings, examples, diagrams, tables or questions. The current outline is a flexible coverage inventory.
 
 Each lesson needs a distinct learning question and outcome. A term that needs two sentences does not automatically deserve a separate lesson. An overloaded lesson may need splitting. Remove genuine duplication while preserving supporting explanations that an independent reader needs.
+
+Keep the normal learning route separate from task reference and practice. Do not repeat a full diagnostic tree, evidence matrix or project cycle in an introductory lesson merely to make it comprehensive. Explain the supporting connection briefly and teach the full mechanism in its proper location. Never replace needed causal steps with a string of technical terms to meet a word limit.
+
+Before adding a lesson or standalone aid, state which new decision or mechanism it teaches and why an existing explanation cannot meet that need. A useful case may be practice instead of another compulsory lesson. Detailed reference remains necessary when the learner's job requires that task. Let the content determine route sizes; the current counts are not quotas.
 
 Use prose for reasoning, a table for a useful comparison and a diagram for a relationship or branching flow. Do not reproduce a successful pilot's surface layout as a compulsory template.
 

@@ -3,28 +3,54 @@ layout: default
 title: "Understand ISC access reviews"
 description: "SailPoint ISC access certifications explained through data, decisions and verified outcomes."
 ---
+{% assign core_lessons = site.data.course.lessons | where: "route", "core" %}
 <section class="course-introduction">
   <h1>Understand the review.<br>Follow the decision.</h1>
   <p class="lead">Learn how SailPoint ISC access certifications connect current business need, reviewer decisions and actual access changes.</p>
-  <p>Clear explanations for beginners and freshers who want to understand the reasoning behind everyday certification work.</p>
-  <p class="course-status">This course is being written one complete lesson at a time. {{ site.data.course.lessons.size }} {% if site.data.course.lessons.size == 1 %}lesson is{% else %}lessons are{% endif %} available in this working edition.</p>
-  <a class="start-link" href="{{ site.data.course.lessons.first.url | relative_url }}">Start with why access needs review</a>
+  <p>Follow the core flow from access information to review decisions and verified results. Use the task references when you need to investigate a problem or prepare a campaign project.</p>
+  <p class="course-status">{{ core_lessons.size }} lessons in the main route. Task references and practice cases are listed separately below.</p>
+  <a class="start-link" href="{{ core_lessons.first.url | relative_url }}">Start with why access needs review</a>
 </section>
 {% for module in site.data.course.modules %}
+{% assign module_lessons = core_lessons | where: "module", module.id %}
+{% if module_lessons.size > 0 %}
 <section class="course-module" aria-labelledby="module-{{ module.id }}">
   <h2 id="module-{{ module.id }}">{{ module.title | escape }}</h2>
   <ol class="course-lessons">
-    {% for lesson in site.data.course.lessons %}
-      {% if lesson.module == module.id %}
-      <li>
-        <span class="lesson-id">{{ lesson.id }}</span>
-        <div>
-          <h3><a href="{{ lesson.url | relative_url }}">{{ lesson.title | escape }}</a></h3>
-          <p>{{ lesson.description | escape }}</p>
-        </div>
-      </li>
-      {% endif %}
+    {% for lesson in module_lessons %}
+    <li>
+      <span class="lesson-id">{{ lesson.id }}</span>
+      <div>
+        <h3><a href="{{ lesson.url | relative_url }}">{{ lesson.title | escape }}</a></h3>
+        <p>{{ lesson.description | escape }}</p>
+      </div>
+    </li>
     {% endfor %}
   </ol>
 </section>
+{% endif %}
+{% endfor %}
+{% for route in site.data.course.reading_routes %}
+{% unless route.id == "core" %}
+{% assign route_lessons = site.data.course.lessons | where: "route", route.id %}
+<details class="course-library" id="{{ route.id }}">
+  <summary>{{ route.title | escape }} <span>({{ route_lessons.size }})</span></summary>
+  {% if route.id == "reference" %}
+  <p>Open the subject that matches your work: campaign preparation, reviewer cover, troubleshooting or evidence. These explanations are available whenever the task needs them.</p>
+  {% else %}
+  <p>Trace combined scope settings, follow a complete review, or explain what changes when a campaign encounters a problem.</p>
+  {% endif %}
+  <ol class="course-lessons">
+    {% for lesson in route_lessons %}
+    <li>
+      <span class="lesson-id">{{ lesson.id }}</span>
+      <div>
+        <h3><a href="{{ lesson.url | relative_url }}">{{ lesson.title | escape }}</a></h3>
+        <p>{{ lesson.description | escape }}</p>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+</details>
+{% endunless %}
 {% endfor %}

@@ -1,8 +1,10 @@
 # ISC certifications: operational task coverage
 
-Planning revision 7.0. November 13, 2026.
-Companion to [course design 9.1](COURSE_DESIGN.md).
+Planning revision 7.1. November 13, 2026.
+Companion to [course design 9.2](COURSE_DESIGN.md).
 Status: all24 routine-task families have authored core locations and have been reconciled through the complete fresh author audit of CRT-001–050. The whole-core synthesis records the evidence and its limits. This is theory/author review, not observed learner task performance, a tenant run or a statistical frequency ranking. Five job-dependent specialist routes remain planned.
+The local [reading-load revision](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) retains all twenty-four task families. Their locations now span main lessons, task reference and practice; the shorter main route alone is not a claim of full task readiness. Someone handling absence, failures, repairs or project acceptance must use the corresponding reference. No new task frequency measurement is claimed.
+
 Authoring must follow the [teaching specification](TEACHING_SPECIFICATION.md) and reconcile each completed task against its saved lesson record.
 
 CRT-008 now develops exact account/ownership foundations for tasks 2/7/13/14/17/18/19/21/22: distinguish repeated-looking access on different accounts, confirm the actual decision/operation target and verify both intended removal and retained approved access. Its uncorrelated and machine/service sections develop required X-02/X-03 recognition, not full dedicated campaign procedures. [The author record](author/revisions/CRT-008_Revision_Record.md) reconciles the saved teaching and independent wrong-account transfer. This is authored task support, not demonstrated production competence or an observed learner pass.
@@ -13,7 +15,7 @@ Every mapped task must teach the purpose, actor/permission, required input, appl
 
 ## Before launch
 
-| Task | What the learner must reason through | Authored core locations |
+| Task | What the learner must reason through | Authored teaching locations |
 |---|---|---|
 | 1. Clarify the review request | Business question, people/access/accounts in scope, accountable owners and required outcome. | CRT-001/011–015/047 |
 | 2. Check source data and ownership readiness | Collected versus live access, correlation, manager/source owner, missing data and account identity. | CRT-005/008–010/023 |
@@ -26,7 +28,7 @@ Every mapped task must teach the purpose, actor/permission, required input, appl
 
 ## During an active review
 
-| Task | What the learner must reason through | Authored core locations |
+| Task | What the learner must reason through | Authored teaching locations |
 |---|---|---|
 | 9. Check campaign and reviewer progress | Correct unit, status, pending work, generated data and current observation time. | CRT-038/042/044 |
 | 10. Investigate a missing or incorrect reviewer | Manager/owner inputs, selected campaign rules, fallback and generated assignee. | CRT-022–024/045 |
@@ -39,7 +41,7 @@ Every mapped task must teach the purpose, actor/permission, required input, appl
 
 ## After decisions and through closure
 
-| Task | What the learner must reason through | Authored core locations |
+| Task | What the learner must reason through | Authored teaching locations |
 |---|---|---|
 | 17. Establish whether removal work should have started | Decision finality, supported trigger, revocation timing and exact item/account. | CRT-028/030/032 |
 | 18. Track automated or manual fulfillment | Applicable write path, authorized integration or assigned human task, action versus completion. | CRT-033/034/044 |

@@ -1,8 +1,10 @@
 # Authoring guide and lesson briefs
 
-Version 8.1. November 13, 2026.
+Version 8.2. November 13, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
+
+Current priority: the [reading-load revision](BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) supersedes earlier briefs below. Thirty main lessons, seventeen task references and three practice cases are implemented locally. Five learner revisions are local and not published. Specialist authoring is paused while the lighter edition is evaluated; no new topic, placeholder or fixed lesson quota.
 
 ## Resume without losing the task
 
@@ -1411,7 +1413,7 @@ Do not mark specialist routes authored or invent051. After whole-core synthesis,
 
 [Batch09](CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) reads049/050 completely without truncation and records seventeen scoped primary bodies. No new learner correction. [Synthesis](CORE_AUDIT_SUMMARY.md) completes all50 fresh author rereads, reconciles32 concept rows/24 task families/200 meanings and retains17 capabilities/11 questions. The single demonstrated fresh-audit correction is published0051.2. Earlier records remain historical; no learner or reader change in this final batch.
 
-Next prepare the X-01 role-composition extension design and first complete-lesson brief, reusing the core and verifying engine/manual-change responsibilities before detailed claims. The fresh author core audit001–050 and its publication are complete; zero core rereads remain. Let content determine lesson boundaries and count; do not create051 or a stub as a placeholder. Five specialist routes remain planned.200 meanings/17 capabilities/11 open questions; independent learner assessment and later hands-on validation remain separate.
+The local reading-load revision is complete: thirty main lessons, seventeen task references and three practice cases, with five edited learner files. Keep the lighter edition local until publication is requested. Seek actual beginner feedback on the shorter opening and route before expanding specialist depth. Any later specialist lesson needs a concrete task and a distinct gap in the existing teaching; no fixed lesson count or placeholder051.
 
 ## Executed local checks
 

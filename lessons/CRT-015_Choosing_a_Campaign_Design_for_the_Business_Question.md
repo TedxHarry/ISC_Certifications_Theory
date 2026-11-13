@@ -116,13 +116,9 @@ In the documented Search flow, role-composition campaigns appear under **Legacy 
 
 Check that the role is eligible for this review type. The presence of a role in ISC does not establish that every review route can assess it.
 
-The role owner needs the business and technical evidence to assess the design. Ownership and permission remain different things: a person responsible for a role is not automatically allowed to perform every administrative change.
+A suitable role reviewer needs evidence about the package's intended purpose. If its contents need correction, authorized role-maintenance work follows; reviewing a holder does not perform that shared-definition change.
 
-Rejected contents in this role-composition path lead to manual change work for the campaign's selected **remediation owner**, the person responsible for carrying out the required correction. The supported setup requires an administrator permitted to update roles.
-
-The review outcome creates work to correct the role. Check who received that work and what the permitted administrator changed. Confirm the saved role contents and, where account permissions need to change, the actual account results. Closing a task alone does not prove that those permissions are correct.
-
-You need this route when the question concerns the shared package. A holder review answers whether a particular person should keep it.
+Use this route for the shared package question. Use a holder review to assess whether a particular person should keep the role.
 
 ## “Is access inside Payments Production appropriate?”
 
@@ -222,9 +218,3 @@ The existing unwanted adjustment access also needs a verified outcome. Record wh
 Now a third holder is found whose current need has not been checked. The request is extended: “Also establish whether every holder still needs the role.”
 
 You have added an assignment question. Assessing the definition alone does not settle each holder's current need. Both questions need evidence, even if the same people help with them.
-
-Finally, change how the role is assigned. Suppose it is granted automatically because people meet configured **membership criteria**, meaning conditions used to determine who receives it.
-
-Those automatically assigned roles can only be acknowledged in an assignment review. **Acknowledge** records that the reviewer has seen the access; it does not remove the role or change the membership conditions.
-
-Inspect the controlling definition and criteria when addressing that requirement. Choosing a different reviewer or a narrower access list does not create a Revoke action for a criteria-controlled role.

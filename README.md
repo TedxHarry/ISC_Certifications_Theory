@@ -2,7 +2,7 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-Fifty core lessons are published and live-verified in ten modules. The [fresh core author audit](author/CORE_AUDIT_SUMMARY.md) is complete for CRT-001–050; zero core rereads remain. CRT-005 revision1.2 is the published audit correction. Other published versions are CRT-001–004/006–007 revision1.1 and CRT-008–050 revision1.0. Specialist depth and independent learner assessment remain separate work.
+Fifty teaching topics are authored. The local [reading-load revision](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) separates thirty main lessons, seventeen task references and three practice cases, and cuts repeated prose in five learner files. Permanent IDs and URLs are retained. This lighter edition is not yet published; the live site retains the previously verified fifty-lesson sequence. The earlier [full author audit](author/CORE_AUDIT_SUMMARY.md) remains evidence for that baseline. Specialist depth and independent learner assessment remain pending.
 
 The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/). The separate general ISC course is unchanged.
 
@@ -22,9 +22,9 @@ The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Cert
 
 Latest learner: [CRT-050, Can you defend the outcome when conditions change?](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md), revision1.0, published and live-verified. [Its author record](author/revisions/CRT-050_Revision_Record.md) maps missing-manager coverage, reviewer absence, denied removal, evidence-based handoff and changed-role reasoning.
 
-Next work: prepare the X-01 role-composition route design and first-lesson brief, guided by the [whole-core findings](author/CORE_AUDIT_SUMMARY.md). All50 core lessons,32 concept rows,24 routine-task families and200 meanings have been reconciled as author evidence. The final audit/synthesis is [pushed and publication-verified](author/PUBLICATION_2026-11-13_CORE_AUDIT_COMPLETE.md); no learner stub or fixed extension count.
+The local reading-load revision is complete: thirty main lessons, seventeen task references and three practice cases, with five edited learner files. Keep the lighter edition local until publication is requested. Seek actual beginner feedback on the shorter opening and route before expanding specialist depth. Any later specialist lesson needs a concrete task and a distinct gap in the existing teaching; no fixed lesson count or placeholder051.
 
-All50 currently inventoried core topics are authored; zero remain unwritten in that inventory. This is an authoring milestone, not a claim that specialist routes, independent learner assessment or the entire course are complete. The coverage audit can identify justified additions or corrections. Five specialist routes remain planned depth, not five completed lessons.
+No existing teaching topic is unwritten. The local edition makes thirty lessons the main route; seventeen topics are task reference and three are practice. Thirty is not a fixed target. Five possible specialist routes and independent learner assessment remain pending; add depth only for a concrete need.
 
 The user reported that CRT-004 revision 1.1 was better after difficulty reading 1.0. Independent uncoached assessment remains pending. Source checks and author review do not establish learner mastery, tenant execution or exhaustive release currency.
 

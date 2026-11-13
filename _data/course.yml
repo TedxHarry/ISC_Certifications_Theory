@@ -19,353 +19,410 @@ modules:
     title: "9. Read the evidence and diagnose problems"
   - id: project-reasoning
     title: "10. Reason through a real campaign project"
+reading_routes:
+  - id: core
+    title: "Learn the core flow"
+  - id: reference
+    title: "Help with a specific task"
+  - id: practice
+    title: "Practice the connections"
 lessons:
   - id: CRT-001
+    route: core
     module: purpose
-    placement: "Module 1 · Lesson 1"
+    placement: "Core learning · Module 1"
     title: "Why review access that somebody already approved?"
     description: "Connect an earlier approval, current business need, the review decision and the verified access outcome."
     source: "lessons/CRT-001_Why_Review_Previously_Approved_Access.md"
     url: "/lessons/CRT-001_Why_Review_Previously_Approved_Access.html"
   - id: CRT-002
+    route: core
     module: purpose
-    placement: "Module 1 · Lesson 2"
+    placement: "Core learning · Module 1"
     title: "A campaign, a certification and a review item: what is being assigned?"
     description: "Connect a campaign, assigned reviews, individual access items and the people responsible for the work."
     source: "lessons/CRT-002_Campaigns_Certifications_and_Review_Items.md"
     url: "/lessons/CRT-002_Campaigns_Certifications_and_Review_Items.html"
   - id: CRT-003
+    route: core
     module: purpose
-    placement: "Module 1 · Lesson 3"
+    placement: "Core learning · Module 1"
     title: "Follow one review from access data to a verified outcome"
     description: "Follow collected access through a review decision, automated or manual removal and exact-account evidence."
     source: "lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.md"
     url: "/lessons/CRT-003_From_Access_Data_to_a_Verified_Outcome.html"
   - id: CRT-004
+    route: core
     module: purpose
-    placement: "Module 1 · Lesson 4"
+    placement: "Core learning · Module 1"
     title: "How is a certification different from an access request or lifecycle rule?"
     description: "Distinguish requested changes, current access reviews and lifecycle requirements, including why assignment origin matters."
     source: "lessons/CRT-004_Certifications_Access_Requests_and_Lifecycle_Rules.md"
     url: "/lessons/CRT-004_Certifications_Access_Requests_and_Lifecycle_Rules.html"
   - id: CRT-005
+    route: core
     module: review-access
-    placement: "Module 2 · Lesson 1"
+    placement: "Core learning · Module 2"
     title: "How does application access become information ISC can review?"
     description: "Connect source account fields, schema, aggregation, entitlement details and identity ownership with the access presented for review."
     source: "lessons/CRT-005_From_Application_Access_to_Reviewable_Information.md"
     url: "/lessons/CRT-005_From_Application_Access_to_Reviewable_Information.html"
   - id: CRT-006
+    route: core
     module: review-access
-    placement: "Module 2 · Lesson 2"
+    placement: "Core learning · Module 2"
     title: "Are we reviewing an entitlement, an access profile or a role?"
     description: "Identify the actual review object and assignment origin, then connect the decision with its complete access scope."
     source: "lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.md"
     url: "/lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.html"
   - id: CRT-007
+    route: reference
     module: review-access
-    placement: "Module 2 · Lesson 3"
+    placement: "Task reference · Module 2"
     title: "Why does some access appear differently or not appear at all?"
     description: "Distinguish expected package or lifecycle representation from missing data, excluded access and different observation times."
     source: "lessons/CRT-007_Why_Access_Appears_Differently_or_Is_Missing.md"
     url: "/lessons/CRT-007_Why_Access_Appears_Differently_or_Is_Missing.html"
   - id: CRT-008
+    route: core
     module: review-access
-    placement: "Module 2 · Lesson 4"
+    placement: "Core learning · Module 2"
     title: "One person has two accounts. Which account's access is under review?"
     description: "Connect exact account references, ownership, current need and verified access outcomes, including uncorrelated and service-account recognition."
     source: "lessons/CRT-008_One_Person_Two_Accounts_and_the_Correct_Review_Target.md"
     url: "/lessons/CRT-008_One_Person_Two_Accounts_and_the_Correct_Review_Target.html"
   - id: CRT-009
+    route: reference
     module: review-access
-    placement: "Module 2 · Lesson 5"
+    placement: "Task reference · Module 2"
     title: "Can the reviewer understand what this access actually permits?"
     description: "Connect permission meaning, useful descriptions, access context and current business need."
     source: "lessons/CRT-009_Understanding_What_Access_Actually_Permits.md"
     url: "/lessons/CRT-009_Understanding_What_Access_Actually_Permits.html"
   - id: CRT-010
+    route: reference
     module: review-access
-    placement: "Module 2 · Lesson 6"
+    placement: "Task reference · Module 2"
     title: "How do we establish that the review population is complete?"
     description: "Compare an independent expected population with actual generated people, accounts and access."
     source: "lessons/CRT-010_Checking_That_the_Review_Population_Is_Complete.md"
     url: "/lessons/CRT-010_Checking_That_the_Review_Population_Is_Complete.html"
   - id: CRT-011
+    route: reference
     module: choose-review
-    placement: "Module 3 · Lesson 1"
+    placement: "Task reference · Module 3"
     title: "When is a manager review the right choice?"
     description: "Connect current work, manager information and the actual assignment of review work."
     source: "lessons/CRT-011_When_a_Manager_Review_Is_the_Right_Choice.md"
     url: "/lessons/CRT-011_When_a_Manager_Review_Is_the_Right_Choice.html"
   - id: CRT-012
+    route: reference
     module: choose-review
-    placement: "Module 3 · Lesson 2"
+    placement: "Task reference · Module 3"
     title: "When should source owners review access?"
     description: "Connect selected sources, recorded ownership, technical knowledge and actual review responsibility."
     source: "lessons/CRT-012_When_Source_Owners_Should_Review_Access.md"
     url: "/lessons/CRT-012_When_Source_Owners_Should_Review_Access.html"
   - id: CRT-013
+    route: core
     module: choose-review
-    placement: "Module 3 · Lesson 3"
+    placement: "Core learning · Module 3"
     title: "Start with people or start with access items?"
     description: "Choose the right starting records, follow the included people and check which access reaches review."
     source: "lessons/CRT-013_Starting_with_People_or_Access_Items.md"
     url: "/lessons/CRT-013_Starting_with_People_or_Access_Items.html"
   - id: CRT-014
+    route: core
     module: choose-review
-    placement: "Module 3 · Lesson 4"
+    placement: "Core learning · Module 3"
     title: "Which access should we review for the selected people?"
     description: "Choose eligible access for selected people and compare saved scope with actual review work."
     source: "lessons/CRT-014_Choosing_Access_for_the_Selected_People.md"
     url: "/lessons/CRT-014_Choosing_Access_for_the_Selected_People.html"
   - id: CRT-015
+    route: core
     module: choose-review
-    placement: "Module 3 · Lesson 5"
+    placement: "Core learning · Module 3"
     title: "Which campaign design answers this business question?"
     description: "Match the business question to the campaign approach, review object and knowledgeable reviewer."
     source: "lessons/CRT-015_Choosing_a_Campaign_Design_for_the_Business_Question.md"
     url: "/lessons/CRT-015_Choosing_a_Campaign_Design_for_the_Business_Question.html"
   - id: CRT-016
+    route: reference
     module: scope-generate
-    placement: "Module 4 · Lesson 1"
+    placement: "Task reference · Module 4"
     title: "What does this search actually select for the campaign?"
     description: "Understand query fields, grouping and same-account conditions before selecting review subjects."
     source: "lessons/CRT-016_Understanding_What_a_Campaign_Search_Selects.md"
     url: "/lessons/CRT-016_Understanding_What_a_Campaign_Search_Selects.html"
   - id: CRT-017
+    route: core
     module: scope-generate
-    placement: "Module 4 · Lesson 2"
+    placement: "Core learning · Module 4"
     title: "How do campaign filters include or exclude review content?"
     description: "Follow inclusion and exclusion criteria to the people or access actually retained for review."
     source: "lessons/CRT-017_Including_and_Excluding_Review_Content_with_Campaign_Filters.md"
     url: "/lessons/CRT-017_Including_and_Excluding_Review_Content_with_Campaign_Filters.html"
   - id: CRT-018
+    route: practice
     module: scope-generate
-    placement: "Module 4 · Lesson 3"
+    placement: "Practice · Module 4"
     title: "What happens when selection rules and filters are combined?"
     description: "Trace combined people selection, access refinement and campaign filters without losing intended scope."
     source: "lessons/CRT-018_Combining_People_Access_Selection_and_Campaign_Filters.md"
     url: "/lessons/CRT-018_Combining_People_Access_Selection_and_Campaign_Filters.html"
   - id: CRT-019
+    route: core
     module: scope-generate
-    placement: "Module 4 · Lesson 4"
+    placement: "Core learning · Module 4"
     title: "What was captured when this review was generated?"
     description: "Separate source observations, generated review work, later changes and report production."
     source: "lessons/CRT-019_Understanding_the_Data_Captured_When_a_Review_Is_Generated.md"
     url: "/lessons/CRT-019_Understanding_the_Data_Captured_When_a_Review_Is_Generated.html"
   - id: CRT-020
+    route: core
     module: scope-generate
-    placement: "Module 4 · Lesson 5"
+    placement: "Core learning · Module 4"
     title: "A template, a schedule and a running campaign are different things"
     description: "Connect reusable templates and schedules with generated previews and separately verified campaign starts."
     source: "lessons/CRT-020_Understanding_Templates_Schedules_Previews_and_Running_Campaigns.md"
     url: "/lessons/CRT-020_Understanding_Templates_Schedules_Previews_and_Running_Campaigns.html"
   - id: CRT-021
+    route: core
     module: scope-generate
-    placement: "Module 4 · Lesson 6"
+    placement: "Core learning · Module 4"
     title: "What must be checked before the campaign reaches reviewers?"
     description: "Check actual people, accounts, access, reviewers and settings before an authorized verified launch."
     source: "lessons/CRT-021_Checking_a_Generated_Campaign_Before_It_Reaches_Reviewers.md"
     url: "/lessons/CRT-021_Checking_a_Generated_Campaign_Before_It_Reaches_Reviewers.html"
   - id: CRT-022
+    route: core
     module: review-routing
-    placement: "Module 5 · Lesson 1"
+    placement: "Core learning · Module 5"
     title: "Who becomes the reviewer, and why?"
     description: "Trace the chosen reviewer option and relevant identity, owner or group data to actual assigned responsibility."
     source: "lessons/CRT-022_How_ISC_Chooses_the_Reviewer.md"
     url: "/lessons/CRT-022_How_ISC_Chooses_the_Reviewer.html"
   - id: CRT-023
+    route: reference
     module: review-routing
-    placement: "Module 5 · Lesson 2"
+    placement: "Task reference · Module 5"
     title: "What happens when a manager or owner is missing?"
     description: "Distinguish missing, stale and invalid responsibility data and verify the actual fallback reviewer."
     source: "lessons/CRT-023_Handling_Missing_Managers_Owners_and_Fallback_Reviewers.md"
     url: "/lessons/CRT-023_Handling_Missing_Managers_Owners_and_Fallback_Reviewers.html"
   - id: CRT-024
+    route: core
     module: review-routing
-    placement: "Module 5 · Lesson 3"
+    placement: "Core learning · Module 5"
     title: "How does ISC prevent someone reviewing their own access?"
     description: "Follow own-access separation and manual handover restrictions while preserving review coverage."
     source: "lessons/CRT-024_Preventing_Self_Certification_and_Checking_Own_Access_Routing.md"
     url: "/lessons/CRT-024_Preventing_Self_Certification_and_Checking_Own_Access_Routing.html"
   - id: CRT-025
+    route: core
     module: review-routing
-    placement: "Module 5 · Lesson 4"
+    placement: "Core learning · Module 5"
     title: "When should a review be reassigned?"
     description: "Choose the exact existing-work handover and verify responsibility, history and recipient readiness."
     source: "lessons/CRT-025_Reassigning_Review_Work_and_Verifying_the_Result.md"
     url: "/lessons/CRT-025_Reassigning_Review_Work_and_Verifying_the_Result.html"
   - id: CRT-026
+    route: reference
     module: review-routing
-    placement: "Module 5 · Lesson 5"
+    placement: "Task reference · Module 5"
     title: "The reviewer is absent or leaves during the campaign. What now?"
     description: "Arrange existing and new review work during absence, return, changed backup or departure."
     source: "lessons/CRT-026_Keeping_Reviews_Moving_During_Absence_and_Departure.md"
     url: "/lessons/CRT-026_Keeping_Reviews_Moving_During_Absence_and_Departure.html"
   - id: CRT-027
+    route: core
     module: decide-finalize
-    placement: "Module 6 · Lesson 1"
+    placement: "Core learning · Module 6"
     title: "What information should a reviewer inspect before deciding?"
     description: "Connect exact access and current authorized work with useful flags, recommendations and activity."
     source: "lessons/CRT-027_Inspecting_Review_Context_Before_Deciding.md"
     url: "/lessons/CRT-027_Inspecting_Review_Context_Before_Deciding.html"
   - id: CRT-028
+    route: core
     module: decide-finalize
-    placement: "Module 6 · Lesson 2"
+    placement: "Core learning · Module 6"
     title: "What do Approve, Revoke and Acknowledge actually mean?"
     description: "Interpret Approve, Revoke and Acknowledge by reviewed item and assignment origin."
     source: "lessons/CRT-028_Understanding_Approve_Revoke_and_Acknowledge.md"
     url: "/lessons/CRT-028_Understanding_Approve_Revoke_and_Acknowledge.html"
   - id: CRT-029
+    route: core
     module: decide-finalize
-    placement: "Module 6 · Lesson 3"
+    placement: "Core learning · Module 6"
     title: "What makes a decision explainable later?"
     description: "Record useful reasons and check every item affected by a bulk decision."
     source: "lessons/CRT-029_Recording_Clear_Reasons_and_Checking_Bulk_Decisions.md"
     url: "/lessons/CRT-029_Recording_Clear_Reasons_and_Checking_Bulk_Decisions.html"
   - id: CRT-030
+    route: core
     module: decide-finalize
-    placement: "Module 6 · Lesson 4"
+    placement: "Core learning · Module 6"
     title: "Is a saved decision the same as a signed-off review?"
     description: "Distinguish saved choices, sign-off, campaign state and verified account outcomes."
     source: "lessons/CRT-030_Distinguishing_Saved_Decisions_and_Review_Sign_Off.md"
     url: "/lessons/CRT-030_Distinguishing_Saved_Decisions_and_Review_Sign_Off.html"
   - id: CRT-031
+    route: reference
     module: decide-finalize
-    placement: "Module 6 · Lesson 5"
+    placement: "Task reference · Module 6"
     title: "What if the reviewer cannot confidently decide?"
     description: "Resolve missing facts, consult suitable people and verify a permitted independent handover."
     source: "lessons/CRT-031_Resolving_Uncertainty_Before_an_Access_Decision.md"
     url: "/lessons/CRT-031_Resolving_Uncertainty_Before_an_Access_Decision.html"
   - id: CRT-032
+    route: core
     module: follow-removal
-    placement: "Module 7 · Lesson 1"
+    placement: "Core learning · Module 7"
     title: "Revoke was selected. What should happen next?"
     description: "Connect a finalized removal decision to due work, delivery and the correct account outcome."
     source: "lessons/CRT-032_Following_a_Revoke_Decision_into_Required_Removal_Work.md"
     url: "/lessons/CRT-032_Following_a_Revoke_Decision_into_Required_Removal_Work.html"
   - id: CRT-033
+    route: core
     module: follow-removal
-    placement: "Module 7 · Lesson 2"
+    placement: "Core learning · Module 7"
     title: "How does automated removal reach the application?"
     description: "Trace an authorized automated removal through the integration to its actual application result."
     source: "lessons/CRT-033_How_Automated_Removal_Reaches_the_Application.md"
     url: "/lessons/CRT-033_How_Automated_Removal_Reaches_the_Application.html"
   - id: CRT-034
+    route: core
     module: follow-removal
-    placement: "Module 7 · Lesson 3"
+    placement: "Core learning · Module 7"
     title: "What happens when access must be removed manually?"
     description: "Follow assigned manual work, the external account change and truthful updated data."
     source: "lessons/CRT-034_Removing_Access_Through_Manual_Fulfillment.md"
     url: "/lessons/CRT-034_Removing_Access_Through_Manual_Fulfillment.html"
   - id: CRT-035
+    route: core
     module: follow-removal
-    placement: "Module 7 · Lesson 4"
+    placement: "Core learning · Module 7"
     title: "Why can access remain after one assignment is revoked?"
     description: "Explain how other access assignments and continuing requirements affect the removal outcome."
     source: "lessons/CRT-035_Overlapping_Access_and_Assignment_Origins.md"
     url: "/lessons/CRT-035_Overlapping_Access_and_Assignment_Origins.html"
   - id: CRT-036
+    route: reference
     module: follow-removal
-    placement: "Module 7 · Lesson 5"
+    placement: "Task reference · Module 7"
     title: "How do we investigate pending, failed or partial removal?"
     description: "Investigate pending, failed, partial and uncertain removal using the actual work and account."
     source: "lessons/CRT-036_Investigating_Pending_Failed_and_Partial_Removal.md"
     url: "/lessons/CRT-036_Investigating_Pending_Failed_and_Partial_Removal.html"
   - id: CRT-037
+    route: core
     module: follow-removal
-    placement: "Module 7 · Lesson 6"
+    placement: "Core learning · Module 7"
     title: "What evidence establishes that the required removal happened?"
     description: "Match the required removal to reliable decision, delivery, target and refreshed-data evidence."
     source: "lessons/CRT-037_Verifying_That_Required_Access_Was_Removed.md"
     url: "/lessons/CRT-037_Verifying_That_Required_Access_Was_Removed.html"
   - id: CRT-038
+    route: core
     module: run-close
-    placement: "Module 8 · Lesson 1"
+    placement: "Core learning · Module 8"
     title: "How do reminders and progress monitoring help the campaign?"
     description: "Interpret progress units, investigate missing notifications and follow up on the actual unfinished work."
     source: "lessons/CRT-038_Using_Reminders_and_Monitoring_Campaign_Progress.md"
     url: "/lessons/CRT-038_Using_Reminders_and_Monitoring_Campaign_Progress.html"
   - id: CRT-039
+    route: core
     module: run-close
-    placement: "Module 8 · Lesson 2"
+    placement: "Core learning · Module 8"
     title: "What happens to overdue, undecided or unsigned reviews?"
     description: "Distinguish overdue work, undecided items, unsigned reviews and supported completion handling."
     source: "lessons/CRT-039_Handling_Overdue_Undecided_and_Unsigned_Reviews.md"
     url: "/lessons/CRT-039_Handling_Overdue_Undecided_and_Unsigned_Reviews.html"
   - id: CRT-040
+    route: core
     module: run-close
-    placement: "Module 8 · Lesson 3"
+    placement: "Core learning · Module 8"
     title: "What does completing a campaign actually establish?"
     description: "Explain what review, campaign and task completion prove, and what closure still needs."
     source: "lessons/CRT-040_Understanding_Campaign_Completion_and_Closure_Evidence.md"
     url: "/lessons/CRT-040_Understanding_Campaign_Completion_and_Closure_Evidence.html"
   - id: CRT-041
+    route: reference
     module: run-close
-    placement: "Module 8 · Lesson 4"
+    placement: "Task reference · Module 8"
     title: "When should a campaign be corrected, regenerated or retired?"
     description: "Choose a supported repair from the actual campaign defect and state, preserving evidence and outstanding access work."
     source: "lessons/CRT-041_Correcting_Regenerating_and_Retiring_a_Campaign.md"
     url: "/lessons/CRT-041_Correcting_Regenerating_and_Retiring_a_Campaign.html"
   - id: CRT-042
+    route: reference
     module: read-evidence
-    placement: "Module 9 · Lesson 1"
+    placement: "Task reference · Module 9"
     title: "What are the campaign's counts and statuses counting?"
     description: "Interpret count units, denominators, record-specific status and observation time before judging progress."
     source: "lessons/CRT-042_Understanding_Campaign_Counts_Progress_and_Statuses.md"
     url: "/lessons/CRT-042_Understanding_Campaign_Counts_Progress_and_Statuses.html"
   - id: CRT-043
+    route: reference
     module: read-evidence
-    placement: "Module 9 · Lesson 2"
+    placement: "Task reference · Module 9"
     title: "Who made the decision, and what was finally signed off?"
     description: "Trace item choices, current responsibility, decision history and final confirmation."
     source: "lessons/CRT-043_Tracing_Decision_Makers_History_and_Final_Sign_Off.md"
     url: "/lessons/CRT-043_Tracing_Decision_Makers_History_and_Final_Sign_Off.html"
   - id: CRT-044
+    route: core
     module: read-evidence
-    placement: "Module 9 · Lesson 3"
+    placement: "Core learning · Module 9"
     title: "Which report answers the question we are asking?"
     description: "Choose report and API evidence by question, scope, generation state and permission."
     source: "lessons/CRT-044_Choosing_Reports_and_Reading_API_Evidence.md"
     url: "/lessons/CRT-044_Choosing_Reports_and_Reading_API_Evidence.html"
   - id: CRT-045
+    route: reference
     module: read-evidence
-    placement: "Module 9 · Lesson 4"
+    placement: "Task reference · Module 9"
     title: "The person, item or reviewer is wrong. Where did the mismatch begin?"
     description: "Find the demonstrated cause across source data, identity association, scope, routing and visibility."
     source: "lessons/CRT-045_Tracing_Person_Item_and_Reviewer_Mismatches.md"
     url: "/lessons/CRT-045_Tracing_Person_Item_and_Reviewer_Mismatches.html"
   - id: CRT-046
+    route: reference
     module: read-evidence
-    placement: "Module 9 · Lesson 5"
+    placement: "Task reference · Module 9"
     title: "The review says Revoke, but access still works. How do we investigate?"
     description: "Trace finalized removal through actual work, account results, other grants and observation time."
     source: "lessons/CRT-046_Investigating_Access_That_Remains_After_Revoke.md"
     url: "/lessons/CRT-046_Investigating_Access_That_Remains_After_Revoke.html"
   - id: CRT-047
+    route: reference
     module: project-reasoning
-    placement: "Module 10 · Lesson 1"
+    placement: "Task reference · Module 10"
     title: "What do we need to discover before designing the campaign?"
     description: "Connect the business requirement to scope, decision units, responsibility, fulfillment and evidence."
     source: "lessons/CRT-047_Discovering_Requirements_Before_Designing_a_Campaign.md"
     url: "/lessons/CRT-047_Discovering_Requirements_Before_Designing_a_Campaign.html"
   - id: CRT-048
+    route: reference
     module: project-reasoning
-    placement: "Module 10 · Lesson 2"
+    placement: "Task reference · Module 10"
     title: "How do we build a campaign readiness and acceptance plan?"
     description: "Define stage-specific criteria and evidence, investigate failed checks and revalidate changed conditions."
     source: "lessons/CRT-048_Building_a_Campaign_Readiness_and_Acceptance_Plan.md"
     url: "/lessons/CRT-048_Building_a_Campaign_Readiness_and_Acceptance_Plan.html"
   - id: CRT-049
+    route: practice
     module: project-reasoning
-    placement: "Module 10 · Lesson 3"
+    placement: "Practice · Module 10"
     title: "Design and explain a complete periodic access review"
     description: "Justify a quarterly review from current access through decisions, two removal paths and verified closure."
     source: "lessons/CRT-049_Designing_and_Explaining_a_Complete_Periodic_Access_Review.md"
     url: "/lessons/CRT-049_Designing_and_Explaining_a_Complete_Periodic_Access_Review.html"
   - id: CRT-050
+    route: practice
     module: project-reasoning
-    placement: "Module 10 · Lesson 4"
+    placement: "Practice · Module 10"
     title: "Can you defend the outcome when conditions change?"
     description: "Explain changed scope, reviewer absence, failed removal and the evidence needed for closure or handoff."
     source: "lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md"

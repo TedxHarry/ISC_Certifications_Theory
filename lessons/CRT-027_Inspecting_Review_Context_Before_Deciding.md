@@ -113,30 +113,15 @@ A **Birthright Access** flag points to access granted by automated rules, such a
 
 ## Read flags as reasons to inspect particular details
 
-An **access flag** draws attention to information about the reviewed access. Start with its actual meaning, then ask the question it raises.
+An **access flag** draws attention to information about the reviewed access. Read what the flag actually says before deciding what it means for the person.
 
-For example, **New Access** means the access has not previously been certified. An entitlement can have existed on an account for months and still be new to certification. To establish when it was granted, you need the relevant assignment or application history.
+For example, **New Access** means the access has not previously been certified. It does not tell you when the application granted it. An entitlement can have existed for months before its first certification.
 
-Other flags can point you to quite different information:
+A **Contains Privileged Access** flag on a profile or role points to sensitive access inside that package. **Privileged access** allows sensitive actions or access to sensitive information. Inspect which included permission creates the concern and whether the person's work requires it.
 
-| Flag | What it tells you | What to inspect next |
-|---|---|---|
-| High Privilege (Overridden) | The entitlement was manually classified as highly privileged. | Its sensitive capabilities and why this account needs them. |
-| Contains Privileged Access | A profile or role includes privileged entitlement access. | Which component provides that access and whether the package is justified. |
-| Timebound Access | The access has an end date. | The relevant date and the authorized need up to that date. |
-| Comments | Comments are associated with the access. | Their author, date and relevance to this review. |
-| Cloud Enabled | The access relates to cloud infrastructure. | The relevant resources, permissions and available access details. |
-| Critical Data Access | The access includes critical data. | What data is reachable and why the person's task requires it. |
+A missing privilege flag does not establish that the permission is harmless. Its **privilege classification**, information about how it has been categorized, can be unset. Continue checking the actual capability.
 
-**Privileged access** permits sensitive actions or access to sensitive information. **Privilege classification** is information about how the entitlement's privilege has been categorized. A manually overridden classification and a profile containing privileged access describe different things: one describes the entitlement's classification, the other points inside a package.
-
-A missing privilege flag does not establish that an export contains no sensitive data. Classification can be unset. Continue inspecting the capability itself.
-
-A time limit also does not justify access that is unnecessary today. A comment may explain an earlier temporary duty that has ended. Read the evidence behind the indicator rather than deciding from its presence alone.
-
-Some additional detail depends on the organization's licensed services and configuration. With Data Access Security, a reviewer may see data categories, related policies and an impact score for an entitlement. That score considers the sensitivity and amount of data involved. Use those details to understand what is at stake; a score does not establish this person's authority to access the data.
-
-Where supported cloud details and the relevant licensing are available, you may be able to inspect resources, privileges and paths through which access is obtained. Inspect what the particular detail covers. Activity in a cloud-resource view and activity for an entire application are different observations. Do not assume every cloud environment provides the same activity fields.
+For other flags, use the same reasoning: identify the fact indicated, then ask what it changes about this account's current need. An end date, for example, does not justify unnecessary access until that date. The available flags and richer detail depend on the configured services.
 
 ## Look behind a recommendation
 

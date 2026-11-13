@@ -12,7 +12,9 @@ System sans-serif handles navigation and headings; Georgia/Times handles sustain
 
 ## Layout and interaction
 
-The shared layout owns the header, skip link, course sidebar, main reading column and footer. Desktop has a navigation column and a reading column of at most 53rem. The whole navigation can collapse; the Show lessons control remains reachable. Each published module has its own native disclosure. The current module starts open; home opens the first one. On narrow screens the panel starts closed and opens above the lesson.
+The shared layout owns the header, skip link, course sidebar, main reading column and footer. Desktop has a navigation column and a reading column of at most 53rem. The whole navigation can collapse; the Show lessons control remains reachable. Main modules have native disclosures; task reference and practice have separate disclosures. Only the current lesson's group starts open; home opens the first main module. Do not show empty main modules. On narrow screens the panel starts closed and opens above the lesson.
+
+The manifest owns reading roles and order. Homepage lists main lessons first, with reference and practice in native collapsed groups. Adjacent links stay within the current reading role, so finishing the main route does not silently assign every reference. Preserve permanent IDs and direct URLs across editorial regrouping. No lesson-count quota.
 
 The document owns vertical reading scroll. The desktop module list has a bounded internal scroll region. Tables and preformatted diagrams scroll within their own keyboard-focusable regions. Native details/summary controls support keyboard and touch.
 

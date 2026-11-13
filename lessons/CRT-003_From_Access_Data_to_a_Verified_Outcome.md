@@ -20,33 +20,21 @@ For this example, reports-user-1 is the correct ordinary account for the person.
 
 ## ISC first needs to read the account information
 
-An administrator configures a **source** in ISC for the reporting application. The source holds the settings for the system or account data ISC manages. It is separate from the application itself.
+An administrator configures a **source** in ISC for the reporting application. The source holds the settings for the account data ISC manages. It is separate from the application itself.
 
-A **connector** provides the way ISC communicates with that type of system or reads its account-data file. The source settings describe this particular connection; the connector supplies the supported integration.
+A **connector** provides the supported way to read that system or its account-data file. Using that connection, ISC collects the account information. This collection is called **account aggregation**.
 
-For a directly connected source, ISC reads account information from the system. For a file-based source, it imports an account-data file containing that information.
+The collected information identifies reports-user-1 and its reports-export permission. ISC represents this access right as an **entitlement**.
 
-This collection is called **account aggregation**. In our example, the collected information identifies reports-user-1 and shows that it has reports-export.
-
-ISC represents an access right from a system as an **entitlement**. The collected information therefore lets ISC show that this account holds the reports-export entitlement.
-
-Nothing was granted by reading this information. The account already had export permission. Collection gave ISC information about that existing access.
-
-The time of collection matters. Information read earlier describes the account at that earlier time. It does not mean ISC is continuously watching every permission change in the application.
+Collection tells ISC about access the account already holds. It has not granted the permission. It also describes what was read at that time; later application changes need updated collection.
 
 ## Connect the account information to the correct person
 
-ISC also needs to establish whose account reports-user-1 is. Making the association between an account and an identity is called **account correlation**.
+**Account correlation** associates an account with an identity. Configured matching settings can compare an account's employee number with the corresponding identity value.
 
-Configured matching settings compare information on the account with information on identities. For example, a configured match can compare an employee number on the account with the employee number on the identity. The values must establish the correct person for the association to be useful.
+For this example, the association has been checked and is correct. ISC connects reports-user-1 and its export permission with the intended person.
 
-For our example, that link is correct. The collected account information belongs to the person whose access we intend to review.
-
-Collection and correlation contribute different information. Collection tells us what ISC has read about the account and its permissions. Correlation connects that account with the person's identity.
-
-A correct permission shown under the wrong person could lead the reviewer to judge it using the wrong responsibilities. That is why the account's held access and its identity link both need checking.
-
-At this point, ISC has information showing that the intended person has reports-export through reports-user-1. We have not yet established whether they need to keep it.
+Collection and correlation answer different questions: what does the account hold, and whose account is it? A correct permission shown under the wrong person could be judged using the wrong responsibilities. Neither the permission nor the correct identity link establishes that the person still needs export.
 
 ## Turn the review requirement into actual review work
 
@@ -68,19 +56,15 @@ The settings have now produced review records and an assignment. Starting the ca
 
 ## The reviewer needs evidence about today's work
 
-The reviewer opens the assigned certification and examines the export item.
+The reviewer opens the assigned certification and examines reports-export.
 
-The account information explains what access the person has. To decide whether they should keep it, the reviewer also needs to know what the person does now and whether that work requires exporting reports.
+The account information shows what the person has. The reviewer also needs to know what work they do now and whether it requires exporting reports.
 
-Here, the reviewer confirms that the person no longer exports reports and has no continuing approved task or handover requiring that permission.
+Here, the reviewer confirms that the reporting responsibility has ended, with no continuing task or handover requiring export. Those facts support **Revoke**, the decision that the reviewed access should be removed. The reviewer records that reason with the item.
 
-The account still has the right, but the confirmed work requirement has ended. Those facts support **Revoke**, the decision that this reviewed access should be removed.
+If a continuing approved task still required export, **Approve** could be appropriate instead. It accepts keeping the reviewed access; it does not request missing permissions.
 
-The reviewer can record the reason in a comment: exporting reports is no longer required for the person's current work. That explanation connects the decision with the business need instead of leaving a later reader to guess why removal was chosen.
-
-Now suppose the reviewer confirms that an approved reporting responsibility still requires export. **Approve** can then be appropriate. It accepts keeping the reviewed access; it does not request unrelated permissions that the person is missing.
-
-The removal steps below concern the Revoke case. For an approved item, keep the decision and its reason; there is no removal requirement from that Approve decision.
+We will follow the Revoke case through the required removal.
 
 ## Establish that removal work exists before following it
 
@@ -98,43 +82,29 @@ Follow that same permission and account into the removal record. Work that chang
 
 ## Follow the path that can make the application change
 
-The way removal is carried out depends on the source's capabilities and configuration. Start with a connection that supports this removal and is authorized to make it.
+Changing account access in an application is called **provisioning**. It includes removing permissions as well as granting them.
 
-ISC sends the required change through the integration to the reporting application. The application then processes the operation on reports-user-1.
+If the configured connection supports this removal and is authorized to make it, ISC sends the change to the application. The application processes it for reports-user-1. Follow the operation and its recorded result: receiving a request does not necessarily mean the account change is finished.
 
-Changing account access in a system is called **provisioning**. It includes removing permissions as well as granting them. In this example, the provisioning work removes reports-export.
+Now suppose ISC can read the account information but cannot write this access change. Knowing that export exists does not give ISC the ability to remove it.
 
-Suppose the operation succeeds and the account no longer holds the permission. The operation's recorded result helps us understand what was attempted and how the application responded.
+In the configured manual path, ISC creates a task for a person to make the change. Check the actual task assignment to establish who must act. That worker identifies reports-user-1, removes export through the authorized application process and records the work.
 
-An accepted request is a different observation. It can mean the change has been received for processing, without showing that the account change is finished. Follow the relevant operation and its result instead of treating acceptance as completed removal.
-
-Now change the source condition. Suppose ISC can read this application's account information but cannot write the required access change.
-
-Knowing that reports-export exists does not give ISC permission or capability to remove it. Reading account data and making an account change are separate operations.
-
-In the configured manual-removal path, ISC creates a task for someone to make the change in the application. Inspect the actual task assignment to establish who must act. The reviewer who judged the access and the worker carrying out removal may be different people.
-
-The assigned worker needs to identify reports-user-1, remove its export permission through an authorized action, and record what was done.
-
-Closing the task records that the task was marked complete. To establish that the intended change happened, check the actual account result as well. This is especially useful when a work note is unclear or describes a different account.
+Automatic and manual paths have the same required account outcome. They differ in who carries out the application change and which work record you follow.
 
 ## Verify the application account, then check ISC's updated information
 
-In our successful example, an authorized application administrator inspects reports-user-1 after removal. The account's current permission list shows that reports-export is absent.
+The application whose access must change is the **target system**. In our successful example, an authorized administrator checks reports-user-1 after the removal. Its current permission list no longer contains reports-export.
 
-This identifies the account, the permission and the observation after the change. A list captured before removal or belonging to another account would not establish the same result.
+That is evidence about the correct account after the change. A completed manual task or an operation record helps explain the work; the account check establishes the permission result.
 
-The application where access must change is also called the **target system**. The administrator's check is evidence about that target system's account.
+Suppose ISC still shows export. Check when its account data was collected. Information read before removal can still describe the earlier permission.
 
-Suppose ISC's account view still shows reports-export. First check when its data was collected. If it was read before removal, the view is showing the earlier account information. It does not establish that export permission has returned.
+Collect and process updated account information through the supported source process. For a file-based source, use a new file reflecting the changed accounts. Importing the old file again would only repeat the old information.
 
-The account information needs to be collected and processed again through the supported source process. For a file-based source, obtain a new file that reflects the changed application accounts. Reimporting the old file would give ISC the old account data again; it would not establish the current state.
+Here, the refreshed ISC account data also shows export absent. The reviewed permission was removed from reports-user-1. This does not establish that every other account or route to similar access is absent.
 
-In the successful flow here, the updated collection shows that reports-user-1 no longer holds reports-export. The review decision, removal record, current application evidence and updated ISC information now support the same outcome.
-
-The claim is specific: the reviewed export permission was removed from reports-user-1. Determining whether the person can export similar information through another account or route would require broader checks.
-
-The generated review may still show the permission it was created to assess. That historical item is part of the review evidence. Its continued presence in review history does not prove that the application account still has the permission.
+The historical review item can remain in the campaign as evidence of what was assessed. Its presence there is different from the current account still holding the permission.
 
 ## Connect the records along the flow
 
@@ -173,55 +143,18 @@ The reviewer supplies the business judgment and confirmation. The application ch
 
 The campaign also has its own progress and completion state. Check that state when managing the overall review, while following the account result through its own evidence. A campaign label alone cannot replace the account check.
 
-## Match each question with the record that answers it
-
-| Question | What you inspect | What still needs separate evidence |
-|---|---|---|
-| What access did ISC collect for this person? | Account information and its identity link | Whether the access is needed for current work |
-| Did the permission reach the assigned review? | Generated item, certification and reviewer assignment | Whether the reviewer made a decision |
-| What was decided and why? | Item decision, recorded actor and explanation | Review confirmation and actual removal |
-| Was removal work created after the required review processing? | Review confirmation and the removal activity or task | Whether the application change succeeded |
-| What change was attempted and what result was recorded? | Automated operation or manual task, with account and result | Whether the intended account now lacks the permission |
-| Has the required account outcome been established? | Current target-account evidence and subsequently updated ISC information | Whether every other account or route to similar access is absent |
-
-The records help explain different parts of the same work. An operation result tells you about the attempted change. The account check tells you about the resulting permission on the account. Keeping the account reference and observation time with the evidence helps you connect them correctly.
-
-## Investigate the point where the expected result is missing
-
-Suppose the permission exists in the reporting application but does not appear in the generated review.
-
-Check whether ISC collected the intended account and permission, linked the account to the correct identity, and included the access under the campaign's selection and review rules. Finding the permission somewhere in ISC does not establish that this campaign generated the intended item.
-
-Now suppose the review contains Revoke, but you cannot find removal work.
-
-Check the review confirmation and relevant campaign processing. Establish whether an operation or task was actually created before treating this as a failed application change.
-
-If an operation exists and the application rejected it, inspect that operation's account, permission, error and authorization. The problem needing attention is the attempted change. Editing the reviewer's reason would not repair an application denial of the removal operation.
-
-Finally, suppose the application check confirms that the permission is gone, while ISC still shows older data.
-
-Check collection and processing after removal. Establish what data was read and when. Earlier ISC information cannot establish that a successful later application change failed.
-
-These observations lead to different checks because they occur at different points in the flow.
-
 ## Work through a manual task involving two accounts
 
-A person's identity has two accounts in a payments system: payments-basic and payments-approval.
+A person has payments-basic and payments-approval accounts. The review concerns invoice-approve on payments-approval, allowing approval of supplier invoices. It is individually reviewable, and nothing else requires it to remain.
 
-The review concerns invoice-approve on payments-approval. This permission allows approving supplier invoices. It is individually reviewable, and nothing else requires it to remain or would restore it after removal.
+The reviewer confirms that the duty has ended, records Revoke and finalizes the review. The configured process creates the required manual removal task.
 
-The reviewer confirms that invoice approval is no longer needed, records Revoke and finalizes the review. The applicable removal process creates a manual task for invoice-approve on payments-approval.
+Later, the task is marked complete. Its note says, “Checked payments-basic; invoice approval is absent.” ISC's account data was collected before that task finished.
 
-Later, the task is marked complete. Its work note says, “Checked payments-basic; invoice approval is absent.” ISC's account information was collected before the task was completed.
+Can you establish that the required removal happened?
 
-Explain what you can establish from those records and what you need to check before claiming that the required removal happened.
+The task identifies payments-approval; the note describes payments-basic. Checking the other account cannot establish the result on payments-approval.
 
-The review and removal task identify payments-approval. The note describes payments-basic. Even a correct check of payments-basic would not establish the result on payments-approval.
+Obtain current evidence for invoice-approve on payments-approval. If the permission remains, investigate and complete the required work through the authorized process. If it is absent, the target result is established for that observation. Clarify the misleading note and refresh ISC's older account data.
 
-Check invoice-approve on payments-approval using suitable current application evidence. Reconcile the task's recorded work with the account it was supposed to change, then obtain updated account information in ISC.
-
-If payments-approval still has invoice-approve, the required account outcome has not been achieved. The task's completed label cannot establish otherwise. Investigate and address the removal work for that account through the authorized process.
-
-If the application check confirms that payments-approval lacks the permission, the account outcome is established for that observation. You still need to clarify the misleading task note and refresh ISC's older information.
-
-The supplied task note does not tell us which of those outcomes is true. The correct next check concerns the intended account, so the later conclusion can follow the evidence rather than the completion label.
+The supplied records do not tell us which result is true. They tell us exactly which account needs checking.

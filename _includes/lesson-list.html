@@ -1,26 +1,46 @@
 <nav aria-label="Lessons">
   {% assign nav_current_lesson = site.data.course.lessons | where: "source", page.path | first %}
+  {% assign nav_core_lessons = site.data.course.lessons | where: "route", "core" %}
   {% for module in site.data.course.modules %}
+  {% assign nav_module_lessons = nav_core_lessons | where: "module", module.id %}
+  {% if nav_module_lessons.size > 0 %}
   {% assign module_open = false %}
-  {% if nav_current_lesson.module == module.id %}
+  {% if nav_current_lesson.route == "core" and nav_current_lesson.module == module.id %}
     {% assign module_open = true %}
   {% elsif nav_current_lesson == nil and forloop.first %}
     {% assign module_open = true %}
   {% endif %}
-  <details class="nav-module"{% if module_open %} open{% endif %}>
+  <details class="nav-module" data-route="core"{% if module_open %} open{% endif %}>
     <summary id="nav-{{ module.id }}">{{ module.title | escape }}</summary>
     <ol class="lesson-nav">
-      {% for lesson in site.data.course.lessons %}
-        {% if lesson.module == module.id %}
-        <li>
-          <a href="{{ lesson.url | relative_url }}"{% if page.path == lesson.source %} aria-current="page"{% endif %}>
-            <span class="lesson-id">{{ lesson.id }}</span>
-            <span>{{ lesson.title | escape }}</span>
-          </a>
-        </li>
-        {% endif %}
+      {% for lesson in nav_module_lessons %}
+      <li>
+        <a href="{{ lesson.url | relative_url }}"{% if page.path == lesson.source %} aria-current="page"{% endif %}>
+          <span class="lesson-id">{{ lesson.id }}</span>
+          <span>{{ lesson.title | escape }}</span>
+        </a>
+      </li>
       {% endfor %}
     </ol>
   </details>
+  {% endif %}
+  {% endfor %}
+  {% for route in site.data.course.reading_routes %}
+  {% unless route.id == "core" %}
+  {% assign nav_route_lessons = site.data.course.lessons | where: "route", route.id %}
+  <details class="nav-module" data-route="{{ route.id }}"{% if nav_current_lesson.route == route.id %} open{% endif %}>
+    <summary id="nav-{{ route.id }}">{{ route.title | escape }}</summary>
+    <ol class="lesson-nav">
+      {% for lesson in nav_route_lessons %}
+      <li>
+        <a href="{{ lesson.url | relative_url }}"{% if page.path == lesson.source %} aria-current="page"{% endif %}>
+          <span class="lesson-id">{{ lesson.id }}</span>
+          <span>{{ lesson.title | escape }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </details>
+  {% endunless %}
   {% endfor %}
 </nav>

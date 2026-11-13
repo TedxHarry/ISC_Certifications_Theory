@@ -1,8 +1,10 @@
 # Author terminology register
 
-Version 3.46. November 13, 2026.
+Version 3.47. November 13, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
+
+The local [reading-load revision](BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) retains two hundred meanings. Six extended flag lookup primary locations move to task reference009;027 keeps representative flag reasoning, recommendations and activity. Learners do not need to memorize this author register or complete every task reference in sequence.
 
 These are author working meanings. Verify product-specific use in the applicable lesson/engine. Reintroduce necessary terms in prose where they become useful. The learner should not be sent here to understand a missing explanation.
 
@@ -155,12 +157,12 @@ These are author working meanings. Verify product-specific use in the applicable
 | Peer group | A comparison group based on similar access patterns; common access can support investigation without establishing this person's current authorized need. | CRT-027; X-04 |
 | Source activity | Events gathered from a supported configured application source. Certification active-days context can cover 90 days; source use is not proof of each permission's use or authorization, and absent data is not zero. | CRT-027; X-04 |
 | New Access flag | The access has not previously been certified; this does not establish its grant date. | CRT-027 |
-| High Privilege (Overridden) flag | An entitlement's privilege classification was manually changed to indicate high privilege; inspect actual sensitive capabilities and need. | CRT-027 |
-| Contains Privileged Access flag | A role or profile includes privileged entitlement access; inspect which component and the actual package under decision. | CRT-027 |
-| Timebound Access flag | Access has a set end date; the time limit does not itself justify the access until that date. | CRT-027 |
-| Comments flag | Comments are associated with access; read author/date/relevance rather than assume a current approval. | CRT-027 |
-| Cloud Enabled flag | Access relates to cloud infrastructure; deeper resource/privilege/path and activity context is conditional on support/configuration/licensing. | CRT-027; X-04 |
-| Critical Data Access flag | Access includes critical data; investigate actual data/scope and authorized need, using licensed context where available. | CRT-027; X-04 |
+| High Privilege (Overridden) flag | An entitlement's privilege classification was manually changed to indicate high privilege; inspect actual sensitive capabilities and need. | CRT-009 |
+| Contains Privileged Access flag | A role or profile includes privileged entitlement access; inspect which component and the actual package under decision. | CRT-009/027 |
+| Timebound Access flag | Access has a set end date; the time limit does not itself justify the access until that date. | CRT-009 |
+| Comments flag | Comments are associated with access; read author/date/relevance rather than assume a current approval. | CRT-009 |
+| Cloud Enabled flag | Access relates to cloud infrastructure; deeper resource/privilege/path and activity context is conditional on support/configuration/licensing. | CRT-009; X-04 |
+| Critical Data Access flag | Access includes critical data; investigate actual data/scope and authorized need, using licensed context where available. | CRT-009; X-04 |
 
 ## Actual introductory teaching
 
