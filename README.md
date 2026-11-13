@@ -2,29 +2,29 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-Fifty teaching topics are authored and published. The [lighter reading edition](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) separates thirty main lessons, seventeen task references and three practice cases, with repeated prose cut from five learner files. Permanent IDs and URLs are retained. [Publication and live verification](author/PUBLICATION_2026-11-13_LIGHTER_READING_ROUTES.md) passed for the revised edition. Specialist depth and independent learner assessment remain pending.
+Fifty-eight topics are authored locally in30 main/25 reference/3 practice. [CRT-058](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) adds complete paged review-item investigation, with [evidence](author/revisions/CRT-058_Revision_Record.md) and an editable reconciliation flow. Local051–057 and0051.3 remain unchanged. The user authorized publishing all completed work; deployment/live verification is pending. The [previous live edition](author/PUBLICATION_2026-11-13_LIGHTER_READING_ROUTES.md) has50 topics in30/17/3. The main sequence is unchanged; actual learner validation remains pending.
 
 The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/). The separate general ISC course is unchanged.
 
 ## Start here
 
-- [Course design and provisional contents](COURSE_DESIGN.md): learning outcomes, 50 candidate topics and five job-dependent specialist routes.
+- [Course design and contents](COURSE_DESIGN.md): the fifty-topic foundation and five flexible job-dependent specialist routes.
 - [Teaching specification](TEACHING_SPECIFICATION.md): clear explanation, mentor voice, local meanings and content-driven structure.
 - [Course register](COURSE_REGISTER.md): actual writing, review, publication and next lesson.
-- [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md): 24 routine task families and their planned teaching locations.
+- [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md): 24 routine task families and their authored teaching locations.
 - [Authoring guide](author/AUTHORING_GUIDE.md): briefs, source checks, saved-file reading and continuation.
 - [Coverage register](author/COVERAGE_REGISTER.md): actual concept ownership and overlap boundaries.
-- [Terminology register](author/TERMINOLOGY_REGISTER.md): 200 consistent working meanings, including manual correlation.
+- [Terminology register](author/TERMINOLOGY_REGISTER.md): 214 consistent working meanings, including account/context relationships and paged investigation controls.
 - [Capability and update register](author/CAPABILITY_AND_UPDATE_REGISTER.md): engine/availability checks and eleven unresolved product questions.
 - [Official source map](AUTHOR_SOURCE_MAP.md): primary references, dated checks and limits.
 
 ## Current position
 
-Latest learner: [CRT-050, Can you defend the outcome when conditions change?](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md), revision1.0, published and live-verified. [Its author record](author/revisions/CRT-050_Revision_Record.md) maps missing-manager coverage, reviewer absence, denied removal, evidence-based handoff and changed-role reasoning.
+Latest learner: [CRT-058, How do you check all review items across API pages?](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md), complete revision1.0, with [its record](author/revisions/CRT-058_Revision_Record.md). Three scoped primary bodies support exact API authority, supported paging controls and complete item-set reasoning. Authorized publication results are pending.
 
-The lighter edition is published and live-verified: thirty main lessons, seventeen task references and three practice cases, with the five prose revisions. Seek actual beginner feedback on the shorter opening and route before adding specialist depth. Any new lesson needs a concrete certification task and a distinct gap in existing teaching; no fixed count or placeholder051.
+Next assess X-05 campaign-wide reconciliation against042/044/058 and the current certification-list/report contracts. Add a unit only for distinct useful multi-certification scope or bulk-comparison reasoning. Preserve the thirty-main route and completed051–058 plus0051.3. Current58 topics/30 main/25 reference/3 practice; publication results must be recorded after observation. No059 placeholder or fixed specialist count.
 
-No existing teaching topic is unwritten. The published edition makes thirty lessons the main route; seventeen topics are task reference and three are practice. Thirty is not a fixed target. Five possible specialist routes and independent learner assessment remain pending; add depth only for a concrete need.
+The existing fifty topics and eight focused specialist references are complete. Local routes are30/25/3; prior live30/17/3. The user authorized publication of all completed work. Broader X-05 assessment and actual learner validation remain pending. Counts follow content needs.
 
 The user reported that CRT-004 revision 1.1 was better after difficulty reading 1.0. Independent uncoached assessment remains pending. Source checks and author review do not establish learner mastery, tenant execution or exhaustive release currency.
 
@@ -33,11 +33,11 @@ The user reported that CRT-004 revision 1.1 was better after difficulty reading 
 - lessons/: complete learner Markdown files, one topic at a time.
 - assets/: editable teaching diagrams, paired with their learner explanations.
 - author/revisions/: historical per-lesson coverage, sources, assumptions and actual checks.
-- _data/course.yml: fifty authored topics in the published main/reference/practice routes; thirty main lessons in nine nonempty subject groups.
+- _data/course.yml:58 complete topics in30/25/3; the previous fifty-topic live edition has30/17/3. Nine groups contain main-route lessons.
 
-Run npm ci, npm test and node author/verify-site.mjs for local checks. node author/verify-site.mjs --live checks all published text, diagrams, tables, navigation, assets and representative author/control exclusions. All50 entries passed complete live checks. Quote markers are treated as Markdown formatting while quoted lesson text remains checked.
+Run npm ci, npm test and node author/verify-site.mjs for local checks. After deployment, run node author/verify-site.mjs --live and verify the served reading routes. Authorized publication of051–058 and0051.3 is pending actual observation.
 
-The reader keeps the collapsible side panel and independently collapsible modules. Author/control documents are excluded from Pages. Publication adds completed manifest entries and Module10 while preserving earlier entries and the reader implementation.
+The reader keeps its collapsible panel and groups. Author/control documents are excluded from Pages. The manifest adds only complete learners and preserves permanent URLs;051 belongs in task reference, outside the main sequence.
 
 ## Publication
 
@@ -47,7 +47,7 @@ Earlier local-only statements in dated per-lesson records describe their histori
 
 ## CRT-050 local completion
 
-The final currently planned core learner is published. Next continue the core coverage/continuity audit. Specialist depth and independent learner assessment remain separate work.
+The published core author audit is complete. Continue with the next scoped specialist task in the current register; independent learner assessment remains separate work.
 
 ## First audit batch
 

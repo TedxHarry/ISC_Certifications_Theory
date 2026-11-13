@@ -1,0 +1,19 @@
+Account information              Activity information
+  Who holds which rights?         Which events were observed?
+           |                               |
+           v                               v
+Collect accounts and access      Collect supported events
+           |                               |
+           v                               v
+Check identity/account link      Check source, identity,
+                                 event meaning and dates
+           |                               |
+           +---------------+---------------+
+                           |
+                           v
+                Inspect the actual review
+                What evidence is available?
+                           |
+                           v
+                Use it for the question
+                it can actually answer

@@ -1,0 +1,23 @@
+Same cloud account
+        |
+        +--> Project-Archive-Readers
+        |      entitlement under review
+        |              |
+        |              v
+        |        Project read policy
+        |              |
+        |              v
+        |        Production archive
+        |
+        +--> Operations-Archive-Readers
+               another entitlement
+                       |
+                       v
+                 Operations read policy
+                       |
+                       v
+                 Same production archive
+
+Remove the project path:
+  Project membership must be gone.
+  Operations reading can remain through its own path.

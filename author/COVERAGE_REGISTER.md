@@ -1,11 +1,13 @@
 # Coverage ownership register
 
-Version 3.47. November 13, 2026.
+Version 3.56. November 13, 2026.
 Companions: [course design](../COURSE_DESIGN.md), [routine task map](../OPERATIONAL_TASK_COVERAGE.md), [teaching specification](../TEACHING_SPECIFICATION.md).
 
 All32 concept rows have authored core teaching locations reconciled against the complete fresh author audit001–050. [Whole-core synthesis](CORE_AUDIT_SUMMARY.md) groups the concepts and records the evidence. Every mapped primary location is authored and freshly reread, including the published0051.2 manual-correlation repair. Specific unresolved product claims remain bounded in the capability register; independent learner assessment and specialist depth are pending. Earlier per-lesson evidence below retains its historical authoring stage.
 
 The published [reading-load revision](BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) changes placement, not the thirty-two coverage commitments: thirty main lessons, seventeen task references and three practice cases. Earlier audit statements describe the prior complete-read baseline. Five published revisions remove repeated introductions/diagnostics and move detailed flag lookup from027 to009. No task-specific reference is claimed unnecessary for someone doing that work.
+
+051–058 add focused specialist references without changing the thirty-two core commitments.058 develops X-05 page traversal, ID-set reconciliation and precise query/actor/certification scope. Other local learners and0051.3 remain unchanged. Local routes30/25/3; authorized publication pending, prior live30/17/3.
 
 Primary teaching means comprehensive treatment. Other lessons still explain the supporting meaning and connection needed for independent reading. Topic ownership does not justify sending an unfamiliar reader away.
 
@@ -76,11 +78,11 @@ Primary teaching means comprehensive treatment. Other lessons still explain the 
 
 | Route | Core meaning that must already be understandable | Deeper responsibility |
 |---|---|---|
-| X-01 | Assignment review versus role contents | Role-composition campaign, supported legacy behavior and manual role remediation. |
-| X-02 | Uncorrelated account and scope/ownership implications | Dedicated account-review design and outcome investigation. |
-| X-03 | Machine/service account and responsible ownership | Supported machine-account review and account/identity relationships. |
-| X-04 | Available reviewer evidence and its limits | Licensed insight configuration, provenance and deeper interpretation. |
-| X-05 | IDs, read-only API observations and status meaning | Bulk/paginated investigations and automation concepts, not a scripting course. |
+| X-01 | Assignment review versus role contents | [CRT-051](../lessons/CRT-051_From_a_Role_Composition_Decision_to_a_Corrected_Role.md) is authored locally, with [source/coverage evidence](revisions/CRT-051_Revision_Record.md). It follows a composition decision through manual role correction, supported processing and actual account-result evidence. Core coverage remains unchanged; no whole-route or learner-performance claim. |
+| X-02 | Uncorrelated account and scope/ownership implications | [CRT-052](../lessons/CRT-052_Carrying_Out_an_Uncorrelated_Account_Access_Review.md) completes a focused local dedicated-campaign procedure, actual access outcome and separate verified association repair. [Evidence](revisions/CRT-052_Revision_Record.md);005 precision fixed, existing core ownership retained. |
+| X-03 | Machine/service account and responsible ownership | [CRT-053](../lessons/CRT-053_Carrying_Out_a_Machine_Account_Access_Review.md) completes a focused local dedicated-campaign walkthrough, accountable human review, exact permission removal and retained-use verification. [Evidence](revisions/CRT-053_Revision_Record.md); core008/015 preserved. |
+| X-04 | Available reviewer evidence and its limits | Local054–056 own activity/recommendation/cloud tasks; [CRT-057](../lessons/CRT-057_Using_Sensitive_Data_Details_in_an_Access_Review.md) adds sensitive-data interpretation with [evidence](revisions/CRT-057_Revision_Record.md). Core/reference foundations are preserved. Four bounded tasks are authored; no DAS deployment or exhaustive route claim. |
+| X-05 | IDs, read-only API observations and status meaning | [CRT-058](../lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) adds paged-item reconciliation with [evidence](revisions/CRT-058_Revision_Record.md). Wider campaign/bulk investigation needs separate overlap assessment; no scripting course or universal readiness claim. |
 
 ## Coverage discipline
 

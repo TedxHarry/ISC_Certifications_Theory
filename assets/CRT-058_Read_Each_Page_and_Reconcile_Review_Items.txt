@@ -1,0 +1,23 @@
+Confirm the assigned certification and read scope
+                         |
+                         v
+Request the first page with consistent conditions
+                         |
+                         v
+Retain item IDs and their account/access context
+                         |
+                         v
+Read each remaining portion with the correct offset
+                         |
+                         v
+Compare all unique returned IDs with expected IDs
+                         |
+              +----------+-----------+
+              |                      |
+              v                      v
+Set matches the requirement    Missing, repeated or
+for this certification         unexpected records
+              |                      |
+              v                      v
+State that bounded result      Investigate scope, paging
+                               and changes during collection

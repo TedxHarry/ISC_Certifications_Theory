@@ -1,0 +1,19 @@
+Role contents being reviewed
+  Report Reading -> REPORT.VIEW
+  Report Export  -> REPORT.EXPORT
+                 |
+                 | reviewer records the correction
+                 v
+Required role correction
+  Assigned administrator removes Report Export
+  from Report Reader; Report Reading stays
+                 |
+                 | propagation and processing
+                 v
+Account-change work
+  Remove REPORT.EXPORT from the affected accounts
+                 |
+                 | verify current permissions
+                 v
+Verified result
+  Viewing remains; export is absent

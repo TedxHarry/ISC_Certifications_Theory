@@ -1,0 +1,28 @@
+Confirm available service and supported type
+                   |
+                   v
+Identify how the campaign is created
+                   |
+          +--------+--------+
+          |                 |
+          v                 v
+Search identity or     Manager or
+access-item route     source-owner route
+          |                 |
+          v                 v
+Campaign setting      System feature setting
+          |                 |
+          +--------+--------+
+                   |
+                   v
+Check the identity/access information used
+                   |
+                   v
+Inspect the actual assigned review
+                   |
+          +--------+--------+
+          |                 |
+          v                 v
+Reason available      No reason/icon available
+Open and interpret    Investigate the missing
+it with current need  information; do not guess

@@ -1,10 +1,10 @@
 # Authoring guide and lesson briefs
 
-Version 8.2. November 13, 2026.
+Version 8.11. November 13, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
-Current priority: the [reading-load revision](BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) supersedes earlier briefs below. Thirty main lessons, seventeen task references and three practice cases are published/live-verified, including all five learner revisions. Specialist authoring is paused while the published lighter edition is evaluated; no new topic, placeholder or fixed lesson quota.
+Current priority: [CRT-058](../lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) and [its record](revisions/CRT-058_Revision_Record.md) are complete, with an editable reconciliation flow. X-05 now has a paged-item task.051–057 and0051.3 are preserved. Publish all completed work under the user's explicit instruction, then record actual deployment/live checks. Local58/30/25/3; prior live50/30/17/3. Next assess broader reconciliation gaps; actual learner validation pending.
 
 ## Resume without losing the task
 
@@ -1413,7 +1413,7 @@ Do not mark specialist routes authored or invent051. After whole-core synthesis,
 
 [Batch09](CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) reads049/050 completely without truncation and records seventeen scoped primary bodies. No new learner correction. [Synthesis](CORE_AUDIT_SUMMARY.md) completes all50 fresh author rereads, reconciles32 concept rows/24 task families/200 meanings and retains17 capabilities/11 questions. The single demonstrated fresh-audit correction is published0051.2. Earlier records remain historical; no learner or reader change in this final batch.
 
-The lighter edition is published and live-verified: thirty main lessons, seventeen task references and three practice cases, with the five prose revisions. Seek actual beginner feedback on the shorter opening and route before adding specialist depth. Any new lesson needs a concrete certification task and a distinct gap in existing teaching; no fixed count or placeholder051.
+Next assess X-05 campaign-wide reconciliation against042/044/058 and the current certification-list/report contracts. Add a unit only for distinct useful multi-certification scope or bulk-comparison reasoning. Preserve the thirty-main route and completed051–058 plus0051.3. Current58 topics/30 main/25 reference/3 practice; publication results must be recorded after observation. No059 placeholder or fixed specialist count.
 
 ## Executed local checks
 

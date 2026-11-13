@@ -1,0 +1,19 @@
+Select the intended source account
+  No authoritative identity association
+                   |
+                   v
+Review its actual access and current purpose
+                   |
+                   v
+Record and confirm supported access decisions
+                   |
+                   v
+Follow the required removal work
+                   |
+                   v
+Check the application account
+and updated account data in ISC
+
+Separate ownership work:
+  Verify and repair a person link where justified.
+  Approve/Revoke does not create that link.

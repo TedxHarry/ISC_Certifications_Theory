@@ -1,0 +1,23 @@
+Program or service
+        |
+        | represented in ISC by
+        v
+Application identity
+        |
+        | groups
+        v
+Machine account on a source
+        |
+        | holds
+        v
+Application permissions
+        |
+        | assessed by
+        v
+Assigned human reviewer
+        |
+        +--> Keep the permissions still needed
+        |
+        +--> Remove unnecessary permissions
+             through the supported removal work
+             and verify the account result

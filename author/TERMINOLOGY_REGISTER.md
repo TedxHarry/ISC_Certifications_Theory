@@ -1,7 +1,21 @@
 # Author terminology register
 
-Version 3.47. November 13, 2026.
+Version 3.55. November 13, 2026.
 Purpose: consistent working meanings and primary teaching locations.
+
+[CRT-058](../lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) adds limit, offset, X-Total-Count and sorter, bringing210 to214 local working meanings. Pagination and reconciliation gain this actual task location. Request/header/query meanings are explained in context; no scripting or memorization requirement is added. Earlier counts remain historical.
+
+[CRT-057](../lessons/CRT-057_Using_Sensitive_Data_Details_in_an_Access_Review.md) adds five distinct sensitive-data meanings, bringing the local register to210. Earlier205/202 counts are historical checkpoints. Data classification, its category/policy/score, the permission reaching the resource and current approved work are explained in the learner; this register is not a prerequisite.
+
+[CRT-056](../lessons/CRT-056_Tracing_Cloud_Access_Paths_During_a_Certification.md) adds three distinct cloud meanings, SailPoint CIEM, cloud resource and cloud access path, bringing the local register to205. Effective access and Cloud Enabled gain the actual cloud teaching location. Earlier202/201-term counts remain dated checkpoints. Needed terms are explained in the lesson, not supplied only through this register.
+
+[CRT-055](../lessons/CRT-055_Enabling_and_Troubleshooting_Certification_Recommendations.md) adds the distinct configured meaning AI core identity attributes and develops recommendation/peer context, bringing the local register to202 meanings. Earlier201-term counts describe their checkpoints. The four selections, actual attribute values, available recommendation and person's current need are different facts; needed meanings are explained within the learner.
+
+[CRT-054](../lessons/CRT-054_Preparing_and_Checking_Activity_Evidence_for_a_Certification.md) reuses201 meanings. The Source activity entry now includes Activity Insights/event context and collection coverage. Connector/source, credentials, authentication/authorization, correlation/aggregation and campaign/review meanings are explained where needed. No new memorization or glossary dependency is added.
+
+[CRT-053](../lessons/CRT-053_Carrying_Out_a_Machine_Account_Access_Review.md) adds one necessary working meaning, machine-account classification, and expands the Mapping context to account attributes. There are201 meanings locally; earlier200-term audit counts remain historical. Application identity, account owner, source, correlation, aggregation, entitlement and review/removal meanings are explained locally without a glossary dependency.
+
+[CRT-051](../lessons/CRT-051_From_a_Role_Composition_Decision_to_a_Corrected_Role.md) reuses the existing two hundred meanings. It adds a focused location for role definition/composition, remediation responsibility and removal propagation. Necessary meanings are explained in the learner; no new glossary entry or memorization requirement is added.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
 The published [reading-load revision](BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) retains two hundred meanings. Six extended flag lookup primary locations move to task reference009;027 keeps representative flag reasoning, recommendations and activity. Learners do not need to memorize this author register or complete every task reference in sequence.
@@ -22,8 +36,8 @@ These are author working meanings. Verify product-specific use in the applicable
 | Account aggregation | Reading account information into ISC's represented source data. It is not itself an access-review decision. | CRT-005 |
 | Account correlation | Matching/associating an account with its owning identity. A correct value on the wrong account is not the intended person's evidence. | CRT-005/008 |
 | Manual correlation | Explicitly assigning an account to an identity; the manual link persists despite matching-attribute changes and is not removed by an unoptimized aggregation. Correct an incorrect manual association through the supported authorized process, then verify the actual identity link. | CRT-005 |
-| Uncorrelated account | A source account lacking the intended authoritative identity association; do not infer that it has no access. | CRT-008/045 |
-| Machine/service account | A non-human account used by an application/process; ownership and supported review type need explicit treatment. | CRT-008/015; X-03 |
+| Uncorrelated account | Source account lacking the authoritative identity association; an uncorrelated/placeholder identity can still represent it. Missing association does not establish no access or unnecessary access. | CRT-005/008/045/052 |
+| Machine/service account | A non-human account used by an application/process; ownership and supported review type need explicit treatment. | CRT-008/015/053; X-03 |
 | Attribute | A named piece of information on a record. Identity and account attributes can belong to different objects. | CRT-005/009 |
 | Entitlement | An access right represented from a source, such as a group membership; explain what that right allows. | CRT-006 |
 | Access profile | A named bundle of entitlements from one source; review and removal depend on how it was assigned. | CRT-006/007 |
@@ -33,10 +47,10 @@ These are author working meanings. Verify product-specific use in the applicable
 | Birthright access | Access automatically assigned under defined business conditions. The Birthright Access flag points to automated grants such as lifecycle rules; inspect origin and actual action. Manual revocation does not establish that the assigning rule stops requiring it. | CRT-007/027/035 |
 | Grant path | The assignment and access-package relationships through which a permission is supplied to a particular source account; a teaching phrase, not an asserted new ISC object. | CRT-035 |
 | Shared entitlement | The same entitlement type/value on the same source account included through more than one relevant access relationship. Shared labels or different accounts do not establish that overlap. | CRT-035 |
-| Role access removal propagation | Configuration controlling removal for certain role content changes, subject to enabled-role state, supported change type and processing. Separate from a person's membership change or a certification decision. | CRT-035 |
+| Role access removal propagation | Configuration controlling removal for certain role content changes, subject to enabled-role state, supported change type and processing. Separate from a person's membership change or a certification decision. | CRT-035/051 |
 | Verification | Checking whether reliable evidence supports the required outcome for the correct account/access/time, including what must remain and the limits of the claim. | CRT-037 |
 | Session | An application's continuing signed-in interaction with a user; ending it and removing one permission are different operations with source/application-specific behavior. | CRT-037 |
-| Effective access | Access that remains through applicable assignment paths and target permissions; removing one path does not establish that every path is gone. | CRT-035/037 |
+| Effective access | Resulting permissions after applicable assignment paths, target permissions and restrictions are considered. In cloud review, inspect the confirmed grants/denials and resource scope; removing one path does not establish that every path is gone. | CRT-035/037/056 |
 | Regrant | Access added again after actual removal; establish earlier absence and later addition before using this explanation. Distinguish retained access and a removal that never succeeded. Working meaning, not an asserted native field. | CRT-046 |
 
 ## Campaign objects, scope and responsibility
@@ -55,7 +69,7 @@ These are author working meanings. Verify product-specific use in the applicable
 | Campaign owner | Responsibility for the campaign according to configuration; owner, creator and reviewer are not assumed identical. | CRT-002/022 |
 | Source owner | The responsible source owner recorded in ISC; relevant to some review/routing/removal paths, not automatic permission for every action. | CRT-012/022/034 |
 | Access owner | Recorded responsibility for the reviewed access object. The documented Access Owner choice uses its primary owner and supported fallback; additional entitlement owners do not by themselves establish separate assignees. | CRT-009/022 |
-| Remediation owner | The person responsible for carrying out or coordinating the required removal/change in the applicable path. Verify actual task assignment. | CRT-002/034; X-01 |
+| Remediation owner | The person responsible for carrying out or coordinating the required removal/change in the applicable path. Verify actual task assignment. | CRT-002/034/051; X-01 |
 | Cert Admin / Org Admin | Platform administration levels relevant to certification actions. Verify the current permission matrix and task scope. | CRT-002/021/022 |
 | Governance group | Configured identities whose member can act for the group in supported review scope. Group owner, actual membership and individual decision actor differ; inactive/disabled identity status does not automatically update membership. | CRT-022 |
 | Authorization | Permission to perform an action. Business acceptance, campaign ownership, assigned review responsibility and actual administrative platform permission are distinct; verify the actor's required scope/state. | CRT-002/021/025 |
@@ -152,17 +166,30 @@ These are author working meanings. Verify product-specific use in the applicable
 | API | An application programming interface through which software requests operations or data. Core includes interpreting action/data requests and their results without requiring code execution. | CRT-025/044 |
 | Object ID | An identifier for the relevant platform record; a matching display name alone is not an exact record reference. | CRT-042/044 |
 | Request/response | An operation/data request and the returned result. An accepted request is not automatically completion of downstream work. | CRT-044 |
-| Pagination | Returning a collection in portions; seeing one page does not establish the whole population. | CRT-010/044; X-05 |
-| Recommendation / access flag | A certification recommendation suggests decision support using available peer/identity analysis; an access flag identifies a specific fact to inspect. Interpret actual reason, type, source and freshness. Neither supplies a missing current business justification. | CRT-027/031; X-04 |
-| Peer group | A comparison group based on similar access patterns; common access can support investigation without establishing this person's current authorized need. | CRT-027; X-04 |
-| Source activity | Events gathered from a supported configured application source. Certification active-days context can cover 90 days; source use is not proof of each permission's use or authorization, and absent data is not zero. | CRT-027; X-04 |
+| Pagination | Returning a collection in portions; seeing one page does not establish the whole population. | CRT-010/044/058; X-05 |
+| limit | Maximum number of records requested per response for the supported collection endpoint; not the matching total. | CRT-058 |
+| offset | Number of matching records skipped from the beginning, starting at zero; record-based, not a page number. | CRT-058 |
+| X-Total-Count | Response header requested with count=true on the supported endpoint: matching result count without the limit/offset restriction. Preserve actor/query/collection scope. | CRT-058 |
+| Sorter | Supported ordering of returned collection records; consistent ordering does not establish a unique tie-breaker or immutable snapshot. | CRT-058 |
+| Recommendation / access flag | A certification recommendation suggests decision support using available peer/identity analysis; an access flag identifies a specific fact to inspect. Interpret actual reason, type, source and freshness. Neither supplies a missing current business justification. | CRT-027/031/055; X-04 |
+| Peer group | A comparison group based on similar identity/access patterns; common access can support investigation without establishing this person's current authorized need. Missing comparable peers can explain no icon in an enabled supported context. | CRT-027/055; X-04 |
+| AI core identity attributes | Four selected identity attributes used across multiple SailPoint AI features, including certification recommendations. Selection, actual identity values and justified current access are distinct. | CRT-055 |
+| Source activity | Observed events gathered through Activity Insights from a supported configured source, separate from held account rights. Certification active-days context can cover90days; inspect actual collection coverage and identity/source meaning. Absent data is not zero; source use is not each entitlement's use or authorization. | CRT-027/054; X-04 |
 | New Access flag | The access has not previously been certified; this does not establish its grant date. | CRT-027 |
 | High Privilege (Overridden) flag | An entitlement's privilege classification was manually changed to indicate high privilege; inspect actual sensitive capabilities and need. | CRT-009 |
 | Contains Privileged Access flag | A role or profile includes privileged entitlement access; inspect which component and the actual package under decision. | CRT-009/027 |
 | Timebound Access flag | Access has a set end date; the time limit does not itself justify the access until that date. | CRT-009 |
 | Comments flag | Comments are associated with access; read author/date/relevance rather than assume a current approval. | CRT-009 |
-| Cloud Enabled flag | Access relates to cloud infrastructure; deeper resource/privilege/path and activity context is conditional on support/configuration/licensing. | CRT-009; X-04 |
-| Critical Data Access flag | Access includes critical data; investigate actual data/scope and authorized need, using licensed context where available. | CRT-009; X-04 |
+| Cloud Enabled flag | Access relates to cloud infrastructure; deeper resource/privilege/path and activity context is conditional on support/configuration/licensing. | CRT-009/056; X-04 |
+| SailPoint CIEM | Cloud Infrastructure Entitlement Management: provides effective cloud resource access and related context from supported configured cloud information. Availability and viewing authority are distinct from a cloud flag. | CRT-056 |
+| Cloud resource | An object in cloud infrastructure, such as a storage bucket or database, reached through permissions. Distinguish its actual identifier/environment from a similar readable name. | CRT-056 |
+| Cloud access path | The entitlement and cloud objects through which access reaches a resource. Entitlement Path concerns the reviewed entitlement; All Paths broadens to other entitlement paths for the selected resource. Inspection is not an additional review decision. | CRT-056 |
+| Critical Data Access flag | Access includes critical data; investigate actual data/scope and authorized need, using licensed context where available. | CRT-009/057; X-04 |
+| SailPoint Data Access Security | Product providing data-access and classification context; ISC can show conditional entitlement sensitivity information. Its administrative investigation and campaign features are distinct from ISC reviewer authority. | CRT-057 |
+| Data classification | Evaluating data under configured rules and applying categories when conditions match; its result does not establish a particular account's current permission or approved need. | CRT-057 |
+| Data category | A label applied through classification for an identified kind of data, such as health information. It does not itself authorize a person to read that data. | CRT-057 |
+| Data classification policy | Organizes the rules used to identify and categorize data. A listed associated policy is not by itself proof of a legal violation or individual access authorization. | CRT-057 |
+| Impact Score | High/Medium/Low entitlement data context combining sensitivity/criticality and instances of the data type. It is not an employee rating, exact formula taught here or an automatic review decision. | CRT-057 |
 
 ## Actual introductory teaching
 
@@ -192,7 +219,7 @@ Its local [revision 1.1 record](revisions/CRT-003_Revision_1_1_Record.md) record
 | Requester | The person submitting the request, who may differ from the recipient where supported. | CRT-004 |
 | Recipient | The person for whom access is requested; keep the target account distinct. | CRT-004 |
 | Approver | The actor evaluating the requested change under its configured process. | CRT-004 |
-| Mapping | Configuration specifying how incoming information sets an identity value. | CRT-004/005 |
+| Mapping | Configuration specifying how incoming information sets a value. Identity mappings set identity attributes; machine-account mappings supply account attributes such as owner and machine-identity association. | CRT-004/005/053 |
 | Identity processing | Evaluation of identity information and applicable access configuration, including required access work. | CRT-004/005 |
 | Access model | Configured access packages and assignment requirements; distinguish a review decision from changing a requirement. | CRT-004/006/007 |
 | Certifiable access | Access eligible for the supported certification review under the applicable model; not all held access is an individual decision item. | CRT-004/006/007 |
@@ -223,10 +250,10 @@ Its local [revision 1.1 record](revisions/CRT-004_Revision_1_1_Record.md) record
 |---|---|---|
 | Assignment | The association through which an identity holds an access object; distinguish it from the object's shared definition. | CRT-006/007; supporting explanation in CRT-004 1.1 |
 | Role assignment | One identity's holding of a role, with the access scope it provides; it is not the role definition for everyone. | CRT-006 |
-| Role definition | The role's configured contents and related requirements, separate from each identity's assignment. | CRT-006; X-01 |
+| Role definition | The role's configured contents and related requirements, separate from each identity's assignment. | CRT-006/051; X-01 |
 | Membership criteria | Configured conditions used to determine automatic role membership. | CRT-006/007 |
 | Access profile detection | Recognition of an already-held entitlement set as a profile where supported; not proof of a newly issued grant. | CRT-006/007 |
-| Role-composition review | Review of a shared role's definition, contents and membership requirements; distinguish the documented legacy review and manual correction from removing one person's holding. | CRT-006/015; X-01 |
+| Role-composition review | Review of a shared role's definition, contents and membership requirements; distinguish the documented legacy review and manual correction from removing one person's holding. | CRT-006/015/051; X-01 |
 | Role owner | Responsibility for the role; this label alone does not establish platform permission to change the definition. | CRT-006/022 |
 
 [CRT-006](../lessons/CRT-006_Entitlements_Access_Profiles_and_Roles_in_a_Review.md) reintroduces entitlement/profile/role meanings and connects them with actual item scope and assignment origin. Requested roles, criteria roles, requested/detected profiles and contained components receive the locally needed action/eligibility explanation. [Its author record](revisions/CRT-006_Revision_Record.md) locates the teaching and partial-need transfer. Detailed overlap, role configuration and composition remediation remain with their primary owners.
@@ -247,8 +274,9 @@ Its local [revision 1.1 record](revisions/CRT-004_Revision_1_1_Record.md) record
 | Privileged account | An account with rights for sensitive actions; verify actual purpose/permissions rather than a readable account label. Application privileges do not establish ISC administrative authority. | CRT-008 |
 | Authoritative source | A source configured to establish ISC identities from its accounts, such as a personnel source for employees. | CRT-008; supporting CRT-005 context |
 | Authoritative identity | An identity established from authoritative-source information; distinguish it from a placeholder representing an unmatched account. | CRT-008; X-02 |
-| Account owner | The person recorded as responsible for an account; responsibility for a service account does not make it a personal employee login or establish every platform permission. | CRT-008/022; X-03 |
-| Application identity | Representation of a program or process with associated machine accounts; the reviewer experience also uses machine identity terminology. Capability and actual subject need verification. | CRT-008/015; X-03 |
+| Account owner | The person recorded as responsible for an account; responsibility for a service account does not make it a personal employee login or establish every platform permission. | CRT-008/022/053; X-03 |
+| Application identity | Representation of a program or process with associated machine accounts; a type of machine identity. Account ownership and identity ownership are separate records. Capability and actual subject need verification. | CRT-008/015/053; X-03 |
+| Machine-account classification | Identifying which source accounts should be treated as machine accounts. Distinct from correlating them with a program identity or recording a responsible human. | CRT-053 |
 
 [CRT-008](../lessons/CRT-008_One_Person_Two_Accounts_and_the_Correct_Review_Target.md) reintroduces account/identity/source, Account Name/ID, entitlement, aggregation/correlation, campaign/certification/review item, decision, sign-off, remediation/provisioning and package scope at the points needed. Uncorrelated and machine/service-account meanings are now developed in core prose. [Its author record](revisions/CRT-008_Revision_Record.md) maps those relationships and the exact-account transfer. Five new distinct working terms are added; source account identifiers, display names and platform record IDs remain separate concepts.
 

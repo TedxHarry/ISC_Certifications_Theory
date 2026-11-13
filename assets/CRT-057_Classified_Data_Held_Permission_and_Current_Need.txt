@@ -1,0 +1,20 @@
+Classification evidence
+  What data was identified?
+  Which resource and classification date?
+                  |
+                  v
+Confirm the reviewed permission reaches that data
+  Correct source, account, resource and capability
+                  |
+                  v
+Compare with the person's current approved work
+                  |
+          +-------+--------+
+          |                |
+          v                v
+Approved work needs   Permission allows more
+this permission       than approved work needs
+          |                |
+          v                v
+Explain why access    Plan the right access
+should stay           and review decision

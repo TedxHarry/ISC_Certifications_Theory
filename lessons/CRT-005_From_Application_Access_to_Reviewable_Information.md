@@ -115,7 +115,7 @@ Under those conditions, the account is linked to the correct person's identity. 
 
 The number 1007 identifies the person for this configured match. It does not identify the export permission or establish that the person needs to keep it.
 
-If the link is wrong, accurate account permissions can appear in the wrong person's context. If ISC cannot match the account to its established identity, the account is **uncorrelated**, meaning that it has no identity link. The application account can still exist and hold access even though the person link is missing.
+If the link is wrong, accurate account permissions can appear in the wrong person's context. If ISC cannot match the account to an identity established from trusted person data, the account is **uncorrelated**. It lacks that authoritative identity association, but ISC can still represent its information through an uncorrelated or placeholder identity. Such a record does not establish a verified person link. The application account can still exist and hold access.
 
 Investigate the ownership information or use the appropriate supported account-review process. Do not treat an unmatched account as evidence that nobody has its permissions.
 

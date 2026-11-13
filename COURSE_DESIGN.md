@@ -1,10 +1,10 @@
 # SailPoint ISC Certifications: Understanding Access Reviews from Scope to Verified Outcome
 
-Course design 9.2. November 13, 2026.
+Course design 9.11. November 13, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: fifty topics authored and published. The [reading-load review](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) selects thirty main lessons, seventeen task references and three practice cases. Five prose revisions and route-aware navigation are [published and live-verified](author/PUBLICATION_2026-11-13_LIGHTER_READING_ROUTES.md). Earlier audit records remain historical; specialist depth and independent learner assessment remain pending.
+Status:58 complete learners locally in30 main/25 reference/3 practice.051–058 and0051.3 are prepared for authorized publication. The [previous live edition](author/PUBLICATION_2026-11-13_LIGHTER_READING_ROUTES.md) has fifty learners in30/17/3; actual new deployment/live results are pending. Historical evidence is retained; wider X-05 assessment and actual learner validation remain.
 
-Current priority: evaluate the published lighter edition before adding specialist lessons. Preserve independent explanations, normal flows and useful task reference. New depth needs a concrete certification task and a distinct gap; no fixed lesson or module count. Seventeen capabilities and eleven open questions remain.
+Current priority: [CRT-058](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) completes the focused X-05 paged-review-item task. Local58/30/25/3; user authorized pushing all completed work. Observe deployment/live checks before reporting publication. Then assess campaign-wide reconciliation gaps against042/044/058.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
@@ -243,11 +243,11 @@ These are deeper routes selected by job or project need. They are not a classifi
 
 | Extension | Subject | When it belongs in the learner's route |
 |---|---|---|
-| X-01 | Role-composition certifications | Core CRT-006/015 explains composition versus assignment. Detailed role-review and manual role-update reasoning is required for role-governance work. Current documentation places this in the legacy engine. |
-| X-02 | Uncorrelated-account certifications | Core CRT-005/008/010/045 covers recognition, scope and ownership investigation. This route develops the dedicated account-review campaign and remediation scenarios. |
-| X-03 | Machine-account certifications | Core CRT-008/009/015 introduces non-human accounts and ownership questions. Detailed supported campaign behavior is required for machine/service-account governance work. |
-| X-04 | Rich decision support | Core CRT-027/031 teaches how to interpret available reviewer context. This route deepens licensed insights, configuration, limitations and unusual cases. |
-| X-05 | API and automation depth | Core CRT-042/044/045 includes basic operational API literacy. This route develops bulk/paginated investigations, template/filter/schedule automation and version/engine dependencies; no scripting exercises in this theory course. |
+| X-01 | Role-composition certifications | First focused task reference [CRT-051](lessons/CRT-051_From_a_Role_Composition_Decision_to_a_Corrected_Role.md) is authored locally: composition judgment, precise manual role correction and affected-account evidence. Core006/015/035 retain their supporting scope. No broader route-completion or publication claim. |
+| X-02 | Uncorrelated-account certifications | [CRT-052](lessons/CRT-052_Carrying_Out_an_Uncorrelated_Account_Access_Review.md) is authored locally: source/account selection, settings, preview, reviewer work, decisions, manual removal, refreshed account evidence and separate correlation/retirement work. Existing005/008/010/045 retain foundations. |
+| X-03 | Machine-account certifications | [CRT-053](lessons/CRT-053_Carrying_Out_a_Machine_Account_Access_Review.md) is authored locally: program/account/owner relationships, classification/grouping checks, dedicated campaign, knowledgeable review, removal and retained-service evidence. Core008/015 foundations remain; no full implementation or learner-performance claim. |
+| X-04 | Rich decision support | Local054/055/056 cover activity/recommendation/cloud paths; [CRT-057](lessons/CRT-057_Using_Sensitive_Data_Details_in_an_Access_Review.md) adds score/policy/category interpretation and matching sensitive-data evidence. Existing009/027/031/035 foundations remain. Four bounded useful tasks are authored; full product deployment and exhaustive specialist readiness are not claimed. |
+| X-05 | Investigation and automation concepts | [CRT-058](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) adds complete read-only paged-item investigation and unique-ID reconciliation. Core042/044 retain count/API/report foundations. Assess wider campaign scope before adding more; no scripting or all-task-readiness claim. |
 
 Do not expand these into broad AI, non-human identity or API-development courses. Before adding a specialist lesson, identify the concrete certification task and the gap existing main/reference teaching cannot answer. The five routes are possible job-specific depth, not a required additional fifty-lesson course.
 

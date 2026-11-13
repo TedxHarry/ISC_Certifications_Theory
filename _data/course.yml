@@ -19,6 +19,16 @@ modules:
     title: "9. Read the evidence and diagnose problems"
   - id: project-reasoning
     title: "10. Reason through a real campaign project"
+  - id: role-composition
+    title: "Role composition"
+  - id: uncorrelated-accounts
+    title: "Uncorrelated-account certifications"
+  - id: machine-accounts
+    title: "Machine-account certifications"
+  - id: reviewer-evidence
+    title: "Richer reviewer evidence"
+  - id: investigation
+    title: "Read-only investigations"
 reading_routes:
   - id: core
     title: "Learn the core flow"
@@ -427,3 +437,67 @@ lessons:
     description: "Explain changed scope, reviewer absence, failed removal and the evidence needed for closure or handoff."
     source: "lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md"
     url: "/lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.html"
+  - id: CRT-051
+    route: reference
+    module: role-composition
+    placement: "Task reference · Role composition"
+    title: "How does a role-composition decision become a corrected role?"
+    description: "Follow a composition decision through manual role correction, supported processing and verified account results."
+    source: "lessons/CRT-051_From_a_Role_Composition_Decision_to_a_Corrected_Role.md"
+    url: "/lessons/CRT-051_From_a_Role_Composition_Decision_to_a_Corrected_Role.html"
+  - id: CRT-052
+    route: reference
+    module: uncorrelated-accounts
+    placement: "Task reference · Uncorrelated accounts"
+    title: "How do you carry out an uncorrelated-account access review?"
+    description: "Prepare and validate the dedicated account review, follow decisions into removal, and distinguish access results from ownership repair."
+    source: "lessons/CRT-052_Carrying_Out_an_Uncorrelated_Account_Access_Review.md"
+    url: "/lessons/CRT-052_Carrying_Out_an_Uncorrelated_Account_Access_Review.html"
+  - id: CRT-053
+    route: reference
+    module: machine-accounts
+    placement: "Task reference · Machine accounts"
+    title: "How do you carry out a machine-account access review?"
+    description: "Review a program's machine-account permissions, follow removal and verify that required access and approved work remain."
+    source: "lessons/CRT-053_Carrying_Out_a_Machine_Account_Access_Review.md"
+    url: "/lessons/CRT-053_Carrying_Out_a_Machine_Account_Access_Review.html"
+  - id: CRT-054
+    route: reference
+    module: reviewer-evidence
+    placement: "Task reference · Reviewer evidence"
+    title: "How do you prepare and check activity evidence for a certification?"
+    description: "Prepare supported activity collection, investigate missing review context and distinguish measured activity from current access need."
+    source: "lessons/CRT-054_Preparing_and_Checking_Activity_Evidence_for_a_Certification.md"
+    url: "/lessons/CRT-054_Preparing_and_Checking_Activity_Evidence_for_a_Certification.html"
+  - id: CRT-055
+    route: reference
+    module: reviewer-evidence
+    placement: "Task reference · Reviewer evidence"
+    title: "How do you enable and troubleshoot certification recommendations?"
+    description: "Check campaign-specific recommendation controls, identity inputs and actual reasons, then investigate a missing icon without inventing a decision."
+    source: "lessons/CRT-055_Enabling_and_Troubleshooting_Certification_Recommendations.md"
+    url: "/lessons/CRT-055_Enabling_and_Troubleshooting_Certification_Recommendations.html"
+  - id: CRT-056
+    route: reference
+    module: reviewer-evidence
+    placement: "Task reference · Reviewer evidence"
+    title: "How do you trace cloud access paths during a certification?"
+    description: "Inspect the reviewed entitlement's cloud resources and paths, compare other paths, and verify the intended account and resource outcome."
+    source: "lessons/CRT-056_Tracing_Cloud_Access_Paths_During_a_Certification.md"
+    url: "/lessons/CRT-056_Tracing_Cloud_Access_Paths_During_a_Certification.html"
+  - id: CRT-057
+    route: reference
+    module: reviewer-evidence
+    placement: "Task reference · Reviewer evidence"
+    title: "How do you use sensitive-data details in an access review?"
+    description: "Interpret data scores, policies and categories, check matching classification evidence, and connect it with actual permission scope and current need."
+    source: "lessons/CRT-057_Using_Sensitive_Data_Details_in_an_Access_Review.md"
+    url: "/lessons/CRT-057_Using_Sensitive_Data_Details_in_an_Access_Review.html"
+  - id: CRT-058
+    route: reference
+    module: investigation
+    placement: "Task reference · Investigations"
+    title: "How do you check all review items across API pages?"
+    description: "Read every required page, reconcile unique review-item IDs and distinguish missing records from query, permission or changing-data problems."
+    source: "lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md"
+    url: "/lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.html"

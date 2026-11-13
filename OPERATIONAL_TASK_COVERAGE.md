@@ -1,8 +1,8 @@
 # ISC certifications: operational task coverage
 
-Planning revision 7.1. November 13, 2026.
-Companion to [course design 9.2](COURSE_DESIGN.md).
-Status: all24 routine-task families have authored core locations and have been reconciled through the complete fresh author audit of CRT-001–050. The whole-core synthesis records the evidence and its limits. This is theory/author review, not observed learner task performance, a tenant run or a statistical frequency ranking. Five job-dependent specialist routes remain planned.
+Planning revision 7.10. November 13, 2026.
+Companion to [course design 9.11](COURSE_DESIGN.md).
+Status: all24 routine-task families have authored core locations and have been reconciled through the complete fresh author audit of CRT-001–050. The whole-core synthesis records the evidence and its limits. This is theory/author review, not observed learner task performance, a tenant run or a statistical frequency ranking. X-01/X-02/X-03 and four bounded X-04 activity/recommendation/cloud/sensitive-data tasks have focused local references; X-05 now has focused paged-item investigation in058; wider campaign reconciliation needs overlap assessment.
 The published [reading-load revision](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) retains all twenty-four task families. Their locations now span main lessons, task reference and practice; the shorter main route alone is not a claim of full task readiness. Someone handling absence, failures, repairs or project acceptance must use the corresponding reference. No new task frequency measurement is claimed.
 
 Authoring must follow the [teaching specification](TEACHING_SPECIFICATION.md) and reconcile each completed task against its saved lesson record.
@@ -54,12 +54,16 @@ Every mapped task must teach the purpose, actor/permission, required input, appl
 
 ## Specialist depth and its core foundation
 
+[CRT-052](lessons/CRT-052_Carrying_Out_an_Uncorrelated_Account_Access_Review.md) adds the dedicated uncorrelated-account procedure, decisions and verified outcome with separate ownership/retirement work. It is local, with [its evidence](author/revisions/CRT-052_Revision_Record.md); the twenty-four core task-family count is unchanged.
+
+[CRT-051](lessons/CRT-051_From_a_Role_Composition_Decision_to_a_Corrected_Role.md) is the complete local X-01 reference for the concrete role-correction task, with [its evidence](author/revisions/CRT-051_Revision_Record.md). It extends task-specific teaching without adding a twenty-fifth core task family. The existing task map and published main route remain intact.
+
 | Area | Required core understanding | Deeper route and trigger |
 |---|---|---|
 | Role composition | A person's role assignment and a role's contents are different review subjects. | X-01 when responsible for role governance or role-composition campaigns. |
-| Uncorrelated accounts | Recognize absent authoritative ownership and its effect on ordinary scope, reviewer selection and investigation. | X-02 for dedicated uncorrelated-account reviews and their fulfillment cases. |
-| Machine/service accounts | Recognize non-human account purposes and avoid assuming an employee manager or personal owner. | X-03 when responsible for supported machine-account reviews; verify tenant capabilities. |
-| Flags, recommendations and activity | Understand any available context as evidence, with source/freshness/availability limits. | X-04 for detailed licensed insight configuration and unusual interpretation cases. |
+| Uncorrelated accounts | Recognize absent authoritative association, possible placeholder representation and scope implications. | X-02's first dedicated review/removal/ownership walkthrough is complete locally as CRT-052. |
+| Machine/service accounts | Recognize non-human account purposes and avoid assuming an employee manager or personal owner. | X-03's first focused walkthrough is complete locally as CRT-053: grouping/owner checks, campaign procedure, decisions and verified required program use. |
+| Flags, recommendations and activity | Understand any available context as evidence, with source/freshness/availability limits. | Local054–057 develop X-04 activity/recommendation preparation, cloud-path review and sensitive-data interpretation. No full licensed-product deployment or exhaustive readiness claim. |
 | APIs and automation | Explain IDs, request/response records, status and permissions; choose read-only evidence appropriate to the engine. | X-05 for bulk/paginated investigation and automation design. Coding remains in a later hands-on course. |
 
 A deeper route may be essential for a particular job. Its separate placement keeps unrelated implementation depth out of the general learner's route; it does not mark that subject as rare or unimportant.
