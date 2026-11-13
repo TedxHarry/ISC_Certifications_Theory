@@ -1,0 +1,26 @@
+Identify the campaign and expected review set
+                         |
+                         v
+Read every required certification-list page
+                         |
+                         v
+Compare returned certification IDs with expected IDs
+                         |
+                         v
+For each matching certification:
+  Start its item collection at offset zero
+  Read all required item pages
+  Retain certification ID, item ID and account context
+                         |
+                         v
+Compare required accounts and their permissions
+                         |
+             +-----------+-----------+
+             |                       |
+             v                       v
+Reviews and items match        Missing review, item,
+the checked requirement        or unexpected relationship
+             |                       |
+             v                       v
+State the scope and time       Investigate before calling
+of that complete collection    the campaign collection complete

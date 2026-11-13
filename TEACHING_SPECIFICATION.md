@@ -1,6 +1,6 @@
 # ISC Certifications teaching specification
 
-Version 1.2. Updated November 13, 2026.
+Version 1.3. Updated November 13, 2026.
 Applies to every learner lesson, reference aid and later revision in this course.
 
 ## Audience and result
@@ -140,7 +140,7 @@ Keep external documentation URLs, citation markers, source lists, verification d
 
 Planning documents and author references may contain links. Removing sources from the learner does not reduce the requirement to verify them.
 
-The later site may show press-and-hold term definitions: press and hold to open, release to close, with touch and keyboard equivalents. Hover alone should not trigger it. Essential explanations remain in the prose. This is a future presentation requirement, not an implemented interaction.
+The local reader supports curated press-and-hold term meanings: hold a marked term to open, release to close, with touch and Space/Enter keyboard equivalents. Hover alone does not trigger help. Essential explanations remain in the prose. The public helper dictionary is separate from the complete author terminology register; do not claim that every word or author entry is interactive. Local implementation, browser verification and publication are separate states recorded in the course register.
 
 ## Complete-lesson review
 

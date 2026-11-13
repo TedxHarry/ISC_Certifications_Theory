@@ -18,7 +18,7 @@ a:active { color: var(--ink); }
 #main:focus { outline: none; }
 .skip-link { position: fixed; left: 1rem; top: -6rem; z-index: 3; padding: .6rem 1rem; background: var(--paper); border: 2px solid var(--accent); }
 .skip-link:focus { top: 1rem; }
-.site-header { max-width: 90rem; margin: auto; min-height: 5rem; padding: 1.15rem 2.5rem; display: flex; gap: 1rem; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--rule); }
+.site-header { max-width: 90rem; margin: auto; min-height: 5rem; padding: 1.15rem 2.5rem; display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--rule); }
 .brand { color: var(--ink); font-size: 1.2rem; font-weight: 700; text-decoration: none; }
 .brand span { margin-left: .35rem; color: var(--muted); font-weight: 400; }
 .edition { color: var(--muted); font-size: .85rem; }
@@ -141,3 +141,32 @@ h1 { font-size: clamp(2rem, 3.6vw, 3.4rem); letter-spacing: -.035em; margin: .15
 .course-library > summary span { color: var(--muted); font-size: 1rem; font-weight: 400; }
 .course-library > summary:hover { color: var(--accent); }
 .course-library > p { color: var(--muted); }
+
+.term-help {
+  appearance: none; display: inline; padding: 0; margin: 0;
+  border: 0; border-radius: 0; background: none; color: inherit;
+  font: inherit; line-height: inherit; text-align: inherit;
+  text-decoration-line: underline; text-decoration-style: dotted;
+  text-decoration-color: var(--muted); text-underline-offset: .2em;
+  cursor: pointer; touch-action: pan-y; user-select: none;
+}
+.term-help:hover { color: var(--accent); }
+.term-help:active, .term-help[aria-describedby] { color: var(--accent); background: var(--surface); }
+.term-help-tooltip {
+  position: fixed; z-index: 5; width: max-content; max-width: min(22rem, calc(100vw - 24px));
+  max-height: calc(100dvh - 24px); overflow-y: auto; pointer-events: none;
+  padding: .85rem 1rem; border: 1px solid var(--accent); border-radius: 3px;
+  background: var(--paper); color: var(--ink); box-shadow: 0 3px 12px #12304720;
+  font: .95rem/1.55 "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+.term-help-tooltip[hidden] { display: none; }
+.term-help-tooltip strong, .term-help-tooltip span { display: block; }
+.term-help-tooltip strong { margin-bottom: .3rem; }
+@media (forced-colors: active) {
+  .term-help { text-decoration-color: LinkText; }
+  .term-help-tooltip { border-color: CanvasText; box-shadow: none; }
+}
+@media print {
+  .term-help { text-decoration: none; color: inherit; }
+  .term-help-tooltip { display: none !important; }
+}

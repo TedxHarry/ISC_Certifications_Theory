@@ -12,7 +12,7 @@ An uncorrelated-account certification lets a reviewer assess that existing acces
 
 An **account** is a record used to access an application. Its permissions determine what someone using it can do.
 
-An **identity** is ISC's representation of a person. An **authoritative source** supplies the trusted information used to establish identities, such as personnel records. An **authoritative identity** is established from that information.
+Here, an **identity** is ISC's record for a person. An **authoritative source** supplies the trusted information used to establish those identities, such as personnel records. An **authoritative identity** is established from that information.
 
 **Account correlation** associates an application's account with the appropriate identity. An **uncorrelated account** lacks the authoritative identity association.
 

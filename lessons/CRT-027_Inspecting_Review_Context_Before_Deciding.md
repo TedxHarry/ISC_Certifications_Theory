@@ -135,7 +135,7 @@ For `EXP-CUST`, suppose the panel recommends keeping access because it is common
 
 Now change the business fact. The person has finished that duty and is authorized only to read anonymous report totals. The peer comparison and yesterday's source activity remain the same. They no longer establish a reason to keep exporting customer contact details. Investigate the appropriate narrower access arrangement and the required decision on the actual reviewed item.
 
-A missing recommendation is also missing information, not an approval or a rejection. For example, certification recommendations are not provided for role-composition reviews, which assess what a role contains, or uncorrelated-account reviews, for accounts not linked to their owner's identity. Do not copy a recommendation rule from a different review type or guess why a panel is absent.
+A missing recommendation is also missing information, not an approval or a rejection. For example, certification recommendations are not provided for role-composition reviews, which assess what a role contains, or uncorrelated-account reviews, for accounts not linked to an identity established from trusted person data. Do not copy a recommendation rule from a different review type or guess why a panel is absent.
 
 ## Establish what the activity actually measures
 

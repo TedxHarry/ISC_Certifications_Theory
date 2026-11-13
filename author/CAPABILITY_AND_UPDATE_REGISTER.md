@@ -1,8 +1,12 @@
 # Capability, update and open-question register
 
-Version 6.19. November 13, 2026.
+Version 6.21. November 13, 2026.
 Source leads: [official source map](../AUTHOR_SOURCE_MAP.md).
 Purpose: stop unsupported current/legacy/availability claims entering lessons.
+
+The [combined review](SPECIALIST_CORE_CLARITY_AND_OVERLAP_REVIEW_2026-11-13.md) freshly checks the missing preview-to-start transition in053, authoritative/placeholder account wording in027/045/052, and identity-campaign API scope/caller labels in058. No new engine, timing, automatic refresh or remediation behavior is added. All17 capabilities and11 open questions remain; this is not a tenant or learner test.
+
+[CRT-059](revisions/CRT-059_Revision_Record.md) refreshes CAP-02/13 with bounded CAP-10/15/16 support. Parent List Certifications is Experimental, campaignRef.id-filterable, caller-scoped and requires reviewer-identity=me for non-admin users. Child List Review Items has its own authority and collection parameters. The normal full campaign visibility is supplied and reconciled, not inferred from an admin label or200. No global item-ID uniqueness, immutable campaign snapshot, cross-endpoint filters, report equivalence or sign-off/source-removal proof. Seventeen capabilities and eleven questions remain.
 
 [CRT-058](revisions/CRT-058_Revision_Record.md) refreshes CAP-02/13 with bounded CAP-10/15/16 support. The Experimental next-generation identity-certification List Review Items operation and exact SDK method verify authority, limit/offset/count and allowed filter/sort scope. General offset is record-based; a later mixed example's page wording is not reused. A changing collection, repeated IDs, failed page or narrower actor/query scope prevents an unsupported completeness claim. No whole-campaign result, unique-id sorter, immutable snapshot, all-engine API equivalence or remediation proof. Seventeen capability areas and eleven questions remain.
 

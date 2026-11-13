@@ -6,6 +6,8 @@ layout: default
 <article class="lesson-content">
   {{ content | replace: '<table>', '<div class="table-scroll" role="region" aria-label="Lesson table" tabindex="0"><table>' | replace: '</table>', '</table></div>' | replace: '<pre', '<pre tabindex="0"' }}
 </article>
+<script type="application/json" id="term-help-data">{{ site.data.term_help | jsonify }}</script>
+<script src="{{ '/assets/term-help.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 {% assign adjacent_lessons = site.data.course.lessons | where: "route", current_lesson.route %}
 <nav class="lesson-pagination" aria-label="Adjacent lessons">
   {% for lesson in adjacent_lessons %}

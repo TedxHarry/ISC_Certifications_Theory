@@ -26,4 +26,8 @@ Keep learner Markdown unchanged by site setup. Jekyll optional front matter rend
 
 Authoring instructions, planning documents, revision records, tests and dependencies are excluded from the reading site, but remain ordinary repository files. A working-edition label describes publication status without inserting author commentary into lesson prose.
 
-The press-and-hold glossary remains a future requirement and is not claimed implemented. Public repository and Pages URLs use the separate ISC_Certifications_Theory destination; never the other course's remote.
+Local reader update, November13,2026: _data/term_help.json owns109 curated learner meanings and aliases; assets/term-help.js owns the shared interaction. The script marks recognized phrases and emphasized terms, skips headings/links/code, and preserves article text. Single ordinary words outside emphasis stay unmarked to avoid assigning an API or ISC meaning to an unrelated sentence. All214 author meanings are not claimed as interactive help.
+
+Hold a marked term with the primary pointer or touch, or hold Space/Enter with focus on its button. Release, cancellation, lost capture, focus loss, scrolling, resizing, tab visibility change or Escape dismisses the fixed tooltip. Hover, focus and an ordinary completed click do not leave it open. It has no navigation or external requests. Missing/invalid data or disabled JavaScript leaves readable prose. The popup uses existing palette/type tokens, stays within the viewport and is hidden for print. The header wraps at larger text sizes. Reader CSS and JavaScript URLs include Jekyll's build time to refresh cached assets after publication.
+
+Public repository and Pages URLs use the separate ISC_Certifications_Theory destination; never the other course's remote. The [reader readiness record](author/LOCAL_READER_READINESS_REVIEW_2026-11-13.md) distinguishes local browser observation from an actual Pages build.

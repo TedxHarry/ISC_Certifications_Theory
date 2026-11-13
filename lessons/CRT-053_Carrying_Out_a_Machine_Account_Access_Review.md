@@ -76,6 +76,8 @@ For this example, the agreed policy requires a reason for removal and maintains 
 
 Check the generated account, entitlement content and assigned reviewer against the requirement. Resolve differences before starting the campaign. A correct account count could still contain the wrong production account.
 
+When those checks agree, the administrator opens the checked preview and selects **Start Campaign**. The prepared review can now reach the assigned reviewer. Generating a preview alone does not start that review work.
+
 ## Review the program's access
 
 The assigned reviewer opens **Certifications > Active**, then the relevant certification. A certification is the assigned review within the campaign.

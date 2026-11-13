@@ -1,7 +1,13 @@
 # Author terminology register
 
-Version 3.55. November 13, 2026.
+Version 3.58. November 13, 2026.
+
+The [local reader review](LOCAL_READER_READINESS_REVIEW_2026-11-13.md) adds109 concise helper meanings in ../_data/term_help.json. These are selected learner reminders drawn from existing teaching, not109 new author terms or a complete interactive version of this214-entry register. Keep aliases unambiguous and essential reasoning inline. The shared script limits ordinary-word matching to emphasized terminology.
 Purpose: consistent working meanings and primary teaching locations.
+
+The [combined review](SPECIALIST_CORE_CLARITY_AND_OVERLAP_REVIEW_2026-11-13.md) aligns027/045 with the authoritative-association and possible placeholder distinction in005/008/052.052 explicitly scopes its person-identity meaning;058 expands organization/certification administrator labels beside the API role codes. These clarify existing meanings; the register remains214 unique entries.
+
+[CRT-059](../lessons/CRT-059_Reconciling_Review_Items_Across_an_Entire_Campaign.md) reuses214 working meanings and adds actual locations for expected baseline, reconciliation and two-level pagination. Keeping certification and item IDs together is a practical record association, not a new native ISC object. No glossary growth or prerequisite is imposed.
 
 [CRT-058](../lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) adds limit, offset, X-Total-Count and sorter, bringing210 to214 local working meanings. Pagination and reconciliation gain this actual task location. Request/header/query meanings are explained in context; no scripting or memorization requirement is added. Earlier counts remain historical.
 
@@ -166,7 +172,7 @@ These are author working meanings. Verify product-specific use in the applicable
 | API | An application programming interface through which software requests operations or data. Core includes interpreting action/data requests and their results without requiring code execution. | CRT-025/044 |
 | Object ID | An identifier for the relevant platform record; a matching display name alone is not an exact record reference. | CRT-042/044 |
 | Request/response | An operation/data request and the returned result. An accepted request is not automatically completion of downstream work. | CRT-044 |
-| Pagination | Returning a collection in portions; seeing one page does not establish the whole population. | CRT-010/044/058; X-05 |
+| Pagination | Returning a collection in portions; seeing one page does not establish the whole population. Campaign and per-certification collections need their own complete traversal. | CRT-010/044/058/059; X-05 |
 | limit | Maximum number of records requested per response for the supported collection endpoint; not the matching total. | CRT-058 |
 | offset | Number of matching records skipped from the beginning, starting at zero; record-based, not a page number. | CRT-058 |
 | X-Total-Count | Response header requested with count=true on the supported endpoint: matching result count without the limit/offset restriction. Preserve actor/query/collection scope. | CRT-058 |
@@ -318,8 +324,8 @@ New terms may be added when a real explanation needs them. Avoid growing a gloss
 | Term | Working meaning and connection | Teaching location |
 |---|---|---|
 | Review population | The people, accounts and access intended for a review, under an explicit scope and observation time. | CRT-010/013/014 |
-| Expected baseline | Evidence-supported list of relationships that should be accounted for, independently checked against the business requirement. | CRT-010/021 |
-| Reconciliation | Comparing intended and actual records and explaining missing/unexpected person-account-access relationships. Equal totals or a clean selected case cannot erase another known gap. | CRT-010/021 |
+| Expected baseline | Evidence-supported list of relationships that should be accounted for, independently checked against the business requirement. Campaign investigations also verify the expected certification set and its dated scope. | CRT-010/021/059 |
+| Reconciliation | Comparing intended and actual records and explaining missing/unexpected review and person-account-access relationships. Equal totals or complete child pages do not erase another known parent/item gap. | CRT-010/021/059 |
 | Coverage gap | Intended review content not adequately accounted for; a label or progress percentage does not establish resolution. | CRT-010/021/045 |
 
 [CRT-010 record](revisions/CRT-010_Revision_Record.md) locates these four new meanings and the locally reintroduced pagination, preview, query/refinement/filter, collection/correlation and review-unit meanings. The register now has 104 distinct working meanings. No earlier meaning is removed, and no observed learner vocabulary result is claimed.

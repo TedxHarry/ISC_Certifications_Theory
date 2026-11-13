@@ -2,7 +2,7 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-Fifty-eight topics are authored, pushed and live-verified in30 main/25 reference/3 practice. [CRT-058](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) adds complete paged-item investigation. [Publication evidence](author/PUBLICATION_2026-11-13_SPECIALIST_REFERENCES_051_058.md) records051–0581.0,0051.3 and complete deployment/live checks. The main sequence is unchanged; actual learner/tenant validation remains pending.
+Fifty-nine topics are authored locally in30 main/26 reference/3 practice. CRT-0591.0, six focused clarity revisions and the reader's hold-to-read term help remain local. The [reader readiness record](author/LOCAL_READER_READINESS_REVIEW_2026-11-13.md) records109 curated meanings, browser checks and the pending release scope. The [live edition](author/PUBLICATION_2026-11-13_SPECIALIST_REFERENCES_051_058.md) remains58 topics in30/25/3. Actual learner/tenant validation remains pending.
 
 The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/). The separate general ISC course is unchanged.
 
@@ -20,11 +20,11 @@ The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Cert
 
 ## Current position
 
-Latest learner: [CRT-058, How do you check all review items across API pages?](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md), revision1.0 published/live-verified. [Its record](author/revisions/CRT-058_Revision_Record.md) maps source/author checks; [publication evidence](author/PUBLICATION_2026-11-13_SPECIALIST_REFERENCES_051_058.md) records the served results.
+Latest learner: [CRT-059, How do you reconcile review items across an entire campaign?](lessons/CRT-059_Reconciling_Review_Items_Across_an_Entire_Campaign.md), complete local revision1.0, not published. [Its record](author/revisions/CRT-059_Revision_Record.md) maps current API scope, parent/item collections, exact reconciliation and author review.
 
-Next assess X-05 campaign-wide reconciliation against042/044/058 and the current certification-list/report contracts. Add a unit only for distinct useful multi-certification scope or bulk-comparison reasoning. Preserve the thirty-main route, published051–058 and0051.3. Current58 topics/30 main/25 reference/3 practice, published/live-verified. No059 placeholder or fixed specialist count; keep new authoring local unless publication is requested.
+Local reader preparation is complete for the59-topic edition. The main route stays30 lessons, with26 task references and3 practice cases.109 curated term meanings now support hold-to-read help; this is not the entire214-entry author register. The release also includes0591.0 and six focused lesson revisions. Next publish the prepared changes only when requested, then verify the actual Pages build and served content. No new lesson is required by a quota; actual learner/tenant validation remains pending.
 
-The fifty-topic foundation and eight focused specialist references are published/live-verified in30/25/3. Broader X-05 assessment and actual learner validation remain pending. Counts follow content needs.
+The fifty-topic foundation and eight specialist references remain published/live-verified. The ninth specialist reference,059, is complete locally. The combined specialist/core author review is complete; its six focused revisions remain local.
 
 The user reported that CRT-004 revision 1.1 was better after difficulty reading 1.0. Independent uncoached assessment remains pending. Source checks and author review do not establish learner mastery, tenant execution or exhaustive release currency.
 
@@ -33,15 +33,15 @@ The user reported that CRT-004 revision 1.1 was better after difficulty reading 
 - lessons/: complete learner Markdown files, one topic at a time.
 - assets/: editable teaching diagrams, paired with their learner explanations.
 - author/revisions/: historical per-lesson coverage, sources, assumptions and actual checks.
-- _data/course.yml:58 complete published topics in30/25/3. Nine groups contain main-route lessons.
+- _data/course.yml:59 complete local topics in30/26/3; the published58-topic edition remains30/25/3. Nine groups contain main-route lessons.
 
-Run npm ci, npm test and node author/verify-site.mjs for local checks. The complete --live content check and all58 served reading-route checks passed for this publication.
+Run npm ci, npm test and node author/verify-site.mjs for local checks. The published58-topic edition passed complete live checks. Local059 must be published before using --live against the current59-entry manifest.
 
-The reader keeps its collapsible panel and groups. Author/control documents are excluded from Pages. The manifest adds only complete learners and preserves permanent URLs;051 belongs in task reference, outside the main sequence.
+The reader keeps its collapsible panel and groups. Hold a marked term with the primary mouse button or a finger to see its meaning; release to close it. Keyboard users hold Space or Enter. Hover alone does not open help. Essential explanations remain in the lessons. Author/control documents are excluded from Pages.
 
 ## Publication
 
-The [latest publication record](author/PUBLICATION_2026-11-13_LIGHTER_READING_ROUTES.md) confirms commit f16c82c, successful Pages run 43401120246 and full live verification: fifty lessons, 5,841 content units, fifty diagrams/assets, fifty-seven tables and 2,644 internal link visits. Additional live checks passed all fifty route boundaries and the separate main/reference/practice groups. Earlier publication records remain historical.
+The [latest publication record](author/PUBLICATION_2026-11-13_SPECIALIST_REFERENCES_051_058.md) records the58-topic edition: content91299dd, successful Pages run43474252543 and subsequent status commitfc378f4. It passed full content and route checks. The59-topic reader update has not been pushed; local browser checks do not establish a new Pages deployment.
 
 Earlier local-only statements in dated per-lesson records describe their historical authoring stages. Current publication status belongs in this README, the course register and the latest publication record.
 

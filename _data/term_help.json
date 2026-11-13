@@ -1,0 +1,641 @@
+[
+  {
+    "term": "ISC",
+    "aliases": [
+      "SailPoint Identity Security Cloud"
+    ],
+    "meaning": "SailPoint Identity Security Cloud manages information about identities, accounts and access. Its certification features help people review whether existing access is still needed."
+  },
+  {
+    "term": "Identity",
+    "aliases": [
+      "Identities"
+    ],
+    "meaning": "ISC's record for a person or another managed subject. It connects information about that subject with their accounts and access; an application identity can represent a program."
+  },
+  {
+    "term": "Account",
+    "aliases": [
+      "Accounts"
+    ],
+    "meaning": "A record used to access a particular system. One person or program can have several accounts, with different permissions on each."
+  },
+  {
+    "term": "Source",
+    "aliases": [
+      "Sources"
+    ],
+    "meaning": "ISC's configuration for a system or collection of account data. The actual application still holds the account and enforces its permissions."
+  },
+  {
+    "term": "Connector",
+    "aliases": [
+      "Connectors"
+    ],
+    "meaning": "The integration used to read information from a source or make supported changes. Being able to read accounts does not establish that it can remove their access."
+  },
+  {
+    "term": "Entitlement",
+    "aliases": [
+      "Entitlements"
+    ],
+    "meaning": "An access right represented from a source, such as a group membership. Check what it allows in the application; its name alone does not explain its capability."
+  },
+  {
+    "term": "Access profile",
+    "aliases": [
+      "Access profiles"
+    ],
+    "meaning": "A named bundle of entitlements from one source. If the review presents the profile as one item, its decision concerns that package."
+  },
+  {
+    "term": "Role",
+    "aliases": [
+      "Roles"
+    ],
+    "meaning": "An ISC package of access for a business purpose. Its shared definition and one person's assignment to it are different things."
+  },
+  {
+    "term": "Account aggregation",
+    "aliases": [
+      "Aggregation"
+    ],
+    "meaning": "Collecting account information from a source into ISC. It tells ISC what the source reports; it does not itself remove access in the application."
+  },
+  {
+    "term": "Account correlation",
+    "aliases": [],
+    "meaning": "Associating an application account with the appropriate identity in ISC. Inspect the resulting link before using that person's context to judge the account."
+  },
+  {
+    "term": "Manager correlation",
+    "aliases": [],
+    "meaning": "Establishing the relationship between a person's identity and their manager's identity using the configured information. It is different from linking an application account to its owner."
+  },
+  {
+    "term": "Manual correlation",
+    "aliases": [],
+    "meaning": "An explicit account-to-identity link made through the supported manual process. ISC preserves this link despite matching-data changes; ordinary reprocessing does not prove it was removed."
+  },
+  {
+    "term": "Authoritative source",
+    "aliases": [],
+    "meaning": "A source configured to establish identities from trusted information, such as personnel records. Other application accounts can then be associated with those identities."
+  },
+  {
+    "term": "Authoritative identity",
+    "aliases": [],
+    "meaning": "An identity established from the trusted information supplied through an authoritative source. A placeholder for an unmatched account does not establish that verified person association."
+  },
+  {
+    "term": "Uncorrelated account",
+    "aliases": [
+      "Uncorrelated accounts"
+    ],
+    "meaning": "A source account without an authoritative identity association. ISC can still represent it through an uncorrelated identity, and the application account can still hold access."
+  },
+  {
+    "term": "Uncorrelated identity",
+    "aliases": [],
+    "meaning": "A record representing unmatched account information. Seeing a name here does not establish a verified link to an employee; inspect the actual accounts and ownership evidence."
+  },
+  {
+    "term": "Machine account",
+    "aliases": [
+      "Machine accounts",
+      "Service account",
+      "Service accounts"
+    ],
+    "meaning": "An account used by software, such as a program or service. Its human owner is responsible for it, but that does not make it the owner's personal login."
+  },
+  {
+    "term": "Application identity",
+    "aliases": [
+      "Application identities"
+    ],
+    "meaning": "An ISC identity representing a program or service. Related machine accounts can be grouped under it so their access can be understood in that program's context."
+  },
+  {
+    "term": "Machine identity",
+    "aliases": [
+      "Machine identities"
+    ],
+    "meaning": "A representation of a non-human subject, such as a business application or process. The program, its system accounts and the responsible human are different records."
+  },
+  {
+    "term": "Classification",
+    "aliases": [],
+    "meaning": "Putting something into a category using defined rules. Check what is being classified: machine-account classification concerns account type, while data classification concerns information in resources."
+  },
+  {
+    "term": "Machine-account classification",
+    "aliases": [],
+    "meaning": "Identifying which source accounts should be treated as machine accounts. This is separate from recording an owner or associating an account with a program identity."
+  },
+  {
+    "term": "Attribute",
+    "aliases": [
+      "Attributes"
+    ],
+    "meaning": "A named piece of information on a record, such as department on an identity. Check which record the field describes and whether its value is current."
+  },
+  {
+    "term": "Identity attribute",
+    "aliases": [
+      "Identity attributes"
+    ],
+    "meaning": "A named piece of information about an identity, such as department or manager. A department label can help locate the work context but does not justify every permission."
+  },
+  {
+    "term": "Identity processing",
+    "aliases": [],
+    "meaning": "ISC's evaluation of identity information and the relevant access configuration. Check the resulting assignments and account-change work; starting processing is not proof that an application changed."
+  },
+  {
+    "term": "Identity profile",
+    "aliases": [
+      "Identity profiles"
+    ],
+    "meaning": "Configuration that connects an authoritative source with the identity information ISC builds from it. Its mappings explain how source information supplies identity values."
+  },
+  {
+    "term": "Mapping",
+    "aliases": [
+      "Mappings",
+      "Attribute mapping",
+      "Attribute mappings"
+    ],
+    "meaning": "Configuration telling ISC where a value comes from or how it should be used. A saved mapping is an instruction; inspect the resulting record to establish its effect."
+  },
+  {
+    "term": "Lifecycle state",
+    "aliases": [
+      "Lifecycle states",
+      "LCS"
+    ],
+    "meaning": "A configured business stage, such as Active or Leaver, that can drive access behavior. Its access rules are different from one reviewer's decision on a requested item."
+  },
+  {
+    "term": "Birthright access",
+    "aliases": [],
+    "meaning": "Access assigned automatically under configured business conditions. Review the actual assigning rule when the access should change; a review choice does not establish that the rule stopped applying."
+  },
+  {
+    "term": "Role assignment",
+    "aliases": [
+      "Role assignments"
+    ],
+    "meaning": "The association through which an identity holds a role. Removing one person's assignment and editing the role's shared contents affect different scopes."
+  },
+  {
+    "term": "Role definition",
+    "aliases": [],
+    "meaning": "The shared configuration describing a role's access and related settings. A correction can affect several holders, so check both the intended definition and the account outcomes."
+  },
+  {
+    "term": "Membership criteria",
+    "aliases": [],
+    "meaning": "Conditions used to determine who receives a role automatically. If the conditions still require the assignment, acknowledging it does not override those rules."
+  },
+  {
+    "term": "Assignment origin",
+    "aliases": [],
+    "meaning": "How access was assigned or recognized, such as a request or an automatic role rule. It helps explain what the reviewer can decide and which change can remove the access."
+  },
+  {
+    "term": "Effective access",
+    "aliases": [],
+    "meaning": "What an account can actually do after the relevant permissions, assignment paths and restrictions are considered. Removing one membership does not establish that every route to a capability is gone."
+  },
+  {
+    "term": "Role access removal propagation",
+    "aliases": [],
+    "meaning": "Configuration allowing certain supported role-content removals to initiate removal of previously granted access. Check the role state, exact change, processing and actual account result."
+  },
+  {
+    "term": "Certification campaign",
+    "aliases": [
+      "Certification campaigns",
+      "Campaign",
+      "Campaigns"
+    ],
+    "meaning": "The organized access-review work with its scope, settings and assigned reviews. A campaign can contain several certifications, each with its own review items."
+  },
+  {
+    "term": "Access certification",
+    "aliases": [],
+    "meaning": "A review of whether existing access remains appropriate. In this course it means access review, rather than a professional qualification exam."
+  },
+  {
+    "term": "Certification",
+    "aliases": [
+      "Certifications",
+      "Assigned review"
+    ],
+    "meaning": "An assigned review within a certification campaign. Its items, saved decisions and final confirmation are different from the whole campaign's status."
+  },
+  {
+    "term": "Review item",
+    "aliases": [
+      "Review items"
+    ],
+    "meaning": "The access entry presented for a decision in an assigned review. Identify its actual account and access object before interpreting the choice."
+  },
+  {
+    "term": "Review subject",
+    "aliases": [],
+    "meaning": "The person, account or other supported subject whose access is under review. Check the campaign type and the actual record rather than infer the subject from a display name."
+  },
+  {
+    "term": "Reviewer",
+    "aliases": [
+      "Reviewers",
+      "Certifier"
+    ],
+    "meaning": "The person or supported group assigned to assess review work. Review responsibility does not automatically grant permission to edit an application account."
+  },
+  {
+    "term": "Decision maker",
+    "aliases": [],
+    "meaning": "The actor recorded as making a particular decision. A review's current assignee is not automatically the person who made every earlier choice."
+  },
+  {
+    "term": "Campaign owner",
+    "aliases": [],
+    "meaning": "The person responsible for the campaign under its configuration. Campaign ownership, review responsibility and removal work are separate responsibilities."
+  },
+  {
+    "term": "Source owner",
+    "aliases": [],
+    "meaning": "The person recorded as responsible for a source in ISC. Check the actual campaign or task assignment before assuming that this person received the work."
+  },
+  {
+    "term": "Access owner",
+    "aliases": [],
+    "meaning": "The person responsible for an access object, such as an entitlement or role. They can help explain its purpose; their ownership label alone does not establish this account's current need."
+  },
+  {
+    "term": "Account owner",
+    "aliases": [],
+    "meaning": "The person responsible for an account. For a machine account, this is human responsibility for the program's account, not ownership of a personal employee login."
+  },
+  {
+    "term": "Role owner",
+    "aliases": [],
+    "meaning": "The person responsible for a role. Understanding its purpose and having permission to change its definition are separate requirements."
+  },
+  {
+    "term": "Remediation owner",
+    "aliases": [],
+    "meaning": "The person responsible for carrying out or coordinating the required correction. Inspect the actual task and authorized operator instead of guessing from a title."
+  },
+  {
+    "term": "Governance group",
+    "aliases": [],
+    "meaning": "A configured group of identities that can act in supported review workflows. Its owner, actual members and the person who made a decision are different facts."
+  },
+  {
+    "term": "Preview",
+    "aliases": [],
+    "meaning": "Generated review work that an administrator can inspect before starting the campaign. Generating the preview alone does not establish that reviewers can begin."
+  },
+  {
+    "term": "Generation",
+    "aliases": [
+      "Campaign generation"
+    ],
+    "meaning": "Creating review work from the campaign's settings and available information. Check the generated accounts, items and assignments against the intended scope."
+  },
+  {
+    "term": "Activation",
+    "aliases": [],
+    "meaning": "Starting reviewer work for a prepared campaign through its supported action. A saved template, scheduled preview and active campaign are different states."
+  },
+  {
+    "term": "Campaign filter",
+    "aliases": [
+      "Campaign filters"
+    ],
+    "meaning": "A configured condition that includes or excludes supported review content. Check which records it tests and what the generated campaign actually contains."
+  },
+  {
+    "term": "Campaign template",
+    "aliases": [],
+    "meaning": "Reusable campaign configuration. It describes how work should be prepared; it is different from a generated campaign containing assigned reviews."
+  },
+  {
+    "term": "Scope",
+    "aliases": [],
+    "meaning": "The people, accounts, access and time covered by the particular requirement or observation. A result supports a conclusion only within the scope it actually checked."
+  },
+  {
+    "term": "Approve",
+    "aliases": [],
+    "meaning": "Accept keeping the reviewed access under the established current need. It does not grant a missing replacement permission or repair an incorrect account link."
+  },
+  {
+    "term": "Revoke",
+    "aliases": [],
+    "meaning": "Record that the reviewed access should be removed. The final review, required removal work and verified application result are separate checkpoints."
+  },
+  {
+    "term": "Acknowledge",
+    "aliases": [],
+    "meaning": "Record examination of access whose assigning rule controls the holding, such as an automatically assigned role. It does not override that rule or remove the access."
+  },
+  {
+    "term": "Sign-off",
+    "aliases": [
+      "Sign off"
+    ],
+    "meaning": "The reviewer's final confirmation of their review decisions. Saving an item choice and signing off the assigned review are separate actions."
+  },
+  {
+    "term": "Reassignment",
+    "aliases": [],
+    "meaning": "Transferring review responsibility through the supported process. It does not change account ownership or application permissions."
+  },
+  {
+    "term": "Remediation",
+    "aliases": [],
+    "meaning": "The work needed to carry out a review's required removal or correction. A task status must still be connected with evidence of the intended account result."
+  },
+  {
+    "term": "Provisioning",
+    "aliases": [],
+    "meaning": "Work that creates or changes accounts or access in another system through a supported integration. Reading account data is a different operation."
+  },
+  {
+    "term": "Deprovisioning",
+    "aliases": [],
+    "meaning": "Work that removes accounts or access through the supported process. Establish the exact required change; removing one permission is different from deleting the whole account."
+  },
+  {
+    "term": "Task Manager",
+    "aliases": [],
+    "meaning": "The place where an assigned worker can inspect and handle supported work items. Read the actual task's account, instructions and assignment before acting."
+  },
+  {
+    "term": "Authentication",
+    "aliases": [],
+    "meaning": "Establishing who is connecting, using credentials such as an account or token. Successful authentication does not establish permission to perform every operation."
+  },
+  {
+    "term": "Authorization",
+    "aliases": [],
+    "meaning": "Permission to perform an action or use access. The reviewer's ISC permission, an integration's application permission and the user's business authorization are separate checks."
+  },
+  {
+    "term": "Activity Insights",
+    "aliases": [],
+    "meaning": "The supported collection of activity information for use as context in ISC. Check the connector, configuration, event meaning and coverage before interpreting a blank or zero result."
+  },
+  {
+    "term": "Source activity",
+    "aliases": [],
+    "meaning": "Information about observed actions associated with a source. A sign-in does not establish use of every permission, and recent use does not establish continuing authorization."
+  },
+  {
+    "term": "Activity event",
+    "aliases": [],
+    "meaning": "A record of an observed action, such as a sign-in, with information about who acted and when. Its meaning and covered period limit what it can establish."
+  },
+  {
+    "term": "Certification recommendation",
+    "aliases": [
+      "Certification recommendations"
+    ],
+    "meaning": "A suggestion to help assess existing access in a supported review. Inspect its reasons and the person's current work; the suggestion does not make the human decision."
+  },
+  {
+    "term": "Peer group",
+    "aliases": [
+      "Peer groups"
+    ],
+    "meaning": "A comparison group identified through similarities in identity and access information. Similar people's access can suggest a question to investigate, but does not prove this person's need."
+  },
+  {
+    "term": "AI core identity attributes",
+    "aliases": [
+      "AI core attributes"
+    ],
+    "meaning": "Four selected identity attributes used by supported AI features. Their configuration is shared, so changing them is broader than repairing one missing recommendation."
+  },
+  {
+    "term": "Privileged access",
+    "aliases": [],
+    "meaning": "Access allowing sensitive actions or access to sensitive information. Confirm the actual capability and current need rather than decide from the flag alone."
+  },
+  {
+    "term": "Privilege classification",
+    "aliases": [],
+    "meaning": "Information about how an entitlement's privilege has been categorized. An absent or unset classification does not establish that the underlying access is harmless."
+  },
+  {
+    "term": "Access flag",
+    "aliases": [
+      "Access flags"
+    ],
+    "meaning": "An indicator drawing attention to information about reviewed access. Read its exact meaning; it does not supply the person's current business justification."
+  },
+  {
+    "term": "New Access",
+    "aliases": [],
+    "meaning": "A flag meaning that the access has not previously been certified. It does not tell you when the application granted it."
+  },
+  {
+    "term": "Cloud Enabled",
+    "aliases": [],
+    "meaning": "An indicator that access relates to cloud infrastructure. Available detail still depends on the supported cloud setup and viewing permission."
+  },
+  {
+    "term": "SailPoint CIEM",
+    "aliases": [
+      "CIEM"
+    ],
+    "meaning": "Cloud Infrastructure Entitlement Management, which provides information about access to cloud resources. Check the collected permissions, resource and restrictions for the actual account."
+  },
+  {
+    "term": "Cloud resource",
+    "aliases": [
+      "Cloud resources"
+    ],
+    "meaning": "Something in the cloud that permissions allow an account to use, such as a database or storage bucket. It is different from the entitlement being reviewed."
+  },
+  {
+    "term": "Cloud access path",
+    "aliases": [
+      "Cloud access paths"
+    ],
+    "meaning": "The connected entitlements, groups, policies or other objects through which an account reaches a cloud resource. Check whether another authorized path remains after removal."
+  },
+  {
+    "term": "Entitlement Path",
+    "aliases": [],
+    "meaning": "The cloud path from the entitlement under review to the selected resource. It answers a narrower question than all paths through the identity's entitlements."
+  },
+  {
+    "term": "All Paths",
+    "aliases": [],
+    "meaning": "The available paths across the identity's entitlements to the selected cloud resource. Check each path's actual account before treating them as one account's permissions."
+  },
+  {
+    "term": "Data Access Security",
+    "aliases": [
+      "DAS"
+    ],
+    "meaning": "SailPoint's capability for understanding organizational data and access to it. Classification information and the account's actual permission are different evidence."
+  },
+  {
+    "term": "Data classification",
+    "aliases": [],
+    "meaning": "Examining data and applying categories using configured rules. It identifies information found in resources; it does not authorize a particular person to read it."
+  },
+  {
+    "term": "Data category",
+    "aliases": [
+      "Data categories"
+    ],
+    "meaning": "A label applied through classification, such as Health Information. Confirm which resource and data the result concerns."
+  },
+  {
+    "term": "Data classification policy",
+    "aliases": [],
+    "meaning": "Configuration organizing the rules used to identify and categorize data. It helps explain the classification, rather than this person's business need."
+  },
+  {
+    "term": "Impact Score",
+    "aliases": [],
+    "meaning": "A High, Medium or Low indicator based on data sensitivity and occurrences. It draws attention to exposure; a High score alone does not mean the person's access is unjustified."
+  },
+  {
+    "term": "API",
+    "aliases": [
+      "Application programming interface"
+    ],
+    "meaning": "An interface through which software requests information or operations. Check the particular operation's permissions and returned scope."
+  },
+  {
+    "term": "Endpoint",
+    "aliases": [],
+    "meaning": "The address for a particular API operation. Use the ID of the object that operation expects, such as a certification rather than its campaign."
+  },
+  {
+    "term": "GET",
+    "aliases": [],
+    "meaning": "The read operation used to retrieve information in the API examples. A successful read does not save decisions, sign off a review or change application access."
+  },
+  {
+    "term": "Request",
+    "aliases": [],
+    "meaning": "What software asks an interface to return or do. In an access-request workflow, the term instead concerns asking for access; identify the context."
+  },
+  {
+    "term": "Response",
+    "aliases": [],
+    "meaning": "What the service sends back for a request. Read its status and contents before deciding what result was established."
+  },
+  {
+    "term": "Header",
+    "aliases": [
+      "Headers"
+    ],
+    "meaning": "Information carried alongside an API request or response. Some operations require an experimental-use header; a count header describes the request's matching records."
+  },
+  {
+    "term": "Query parameter",
+    "aliases": [
+      "Query parameters"
+    ],
+    "meaning": "A value supplied with a read request to control its conditions or returned portion. Different operations support different parameters."
+  },
+  {
+    "term": "Pagination",
+    "aliases": [],
+    "meaning": "Returning a collection of records in portions called pages. Reading the first portion does not establish the complete result."
+  },
+  {
+    "term": "Limit",
+    "aliases": [],
+    "meaning": "The maximum number of records requested per page on an operation that supports it. It is different from the number of matching records in the whole collection."
+  },
+  {
+    "term": "Offset",
+    "aliases": [],
+    "meaning": "The number of matching records to skip from the start, beginning at zero. With limit two, offsets zero, two and four retrieve successive portions of an unchanged collection."
+  },
+  {
+    "term": "X-Total-Count",
+    "aliases": [],
+    "meaning": "A response header giving the matching total when requested through a supported count option. It retains the request's filters and caller scope."
+  },
+  {
+    "term": "Sorter",
+    "aliases": [],
+    "meaning": "A supported ordering for returned records. Consistent ordering helps compare pages but does not freeze records while they change."
+  },
+  {
+    "term": "Reconciliation",
+    "aliases": [],
+    "meaning": "Comparing expected records with actual records and explaining differences. Matching row totals alone cannot establish that the right accounts and permissions were included."
+  },
+  {
+    "term": "Expected baseline",
+    "aliases": [],
+    "meaning": "The independently checked records the requirement says should be included. Copying an incomplete first response would also copy its omissions."
+  },
+  {
+    "term": "ORG_ADMIN",
+    "aliases": [
+      "Org Admin"
+    ],
+    "meaning": "The organization-administrator role label used by the documented API. Use the specific operation's authorization rules; the label alone does not establish a complete campaign result."
+  },
+  {
+    "term": "CERT_ADMIN",
+    "aliases": [
+      "Cert Admin"
+    ],
+    "meaning": "The certification-administrator role label used by the documented API. Check the actual operation and review scope before relying on access."
+  },
+  {
+    "term": "Experimental",
+    "aliases": [],
+    "meaning": "A label on the next-generation APIs used in this course. Check the current supported operation, availability and required experimental-use header before using it."
+  },
+  {
+    "term": "Legacy",
+    "aliases": [],
+    "meaning": "The older certification experience alongside the newer campaign engine. Follow the controls and behavior documented for the actual campaign path."
+  },
+  {
+    "term": "Virtual appliance",
+    "aliases": [],
+    "meaning": "Software running on the organization's infrastructure to support applicable integrations. Its role depends on the connector and configuration being used."
+  },
+  {
+    "term": "Access request",
+    "aliases": [
+      "Access requests"
+    ],
+    "meaning": "Asking for access through the supported request process. Approval explains whether it should be granted; provisioning and account checks establish the resulting access."
+  },
+  {
+    "term": "Optimized aggregation",
+    "aliases": [],
+    "meaning": "Account collection that can skip further processing of unchanged records. A skipped account does not have its correlation reevaluated simply because the matching settings changed."
+  },
+  {
+    "term": "Unoptimized aggregation",
+    "aliases": [],
+    "meaning": "The supported collection path that reexamines unchanged account records for correlation. It does not remove a persistent manual account-to-identity link."
+  },
+  {
+    "term": "Role-composition review",
+    "aliases": [
+      "Role-composition reviews",
+      "Role composition"
+    ],
+    "meaning": "A review of a role's shared design and contents. It asks whether the package is appropriate, rather than whether one person should keep their assignment."
+  }
+]

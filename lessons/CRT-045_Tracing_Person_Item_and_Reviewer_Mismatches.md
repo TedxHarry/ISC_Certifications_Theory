@@ -124,7 +124,9 @@ Use the appropriate supported scope and procedure. An ordinary refresh is not pr
 
 After correcting the association, inspect both the identity's actual accounts and the affected review work. Do not assume the old campaign's subjects and decisions have been rebuilt.
 
-An **uncorrelated account** has no matched owning identity in ISC. That needs investigation, but it does not justify linking a service account to an arbitrary employee. A service account may support an application or automated process and require the appropriate ownership and review route.
+An **uncorrelated account** lacks a link to an identity established from trusted person data, such as employee records. ISC can still represent its information through an uncorrelated or placeholder identity. Seeing that record does not establish who owns the account.
+
+Investigate the account's actual use and ownership. Do not link a service account to an arbitrary employee. It may support an application or automated process and need the appropriate ownership and review route.
 
 ## When a person or permission seems missing
 

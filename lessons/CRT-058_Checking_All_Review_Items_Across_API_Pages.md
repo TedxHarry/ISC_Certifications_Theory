@@ -26,7 +26,7 @@ Two items with the same readable permission name can concern different accounts.
 
 An **API**, application programming interface, lets software request information or operations. The **request** states what is wanted; the **response** is what the service returns.
 
-**GET** is the read operation used here. The next-generation List Review Items endpoint uses this path:
+**GET** is the read operation used here. For an identity-campaign certification, the next-generation List Review Items endpoint uses this path:
 
 `/certification-campaigns/v1/certifications/{certificationId}/review-items`
 
@@ -36,7 +36,7 @@ Confirm that the certification belongs to the intended campaign and review. Simi
 
 This endpoint is currently Experimental and requires the **X-SailPoint-Experimental** request header set to **true**. A **header** carries request or response information separately from the returned item records.
 
-Its documented callers are **ORG_ADMIN**, **CERT_ADMIN**, or a reviewer for this certification. Being able to review one certification does not establish authority to read every review in the organization.
+Its documented callers are an organization administrator (**ORG_ADMIN**), a certification administrator (**CERT_ADMIN**), or a reviewer for this certification. Being able to review one certification does not establish authority to read every review in the organization.
 
 Use the supported operation and authorized scope for the actual environment. This read does not record decisions, reassign work or sign off a review.
 

@@ -1,8 +1,8 @@
 # ISC certifications: operational task coverage
 
-Planning revision 7.11. November 13, 2026.
-Companion to [course design 9.12](COURSE_DESIGN.md).
-Status: all24 routine-task families have authored core locations and have been reconciled through the complete fresh author audit of CRT-001–050. The whole-core synthesis records the evidence and its limits. This is theory/author review, not observed learner task performance, a tenant run or a statistical frequency ranking. X-01/X-02/X-03 and four bounded X-04 activity/recommendation/cloud/sensitive-data tasks have focused local references; X-05 now has focused paged-item investigation in058; wider campaign reconciliation needs overlap assessment.
+Planning revision 7.13. November 13, 2026.
+Companion to [course design 9.14](COURSE_DESIGN.md).
+Status: all24 routine-task families retain their authored core locations. The complete core audit and [combined specialist/core review](author/SPECIALIST_CORE_CLARITY_AND_OVERLAP_REVIEW_2026-11-13.md) record author evidence, not observed learner performance. Nine specialist references develop bounded tasks across X-01–05; six clarity corrections remain local alongside0591.0. No task family, main lesson or specialist task was dropped.
 The published [reading-load revision](author/BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) retains all twenty-four task families. Their locations now span main lessons, task reference and practice; the shorter main route alone is not a claim of full task readiness. Someone handling absence, failures, repairs or project acceptance must use the corresponding reference. No new task frequency measurement is claimed.
 
 Authoring must follow the [teaching specification](TEACHING_SPECIFICATION.md) and reconcile each completed task against its saved lesson record.

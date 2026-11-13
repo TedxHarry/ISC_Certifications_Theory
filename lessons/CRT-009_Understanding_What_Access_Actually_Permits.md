@@ -166,7 +166,7 @@ Some richer context depends on licensed services and configuration. Data-access 
 
 A recommendation is suggested decision-support information. If it is available, inspect the reason behind it rather than treating the suggestion as an explanation of the permission.
 
-Some richer context depends on configuration and other licensed services. Source activity, where available, may help show how an account used a source. An activity observation still needs a time range and an understood meaning.
+Source activity, where available, may help show how an account used a source. An activity observation still needs a time range and an understood meaning.
 
 Recent use does not establish that access is still required. An absence of recorded activity also needs interpretation before treating it as proof that the person never needs the permission.
 

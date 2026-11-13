@@ -501,3 +501,11 @@ lessons:
     description: "Read every required page, reconcile unique review-item IDs and distinguish missing records from query, permission or changing-data problems."
     source: "lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md"
     url: "/lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.html"
+  - id: CRT-059
+    route: reference
+    module: investigation
+    placement: "Task reference · Investigations"
+    title: "How do you reconcile review items across an entire campaign?"
+    description: "Collect the campaign's complete certification set and each review's items, then reconcile exact account/access relationships within verified caller and time scope."
+    source: "lessons/CRT-059_Reconciling_Review_Items_Across_an_Entire_Campaign.md"
+    url: "/lessons/CRT-059_Reconciling_Review_Items_Across_an_Entire_Campaign.html"
