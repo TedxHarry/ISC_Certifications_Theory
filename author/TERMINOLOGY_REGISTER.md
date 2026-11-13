@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 3.37. November 12, 2026.
+Version 3.45. November 13, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -19,6 +19,7 @@ These are author working meanings. Verify product-specific use in the applicable
 | Connector | The supported integration used to read or change data for a source. Reading support does not establish write capability. | CRT-005/033 |
 | Account aggregation | Reading account information into ISC's represented source data. It is not itself an access-review decision. | CRT-005 |
 | Account correlation | Matching/associating an account with its owning identity. A correct value on the wrong account is not the intended person's evidence. | CRT-005/008 |
+| Manual correlation | Explicitly assigning an account to an identity; the manual link persists despite matching-attribute changes and is not removed by an unoptimized aggregation. Correct an incorrect manual association through the supported authorized process, then verify the actual identity link. | CRT-005 |
 | Uncorrelated account | A source account lacking the intended authoritative identity association; do not infer that it has no access. | CRT-008/045 |
 | Machine/service account | A non-human account used by an application/process; ownership and supported review type need explicit treatment. | CRT-008/015; X-03 |
 | Attribute | A named piece of information on a record. Identity and account attributes can belong to different objects. | CRT-005/009 |
@@ -487,3 +488,25 @@ New terms may be added when a real explanation needs them. Avoid growing a gloss
 ## CRT-050 reused meanings, November12,2026
 
 [CRT-050 record](revisions/CRT-050_Revision_Record.md) reuses199 existing meanings. Identity/account/source, entitlement/scope/filter, authoritative data/manager correlation, campaign/preview/certification, Approve/Revoke/sign-off, reviewer/reassignment/work reassignment, remediation/provisioning/connector/integration account/aggregation, report/evidence/time, exception, profile/role/criteria/Acknowledge receive locally useful explanation. No new native object, glossary prerequisite or tooltip implementation; handover owners/times/close criteria describe organizational work.
+
+## Manual correlation in0051.2, November12,2026
+
+[0051.2](revisions/CRT-005_Revision_1_2_Record.md) adds Manual correlation,199 to200 meanings. Reexamining unchanged records differs from clearing an explicitly assigned link; association correction, application-account deletion and permission review remain separate. [Audit](CORE_AUDIT_01_Foundations.md) resolves all199 original core teaching references structurally, not a new quality verdict on every definition. No tooltip or learner glossary prerequisite.
+
+## Batch02 terminology audit, November13,2026
+
+[Batch02](CORE_AUDIT_02_Scope_Accounts_and_Reviewers.md) checks local meanings in007–012: encapsulation/origin, exact account identifiers, source/identity, descriptions/metadata/flags, expected baseline/reconciliation/pagination, source manager reference/resolved relationship and reviewer/owner/actual-work actor. Existing200 working meanings suffice; no glossary rows added. Manual correlation remains as authored in0051.2. No tooltip or learner glossary dependency.
+
+## Batch03 terminology audit, November13,2026
+
+[Batch03](CORE_AUDIT_03_Selection_Queries_and_Filters.md) checks local meanings for identity/access object/holding, assignment/composition, query/category/field/data model, exact/phrase/Boolean/nested condition, refinement, saved/added selection, criterion/mode/operation, inclusion/exclusion and preview. Existing200 meanings suffice; no new row or reader glossary dependency. Search nested scope, filter affected unit and package-contained decision scope remain distinct.0051.2 and Manual correlation preserved.
+
+[Batch04](CORE_AUDIT_04_Timing_Launch_and_Reviewer_Controls.md) checks local meanings for observation/generation/report timing, template/schedule/campaign/preview, activation job, campaign owner/current reviewer/decision actor, manager/owner reference, fallback, governance group, self-certification, unsigned review and test address. Existing200 meanings suffice; no glossary dependency or new row. Correct source inputs and existing generated assignments remain separate.0051.2 and Manual correlation preserved.
+
+[Batch05](CORE_AUDIT_05_Reassignment_Decisions_and_Sign_Off.md) checks local meanings for reassignment/scope/subject, authorization/asynchronous processing, work redirect/period/history, assignment origin, recommendation/peer/source activity, business criteria/comment/bulk choice and undecided/unsigned/sign-off/remediation. Existing200 meanings suffice; no new term or glossary dependency. Every action remains attached to the relevant review, account and actual outcome. Local0051.2 preserved.
+
+[Batch06](CORE_AUDIT_06_Uncertainty_Removal_and_Failures.md) checks local meanings for consultation versus reassignment; removal requirement, finality, due date and remediation; source/connector/account schema; integration credentials/authentication/authorization; task/CSV/aggregation; grant path/effective access; field-specific Status/Stage/Account Request Status; retry/rate limit/timeout. Existing200 meanings suffice. No new term, glossary dependency or learner revision. Local0051.2 preserved.
+
+[Batch07](CORE_AUDIT_07_Verification_Progress_and_Closure.md) checks local meanings for verification/effective access/session, observation/report time, notification/reminder/template, overdue/undecided/unsigned, completion/closure, template/preview/activation, correction/regeneration/retirement/deletion, numerator/denominator/subject/pagination and field-specific completed status. Existing200 meanings suffice. No new term, glossary dependency or learner revision. Local0051.2 preserved.
+
+[Batch08](CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) checks local meanings for reviewer/decision maker/signer/history; report metadata/IDs/request/response/HTTP/header; account/manager correlation and root cause; retry/regrant/effective access; discovery/criteria/dependency/exception; acceptance/test/blocked/retest/regression and stage/environment scope. Existing200 meanings suffice. No new term or glossary dependency; earlier0051.2 preserved.

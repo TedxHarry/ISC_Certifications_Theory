@@ -1,11 +1,11 @@
 # ISC Certifications course register
 
-Version 7.3. Updated November 12, 2026.
+Version 8.1. Updated November 13, 2026.
 [Course design](COURSE_DESIGN.md) and [teaching standard](TEACHING_SPECIFICATION.md).
 
 ## Current position
 
-All50 current core candidates are authored, author-reviewed, published and live-verified in ten modules. CRT-001–007 are1.1; CRT-008–050 are1.0. Continue the core coverage/continuity audit. Five specialist routes remain planned; no learner mastery or whole-course completeness is inferred.
+All50 core topics remain authored/published in ten modules. [Core audit batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) completes043–048; cumulative001–048 fully reread,2 deep rereads remain. No learner correction required in this batch. Local0051.2/prior audits preserved; publication of accumulated work now authorized, with actual deployment verification pending. Next049/050; five specialist routes planned.
 
 | Item | Actual state |
 |---|---|
@@ -13,15 +13,15 @@ All50 current core candidates are authored, author-reviewed, published and live-
 | Current grouping | 10 provisional modules; no fixed limit |
 | Specialist depth | 5 job-dependent routes; essential recognition remains core |
 | Routine work | 24 mapped task families; coverage planned, not yet demonstrated |
-| Learner lessons written | 50; CRT-001–007 revision1.1 and CRT-008–050 revision1.0 |
+| Learner lessons written | 50 topics; local005 revision1.2, published001–007 revision1.1 and008–050 revision1.0 |
 | Learner lessons author-reviewed | 50; source/coverage and full saved author read-through complete; independent learner assessment pending |
 | Reader feedback / learner assessment | User reported CRT-004 1.1 better on November 2 after difficulty with 1.0; independent uncoached assessment remains pending |
 | Reference aids authored | 0 standalone aids; fifty editable teaching diagrams accompany CRT-001–050 |
 | Latest authored learner | [CRT-050: Can you defend the outcome when conditions change?](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md); revision1.0, published/live-verified |
-| Current revision | CRT-050 revision1.0; [author evidence](author/revisions/CRT-050_Revision_Record.md); earlier49 learner/evidence packages preserved |
-| Next task | Audit core coverage/continuity against required concepts and24 routine tasks, then sequence specialist lessons; no051 assigned |
-| Current author evidence | [CRT-050 record](author/revisions/CRT-050_Revision_Record.md);16 fresh primary bodies, saved beginner author reading, wrong population/absent reviewer/denied operation and independent role-requirement transfer; actual learner validation pending |
-| Feature currency | 17 scoped capability rows/11 unresolved questions. No target-tenant/exhaustive release audit.050 preserves engine/type/filter/unsigned/overlap/retry and signed-transfer boundaries |
+| Current revision | Local CRT-005 revision1.2; [new evidence](author/revisions/CRT-005_Revision_1_2_Record.md). Latest new topic remains050, published1.0; earlier records preserved |
+| Next task | Publish the completed local work and verify Pages, then audit049/050 in full;001–048 complete as author rereads,all50 indexed.2 rereads remain before specialist sequencing |
+| Current author evidence | [Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md): six complete saved rereads, traced evidence/troubleshooting/readiness cases and twenty-five scoped primary bodies; no learner correction.0051.2 manual persistence rechecked before publication |
+| Feature currency | 17 capabilities/11 questions; fresh report/model/API scope, manager/account correlation, review routing, overlap and write-capability checks. OQ-01/07/09 remain bounded; no exhaustive update/tenant claim |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
 | GitHub / publication | Fifty learners/ten modules published/live-verified; [record](author/PUBLICATION_2026-11-12_FIFTY_LESSONS.md). Content4f59c83, successful Pages run43361433908;5929 units,50 diagrams/assets,59 tables,2648 internal link visits |
 | Other ISC course | Separate and unchanged by this setup |
@@ -30,7 +30,7 @@ All50 current core candidates are authored, author-reviewed, published and live-
 
 Read the [authoring guide](author/AUTHORING_GUIDE.md), then relevant [coverage](author/COVERAGE_REGISTER.md), [terms](author/TERMINOLOGY_REGISTER.md), [capabilities and open questions](author/CAPABILITY_AND_UPDATE_REGISTER.md) and [source leads](AUTHOR_SOURCE_MAP.md).
 
-The existing-lesson revision pass is complete. All50 current core candidates are now authored. Next audit their actual coverage and explanation continuity against the committed concepts, terms and routine tasks, then plan specialist depth. Preserve all previous learner/evidence records and the49-entry published reader. Fix real gaps one complete file at a time; do not invent a051 or mark planning as authored.
+The existing-lesson revision pass is complete. All50 current core candidates are now authored. Audit their actual coverage and explanation continuity against the committed concepts, terms and routine tasks, then plan specialist depth. Preserve all previous learner/evidence records and the50-entry published reader. Fix real gaps one complete file at a time; do not invent a051 or mark planning as authored.
 
 ## Completed explanation revision pass
 
@@ -40,7 +40,7 @@ The existing-lesson revision pass is complete. All50 current core candidates are
 | CRT-002 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
 | CRT-003 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
 | CRT-004 | Rewritten and published at 1.1; user reports it is better | Preserve the revised lesson |
-| CRT-005 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
+| CRT-005 | Published1.1; audited local1.2 complete | Preserve local1.2; continue the current core audit queue |
 | CRT-006 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
 | CRT-007 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
 | CRT-008 | Authored in the current style with author review | Preserve; no learner assessment claimed |
@@ -66,7 +66,7 @@ These states are independent facts. A source check does not imply learner valida
 | CRT-002 | A campaign, a certification and a review item: what is being assigned? | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
 | CRT-003 | Follow one review from access data to a verified outcome | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
 | CRT-004 | How is a certification different from an access request or lifecycle rule? | Complete revision 1.1 | Fresh source checks, coverage reconciliation and saved-file language/flow review complete | User reports 1.1 better; independent assessment pending | Published revision 1.1 |
-| CRT-005 | How does application access become information ISC can review? | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
+| CRT-005 | How does application access become information ISC can review? | Complete local revision1.2 | Source check and full saved author language/flow reread complete | Revised learner assessment pending | Published revision1.1;1.2 local only |
 | CRT-006 | Are we reviewing an entitlement, an access profile or a role? | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
 | CRT-007 | Why does some access appear differently or not appear at all? | Complete revision 1.1 | Source/coverage and saved author language/flow review complete | Revised learner assessment pending | Published revision 1.1 |
 | CRT-008 | One person has two accounts. Which account's access is under review? | Complete revision 1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
@@ -210,6 +210,32 @@ The design owns the current module placement and topic descriptions. This table 
 
 | November12,2026 | Observed50-lesson publication | Content4f59c83, successful Pages run43361433908. Corrected Markdown quote normalization; all50 live checks pass:5929 units,50 diagrams/assets,59 tables,2648 internal link visits. Missing-quote negative check rejects lost handover text. Core audit continues; no learner/tenant/graphical claim. |
 
+| November12,2026 | Completed audit batch01/local0051.2 | All50 indexed;001–006 fully reread. Manual-link exception repaired with changed case/fresh sources;200 meanings/17 capabilities/11 questions.44 rereads remain,next007–012. Published50 unchanged,no new push/tenant/learner result. |
+
+| November13,2026 | Completed core audit batch02 | Fully reread007–012 and checked ten distinct primary pages; no new learner correction required. Cumulative12 full rereads,38 pending,next013–018. All50 learners/assets/local0051.2/prior evidence preserved;200 meanings/17 capabilities/11 questions. No commit/push or actual learner/tenant result. |
+
+| November13,2026 | Completed core audit batch03 | Fully reread013–018, reconciled worked sets and checked eight primary bodies. No learner edit required; OQ-06/08 freshly checked and unresolved.18 complete rereads,32 pending,next019–024. All prior local content preserved;200 meanings/17 capabilities/11 questions. No commit/push or actual learner/tenant result. |
+
+## Core audit batch04 — November13,2026
+
+[Batch04](author/CORE_AUDIT_04_Timing_Launch_and_Reviewer_Controls.md) fully rereads019–024 and checks twelve primary documentation bodies. No verified learner correction required.24 full author rereads complete,26 remain; OQ-01/09 stay open. Local0051.2 and prior evidence preserved. No commit/push or tenant/participant result.
+
+## Core audit batch05, November 13, 2026
+
+[Batch05](author/CORE_AUDIT_05_Reassignment_Decisions_and_Sign_Off.md) fully rereads025–030 and checks nineteen primary bodies. No learner correction required; two stale current continuation instructions corrected.30 full author rereads complete,20 remain,next031–036. OQ-01/02/10 remain bounded. Local0051.2 and prior evidence preserved; no commit/push or actual participant/tenant result.
+
+## Core audit batch06, November 13, 2026
+
+[Batch06](author/CORE_AUDIT_06_Uncertainty_Removal_and_Failures.md) fully rereads031–036 and checks twenty-two primary bodies. No learner correction required.36 full author rereads complete,14 remain,next037–042. OQ-01/02/05/07 remain bounded. Local0051.2 and prior evidence preserved; no commit/push or actual participant/tenant result.
+
+## Core audit batch07, November 13, 2026
+
+[Batch07](author/CORE_AUDIT_07_Verification_Progress_and_Closure.md) fully rereads037–042 and checks twenty-two primary bodies. No learner correction required.42 full author rereads complete,8 remain,next043–048. OQ-01/10/11 remain bounded. Local0051.2 and prior evidence preserved; no commit/push or actual participant/tenant result.
+
+## Core audit batch08, November 13, 2026
+
+[Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) fully rereads043–048 and checks twenty-five primary bodies. No learner correction required.48 fresh full author rereads complete,2 remain,next049/050. All earlier local work is preserved and now authorized for publication; actual deployment and served results are recorded separately.
+
 ## Next action
 
-Continue the complete-core coverage/continuity audit against32 areas,199 meanings and24 routine tasks. Distinguish indexed files from complete beginner rereads and primary claim rechecks. Repair evidenced gaps one complete file at a time, preserving IDs and historical evidence. Then sequence specialist depth by actual job need; no051 stub or fixed count. All50 current core candidates are published/live-verified. Five specialist routes and11 unresolved questions remain; actual learner assessment is separate.
+Complete the authorized push and verify the actual Pages deployment. Next audit049/050 in full: complete periodic access-review design and defense when conditions change.001–048 have complete fresh author rereads;049/050 remain indexed with2 deep rereads pending. Repair demonstrated gaps one complete learner file at a time.0051.2 is preserved and authorized for publication; record actual served results separately. Finish the core audit before sequencing five specialist routes.200 meanings/17 capabilities/11 open questions; no051 or independent participant/tenant result.

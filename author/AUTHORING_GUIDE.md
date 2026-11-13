@@ -1,6 +1,6 @@
 # Authoring guide and lesson briefs
 
-Version 7.2. November 12, 2026.
+Version 8.0. November 13, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
@@ -1230,3 +1230,167 @@ Content4f59c8356b588950ec624c283273e8624a55f2c5 was pushed; Pages run43361433908
 The initial full live run failed on CRT-050's blockquoted handover because the checker kept Markdown greater-than quote markers that the rendered HTML correctly removes. Direct inspection confirmed200 response and all three handover paragraphs in a blockquote. Narrow normalization now removes leading quote formatting before content extraction. No learner or reader change was needed. Complete positive live check passed; an in-memory negative check removed that blockquote and the verifier correctly rejected its missing lesson text. The normalized count changes5931 to5929 because the old checker counted two marker-only quote lines; historical local checks keep their original measured counts.
 
 This authorized follow-up changes the excluded status records plus the checker, preserving all50 learners/assets/manifest and reader/configuration/style/tests. The repository's final post-push deployment/live checks are observed during task completion. Continue the core audit with truthful depth tracking; specialist routes remain planned.
+
+## Core audit batch01 and CRT-005 revision1.2 brief, November12,2026
+
+Publication is finished: content4f59c83/run43361433908 and follow-up e5f47e6/run43361817616 succeeded; corrected verifier passes all50 live learners (5929 units/50 diagrams-assets/59 tables/2648 links). This continuation is local audit/revision work.
+
+Baseline199 files, HEAD e5f47e6e9a1884117ee77080beeeaba053a1b51b. Deep beginner reread covers complete001–006; initial combined output truncation was resolved by reading001 ending/002 opening separately. All50 learner headings and revision-record presence were indexed.32 coverage and24 task maps and199 term-owner references resolve to actual core IDs. This is structural traceability, not proof that all50 explanations have been deeply reassessed. Do not close the whole audit or learner assessment.
+
+FindingA01:005 explains changed matching settings and unoptimized reexamination without the manually assigned-link exception. Fresh official account correlation body explicitly preserves manual links despite attribute change and says unoptimized aggregation does not remove them. Add a locally explained manual-correlation boundary and changed case; keep main scope/filename/diagram intact. Revision005 goes1.1 to1.2 locally; no new topic. Add one useful working meaning Manual correlation,199 to200; keep17CAP/11OQ. OQ-07 remains unresolved after fresh profile-administration comparison; do not infer an independent-profile overlap contract or patch006 as a proven fault.
+
+Preserve all49 other learners, all50 assets, existing historical per-lesson/publication records, manifest/reader/configuration/style/tests/corrected verifier. Nine current metadata files plus005 learner may change. Add a complete core-audit batch01 report and005 revision1.2 author record. No051, new publication or other-course change.
+
+Acceptance: read full saved005 after refinement; reconcile statement/example/manual link versus app account, sources and diagram; run local50 verification and structural/preservation checks. Keep historical evidence and actual learner/tenant/graphical validation distinct. Finish batch01 with001–006 fully reread, one verified local repair,007–050 still awaiting deep audit. Next audit007–012, especially missing access, ownership and dedicated manager/source-owner routes, before specialist sequencing.
+
+## Batch01 completed and current continuation
+
+[Audit](CORE_AUDIT_01_Foundations.md) records full beginner author rereads001–006, all50 title/heading/record-presence indexing and structurally resolved32 coverage/24 task/199 original term-owner references. [0051.2](revisions/CRT-005_Revision_1_2_Record.md) adds the missing manual-link distinction and changed case;200 meanings/17 capabilities/11 questions. Published50 snapshot still has0051.1;0051.2 is local only.
+
+Next audit007–012 in full and repair evidenced gaps one complete file at a time.44 deep rereads remain. Keep indexing, source checks, author reread, actual participant validation and publication distinct. Specialist sequencing follows remaining core audit; no051 or fixed lesson quota. Executed checks follow below.
+
+## Executed local checks
+
+Final local content verification passed:50 learners,5935 normalized content units,50 diagrams/assets and59 learner tables. The published snapshot was separately verified before this local edit:5929 units,50 diagrams/assets,59 tables and2648 internal link visits. Four existing navigation tests passed during publication; the unchanged navigation did not need another run for a prose-only repair.
+
+Structural preservation passed:201 files,134 Markdown,779 resolving relative links,204 table groups/2336 rows. Baseline199 preserves189 byte-identical files; exactly nine current metadata documents plus005 learner change, with two complete author artifacts added.49 other learners/all50 assets/all earlier revision/publication records/manifest/reader/configuration/style/tests/corrected verifier remain exact.50 ordered candidate/reader IDs,200 unique meanings,17 capabilities and11 questions reconcile. Fences, table widths, package whitespace, exact editable diagrams and tracked git diff --check pass; no051 or temporary checker remains after cleanup.
+
+The audit report records all50 indexing,32/24/199 original owner-map resolution, complete001–006 beginner rereads, scoped primary checks and one local0051.2 repair. It does not claim all50 were deeply reread, all product claims freshly verified, or actual learner/tenant/graphical testing.44 deep rereads remain; next007–012. HEAD remains e5f47e6e9a1884117ee77080beeeaba053a1b51b with no staged local audit files or subsequent push.
+
+## Core audit batch02 brief, November13,2026
+
+Continue the next named audit batch007–012. All six learner files were read in full, including examples, diagrams, tables, middle/endings and changed cases; none of those reads was truncated. Assess local term meanings, causal transitions, object/account scope, actual versus configured outcome, daily task reasoning and source conditions.001–006 prior audit and local0051.2 must remain intact.
+
+Ten distinct fresh primary pages were inspected for scoped claims: Understanding; dedicated/Search creation; manager correlation; entitlement administration/GenAI; reviewer guidance/flags; certification reassignment; account correlation/manual-link persistence; campaign filters; campaign reports. Duplicate finds on a page count once. Selected source rechecks are not every claim or a release-completeness audit.17 capabilities/11 questions remain open; no target tenant, permission test, actual learner or graphical result.
+
+Findings: no verified learner correction required in this batch.007 explains packaging versus exclusion/data/time/assignment;008 uses exact account targets and appropriate supported association correction without promising that an unoptimized run clears manual links;009 separates capability wording/flags/current need and GenAI approval;010 reconciles exact relationships/time/complete retrieval;011 separates source reference/resolved manager/generated assignment and route-specific missing managers;012 separates source owner/access owner/reviewer/actual delivery and ownership prerequisites. Keep clear supporting introductions rather than deleting them as repetition. No new term or lesson.
+
+Baseline201 files includes local0051.2 and batch01. Change only nine current metadata documents and add one complete batch02 report. Preserve192 baseline files byte-for-byte, all50 learners (including local0051.2), all50 assets/all prior author/publication/audit records, manifest, reader/configuration/style/tests/corrected verifier. No commit/push,051 stub, other-course edit or invented revision.
+
+After reconciliation:12 of50 core learners have complete fresh audit rereads,38 remain (013–050). All50 indexed,200 meanings/17 capabilities/11 questions. Next013–018: targeted identity/access selection, approach choice, query semantics and single/combined filters, with careful OQ-06/08 boundaries. Finish core audit before specialist sequencing. Validate local50 content, relative links/tables/fences/counts and preservation; source-checking/author judgment is not participant mastery.
+
+## Batch02 completion and current continuation, November13,2026
+
+[Batch02](CORE_AUDIT_02_Scope_Accounts_and_Reviewers.md) records complete saved learner rereads007–012, ten distinct scoped primary pages and no verified learner correction required.001–012 now have complete fresh beginner author rereads;013–050 need38 further deep rereads. All50 learners/assets/historical records and local0051.2 are preserved.200 meanings/17 capabilities/11 questions; publication unchanged.
+
+Next audit013–018 in full: targeted identity/access selection, refinement, approach choice, query semantics and supported filter composition. Check actual record/account scope and grouping; do not infer OQ-06/08 answers from schema labels. Repair a demonstrated gap one complete file at a time. Preserve local work, permanent IDs and prior evidence; no051 or fixed lesson quota. No new commit/push, actual tenant, participant or graphical observation. Executed checks follow below.
+
+## Batch02 executed checks
+
+Local50-entry content verification passed:5935 normalized content units,50 diagrams/assets and59 learner tables. All50 learner files are byte-identical to this turn's baseline, so no additional reader behavior test or live publication check was needed for this author-document-only audit. The earlier published snapshot remains5929 normalized units; the difference is the preserved local0051.2 explanation.
+
+Structural checks passed:202 files,135 Markdown,793 resolving relative links,208 table groups/2364 rows. Baseline201 preserves192 files exactly; only nine current metadata documents change and one complete batch02 report is added. All50 learners/assets, local0051.2, batch01, earlier revision/publication records, manifest/reader/configuration/style/tests/corrected verifier remain exact.
+
+Fifty ordered candidate/reader IDs and ten modules,32 coverage rows,24 task rows,200 unique meanings,17 capabilities and11 questions reconcile. All200 term-owner and32/24 coverage/task primary core references resolve to actual learner IDs. Markdown fences/table widths, file endings/absence of trailing spaces, editable-diagram equality via the local verifier and tracked git diff --check pass. No051 stub or temporary checker remains after cleanup.
+
+No commit, push, tenant/API action, actual participant assessment, graphical inspection or new deployment was performed. HEAD remains e5f47e6e9a1884117ee77080beeeaba053a1b51b and no local audit file is staged.001–012 have complete fresh author rereads;38 deep rereads remain, next013–018. Source checks remain scoped to the ten distinct primary pages recorded above, not an exhaustive update audit.
+
+## Core audit batch03 brief, November13,2026
+
+Continue013–018. All six saved learner files were read in full, including tables, diagrams, middle/endings and changed cases, without truncated learner output. Check concrete record types, access-object versus account holdings, saved versus found selections, whole-package scope, query fields/operators/nested records and filter matching units.
+
+Eight distinct primary bodies inspected: Search creation, dedicated creation, query construction, searchable fields, campaign filters, Understanding, next-generation overview and next-generation list-filter operation. Targeted official-domain searches produced no scoped authoritative clarification for Role-holder versus Role-item propagation or mixed-account Account Attribute effects; search snippets and forum assumptions are not runtime proof. OQ-06/08 remain open after fresh body comparison;17 capabilities/11 total questions remain.
+
+No verified learner defect requiring an edit was established.013/014 explain both starting route and later refinement;015 separates role holders/design/account uses;016 handles exact strings/quotes/defaultOR/grouping and same-account nested conditions;017/018 keep Search logic distinct from builderOR, criterion unit and package eligibility. Examples' counts and inclusion/exclusion reasoning were followed manually, not executed in a tenant. Preserve all50 learners/assets, especially local0051.2, prior audit/revision/publication records, manifest/reader/configuration/style/tests/verifier.
+
+Baseline202 files at e5f47e6e9a1884117ee77080beeeaba053a1b51b. Change only nine current metadata documents and add a complete batch03 report;193 baseline files stay exact. No new term, learner revision,051 stub, commit/push or other-course edit.200 meanings/17 capabilities/11 questions.
+
+Finish cumulative001–018 complete as author rereads,32 pending (019–050). All50 remain indexed; specialist routes planned and participant/tenant/graphical validation separate. Next019–024: observation/snapshot time, reusable template/schedule/preview/activation, launch acceptance, reviewer routing/missing inputs and own-access controls. Validate local50 content and link/table/fence/reference/preservation integrity.
+
+## Batch03 completion and current continuation, November13,2026
+
+[Batch03](CORE_AUDIT_03_Selection_Queries_and_Filters.md) records complete saved rereads013–018, manual reconciliation of worked sets and eight scoped primary bodies. No verified learner edit required. OQ-06/08 were freshly investigated and remain open; no universal role/account propagation, arbitrary builder grouping or control-priority rule is inferred.001–018 complete as author rereads;019–050 need32 deep rereads. Local0051.2/prior work preserved;200 meanings/17 capabilities/11 questions.
+
+Next audit025–030 in full: reassignment and result verification, absence/departure continuity, decision context, Approve/Revoke/Acknowledge, clear reasons and bulk changes, saved decisions versus final sign-off. Trace actual records, actors, state and finality; preserve the unsigned-completion uncertainty.001–024 have complete fresh author rereads;025–050 remain indexed with26 deep rereads pending. Repair a verified gap one complete file at a time.0051.2 stays local; published50 snapshot unchanged. Then sequence five specialist routes.200 meanings/17 capabilities/11 questions, no051 or actual participant/tenant result.
+
+## Batch03 executed checks
+
+Local50-entry content verification passed:5935 normalized content units,50 diagrams/assets and59 learner tables. All50 learner files are byte-identical to this turn's baseline, including local0051.2. No additional navigation behavior test or live publication check was required for an author-document-only audit. The last observed published snapshot remains5929 units; this turn does not publish the local005 explanation.
+
+Structural checks passed:203 files,136 Markdown,809 resolving relative links,212 table groups/2391 rows. Baseline202 preserves193 files exactly; only nine current metadata documents change and one complete batch03 report is added. Earlier audit/revision/publication records, all50 learners/assets, manifest/reader/configuration/style/tests/corrected verifier remain exact.
+
+Fifty ordered candidate/reader IDs/ten modules,32 coverage rows,24 task rows,200 unique meanings,17 capabilities and11 questions reconcile. Every term and32/24 coverage/task primary core reference resolves to an authored ID. Fences/table widths, file endings/absence of trailing spaces, editable diagrams via the local verifier and tracked git diff --check pass. No051 or temporary checker remains after cleanup.
+
+Six complete saved learner rereads and manually followed fixture arithmetic are author evidence; no query/filter was executed against a tenant. Eight distinct primary bodies support scoped claim checks, not exhaustive currency or every statement. OQ-06/08 remain unresolved after current bodies/official-domain searches; no new question added.
+
+No commit, push, tenant/API action, actual participant assessment, graphical observation or new deployment. HEAD remains e5f47e6e9a1884117ee77080beeeaba053a1b51b with no staged local audit files.001–018 have complete fresh author rereads;32 remain, next019–024.
+
+## Core audit batch04 brief, November13,2026
+
+Continue019–024. All six saved learner files were read completely, including diagrams, tables, endings and changed cases, without truncated learner output. Inspect source/ISC/generation/report times, definition/schedule/generated instance/start, completeness versus totals, authorization/knowledge, reviewer rules/data/assignment, absent versus unusable responsibility and own-access controls.
+
+Twelve distinct fresh primary bodies: dedicated/Search creation; campaign reports; Understanding; next-generation activation; governance groups; work reassignment; email templates; manager correlation; certification reassignment; campaign completion; template generation. A first Search find for “originally scheduled” returned no match; the actual scheduling body was opened and its original-date/time note inspected. Current Understanding/completion unsigned wording remains unharmonized (OQ-01); Search owner fallback does not establish the terminal all-owners-absent result (OQ-09).17 capabilities/11 questions stay open.
+
+No verified learner correction required.019 contrasts late grant versus late collection and mutable assignment;020 separates reusable settings/occurrence/new campaign/activation;021 corrects wrong same-count preview and tests communication separately;022 traces reviewer choice to relevant responsibility and actual actor;023 distinguishes missing/stale/invalid data and group states;024 separates automatic split from blocked manual own-access move and multi-member-group redirect exception.
+
+Baseline203 files at e5f47e6e9a1884117ee77080beeeaba053a1b51b. Change only nine current metadata documents and add one complete batch04 report; preserve194 baseline files, all50 learners/assets, local0051.2, prior audit/revision/publication records, manifest/reader/configuration/style/tests/corrected verifier. No new term, revision,051, commit/push, other-course edit or tenant/API/participant/graphical result.
+
+Finish cumulative001–024 complete as author rereads,26 pending025–050. All50 indexed;200 meanings/17 capabilities/11 questions. Next025–030: actual reassignment, absence/departure continuity, decision context, Approve/Revoke/Acknowledge, reasons/bulk work and saved versus final sign-off. Keep whole-core audit open before specialist sequencing. Validate local50 content, relative links/reference counts/fences/tables and exact baseline preservation.
+
+Batch04 is complete: all six019–024 learner files were read in full and twelve primary documentation bodies checked within the report's scope. No verified learner correction required.24 full author rereads complete;26 remain,next025–030. Existing learner revisions, diagrams, prior audit/publication records and reader implementation are preserved. No commit/push, tenant observation or independent participant assessment.
+
+Local checks passed November 13, 2026: 204 files, 137 Markdown files, 824 relative links, 215 table groups and 2,422 table rows. The preservation check compared all 203 baseline files: 194 stayed byte-identical; only the nine current metadata files changed, with this batch04 report as the sole addition. All 50 learner files/assets, local CRT-005 revision1.2, historical records, manifest and reader implementation are unchanged in this batch. Inventory checks passed for 50 lessons, ten modules, 32 coverage rows, 24 routine-task rows, 200 meanings, 17 capabilities and eleven open questions. The local site checker passed with 5,935 content units, 50 diagrams, 59 tables and 50 assets. Whitespace checks passed; nothing is staged and HEAD remains e5f47e6e9a1884117ee77080beeeaba053a1b51b. No commit, push, live-site recheck or new deployment.
+
+## Core audit batch05 brief, November 13, 2026
+
+Review CRT-025–030 completely as an unfamiliar beginner: selected existing-work handover, absence/departure cover, decision context, Approve/Revoke/Acknowledge, reason and bulk-selection quality, saved decisions and sign-off. Trace the exact item/account, actor, input, operation, state and result. Check changed cases and diagram/source correspondence. Read all saved prose; recover any tool-truncated passages before claiming a full reread.
+
+Baseline: 204 files at e5f47e6e9a1884117ee77080beeeaba053a1b51b, including all prior local audit work and CRT-005 revision1.2. Preserve learners/assets and historical records unless a demonstrated learner gap requires its own complete correction. This batch uses scoped current primary documentation checks; it is not a tenant run, independent participant assessment or exhaustive release audit. Keep work local, without commit or push.
+
+Reconcile the nine current metadata files and a complete batch05 report after the saved-file review. Target cumulative full audit001–030, with031–050 still pending; all50 remain indexed. Keep17 capabilities,11 open questions and200 meanings unless evidence requires a change. Next audit031–036 before specialist sequencing; no051 stub or fixed specialist lesson quota.
+
+## Batch05 completion and current continuation, November 13, 2026
+
+[Batch05](CORE_AUDIT_05_Reassignment_Decisions_and_Sign_Off.md) records all six025–030 saved-file rereads and nineteen scoped primary bodies. Truncated combined learner output was recovered before claiming complete inspection. No learner correction required. OQ-01/02/10 remain open; the report distinguishes fresh comparisons from older unresolved evidence. Two stale current register instructions were corrected. All50 learners/assets, local0051.2 and historical records are preserved.
+
+Next audit031–036 in full: uncertainty and consultation, removal requirements and timing, automated delivery, manual fulfillment, overlapping access and pending/failed/partial outcomes. Trace the exact reviewed assignment, finalized decision, permitted operation, actual recipient and target evidence.001–030 have complete fresh author rereads;031–050 remain indexed with20 deep rereads pending. Repair demonstrated gaps one complete learner file at a time.0051.2 stays local; published50 snapshot unchanged. Complete the core audit before sequencing the five specialist routes.200 meanings/17 capabilities/11 open questions; no051 or independent participant/tenant result.
+
+Local checks passed November 13, 2026: 205 files, 138 Markdown files, 840 resolving relative links, 217 table groups and 2,451 table rows. Against the 204-file baseline, 195 files remain byte-identical; only nine current metadata files change, and the complete batch05 report is the sole addition. All50 learner files/assets, local CRT-005 revision1.2, prior audit/revision/publication evidence, manifest, reader, styles, tests and verifier are preserved. Ordered lesson IDs/URLs/headings, ten modules,32 coverage rows,24 routine-task rows,200 unique working meanings,17 capabilities and11 questions reconcile; mapped primary core references resolve. Markdown fences/table widths, file endings and trailing-space checks pass. The local site verifier passes with50 lessons,5,935 content units,50 diagrams/assets and59 learner tables. Tracked whitespace checks pass; nothing is staged and HEAD remains e5f47e6e9a1884117ee77080beeeaba053a1b51b. No commit, push, live publication check, graphical observation or tenant execution.
+
+## Core audit batch06 brief, November 13, 2026
+
+Read CRT-031–036 completely as an unfamiliar beginner, including all examples, changed cases, tables and diagrams. Trace uncertainty to specific missing facts, then finalized removal to due work, actual delivery and account evidence. Check automatic versus manual responsibility, exact account identifiers, overlapping assignments, field-specific status values, service versus connector retry scope and uncertain responses.
+
+Baseline205 files includes all prior local audits and CRT-005 revision1.2. Preserve previous learners/assets and historical records unless a demonstrated gap requires its own complete learner correction. Reconcile nine current metadata files and one complete batch06 report. No commit, push, tenant/API action, graphical observation or independent participant assessment.
+
+Target cumulative full rereads001–036, with14 remaining037–050; all50 stay indexed. Keep200 meanings/17 capabilities/11 questions unless new evidence requires a change. Next037–042: actual removal verification, reminders/progress, overdue/unsigned handling, campaign completion, correction/retirement and count/status units. Keep specialist routes planned until the core audit is complete.
+
+## Batch06 completion and current continuation, November 13, 2026
+
+[Batch06](CORE_AUDIT_06_Uncertainty_Removal_and_Failures.md) records all six031–036 complete saved-file rereads, returned without learner-output truncation, and twenty-two scoped primary bodies. No learner correction required. OQ-01/02/05/07 remain bounded after fresh comparison. All50 learners/assets, local0051.2, historical records and reader implementation are preserved.
+
+Next audit037–042 in full: verified removal and retained access, reminders/progress, overdue/undecided/unsigned reviews, campaign completion, correction/regeneration/retirement and count/status units. Trace actual account evidence, deadlines, finalized decisions, state-specific actions and outstanding work.001–036 have complete fresh author rereads;037–050 remain indexed with14 deep rereads pending. Repair demonstrated gaps one complete learner file at a time.0051.2 stays local; published50 snapshot unchanged. Complete the core audit before sequencing the five specialist routes.200 meanings/17 capabilities/11 open questions; no051 or independent participant/tenant result.
+
+Local checks passed November 13, 2026: 206 files,139 Markdown files,856 resolving relative links,219 table groups and2,483 table rows. Comparison with the205-file baseline preserves196 files byte-identically. Only nine current metadata files change; this complete batch06 report is the sole addition. All50 learner files/assets, local CRT-005 revision1.2, earlier audit/revision/publication records, manifest, reader, styles, tests and verifier remain unchanged this batch. Ordered IDs, titles/URLs, ten modules,32 coverage rows,24 routine-task rows,200 unique working meanings,17 capabilities and11 questions reconcile; mapped primary references resolve. Fences/table widths, file endings and absence of trailing whitespace pass. The local site verifier passes with50 lessons,5,935 content units,50 diagrams/assets and59 learner tables. Tracked whitespace checks pass; nothing is staged and HEAD remains e5f47e6e9a1884117ee77080beeeaba053a1b51b. No commit, push, live publication check, graphical observation or tenant execution.
+
+## Core audit batch07 brief, November 13, 2026
+
+Read CRT-037–042 fully as an unfamiliar beginner. Follow verification of the required account capability and retained access, observation versus report time, unfinished review versus delivery work, reminders and email controls, overdue/undecided/unsigned states, campaign completion, state-specific correction/replacement/deletion and the unit/population behind each count.
+
+Baseline206 files includes all earlier local audits and CRT-005 revision1.2. Preserve existing learner text/assets and historical evidence unless a demonstrated gap needs its own complete correction. Reconcile nine current metadata files and add one complete batch07 report. No commit, push, tenant/API operation, graphical observation or independent participant assessment.
+
+Target cumulative full audit001–042, leaving8 deep rereads043–050; all50 stay indexed. Keep200 meanings/17 capabilities/11 open questions unless new evidence requires a change. Next043–048: actors/history/sign-off, reports/API evidence, mismatches, retained access, discovery and readiness acceptance. Finish the core audit before specialist sequencing.
+
+## Batch07 completion and current continuation, November 13, 2026
+
+[Batch07](CORE_AUDIT_07_Verification_Progress_and_Closure.md) records all six037–042 complete saved-file rereads without learner-output truncation, reconciled examples/counts and twenty-two scoped primary bodies. No learner correction required. OQ-01/10/11 remain open; wider OQ-02 scope is preserved without claiming a new Finalize comparison. All50 learners/assets, local0051.2, historical records and reader implementation are preserved.
+
+Next audit043–048 in full: decision actors/history/sign-off, report and API evidence, person/item/reviewer mismatches, retained access after Revoke, requirements discovery and readiness/acceptance planning. Trace exact records, actual actors, observation times, supported actions and independently justified expected results.001–042 have complete fresh author rereads;043–050 remain indexed with8 deep rereads pending. Repair demonstrated gaps one complete learner file at a time.0051.2 stays local; published50 snapshot unchanged. Finish the core audit before sequencing five specialist routes.200 meanings/17 capabilities/11 open questions; no051 or independent participant/tenant result.
+
+Local checks passed November 13, 2026: 207 files,140 Markdown files,872 resolving relative links,221 table groups and2,515 table rows. The206-file baseline comparison preserves197 files byte-identically. Only nine current metadata files change; this complete batch07 report is the sole addition. All50 learner files/assets, local CRT-005 revision1.2, historical audit/revision/publication records, manifest, reader, styles, tests and verifier remain unchanged this batch. Ordered IDs/headings/URLs, ten modules,32 coverage rows,24 routine-task rows,200 unique meanings,17 capabilities and11 questions reconcile; mapped primary references resolve. Markdown fences/table widths, file endings and trailing-whitespace checks pass. The local site verifier passes with50 lessons,5,935 content units,50 diagrams/assets and59 learner tables. Tracked whitespace checks pass; nothing is staged and HEAD remains e5f47e6e9a1884117ee77080beeeaba053a1b51b. No commit, push, live publication check, graphical observation or tenant execution.
+
+## Core audit batch08 and publication brief, November 13, 2026
+
+Review CRT-043–048 completely, including all saved prose, diagrams, tables and changed cases. Trace item actor versus reviewer/signer/history, question-led reports and operation-specific APIs, mismatch cause, due removal and retained paths, requirement discovery and stage-specific acceptance.
+
+Baseline207 files includes all prior local audit records and CRT-005 revision1.2. Preserve earlier learners/assets and historical evidence unless a demonstrated gap requires correction. Update nine current metadata files and add a complete batch08 report. Target48 complete fresh core rereads,2 remaining049/050; all50 remain indexed, with200 meanings/17 capabilities/11 open questions.
+
+The user's latest request explicitly authorizes pushing the accumulated completed work and Pages publication. After local checks, publish the existing0051.2 correction and all completed audit evidence to the existing TedxHarry/ISC_Certifications_Theory main branch. Check the actual deployment and served content, then record observed publication separately. Older local-only audit briefs remain historical. No tenant/API mutation, actual participant assessment or other-course edit is authorized by this publication step.
+
+## Batch08 completion and current continuation, November 13, 2026
+
+[Batch08](CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) records six complete043–048 saved rereads without truncation and twenty-five scoped primary bodies. No learner correction required. OQ-01/07/09 remain open; earlier wider boundaries preserved. All50 learners/assets, local0051.2, historical records and reader implementation are unchanged by the audit. The latest user request supersedes earlier local-only restrictions for publication of completed work.
+
+Complete the authorized push and verify the actual Pages deployment. Next audit049/050 in full: complete periodic access-review design and defense when conditions change.001–048 have complete fresh author rereads;049/050 remain indexed with2 deep rereads pending. Repair demonstrated gaps one complete learner file at a time.0051.2 is preserved and authorized for publication; record actual served results separately. Finish the core audit before sequencing five specialist routes.200 meanings/17 capabilities/11 open questions; no051 or independent participant/tenant result.
+
+Local checks passed November 13, 2026:208 files,141 Markdown files,888 resolving relative links,223 table groups and2,550 table rows. The207-file baseline comparison preserves198 files byte-identically; only nine current metadata files change, with this report the sole addition. Every learner/asset, earlier record, manifest and reader implementation stays exact to the baseline, including0051.2. Fifty ordered lessons/ten modules,32 coverage rows,24 routine-task rows,200 meanings,17 capabilities and11 questions reconcile. Local content verification passes with5,935 units,50 diagrams/assets and59 learner tables; all four navigation tests pass. Markdown structure/references/whitespace checks pass. Remote main and local HEAD matched e5f47e6e9a1884117ee77080beeeaba053a1b51b before publication. These are prepublication results; deployment/live results follow separately.

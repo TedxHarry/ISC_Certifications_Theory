@@ -131,6 +131,18 @@ Where supported, an **unoptimized aggregation** reexamines unchanged records for
 
 The evidence you need is the resulting correct link. A saved configuration and a completed optimized run do not, on their own, establish that the old association was corrected.
 
+### What if someone linked the account manually?
+
+An account can also be linked to an identity through **manual correlation**. This means someone explicitly assigned that account to the identity, rather than relying only on the configured attribute match.
+
+ISC preserves that manual link even when the account's matching information changes. An unoptimized aggregation does not remove the manual correlation. Rereading the account is therefore not enough to assume that it will move to a different person.
+
+Suppose report-014 was manually linked to the wrong identity. Its staffNumber is 1007, and the correct matching configuration identifies the intended person. After an unoptimized run, the account is still linked to the wrong identity.
+
+In this changed situation, the retained manual link explains why a correct comparison has not moved the account. Establish how the link was created and confirm the actual owner. An authorized person then needs to use the supported correction for that manual association and inspect the resulting identity link.
+
+Correcting the account's association in ISC is different from deleting the account in the reporting application. The ownership correction must put report-014 under the right person; it does not, by itself, decide whether its export permission should remain.
+
 ## Check what the campaign actually presents for review
 
 We now have account membership information, matching entitlement details and the correct identity association. These connections tell us what access ISC can represent for the person.

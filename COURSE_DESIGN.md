@@ -1,10 +1,10 @@
 # SailPoint ISC Certifications: Understanding Access Reviews from Scope to Verified Outcome
 
-Course design 8.2. November 12, 2026.
+Course design 9.0. November 13, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: all50 currently inventoried core topics are authored, author-reviewed, published and live-verified in ten modules. CRT-001–007 are revision1.1; CRT-008–050 are1.0. Core audit and five planned specialist routes remain.
+Status: all50 core topics authored/published in ten modules. Fresh audit001–048 complete as author rereads;2 deep rereads remain,all50 indexed. Batch08 needs no learner correction. Local0051.2/prior evidence preserved; accumulated publication is authorized and awaiting verified deployment. Five specialist routes planned.
 
-Current priority: audit actual concept/task coverage and explanation continuity after verified50-lesson publication. Fix evidenced gaps one complete file at a time and sequence useful specialist depth. Zero current core candidates unwritten; scope can expand for real gaps. Eleven product questions and independent learner assessment remain open.
+Current priority: publish and verify the completed local work, then audit049/050.043–048 connect actors/history, question-led evidence, exact mismatch causes, retained access and stage-specific project readiness.200 meanings/17 capabilities/11 questions; unresolved product boundaries, independent learner assessment and specialist depth remain pending.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
@@ -520,3 +520,25 @@ Content 66ecaadfe6ca5c2230abe002801696747b3e5d79 was pushed to main. [Pages run 
 [CRT-050](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md) and [its record](author/revisions/CRT-050_Revision_Record.md) develop changed-condition explanation and accountable handoff. CRT-050 connects a missing manager and wrong preview population to truthful data correction/new coverage, unsigned reviewer absence to inspected eligible transfer/final choices, and finalized Revoke to an actual denied target removal, accepted handoff, supported correction/retry and verified outcome. The unfamiliar Warehouse case separates role-required reading from removed profile adjustment, then leaves the broader no-access requirement open until governing assignment/account evidence exists. Sixteen scoped primary bodies, full saved beginner author reading and edited-passage reread;199 working meanings/17 capability rows/11 unresolved questions remain. Examples are supplied illustrations, not tenant operation or observed learner mastery.
 
 All50 current core candidates are authored; zero remain unwritten in this inventory. This does not close the five specialist routes or mark whole-course completeness/mastery. Next audit actual core coverage and explanation continuity before assigning further learner IDs.49-entry published reader remains unchanged.
+
+## Core audit batch01, November12,2026
+
+[Batch01](author/CORE_AUDIT_01_Foundations.md) indexes50 titles/headings/record presence and resolves32 coverage/24 task/199 original term-owner references. Full beginner rereads001–006 find one missing manual-link exception; [0051.2](author/revisions/CRT-005_Revision_1_2_Record.md) repairs it and adds the200th meaning. Other49 learners/50 assets/manifest/reader/historical records remain exact.44 deep rereads remain; next007–012 before specialist sequencing.
+
+## Core audit batch02, November13,2026
+
+[Batch02](author/CORE_AUDIT_02_Scope_Accounts_and_Reviewers.md) completes fresh beginner author rereads007–012: missing items, exact account scope, access meaning, complete population and manager/source-owner routing. Ten primary pages support scoped checks; no new learner defect requiring correction was established. All50 learner files/assets/historical records remain exact, including local0051.2. Cumulative12 reread,38 pending; next013–018 before specialist sequencing.
+
+## Core audit batch03, November13,2026
+
+[Batch03](author/CORE_AUDIT_03_Selection_Queries_and_Filters.md) completes013–018: identity/access starting routes, access refinement, business-purpose approach selection, exact/Boolean/nested query semantics and single/combined filters. Worked sets reconcile; eight scoped primary bodies do not settle OQ-06/08. No learner edit required. All50 learners/assets/local0051.2/prior evidence preserved.18 complete rereads,32 pending,next019–024 before specialist sequencing.
+
+[Batch04](author/CORE_AUDIT_04_Timing_Launch_and_Reviewer_Controls.md) completes019–024. The worked cases separate current observations from generated work, templates from campaign instances, accepted activation from finished launch, and routing rules from actual assignments. Empty groups, inactive members, ordinary fallback and own-access controls retain their different scopes. No learner edit required.24 full rereads,26 pending,next025–030; all50 learners/assets and prior local evidence preserved.
+
+[Batch05](author/CORE_AUDIT_05_Reassignment_Decisions_and_Sign_Off.md) completes025–030: whole/subject/item handover, existing versus as-created work, exact capability and current need, unit/origin-based actions, meaningful reasons and verified finality. Nineteen scoped primary bodies support the ordinary explanations; unsigned completion, broader phase timing and post-sign-off correction remain bounded. No learner edit required.30 complete rereads,20 pending,next031–036.
+
+[Batch06](author/CORE_AUDIT_06_Uncertainty_Removal_and_Failures.md) completes031–036. The examples connect missing facts with responsible clarification, review finality with due removal, configured delivery with actual target changes, and assignment/status/error evidence with the remaining work. Twenty-two scoped bodies support the explanations; wider manual-routing, phase and independent-profile overlap claims remain bounded. No learner edit required.36 complete rereads,14 pending,next037–042.
+
+[Batch07](author/CORE_AUDIT_07_Verification_Progress_and_Closure.md) completes037–042. Cases connect required ability and retained access with target evidence, incomplete work with the right follow-up, administrative completion with actual affected items, and correction/deletion with state and evidence preservation.042's counts reconcile at item, subject and signed-review levels. Twenty-two scoped bodies support selected claims; OQ-01/10/11 remain open. No learner edit.42 complete rereads,8 pending,next043–048.
+
+[Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) completes043–048. Cases connect exact actors/records, report and read/generate permissions, account/manager inputs, verified recovery, requirements and dependent acceptance evidence. Twenty-five scoped primary bodies support selected claims. No learner edit required.48 complete rereads,2 pending,next049/050. Earlier0051.2 is preserved for the authorized publication; specialist routes remain planned.
