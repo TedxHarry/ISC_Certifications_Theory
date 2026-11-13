@@ -5,7 +5,7 @@ Version 8.1. Updated November 13, 2026.
 
 ## Current position
 
-All50 core topics remain authored/published in ten modules. [Core audit batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) completes043–048; cumulative001–048 fully reread,2 deep rereads remain. No learner correction required in this batch. Local0051.2/prior audits preserved; publication of accumulated work now authorized, with actual deployment verification pending. Next049/050; five specialist routes planned.
+All50 core topics are authored/published in ten modules. [Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) completes043–048; cumulative001–048 fully reread,2 remain. No learner correction required in this batch.0051.2 and all accumulated audit records are now [published/live-verified](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md). Next049/050; five specialist routes planned.
 
 | Item | Actual state |
 |---|---|
@@ -13,17 +13,17 @@ All50 core topics remain authored/published in ten modules. [Core audit batch08]
 | Current grouping | 10 provisional modules; no fixed limit |
 | Specialist depth | 5 job-dependent routes; essential recognition remains core |
 | Routine work | 24 mapped task families; coverage planned, not yet demonstrated |
-| Learner lessons written | 50 topics; local005 revision1.2, published001–007 revision1.1 and008–050 revision1.0 |
+| Learner lessons written | 50 topics; published005 revision1.2,001–004/006–007 revision1.1 and008–050 revision1.0 |
 | Learner lessons author-reviewed | 50; source/coverage and full saved author read-through complete; independent learner assessment pending |
 | Reader feedback / learner assessment | User reported CRT-004 1.1 better on November 2 after difficulty with 1.0; independent uncoached assessment remains pending |
 | Reference aids authored | 0 standalone aids; fifty editable teaching diagrams accompany CRT-001–050 |
 | Latest authored learner | [CRT-050: Can you defend the outcome when conditions change?](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md); revision1.0, published/live-verified |
-| Current revision | Local CRT-005 revision1.2; [new evidence](author/revisions/CRT-005_Revision_1_2_Record.md). Latest new topic remains050, published1.0; earlier records preserved |
-| Next task | Publish the completed local work and verify Pages, then audit049/050 in full;001–048 complete as author rereads,all50 indexed.2 rereads remain before specialist sequencing |
+| Current revision | Published/live-verified CRT-005 revision1.2; [evidence](author/revisions/CRT-005_Revision_1_2_Record.md). Latest new topic remains050, published1.0; earlier records preserved |
+| Next task | Audit049/050 in full;001–048 complete as fresh author rereads,all50 indexed.2 rereads remain before specialist sequencing. Authorized publication completed and live-verified |
 | Current author evidence | [Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md): six complete saved rereads, traced evidence/troubleshooting/readiness cases and twenty-five scoped primary bodies; no learner correction.0051.2 manual persistence rechecked before publication |
 | Feature currency | 17 capabilities/11 questions; fresh report/model/API scope, manager/account correlation, review routing, overlap and write-capability checks. OQ-01/07/09 remain bounded; no exhaustive update/tenant claim |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
-| GitHub / publication | Fifty learners/ten modules published/live-verified; [record](author/PUBLICATION_2026-11-12_FIFTY_LESSONS.md). Content4f59c83, successful Pages run43361433908;5929 units,50 diagrams/assets,59 tables,2648 internal link visits |
+| GitHub / publication | Fifty learners/ten modules published/live-verified; [latest record](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md). Contentdb42cca, successful Pages run43389639229;5935 units,50 diagrams/assets,59 tables,2648 internal link visits.0051.2 and all eight audits pushed |
 | Other ISC course | Separate and unchanged by this setup |
 
 ## Resume order
@@ -40,7 +40,7 @@ The existing-lesson revision pass is complete. All50 current core candidates are
 | CRT-002 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
 | CRT-003 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
 | CRT-004 | Rewritten and published at 1.1; user reports it is better | Preserve the revised lesson |
-| CRT-005 | Published1.1; audited local1.2 complete | Preserve local1.2; continue the current core audit queue |
+| CRT-005 | Published/live-verified1.2; earlier1.1 retained historically | Preserve1.2; continue the current core audit queue |
 | CRT-006 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
 | CRT-007 | Rewritten and published at 1.1 | Preserve; revised learner feedback pending |
 | CRT-008 | Authored in the current style with author review | Preserve; no learner assessment claimed |
@@ -236,6 +236,10 @@ The design owns the current module placement and topic descriptions. This table 
 
 [Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) fully rereads043–048 and checks twenty-five primary bodies. No learner correction required.48 fresh full author rereads complete,2 remain,next049/050. All earlier local work is preserved and now authorized for publication; actual deployment and served results are recorded separately.
 
+## Observed publication, November 13, 2026
+
+[Publication record](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md) confirms contentdb42cca, successful Pages run43389639229 and complete live50 verification:5935 units,50 diagrams/assets,59 tables,2648 internal link visits.0051.2 and all eight audits are pushed. Earlier local-only records retain their historical status; current continuation is049/050.
+
 ## Next action
 
-Complete the authorized push and verify the actual Pages deployment. Next audit049/050 in full: complete periodic access-review design and defense when conditions change.001–048 have complete fresh author rereads;049/050 remain indexed with2 deep rereads pending. Repair demonstrated gaps one complete learner file at a time.0051.2 is preserved and authorized for publication; record actual served results separately. Finish the core audit before sequencing five specialist routes.200 meanings/17 capabilities/11 open questions; no051 or independent participant/tenant result.
+Next audit049/050 in full: complete periodic access-review design and defense when conditions change.001–048 have complete fresh author rereads;049/050 remain indexed with2 deep rereads pending. Repair demonstrated gaps one complete learner file at a time.0051.2 and the accumulated audits are published/live-verified; preserve historical evidence. Finish the core audit before sequencing five specialist routes.200 meanings/17 capabilities/11 open questions; no051 or independent participant/tenant result.

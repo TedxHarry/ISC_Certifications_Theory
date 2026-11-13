@@ -2,9 +2,9 @@
 
 Course design 9.0. November 13, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: all50 core topics authored/published in ten modules. Fresh audit001–048 complete as author rereads;2 deep rereads remain,all50 indexed. Batch08 needs no learner correction. Local0051.2/prior evidence preserved; accumulated publication is authorized and awaiting verified deployment. Five specialist routes planned.
+Status: all50 core topics authored/published in ten modules. Fresh audit001–048 complete as author rereads;2 deep rereads remain,all50 indexed. Batch08 needs no learner correction.0051.2 and all accumulated audits are published/live-verified. Five specialist routes planned.
 
-Current priority: publish and verify the completed local work, then audit049/050.043–048 connect actors/history, question-led evidence, exact mismatch causes, retained access and stage-specific project readiness.200 meanings/17 capabilities/11 questions; unresolved product boundaries, independent learner assessment and specialist depth remain pending.
+Current priority: audit049/050. Authorized publication and complete live50 verification succeeded.043–048 connect actors/history, question-led evidence, exact mismatch causes, retained access and stage-specific readiness.200 meanings/17 capabilities/11 questions; independent learner assessment, wider product boundaries and specialist depth remain pending.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
@@ -542,3 +542,7 @@ All50 current core candidates are authored; zero remain unwritten in this invent
 [Batch07](author/CORE_AUDIT_07_Verification_Progress_and_Closure.md) completes037–042. Cases connect required ability and retained access with target evidence, incomplete work with the right follow-up, administrative completion with actual affected items, and correction/deletion with state and evidence preservation.042's counts reconcile at item, subject and signed-review levels. Twenty-two scoped bodies support selected claims; OQ-01/10/11 remain open. No learner edit.42 complete rereads,8 pending,next043–048.
 
 [Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) completes043–048. Cases connect exact actors/records, report and read/generate permissions, account/manager inputs, verified recovery, requirements and dependent acceptance evidence. Twenty-five scoped primary bodies support selected claims. No learner edit required.48 complete rereads,2 pending,next049/050. Earlier0051.2 is preserved for the authorized publication; specialist routes remain planned.
+
+## Observed publication, November 13, 2026
+
+[Publication record](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md) confirms contentdb42cca, successful Pages run43389639229 and full live50 verification:5935 units,50 diagrams/assets,59 tables and2648 internal link visits.0051.2 and all eight audit reports are pushed.48 fresh core rereads complete,2 remain,next049/050. No tenant, graphical or independent participant result is claimed.

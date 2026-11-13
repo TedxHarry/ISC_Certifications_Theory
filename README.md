@@ -2,7 +2,7 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-Fifty core lessons are published in ten modules. Fresh core audit rereads cover CRT-001–048;2 of50 remain. CRT-005 revision1.2 is complete locally and authorized for publication;1.1 remains the last verified published revision until deployment is checked. Other published versions remain CRT-001–007 revision1.1 and CRT-008–050 revision1.0.
+Fifty core lessons are published and live-verified in ten modules. Fresh core audit rereads cover CRT-001–048;2 of50 remain. CRT-005 revision1.2 is now published and live-verified. Other published versions are CRT-001–004/006–007 revision1.1 and CRT-008–050 revision1.0.
 
 The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/). The separate general ISC course is unchanged.
 
@@ -22,7 +22,7 @@ The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Cert
 
 Latest learner: [CRT-050, Can you defend the outcome when conditions change?](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md), revision1.0, published and live-verified. [Its author record](author/revisions/CRT-050_Revision_Record.md) maps missing-manager coverage, reviewer absence, denied removal, evidence-based handoff and changed-role reasoning.
 
-Next work: finish the [core audit](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) with CRT-049/050. All50 lessons are indexed;48 have complete fresh beginner author rereads.2 deep rereads remain before specialist sequencing. The current push request authorizes publishing the accumulated local work after checks.
+Next work: finish the [core audit](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) with CRT-049/050. All50 lessons are indexed;48 have complete fresh beginner author rereads.2 deep rereads remain before specialist sequencing. The accumulated audits and0051.2 correction are [published and live-verified](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md).
 
 All50 currently inventoried core topics are authored; zero remain unwritten in that inventory. This is an authoring milestone, not a claim that specialist routes, independent learner assessment or the entire course are complete. The coverage audit can identify justified additions or corrections. Five specialist routes remain planned depth, not five completed lessons.
 
@@ -41,7 +41,7 @@ The reader keeps the collapsible side panel and independently collapsible module
 
 ## Publication
 
-All50 core learners are published and live-verified. The [fifty-lesson publication record](author/PUBLICATION_2026-11-12_FIFTY_LESSONS.md) records content4f59c83, successful Pages run43361433908, corrected quote verification and the full live result:5929 units,50 diagrams/assets,59 tables and2648 internal link visits. Previous publication records remain historical.
+All50 core learners are published and live-verified. The [latest publication record](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md) records contentdb42cca, successful Pages run43389639229 and the complete live result:5935 units,50 diagrams/assets,59 tables and2648 internal link visits. CRT-0051.2 and all eight audit reports are pushed. The [earlier fifty-lesson record](author/PUBLICATION_2026-11-12_FIFTY_LESSONS.md) remains historical.
 
 Earlier local-only statements in dated per-lesson records describe their historical authoring stages. Current publication status belongs in this README, the course register and the latest publication record.
 
@@ -70,3 +70,7 @@ The final currently planned core learner is published. Next continue the core co
 [Batch07](author/CORE_AUDIT_07_Verification_Progress_and_Closure.md) fully reread CRT-037–042 and checked twenty-two primary documentation bodies. Verification, reminders, overdue work, completion, corrections and count interpretation need no learner correction.42 full rereads complete,8 remain; next043–048. Local0051.2 is preserved and unpublished.
 
 [Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) fully reread CRT-043–048 and checked twenty-five primary documentation bodies. Evidence, troubleshooting, discovery and readiness need no learner correction.48 full rereads complete,2 remain,next049/050. The user has authorized publishing the accumulated audits and earlier0051.2 correction; deployment evidence is recorded after observation.
+
+## Observed publication, November 13, 2026
+
+[Publication record](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md) confirms contentdb42cca, successful Pages run43389639229 and full live50 verification:5935 units,50 diagrams/assets,59 tables and2648 internal link visits.0051.2 and all eight audit reports are pushed.48 fresh core rereads complete,2 remain,next049/050. No tenant, graphical or independent participant result is claimed.

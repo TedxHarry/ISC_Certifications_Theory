@@ -2,7 +2,7 @@
 
 Authoring source reference 9.0. Updated November 13, 2026; dated checks distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant action, test campaign or provisioning change was performed. [Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) records043–048 full rereads, traced cases and twenty-five scoped primary bodies. No learner correction required.48 complete,2 pending,next049/050.0051.2 manual-link persistence is freshly rechecked for the authorized push; publication results remain separately observed.200 meanings/17 capabilities/11 questions.
+No tenant action, test campaign or provisioning change was performed. [Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) records043–048 full rereads and twenty-five scoped primary bodies;48 complete,2 pending,next049/050.0051.2 manual-link persistence is freshly rechecked and now published. [Actual deployment/live verification](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md) is separate from source/learner/tenant evidence.200 meanings/17 capabilities/11 questions.
 
 ## Primary source map
 
@@ -538,3 +538,7 @@ Content 66ecaadfe6ca5c2230abe002801696747b3e5d79 was pushed to main. [Pages run 
 [Batch07](author/CORE_AUDIT_07_Verification_Progress_and_Closure.md) records twenty-two distinct primary bodies. Official SDK Certification/CampaignSummary/StatusSummary meanings and methods confirm the counter and state-specific PATCH teaching. Reminder/template controls, completion/deletion, scheduling and Entra session scope were freshly checked. OQ-01/10/11 remain unresolved; targeted searches do not turn IdentityIQ, broad legacy catalogs or CANCELING labels into a next-generation cancellation contract. No tenant/API run or exhaustive update claim.
 
 [Batch08](author/CORE_AUDIT_08_Evidence_Troubleshooting_and_Readiness.md) records twenty-five distinct primary bodies: report operations/models, certification/item reads and actor models, report help, completion/origin/finality, collection/correlation/manager mapping, route differences and manual/automatic provisioning. Current correlation guidance explicitly supports the0051.2 manual-link persistence correction. OQ-01/07/09 remain bounded; wider open investigations are not silently resolved. No ISC tenant/API operation or exhaustive update claim.
+
+## Observed publication, November 13, 2026
+
+[Publication record](author/PUBLICATION_2026-11-13_AUDIT_48_AND_CRT005_1_2.md) confirms contentdb42cca, successful Pages run43389639229 and full live50 verification:5935 units,50 diagrams/assets,59 tables and2648 internal link visits.0051.2 and all eight audit reports are pushed.48 fresh core rereads complete,2 remain,next049/050. No tenant, graphical or independent participant result is claimed.
