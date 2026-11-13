@@ -1,10 +1,10 @@
 # SailPoint ISC Certifications: Understanding Access Reviews from Scope to Verified Outcome
 
-Course design 9.11. November 13, 2026.
+Course design 9.12. November 13, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status:58 complete learners locally in30 main/25 reference/3 practice.051–058 and0051.3 are prepared for authorized publication. The [previous live edition](author/PUBLICATION_2026-11-13_LIGHTER_READING_ROUTES.md) has fifty learners in30/17/3; actual new deployment/live results are pending. Historical evidence is retained; wider X-05 assessment and actual learner validation remain.
+Status:58 complete learners published/live-verified in30 main/25 reference/3 practice, including051–0581.0 and0051.3. [Publication evidence](author/PUBLICATION_2026-11-13_SPECIALIST_REFERENCES_051_058.md) records actual deployment and full served checks. Historical evidence is retained; wider X-05 assessment and actual learner validation remain.
 
-Current priority: [CRT-058](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) completes the focused X-05 paged-review-item task. Local58/30/25/3; user authorized pushing all completed work. Observe deployment/live checks before reporting publication. Then assess campaign-wide reconciliation gaps against042/044/058.
+Current priority: [CRT-058](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) is published/live-verified as the focused X-05 paged-item task. Current58/30/25/3. Next assess campaign-wide reconciliation against042/044/058 without repeating existing teaching.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).

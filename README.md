@@ -2,7 +2,7 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-Fifty-eight topics are authored locally in30 main/25 reference/3 practice. [CRT-058](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) adds complete paged review-item investigation, with [evidence](author/revisions/CRT-058_Revision_Record.md) and an editable reconciliation flow. Local051–057 and0051.3 remain unchanged. The user authorized publishing all completed work; deployment/live verification is pending. The [previous live edition](author/PUBLICATION_2026-11-13_LIGHTER_READING_ROUTES.md) has50 topics in30/17/3. The main sequence is unchanged; actual learner validation remains pending.
+Fifty-eight topics are authored, pushed and live-verified in30 main/25 reference/3 practice. [CRT-058](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) adds complete paged-item investigation. [Publication evidence](author/PUBLICATION_2026-11-13_SPECIALIST_REFERENCES_051_058.md) records051–0581.0,0051.3 and complete deployment/live checks. The main sequence is unchanged; actual learner/tenant validation remains pending.
 
 The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/). The separate general ISC course is unchanged.
 
@@ -20,11 +20,11 @@ The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Cert
 
 ## Current position
 
-Latest learner: [CRT-058, How do you check all review items across API pages?](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md), complete revision1.0, with [its record](author/revisions/CRT-058_Revision_Record.md). Three scoped primary bodies support exact API authority, supported paging controls and complete item-set reasoning. Authorized publication results are pending.
+Latest learner: [CRT-058, How do you check all review items across API pages?](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md), revision1.0 published/live-verified. [Its record](author/revisions/CRT-058_Revision_Record.md) maps source/author checks; [publication evidence](author/PUBLICATION_2026-11-13_SPECIALIST_REFERENCES_051_058.md) records the served results.
 
-Next assess X-05 campaign-wide reconciliation against042/044/058 and the current certification-list/report contracts. Add a unit only for distinct useful multi-certification scope or bulk-comparison reasoning. Preserve the thirty-main route and completed051–058 plus0051.3. Current58 topics/30 main/25 reference/3 practice; publication results must be recorded after observation. No059 placeholder or fixed specialist count.
+Next assess X-05 campaign-wide reconciliation against042/044/058 and the current certification-list/report contracts. Add a unit only for distinct useful multi-certification scope or bulk-comparison reasoning. Preserve the thirty-main route, published051–058 and0051.3. Current58 topics/30 main/25 reference/3 practice, published/live-verified. No059 placeholder or fixed specialist count; keep new authoring local unless publication is requested.
 
-The existing fifty topics and eight focused specialist references are complete. Local routes are30/25/3; prior live30/17/3. The user authorized publication of all completed work. Broader X-05 assessment and actual learner validation remain pending. Counts follow content needs.
+The fifty-topic foundation and eight focused specialist references are published/live-verified in30/25/3. Broader X-05 assessment and actual learner validation remain pending. Counts follow content needs.
 
 The user reported that CRT-004 revision 1.1 was better after difficulty reading 1.0. Independent uncoached assessment remains pending. Source checks and author review do not establish learner mastery, tenant execution or exhaustive release currency.
 
@@ -33,9 +33,9 @@ The user reported that CRT-004 revision 1.1 was better after difficulty reading 
 - lessons/: complete learner Markdown files, one topic at a time.
 - assets/: editable teaching diagrams, paired with their learner explanations.
 - author/revisions/: historical per-lesson coverage, sources, assumptions and actual checks.
-- _data/course.yml:58 complete topics in30/25/3; the previous fifty-topic live edition has30/17/3. Nine groups contain main-route lessons.
+- _data/course.yml:58 complete published topics in30/25/3. Nine groups contain main-route lessons.
 
-Run npm ci, npm test and node author/verify-site.mjs for local checks. After deployment, run node author/verify-site.mjs --live and verify the served reading routes. Authorized publication of051–058 and0051.3 is pending actual observation.
+Run npm ci, npm test and node author/verify-site.mjs for local checks. The complete --live content check and all58 served reading-route checks passed for this publication.
 
 The reader keeps its collapsible panel and groups. Author/control documents are excluded from Pages. The manifest adds only complete learners and preserves permanent URLs;051 belongs in task reference, outside the main sequence.
 

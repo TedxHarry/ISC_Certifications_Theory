@@ -1,7 +1,9 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 9.11. Updated November 13, 2026; dated checks distinguish each stage.
+Authoring source reference 9.12. Updated November 13, 2026; dated checks distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
+
+Current [specialist publication](author/PUBLICATION_2026-11-13_SPECIALIST_REFERENCES_051_058.md) is pushed/live-verified:58 lessons/6,483 units/58 diagrams/assets/60 tables/3,532 internal link visits and all58 served routes. Pages run43474252543 succeeded for91299dd. Local statements below retain their original authoring checkpoints; publication does not establish tenant execution, exhaustive updates or learner mastery.
 
 [CRT-058](lessons/CRT-058_Checking_All_Review_Items_Across_API_Pages.md) and [its record](author/revisions/CRT-058_Revision_Record.md) map three current primary teaching bodies to the X-05 page/set task: direct List Review Items, its official Python SDK contract and Standard Collection Parameters. Explicit record-based offset definition takes precedence over inconsistent prose in a later general example. No SDK code, unsupported id sorter, immutable snapshot or source-removal conclusion is copied.58 authored/214 meanings/17 capabilities/11 questions; user-authorized publication evidence remains separate.
 

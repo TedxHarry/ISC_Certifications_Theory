@@ -1,13 +1,13 @@
 # Coverage ownership register
 
-Version 3.56. November 13, 2026.
+Version 3.57. November 13, 2026.
 Companions: [course design](../COURSE_DESIGN.md), [routine task map](../OPERATIONAL_TASK_COVERAGE.md), [teaching specification](../TEACHING_SPECIFICATION.md).
 
 All32 concept rows have authored core teaching locations reconciled against the complete fresh author audit001–050. [Whole-core synthesis](CORE_AUDIT_SUMMARY.md) groups the concepts and records the evidence. Every mapped primary location is authored and freshly reread, including the published0051.2 manual-correlation repair. Specific unresolved product claims remain bounded in the capability register; independent learner assessment and specialist depth are pending. Earlier per-lesson evidence below retains its historical authoring stage.
 
 The published [reading-load revision](BEGINNER_READING_LOAD_REVIEW_2026-11-13.md) changes placement, not the thirty-two coverage commitments: thirty main lessons, seventeen task references and three practice cases. Earlier audit statements describe the prior complete-read baseline. Five published revisions remove repeated introductions/diagnostics and move detailed flag lookup from027 to009. No task-specific reference is claimed unnecessary for someone doing that work.
 
-051–058 add focused specialist references without changing the thirty-two core commitments.058 develops X-05 page traversal, ID-set reconciliation and precise query/actor/certification scope. Other local learners and0051.3 remain unchanged. Local routes30/25/3; authorized publication pending, prior live30/17/3.
+051–058 add focused specialist references without changing the thirty-two core commitments.058 develops page traversal, ID reconciliation and precise query/actor/certification scope. All58 and0051.3 are [published/live-verified](PUBLICATION_2026-11-13_SPECIALIST_REFERENCES_051_058.md) in30/25/3. Earlier author checkpoints remain historical.
 
 Primary teaching means comprehensive treatment. Other lessons still explain the supporting meaning and connection needed for independent reading. Topic ownership does not justify sending an unfamiliar reader away.
 
