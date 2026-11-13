@@ -1222,3 +1222,11 @@ HEAD remains6ad40f170c14b8cf717c14c0714488de9aac782d. No commit, push, tenant/AP
 ## Authorized fifty-lesson publication, November12,2026
 
 The user requests push and continuation. Add complete CRT-050 as Module10 Lesson4, preserving all prior49 entries/ten modules and every learner/asset/per-lesson/historical publication record. Four existing navigation tests and native50-entry content checks pass:5931 normalized units,50 diagrams/assets,59 learner tables. Push/deployment/live verification remain pending; evidence belongs in the new fifty-lesson publication record. No new lesson, tenant action or independent learner result is inferred. Continue the core audit after actual publication verification.
+
+## Observed50-lesson publication and checker correction
+
+Content4f59c8356b588950ec624c283273e8624a55f2c5 was pushed; Pages run43361433908 succeeded. Full live50-lesson verification passed with the corrected quote normalization:5929 content units,50 diagrams/assets,59 learner tables and2648 internal link visits. All home entries/current navigation, CSS and four representative author/control exclusions passed. No graphical, tenant or independent learner result is claimed.
+
+The initial full live run failed on CRT-050's blockquoted handover because the checker kept Markdown greater-than quote markers that the rendered HTML correctly removes. Direct inspection confirmed200 response and all three handover paragraphs in a blockquote. Narrow normalization now removes leading quote formatting before content extraction. No learner or reader change was needed. Complete positive live check passed; an in-memory negative check removed that blockquote and the verifier correctly rejected its missing lesson text. The normalized count changes5931 to5929 because the old checker counted two marker-only quote lines; historical local checks keep their original measured counts.
+
+This authorized follow-up changes the excluded status records plus the checker, preserving all50 learners/assets/manifest and reader/configuration/style/tests. The repository's final post-push deployment/live checks are observed during task completion. Continue the core audit with truthful depth tracking; specialist routes remain planned.

@@ -2,9 +2,9 @@
 
 Course design 8.2. November 12, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: all50 currently inventoried core topics are authored and author-reviewed. CRT-001–007 are revision1.1; CRT-008–050 are1.0. Authorized50-entry/ten-module publication is prepared;49 remain the last observed live snapshot. Core audit and five planned specialist routes remain.
+Status: all50 currently inventoried core topics are authored, author-reviewed, published and live-verified in ten modules. CRT-001–007 are revision1.1; CRT-008–050 are1.0. Core audit and five planned specialist routes remain.
 
-Current priority: finish and verify authorized50-lesson publication, then audit actual concept/task coverage and explanation continuity. Fix real gaps one complete file at a time and sequence useful specialist depth. Zero current core candidates unwritten; counts remain flexible for evidenced gaps. Eleven product questions and independent learner assessment remain open.
+Current priority: audit actual concept/task coverage and explanation continuity after verified50-lesson publication. Fix evidenced gaps one complete file at a time and sequence useful specialist depth. Zero current core candidates unwritten; scope can expand for real gaps. Eleven product questions and independent learner assessment remain open.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).

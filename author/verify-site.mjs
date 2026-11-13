@@ -29,7 +29,7 @@ for(const lesson of course.lessons) {
  const blocks=[...md.matchAll(/^\x60{3}text\n([\s\S]*?)\n^\x60{3}/gm)].map(m=>m[1].trimEnd());
  for(const b of blocks) assert.ok(assets.some(([,text])=>text===b),lesson.id+" editable diagram");
  diagrams+=blocks.length;
- const prose=md.replace(/^\x60{3}[^\n]*\n[\s\S]*?^\x60{3}\s*$/gm,"");
+ const prose=md.replace(/^\x60{3}[^\n]*\n[\s\S]*?^\x60{3}\s*$/gm,"").replace(/^(?:>[ \t]?)+/gm,"");
  const expected=[];
  for(const paragraph of prose.split(/\n\s*\n/)) {
   if(!paragraph.trim())continue;

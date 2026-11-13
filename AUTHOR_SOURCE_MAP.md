@@ -2,7 +2,7 @@
 
 Authoring source reference 8.2. Updated November 12, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant action, test campaign or provisioning change was performed. All50 current core topics are authored and prepared for authorized publication in ten modules;49 remain the last observed live snapshot. The [fifty-lesson publication record](author/PUBLICATION_2026-11-12_FIFTY_LESSONS.md) will record deployment/live results. Next is core audit and specialist sequencing. Eleven questions stay open; historical checks remain historical.
+No tenant action, test campaign or provisioning change was performed. All50 current core topics are authored, published and live-verified in ten modules. The [fifty-lesson publication record](author/PUBLICATION_2026-11-12_FIFTY_LESSONS.md) records content4f59c83, successful Pages run43361433908 and full live verification. Next is core audit/specialist sequencing. Eleven questions stay open; historical checks remain historical.
 
 ## Primary source map
 

@@ -5,7 +5,7 @@ Version 7.3. Updated November 12, 2026.
 
 ## Current position
 
-All50 current core candidates are authored and author-reviewed. CRT-001–007 are1.1; CRT-008–050 are1.0. Fifty learners in ten modules are prepared for authorized publication, with49 the last observed live snapshot. The user requests push then continuation with the core coverage/continuity audit. Five specialist routes remain planned.
+All50 current core candidates are authored, author-reviewed, published and live-verified in ten modules. CRT-001–007 are1.1; CRT-008–050 are1.0. Continue the core coverage/continuity audit. Five specialist routes remain planned; no learner mastery or whole-course completeness is inferred.
 
 | Item | Actual state |
 |---|---|
@@ -17,13 +17,13 @@ All50 current core candidates are authored and author-reviewed. CRT-001–007 ar
 | Learner lessons author-reviewed | 50; source/coverage and full saved author read-through complete; independent learner assessment pending |
 | Reader feedback / learner assessment | User reported CRT-004 1.1 better on November 2 after difficulty with 1.0; independent uncoached assessment remains pending |
 | Reference aids authored | 0 standalone aids; fifty editable teaching diagrams accompany CRT-001–050 |
-| Latest authored learner | [CRT-050: Can you defend the outcome when conditions change?](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md); revision1.0, publication prepared |
+| Latest authored learner | [CRT-050: Can you defend the outcome when conditions change?](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md); revision1.0, published/live-verified |
 | Current revision | CRT-050 revision1.0; [author evidence](author/revisions/CRT-050_Revision_Record.md); earlier49 learner/evidence packages preserved |
 | Next task | Audit core coverage/continuity against required concepts and24 routine tasks, then sequence specialist lessons; no051 assigned |
 | Current author evidence | [CRT-050 record](author/revisions/CRT-050_Revision_Record.md);16 fresh primary bodies, saved beginner author reading, wrong population/absent reviewer/denied operation and independent role-requirement transfer; actual learner validation pending |
 | Feature currency | 17 scoped capability rows/11 unresolved questions. No target-tenant/exhaustive release audit.050 preserves engine/type/filter/unsigned/overlap/retry and signed-transfer boundaries |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
-| GitHub / publication | Fifty learners/ten modules prepared; [record](author/PUBLICATION_2026-11-12_FIFTY_LESSONS.md); successful50-lesson deployment/live checks pending. Prior49-entry publication remains the last observed live result |
+| GitHub / publication | Fifty learners/ten modules published/live-verified; [record](author/PUBLICATION_2026-11-12_FIFTY_LESSONS.md). Content4f59c83, successful Pages run43361433908;5929 units,50 diagrams/assets,59 tables,2648 internal link visits |
 | Other ISC course | Separate and unchanged by this setup |
 
 ## Resume order
@@ -111,7 +111,7 @@ These states are independent facts. A source check does not imply learner valida
 | CRT-047 | What do we need to discover before designing the campaign? | Complete revision1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published revision1.0; live-verified |
 | CRT-048 | How do we build a campaign readiness and acceptance plan? | Complete revision1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published revision1.0; live-verified |
 | CRT-049 | Design and explain a complete periodic access review | Complete revision1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published revision1.0; live-verified |
-| CRT-050 | Can you defend the outcome when conditions change? | Complete revision1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Publication prepared; deployment pending |
+| CRT-050 | Can you defend the outcome when conditions change? | Complete revision1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published revision1.0; live-verified |
 
 The design owns the current module placement and topic descriptions. This table records actual writing/review status. Planning boundaries may change without silently dropping coverage. Once authored, preserve permanent learner IDs and filenames.
 
@@ -208,6 +208,8 @@ The design owns the current module placement and topic descriptions. This table 
 
 | November12,2026 | Authored CRT-050 locally | Missing-manager scope, absent unsigned reviewer, denied target removal, accepted evidence-based handoff and supported recovery; independent role-required reading/new requirement transfer.16 fresh primary bodies;199 meanings/17 capabilities/11 questions. All50 current core topics authored,zero of that inventory unwritten. Next core coverage/continuity audit and specialist sequencing.49-entry publication unchanged;no push. |
 
+| November12,2026 | Observed50-lesson publication | Content4f59c83, successful Pages run43361433908. Corrected Markdown quote normalization; all50 live checks pass:5929 units,50 diagrams/assets,59 tables,2648 internal link visits. Missing-quote negative check rejects lost handover text. Core audit continues; no learner/tenant/graphical claim. |
+
 ## Next action
 
-First finish the explicitly authorized50-lesson push, observe Pages success and verify all live content. Then audit the complete core for coverage and explanation continuity against32 areas,199 meanings and24 routine task families. Record exactly which files were deeply reread versus indexed; correct evidenced gaps one complete file at a time. Preserve IDs and historical evidence. Then sequence specialist depth by job need; no051 stub or fixed lesson quota. Independent learner validation and scoped product verification remain distinct. All50 current core candidates authored; five specialist routes planned and11 questions unresolved.
+Continue the complete-core coverage/continuity audit against32 areas,199 meanings and24 routine tasks. Distinguish indexed files from complete beginner rereads and primary claim rechecks. Repair evidenced gaps one complete file at a time, preserving IDs and historical evidence. Then sequence specialist depth by actual job need; no051 stub or fixed count. All50 current core candidates are published/live-verified. Five specialist routes and11 unresolved questions remain; actual learner assessment is separate.
