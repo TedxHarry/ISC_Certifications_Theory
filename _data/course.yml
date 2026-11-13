@@ -363,3 +363,10 @@ lessons:
     description: "Justify a quarterly review from current access through decisions, two removal paths and verified closure."
     source: "lessons/CRT-049_Designing_and_Explaining_a_Complete_Periodic_Access_Review.md"
     url: "/lessons/CRT-049_Designing_and_Explaining_a_Complete_Periodic_Access_Review.html"
+  - id: CRT-050
+    module: project-reasoning
+    placement: "Module 10 · Lesson 4"
+    title: "Can you defend the outcome when conditions change?"
+    description: "Explain changed scope, reviewer absence, failed removal and the evidence needed for closure or handoff."
+    source: "lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md"
+    url: "/lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.html"

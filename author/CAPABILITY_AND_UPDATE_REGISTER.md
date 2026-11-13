@@ -1,6 +1,6 @@
 # Capability, update and open-question register
 
-Version 5.9. November 12, 2026.
+Version 6.0. November 12, 2026.
 Source leads: [official source map](../AUTHOR_SOURCE_MAP.md).
 Purpose: stop unsupported current/legacy/availability claims entering lessons.
 
@@ -351,3 +351,7 @@ All ten questions remain open. Publication of all thirty-one complete learners i
 ## CRT-049 scoped project refresh, November12,2026
 
 [CRT-049 record](revisions/CRT-049_Revision_Record.md) checks twelve primary bodies for type-dependent eligible selection/reviewer, correct current data/association, template/preview/manual start, next-generation finalization, actual write/manual work and report/result meaning. The supplied project verifies separate real record outcomes; its quarterly schedule and working-day targets are not native automatic activation or SLAs. Both removed exports stay absent in the next-cycle transfer; actual new-account collection/association and item inspection avoid a universal cross-account filtering claim. Seventeen capability rows/eleven questions remain, including unresolved unsigned/edit/overlap/cancellation issues. No exhaustive release audit, tenant action, production readiness approval or participant observation.
+
+## CRT-050 scoped changed-condition refresh, November12,2026
+
+[CRT-050 record](revisions/CRT-050_Revision_Record.md) maps16 primary bodies to dedicated-manager exclusion versus Search routing, actual manager processing/new preview, unsigned/signed/self-review transfer boundaries, future-work absence configuration, normal finalization/due removal and error-dependent supported recovery. Narrow role-required retention alongside a separate requested profile supports the Warehouse transfer; no independent-profile theorem or automatic-role manualRevoke. Report regeneration is distinct from download/current application evidence.17 capabilities/11 questions remain; OQ-01/02/03/05/07/08/09/10/11 are bounded, not resolved. No new universal retry/phase/edit/cancellation contract, tenant test or exhaustive release audit.

@@ -1,0 +1,30 @@
+The result no longer matches the requirement
+                       |
+      Name the exact person, account and access
+                       |
+       Find where the evidence first differs
+                       |
+      +----------------+------------------+
+      |                |                  |
+ Wrong scope     Unfinished review    Failed removal
+      |                |                  |
+ Correct inputs  Assign an eligible   Correct the
+ and check fresh reviewer and         failed operation's
+ generated work  confirm decisions    cause
+      |                |                  |
+      +----------------+------------------+
+                       |
+        Recheck the affected requirements
+                       |
+           Is the required result proved?
+                       |
+             +---------+---------+
+             |                   |
+            Yes                  No
+             |                   |
+ Explain the scoped       Hand over the open work:
+ result and evidence      owner, next check, due time
+                          and evidence needed to close
+
+These arrows describe investigation and verification.
+They are not ISC's internal processing sequence.

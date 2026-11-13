@@ -1,10 +1,10 @@
 # SailPoint ISC Certifications: Understanding Access Reviews from Scope to Verified Outcome
 
-Course design 8.1. November 12, 2026.
+Course design 8.2. November 12, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status: forty-nine topics are authored, author-reviewed, published and live-verified in ten modules. CRT-001–007 are revision1.1; CRT-008–049 are1.0. One core candidate remains unwritten: CRT-050.
+Status: all50 currently inventoried core topics are authored and author-reviewed. CRT-001–007 are revision1.1; CRT-008–050 are1.0. Authorized50-entry/ten-module publication is prepared;49 remain the last observed live snapshot. Core audit and five planned specialist routes remain.
 
-Current priority: prepare CRT-050's brief and fresh primary checks for changed-condition defense/handoff, then write one complete learner. Authorized49-lesson publication is verified. Five specialist routes remain planned. Preserve earlier content/evidence and reader implementation; eleven questions remain open.
+Current priority: finish and verify authorized50-lesson publication, then audit actual concept/task coverage and explanation continuity. Fix real gaps one complete file at a time and sequence useful specialist depth. Zero current core candidates unwritten; counts remain flexible for evidenced gaps. Eleven product questions and independent learner assessment remain open.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).
@@ -514,3 +514,9 @@ The49-entry/ten-module manifest adds complete043–049 and preserves the earlier
 ## Observed49-lesson publication, November12,2026
 
 Content 66ecaadfe6ca5c2230abe002801696747b3e5d79 was pushed to main. [Pages run 43276626821](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/43276626821) completed successfully. Full live verification passed for all49 learners:5789 normalized content units,49 diagrams/assets,58 learner tables and2546 internal link visits. Home entries, current-page navigation, CSS and four representative author/control exclusions passed. The first full attempt reached the last diagram asset and received HTTP503; an immediate complete rerun passed without changing content or the verifier. This proves served content/navigation, not graphical layout, learner understanding or tenant operation. The [publication record](author/PUBLICATION_2026-11-12_FORTY_NINE_LESSONS.md) separates content publication and excluded status follow-up. One core candidate remains; CRT-050 next.
+
+## CRT-050 authored locally, November12,2026
+
+[CRT-050](lessons/CRT-050_Defending_Review_Outcomes_When_Conditions_Change.md) and [its record](author/revisions/CRT-050_Revision_Record.md) develop changed-condition explanation and accountable handoff. CRT-050 connects a missing manager and wrong preview population to truthful data correction/new coverage, unsigned reviewer absence to inspected eligible transfer/final choices, and finalized Revoke to an actual denied target removal, accepted handoff, supported correction/retry and verified outcome. The unfamiliar Warehouse case separates role-required reading from removed profile adjustment, then leaves the broader no-access requirement open until governing assignment/account evidence exists. Sixteen scoped primary bodies, full saved beginner author reading and edited-passage reread;199 working meanings/17 capability rows/11 unresolved questions remain. Examples are supplied illustrations, not tenant operation or observed learner mastery.
+
+All50 current core candidates are authored; zero remain unwritten in this inventory. This does not close the five specialist routes or mark whole-course completeness/mastery. Next audit actual core coverage and explanation continuity before assigning further learner IDs.49-entry published reader remains unchanged.

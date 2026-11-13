@@ -1,6 +1,6 @@
 # Author terminology register
 
-Version 3.36. November 12, 2026.
+Version 3.37. November 12, 2026.
 Purpose: consistent working meanings and primary teaching locations.
 Status: authoring aid; no learner glossary or tooltip interaction is implemented.
 
@@ -483,3 +483,7 @@ New terms may be added when a real explanation needs them. Avoid growing a gloss
 ## CRT-049 reused working meanings, November12,2026
 
 [CRT-049 record](revisions/CRT-049_Revision_Record.md) reuses the199 existing meanings; no glossary growth is forced. Scope, source/account/identity, entitlement/profile/role/lifecycle state, aggregation/correlation, selection/refinement, reviewer/permission, template/preview/start, decision/sign-off, remediation/provisioning/manual work and evidence are explained locally as needed. Project labels, business deadlines and observed illustration records are not asserted native fields/states. Next-cycle total accounts/identities differ from current export-holder counts. No tooltip implementation or learner glossary dependency.
+
+## CRT-050 reused meanings, November12,2026
+
+[CRT-050 record](revisions/CRT-050_Revision_Record.md) reuses199 existing meanings. Identity/account/source, entitlement/scope/filter, authoritative data/manager correlation, campaign/preview/certification, Approve/Revoke/sign-off, reviewer/reassignment/work reassignment, remediation/provisioning/connector/integration account/aggregation, report/evidence/time, exception, profile/role/criteria/Acknowledge receive locally useful explanation. No new native object, glossary prerequisite or tooltip implementation; handover owners/times/close criteria describe organizational work.

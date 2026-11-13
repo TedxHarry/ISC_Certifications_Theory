@@ -1,8 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 8.1. Updated November 12, 2026; dated checks below distinguish each stage.
+Authoring source reference 8.2. Updated November 12, 2026; dated checks below distinguish each stage.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
-No tenant action, test campaign or provisioning change was performed. Forty-nine learners are authored, published and live-verified in ten modules. The [current publication record](author/PUBLICATION_2026-11-12_FORTY_NINE_LESSONS.md) records content66ecaad, successful Pages run43276626821 and full49-lesson live verification. CRT-050 is next. Eleven questions stay open; dated records remain historical.
+No tenant action, test campaign or provisioning change was performed. All50 current core topics are authored and prepared for authorized publication in ten modules;49 remain the last observed live snapshot. The [fifty-lesson publication record](author/PUBLICATION_2026-11-12_FIFTY_LESSONS.md) will record deployment/live results. Next is core audit and specialist sequencing. Eleven questions stay open; historical checks remain historical.
 
 ## Primary source map
 
@@ -512,3 +512,7 @@ All forty-two complete learners are pushed and live-verified after successful Pa
 ## Observed publication boundary, November12,2026
 
 Content 66ecaadfe6ca5c2230abe002801696747b3e5d79 was pushed to main. [Pages run 43276626821](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/43276626821) completed successfully. Full live verification passed for all49 learners:5789 normalized content units,49 diagrams/assets,58 learner tables and2546 internal link visits. Home entries, current-page navigation, CSS and four representative author/control exclusions passed. The first full attempt reached the last diagram asset and received HTTP503; an immediate complete rerun passed without changing content or the verifier. This proves served content/navigation, not graphical layout, learner understanding or tenant operation. Source/engine checks remain scoped; publication does not close the eleven product questions or establish exhaustive release currency.
+
+## CRT-050 scoped changed-condition verification, November12,2026
+
+[CRT-050 record](author/revisions/CRT-050_Revision_Record.md) maps sixteen fresh primary bodies: dedicated/Search creation, certification/work reassignment, Understanding/completion/reports, provisioning monitoring/overview, next-generation finalization/overview, reviewer, profile administration, manager correlation, account loading and filters. CRT-050 connects a missing manager and wrong preview population to truthful data correction/new coverage, unsigned reviewer absence to inspected eligible transfer/final choices, and finalized Revoke to an actual denied target removal, accepted handoff, supported correction/retry and verified outcome. The unfamiliar Warehouse case separates role-required reading from removed profile adjustment, then leaves the broader no-access requirement open until governing assignment/account evidence exists. Sixteen scoped primary bodies, full saved beginner author reading and edited-passage reread;199 working meanings/17 capability rows/11 unresolved questions remain. Examples are supplied illustrations, not tenant operation or observed learner mastery. The unavailable guessed work-reassignment path was replaced by the documented users path. No tenant API/action or exhaustive currency claim.49-entry publication unchanged;050 local.
