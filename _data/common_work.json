@@ -1,0 +1,161 @@
+{
+  "groups": [
+    {
+      "id": "run-review",
+      "title": "Run a review",
+      "tasks": [
+        {
+          "id": "manager-review",
+          "label": "Run a periodic manager review",
+          "lesson": "CRT-060",
+          "format": "Walkthrough",
+          "description": "Follow the work from preparation and manager decisions to verified removals and closure."
+        },
+        {
+          "id": "application-review",
+          "label": "Review access to one application",
+          "lesson": "CRT-061",
+          "format": "Walkthrough",
+          "description": "Follow a review of production accounts, including who reviews the source owner's own access."
+        },
+        {
+          "id": "targeted-review",
+          "label": "Review everyone holding particular access",
+          "lesson": "CRT-049",
+          "format": "Practice",
+          "description": "Work through a targeted export review across reporting and archive accounts."
+        }
+      ]
+    },
+    {
+      "id": "help-reviewers",
+      "title": "Help reviewers finish the right work",
+      "tasks": [
+        {
+          "id": "progress",
+          "label": "Check campaign progress",
+          "lesson": "CRT-042",
+          "format": "Explanation",
+          "description": "See what each count means and which reviews still need work."
+        },
+        {
+          "id": "deadline-followup",
+          "label": "Follow up as the deadline approaches",
+          "lesson": "CRT-038",
+          "format": "Task reference",
+          "description": "Check pending work, reminders and the reason a reviewer has not finished."
+        },
+        {
+          "id": "wrong-reviewer",
+          "label": "Find why the reviewer or person is wrong",
+          "lesson": "CRT-045",
+          "format": "Investigation",
+          "description": "Check which person owns the account and who received the review."
+        },
+        {
+          "id": "reviewer-away",
+          "label": "Handle a reviewer who is away or has left",
+          "lesson": "CRT-026",
+          "format": "Task reference",
+          "description": "Check existing work and arrange suitable review responsibility."
+        },
+        {
+          "id": "missing-access",
+          "label": "Investigate missing or unexpected access",
+          "lesson": "CRT-045",
+          "format": "Investigation",
+          "description": "Check the collected access, selected people, access profiles and roles, and the review that was created."
+        },
+        {
+          "id": "unclear-access",
+          "label": "Explain an unclear permission",
+          "lesson": "CRT-009",
+          "format": "Task reference",
+          "description": "Find out what the permission lets the account do before judging whether it is needed."
+        },
+        {
+          "id": "unsigned-review",
+          "label": "Check whether saved decisions are final",
+          "lesson": "CRT-030",
+          "format": "Explanation",
+          "description": "Separate recorded item choices from the reviewer's final confirmation."
+        }
+      ]
+    },
+    {
+      "id": "verify-close",
+      "title": "Follow removals and close the review",
+      "tasks": [
+        {
+          "id": "removal-start",
+          "label": "Check what removal work is required",
+          "lesson": "CRT-032",
+          "format": "Explanation",
+          "description": "Find which access must be removed and how the change can be carried out."
+        },
+        {
+          "id": "manual-removal",
+          "label": "Follow a manual access-removal task",
+          "lesson": "CRT-034",
+          "format": "Task reference",
+          "description": "Connect the assigned work to the actual application change and its evidence."
+        },
+        {
+          "id": "remaining-access",
+          "label": "Investigate failed removal or remaining access",
+          "lesson": "CRT-046",
+          "format": "Investigation",
+          "description": "Find whether the change failed, another assignment remains, or the evidence is out of date."
+        },
+        {
+          "id": "verify-removal",
+          "label": "Verify that the intended access was removed",
+          "lesson": "CRT-037",
+          "format": "Explanation",
+          "description": "Check the correct application account, retained access and updated ISC information."
+        },
+        {
+          "id": "review-evidence",
+          "label": "Choose the right reports and evidence",
+          "lesson": "CRT-044",
+          "format": "Explanation",
+          "description": "Match configuration, decisions, sign-off and removal evidence to the question."
+        },
+        {
+          "id": "overdue-review",
+          "label": "Handle overdue and unfinished reviews",
+          "lesson": "CRT-039",
+          "format": "Explanation",
+          "description": "Check the actual review state and supported handling of undecided access."
+        }
+      ]
+    },
+    {
+      "id": "other-reviews",
+      "title": "Other review types",
+      "tasks": [
+        {
+          "id": "uncorrelated-review",
+          "label": "Review uncorrelated-account access",
+          "lesson": "CRT-052",
+          "format": "Walkthrough",
+          "description": "Assess the account's current purpose and permissions while treating ownership repair separately."
+        },
+        {
+          "id": "machine-review",
+          "label": "Review a program or service account",
+          "lesson": "CRT-053",
+          "format": "Walkthrough",
+          "description": "Follow the review of a program's account and check that its approved work can continue."
+        },
+        {
+          "id": "composition-review",
+          "label": "Review what a shared role contains",
+          "lesson": "CRT-051",
+          "format": "Walkthrough",
+          "description": "Follow a decision about a role's contents through the correction and resulting account changes."
+        }
+      ]
+    }
+  ]
+}

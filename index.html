@@ -11,6 +11,7 @@ description: "SailPoint ISC access certifications explained through data, decisi
   <p class="course-status">{{ core_lessons.size }} lessons in the main route. Task references and practice cases are listed separately below.</p>
   <a class="start-link" href="{{ core_lessons.first.url | relative_url }}">Start with why access needs review</a>
 </section>
+{% include common-work.html %}
 {% for module in site.data.course.modules %}
 {% assign module_lessons = core_lessons | where: "module", module.id %}
 {% if module_lessons.size > 0 %}

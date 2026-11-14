@@ -274,7 +274,9 @@ The request is:
 
 An **access profile** groups entitlements from one source. This requested profile on Support Production contains Read Cases and Assign Cases. Read Cases permits reading support cases; Assign Cases permits assigning cases to staff.
 
-Requested means the person received the package through an access request. The component permissions in this example are held only through the profile, without separate entitlement grants.
+Each person received the profile through an access request. Read Cases and Assign Cases were granted together through that profile, rather than as separate entitlement grants.
+
+The profile can be reviewed as one item. Its contained permissions are not separate review items in this arrangement. Selecting a component permission does not split it out of the profile.
 
 The supplied identities are:
 
@@ -289,7 +291,10 @@ The data and account associations are correct. The profiles are separately revie
 
 A proposal uses the correct Support-and-Pune people query, but refines access to the Assign Cases entitlement and adds an entitlement inclusion for Assign Cases.
 
-Does that establish the requested profile review?
+Does that proposal meet the request? Explain which access object should be reviewed and whose item should remain after the people selection and exclusion. What would you look for in the generated preview?
+
+<details class="practice-answer" markdown="block">
+<summary>Compare your reasoning</summary>
 
 No. The component entitlement is not a separate review item in this arrangement. An entitlement selection and filter do not split it out of the containing profile.
 
@@ -297,10 +302,25 @@ Choose the Case Administrator profile as the reviewable object. Preserve the int
 
 Then verify that 1901's profile is the intended remaining item. Identity 1903 has the wrong location; 1904 has the wrong department; 1902 is explicitly excluded.
 
+</details>
+
+### What changes if the profile comes through a role?
+
 A **role** can group access profiles and direct entitlements, including access across sources.
 
-Now change one condition: 1901 receives the profile through a role instead. A profile supplied through a role is not reviewed as an individual profile item.
+Keep the same review request, but change one condition: 1901 receives the profile through a role instead of through a separate access request. A profile supplied through a role is reviewed as part of that role, not as an individual profile item.
+
+The plan still selects the Case Administrator profile for Support people in Pune and excludes identity 1902.
+
+Can the corrected profile-only plan still meet the request for 1901? Explain what you would inspect before deciding how to review this access.
+
+<details class="practice-answer" markdown="block">
+<summary>Compare your reasoning</summary>
 
 The old profile-only plan no longer matches how 1901 receives the access. Identify the containing role and check its complete access scope before deciding how to meet the request.
 
 Adding more filters does not turn the component back into an independently reviewable profile.
+
+The role may include other access. Establish what a decision on that role would cover before using it to answer a request about one profile. The facts here do not establish the role's complete contents or a safe removal decision.
+
+</details>

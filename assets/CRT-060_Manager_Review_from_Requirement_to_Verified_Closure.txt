@@ -1,0 +1,27 @@
+Agreed Finance review requirement
+  People, accounts, permissions and cutoff
+                   |
+                   v
+Checked data, manager links and filter
+                   |
+                   v
+Generated preview checked against the requirement
+                   |
+                   v
+Administrator starts the campaign
+                   |
+                   v
+Manager records and finalizes six decisions
+                   |
+          +--------+---------+
+          |                  |
+          v                  v
+Reporting removal      Archive removal
+Supported connector    Assigned human operator
+rep-72: remove export  arc-71: remove export
+          |                  |
+          +--------+---------+
+                   |
+                   v
+Check actual accounts and fresh ISC information
+  Both exports absent; needed reading remains

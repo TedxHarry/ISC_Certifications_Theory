@@ -1,0 +1,30 @@
+Production application requirement
+  Four accounts, eight permission holdings
+                   |
+                   v
+Correct source data and configured source owner
+                   |
+                   v
+Inspect generated work and self-review separation
+                   |
+          +--------+---------+
+          |                  |
+          v                  v
+Source owner reviews   Independent reviewer
+six items for other    reviews two items for
+people's accounts      the owner's account
+          |                  |
+          +--------+---------+
+                   |
+                   v
+All eight decisions finalized
+  Six approvals; two revokes
+                   |
+                   v
+Follow the two specific account changes
+  app-181: remove export
+  app-182: remove administration
+                   |
+                   v
+Verify target results and retained access
+then check fresh ISC account information

@@ -1,6 +1,10 @@
 # Capability, update and open-question register
 
-Version 6.22. November 13, 2026.
+Version 6.24. November 13, 2026.
+
+[CRT-061](revisions/CRT-061_Revision_Record.md) freshly checks eight primary bodies for dedicated source-owner creation, ordinary-source ownership, own-access separation, individually eligible items, normal sign-off and actual account changes. Actual preview grouping and independent manager R-711 are supplied checked conditions, not universal routing/count promises. All17 capabilities/11 questions remain; no all-type source coverage, terminal fallback, signed editing, private phase clock or all-account capability-loss guarantee is added.
+
+[CRT-060](revisions/CRT-060_Revision_Record.md) freshly checks eight primary bodies for the normal dedicated manager workflow. All review work is signed before deadline; one identity-attribute inclusion condition and inspected preview bound selection. Supported configured writes, a supplied due manual task, actual recipient and target evidence bound delivery.17 capabilities/11 questions remain; no cross-engine phase, unsigned completion, terminal routing or universal package result is invented.
 
 The [current publication](PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md) deploys059, six revisions and reader help. Actual build/served-content checks add publication evidence, not product or tenant evidence.17 capabilities and11 open questions remain unchanged.
 Source leads: [official source map](../AUTHOR_SOURCE_MAP.md).

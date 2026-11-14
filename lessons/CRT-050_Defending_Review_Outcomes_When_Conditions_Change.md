@@ -261,7 +261,10 @@ The supported review presents the separately requested Stock Adjustment profile.
 
 In the supplied completed result, Adjust Stock is absent. Read Stock remains, and the Warehouse Reader role still requires it on this same account.
 
-Has removal failed because one permission from the profile remains?
+Has removal failed because one permission from the profile remains? Explain how the account result and the remaining role assignment support your answer.
+
+<details class="practice-answer" markdown="block">
+<summary>Compare your reasoning</summary>
 
 No. The required result was to end stock adjustment while preserving legitimate reading. The observed account matches that requirement.
 
@@ -269,17 +272,24 @@ The access model explains the retained permission: revoking the separate profile
 
 This case uses a role and a separate requested profile. It does not establish how every possible overlap between independent profiles will behave.
 
+</details>
+
 ### Now change the requirement
 
 The business then confirms that the person has left warehouse duties and should have no Warehouse access.
 
-Would you repeat the same profile revocation and expect Read Stock to disappear?
-
-The profile is already revoked. The remaining reading comes through Warehouse Reader.
+The requested profile is already revoked, but Warehouse Reader is still assigned automatically and still requires Read Stock on wh-301.
 
 The automatically assigned role can be **acknowledged** in a certification. Acknowledge records review of that rule-driven assignment; it does not manually revoke the assignment or switch off the rule.
 
-The new requirement therefore needs investigation of the role's governing membership and the person's current employment information.
+Would repeating the profile revocation or choosing Acknowledge meet this new requirement? Explain what the responsible owners should investigate, and what evidence would let you say Warehouse access has ended.
+
+<details class="practice-answer" markdown="block">
+<summary>Compare your reasoning</summary>
+
+Neither action establishes that the remaining reading access has ended. The profile is already gone; the automatic role is the remaining reason Read Stock is required.
+
+Check why ISC is still assigning Warehouse Reader. Compare the person's current employment values with the role's membership criteria, the conditions that caused ISC to assign it.
 
 The responsible owners must establish why the person still matches. If employment data is wrong, correct it truthfully. If the role criteria no longer express the approved business rule, assess and authorize the criteria change, including its effect on other members.
 
@@ -287,6 +297,10 @@ Don't alter accurate employee data simply to force a desired membership result.
 
 Follow the supported change through actual role assignment and account outcomes. Until those results are established, hand over the new no-access requirement as open.
 
+The evidence needs to show that the person no longer has the Warehouse Reader assignment and that wh-301 no longer has Read Stock or Adjust Stock. Removing the role assignment on screen alone would not prove the application account changed. If the investigation finds another source of Warehouse access, account for that too.
+
 The first completed review proved that adjustment ability ended while reading remained justified. It did not prove the later, broader requirement.
 
 When you explain the outcome, name which requirement you are answering, show the evidence that answers it, and identify who owns anything still unproved.
+
+</details>

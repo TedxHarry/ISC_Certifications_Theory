@@ -1,6 +1,6 @@
 # ISC Certifications teaching specification
 
-Version 1.3. Updated November 13, 2026.
+Version 1.4. Updated November 13, 2026.
 Applies to every learner lesson, reference aid and later revision in this course.
 
 ## Audience and result
@@ -115,6 +115,8 @@ Use questions where they test understanding: explain a result, predict a changed
 Supply enough facts to reason. A question with insufficient evidence can legitimately ask the learner to identify what is missing; it cannot demand a fabricated definite result.
 
 Worked answers explain why. Identify the correct record and the evidence that supports the conclusion. Avoid answer-only lists and questions that merely repeat a preceding definition.
+
+For a practice case, state the facts and the decision to attempt before revealing its worked answer. A closed Compare your reasoning disclosure can separate them in the reader. Keep the needed term meanings and product conditions available before the question; a later case must not depend on opening an earlier answer. Do not hide the normal taught explanation, impose a fixed exercise count or make a score a condition of reading further.
 
 Each complete learning unit needs an opportunity to demonstrate its reasoning and transfer it to a changed or unfamiliar case. Use a format appropriate to the topic; there is no fixed number of exercises or mandatory quiz section.
 

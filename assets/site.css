@@ -36,7 +36,7 @@ a:active { color: var(--ink); }
 .nav-module > summary::marker { color: var(--accent); }
 .site-shell:has(> .course-sidebar > .course-navigation:not([open])) { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
 .course-sidebar:has(> .course-navigation:not([open])) { position: static; width: 100%; max-width: 53rem; justify-self: center; }
-.course-navigation:not([open]) > summary { width: fit-content; min-width: 9rem; }
+.course-navigation:not([open]) > summary { width: fit-content; min-width: min(9rem, 100%); }
 .site-shell:has(> .course-sidebar > .course-navigation:not([open])) > main { width: 100%; margin-inline: auto; }
 .lesson-nav { list-style: none; padding: 0; margin: 0; }
 .lesson-nav li { margin: .15rem 0; }
@@ -141,6 +141,28 @@ h1 { font-size: clamp(2rem, 3.6vw, 3.4rem); letter-spacing: -.035em; margin: .15
 .course-library > summary span { color: var(--muted); font-size: 1rem; font-weight: 400; }
 .course-library > summary:hover { color: var(--accent); }
 .course-library > p { color: var(--muted); }
+
+.work-guide { margin-block: 2rem; padding-block: .4rem; border-block: 1px solid var(--rule); }
+.work-guide > summary { font-size: 1.25rem; font-weight: 600; }
+.work-guide summary { cursor: pointer; min-height: 2.75rem; padding: .65rem .25rem; }
+.work-guide summary::marker { color: var(--accent); }
+.work-guide summary:hover { color: var(--accent); }
+.work-guide summary:active { background: var(--surface); }
+.work-guide > p { margin: .4rem .25rem 1rem; color: var(--muted); }
+.work-group { margin-block: .3rem; border-top: 1px solid var(--rule); }
+.work-group > summary { font-weight: 600; }
+.work-tasks { list-style: none; margin: .25rem 0 1rem; padding: 0 .25rem; }
+.work-tasks > li { padding-block: .75rem; border-top: 1px solid var(--rule); }
+.work-tasks a { display: block; min-height: 2.75rem; padding-block: .4rem; font-weight: 600; }
+.work-kind { color: var(--muted); font-size: .8rem; }
+.work-tasks p { margin: .2rem 0 0; color: var(--muted); font-size: .95rem; }
+
+.practice-answer { margin: 1.2rem 0 2rem; padding: .5rem 1rem; border: 1px solid var(--rule); }
+.practice-answer > summary { cursor: pointer; min-height: 2.75rem; padding-block: .6rem; color: var(--accent); font: 600 1rem/1.5 "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+.practice-answer > :last-child:not(summary) { margin-bottom: .5rem; }
+@media print {
+  .practice-answer::details-content { content-visibility: visible; }
+}
 
 .term-help {
   appearance: none; display: inline; padding: 0; margin: 0;

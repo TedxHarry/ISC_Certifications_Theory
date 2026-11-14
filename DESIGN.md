@@ -20,6 +20,16 @@ The document owns vertical reading scroll. The desktop module list has a bounded
 
 Keep visible focus, operable scrollbars, reduced-motion/forced-colour support, stable scrollbar spacing and print-friendly content. No dashboard, user data entry or destructive actions are introduced.
 
+## Common-work entry
+
+The homepage places a collapsed Common certification work finder after the introduction and before the main route. Four native details groups offer nineteen tasks leading to eighteen existing lessons. Keep practice visibly labelled, allow multiple groups open and preserve the primary Start link. No extra study route, JavaScript or dependency is required. _data/common_work.json owns task text/order and lesson IDs; _data/course.yml owns the resolved URLs. Omit the finder if its data is absent. Tests reject missing or unwritten destinations.
+
+The finder uses existing palette, type and focus styles. Keep narrow-screen document width within the viewport, including enlarged text. The closed Show lessons control uses a container-bounded minimum width so it can wrap on a320px screen at200% text. Saved-template browser checks are separate from an actual Jekyll/Pages build.
+
+## Practice answers
+
+Practice cases may separate supplied facts and questions from worked reasoning with an initially closed native details/summary control. The label Compare your reasoning opens the explanation without navigation or JavaScript. Required facts and supporting meanings stay outside the answer. Use this only where the learner has a useful decision to attempt; do not hide the normal explanation or impose a disclosure count. Explicit markdown=block supports block content in the course's Kramdown renderer. Existing focus and palette rules apply; print styling exposes the answer content in supporting browsers.
+
 ## Content and publication contract
 
 Keep learner Markdown unchanged by site setup. Jekyll optional front matter renders it with the lesson layout. _data/course.yml lists only lessons included in that publication. Unwritten planning topics have no links or placeholder pages.

@@ -9,7 +9,7 @@ const config = parse(await read("_config.yml"));
 const live = process.argv.includes("--live");
 const base = config.url + config.baseurl;
 const normalize = s => s.normalize("NFKC").replace(/[‘’]/g,"'").replace(/[“”]/g,'"').replace(/[–—]/g,"-").replace(/\s+/g," ").trim();
-const inline = s => normalize(s.replace(/\*\*|\x60/g,"").replace(/\*([^*\n]+)\*/g,"$1"));
+const inline = s => normalize(s.replace(/<\/?(?:details|summary)\b[^>]*>/g,"").replace(/\*\*|\x60/g,"").replace(/\*([^*\n]+)\*/g,"$1"));
 const assetNames = (await readdir(new URL("assets/",root))).filter(n=>n.endsWith(".txt"));
 const assets = await Promise.all(assetNames.map(async n=>[n,(await read("assets/"+n)).trimEnd()]));
 const fetched = new Map();
@@ -36,7 +36,10 @@ for(const lesson of course.lessons) {
   for(let line of paragraph.split("\n")) {
    if(/^\|[-|: ]+\|$/.test(line)) {tables++;continue;}
    if(line.startsWith("|"))expected.push(...line.slice(1,-1).split("|").map(x=>inline(x)).filter(Boolean));
-   else expected.push(inline(line.replace(/^#{1,6} /,"").replace(/^\s*(?:[-+*]|\d+[.)])\s+/,"")));
+   else {
+    const unit=inline(line.replace(/^#{1,6} /,"").replace(/^\s*(?:[-+*]|\d+[.)])\s+/,""));
+    if(unit)expected.push(unit);
+   }
   }
  }
  units+=expected.length;
@@ -47,6 +50,14 @@ for(const lesson of course.lessons) {
   assert.ok(article,lesson.id+" learner article");
   const text=normalize(article.textContent);
   for(const unit of expected)assert.ok(text.includes(unit),lesson.id+" missing: "+unit.slice(0,90));
+  const expectedAnswers=[...md.matchAll(/<details class="practice-answer"[^>]*>\s*<summary>([\s\S]*?)<\/summary>/g)].map(match=>inline(match[1]));
+  const answers=[...article.querySelectorAll("details.practice-answer")];
+  assert.equal(answers.length,expectedAnswers.length,lesson.id+" practice answers");
+  for(const [index,answer]of answers.entries()) {
+   assert.equal(answer.hasAttribute("open"),false,lesson.id+" practice answer starts open");
+   assert.equal(answer.firstElementChild?.localName,"summary",lesson.id+" practice answer control");
+   assert.equal(normalize(answer.firstElementChild.textContent),expectedAnswers[index],lesson.id+" practice answer label");
+  }
   assert.deepEqual([...article.querySelectorAll("pre code")].map(n=>n.textContent.trimEnd()),blocks);
   assert.equal(article.querySelectorAll("table").length,(prose.match(/^\|[-|: ]+\|$/gm)||[]).length);
   assert.equal(doc.querySelector('a[aria-current="page"]')?.getAttribute("href"),config.baseurl+lesson.url);

@@ -1,0 +1,25 @@
+{% if site.data.common_work.groups.size > 0 %}
+<details class="work-guide" id="common-work">
+  <summary>Common certification work</summary>
+  <p>Choose the work you need to do.</p>
+  <nav aria-label="Find lessons by certification task">
+    {% for group in site.data.common_work.groups %}
+    <details class="work-group">
+      <summary id="work-{{ group.id }}">{{ group.title | escape }}</summary>
+      <ul class="work-tasks">
+        {% for task in group.tasks %}
+        {% assign target_lesson = site.data.course.lessons | where: "id", task.lesson | first %}
+        {% if target_lesson %}
+        <li>
+          <a href="{{ target_lesson.url | relative_url }}">{{ task.label | escape }}</a>
+          <span class="work-kind">{{ task.format | escape }}</span>
+          <p>{{ task.description | escape }}</p>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </details>
+    {% endfor %}
+  </nav>
+</details>
+{% endif %}

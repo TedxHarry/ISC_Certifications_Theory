@@ -1,6 +1,12 @@
 # Coverage ownership register
 
-Version 3.60. November 13, 2026.
+Version 3.63. November 13, 2026.
+
+The local [practice review](PRACTICE_CASE_REVIEW_2026-11-13.md) revises018/049/050 to1.1 without new coverage rows. Existing COV-12 combined-object reasoning, COV-32 project/current-population acceptance and COV-31 troubleshooting/evidence are attempted before worked answers. All32 primary ownership rows and61 learner IDs remain. Supporting terms/facts precede questions, including the changed role-origin and no-access cases. This is author evidence; independent learner validation remains pending.
+
+[CRT-061](../lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md) applies existing application/source, account, owner, independent-review and outcome concepts in a normal working sequence. Its [record](revisions/CRT-061_Revision_Record.md) maps saved sections and distinct ownership.32 rows and existing primary locations remain. Local61/30/28/3; published59/30/26/3 remains; actual learner validation pending.
+
+[CRT-060](../lessons/CRT-060_Running_a_Periodic_Manager_Certification_from_Preparation_to_Closure.md) applies existing commitments through a normal manager-review work sequence. Its [record](revisions/CRT-060_Revision_Record.md) maps the saved sections and overlap boundaries.32 rows remain; existing primary ownership is unchanged. Local60/30/27/3; published59/30/26/3 remains. This pilot is optional task reference, not an exhaustive or learner-tested operational route.
 Companions: [course design](../COURSE_DESIGN.md), [routine task map](../OPERATIONAL_TASK_COVERAGE.md), [teaching specification](../TEACHING_SPECIFICATION.md).
 
 All32 concept rows have authored core teaching locations reconciled against the complete fresh author audit001–050. [Whole-core synthesis](CORE_AUDIT_SUMMARY.md) groups the concepts and records the evidence. Every mapped primary location is authored and freshly reread, including the published0051.2 manual-correlation repair. Specific unresolved product claims remain bounded in the capability register; independent learner assessment and specialist depth are pending. Earlier per-lesson evidence below retains its historical authoring stage.

@@ -1,26 +1,26 @@
 # ISC Certifications course register
 
-Version 8.17. Updated November 13, 2026.
+Version 8.22. Updated November 13, 2026.
 [Course design](COURSE_DESIGN.md) and [teaching standard](TEACHING_SPECIFICATION.md).
 
 ## Current position
 
-Fifty-nine topics are authored, published and live-verified in30 main/26 reference/3 practice. The [publication record](author/PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md) records content87a4dd1, successful actual Pages deployment, complete served-content/route checks and109 curated term meanings.32 concept rows,24 task families,214 author meanings,17 capabilities and11 open questions remain. Actual learner/tenant validation is pending.
+Sixty-one topics are authored locally. [CRT-061](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md) completes the application/source-owner common-work unit after overlap assessment and eight scoped primary checks. Local30/28/3; published59/30/26/3 is unchanged.32 coverage rows,24 task families,214 author meanings,109 helper meanings,17 capabilities and11 questions remain. Actual learner/tenant validation is pending.
 
 | Item | Actual state |
 |---|---|
-| Authored teaching topics | 59 authored, published and live-verified in30 main/26 reference/3 practice |
+| Authored teaching topics | 61 local in30 main/28 reference/3 practice;59 published/live-verified in30/26/3 |
 | Current grouping | Fifteen subject groups, nine with main-route lessons; no fixed module/lesson count |
 | Specialist depth | Nine focused references across X-01–05; combined overlap/clarity author review complete. No exhaustive specialist or production-readiness claim |
 | Routine work | 24 mapped task families; core theory locations author-audited; independent task performance remains unobserved |
-| Learner lessons written | 59 topics.009/0271.2,045/052/053/0581.1 and0591.0 published/live-verified; earlier revisions preserved |
-| Learner lessons author-reviewed | Full051–059 read-through and selected core comparisons; modified009/027/045 read in full. Revised passages and existing examples/diagrams checked; actual learner assessment pending |
+| Learner lessons written | 61 topics;060/0611.0 and018/049/0501.1 complete locally. Revisions do not add topics |
+| Learner lessons author-reviewed | All three existing practice bodies fully reread; saved questions/answers reconciled against supplied facts. Prior061 and historical evidence retained; actual learner validation pending |
 | Reader feedback / learner assessment | User reported CRT-004 1.1 better on November 2 after difficulty with 1.0; independent uncoached assessment remains pending |
-| Reference aids authored | Twenty-six task references,59 synchronized teaching diagrams and109 curated reader-help meanings published |
-| Latest authored learner | [CRT-059](lessons/CRT-059_Reconciling_Review_Items_Across_an_Entire_Campaign.md); published1.0 and live-verified |
-| Current revision | Published0591.0, six clarity revisions,109-meaning reader help and large-text header correction |
-| Next task | No new lesson queued by quota. Maintain verified teaching as needed; later hands-on work is separate |
-| Current author evidence | [Publication record](author/PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md), reader readiness, combined audit and059 record. Actual Pages build observed; learner/tenant validation pending |
+| Reference aids authored | Twenty-eight task references and61 synchronized diagrams locally; published26/59.109 helper meanings unchanged |
+| Latest authored learner | [CRT-061](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md); complete local revision1.0, not published |
+| Current revision | Practice018/049/0501.1 separate final questions from worked answers. The other58 learners, all61 assets, manifest/route order and term data remain exact |
+| Next task | Local readiness complete. On a requested publication, push the prepared package and observe the actual Pages build/served content; no new learner queued or automatic push |
+| Current author evidence | [Local publication readiness](author/LOCAL_PUBLICATION_READINESS_2026-11-13.md):18 tests,61 saved-template learners/6819 nonempty text units/3898 link visits; earlier practice/guide/060/061 evidence preserved. Actual Jekyll/Pages build and learner/tenant validation remain separate |
 | Feature currency | 17 capabilities/11 unresolved questions; selected source checks recorded per batch. Full reading is not exhaustive update coverage, tenant validation or a universal outcome for the bounded product questions |
 | Git repository and remote | Initialized on main; origin is TedxHarry/ISC_Certifications_Theory |
 | GitHub / publication | [Current publication](author/PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md): content87a4dd1; successful Pages run43482061664;59 lessons/6575 units/59 diagrams/assets/61 tables/3652 internal link visits. All59 served routes checked |
@@ -30,7 +30,7 @@ Fifty-nine topics are authored, published and live-verified in30 main/26 referen
 
 Read the [authoring guide](author/AUTHORING_GUIDE.md), then relevant [coverage](author/COVERAGE_REGISTER.md), [terms](author/TERMINOLOGY_REGISTER.md), [capabilities and open questions](author/CAPABILITY_AND_UPDATE_REGISTER.md) and [source leads](AUTHOR_SOURCE_MAP.md).
 
-The59-topic edition is published and live-verified in30 main/26 task reference/3 practice, with109 curated hold-to-read meanings. No new lesson is queued merely to meet a count. Maintain verified content when a demonstrated teaching gap or supported product change requires it; the later hands-on course remains separate. Actual learner/tenant validation and the11 scoped product questions remain open.
+The local publication-readiness check is complete. The package contains060/061, the common-work finder and018/049/050 revision1.1, with61 lessons in30 main/28 reference/3 practice. All18 automated tests and the full local saved-template content/link check pass. The publication verifier now retains answer text without expecting HTML wrappers. Published59/30/26/3 is unchanged. Ready for a requested publication, followed by actual Pages build/served-content checks; no new learner is scheduled and ordinary continuation does not push. Actual independent learner validation remains pending.
 
 ## Completed explanation revision pass
 
@@ -79,7 +79,7 @@ These states are independent facts. A source check does not imply learner valida
 | CRT-015 | Which campaign design answers this business question? | Complete revision1.1 | Specialist-detail cuts recorded | Pending; not observed | Published revision1.1 |
 | CRT-016 | What does this search actually select for the campaign? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-017 | How do campaign filters include or exclude review content? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
-| CRT-018 | What happens when selection rules and filters are combined? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
+| CRT-018 | What happens when selection rules and filters are combined? | Complete local revision1.1 | [Changed-case review](author/revisions/CRT-018_Revision_1_1_Record.md); supporting facts and separate worked answers | Pending; not observed | Published revision1.0;1.1 local |
 | CRT-019 | What was captured when this review was generated? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-020 | A template, a schedule and a running campaign are different things | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
 | CRT-021 | What must be checked before the campaign reaches reviewers? | Complete revision 1.0 | Source/coverage and saved author language/flow review complete | Pending; not observed | Published revision 1.0 |
@@ -110,8 +110,8 @@ These states are independent facts. A source check does not imply learner valida
 | CRT-046 | The review says Revoke, but access still works. How do we investigate? | Complete revision1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published revision1.0; live-verified |
 | CRT-047 | What do we need to discover before designing the campaign? | Complete revision1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published revision1.0; live-verified |
 | CRT-048 | How do we build a campaign readiness and acceptance plan? | Complete revision1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published revision1.0; live-verified |
-| CRT-049 | Design and explain a complete periodic access review | Complete revision1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published revision1.0; live-verified |
-| CRT-050 | Can you defend the outcome when conditions change? | Complete revision1.0 | Source/coverage and full saved author language/flow review complete | Pending; not observed | Published revision1.0; live-verified |
+| CRT-049 | Design and explain a complete periodic access review | Complete local revision1.1 | [New-cycle practice review](author/revisions/CRT-049_Revision_1_1_Record.md); account/population/evidence reasoning | Pending; not observed | Published revision1.0;1.1 local |
+| CRT-050 | Can you defend the outcome when conditions change? | Complete local revision1.1 | [Changed-requirement review](author/revisions/CRT-050_Revision_1_1_Record.md); retained access and open evidence | Pending; not observed | Published revision1.0;1.1 local |
 | CRT-051 | How does a role-composition decision become a corrected role? | Complete revision1.0; X-01 task reference | Five scoped primary bodies; full saved author read-through and recorded corrections | Pending; not observed | Published revision1.0; live-verified |
 | CRT-052 | How do you carry out an uncorrelated-account access review? | Complete revision1.1 | [Combined audit](author/SPECIALIST_CORE_CLARITY_AND_OVERLAP_REVIEW_2026-11-13.md); exact correction and saved reread recorded | Pending; not observed | Published revision1.1; live-verified |
 | CRT-053 | How do you carry out a machine-account access review? | Complete revision1.1 | [Combined audit](author/SPECIALIST_CORE_CLARITY_AND_OVERLAP_REVIEW_2026-11-13.md); exact correction and saved reread recorded | Pending; not observed | Published revision1.1; live-verified |
@@ -121,6 +121,8 @@ These states are independent facts. A source check does not imply learner valida
 | CRT-057 | How do you use sensitive-data details in an access review? | Complete revision1.0; X-04 task reference | Four scoped teaching bodies; saved read-through and classification/need checks | Pending; not observed | Published revision1.0; live-verified |
 | CRT-058 | How do you check all review items across API pages? | Complete revision1.1 | [Combined audit](author/SPECIALIST_CORE_CLARITY_AND_OVERLAP_REVIEW_2026-11-13.md); exact correction and saved reread recorded | Pending; not observed | Published revision1.1; live-verified |
 | CRT-059 | How do you reconcile review items across an entire campaign? | Complete revision1.0 | Four scoped teaching bodies; saved read-through and complete parent/item reconciliation | Pending; not observed | Published revision1.0; live-verified |
+| CRT-060 | Run a periodic manager certification from preparation to closure | Complete local revision1.0; common-work task reference | Eight scoped sources, full saved author read-through and connected normal-flow/transfer checks | Pending; not observed | Local only; not published |
+| CRT-061 | Run an application access review with a source owner | Complete local revision1.0; common-work task reference | Eight scoped sources; full saved reading and scope/self-review/outcome reconciliation | Pending; not observed | Local only; not published |
 
 The design owns the current module placement and topic descriptions. This table records actual writing/review status. Planning boundaries may change without silently dropping coverage. Once authored, preserve permanent learner IDs and filenames.
 
@@ -255,4 +257,4 @@ The design owns the current module placement and topic descriptions. This table 
 
 ## Next action
 
-The59-topic edition is published and live-verified in30 main/26 task reference/3 practice, with109 curated hold-to-read meanings. No new lesson is queued merely to meet a count. Maintain verified content when a demonstrated teaching gap or supported product change requires it; the later hands-on course remains separate. Actual learner/tenant validation and the11 scoped product questions remain open.
+The two common-work walkthroughs are complete locally:060 manager review and061 source-owner application review. Local61 topics/30 main/28 task reference/3 practice; published59/30/26/3 is unchanged. Next map remaining work requests onto these and existing049/051–059 before adding another learner. Prefer a useful reading guide or a demonstrated teaching gap; no automatic062 or publication.

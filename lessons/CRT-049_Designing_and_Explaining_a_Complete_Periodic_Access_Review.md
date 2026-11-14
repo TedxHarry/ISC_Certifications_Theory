@@ -4,8 +4,6 @@ A quarterly review can have finalized decisions while a required removal is stil
 
 Let's follow one quarterly review through those connections.
 
-The examples use supplied records and outcomes. The account and campaign labels identify the records being discussed; they are not values to enter in an ISC tenant.
-
 ## Establish the result before selecting the campaign
 
 The requirement is:
@@ -284,11 +282,24 @@ The two rejected export permissions remain removed. No new grant restores them.
 
 Before the next quarter's generation, the person behind rep-1001 receives a second account, **rep-admin-1005**, with Export Reports.
 
-The application inventory now contains five accounts belonging to the same four identities. Only three accounts hold the export permissions: rep-1001, rep-admin-1004 and the new rep-admin-1005.
+The new account belongs to the same identity as rep-1001. No other account, owner or permission has changed since the completed review.
 
-Those three export accounts belong to two identities, because rep-1001 and rep-admin-1005 share an owner.
+The latest collected ISC data still contains only the original four accounts. It correctly shows the two earlier export removals, but does not yet contain rep-admin-1005.
 
-The latest collected ISC data still contains only the original four accounts, including the two whose export was removed. It does not yet contain rep-admin-1005.
+1. List the accounts and export permissions that need review, including each source name. How many different identities own those accounts?
+2. What must be corrected in ISC's collected data, and what would you check in the new preview to establish coverage?
+3. Does discovering this new account mean C-910 was wrong to close? Explain what the earlier review proved and what the new cycle must check.
+
+<details class="practice-answer" markdown="block">
+<summary>Compare your reasoning</summary>
+
+The current export set has three accounts:
+
+- Reporting Production, rep-1001, Export Reports.
+- Reporting Production, rep-admin-1004, Export Reports.
+- Reporting Production, rep-admin-1005, Export Reports.
+
+They belong to two identities. The ordinary rep-1001 and the new privileged rep-admin-1005 have the same owner; rep-admin-1004 has a different owner. The full inventory has five accounts belonging to the original four identities, but the two accounts whose export was removed are not current export holders.
 
 Reusing T-910 or counting familiar identity records does not establish coverage of the new account.
 
@@ -302,3 +313,4 @@ The earlier C-910 closure remains evidence about its original scope and observat
 
 Carry forward validated instructions and lessons learned. Reestablish the current inputs and results that those instructions depend on.
 
+</details>

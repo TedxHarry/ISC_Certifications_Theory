@@ -509,3 +509,19 @@ lessons:
     description: "Collect the campaign's complete certification set and each review's items, then reconcile exact account/access relationships within verified caller and time scope."
     source: "lessons/CRT-059_Reconciling_Review_Items_Across_an_Entire_Campaign.md"
     url: "/lessons/CRT-059_Reconciling_Review_Items_Across_an_Entire_Campaign.html"
+  - id: CRT-060
+    route: reference
+    module: project-reasoning
+    placement: "Task reference · Common certification work"
+    title: "Run a periodic manager certification from preparation to closure"
+    description: "Prepare and run a manager review, support reasoned decisions, follow automated and manual removals, and verify the result before closure."
+    source: "lessons/CRT-060_Running_a_Periodic_Manager_Certification_from_Preparation_to_Closure.md"
+    url: "/lessons/CRT-060_Running_a_Periodic_Manager_Certification_from_Preparation_to_Closure.html"
+  - id: CRT-061
+    route: reference
+    module: project-reasoning
+    placement: "Task reference · Common certification work"
+    title: "Run an application access review with a source owner"
+    description: "Review the intended application's accounts, separate the owner's own access, justify decisions and verify each required account change."
+    source: "lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md"
+    url: "/lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.html"

@@ -1,6 +1,12 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 9.15. Updated November 13, 2026; dated checks distinguish each stage.
+Authoring source reference 9.18. Updated November 13, 2026; dated checks distinguish each stage.
+
+The local [practice review](author/PRACTICE_CASE_REVIEW_2026-11-13.md) records affected-passage checks against six SailPoint primary references and Kramdown syntax.018/049/0501.1 preserve product boundaries while separating final facts/questions from answers. Collection/actual preview, profile/role containment, automatic membership and acknowledgment are scoped in the new revision records. Existing unresolved questions,17 capabilities,214 author meanings and109 helper meanings remain. No tenant, participant, actual Jekyll or publication result is inferred.
+
+Local [CRT-061](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md), [brief](author/COMMON_CERTIFICATION_WORK_SOURCE_OWNER_BRIEF.md) and [record](author/revisions/CRT-061_Revision_Record.md) map eight primary bodies to the production/source boundary, owner configuration, actual independent assignments, supported writes and result verification. Source selection does not establish all-account-category coverage. Local61/30/28/3; published59/30/26/3 remains. No new capability, tenant result or exhaustive update claim.
+
+Local [CRT-060](lessons/CRT-060_Running_a_Periodic_Manager_Certification_from_Preparation_to_Closure.md), [brief](author/COMMON_CERTIFICATION_WORK_MANAGER_PILOT_BRIEF.md) and [record](author/revisions/CRT-060_Revision_Record.md) map eight primary bodies to dedicated manager preparation, identity-based filtering, preview/start, decisions, normal all-signed completion and verified automatic/manual delivery. No universal phase clock, recipient, unsigned completion or package outcome is inferred. Local60/30/27/3; published59/30/26/3 remains.
 Purpose: evidence planning for the theory course and its authoring foundation, not verification of unwritten lessons.
 
 The [combined specialist/core review](author/SPECIALIST_CORE_CLARITY_AND_OVERLAP_REVIEW_2026-11-13.md) rechecks Search campaign start, authoritative/placeholder identity distinctions and the identity-campaign review-item API's authorized callers against primary documentation. Six local revisions correct wording or a missing transition; no availability conflict or open question is declared resolved. Historical source records below retain their original scope.
