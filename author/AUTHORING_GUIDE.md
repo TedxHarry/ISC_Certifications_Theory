@@ -1,10 +1,10 @@
 # Authoring guide and lesson briefs
 
-Version 8.21. November 13, 2026.
+Version 8.22. November 14, 2026.
 Authority: [teaching specification](../TEACHING_SPECIFICATION.md).
 Progress: [course register](../COURSE_REGISTER.md).
 
-Current priority: [local publication readiness](LOCAL_PUBLICATION_READINESS_2026-11-13.md) is complete for060/061, the finder and practice revisions. Preserve the61-topic30/28/3 package; no new learner is queued. On a requested publication, observe the actual Pages build and served content, using the repaired verifier that retains answer labels/prose and ignores wrapper-only/empty units. Published59/30/26/3 remains; no automatic push. Actual learner validation remains pending.
+Current priority: [publication](PUBLICATION_2026-11-14_COMMON_WORK_AND_PRACTICE.md) is complete for060/061, the finder and practice revisions. Preserve the61-topic30/28/3 package and its actual Pages/public evidence. No new learner is queued. Choose later work from a concrete learner question, demonstrated teaching gap or scoped product change. Actual learner validation remains pending.
 
 ## Resume without losing the task
 
@@ -1413,7 +1413,7 @@ Do not mark specialist routes authored or invent051. After whole-core synthesis,
 
 [Batch09](CORE_AUDIT_09_Periodic_Review_and_Changed_Conditions.md) reads049/050 completely without truncation and records seventeen scoped primary bodies. No new learner correction. [Synthesis](CORE_AUDIT_SUMMARY.md) completes all50 fresh author rereads, reconciles32 concept rows/24 task families/200 meanings and retains17 capabilities/11 questions. The single demonstrated fresh-audit correction is published0051.2. Earlier records remain historical; no learner or reader change in this final batch.
 
-The local publication-readiness check is complete. The package contains060/061, the common-work finder and018/049/050 revision1.1, with61 lessons in30 main/28 reference/3 practice. All18 automated tests and the full local saved-template content/link check pass. The publication verifier now retains answer text without expecting HTML wrappers. Published59/30/26/3 is unchanged. Ready for a requested publication, followed by actual Pages build/served-content checks; no new learner is scheduled and ordinary continuation does not push. Actual independent learner validation remains pending.
+The prepared package is published:61 lessons in30 main/28 reference/3 practice, including060/061, the common-work finder and018/049/050 revision1.1. Actual Pages build43591532207 and public verification pass61 lessons/6819 nonempty text units/61 diagrams/assets/63 tables/3898 internal link visits. All18 automated tests pass. No new learner is queued; use a concrete learner question, demonstrated gap or scoped product change to select later work. Actual independent learner validation remains pending.
 
 ## Executed local checks
 

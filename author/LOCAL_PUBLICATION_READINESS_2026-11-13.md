@@ -63,4 +63,3 @@ Final structural and preservation reconciliation passes281 source files,196 Mark
 All61 learners, all61 teaching assets, the complete134-file reader-source package, manifest/route order, term data, previous tests and historical evidence remain exact. The course stays61/30/28/3 locally and59/30/26/3 published. The regression checks clean up their isolated fixtures and the temporary full-course preview/structural helpers are removed. git diff --check passes and no staged change is introduced.
 
 The local package is prepared for a requested publication. No new learner is scheduled and no ordinary continuation publishes. Independent learner feedback can guide a later focused revision; it is not an invented blocker or an automatic reason to add more lessons.
-

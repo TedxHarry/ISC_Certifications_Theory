@@ -29,4 +29,3 @@ All normal main-case text remains apart from the removed opening meta paragraph.
 Read the original304-line body completely. Reconcile the original four-account outcomes with the new facts, then reread the final questions without using the answer. Each count can be derived from the supplied inventory, previous finalized outcomes and single added account.
 
 The answer retains the previous missing-data correction, actual-preview checks and scoped historical-closure distinction. Shared local browser/content/structural checks pass and are recorded in the practice-review record:17 automated checks, all61 content packages and the three learners' native answer controls. No actual learner or tenant assessment and no publication are claimed.
-

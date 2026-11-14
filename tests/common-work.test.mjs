@@ -94,4 +94,3 @@ test("missing or empty task data leaves the complete lesson lists without an emp
     assert.ok(doc.querySelector(".start-link"));
   }
 });
-

@@ -99,4 +99,3 @@ test("published-content verification requires a closed native answer, its text a
   assert.notEqual(missingLabel.code, 0);
   assert.ok(missingLabel.stderr.includes("missing: " + label), missingLabel.stderr);
 });
-

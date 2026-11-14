@@ -1,6 +1,8 @@
 # Coverage ownership register
 
-Version 3.63. November 13, 2026.
+Version 3.64. November 14, 2026.
+
+The [publication](PUBLICATION_2026-11-14_COMMON_WORK_AND_PRACTICE.md) serves61 learners in30/28/3, including060/061 and018/049/0501.1.32 concept rows and primary ownership stay unchanged; build/content checks are not actual learner validation. Earlier dated notes retain their authoring stages.
 
 The local [practice review](PRACTICE_CASE_REVIEW_2026-11-13.md) revises018/049/050 to1.1 without new coverage rows. Existing COV-12 combined-object reasoning, COV-32 project/current-population acceptance and COV-31 troubleshooting/evidence are attempted before worked answers. All32 primary ownership rows and61 learner IDs remain. Supporting terms/facts precede questions, including the changed role-origin and no-access cases. This is author evidence; independent learner validation remains pending.
 

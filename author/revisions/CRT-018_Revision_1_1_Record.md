@@ -27,4 +27,3 @@ The original main calculation remains five people/eight total holdings; selected
 Read the original306-line body completely. Reread both saved final cases with their answers considered closed, then reconcile the explanations with every supplied identity and grant origin. Each required platform rule is stated before the question; an unfamiliar outcome is not demanded without supporting facts.
 
 The controls use native details/summary with explicit block Markdown parsing. Shared browser/content/structural checks pass as recorded in the practice-review record:17 automated checks, all61 content packages and five native answer controls. Actual learner validation and tenant execution remain unperformed. Earlier author records are preserved.
-

@@ -77,5 +77,3 @@ Against the275-file start-of-task snapshot,262 existing files are byte-identical
 ## Current state and next work
 
 Local61 topics in30 main/28 reference/3 practice; the published59-topic edition and the three practice learners' published1.0 versions are unchanged.060/061, the task finder and these1.1 revisions remain local. Next check the accumulated package for publication readiness. No new learner is queued and no ordinary continuation publishes. Actual independent learner assessment remains pending.
-
-

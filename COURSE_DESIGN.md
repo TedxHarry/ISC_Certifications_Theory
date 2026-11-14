@@ -1,16 +1,16 @@
 # SailPoint ISC Certifications: Understanding Access Reviews from Scope to Verified Outcome
 
-Course design 9.21. November 13, 2026.
+Course design 9.22. November 14, 2026.
 Subject confirmed: ISC access review and certification campaigns.
-Status:61 complete learners locally in30 main/28 reference/3 practice.060 and [061](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md) are complete local common-work references; published59/30/26/3 remains. Earlier content and publication evidence are retained; actual learner validation is pending.
+Status:61 complete learners authored and published in30 main/28 reference/3 practice.060 and [061](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md) are published common-work references in the61-topic30/28/3 reader. Earlier content and publication evidence are retained; actual learner validation is pending.
 
-The local publication-readiness check is complete. The package contains060/061, the common-work finder and018/049/050 revision1.1, with61 lessons in30 main/28 reference/3 practice. All18 automated tests and the full local saved-template content/link check pass. The publication verifier now retains answer text without expecting HTML wrappers. Published59/30/26/3 is unchanged. Ready for a requested publication, followed by actual Pages build/served-content checks; no new learner is scheduled and ordinary continuation does not push. Actual independent learner validation remains pending.
+The prepared package is published:61 lessons in30 main/28 reference/3 practice, including060/061, the common-work finder and018/049/050 revision1.1. Actual Pages build43591532207 and public verification pass61 lessons/6819 nonempty text units/61 diagrams/assets/63 tables/3898 internal link visits. All18 automated tests pass. No new learner is queued; use a concrete learner question, demonstrated gap or scoped product change to select later work. Actual independent learner validation remains pending.
 
-The [local readiness record](author/LOCAL_PUBLICATION_READINESS_2026-11-13.md) reconciles the prepared package without another learner or scope expansion. All61 learner bodies and reader assets are preserved during readiness. The actual Pages build remains a check during requested publication.
+The [local readiness record](author/LOCAL_PUBLICATION_READINESS_2026-11-13.md) reconciles the prepared package without another learner or scope expansion. All61 learner bodies and reader assets are preserved during readiness. The [publication record](author/PUBLICATION_2026-11-14_COMMON_WORK_AND_PRACTICE.md) now records the successful actual build and public checks.
 
 ## Practice with room to reason
 
-The local [practice review](author/PRACTICE_CASE_REVIEW_2026-11-13.md) keeps018/049/050 in the existing practice route and revises only their final changed cases to1.1. Facts and supporting meanings precede each question; a native closed Compare your reasoning answer preserves the explanation without revealing it immediately. The cases test review-object choice, actual account-level coverage, retained legitimate access and changed requirements. No extra lesson, compulsory quiz, score or fixed question/disclosure count is introduced. This is author/browser verification, not observed learner performance.
+The [practice review](author/PRACTICE_CASE_REVIEW_2026-11-13.md) keeps018/049/050 in the existing practice route and revises only their final changed cases to1.1. Facts and supporting meanings precede each question; a native closed Compare your reasoning answer preserves the explanation without revealing it immediately. The cases test review-object choice, actual account-level coverage, retained legitimate access and changed requirements. No extra lesson, compulsory quiz, score or fixed question/disclosure count is introduced. This is author/browser verification, not observed learner performance.
 
 ## Common certification work pilot
 
@@ -18,7 +18,7 @@ The local [practice review](author/PRACTICE_CASE_REVIEW_2026-11-13.md) keeps018/
 
 [CRT-061](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md) adds the normal application/source-owner workflow: correct source/environment, account inventory across users, recorded source owner, independent own-access review and account-specific outcomes. Its [brief](author/COMMON_CERTIFICATION_WORK_SOURCE_OWNER_BRIEF.md) distinguishes it from012 approach teaching and049 targeted practice. Both common-work units remain optional references in the existing project-reasoning group.
 
-The local homepage now offers a collapsed Common certification work finder. Four task groups link19 requests to18 existing explanations, investigations, walkthroughs or clearly labelled practice. The [guide record](author/COMMON_CERTIFICATION_WORK_READING_GUIDE.md) owns the mapping decision and actual local checks. This adds no lesson, compulsory route or claim of measured task frequency.
+The published homepage now offers a collapsed Common certification work finder. Four task groups link19 requests to18 existing explanations, investigations, walkthroughs or clearly labelled practice. The [guide record](author/COMMON_CERTIFICATION_WORK_READING_GUIDE.md) owns the mapping decision and actual local checks. This adds no lesson, compulsory route or claim of measured task frequency.
 
 [Author source and verification map](AUTHOR_SOURCE_MAP.md).
 [Operational task coverage](OPERATIONAL_TASK_COVERAGE.md).

@@ -2,7 +2,7 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
-Sixty-one topics are authored locally in30 main/28 reference/3 practice. [CRT-061](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md) adds a complete source-owner application walkthrough alongside local060. [Its record](author/revisions/CRT-061_Revision_Record.md) maps sources, scope, independent review and verified account outcomes. The published59-topic edition remains30/26/3.214 author meanings/109 helper meanings remain; actual learner/tenant validation is pending.
+Sixty-one topics are authored and published in30 main/28 reference/3 practice. [CRT-061](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md) adds a complete source-owner application walkthrough alongside local060. [Its record](author/revisions/CRT-061_Revision_Record.md) maps sources, scope, independent review and verified account outcomes. The published61-topic edition is30/28/3.214 author meanings/109 helper meanings remain; actual learner/tenant validation is pending.
 
 The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/). The separate general ISC course is unchanged.
 
@@ -20,15 +20,15 @@ The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Cert
 
 ## Current position
 
-Latest learner: [CRT-061, Run an application access review with a source owner](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md), complete local revision1.0; not published. It follows production scope, source ownership, independent owner-access review, current-work decisions and verified account changes.
+Latest learner: [CRT-061, Run an application access review with a source owner](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md), published/live-verified revision1.0. It follows production scope, source ownership, independent owner-access review, current-work decisions and verified account changes.
 
-The [local publication-readiness record](author/LOCAL_PUBLICATION_READINESS_2026-11-13.md) records18 passing tests, all61 saved-template pages and3,898 internal link visits. It also records the answer-wrapper verifier repair and the outstanding actual Jekyll/Pages build check.
+The [publication record](author/PUBLICATION_2026-11-14_COMMON_WORK_AND_PRACTICE.md) confirms successful Pages build43591532207 and actual public verification of all61 lessons and3,898 internal link visits. The earlier [local readiness record](author/LOCAL_PUBLICATION_READINESS_2026-11-13.md) remains the historical pre-push evidence.
 
-The local [practice review](author/PRACTICE_CASE_REVIEW_2026-11-13.md) revises018/049/050 to1.1. Their final cases supply the facts and questions before a closed Compare your reasoning answer. The normal explanations and diagrams remain; published1.0 versions are unchanged.
+The [practice review](author/PRACTICE_CASE_REVIEW_2026-11-13.md) revises018/049/050 to published1.1. Their final cases supply the facts and questions before a closed Compare your reasoning answer. The normal explanations and diagrams remain.
 
-The local publication-readiness check is complete. The package contains060/061, the common-work finder and018/049/050 revision1.1, with61 lessons in30 main/28 reference/3 practice. All18 automated tests and the full local saved-template content/link check pass. The publication verifier now retains answer text without expecting HTML wrappers. Published59/30/26/3 is unchanged. Ready for a requested publication, followed by actual Pages build/served-content checks; no new learner is scheduled and ordinary continuation does not push. Actual independent learner validation remains pending.
+The prepared package is published:61 lessons in30 main/28 reference/3 practice, including060/061, the common-work finder and018/049/050 revision1.1. Actual Pages build43591532207 and public verification pass61 lessons/6819 nonempty text units/61 diagrams/assets/63 tables/3898 internal link visits. All18 automated tests pass. No new learner is queued; use a concrete learner question, demonstrated gap or scoped product change to select later work. Actual independent learner validation remains pending.
 
-The fifty-topic foundation and nine specialist references are published. The combined specialist/core author pass and six focused revisions are complete. Counts follow teaching needs; publication is separate from observed learner competence.
+The fifty-topic foundation, nine specialist references and two common-work walkthroughs are published. The combined specialist/core author pass and six focused revisions are complete. Counts follow teaching needs; publication is separate from observed learner competence.
 
 The user reported that CRT-004 revision 1.1 was better after difficulty reading 1.0. Independent uncoached assessment remains pending. Source checks and author review do not establish learner mastery, tenant execution or exhaustive release currency.
 
@@ -37,18 +37,18 @@ The user reported that CRT-004 revision 1.1 was better after difficulty reading 
 - lessons/: complete learner Markdown files, one topic at a time.
 - assets/: editable teaching diagrams, paired with their learner explanations.
 - author/revisions/: historical per-lesson coverage, sources, assumptions and actual checks.
-- _data/course.yml:61 complete local topics in30/28/3; the published59-topic edition remains30/26/3. Nine groups contain main-route lessons.
-- _data/common_work.json and _includes/common-work.html: the local homepage task finder; task links resolve by permanent lesson ID.
+- _data/course.yml:61 authored and published topics in30/28/3. Nine groups contain main-route lessons.
+- _data/common_work.json and _includes/common-work.html: the published homepage task finder; task links resolve by permanent lesson ID.
 
-Run npm ci, npm test and node author/verify-site.mjs for local checks. The61-entry local manifest includes unpublished060/061; publish them before using --live against this manifest. The recorded public verification applies to the59-topic edition.
+Run npm ci, npm test and node author/verify-site.mjs for local checks. The61-entry manifest matches the publication; node author/verify-site.mjs --live passed against all61 served learners.
 
-The local homepage adds a collapsed Common certification work finder with four task groups. Its [design and verification record](author/COMMON_CERTIFICATION_WORK_READING_GUIDE.md) maps the existing destinations without adding study requirements.
+The published homepage adds a collapsed Common certification work finder with four task groups. Its [design and verification record](author/COMMON_CERTIFICATION_WORK_READING_GUIDE.md) maps the existing destinations without adding study requirements.
 
 The reader keeps its collapsible panel and groups. Hold a marked term with the primary mouse button or a finger to see its meaning; release to close it. Keyboard users hold Space or Enter. Hover alone does not open help. Essential explanations remain in the lessons. Author/control documents are excluded from Pages.
 
 ## Publication
 
-The [latest publication record](author/PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md) records content87a4dd1, successful Pages run43482061664,59 lessons/6,575 units/59 diagrams/assets/61 tables/3,652 internal link visits and all59 served routes. Earlier publication records remain historical.
+The [latest publication record](author/PUBLICATION_2026-11-14_COMMON_WORK_AND_PRACTICE.md) records contentd90be91, successful Pages run43591532207,61 lessons/6,819 nonempty units/61 diagrams/assets/63 tables/3,898 internal link visits and actual public guide/answer controls. Earlier publication records remain historical.
 
 Earlier local-only statements in dated per-lesson records describe their historical authoring stages. Current publication status belongs in this README, the course register and the latest publication record.
 

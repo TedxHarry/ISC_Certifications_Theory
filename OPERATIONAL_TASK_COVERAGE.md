@@ -1,8 +1,8 @@
 # ISC certifications: operational task coverage
 
-Planning revision 7.18. November 13, 2026.
-Companion to [course design 9.20](COURSE_DESIGN.md).
-Status:24 routine-task families retain their primary locations. Local060 and [061](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md) supply normal manager and source-owner work sequences.061 applies tasks1/2/3/4/7/8/9/10/13/14/15/17/18/21/22/23 within its scoped case; it does not replace full diagnostic/specialist teaching. Local61/30/28/3; published59/30/26/3 unchanged. This is author/theory evidence, not measured frequency or demonstrated production performance.
+Planning revision 7.19. November 14, 2026.
+Companion to [course design 9.22](COURSE_DESIGN.md).
+Status:24 routine-task families retain their primary locations. Published060 and [061](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md) supply normal manager and source-owner work sequences.061 applies tasks1/2/3/4/7/8/9/10/13/14/15/17/18/21/22/23 within its scoped case; it does not replace full diagnostic/specialist teaching. Authored and published61/30/28/3; [publication evidence](author/PUBLICATION_2026-11-14_COMMON_WORK_AND_PRACTICE.md) is separate from learner validation. This is author/theory evidence, not measured frequency or demonstrated production performance.
 The local [practice review](author/PRACTICE_CASE_REVIEW_2026-11-13.md) strengthens the existing018/049/050 changed cases for independent attempts. Tasks1/2/4/5/7/13/14/20/21/22/24 retain their owners; questions now precede closed worked answers. This changes neither the24-family map nor any measured readiness claim.
 
 The local [common-work task finder](author/COMMON_CERTIFICATION_WORK_READING_GUIDE.md) maps19 work requests to18 existing destinations, including clearly labelled targeted practice. It is navigation over the existing24-family task map, not another task family, lesson or statistical frequency ranking.

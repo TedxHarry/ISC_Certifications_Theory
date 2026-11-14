@@ -29,4 +29,3 @@ No new phase clock, retry rule, signed-reassignment ability, unsigned bulk-compl
 Read the original292-line learner completely, including the handover and both warehouse requirements. Reread the saved final cases with answers considered closed, then reconcile the separate profile, automatic role, exact account, both permissions and two requirements with the worked answers. The correction follows evidence rather than changing accurate employee values to force a result.
 
 Shared local browser/content/structural checks pass as recorded in the practice-review record:17 automated checks, all61 content packages and both final requirement answers. Earlier records stay historical. No actual learner assessment, tenant observation or publication is claimed.
-

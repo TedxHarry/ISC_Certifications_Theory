@@ -1,6 +1,8 @@
 # ISC certifications author source and verification map
 
-Authoring source reference 9.18. Updated November 13, 2026; dated checks distinguish each stage.
+Authoring source reference 9.19. Updated November 14, 2026; dated checks distinguish each stage.
+
+The [publication record](author/PUBLICATION_2026-11-14_COMMON_WORK_AND_PRACTICE.md) confirms actual Pages build43591532207 and61 public learners with6819 nonempty text units and3898 link visits. This adds delivery evidence, not fresh product/tenant validation. Earlier source checks below retain their recorded authoring scope and dates.
 
 The local [practice review](author/PRACTICE_CASE_REVIEW_2026-11-13.md) records affected-passage checks against six SailPoint primary references and Kramdown syntax.018/049/0501.1 preserve product boundaries while separating final facts/questions from answers. Collection/actual preview, profile/role containment, automatic membership and acknowledgment are scoped in the new revision records. Existing unresolved questions,17 capabilities,214 author meanings and109 helper meanings remain. No tenant, participant, actual Jekyll or publication result is inferred.
 

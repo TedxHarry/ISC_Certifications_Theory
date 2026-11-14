@@ -1,12 +1,12 @@
 # Author terminology register
 
-Version 3.61. November 13, 2026.
+Version 3.62. November 14, 2026.
 
 [CRT-061](../lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md) reuses the214 registered meanings and explains needed terms locally, including software integration credentials and the independent review of an owner's access. Sponsor is explained as ordinary business responsibility, not a new native ISC object.109 curated helper meanings remain unchanged.
 
 [CRT-060](../lessons/CRT-060_Running_a_Periodic_Manager_Certification_from_Preparation_to_Closure.md) reuses existing meanings and explains them locally in the working sequence. Cutoff and periodic frequency are ordinary business choices, not new native fields.214 author meanings and109 curated helper meanings remain unchanged; needed explanations do not depend on the popup.
 
-The [current publication](PUBLICATION_2026-11-13_CAMPAIGN_RECONCILIATION_AND_TERM_HELP.md) serves109 curated helper meanings with59 learners. This214-entry register remains the separate author consistency aid. Definitions stay in lesson prose; publication does not establish learner understanding.
+The [current publication](PUBLICATION_2026-11-14_COMMON_WORK_AND_PRACTICE.md) serves109 curated helper meanings with61 learners. This214-entry register remains the separate author consistency aid. Definitions stay in lesson prose; publication does not establish learner understanding.
 
 The [local reader review](LOCAL_READER_READINESS_REVIEW_2026-11-13.md) adds109 concise helper meanings in ../_data/term_help.json. These are selected learner reminders drawn from existing teaching, not109 new author terms or a complete interactive version of this214-entry register. Keep aliases unambiguous and essential reasoning inline. The shared script limits ordinary-word matching to emphasized terminology.
 Purpose: consistent working meanings and primary teaching locations.
