@@ -51,7 +51,7 @@ for(const lesson of course.lessons){
 }
 if(live){
   const home=await page('/hands-on/');
-  assert.equal(home.querySelectorAll('.course-lessons > li').length,23);
+  assert.equal(home.querySelectorAll('.course-lessons > li').length,course.lessons.length);
   for(const lesson of course.lessons)assert.ok(home.querySelector('a[href="'+config.baseurl+lesson.url+'"]'));
   const kit='/hands-on/downloads/ISC_Certifications_Lab_Kit.zip';
   const r=await fetch(base+kit);assert.equal(r.status,200,kit);

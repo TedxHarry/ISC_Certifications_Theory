@@ -17,8 +17,8 @@ const site = {...config, data:{course,hands_on}};
 const render = async (template, path) => parseHTML(await engine.parseAndRender(await read(template), {site,page:{path},content:'<p>Read the task</p>'})).document;
 
 test('hands-on navigation opens the selected group and preserves every task exactly once', async () => {
-  assert.equal(hands_on.lessons.length,23);
-  assert.equal(new Set(hands_on.lessons.map(l=>l.id)).size,23);
+  assert.equal(hands_on.lessons.length,24);
+  assert.equal(new Set(hands_on.lessons.map(l=>l.id)).size,24);
   for (const lesson of hands_on.lessons) {
     const doc = await render('_layouts/default.html',lesson.source);
     assert.deepEqual([...doc.querySelectorAll('.lesson-nav a')].map(a=>a.getAttribute('href')),hands_on.lessons.map(l=>config.baseurl+l.url));
@@ -51,7 +51,7 @@ test('hands-on reader renders Markdown answers and excludes author and private p
   assert.ok(config.defaults.some(d=>d.scope.path==='hands-on/lessons'&&d.values.layout==='hands-on-lesson'));
   for(const path of ['hands-on/author','hands-on/private','hands-on/evidence','hands-on/COURSE_REGISTER.md','hands-on/README.md']) assert.ok(config.exclude.includes(path),path);
   const names=await readdir(new URL('hands-on/lessons/',root));
-  assert.equal(names.length,23);
+  assert.equal(names.length,24);
   for (const lesson of hands_on.lessons) {
     const text=await read(lesson.source);
     assert.ok(!/<details>/.test(text),lesson.id+' Markdown inside answers');

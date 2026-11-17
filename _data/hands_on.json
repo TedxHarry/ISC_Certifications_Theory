@@ -72,6 +72,15 @@
       "url": "/hands-on/lessons/CLB-005_Target_People_and_Access_Through_Search.html"
     },
     {
+      "id": "CLB-018",
+      "title": "Complete an access-owner review",
+      "description": "Review a selected permission through its primary owner, verify the result and optionally assign a Read review to a governance group.",
+      "group": "scope",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-018_Complete_an_Access_Owner_Review.md",
+      "url": "/hands-on/lessons/CLB-018_Complete_an_Access_Owner_Review.html"
+    },
+    {
       "id": "CLB-006",
       "title": "Compare campaign filters and review units",
       "description": "Compare inclusion, exclusion and packaged review units without starting the previews.",

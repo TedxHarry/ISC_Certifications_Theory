@@ -1,6 +1,6 @@
 # Training environment and lab readiness
 
-Record1.23. November17,2026. This is the working environment record, not a tenant execution report.
+Record1.24. November17,2026. This is the working environment record, not a tenant execution report.
 
 ## What is known
 
@@ -29,6 +29,7 @@ On November15, the user reported that the tenant is temporarily unavailable beca
 | Correction and retirement state checks | Authored016; no deletion/edit behavior observed | Inspect generated instance versus saved template/schedule, never-started/no choices/no work before wrong-preview deletion, separate unsigned choices from sign-off, preserve signed history and resolve actual work before reset. No in-flight cancellation or signed reopen inferred. |
 | Evidence records and private case index | Authored015; actual record/package not supplied | Select actual compatible history, identify each available object/event reference and preserve raw originals/observation times. Minimal fresh capture requires actual readiness. No report is assumed to supply a universal join ID; live claims need real target evidence. |
 | Independent capstone assessment | Authored017; no actual attempt/assessment | Establish initial A/B inventories, working actors and supported eligible existing unsigned-work transfer. Record learner plan/checkpoint/update, actual result and separate reset/assistance. C requires real automatic target readiness; no result is inferred from the guide. |
+| Access Owner / Governance Group task | Authored018; native setup/routing/reset not inspected | Verify exact A Export primary owner01 versus source owner02, supported ownership restore and Search reflection; Access Owner choice and two-item preview. Optional dedicated active group01/02 reviews two employee Reads, with actual member/sign-off evidence. No new CSV or management-role grant. |
 | Bounded read-only automation | AuthoredCLS-006, script/blank configuration and25 passing offline tests; live not run | Verify working manual case/current experimental contract, authorized token, pinned standard host/IDs and new private output. Inspect full capture/limits/failures and separate manual proof/repeat. Offline transport is not tenant execution. |
 | Read-only certification API access | AuthoredCLS-005 and planned five-GET contract; runtime uninspected | Verify actual next-generation identity case, tenant API base, actor/user/object/read scopes and experimental allowance; enumerate all scoped pages/IDs and compare UI/sign-off/removal history. No token/API run or auto credential expansion. |
 | Review recommendations/activity context | AuthoredCLS-004; native reasons/events uninspected | Verify campaign-scoped inclusion and actual reasons or absence, event scope/window/coverage/freshness and work confirmations. CSV supplies holdings, not usage; record native practice separately from CSV completion. No global/model/ingestion changes. |

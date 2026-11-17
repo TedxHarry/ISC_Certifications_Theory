@@ -1,6 +1,6 @@
 # ISC Certifications Hands-On register
 
-Version1.45. November17,2026.
+Version1.46. November17,2026.
 
 ## Current position
 
@@ -13,9 +13,9 @@ Current availability update, November15: the user reports that the tenant is tem
 | Item | Actual state |
 |---|---|
 | Initial planning inventory | 23 units:17 main and6 job-dependent; counts can change with teaching needs. |
-| Learner files authored | 23 files:17 main-route and all6 specialist units CLS-001 through006. CLB-001,004,005,006,007,008,009,010,011,012,013,014,015,016,017 and CLS-001 through006 revision1.1; remaining authored files revision1.0. Remaining planned learner units:0 in the current inventory. |
-| Learner files author-reviewed | 23: source-supported instructions, complete saved beginner read-throughs and example/data reconciliation. |
-| Current fresh beginner-readability pass | 23 of23 full readings complete, plus the017 assessor guide. The [revised-set consistency/packaging review](author/REVISED_COURSE_AUDIT_2026-11-16.md) is recorded. This is author review, not independent learner testing. |
+| Learner files authored | 24:18 main-route and6 specialists. Original23 revisions retained; CLB-0181.0 adds complete Access Owner review and an optional Governance Group variation. No planned learner remains in the current inventory. |
+| Learner files author-reviewed | 24: original23 fresh readings plus the complete018 saved beginner read-through and case/source reconciliation. |
+| Current fresh beginner-readability pass | Original23 full readings and supporting017 assessor review remain recorded. New018 has its own complete author reading; the November16 audit remains the historical23-unit snapshot. This is not independent learner testing. |
 | Tenant-executed units | 0. Reported tenant availability is separate from execution. |
 | Repeated lab runs | 0. |
 | Independent learner tests | 0. |
@@ -78,11 +78,13 @@ It helps the learner inspect and record the environment without creating or chan
 
 [CLS-006: Automate a bounded read-only evidence collection](lessons/CLS-006_Automate_a_Bounded_Read_Only_Evidence_Collection.md) is authored at revision1.1 with its [current readability record](author/revisions/CLS-006_Revision_1_1_Record.md), [original record](author/revisions/CLS-006_Revision_Record.md), [brief](author/briefs/CLS-006_Bounded_Read_Automation_Brief.md), unchanged [collector](tools/collect_certification_evidence.py), [blank configuration](author/contracts/CLS-006_Config_Example.json) and [offline tests](author/tests/test_collect_certification_evidence.py). Clearer private-file/command/limit/report meanings support the same manually verified two-A-Export GET capture. Required totals, shared reviewer, incomplete recovery and manual proof are explicit. All25 offline test methods pass in a fresh run; no actual request occurred. All23 planned learner guides are authored and freshly read.
 
+[CLB-018: Complete an access-owner review](lessons/CLB-018_Complete_an_Access_Owner_Review.md) is authored with its [brief](author/briefs/CLB-018_Access_Owner_and_Group_Review_Brief.md) and [record](author/revisions/CLB-018_Revision_Record.md). It reuses A/B without new CSVs, separates permission and source ownership, follows one Export removal, and optionally verifies two Read approvals through a dedicated governance group.
+
 ## Next work
 
 The [course-wide author audit](author/COURSE_WIDE_AUTHOR_AUDIT_2026-11-15.md) is recorded. It checked the23-unit route and entry/reset sections, reviewed selected complete lessons and corrected navigation, manual CSV reset wording and role-cleanup explanation. It is an author consistency review; its report names the reading coverage and remaining validation limits.
 
-All17 main-route learner files and CLS-001 through006, plus the017 assessor guide, have complete fresh beginner readings recorded. The [revised-course audit](author/REVISED_COURSE_AUDIT_2026-11-16.md) reconciles shared data, distinct tasks, dependencies, reset and local author-review packaging. Keep all23 units. No further routine learner rewrite or arbitrary new lab is scheduled. Next is actual CLB-001 inventory when tenant access returns, then002 setup and003 execution; unavailable tenant access does not become a local pass.
+The user approved one scoped addition after the original23-unit audit: [CLB-018](lessons/CLB-018_Complete_an_Access_Owner_Review.md) adds a complete access-owner review and optional group-review variation. Current inventory24; place018 after005 before006. Publish this completed addition and its lab kit through the existing site; actual deployment evidence is recorded afterward. Actual CLB-001/002/003 inventory/setup/execution remains the next tenant work when access returns.
 
 When tenant access returns, establish the first actual execution record:
 
@@ -105,6 +107,7 @@ Planned means no learner file exists yet.
 | CLB-003 | Complete one manager review | Authored/reviewed1.0; expected CSV outcome and flow | Not run |
 | CLB-004 | Complete an application/source-owner review | Authored/reviewed1.1; clarified owner/subject/reviewer flow and task/reset checks | Not run |
 | CLB-005 | Build a targeted Search review | Authored/reviewed1.1; clarified A/B selection, record IDs and task/reset checks | Not run |
+| CLB-018 | Complete an Access Owner review; optional governance-group variation | Authored/reviewed1.0; ownership/holder scope, CSV result/reset and team actor evidence | Not run; native routing, group reachability and owner reset unverified |
 | CLB-006 | Apply filters to the correct review object | Authored/reviewed1.1; unstarted previews and temporary profile | Not run |
 | CLB-007 | Reuse templates and prepare a new cycle | Authored/reviewed1.1; separate template and one future preview | Not run |
 | CLB-008 | Repair missing/unexpected review content | Authored/reviewed1.1; two selection causes and separate repairs | Not run |

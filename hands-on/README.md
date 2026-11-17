@@ -25,6 +25,7 @@ A lab may need its own feature or timing check. For example, absence cover needs
 | [CLB-003](lessons/CLB-003_Complete_a_Manager_Review_and_Check_the_CSV_Result.md) | Complete the first manager review |
 | [CLB-004](lessons/CLB-004_Review_a_Source_and_Separate_the_Owners_Access.md) | Review a source and handle the owner's own access |
 | [CLB-005](lessons/CLB-005_Target_People_and_Access_Through_Search.md) | Select particular people and permissions through Search |
+| [CLB-018](lessons/CLB-018_Complete_an_Access_Owner_Review.md) | Complete an Access Owner review; optional Governance Group review |
 | [CLB-006](lessons/CLB-006_Compare_Campaign_Filters_and_Review_Units.md) | Compare filters and the access objects being reviewed |
 | [CLB-007](lessons/CLB-007_Reuse_a_Template_and_Prepare_the_Next_Review_Cycle.md) | Reuse a template and schedule the next cycle |
 | [CLB-008](lessons/CLB-008_Investigate_Missing_and_Unexpected_Review_Items.md) | Investigate missing or unexpected review items |
@@ -51,9 +52,9 @@ The job-dependent routes below are optional. Choose one when its task applies. R
 
 ## Current status
 
-All 23 planned learner guides are authored and individually author-reviewed: 17 main and 6 specialist. A [course-wide author audit](author/COURSE_WIDE_AUTHOR_AUDIT_2026-11-15.md) checked the route, repeated material, entry/reset instructions and local consistency, and records its reading coverage and corrections.
+All24 learner guides are authored and individually author-reviewed:18 main and6 specialist. [CLB-018](lessons/CLB-018_Complete_an_Access_Owner_Review.md) adds the full access-owner workflow and optional team-review variation after005. The original23-unit audit remains historical.
 
-The fresh beginner-readability pass covers all23 complete learner guides and the supporting capstone assessor guide. The [revised-course review](author/REVISED_COURSE_AUDIT_2026-11-16.md) reconciles shared data, reset instructions, repeated material and local package contents. All23 units are retained. Actual learner testing remains separate.
+The original23 learner guides and capstone assessor guide completed the fresh readability pass. New018 has a complete saved author reading and scoped primary checks in its [record](author/revisions/CLB-018_Revision_Record.md). Actual learner testing remains separate.
 
 Tenant execution, repeated tenant runs and independent learner tests remain 0. The read-only collector has 25 passing offline test methods; those do not establish a working tenant connection.
 

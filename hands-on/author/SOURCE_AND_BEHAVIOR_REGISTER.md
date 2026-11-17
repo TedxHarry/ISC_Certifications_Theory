@@ -384,3 +384,7 @@ The unchanged code reports capture checks, never actual authority, business auth
 The [follow-up review](REVISED_COURSE_AUDIT_2026-11-16.md) reconciles the revised learner files against existing fixture/source contracts and dated author records. No new product-behavior claim or source-verification resolution is introduced. Original baseline values, shared reset requirements, actual native-feature/AD/API prerequisites and historical-versus-current evidence distinctions remain intact.
 
 Mechanical consistency,25 offline test methods and archive integrity are local checks. An author-review archive includes assessment answers and excludes private runtime evidence; it is not a published learner course or tenant pass. Maintenance, all eleven inherited product questions and execution/repeat/independent-learner/publication gates remain unchanged.
+
+### CLB-018: access-owner responsibility and team action, November17
+
+The [018 record](revisions/CLB-018_Revision_Record.md) links current campaign, entitlement ownership, governance-group, reviewer, report and manual-work sources. Access-led holder selection differs from reviewed access; Access Owner mode differs from the source owner or coincident employee manager. A dedicated group can act through a member without requiring another member vote. Original owner clearing, native availability/visibility, report actor fields and fulfillment recipient remain observed runtime facts. No new product question is inferred resolved; no tenant action occurred.

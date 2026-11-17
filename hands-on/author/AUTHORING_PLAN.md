@@ -196,3 +196,7 @@ All25 existing offline test methods pass in a fresh run; help and intentional bl
 The [final follow-up audit](REVISED_COURSE_AUDIT_2026-11-16.md) reconciles the completed23-learner fresh reading pass, shared A–F contracts, task differentiation, entry/reset boundaries, capstone answer separation and plain asset references. No practical unit is removed and no extra lab or routine rewrite pass is added.
 
 Local author-review packaging retains reusable author/learner/support files with original paths and a separate integrity manifest. It includes worked assessment answers; it is not a learner-only release. Private records, raw captures, caches and repository/site/dependency material are excluded. All25 offline test methods pass afresh. Actual inventory/setup/first review is the next work when access returns; all runtime/learner/publication states remain unchanged.
+
+## Approved access-owner addition, November17
+
+The [018 brief](briefs/CLB-018_Access_Owner_and_Group_Review_Brief.md) and [record](revisions/CLB-018_Revision_Record.md) add one full owner-led Access Items review plus an optional two-Read governance-group variation. The user approved this concrete gap after the23-unit audit. Place018 after005, before006; current24 learners/18 main/6 specialists. No new fixture, role, identity or connected system. Primary-owner restoration and actual group/member evidence remain separate runtime checks. Publish through the same site and update the lab kit; no validation badge.
