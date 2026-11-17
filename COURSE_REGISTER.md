@@ -5,7 +5,7 @@ Version 8.26. Updated November 17, 2026.
 
 ## Current position
 
-Hands-on reader numbering now follows learning order: Lesson1–18 for the main route and Specialist1–6 separately. CLB-018 is Lesson6; CLB-006 is Lesson7. Permanent IDs, sources, download kit and URLs remain unchanged. The [numbering record](author/PUBLICATION_2026-11-17_HANDS_ON_NUMBERING.md) separates local checks from publication evidence.
+Hands-on reader numbering is published and live-verified: Lesson1–18 for the main route and Specialist1–6 separately. CLB-018 is Lesson6; CLB-006 is Lesson7. Permanent IDs, sources, download kit and URLs remain unchanged. The [numbering record](author/PUBLICATION_2026-11-17_HANDS_ON_NUMBERING.md) confirms content0ce9c2d, successful Pages run44036470216 and complete24-hands-on/61-theory live checks.
 
 The published Access Owner addition brings hands-on coverage to24 tasks; [its record](author/PUBLICATION_2026-11-17_ACCESS_OWNER.md) confirms contentac9ecf6, successful Pages run44035035636 and complete24-hands-on/61-theory live checks. CLB-018 and its optional group variation are placed after005 before006. Theory remains61 topics, with no rewritten theory learner.
 
