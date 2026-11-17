@@ -10,6 +10,7 @@ const course=JSON.parse(await read('_data/hands_on.json'));
 const config=parse(await read('_config.yml'));
 const live=process.argv.includes('--live');
 const base=config.url+config.baseurl;
+const label=lesson=>`${lesson.route==='specialist'?'Specialist':'Lesson'} ${course.lessons.filter(l=>l.route===lesson.route).indexOf(lesson)+1}`;
 const norm=s=>s.normalize('NFKC').replace(/[‘’]/g,"'").replace(/[“”]/g,'"').replace(/[–—]/g,'-').replace(/\s+/g,' ').trim();
 const inline=s=>norm(s.replace(/<\/?(?:details|summary)\b[^>]*>/g,'').replace(/\*\*|\x60/g,'').replace(/\*([^*\n]+)\*/g,'$1'));
 const cache=new Map();
@@ -45,6 +46,11 @@ for(const lesson of course.lessons){
       assert.ok(a.querySelector('p,ul,ol,table,pre'),lesson.id+' parsed answer content');
     }
     assert.equal(doc.querySelector('a[aria-current="page"]').getAttribute('href'),config.baseurl+lesson.url);
+    assert.deepEqual([...doc.querySelectorAll('.lesson-nav .lesson-id')].map(n=>n.textContent),course.lessons.map(label),lesson.id+' sidebar numbering');
+    assert.equal(doc.querySelector('.lesson-placement').textContent,'Hands-on · '+label(lesson),lesson.id+' placement numbering');
+    const route=course.lessons.filter(l=>l.route===lesson.route),i=route.indexOf(lesson);
+    assert.deepEqual([...doc.querySelectorAll('.lesson-pagination a')].map(a=>a.getAttribute('href')),[route[i-1],route[i+1]].filter(Boolean).map(l=>config.baseurl+l.url),lesson.id+' adjacent destinations');
+    assert.deepEqual([...doc.querySelectorAll('.lesson-pagination a span')].map(n=>n.textContent),[i>0?'Previous · '+label(route[i-1]):null,i<route.length-1?'Next · '+label(route[i+1]):null].filter(Boolean),lesson.id+' adjacent numbering');
     assert.ok(!/tenant validation pending|working edition/i.test(doc.body.textContent));
     for(const a of doc.querySelectorAll('a[href]')){const href=a.getAttribute('href');if(href.startsWith(config.baseurl+'/')&&!href.includes('#')&&!href.endsWith('.zip'))await page(href.slice(config.baseurl.length));}
   }
@@ -52,6 +58,7 @@ for(const lesson of course.lessons){
 if(live){
   const home=await page('/hands-on/');
   assert.equal(home.querySelectorAll('.course-lessons > li').length,course.lessons.length);
+  assert.deepEqual([...home.querySelectorAll('.course-lessons .lesson-id')].map(n=>n.textContent),course.lessons.map(label),'landing numbering');
   for(const lesson of course.lessons)assert.ok(home.querySelector('a[href="'+config.baseurl+lesson.url+'"]'));
   const kit='/hands-on/downloads/ISC_Certifications_Lab_Kit.zip';
   const r=await fetch(base+kit);assert.equal(r.status,200,kit);

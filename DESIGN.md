@@ -36,6 +36,8 @@ November17,2026: the same repository and site host a Hands-On section under hand
 
 Keep learner Markdown unchanged by site setup. Jekyll optional front matter renders it with the lesson layout. _data/course.yml lists only lessons included in that publication. Unwritten planning topics have no links or placeholder pages.
 
+Hands-on display numbering, November17,2026: derive Lesson 1–18 from the main route's manifest order and Specialist 1–6 from the specialist route. The shared hands-on-label include supplies sidebar, landing, placement and adjacent-link labels. CLB-018 displays Lesson 6 and CLB-006 displays Lesson 7. Keep permanent IDs, lesson Markdown, filenames, downloads and URLs unchanged; regrouping must not require duplicate manually maintained numbers.
+
 Authoring instructions, planning documents, revision records, tests and dependencies are excluded from the reading site, but remain ordinary repository files. A working-edition label describes publication status without inserting author commentary into lesson prose.
 
 Local reader update, November13,2026: _data/term_help.json owns109 curated learner meanings and aliases; assets/term-help.js owns the shared interaction. The script marks recognized phrases and emphasized terms, skips headings/links/code, and preserves article text. Single ordinary words outside emphasis stay unmarked to avoid assigning an API or ISC meaning to an unrelated sentence. All214 author meanings are not claimed as interactive help.

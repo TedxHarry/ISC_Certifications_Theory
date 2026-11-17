@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign current_lesson = site.data.hands_on.lessons | where: "source", page.path | first %}
-<p class="lesson-placement">Hands-on · {{ current_lesson.id | escape }}</p>
+<p class="lesson-placement">Hands-on · {% include hands-on-label.html target=current_lesson %}</p>
 <article class="lesson-content">
   {{ content | replace: '<table>', '<div class="table-scroll" role="region" aria-label="Lesson table" tabindex="0"><table>' | replace: '</table>', '</table></div>' | replace: '<pre', '<pre tabindex="0"' }}
 </article>
@@ -13,10 +13,10 @@ layout: default
 {% for lesson in adjacent_lessons %}
 {% if page.path == lesson.source %}
 {% if forloop.index0 > 0 %}{% assign previous_index = forloop.index0 | minus: 1 %}{% assign previous_lesson = adjacent_lessons[previous_index] %}
-  <a href="{{ previous_lesson.url | relative_url }}"><span>Previous task</span>{{ previous_lesson.title | escape }}</a>
+  <a href="{{ previous_lesson.url | relative_url }}"><span>Previous · {% include hands-on-label.html target=previous_lesson %}</span>{{ previous_lesson.title | escape }}</a>
 {% endif %}
 {% unless forloop.last %}{% assign next_lesson = adjacent_lessons[forloop.index] %}
-  <a href="{{ next_lesson.url | relative_url }}"><span>Next task</span>{{ next_lesson.title | escape }}</a>
+  <a href="{{ next_lesson.url | relative_url }}"><span>Next · {% include hands-on-label.html target=next_lesson %}</span>{{ next_lesson.title | escape }}</a>
 {% endunless %}
 {% endif %}
 {% endfor %}

@@ -17,7 +17,7 @@ description: "Practise access reviews, campaign operations and verification in S
 {% else %}<section class="course-module" aria-labelledby="hands-on-{{ group.id }}"><h2 id="hands-on-{{ group.id }}">{{ group.title | escape }}</h2>{% endif %}
 <ol class="course-lessons">
 {% for lesson in group_lessons %}
-  <li><span class="lesson-id">{{ lesson.id }}</span><div>
+  <li><span class="lesson-id">{% include hands-on-label.html target=lesson %}</span><div>
     <h3><a href="{{ lesson.url | relative_url }}">{{ lesson.title | escape }}</a></h3>
     <p>{{ lesson.description | escape }}</p>
   </div></li>

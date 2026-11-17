@@ -6,7 +6,7 @@
   <summary id="nav-hands-on-{{ group.id }}">{{ group.title | escape }}</summary>
   <ol class="lesson-nav">
   {% for lesson in group_lessons %}
-    <li><a href="{{ lesson.url | relative_url }}"{% if page.path == lesson.source %} aria-current="page"{% endif %}><span class="lesson-id">{{ lesson.id }}</span><span>{{ lesson.title | escape }}</span></a></li>
+    <li><a href="{{ lesson.url | relative_url }}"{% if page.path == lesson.source %} aria-current="page"{% endif %}><span class="lesson-id">{% include hands-on-label.html target=lesson %}</span><span>{{ lesson.title | escape }}</span></a></li>
   {% endfor %}
   </ol>
 </details>

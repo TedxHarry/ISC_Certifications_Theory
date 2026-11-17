@@ -1,0 +1,7 @@
+{%- assign numbered_route = site.data.hands_on.lessons | where: "route", include.target.route -%}
+{%- for numbered_lesson in numbered_route -%}
+  {%- if numbered_lesson.id == include.target.id -%}
+    {%- if include.target.route == "specialist" -%}Specialist {% else -%}Lesson {% endif -%}{{ forloop.index }}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
