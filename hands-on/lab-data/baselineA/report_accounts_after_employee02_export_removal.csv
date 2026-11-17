@@ -1,0 +1,5 @@
+id,name,employeeNumber,groups
+certlab-account01,certlab-account01,certlab-employee01,certlab-report-read
+certlab-account01,certlab-account01,certlab-employee01,certlab-report-export
+certlab-account02,certlab-account02,certlab-employee02,certlab-report-read
+certlab-account03,certlab-account03,certlab-employee03,certlab-report-read

@@ -1,0 +1,237 @@
+{
+  "groups": [
+    {
+      "id": "start",
+      "title": "1. Prepare and complete a review"
+    },
+    {
+      "id": "scope",
+      "title": "2. Prepare the next campaign"
+    },
+    {
+      "id": "review",
+      "title": "3. Support reviewers and decisions"
+    },
+    {
+      "id": "fulfillment",
+      "title": "4. Follow and verify removals"
+    },
+    {
+      "id": "closure",
+      "title": "5. Monitor, explain and complete the work"
+    },
+    {
+      "id": "specialist",
+      "title": "Specialist tasks"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "CLB-001",
+      "title": "Check the training setup before creating a campaign",
+      "description": "Check the training environment, available campaign routes and people who will perform the work.",
+      "group": "start",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-001_Check_the_Training_Setup_Before_Creating_a_Campaign.md",
+      "url": "/hands-on/lessons/CLB-001_Check_the_Training_Setup_Before_Creating_a_Campaign.html"
+    },
+    {
+      "id": "CLB-002",
+      "title": "Prepare fresh CSV sources and prove the review data",
+      "description": "Prepare fresh people and reporting data, then verify account links, managers and reviewer sign-ins.",
+      "group": "start",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-002_Prepare_Fresh_CSV_Sources_and_Prove_the_Review_Data.md",
+      "url": "/hands-on/lessons/CLB-002_Prepare_Fresh_CSV_Sources_and_Prove_the_Review_Data.html"
+    },
+    {
+      "id": "CLB-003",
+      "title": "Complete a manager review and check the CSV result",
+      "description": "Prepare a manager review, record justified choices, follow the manual work and check the CSV result.",
+      "group": "start",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-003_Complete_a_Manager_Review_and_Check_the_CSV_Result.md",
+      "url": "/hands-on/lessons/CLB-003_Complete_a_Manager_Review_and_Check_the_CSV_Result.html"
+    },
+    {
+      "id": "CLB-004",
+      "title": "Review a source and separate the owner's access",
+      "description": "Review one source and inspect the independent review of its owner's own access.",
+      "group": "scope",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-004_Review_a_Source_and_Separate_the_Owners_Access.md",
+      "url": "/hands-on/lessons/CLB-004_Review_a_Source_and_Separate_the_Owners_Access.html"
+    },
+    {
+      "id": "CLB-005",
+      "title": "Target people and access through Search",
+      "description": "Select the requested people and source-specific permissions, then check the generated scope.",
+      "group": "scope",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-005_Target_People_and_Access_Through_Search.md",
+      "url": "/hands-on/lessons/CLB-005_Target_People_and_Access_Through_Search.html"
+    },
+    {
+      "id": "CLB-006",
+      "title": "Compare campaign filters and review units",
+      "description": "Compare inclusion, exclusion and packaged review units without starting the previews.",
+      "group": "scope",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-006_Compare_Campaign_Filters_and_Review_Units.md",
+      "url": "/hands-on/lessons/CLB-006_Compare_Campaign_Filters_and_Review_Units.html"
+    },
+    {
+      "id": "CLB-007",
+      "title": "Reuse a template and prepare the next review cycle",
+      "description": "Reuse a saved configuration and inspect what a later scheduled preparation produces.",
+      "group": "scope",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-007_Reuse_a_Template_and_Prepare_the_Next_Review_Cycle.md",
+      "url": "/hands-on/lessons/CLB-007_Reuse_a_Template_and_Prepare_the_Next_Review_Cycle.html"
+    },
+    {
+      "id": "CLB-008",
+      "title": "Investigate missing and unexpected review items",
+      "description": "Trace missing and unexpected review items, then repair the selections.",
+      "group": "scope",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-008_Investigate_Missing_and_Unexpected_Review_Items.md",
+      "url": "/hands-on/lessons/CLB-008_Investigate_Missing_and_Unexpected_Review_Items.html"
+    },
+    {
+      "id": "CLB-009",
+      "title": "Transfer review work and handle reviewer absence",
+      "description": "Hand over existing review work and arrange temporary cover for an absence.",
+      "group": "review",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-009_Transfer_Review_Work_and_Handle_Reviewer_Absence.md",
+      "url": "/hands-on/lessons/CLB-009_Transfer_Review_Work_and_Handle_Reviewer_Absence.html"
+    },
+    {
+      "id": "CLB-010",
+      "title": "Make clear decisions and finalize the review",
+      "description": "Save, explain and revise unsigned choices before final submission.",
+      "group": "review",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-010_Make_Clear_Decisions_and_Finalize_the_Review.md",
+      "url": "/hands-on/lessons/CLB-010_Make_Clear_Decisions_and_Finalize_the_Review.html"
+    },
+    {
+      "id": "CLB-011",
+      "title": "Verify automated removal and recover a write failure",
+      "description": "Verify a real connector removal, investigate a write failure and prove recovery.",
+      "group": "fulfillment",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-011_Verify_Automated_Removal_and_Recover_a_Write_Failure.md",
+      "url": "/hands-on/lessons/CLB-011_Verify_Automated_Removal_and_Recover_a_Write_Failure.html"
+    },
+    {
+      "id": "CLB-012",
+      "title": "Complete manual removal and verify each result",
+      "description": "Complete removals in stages across two sources and check the full task scope.",
+      "group": "fulfillment",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-012_Complete_Manual_Removal_and_Verify_Each_Result.md",
+      "url": "/hands-on/lessons/CLB-012_Complete_Manual_Removal_and_Verify_Each_Result.html"
+    },
+    {
+      "id": "CLB-013",
+      "title": "Investigate access that remains after revocation",
+      "description": "Investigate required access that remains after a revocation.",
+      "group": "fulfillment",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-013_Investigate_Access_That_Remains_After_Revocation.md",
+      "url": "/hands-on/lessons/CLB-013_Investigate_Access_That_Remains_After_Revocation.html"
+    },
+    {
+      "id": "CLB-014",
+      "title": "Monitor campaign progress and handle unfinished work",
+      "description": "Separate draft choices, sign-off and removal progress, then handle unfinished work.",
+      "group": "closure",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-014_Monitor_Campaign_Progress_and_Handle_Unfinished_Work.md",
+      "url": "/hands-on/lessons/CLB-014_Monitor_Campaign_Progress_and_Handle_Unfinished_Work.html"
+    },
+    {
+      "id": "CLB-015",
+      "title": "Build an evidence trail someone else can verify",
+      "description": "Connect scope, decisions, work and account observations into a traceable case.",
+      "group": "closure",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-015_Build_an_Evidence_Trail_Someone_Else_Can_Verify.md",
+      "url": "/hands-on/lessons/CLB-015_Build_an_Evidence_Trail_Someone_Else_Can_Verify.html"
+    },
+    {
+      "id": "CLB-016",
+      "title": "Correct or retire a campaign without losing the truth",
+      "description": "Correct an unstarted campaign and handle a later changed need while retaining history.",
+      "group": "closure",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-016_Correct_or_Retire_a_Campaign_Without_Losing_the_Truth.md",
+      "url": "/hands-on/lessons/CLB-016_Correct_or_Retire_a_Campaign_Without_Losing_the_Truth.html"
+    },
+    {
+      "id": "CLB-017",
+      "title": "Complete and defend an independent certification project",
+      "description": "Plan and complete an independent review project with a change in responsibility and work needs.",
+      "group": "closure",
+      "route": "main",
+      "source": "hands-on/lessons/CLB-017_Complete_and_Defend_an_Independent_Certification_Project.md",
+      "url": "/hands-on/lessons/CLB-017_Complete_and_Defend_an_Independent_Certification_Project.html"
+    },
+    {
+      "id": "CLS-001",
+      "title": "Review uncorrelated account access and track ownership",
+      "description": "Review an unmatched account's permissions and keep ownership follow-up explicit.",
+      "group": "specialist",
+      "route": "specialist",
+      "source": "hands-on/lessons/CLS-001_Review_Uncorrelated_Account_Access_and_Track_Ownership.md",
+      "url": "/hands-on/lessons/CLS-001_Review_Uncorrelated_Account_Access_and_Track_Ownership.html"
+    },
+    {
+      "id": "CLS-002",
+      "title": "Review service-account access and preserve the service",
+      "description": "Establish the program account's classification and owner, then review its access.",
+      "group": "specialist",
+      "route": "specialist",
+      "source": "hands-on/lessons/CLS-002_Review_Service_Account_Access_and_Preserve_the_Service.md",
+      "url": "/hands-on/lessons/CLS-002_Review_Service_Account_Access_and_Preserve_the_Service.html"
+    },
+    {
+      "id": "CLS-003",
+      "title": "Review a role's contents and verify the correction",
+      "description": "Review a role's design and verify the exact change to its contents.",
+      "group": "specialist",
+      "route": "specialist",
+      "source": "hands-on/lessons/CLS-003_Review_a_Roles_Contents_and_Verify_the_Correction.md",
+      "url": "/hands-on/lessons/CLS-003_Review_a_Roles_Contents_and_Verify_the_Correction.html"
+    },
+    {
+      "id": "CLS-004",
+      "title": "Use activity and recommendations to support a review",
+      "description": "Interpret available activity and recommendations alongside confirmed work requirements.",
+      "group": "specialist",
+      "route": "specialist",
+      "source": "hands-on/lessons/CLS-004_Use_Activity_and_Recommendations_to_Support_a_Review.md",
+      "url": "/hands-on/lessons/CLS-004_Use_Activity_and_Recommendations_to_Support_a_Review.html"
+    },
+    {
+      "id": "CLS-005",
+      "title": "Investigate a certification through read-only APIs",
+      "description": "Trace an existing review through complete read-only API requests.",
+      "group": "specialist",
+      "route": "specialist",
+      "source": "hands-on/lessons/CLS-005_Investigate_a_Certification_Through_Read_Only_APIs.md",
+      "url": "/hands-on/lessons/CLS-005_Investigate_a_Certification_Through_Read_Only_APIs.html"
+    },
+    {
+      "id": "CLS-006",
+      "title": "Automate a bounded read-only evidence collection",
+      "description": "Repeat verified evidence collection with a bounded read-only collector.",
+      "group": "specialist",
+      "route": "specialist",
+      "source": "hands-on/lessons/CLS-006_Automate_a_Bounded_Read_Only_Evidence_Collection.md",
+      "url": "/hands-on/lessons/CLS-006_Automate_a_Bounded_Read_Only_Evidence_Collection.html"
+    }
+  ]
+}

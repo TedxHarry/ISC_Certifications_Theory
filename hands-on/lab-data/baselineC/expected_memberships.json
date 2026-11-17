@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "kind": "planned-connected-ad-fixture",
+  "tenantExecuted": false,
+  "sourceAlias": "certlab-ad-lab",
+  "authoritative": false,
+  "ouLabel": "ISC-CertLab",
+  "adCorrelationAttribute": "employeeID",
+  "identityCorrelationAttribute": "identificationNumber",
+  "actualDirectoryBindingRequired": true,
+  "users": [
+    {
+      "samAccountName": "certlab-ad-e01",
+      "identityAlias": "certlab-employee01",
+      "employeeID": "certlab-employee01"
+    },
+    {
+      "samAccountName": "certlab-ad-e02",
+      "identityAlias": "certlab-employee02",
+      "employeeID": "certlab-employee02"
+    }
+  ],
+  "groups": [
+    {
+      "samAccountName": "certlab-ad-read",
+      "purpose": "retain both direct test memberships"
+    },
+    {
+      "samAccountName": "certlab-ad-exp-ok",
+      "purpose": "normal automatic removal"
+    },
+    {
+      "samAccountName": "certlab-ad-exp-fail",
+      "purpose": "isolated write fault and connector recovery"
+    }
+  ],
+  "baselineMemberships": [
+    {
+      "account": "certlab-ad-e01",
+      "group": "certlab-ad-read"
+    },
+    {
+      "account": "certlab-ad-e01",
+      "group": "certlab-ad-exp-ok"
+    },
+    {
+      "account": "certlab-ad-e02",
+      "group": "certlab-ad-read"
+    },
+    {
+      "account": "certlab-ad-e02",
+      "group": "certlab-ad-exp-fail"
+    }
+  ],
+  "normalRemoval": {
+    "account": "certlab-ad-e01",
+    "group": "certlab-ad-exp-ok"
+  },
+  "faultRemoval": {
+    "account": "certlab-ad-e02",
+    "group": "certlab-ad-exp-fail"
+  },
+  "fault": {
+    "group": "certlab-ad-exp-fail",
+    "effectiveWritePrincipalMustBeBound": true,
+    "permission": "write member property",
+    "entryType": "explicit deny",
+    "scope": "this object only",
+    "preserveRead": true
+  },
+  "expectedScopedCounts": {
+    "baseline": 4,
+    "afterNormalRemoval": 3,
+    "afterFailedRemoval": 3,
+    "afterRecovery": 2,
+    "afterReset": 4
+  },
+  "campaignAliases": {
+    "normal": "certlab-011-normal-run01",
+    "fault": "certlab-011-fault-run01",
+    "terminalFailureRecovery": "certlab-011-recovery-run01"
+  }
+}

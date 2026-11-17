@@ -23,6 +23,10 @@ defaults:
       path: "lessons"
     values:
       layout: lesson
+  - scope:
+      path: "hands-on/lessons"
+    values:
+      layout: hands-on-lesson
 exclude:
   - README.md
   - AGENTS.md
@@ -41,3 +45,20 @@ exclude:
   - package-lock.json
   - tests
   - .github
+  - hands-on/author
+  - hands-on/README.md
+  - hands-on/AGENTS.md
+  - hands-on/COURSE_DESIGN.md
+  - hands-on/COURSE_REGISTER.md
+  - hands-on/TEACHING_SPECIFICATION.md
+  - hands-on/CSV_LAB_STRATEGY.md
+  - hands-on/LAB_ENVIRONMENT.md
+  - hands-on/lab-data/BASELINE_SPECIFICATION.md
+  - hands-on/lab-data/baselineA/README.md
+  - hands-on/lab-data/baselineB/README.md
+  - hands-on/lab-data/baselineC/README.md
+  - hands-on/lab-data/baselineD/README.md
+  - hands-on/lab-data/baselineE/README.md
+  - hands-on/lab-data/baselineF/README.md
+  - hands-on/private
+  - hands-on/evidence

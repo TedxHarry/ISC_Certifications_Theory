@@ -32,6 +32,8 @@ Practice cases may separate supplied facts and questions from worked reasoning w
 
 ## Content and publication contract
 
+November17,2026: the same repository and site now host a Hands-On section under hands-on/. The header switches between Theory and Hands-On. Hands-on pages use their own23-entry manifest, six collapsible task groups and route-local previous/next links; theory IDs, order and URLs remain intact. Reuse the existing reading layout, palette, term-help interaction, keyboard disclosures and mobile panel behavior. Do not add status labels or validation banners. Author/control files and assessor answers stay out of Pages; the downloadable lab kit contains operational files without worked assessment material.
+
 Keep learner Markdown unchanged by site setup. Jekyll optional front matter renders it with the lesson layout. _data/course.yml lists only lessons included in that publication. Unwritten planning topics have no links or placeholder pages.
 
 Authoring instructions, planning documents, revision records, tests and dependencies are excluded from the reading site, but remain ordinary repository files. A working-edition label describes publication status without inserting author commentary into lesson prose.

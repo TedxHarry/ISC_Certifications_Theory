@@ -1,0 +1,96 @@
+{
+  "kind": "planned-read-only-certification-request-contract",
+  "verifiedDate": "2026-11-15",
+  "actualApiExecuted": false,
+  "engine": "NEXT_GENERATION",
+  "campaignType": "IDENTITY",
+  "experimental": true,
+  "requiresProtectedBearerToken": true,
+  "actualTenantAndObjectBindingRequired": true,
+  "allowedMethods": [
+    "GET"
+  ],
+  "servicePrefix": "/certification-campaigns/v1",
+  "headers": {
+    "Accept": "application/json",
+    "X-SailPoint-Experimental": "true"
+  },
+  "preferredExistingCaseAlias": "certlab-cls004-context-run01",
+  "requests": [
+    {
+      "key": "campaign",
+      "method": "GET",
+      "path": "/certification-campaigns/v1/campaigns/{campaignId}",
+      "query": {}
+    },
+    {
+      "key": "certifications",
+      "method": "GET",
+      "path": "/certification-campaigns/v1/certifications",
+      "query": {
+        "filters": "campaignRef.id eq \"{campaignId}\"",
+        "limit": 1,
+        "offset": 0,
+        "count": true,
+        "sorters": "name"
+      },
+      "nonAdminAdditionalQuery": {
+        "reviewer-identity": "me"
+      }
+    },
+    {
+      "key": "certification",
+      "method": "GET",
+      "path": "/certification-campaigns/v1/certifications/{certificationId}",
+      "query": {}
+    },
+    {
+      "key": "reviewItems",
+      "method": "GET",
+      "path": "/certification-campaigns/v1/certifications/{certificationId}/review-items",
+      "query": {
+        "limit": 1,
+        "offset": 0,
+        "count": true,
+        "sorters": "certificationSubjectSummary.subjectName"
+      }
+    },
+    {
+      "key": "decisionSummary",
+      "method": "GET",
+      "path": "/certification-campaigns/v1/certifications/{certificationId}/decision-summary",
+      "query": {}
+    }
+  ],
+  "pagination": {
+    "initialOffset": 0,
+    "limit": 1,
+    "maxPagesPerCollection": 10,
+    "advanceByReturnedRecords": true,
+    "requireEmptyTerminalPage": true,
+    "resetOffsetForEachCollection": true,
+    "rejectDuplicateIds": true,
+    "reconcileTotalWhenProvided": true,
+    "changingCaptureIsIncomplete": true
+  },
+  "expectedReviewScope": [
+    {
+      "identityAlias": "certlab-employee01",
+      "sourceAlias": "certlab-reports-csv",
+      "accountAlias": "certlab-account01",
+      "entitlementValue": "certlab-report-export",
+      "decision": "APPROVED"
+    },
+    {
+      "identityAlias": "certlab-employee02",
+      "sourceAlias": "certlab-reports-csv",
+      "accountAlias": "certlab-account02",
+      "entitlementValue": "certlab-report-export",
+      "decision": "REVOKED"
+    }
+  ],
+  "manualFulfillmentEvidence": "separate actual UI/task/file/collection records; no assumed certification-task API mapping",
+  "currentAccountObservation": "separate observation from historical review and later reset",
+  "mutationsRequired": false,
+  "newFixtureAccountsRequired": false
+}

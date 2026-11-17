@@ -1,0 +1,33 @@
+---
+layout: default
+title: "ISC certifications hands-on"
+description: "Practise access reviews, campaign operations and verification in SailPoint ISC."
+---
+<section class="course-introduction">
+  <h1>Put the review into practice.</h1>
+  <p class="lead">Prepare the data, make the decisions and follow the work through to a result you can explain.</p>
+  <p>Start with the training setup and a complete manager review. Then choose the campaign, reviewer or investigation task you need. Specialist tasks are grouped separately.</p>
+  <a class="start-link" href="{{ site.data.hands_on.lessons.first.url | relative_url }}">Start with the training setup</a>
+  <p><a href="#lab-files">Download the lab files</a></p>
+</section>
+{% for group in site.data.hands_on.groups %}
+{% assign group_lessons = site.data.hands_on.lessons | where: "group", group.id %}
+{% if group.id == "specialist" %}<details class="course-library" id="specialist"><summary>{{ group.title | escape }}</summary>
+<p>Choose the task that matches your work and prepare the starting conditions named in its lesson.</p>
+{% else %}<section class="course-module" aria-labelledby="hands-on-{{ group.id }}"><h2 id="hands-on-{{ group.id }}">{{ group.title | escape }}</h2>{% endif %}
+<ol class="course-lessons">
+{% for lesson in group_lessons %}
+  <li><span class="lesson-id">{{ lesson.id }}</span><div>
+    <h3><a href="{{ lesson.url | relative_url }}">{{ lesson.title | escape }}</a></h3>
+    <p>{{ lesson.description | escape }}</p>
+  </div></li>
+{% endfor %}
+</ol>
+{% if group.id == "specialist" %}</details>{% else %}</section>{% endif %}
+{% endfor %}
+<section class="course-module" id="lab-files" aria-labelledby="lab-files-title">
+  <h2 id="lab-files-title">Lab files</h2>
+  <p>Download and extract the lab kit. It contains the lessons, CSV data, expected-value contracts and the read-only collector with its configuration example and offline checks.</p>
+  <a class="start-link" href="{{ '/hands-on/downloads/ISC_Certifications_Lab_Kit.zip' | relative_url }}" download>Download the lab kit</a>
+  <p>Keep the extracted folder structure. The lesson commands run from its course folder. Prepare private working copies against the actual source templates before uploading CSV data.</p>
+</section>

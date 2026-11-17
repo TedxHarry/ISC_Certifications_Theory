@@ -1,0 +1,3 @@
+id,name,displayName,description
+certlab-report-read,certlab-report-read,Report Read,Read permission represented by the training report data
+certlab-report-export,certlab-report-export,Report Export,Export permission represented by the training report data

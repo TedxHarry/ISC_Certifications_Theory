@@ -4,3 +4,7 @@ _site/
 .sass-cache/
 vendor/
 *.log
+hands-on/private/
+hands-on/evidence/raw/
+hands-on/**/__pycache__/
+hands-on/**/*.pyc

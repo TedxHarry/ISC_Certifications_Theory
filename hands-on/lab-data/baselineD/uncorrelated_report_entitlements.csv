@@ -1,0 +1,3 @@
+id,name,displayName,description
+certlab-report-read,certlab-report-read,Read Reports,View reports in the simulated unmatched-account application.
+certlab-report-export,certlab-report-export,Export Reports,Download reports in bulk in the simulated unmatched-account application.

@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "title": "CSV certification removal checkpoints",
+  "diagrams": [
+    {
+      "id": "clb003_csv_flow",
+      "title": "From the review choice to checked CSV data",
+      "kind": "flowchart",
+      "data": {
+        "direction": "TB",
+        "nodes": [
+          {
+            "id": "data",
+            "label": "ISC has five account-permission holdings"
+          },
+          {
+            "id": "preview",
+            "label": "Administrator checks scope and starts review"
+          },
+          {
+            "id": "decision",
+            "label": "Manager01 rejects employee02 export and finalizes review"
+          },
+          {
+            "id": "task",
+            "label": "Inspect actual manual removal task"
+          },
+          {
+            "id": "file",
+            "label": "Simulate external removal in a new CSV version"
+          },
+          {
+            "id": "check",
+            "label": "Collect data and verify four holdings plus task completion"
+          }
+        ],
+        "edges": [
+          {
+            "from": "data",
+            "to": "preview"
+          },
+          {
+            "from": "preview",
+            "to": "decision"
+          },
+          {
+            "from": "decision",
+            "to": "task"
+          },
+          {
+            "from": "task",
+            "to": "file"
+          },
+          {
+            "from": "file",
+            "to": "check"
+          }
+        ]
+      }
+    }
+  ]
+}

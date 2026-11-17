@@ -1,0 +1,6 @@
+id,name,employeeNumber,givenName,familyName,displayName,email,manager
+certlab-employee01,certlab-employee01,certlab-employee01,CertLab,Employee01,CertLab Employee 01,certlab-employee01@example.invalid,certlab-manager01
+certlab-employee02,certlab-employee02,certlab-employee02,CertLab,Employee02,CertLab Employee 02,certlab-employee02@example.invalid,certlab-manager01
+certlab-employee03,certlab-employee03,certlab-employee03,CertLab,Employee03,CertLab Employee 03,certlab-employee03@example.invalid,certlab-manager02
+certlab-manager01,certlab-manager01,certlab-manager01,CertLab,Manager01,CertLab Manager 01,certlab-manager01@example.invalid,
+certlab-manager02,certlab-manager02,certlab-manager02,CertLab,Manager02,CertLab Manager 02,certlab-manager02@example.invalid,certlab-manager01

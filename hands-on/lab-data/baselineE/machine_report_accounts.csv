@@ -1,0 +1,4 @@
+id,name,employeeNumber,accountKind,ownerKey,environment,purpose,groups
+certlab-human-control01,certlab-human-control01,certlab-employee01,human,certlab-manager01,training,Human control account,certlab-report-read
+certlab-svc-report01,certlab-svc-report01,certlab-machine01,service,certlab-manager02,training,Nightly report reading job,certlab-report-read
+certlab-svc-report01,certlab-svc-report01,certlab-machine01,service,certlab-manager02,training,Nightly report reading job,certlab-report-export

@@ -1,0 +1,72 @@
+{
+  "kind": "planned-native-role-composition-fixture",
+  "tenantExecuted": false,
+  "actualObjectBindingRequired": true,
+  "sourceAlias": "certlab-role-design-csv",
+  "authoritative": false,
+  "sourceOwnerAlias": "certlab-manager01",
+  "expectedAccounts": 0,
+  "expectedHoldings": 0,
+  "catalogue": [
+    "certlab-design-read",
+    "certlab-design-export"
+  ],
+  "profiles": [
+    {
+      "alias": "certlab-cls003-read",
+      "sourceAlias": "certlab-role-design-csv",
+      "entitlements": [
+        "certlab-design-read"
+      ],
+      "ownerAlias": "certlab-manager02",
+      "enabled": true,
+      "requestable": false,
+      "expectedHolders": 0
+    },
+    {
+      "alias": "certlab-cls003-export",
+      "sourceAlias": "certlab-role-design-csv",
+      "entitlements": [
+        "certlab-design-export"
+      ],
+      "ownerAlias": "certlab-manager02",
+      "enabled": true,
+      "requestable": false,
+      "expectedHolders": 0
+    }
+  ],
+  "role": {
+    "alias": "certlab-cls003-report-reader",
+    "type": "STANDARD",
+    "ownerAlias": "certlab-manager02",
+    "description": "Temporary test role for report reading; remove Export after review.",
+    "enabled": true,
+    "requestable": false,
+    "criterion": {
+      "type": "IDENTITY_ATTRIBUTE",
+      "attribute": "uid",
+      "operation": "EQUALS",
+      "value": "certlab-cls003-no-member"
+    },
+    "expectedAssignments": 0,
+    "directEntitlements": []
+  },
+  "initialProfiles": [
+    "certlab-cls003-read",
+    "certlab-cls003-export"
+  ],
+  "correctedProfiles": [
+    "certlab-cls003-read"
+  ],
+  "resetProfiles": [
+    "certlab-cls003-read",
+    "certlab-cls003-export"
+  ],
+  "campaignAlias": "certlab-cls003-role-design-run01",
+  "plannedDecision": "REVOKE_CURRENT_COMPOSITION",
+  "remediationOwner": "actual-existing-authorized-org-or-role-admin-bind-privately",
+  "requiresNativeRoleEdit": true,
+  "csvAccountEditRequired": false,
+  "globalPropagationChangeRequired": false,
+  "tenantWideProcessingRequired": false
+}

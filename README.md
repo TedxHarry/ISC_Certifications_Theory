@@ -2,6 +2,10 @@
 
 A beginner-focused theory course on SailPoint Identity Security Cloud access reviews and certification campaigns.
 
+## Hands-on section
+
+November17,2026: the same repository now includes all23 hands-on lessons under [hands-on/](hands-on/README.md), with a [reading section](https://tedxharry.github.io/ISC_Certifications_Theory/hands-on/) and downloadable lab kit. The61 theory lessons retain their existing URLs. [Publication evidence](author/PUBLICATION_2026-11-17_HANDS_ON.md) records the added navigation, file boundaries and observed deployment checks. Author/control files and assessor answers are excluded from Pages; the lab kit contains operational files without worked assessor answers.
+
 Sixty-one topics are authored and published in30 main/28 reference/3 practice. [CRT-061](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md) adds a complete source-owner application walkthrough alongside local060. [Its record](author/revisions/CRT-061_Revision_Record.md) maps sources, scope, independent review and verified account outcomes. The published61-topic edition is30/28/3.214 author meanings/109 helper meanings remain; actual learner/tenant validation is pending.
 
 The course has its own [GitHub repository](https://github.com/TedxHarry/ISC_Certifications_Theory) and [reading site](https://tedxharry.github.io/ISC_Certifications_Theory/). The separate general ISC course is unchanged.

@@ -1,0 +1,26 @@
+{
+  "api_base_url": "",
+  "campaign_id": "",
+  "campaign_name": "certlab-cls004-context-run01",
+  "caller_view": "admin",
+  "certification_ids": [
+    ""
+  ],
+  "reviewer_id": "",
+  "source_id": "",
+  "entitlement_id": "",
+  "attribute_name": "groups",
+  "entitlement_value": "certlab-report-export",
+  "expected_items": [
+    {
+      "identity_id": "",
+      "account_id": "",
+      "decision": "APPROVED"
+    },
+    {
+      "identity_id": "",
+      "account_id": "",
+      "decision": "REVOKED"
+    }
+  ]
+}

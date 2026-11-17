@@ -12,7 +12,10 @@
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <a class="brand" href="{{ '/' | relative_url }}">SailPoint ISC <span>Certifications</span></a>
-      <span class="edition">Working edition</span>
+      <nav class="course-sections" aria-label="Course sections">
+        <a href="{{ '/' | relative_url }}"{% unless page.path contains 'hands-on/' %} aria-current="location"{% endunless %}>Theory</a>
+        <a href="{{ '/hands-on/' | relative_url }}"{% if page.path contains 'hands-on/' %} aria-current="location"{% endif %}>Hands-On</a>
+      </nav>
     </header>
     <div class="site-shell">
       <aside class="course-sidebar" aria-label="Course navigation">
@@ -22,7 +25,11 @@
             <span class="navigation-label-closed">Show lessons</span>
           </summary>
           <div class="navigation-scroll">
-            {% include lesson-list.html %}
+            {% if page.path contains 'hands-on/' %}
+              {% include hands-on-list.html %}
+            {% else %}
+              {% include lesson-list.html %}
+            {% endif %}
           </div>
         </details>
         <script>
@@ -36,7 +43,7 @@
       </main>
     </div>
     <footer class="site-footer">
-      <p>Independent learning material. This course is in development.</p>
+      <p>Independent learning material for SailPoint ISC certifications.</p>
       <a href="https://github.com/{{ site.repository }}">Course repository</a>
     </footer>
   </body>

@@ -1,0 +1,3 @@
+id,name,displayName,description
+certlab-design-read,certlab-design-read,Design Report Read,Read permission definition for the isolated role-design exercise
+certlab-design-export,certlab-design-export,Design Report Export,Export permission definition to remove from the test role through its profile reference
