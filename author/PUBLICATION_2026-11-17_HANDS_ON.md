@@ -20,4 +20,12 @@ The complete fixture validator passes on the original130-file hands-on source. I
 
 ## Publication evidence
 
-Content commit, actual Pages run and public-content checks will be recorded after their results are observed. The GitHub connector can inspect repository/workflow metadata; Pages publishing uses the existing main-branch Git/Pages route because the connector does not expose Pages administration/build operations.
+Content commit a9fb1a3082c8f2c9c8e9d307f13f50d210996cbf was pushed to the existing main branch. [Pages run44030527186](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/44030527186) completed build/report/deploy successfully. The GitHub connector inspected repository/workflow metadata; publishing used the existing main-branch Git/Pages route because the connector does not expose Pages administration/build operations.
+
+The [public hands-on section](https://tedxharry.github.io/ISC_Certifications_Theory/hands-on/) passes complete live verification:23 lessons,3593 nonempty content units,61 tables,26 closed answer disclosures and30 code blocks across25 fetched reading pages. The online ZIP matches its local SHA-256. Author/control/assessor pages return404 and are absent from learner navigation. No validation badge or working-edition marker appears.
+
+The original61 theory pages pass live verification:6819 units,61 diagrams/assets,63 tables and4020 internal-link visits. Their source lesson bodies and permanent URLs are unchanged.
+
+Browser observation at the existing360px viewport confirmed the Theory/Hands-On header, all23 landing entries, a working Hide/Show lessons control and the first live lab with parsed article/table/answer markup and active term-help buttons. The document width remained within the viewport. The hands-on landing tab was left open as the deliverable. This bounded browser check is not a complete device/accessibility matrix or an ISC tenant run.
+
+This publication record and current local/repository status notes are saved afterward. Dated pre-publication author records and the November16 archive retain their original stages. Actual ISC/learner testing remains separate author evidence, without adding a status label to the reading pages.

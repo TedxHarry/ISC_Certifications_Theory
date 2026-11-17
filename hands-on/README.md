@@ -59,7 +59,7 @@ Tenant execution, repeated tenant runs and independent learner tests remain 0. T
 
 The tenant is temporarily unavailable during maintenance, as reported by the user on November 15. Local lesson review can continue. The setup and first review above will be tested when access returns.
 
-This course is local. An author-review archive includes the worked assessor guide and author history; it is not a learner assessment release. Private tenant data and captures are excluded. No hands-on repository or Pages site has been created. The published theory course is separate and unchanged.
+The course is published inside the existing [ISC Certifications Theory repository](https://github.com/TedxHarry/ISC_Certifications_Theory/tree/main/hands-on) and [Hands-On reading section](https://tedxharry.github.io/ISC_Certifications_Theory/hands-on/), verified November17,2026. This folder retains the local authoring source; the publication copy is under the theory repository's hands-on/ folder. The November16 author-review archive includes worked answers and stays separate from the public lab kit, which excludes them.
 
 ## Preparation and author records
 

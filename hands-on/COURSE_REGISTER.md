@@ -1,6 +1,6 @@
 # ISC Certifications Hands-On register
 
-Version1.44. November16,2026.
+Version1.45. November17,2026.
 
 ## Current position
 
@@ -25,7 +25,7 @@ Current availability update, November15: the user reports that the tenant is tem
 | Native AD fixture | BaselineC authored as a planned alias/set contract, not an import or tenant export. Actual source/objects/authority/fault/recovery remain not inspected or run. |
 | Tenant-validated import files | 0. No actual source schema/template export or successful import has occurred. |
 | Actual screenshots | 0. No illustrative image is labelled a tenant observation. |
-| Repository/Pages | Not created for this hands-on course. This folder remains local. |
+| Repository/Pages | Published in the existing ISC_Certifications_Theory repository under hands-on/. Contenta9fb1a3 and Pages run44030527186 succeeded;23 hands-on and61 theory pages live-verified November17. No separate hands-on repository. |
 | Published theory | Separate61-lesson course, unchanged by this project. |
 
 ## Complete learner files

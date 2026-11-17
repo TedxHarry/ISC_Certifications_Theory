@@ -5,7 +5,7 @@ Version 8.24. Updated November 17, 2026.
 
 ## Current position
 
-The user authorized publishing the23 hands-on lessons within this existing repository/site, under hands-on/, without status markings on the reader. The [same-site publication record](author/PUBLICATION_2026-11-17_HANDS_ON.md) records scope and actual deployment evidence. Theory topic counts remain61; hands-on task counts remain separate. Earlier publication records retain their historical scope.
+All23 hands-on lessons are pushed and live within this existing repository/site under hands-on/, without status markings on the reader. The [same-site publication record](author/PUBLICATION_2026-11-17_HANDS_ON.md) confirms contenta9fb1a3, successful Pages run44030527186 and full live checks for23 hands-on plus61 theory learners. Theory topic counts remain61; hands-on task counts remain separate. Earlier publication records retain their historical scope.
 
 Sixty-one topics are authored locally. [CRT-061](lessons/CRT-061_Running_an_Application_Access_Review_with_a_Source_Owner.md) completes the application/source-owner common-work unit after overlap assessment and eight scoped primary checks. Authored and published61/30/28/3.32 coverage rows,24 task families,214 author meanings,109 helper meanings,17 capabilities and11 questions remain. Actual learner/tenant validation is pending.
 

@@ -1,8 +1,10 @@
 # Training environment and lab readiness
 
-Record1.22. November16,2026. This is the working environment record, not a tenant execution report.
+Record1.23. November17,2026. This is the working environment record, not a tenant execution report.
 
 ## What is known
+
+November17: the user confirms maintenance continues and tenant access is still unavailable. The23 hands-on lessons are now published within the existing theory site. Website publication does not change any tenant-readiness or execution result below.
 
 The user confirmed on November14 that an Expert Ambassador training tenant is available, with full administrator access and all options. They chose fresh CSV sources and synthetic test data, with AD available as a later option. No tenant URL or authenticated session has been provided to this project, and no tenant screen, permission, connection or campaign has been inspected.
 
