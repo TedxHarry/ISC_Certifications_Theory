@@ -5,7 +5,7 @@ Version 8.25. Updated November 17, 2026.
 
 ## Current position
 
-The approved Access Owner addition brings hands-on coverage to24 tasks; [its publication record](author/PUBLICATION_2026-11-17_ACCESS_OWNER.md) owns the current deployment evidence. CLB-018 and its optional group variation are placed after005 before006. Theory remains61 topics, with no rewritten theory learner.
+The published Access Owner addition brings hands-on coverage to24 tasks; [its record](author/PUBLICATION_2026-11-17_ACCESS_OWNER.md) confirms contentac9ecf6, successful Pages run44035035636 and complete24-hands-on/61-theory live checks. CLB-018 and its optional group variation are placed after005 before006. Theory remains61 topics, with no rewritten theory learner.
 
 All23 hands-on lessons are pushed and live within this existing repository/site under hands-on/, without status markings on the reader. The [same-site publication record](author/PUBLICATION_2026-11-17_HANDS_ON.md) confirms contenta9fb1a3, successful Pages run44030527186 and full live checks for23 hands-on plus61 theory learners. Theory topic counts remain61; hands-on task counts remain separate. Earlier publication records retain their historical scope.
 

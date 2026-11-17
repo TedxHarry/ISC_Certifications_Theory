@@ -16,4 +16,10 @@ The full source check passes133 files/111 Markdown/426 project-local links/133 t
 
 ## Observed publication
 
-The content push, actual Pages outcome and full public checks will be recorded after they occur.
+Contentac9ecf6e2e91fb12734d8016716eb7414755fc4e was pushed to the existing main branch. [Pages run44035035636](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/44035035636) completed build/report/deploy successfully.
+
+The [new public lesson](https://tedxharry.github.io/ISC_Certifications_Theory/hands-on/lessons/CLB-018_Complete_an_Access_Owner_Review.html) is included in a successful complete live check:24 hands-on learners,3711 text units,62 tables,27 closed answer disclosures,31 code blocks and26 fetched reading pages. The online53-file kit matches its local hash. Author/assessor/control pages remain excluded and no validation marking was added.
+
+Theory verification initially encountered a503 on one unchanged diagram asset. A fresh complete retry passed all61 learners/6819 units/61 diagrams and assets/63 tables/4020 internal-link visits. No asset or learner was changed to bypass that transient failure.
+
+The original133-file authoring source and published copy retain the same new018 content/metadata. All prior permanent learner URLs remain. Actual tenant routing, group/member behavior, owner restoration and learner performance remain separate from website checks.

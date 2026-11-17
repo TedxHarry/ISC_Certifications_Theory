@@ -44,4 +44,4 @@ All21 site tests pass with24 entries; local hands-on content verification covers
 
 ## Publication and next work
 
-Publish018 and the optional variation in the same hands-on reader and rebuild its lab kit without assessor answers. Actual commit/Pages/public-content evidence belongs in the new publication record after observation. Original23-unit audits and previous publication remain dated history. Maintenance remains reported; all tenant/learner outcomes stay unexecuted.
+018 and its optional variation are published in the same reader through contentac9ecf6 and successful Pages run44035035636. Complete live checks pass24 hands-on learners/3711 units/62 tables/27 answer disclosures/31 code blocks, the53-file kit/hash and61 theory pages. Original23-unit audits and earlier publication remain dated history. Maintenance remains reported; all tenant/learner outcomes stay unexecuted.

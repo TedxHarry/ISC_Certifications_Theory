@@ -1,6 +1,6 @@
 # ISC Certifications Hands-On register
 
-Version1.46. November17,2026.
+Version1.47. November17,2026.
 
 ## Current position
 
@@ -25,7 +25,7 @@ Current availability update, November15: the user reports that the tenant is tem
 | Native AD fixture | BaselineC authored as a planned alias/set contract, not an import or tenant export. Actual source/objects/authority/fault/recovery remain not inspected or run. |
 | Tenant-validated import files | 0. No actual source schema/template export or successful import has occurred. |
 | Actual screenshots | 0. No illustrative image is labelled a tenant observation. |
-| Repository/Pages | Published in the existing ISC_Certifications_Theory repository under hands-on/. Contenta9fb1a3 and Pages run44030527186 succeeded;23 hands-on and61 theory pages live-verified November17. No separate hands-on repository. |
+| Repository/Pages | Published in ISC_Certifications_Theory/hands-on/. Current contentac9ecf6 and Pages run44035035636 succeeded;24 hands-on and61 theory learners live-verified November17. No separate hands-on repository. |
 | Published theory | Separate61-lesson course, unchanged by this project. |
 
 ## Complete learner files
@@ -84,7 +84,7 @@ It helps the learner inspect and record the environment without creating or chan
 
 The [course-wide author audit](author/COURSE_WIDE_AUTHOR_AUDIT_2026-11-15.md) is recorded. It checked the23-unit route and entry/reset sections, reviewed selected complete lessons and corrected navigation, manual CSV reset wording and role-cleanup explanation. It is an author consistency review; its report names the reading coverage and remaining validation limits.
 
-The user approved one scoped addition after the original23-unit audit: [CLB-018](lessons/CLB-018_Complete_an_Access_Owner_Review.md) adds a complete access-owner review and optional group-review variation. Current inventory24; place018 after005 before006. Publish this completed addition and its lab kit through the existing site; actual deployment evidence is recorded afterward. Actual CLB-001/002/003 inventory/setup/execution remains the next tenant work when access returns.
+The approved [CLB-018](lessons/CLB-018_Complete_an_Access_Owner_Review.md) addition and optional group-review variation are published and live-verified: current24 learners,018 after005 before006, updated53-file lab kit. Actual CLB-001/002/003 inventory/setup/execution remains the next tenant work when access returns. No new learner is queued without another concrete task gap.
 
 When tenant access returns, establish the first actual execution record:
 

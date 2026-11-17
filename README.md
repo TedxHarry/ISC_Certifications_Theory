@@ -4,7 +4,7 @@ A beginner-focused theory course on SailPoint Identity Security Cloud access rev
 
 ## Hands-on section
 
-The approved [Access Owner addition](author/PUBLICATION_2026-11-17_ACCESS_OWNER.md) brings this section to24 lessons. CLB-018 sits after005 and includes an optional Governance Group reviewer variation; the lab kit includes the new task. The61 theory topics are separate from this practical count.
+The [Access Owner addition](author/PUBLICATION_2026-11-17_ACCESS_OWNER.md) is published and live-verified, bringing this section to24 lessons. CLB-018 sits after005 and includes an optional Governance Group reviewer variation; the updated53-file lab kit includes the task. Pages run44035035636 succeeded and all24 hands-on plus61 theory learners passed live checks. The61 theory topics are separate from this practical count.
 
 November17,2026: all23 hands-on lessons are pushed and live under [hands-on/](hands-on/README.md), with a [reading section](https://tedxharry.github.io/ISC_Certifications_Theory/hands-on/) and downloadable lab kit. [Pages run44030527186](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/44030527186) succeeded; all23 hands-on and61 theory learners passed public-content checks. The61 theory URLs are preserved. [Publication evidence](author/PUBLICATION_2026-11-17_HANDS_ON.md) records scope, navigation and actual checks. Author/control files and assessor answers are excluded from Pages; the lab kit contains operational files without worked assessor answers.
 
