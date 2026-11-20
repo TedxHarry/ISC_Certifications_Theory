@@ -1,0 +1,66 @@
+{
+  "description": null,
+  "diagrams": [
+    {
+      "accessibility": null,
+      "data": {
+        "direction": "TB",
+        "edges": [
+          {
+            "from": "data",
+            "to": "preview"
+          },
+          {
+            "from": "preview",
+            "to": "decision"
+          },
+          {
+            "from": "decision",
+            "to": "task"
+          },
+          {
+            "from": "task",
+            "to": "file"
+          },
+          {
+            "from": "file",
+            "to": "check"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "data",
+            "label": "ISC has five account-permission holdings"
+          },
+          {
+            "id": "preview",
+            "label": "Administrator checks scope and starts review"
+          },
+          {
+            "id": "decision",
+            "label": "Manager01 rejects employee02 export and finalizes review"
+          },
+          {
+            "id": "task",
+            "label": "Inspect actual manual removal task"
+          },
+          {
+            "id": "file",
+            "label": "Simulate external removal in a new CSV version"
+          },
+          {
+            "id": "check",
+            "label": "Collect data and verify four holdings plus task completion"
+          }
+        ]
+      },
+      "description": null,
+      "id": "clb003_csv_flow",
+      "kind": "flowchart",
+      "styles": [],
+      "title": "From the review choice to checked CSV data"
+    }
+  ],
+  "title": "CLB-003_flow",
+  "version": 2
+}

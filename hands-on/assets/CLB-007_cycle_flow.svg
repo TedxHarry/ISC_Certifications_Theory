@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 558" width="680" height="558" role="img" aria-labelledby="title description">
+<title id="title">Two paths into a new preview</title>
+<desc id="description">Collect and check the changed CSV data separately from scheduling. Both paths feed a new preview, which the administrator checks and leaves unstarted.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<path data-from="file" data-to="collected" d="M174.0 116 V135.5 H174.0 V155" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="169.0,146 179.0,146 174.0,155" fill="#006c67"/>
+<path data-from="template" data-to="scheduled" d="M506.0 116 V135.5 H506.0 V155" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="501.0,146 511.0,146 506.0,155" fill="#006c67"/>
+<path data-from="collected" data-to="preview" d="M174.0 250 V277.5 H298.4 V305" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="293.4,296 303.4,296 298.4,305" fill="#006c67"/>
+<path data-from="scheduled" data-to="preview" d="M506.0 250 V277.5 H381.6 V305" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="376.6,296 386.6,296 381.6,305" fill="#006c67"/>
+<path data-from="preview" data-to="checked" d="M340.0 400 V419.5 H340.0 V439" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="335.0,430 345.0,430 340.0,439" fill="#006c67"/>
+<g data-node="file"><rect x="24" y="24" width="300" height="92" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="174.0" y="64.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="174.0" dy="0">Edit the private A account</tspan>
+<tspan x="174.0" dy="24">file</tspan>
+</text></g>
+<g data-node="collected"><rect x="24" y="158" width="300" height="92" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="174.0" y="198.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="174.0" dy="0">Aggregate A and verify its</tspan>
+<tspan x="174.0" dy="24">current ISC access</tspan>
+</text></g>
+<g data-node="template"><rect x="356" y="24" width="300" height="92" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="506.0" y="64.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="506.0" dy="0">Saved campaign: two people</tspan>
+<tspan x="506.0" dy="24">and A Export</tspan>
+</text></g>
+<g data-node="scheduled"><rect x="356" y="158" width="300" height="92" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="506.0" y="198.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="506.0" dy="0">Configured generation date</tspan>
+<tspan x="506.0" dy="24">arrives</tspan>
+</text></g>
+<g data-node="preview"><rect x="132" y="308" width="416" height="92" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="340.0" y="348.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="340.0" dy="0">Prepare a new preview using current ISC</tspan>
+<tspan x="340.0" dy="24">data</tspan>
+</text></g>
+<g data-node="checked"><rect x="132" y="442" width="416" height="92" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="340.0" y="482.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="340.0" dy="0">Administrator checks scope; leave it</tspan>
+<tspan x="340.0" dy="24">unstarted</tspan>
+</text></g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 770" width="520" height="770" role="img" aria-labelledby="title description">
+<title id="title">From the review choice to checked CSV data</title>
+<desc id="description">Follow the rejected Export holding from collected data through reviewer sign-off, manual work, a simulated CSV change and verification.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<path data-from="data" data-to="preview" d="M260.0 116 V131.5 H260.0 V147" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="255.0,138 265.0,138 260.0,147" fill="#006c67"/>
+<path data-from="preview" data-to="decision" d="M260.0 242 V257.5 H260.0 V273" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="255.0,264 265.0,264 260.0,273" fill="#006c67"/>
+<path data-from="decision" data-to="task" d="M260.0 368 V383.5 H260.0 V399" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="255.0,390 265.0,390 260.0,399" fill="#006c67"/>
+<path data-from="task" data-to="file" d="M260.0 494 V509.5 H260.0 V525" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="255.0,516 265.0,516 260.0,525" fill="#006c67"/>
+<path data-from="file" data-to="check" d="M260.0 620 V635.5 H260.0 V651" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="255.0,642 265.0,642 260.0,651" fill="#006c67"/>
+<g data-node="data"><rect x="24" y="24" width="472" height="92" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="260.0" y="76.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="260.0" dy="0">ISC has five account-permission holdings</tspan>
+</text></g>
+<g data-node="preview"><rect x="24" y="150" width="472" height="92" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="260.0" y="202.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="260.0" dy="0">Administrator checks scope and starts review</tspan>
+</text></g>
+<g data-node="decision"><rect x="24" y="276" width="472" height="92" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="260.0" y="316.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="260.0" dy="0">Manager01 rejects employee02 export and</tspan>
+<tspan x="260.0" dy="24">finalizes review</tspan>
+</text></g>
+<g data-node="task"><rect x="24" y="402" width="472" height="92" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="260.0" y="454.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="260.0" dy="0">Inspect actual manual removal task</tspan>
+</text></g>
+<g data-node="file"><rect x="24" y="528" width="472" height="92" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="260.0" y="580.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="260.0" dy="0">Simulate external removal in a new CSV version</tspan>
+</text></g>
+<g data-node="check"><rect x="24" y="654" width="472" height="92" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="260.0" y="694.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="260.0" dy="0">Collect data and verify four holdings plus</tspan>
+<tspan x="260.0" dy="24">task completion</tspan>
+</text></g>
+</svg>

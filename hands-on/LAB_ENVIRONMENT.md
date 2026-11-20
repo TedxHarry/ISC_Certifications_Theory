@@ -1,8 +1,10 @@
 # Training environment and lab readiness
 
-Record1.24. November17,2026. This is the working environment record, not a tenant execution report.
+Record1.25. November20,2026. This is the working environment record, not a tenant execution report.
 
 ## What is known
+
+November20: the user reports that the tenant is still down. No environment inspection, setup, campaign execution or repeat has become possible through this offline reader work.
 
 November17: the user confirms maintenance continues and tenant access is still unavailable. The24 hands-on lessons are now published within the existing theory site. Website publication does not change any tenant-readiness or execution result below.
 

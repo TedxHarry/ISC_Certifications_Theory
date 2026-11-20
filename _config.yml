@@ -47,6 +47,7 @@ exclude:
   - .github
   - hands-on/author
   - hands-on/README.md
+  - hands-on/LAB_KIT_README.md
   - hands-on/AGENTS.md
   - hands-on/COURSE_DESIGN.md
   - hands-on/COURSE_REGISTER.md

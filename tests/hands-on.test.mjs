@@ -70,3 +70,31 @@ test('hands-on reader renders Markdown answers and excludes author and private p
   assert.ok(template.includes('table-scroll'));
   assert.ok(!(await read('hands-on/index.html')).match(/validation pending|not tested|working edition/i));
 });
+
+test('hands-on diagrams have portable SVGs with the same authored nodes and edges', async () => {
+  const found=[];
+  for(const lesson of hands_on.lessons){
+    const text=await read(lesson.source);
+    assert.ok(!text.includes('```mermaid'),lesson.id+' must show a picture without a Mermaid runtime');
+    for(const [,alt,path]of text.matchAll(/^!\[([^\]]+)\]\(([^)]+)\)$/gm)){
+      assert.ok(alt.length>30,lesson.id+' useful diagram alternative');
+      const asset=new URL(path,new URL(lesson.source,root));
+      const svg=await readFile(asset,'utf8');
+      const doc=parseHTML(svg).document;
+      const spec=JSON.parse(await readFile(new URL(asset.href.replace(/\.svg$/,'.canonical.json')),'utf8'));
+      const graph=spec.diagrams[0].data;
+      assert.deepEqual([...doc.querySelectorAll('[data-node]')].map(n=>n.getAttribute('data-node')),graph.nodes.map(n=>n.id));
+      for(const node of graph.nodes){
+        const rendered=[...doc.querySelectorAll(`[data-node="${node.id}"] tspan`)].map(n=>n.textContent).join(' ');
+        assert.equal(rendered,node.label,lesson.id+' '+node.id);
+      }
+      assert.deepEqual([...doc.querySelectorAll('path[data-from]')].map(n=>({from:n.getAttribute('data-from'),to:n.getAttribute('data-to')})),graph.edges);
+      assert.equal(doc.querySelectorAll('polygon').length,graph.edges.length);
+      assert.ok(doc.querySelector('title')&&doc.querySelector('desc'));
+      assert.equal(doc.querySelectorAll('script,foreignObject').length,0);
+      assert.ok(text.includes('class="diagram-scroll"')&&text.includes('tabindex="0"'));
+      found.push(lesson.id);
+    }
+  }
+  assert.deepEqual(found,['CLB-003','CLB-007']);
+});

@@ -15,7 +15,7 @@ const norm=s=>s.normalize('NFKC').replace(/[‘’]/g,"'").replace(/[“”]/g,'
 const inline=s=>norm(s.replace(/<\/?(?:details|summary)\b[^>]*>/g,'').replace(/\*\*|\x60/g,'').replace(/\*([^*\n]+)\*/g,'$1'));
 const cache=new Map();
 async function page(path){if(!cache.has(path)){const response=await fetch(base+path);assert.equal(response.status,200,path);cache.set(path,await response.text());}return parseHTML(cache.get(path)).document;}
-let units=0,tables=0,answers=0,blocks=0;
+let units=0,tables=0,answers=0,blocks=0,diagrams=0;
 for(const lesson of course.lessons){
   const md=await read(lesson.source),prose=[],code=[];let fence=null,current=[];
   for(const line of md.split('\n')){
@@ -24,8 +24,18 @@ for(const lesson of course.lessons){
     if(fence)current.push(line);else prose.push(line);
   }
   assert.equal(fence,null,lesson.id+' closed code fence');
+  const images=[...md.matchAll(/^!\[([^\]]+)\]\(([^)]+)\)$/gm)];
+  for(const [,alt,path]of images){
+    const url=new URL(path,new URL(lesson.source,root));
+    assert.ok(url.href.startsWith(new URL('hands-on/assets/',root).href),lesson.id+' diagram path');
+    const svg=await readFile(url,'utf8');
+    assert.ok(svg.includes('<svg')&&svg.includes('<title')&&svg.includes('<desc'),lesson.id+' accessible SVG');
+    assert.ok(!/<script|<foreignObject|\bon\w+=/i.test(svg),lesson.id+' static SVG');
+    diagrams++;
+  }
   const expected=[];
   for(let line of prose){
+    if(/^!\[|^<\/?div\b/.test(line))continue;
     line=line.replace(/^(?:>[ \t]?)+/gm,'');
     if(/^\|[-|: ]+\|$/.test(line)){tables++;continue;}
     if(line.startsWith('|'))expected.push(...line.slice(1,-1).split('|').map(inline).filter(Boolean));
@@ -37,6 +47,15 @@ for(const lesson of course.lessons){
     const doc=await page(lesson.url),article=doc.querySelector('article.lesson-content');
     assert.ok(article,lesson.id+' article');
     const actual=norm(article.textContent);
+    assert.equal(article.querySelectorAll('img').length,images.length,lesson.id+' diagram count');
+    for(const [,alt,path]of images){
+      const image=[...article.querySelectorAll('img')].find(n=>n.getAttribute('alt')===alt);
+      assert.ok(image,lesson.id+' diagram alternative text');
+      const expectedUrl=new URL(path,base+lesson.url);
+      assert.equal(new URL(image.getAttribute('src'),base+lesson.url).href,expectedUrl.href,lesson.id+' diagram destination');
+      const response=await fetch(expectedUrl);assert.equal(response.status,200,lesson.id+' diagram');
+      assert.equal(await response.text(),await readFile(new URL(path,new URL(lesson.source,root)),'utf8'),lesson.id+' published diagram bytes');
+    }
     for(const s of expected)assert.ok(actual.includes(s),lesson.id+' missing '+s.slice(0,110));
     assert.deepEqual([...article.querySelectorAll('pre code')].map(n=>n.textContent.trimEnd()),code,lesson.id+' code');
     assert.equal(article.querySelectorAll('table').length,prose.filter(s=>/^\|[-|: ]+\|$/.test(s)).length,lesson.id+' tables');
@@ -66,4 +85,4 @@ if(live){
   assert.equal(createHash('sha256').update(online).digest('hex'),createHash('sha256').update(local).digest('hex'),'lab kit content');
   for(const path of ['/hands-on/author/assessments/CLB-017_Assessor_Guide.html','/hands-on/COURSE_REGISTER.html','/hands-on/AGENTS.html','/hands-on/README.html','/hands-on/author/contracts/CLS-006_Config_Example.json'])assert.equal((await fetch(base+path)).status,404,'excluded '+path);
 }
-console.log(JSON.stringify({lessons:course.lessons.length,contentUnits:units,tables,answers,codeBlocks:blocks,servedPages:cache.size,live}));
+console.log(JSON.stringify({lessons:course.lessons.length,contentUnits:units,tables,answers,codeBlocks:blocks,diagrams,servedPages:cache.size,live}));

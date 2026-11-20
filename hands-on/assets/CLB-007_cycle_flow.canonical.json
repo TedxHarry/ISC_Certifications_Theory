@@ -1,0 +1,66 @@
+{
+  "description": null,
+  "diagrams": [
+    {
+      "accessibility": null,
+      "data": {
+        "direction": "TB",
+        "edges": [
+          {
+            "from": "file",
+            "to": "collected"
+          },
+          {
+            "from": "template",
+            "to": "scheduled"
+          },
+          {
+            "from": "collected",
+            "to": "preview"
+          },
+          {
+            "from": "scheduled",
+            "to": "preview"
+          },
+          {
+            "from": "preview",
+            "to": "checked"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "file",
+            "label": "Edit the private A account file"
+          },
+          {
+            "id": "collected",
+            "label": "Aggregate A and verify its current ISC access"
+          },
+          {
+            "id": "template",
+            "label": "Saved campaign: two people and A Export"
+          },
+          {
+            "id": "scheduled",
+            "label": "Configured generation date arrives"
+          },
+          {
+            "id": "preview",
+            "label": "Prepare a new preview using current ISC data"
+          },
+          {
+            "id": "checked",
+            "label": "Administrator checks scope; leave it unstarted"
+          }
+        ]
+      },
+      "description": null,
+      "id": "clb007_cycle_flow",
+      "kind": "flowchart",
+      "styles": [],
+      "title": "Two paths into a new preview"
+    }
+  ],
+  "title": "CLB-007_cycle_flow",
+  "version": 2
+}

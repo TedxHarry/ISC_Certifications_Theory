@@ -32,7 +32,7 @@ The reporting source answers, “Which reporting account belongs to this person,
 
 Those are different questions. We don't want each reporting account to create another person. The people source will be **authoritative**: it supplies the trusted records from which ISC creates identities. The reporting source will supply additional accounts for those identities.
 
-Use the three supplied files from the baselineA data package:
+In the extracted `ISC_Certifications_Hands_On` folder, open `lab-data/baselineA`. Use these three starting files:
 
 | File | What it supplies |
 |---|---|

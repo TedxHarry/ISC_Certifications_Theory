@@ -132,20 +132,11 @@ If Export is still on account02, investigate that mismatch before continuing. Ch
 
 The two paths meet when new review work is prepared:
 
-```mermaid
-flowchart TB
-  file["Edit the private A account file"]
-  collected["Aggregate A and verify its current ISC access"]
-  template["Saved campaign&#58; two people and A Export"]
-  scheduled["Configured generation date arrives"]
-  preview["Prepare a new preview using current ISC data"]
-  checked["Administrator checks scope&#59; leave it unstarted"]
-  file --> collected
-  template --> scheduled
-  collected --> preview
-  scheduled --> preview
-  preview --> checked
-```
+<div class="diagram-scroll" role="region" aria-label="Data collection and scheduled preview flow" tabindex="0" markdown="block">
+
+![Changed CSV data is collected and verified separately from the saved campaign schedule. Both paths feed a new preview, which the administrator checks and leaves unstarted.](../assets/CLB-007_cycle_flow.svg)
+
+</div>
 
 The schedule prepares a preview; it does not upload your private CSV. That is why we collect the changed file and verify ISC's current access before relying on the next preparation.
 
