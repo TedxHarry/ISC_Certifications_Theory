@@ -97,7 +97,7 @@ test('hands-on diagrams have portable SVGs with the same authored nodes and edge
       found.push(lesson.id);
     }
   }
-  assert.deepEqual(found,['CLB-002','CLB-003','CLB-007']);
+  assert.deepEqual(found,['CLB-002','CLB-003','CLB-007','CLB-013']);
   // These canonical fixtures deliberately contain no quoted commas or newlines.
   const csvRows=text=>{const [header,...rows]=text.trim().split(/\r?\n/).map(s=>s.split(','));return rows.map(row=>Object.fromEntries(header.map((key,i)=>[key,row[i]])));};
   const people=csvRows(await read('hands-on/lab-data/baselineA/people.csv'));
@@ -113,4 +113,15 @@ test('hands-on diagrams have portable SVGs with the same authored nodes and edge
   assert.ok(node('people_account').includes(`manager = ${employee.manager}`));
   assert.ok(node('manager_identity').includes(`identificationNumber = ${manager.employeeNumber}`));
   assert.deepEqual(pairs.edges.map(({from,to})=>[from,to]),[['report_account','employee_identity'],['people_account','manager_identity']]);
+  const overlap=JSON.parse(await read('hands-on/assets/CLB-013_retained_read.canonical.json')).diagrams[0].data;
+  assert.equal(overlap.nodes.filter(n=>n.id==='read').length,1,'one shared Read holding');
+  assert.deepEqual(overlap.edges.filter(e=>e.to==='read').map(e=>e.from),['profile','role']);
+  assert.deepEqual(overlap.edges.filter(e=>e.to==='export').map(e=>e.from),['profile']);
+  assert.ok(overlap.nodes.find(n=>n.id==='profile').label.includes('Detected'));
+  const after=csvRows(await read('hands-on/lab-data/baselineA/report_accounts_after_employee02_export_removal.csv'));
+  assert.deepEqual(accounts.filter(a=>a.id==='certlab-account02').map(a=>a.groups).sort(),['certlab-report-export','certlab-report-read']);
+  assert.deepEqual(after.filter(a=>a.id==='certlab-account02').map(a=>a.groups),['certlab-report-read']);
+  const overlapSvg=await read('hands-on/assets/CLB-013_retained_read.svg');
+  assert.ok(overlapSvg.includes('Expected after review and completed removal'));
+  assert.ok(overlapSvg.includes('While the Read-only role still applies.'));
 });

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 598" width="600" height="598" role="img" aria-labelledby="title description">
+<title id="title">The role still requires the same Read permission</title>
+<desc id="description">Employee02, source A, account02: the independent detected profile contains Read and Export; the separate assigned role requires the same Read holding. The expected result after review and completed removal is retained Read and removed Export while the role still applies.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="32" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#123047">Employee02 · Source A · Account02</text>
+<text x="24" y="478" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#123047">Expected after review and completed removal</text>
+<text x="24" y="520" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#123047">Read remains. Export is removed.</text>
+<text x="24" y="562" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#123047">While the Read-only role still applies.</text>
+<path data-from="profile" data-to="read" d="M154.0 176 V244.5 H394.0 V313" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="389.0,304 399.0,304 394.0,313" fill="#006c67"/>
+<path data-from="profile" data-to="export" d="M154.0 176 V244.5 H154.0 V313" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="149.0,304 159.0,304 154.0,313" fill="#006c67"/>
+<rect x="104.0" y="230.5" width="100" height="28" fill="#ffffff"/>
+<text data-edge-label="profile-export" x="154.0" y="250.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#006c67">Contains</text>
+<path data-from="role" data-to="read" d="M446.0 176 V244.5 H446.0 V313" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="441.0,304 451.0,304 446.0,313" fill="#006c67"/>
+<rect x="396.0" y="230.5" width="100" height="28" fill="#ffffff"/>
+<text data-edge-label="role-read" x="446.0" y="250.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#006c67">Requires</text>
+<g data-node="profile"><rect x="24" y="64" width="260" height="112" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="154.0" y="114.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="154.0" dy="0">Independent profile</tspan>
+<tspan x="154.0" dy="24">Detected: Read + Export</tspan>
+</text></g>
+<g data-node="role"><rect x="316" y="64" width="260" height="112" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="446.0" y="102.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="446.0" dy="0">Separate role</tspan>
+<tspan x="446.0" dy="24">Assigned to employee02</tspan>
+<tspan x="446.0" dy="24">Requires Read only</tspan>
+</text></g>
+<g data-node="read"><rect x="316" y="316" width="260" height="108" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="446.0" y="352.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="446.0" dy="0">Read Reports</tspan>
+<tspan x="446.0" dy="24">One holding on A</tspan>
+<tspan x="446.0" dy="24">account02</tspan>
+</text></g>
+<g data-node="export"><rect x="24" y="316" width="260" height="108" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="154.0" y="352.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="154.0" dy="0">Export Reports</tspan>
+<tspan x="154.0" dy="24">One holding on A</tspan>
+<tspan x="154.0" dy="24">account02</tspan>
+</text></g>
+</svg>

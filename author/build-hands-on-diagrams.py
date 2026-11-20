@@ -23,6 +23,8 @@ def build(stem, positions, width, height, description, headings=()):
         start, end = (x+w/2,y+h), (tx+tw/2,ty-3)
         if stem.startswith('CLB-007') and edge['to'] == 'preview':
             end = (tx+tw*(0.4 if edge['from']=='collected' else 0.6),ty-3)
+        if stem.startswith('CLB-013') and edge['from']=='profile' and edge['to']=='read':
+            end = (tx+tw*0.3,ty-3)
         mid = (start[1]+end[1])/2
         path = f'M{start[0]} {start[1]} V{mid} H{end[0]} V{end[1]}'
         parts.append(f'<path data-from="{edge["from"]}" data-to="{edge["to"]}" d="{path}" fill="none" stroke="#006c67" stroke-width="2"/>')
@@ -51,4 +53,7 @@ build('CLB-003_flow', {key:(24,24+i*126,472,92) for i,key in enumerate(['data','
       'Follow the rejected Export holding from collected data through reviewer sign-off, manual work, a simulated CSV change and verification.')
 build('CLB-007_cycle_flow', {'file':(24,24,300,92),'template':(356,24,300,92),'collected':(24,158,300,92),'scheduled':(356,158,300,92),'preview':(132,308,416,92),'checked':(132,442,416,92)}, 680, 558,
       'Collect and check the changed CSV data separately from scheduling. Both paths feed a new preview, which the administrator checks and leaves unstarted.')
-print('Built three hands-on SVG diagrams from their canonical nodes and edges.')
+build('CLB-013_retained_read', {'profile':(24,64,260,112),'role':(316,64,260,112),'read':(316,316,260,108),'export':(24,316,260,108)}, 600, 598,
+      'Employee02, source A, account02: the independent detected profile contains Read and Export; the separate assigned role requires the same Read holding. The expected result after review and completed removal is retained Read and removed Export while the role still applies.',
+      [(24,32,'Employee02 · Source A · Account02'),(24,478,'Expected after review and completed removal'),(24,520,'Read remains. Export is removed.'),(24,562,'While the Read-only role still applies.')])
+print('Built four hands-on SVG diagrams from their canonical nodes and edges.')

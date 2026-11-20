@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "title": "One Read holding shared by two access relationships",
+  "description": "In the prepared employee02 case, an independent detected profile contains A Read and Export. A separate assigned role requires the same A Read. After profile revocation and completed removal work, Read is expected to remain while Export is removed, provided that role still applies.",
+  "diagrams": [{
+    "id": "clb013_retained_read",
+    "title": "The role still requires the same Read permission",
+    "kind": "flowchart",
+    "data": {
+      "direction": "TB",
+      "nodes": [
+        {"id": "profile", "label": "Independent profile\nDetected: Read + Export"},
+        {"id": "role", "label": "Separate role\nAssigned to employee02\nRequires Read only"},
+        {"id": "read", "label": "Read Reports\nOne holding on A account02"},
+        {"id": "export", "label": "Export Reports\nOne holding on A account02"}
+      ],
+      "edges": [
+        {"from": "profile", "to": "read"},
+        {"from": "profile", "to": "export", "label": "Contains"},
+        {"from": "role", "to": "read", "label": "Requires"}
+      ]
+    }
+  }]
+}

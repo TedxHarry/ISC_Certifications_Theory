@@ -49,6 +49,18 @@ A **membership criterion** is a condition used to decide who should receive a ro
 
 Both paths refer to the same A account and Read entitlement. They do not create two copies of Read on that account.
 
+Here is the relationship we are preparing for employee02:
+
+<div class="diagram-scroll" role="region" aria-label="One Read holding shared by a profile and a separate role" tabindex="0" markdown="block">
+
+![The independent profile contains Read and Export on A account02. The separate assigned role requires that same Read holding. After profile revocation and completed removal work, the expected result is Read retained and Export removed while the role still applies.](../assets/CLB-013_retained_read.svg)
+
+</div>
+
+Follow the two arrows into Read. One comes from the profile that contains it. The other comes from the role that requires it. They meet at one holding on account02.
+
+Revoking the independent profile leaves the role's requirement for Read in place. Export has no other requirement in this prepared model, so Export is the right we expect the removal work to remove. We will check the actual assignments, task and account result as we perform the exercise.
+
 The supplied work facts are simple: employee02 no longer needs bulk export, but still needs reading. The separate Read role represents that continuing requirement.
 
 ## Create the profile over rights already present
