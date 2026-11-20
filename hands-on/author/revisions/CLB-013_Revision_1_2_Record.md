@@ -23,3 +23,11 @@ The [editable definition](../../assets/CLB-013_retained_read.canonical.json) val
 All22 site tests pass in a fresh run. They check one shared Read node with profile/role incoming edges, profile-only Export, detected origin, initial account02 Read+Export and the supplied Read-only result. They also preserve the footer's completion/role conditions. These are fixture and asset checks, not evidence that ISC processed this setup.
 
 The rebuilt61-file kit contains the24 existing guides,14 unchanged CSVs and the new image/definition pair. CRC, every packaged byte and all27 relative Markdown/image references pass. SHA-256:dad8efb2ba752dd50272d70e69d5199f457d0eff1b8ac0e8db9c1c5049edd755. Local content verification passes24 learners/3717 units/62 tables/27 answers/29 code blocks/four SVGs. Publication remains a separate observed step.
+
+## Observed publication
+
+Content651d5d1bce864a0074df9639679a1515ac3b92a7 was pushed to main. [Pages run44744384209](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/44744384209) completed build, report and deployment successfully on November20.
+
+Complete live verification passes24 hands-on learners/3717 units/62 tables/27 closed answers/29 code blocks/four served diagrams/26 fetched reading pages. The new picture is an img element with the correct alternative and destination, and all SVG content matches after Git's CRLF/LF normalization. The online61-file kit matches its exact local SHA-256; author/control/assessor pages remain excluded. Separate theory verification passes61 learners/6819 units/61 diagrams and assets/63 tables/4020 link visits.
+
+Publication and fixture checks do not establish a live role assignment, removal result or learner understanding. The original authoring folder remains unchanged; this revision belongs to the published repository's learner copy.

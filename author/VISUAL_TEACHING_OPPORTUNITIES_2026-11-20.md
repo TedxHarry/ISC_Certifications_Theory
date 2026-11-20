@@ -29,3 +29,7 @@ For source-owner004, the inspected responsibilities suggest a possible later rou
 ## Editorial recommendation
 
 Start with one setup002 illustration, then check whether it makes a reader's reasoning clearer before expanding. Judge a visual by the question it answers: which record is this, which value matches, what changes, who acts and why the next result follows. Label relationship arrows with their meaning; a row of unexplained ISC terms provides little extra help. Keep the explanation beside the picture, retain useful tables for exact inventories and let each topic determine its own presentation. No diagram quota or new lesson is proposed.
+
+## Subsequent approved work
+
+The user continued both candidates separately. Setup002 revision1.2 and retained-access013 revision1.2 are now published/live-verified, with their own source, fixture, asset and publication records. The diagram counts and observations in this earlier review remain historical. No independent learner outcome is inferred from either addition. The two concrete gaps identified here have been addressed; no remaining recommendation justifies an automatic diagram for each lesson.

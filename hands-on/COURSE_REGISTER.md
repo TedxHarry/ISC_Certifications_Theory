@@ -4,7 +4,7 @@ Version1.51. November20,2026.
 
 ## Current position
 
-The013 retained-access illustration is prepared at revision1.2 with its [record](author/revisions/CLB-013_Revision_1_2_Record.md). Four nodes and three arrows show a detected independent profile and a separate assigned role referring to the same Read holding. The expected-result footer keeps review/removal completion and the continuing role condition explicit. Local content checks pass24 learners/3717 units/four SVGs; the61-file kit has27 valid relative links. No source setup, fixture, ID, URL or execution state changes. Publication follows separately.
+The013 retained-access illustration is published/live-verified at revision1.2: content651d5d1 and successful Pages run44744384209, with its [record](author/revisions/CLB-013_Revision_1_2_Record.md). Four nodes and three arrows show a detected independent profile and a separate assigned role referring to the same Read holding. The expected-result footer keeps review/removal completion and the continuing role condition explicit. Complete checks pass24 public learners/3717 units/four SVGs and the exact61-file kit; all61 theory learners also pass live checks. No source setup, fixture, ID, URL or execution state changes. Both targeted illustration recommendations are complete; further additions require a concrete gap.
 
 The approved002 visual pilot is published/live-verified at revision1.2: content9864416 and successful Pages run44741935680, with its [record](author/revisions/CLB-002_Revision_1_2_Record.md). A four-record/two-match picture and its adjacent explanation show how the actual account and manager keys lead to different identities. Verification passes24 public learners/3714 units/three SVGs, all22 site tests and the59-file kit; all61 theory learners also pass live checks. This revises one existing lesson without changing source setup, fixtures, IDs, URLs or actual execution state.
 
@@ -121,7 +121,7 @@ Planned means no learner file exists yet.
 | CLB-010 | Make clear decisions and finalize correctly | Authored/reviewed1.1; unsigned correction, scoped decisions and CSV closure | Not run |
 | CLB-011 | Verify automated removal and recover failure | Authored/reviewed1.1; clear native prerequisites, membership/write distinction and scoped recovery | Not run; AD setup/authority not verified |
 | CLB-012 | Complete and verify manual removal | Authored/reviewed1.1; staged two-source CSV tasks and conditional live manual variant | Not run; manual C configuration not verified |
-| CLB-013 | Explain and investigate retained access | Prepared1.2; one shared-Read illustration and conditional expected result | Not run; model/detection/retention not verified |
+| CLB-013 | Explain and investigate retained access | Published/live-verified1.2; one shared-Read illustration and conditional expected result | Not run; model/detection/retention not verified |
 | CLB-014 | Monitor, follow up and handle unfinished work | Authored/reviewed1.1; clear progress/report meanings, actor handovers and blank overdue-maintain case | Not run; deadline/admin handling not observed |
 | CLB-015 | Produce a connected evidence trail | Authored/reviewed1.1; blank index entry, clearer record/actor/time meanings and optional capture | Not run; no actual evidence package or live proof |
 | CLB-016 | Correct/retire a campaign with evidence preserved | Authored/reviewed1.1; clear state/scope meanings, unused-preview removal and linked later review | Not run; signed edit/in-flight deletion effects unverified |

@@ -5,7 +5,7 @@ Version 8.30. Updated November 20, 2026.
 
 ## Current position
 
-The second targeted illustration is prepared in hands-on013 revision1.2. Its [record](hands-on/author/revisions/CLB-013_Revision_1_2_Record.md) documents the same-account overlap, one shared Read holding, the separate role requirement, conditional expected result and61-file kit. It preserves the case's operating and investigation checks and does not resolve OQ-07. Lesson counts stay61 theory/24 hands-on; no tenant result is added. Publication evidence follows deployment.
+The second targeted illustration is published/live-verified in hands-on013 revision1.2: content651d5d1 and successful Pages run44744384209. Its [record](hands-on/author/revisions/CLB-013_Revision_1_2_Record.md) documents the same-account overlap, one shared Read holding, the separate role requirement, conditional expected result and61-file kit. Complete24-hands-on/61-theory live checks pass. It preserves the case's operating and investigation checks and does not resolve OQ-07. Both targeted visual recommendations are now implemented; no further illustration is queued without a concrete teaching gap. Lesson counts and actual execution state remain unchanged.
 
 The approved visual pilot is published/live-verified as hands-on002 revision1.2: content9864416 and successful Pages run44741935680. Its [record](hands-on/author/revisions/CLB-002_Revision_1_2_Record.md) documents one picture, the adjacent explanation, source checks, exact fixture reconciliation,22 passing tests and the59-file kit. The picture separates the account-holder and employee-manager matches. Complete24-hands-on/61-theory live checks pass; lesson counts and tenant execution state remain unchanged.
 
