@@ -227,6 +227,18 @@ Open employee02's identity. Check the actual records in this order:
 4. Account02 holds Read Reports and Export Reports.
 5. The identity's manager link opens manager01, not manager02.
 
+Follow the values in these two matches. Each pair uses the settings you configured above.
+
+<div class="diagram-scroll" role="region" aria-label="Account-holder and manager matching relationships" tabindex="0" markdown="block">
+
+![Account correlation matches reporting account02's employeeNumber to employee02's identity. Separately, manager correlation matches the manager value on employee02's people account to manager01's identity.](../assets/CLB-002_two_matches.svg)
+
+</div>
+
+In the top pair, the reporting account carries `certlab-employee02` as its employee number. That value matches employee02's Identification Number. This tells ISC whose account it is.
+
+In the bottom pair, employee02's people record carries `certlab-manager01` in its manager field. That value matches manager01's Identification Number. This identifies employee02's manager; manager01 does not become the holder of the reporting account.
+
 That is the connection a future manager review needs. The reporting account supplies the access; its identity tells us who holds it; the manager relationship identifies the intended manager.
 
 Check the other two employees against the complete baseline:

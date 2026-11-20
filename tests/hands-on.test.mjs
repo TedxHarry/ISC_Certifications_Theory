@@ -86,9 +86,10 @@ test('hands-on diagrams have portable SVGs with the same authored nodes and edge
       assert.deepEqual([...doc.querySelectorAll('[data-node]')].map(n=>n.getAttribute('data-node')),graph.nodes.map(n=>n.id));
       for(const node of graph.nodes){
         const rendered=[...doc.querySelectorAll(`[data-node="${node.id}"] tspan`)].map(n=>n.textContent).join(' ');
-        assert.equal(rendered,node.label,lesson.id+' '+node.id);
+        assert.equal(rendered,node.label.replace(/\s+/g,' '),lesson.id+' '+node.id);
       }
-      assert.deepEqual([...doc.querySelectorAll('path[data-from]')].map(n=>({from:n.getAttribute('data-from'),to:n.getAttribute('data-to')})),graph.edges);
+      assert.deepEqual([...doc.querySelectorAll('path[data-from]')].map(n=>({from:n.getAttribute('data-from'),to:n.getAttribute('data-to')})),graph.edges.map(({from,to})=>({from,to})));
+      for(const edge of graph.edges.filter(e=>e.label))assert.equal(doc.querySelector(`[data-edge-label="${edge.from}-${edge.to}"]`).textContent,edge.label);
       assert.equal(doc.querySelectorAll('polygon').length,graph.edges.length);
       assert.ok(doc.querySelector('title')&&doc.querySelector('desc'));
       assert.equal(doc.querySelectorAll('script,foreignObject').length,0);
@@ -96,5 +97,20 @@ test('hands-on diagrams have portable SVGs with the same authored nodes and edge
       found.push(lesson.id);
     }
   }
-  assert.deepEqual(found,['CLB-003','CLB-007']);
+  assert.deepEqual(found,['CLB-002','CLB-003','CLB-007']);
+  // These canonical fixtures deliberately contain no quoted commas or newlines.
+  const csvRows=text=>{const [header,...rows]=text.trim().split(/\r?\n/).map(s=>s.split(','));return rows.map(row=>Object.fromEntries(header.map((key,i)=>[key,row[i]])));};
+  const people=csvRows(await read('hands-on/lab-data/baselineA/people.csv'));
+  const accounts=csvRows(await read('hands-on/lab-data/baselineA/report_accounts.csv'));
+  const employee=people.find(p=>p.id==='certlab-employee02');
+  const account=accounts.find(a=>a.id==='certlab-account02');
+  const manager=people.find(p=>p.employeeNumber===employee.manager);
+  const pairs=JSON.parse(await read('hands-on/assets/CLB-002_two_matches.canonical.json')).diagrams[0].data;
+  const node=id=>pairs.nodes.find(n=>n.id===id).label;
+  assert.equal(account.employeeNumber,employee.employeeNumber);
+  assert.ok(node('report_account').includes(`employeeNumber = ${account.employeeNumber}`));
+  assert.ok(node('employee_identity').includes(`identificationNumber = ${employee.employeeNumber}`));
+  assert.ok(node('people_account').includes(`manager = ${employee.manager}`));
+  assert.ok(node('manager_identity').includes(`identificationNumber = ${manager.employeeNumber}`));
+  assert.deepEqual(pairs.edges.map(({from,to})=>[from,to]),[['report_account','employee_identity'],['people_account','manager_identity']]);
 });

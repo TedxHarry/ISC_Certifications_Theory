@@ -1,8 +1,10 @@
 # ISC Certifications Hands-On register
 
-Version1.49. November20,2026.
+Version1.50. November20,2026.
 
 ## Current position
+
+The approved002 visual pilot is prepared at revision1.2 with its [record](author/revisions/CLB-002_Revision_1_2_Record.md). A four-record/two-match picture and its adjacent explanation show how the actual account and manager keys lead to different identities. Local verification passes24 learners/3714 units/three SVGs, all22 site tests and the59-file kit's26 relative links. This revises one existing lesson without changing source setup, fixtures, IDs, URLs or actual execution state. Deployment evidence follows separately.
 
 The [November20 beginner-entry review](../author/BEGINNER_ENTRY_REVIEW_2026-11-20.md) records published/live-verified002 revision1.1,003 revision1.1 and007 revision1.2: content74dfeac and successful Pages run44735847116. It clarifies the extracted-file location and displays the existing two flows as static images. The homepage and57-file download gain clearer starting instructions and portable images. Existing24 lesson IDs, CSV values, procedures and route order remain. Full24-hands-on/61-theory live checks pass; the November17 publication records retain their exact historical revision. Tenant maintenance continues, as reported November20.
 
@@ -105,7 +107,7 @@ Planned means no learner file exists yet.
 | ID | Practical task | Writing state | Actual tenant execution |
 |---|---|---|---|
 | CLB-001 | Confirm the training setup | Authored/reviewed1.1 | Not run |
-| CLB-002 | Prepare and prove the small baseline | Published/live-verified1.1; exact extracted baselineA location clarified | Not run |
+| CLB-002 | Prepare and prove the small baseline | Prepared1.2; one labelled account/manager matching picture and explanation | Not run |
 | CLB-003 | Complete one manager review | Published/live-verified1.1; same flow displayed as portable SVG | Not run |
 | CLB-004 | Complete an application/source-owner review | Authored/reviewed1.1; clarified owner/subject/reviewer flow and task/reset checks | Not run |
 | CLB-005 | Build a targeted Search review | Authored/reviewed1.1; clarified A/B selection, record IDs and task/reset checks | Not run |

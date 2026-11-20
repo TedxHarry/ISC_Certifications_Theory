@@ -1,4 +1,4 @@
-"""Build the two authored hands-on flows as portable, script-free SVGs."""
+"""Build the authored hands-on diagrams as portable, script-free SVGs."""
 import json
 import textwrap
 from pathlib import Path
@@ -6,7 +6,7 @@ from xml.sax.saxutils import escape
 
 assets = Path(__file__).resolve().parents[1] / 'hands-on' / 'assets'
 
-def build(stem, positions, width, height, description):
+def build(stem, positions, width, height, description, headings=()):
     spec = json.loads((assets / (stem + '.canonical.json')).read_text(encoding='utf-8'))
     diagram = spec['diagrams'][0]
     nodes = diagram['data']['nodes']
@@ -15,6 +15,8 @@ def build(stem, positions, width, height, description):
              '<title id="title">' + escape(diagram['title']) + '</title>',
              '<desc id="description">' + escape(description) + '</desc>',
              '<rect width="100%" height="100%" fill="#ffffff"/>']
+    for x,y,label in headings:
+        parts.append(f'<text x="{x}" y="{y}" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#123047">{escape(label)}</text>')
     for edge in diagram['data']['edges']:
         x,y,w,h = positions[edge['from']]
         tx,ty,tw,th = positions[edge['to']]
@@ -25,9 +27,13 @@ def build(stem, positions, width, height, description):
         path = f'M{start[0]} {start[1]} V{mid} H{end[0]} V{end[1]}'
         parts.append(f'<path data-from="{edge["from"]}" data-to="{edge["to"]}" d="{path}" fill="none" stroke="#006c67" stroke-width="2"/>')
         parts.append(f'<polygon points="{end[0]-5},{end[1]-9} {end[0]+5},{end[1]-9} {end[0]},{end[1]}" fill="#006c67"/>')
+        if edge.get('label'):
+            label_width=len(edge['label'])*10+20
+            parts.append(f'<rect x="{start[0]-label_width/2}" y="{mid-14}" width="{label_width}" height="28" fill="#ffffff"/>')
+            parts.append(f'<text data-edge-label="{edge["from"]}-{edge["to"]}" x="{start[0]}" y="{mid+6}" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#006c67">{escape(edge["label"])}</text>')
     for node in nodes:
         x,y,w,h = positions[node['id']]
-        lines = textwrap.wrap(node['label'], width=int((w-28)/9.5))
+        lines = [line for paragraph in node['label'].split('\n') for line in textwrap.wrap(paragraph, width=int((w-28)/9.5))]
         assert len(lines)*24 <= h-16, node['id']
         parts.append(f'<g data-node="{node["id"]}"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="8" fill="#eff4f8" stroke="#526574"/>')
         first = y+h/2-(len(lines)-1)*12+6
@@ -38,8 +44,11 @@ def build(stem, positions, width, height, description):
     parts.append('</svg>')
     (assets / (stem+'.svg')).write_text('\n'.join(parts)+'\n', encoding='utf-8')
 
+build('CLB-002_two_matches', {'report_account':(24,64,552,105),'employee_identity':(24,239,552,105),'people_account':(24,452,552,105),'manager_identity':(24,627,552,105)}, 600, 756,
+      'Two separate configured matches: reporting account02 belongs to employee02; the manager value on employee02\'s people account identifies manager01. These are account-holder and manager relationships, not a sequence of campaign actions.',
+      [(24,32,'1. Find the reporting account\'s holder'),(24,420,'2. Find employee02\'s manager')])
 build('CLB-003_flow', {key:(24,24+i*126,472,92) for i,key in enumerate(['data','preview','decision','task','file','check'])}, 520, 770,
       'Follow the rejected Export holding from collected data through reviewer sign-off, manual work, a simulated CSV change and verification.')
 build('CLB-007_cycle_flow', {'file':(24,24,300,92),'template':(356,24,300,92),'collected':(24,158,300,92),'scheduled':(356,158,300,92),'preview':(132,308,416,92),'checked':(132,442,416,92)}, 680, 558,
       'Collect and check the changed CSV data separately from scheduling. Both paths feed a new preview, which the administrator checks and leaves unstarted.')
-print('Built two hands-on SVG diagrams from their canonical nodes and edges.')
+print('Built three hands-on SVG diagrams from their canonical nodes and edges.')

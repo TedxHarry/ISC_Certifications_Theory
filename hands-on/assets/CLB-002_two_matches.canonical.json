@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "title": "Two matches with different jobs",
+  "description": "The configured account match identifies the reporting account holder. The configured manager match identifies that employee's manager.",
+  "diagrams": [{
+    "id": "clb002_two_matches",
+    "title": "Account correlation and manager correlation",
+    "kind": "flowchart",
+    "data": {
+      "direction": "TB",
+      "nodes": [
+        {"id": "report_account", "label": "Reporting-source account\ncertlab-account02\nemployeeNumber = certlab-employee02"},
+        {"id": "employee_identity", "label": "Employee identity in ISC\ncertlab-employee02\nidentificationNumber = certlab-employee02"},
+        {"id": "people_account", "label": "People-source account\ncertlab-employee02\nmanager = certlab-manager01"},
+        {"id": "manager_identity", "label": "Manager identity in ISC\ncertlab-manager01\nidentificationNumber = certlab-manager01"}
+      ],
+      "edges": [
+        {"from": "report_account", "to": "employee_identity", "label": "Match the employee key"},
+        {"from": "people_account", "to": "manager_identity", "label": "Match the manager key"}
+      ]
+    }
+  }]
+}

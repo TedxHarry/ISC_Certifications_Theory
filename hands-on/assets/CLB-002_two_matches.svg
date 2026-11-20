@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 756" width="600" height="756" role="img" aria-labelledby="title description">
+<title id="title">Account correlation and manager correlation</title>
+<desc id="description">Two separate configured matches: reporting account02 belongs to employee02; the manager value on employee02's people account identifies manager01. These are account-holder and manager relationships, not a sequence of campaign actions.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="32" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#123047">1. Find the reporting account's holder</text>
+<text x="24" y="420" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="600" fill="#123047">2. Find employee02's manager</text>
+<path data-from="report_account" data-to="employee_identity" d="M300.0 169 V202.5 H300.0 V236" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="295.0,227 305.0,227 300.0,236" fill="#006c67"/>
+<rect x="180.0" y="188.5" width="240" height="28" fill="#ffffff"/>
+<text data-edge-label="report_account-employee_identity" x="300.0" y="208.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#006c67">Match the employee key</text>
+<path data-from="people_account" data-to="manager_identity" d="M300.0 557 V590.5 H300.0 V624" fill="none" stroke="#006c67" stroke-width="2"/>
+<polygon points="295.0,615 305.0,615 300.0,624" fill="#006c67"/>
+<rect x="185.0" y="576.5" width="230" height="28" fill="#ffffff"/>
+<text data-edge-label="people_account-manager_identity" x="300.0" y="596.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#006c67">Match the manager key</text>
+<g data-node="report_account"><rect x="24" y="64" width="552" height="105" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="300.0" y="98.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="300.0" dy="0">Reporting-source account</tspan>
+<tspan x="300.0" dy="24">certlab-account02</tspan>
+<tspan x="300.0" dy="24">employeeNumber = certlab-employee02</tspan>
+</text></g>
+<g data-node="employee_identity"><rect x="24" y="239" width="552" height="105" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="300.0" y="273.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="300.0" dy="0">Employee identity in ISC</tspan>
+<tspan x="300.0" dy="24">certlab-employee02</tspan>
+<tspan x="300.0" dy="24">identificationNumber = certlab-employee02</tspan>
+</text></g>
+<g data-node="people_account"><rect x="24" y="452" width="552" height="105" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="300.0" y="486.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="300.0" dy="0">People-source account</tspan>
+<tspan x="300.0" dy="24">certlab-employee02</tspan>
+<tspan x="300.0" dy="24">manager = certlab-manager01</tspan>
+</text></g>
+<g data-node="manager_identity"><rect x="24" y="627" width="552" height="105" rx="8" fill="#eff4f8" stroke="#526574"/>
+<text x="300.0" y="661.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#123047">
+<tspan x="300.0" dy="0">Manager identity in ISC</tspan>
+<tspan x="300.0" dy="24">certlab-manager01</tspan>
+<tspan x="300.0" dy="24">identificationNumber = certlab-manager01</tspan>
+</text></g>
+</svg>
