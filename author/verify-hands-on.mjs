@@ -54,7 +54,8 @@ for(const lesson of course.lessons){
       const expectedUrl=new URL(path,base+lesson.url);
       assert.equal(new URL(image.getAttribute('src'),base+lesson.url).href,expectedUrl.href,lesson.id+' diagram destination');
       const response=await fetch(expectedUrl);assert.equal(response.status,200,lesson.id+' diagram');
-      assert.equal(await response.text(),await readFile(new URL(path,new URL(lesson.source,root)),'utf8'),lesson.id+' published diagram bytes');
+      // Git normalizes text assets to LF when deploying this Windows working copy.
+      assert.equal((await response.text()).replace(/\r\n/g,'\n'),(await readFile(new URL(path,new URL(lesson.source,root)),'utf8')).replace(/\r\n/g,'\n'),lesson.id+' published diagram content');
     }
     for(const s of expected)assert.ok(actual.includes(s),lesson.id+' missing '+s.slice(0,110));
     assert.deepEqual([...article.querySelectorAll('pre code')].map(n=>n.textContent.trimEnd()),code,lesson.id+' code');

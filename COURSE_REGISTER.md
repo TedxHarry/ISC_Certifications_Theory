@@ -1,11 +1,11 @@
 # ISC Certifications course register
 
-Version 8.27. Updated November 20, 2026.
+Version 8.28. Updated November 20, 2026.
 [Course design](COURSE_DESIGN.md) and [teaching standard](TEACHING_SPECIFICATION.md).
 
 ## Current position
 
-Local beginner-entry corrections are prepared after a fresh read of hands-on001–003 and an actual public-download inspection. The kit instructions identify the first files;002 names their exact folder;003/007 replace raw diagram code with the same flows as static pictures. The [November20 record](author/BEGINNER_ENTRY_REVIEW_2026-11-20.md) distinguishes these local changes from the existing published revision. No new lesson or tenant execution is added. The user reports continued maintenance on November20.
+Beginner-entry corrections are published and live-verified after a fresh read of hands-on001–003 and an actual public-download inspection. The kit instructions identify the first files;002 names their exact folder;003/007 replace raw diagram code with the same flows as static pictures. The [November20 record](author/BEGINNER_ENTRY_REVIEW_2026-11-20.md) confirms content74dfeac and successful Pages run44735847116, full24-hands-on/61-theory live checks and the exact57-file kit. The [targeted visual review](author/VISUAL_TEACHING_OPPORTUNITIES_2026-11-20.md) recommends the two setup matches as the strongest next illustration, with retained-access overlap second; no new diagram or lesson is added by that recommendation. The user reports continued maintenance on November20.
 
 Hands-on reader numbering is published and live-verified: Lesson1–18 for the main route and Specialist1–6 separately. CLB-018 is Lesson6; CLB-006 is Lesson7. Permanent IDs, sources, download kit and URLs remain unchanged. The [numbering record](author/PUBLICATION_2026-11-17_HANDS_ON_NUMBERING.md) confirms content0ce9c2d, successful Pages run44036470216 and complete24-hands-on/61-theory live checks.
 

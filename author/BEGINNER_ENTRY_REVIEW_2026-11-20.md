@@ -22,4 +22,12 @@ A separate CSV reconciliation confirms five people, three reporting accounts, fi
 
 ## Remaining boundary
 
-These corrections are saved in the theory repository's working copy and rebuilt downloadable kit. They have not been pushed or live-verified. The November17 records continue to describe the current public version. No lesson is added, no historical publication evidence is overwritten and the separate original authoring folder is unchanged. Tenant execution, resets, recommendations, actual routing, fulfillment and independent learner outcomes remain unobserved. Resume with the existing001 inventory,002 setup and003 first review when access returns.
+At the end of the offline pass these corrections were saved in the theory repository's working copy and rebuilt downloadable kit, without publication. No lesson was added, no historical publication evidence was overwritten and the separate original authoring folder was unchanged. Tenant execution, resets, recommendations, actual routing, fulfillment and independent learner outcomes remain unobserved. Resume with the existing001 inventory,002 setup and003 first review when access returns.
+
+## Subsequent authorized publication
+
+The user explicitly requested publication on November20. Content74dfeac309378e0d5651f227cdfb202aa5a41d64 was pushed to main. [Pages run44735847116](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/44735847116) completed build, report and deployment successfully.
+
+The complete hands-on live verification passes24 learners/3711 content units/62 tables/27 closed answers/29 code blocks/two accessible SVG diagrams/26 fetched reading pages. Both diagrams are actual img elements with the expected alternatives and destinations, and their served vector content matches. The first diagram comparison caught Windows CRLF versus Git's deployed LF; the verifier now normalizes only CRLF line endings and still compares the entire vector content. The published binary kit matches its exact local SHA-256; author/control/assessor exclusions still return404. Full theory verification also passes61 lessons/6819 units/61 diagrams and assets/63 tables/4020 internal-link visits.
+
+The [targeted visual-teaching assessment](VISUAL_TEACHING_OPPORTUNITIES_2026-11-20.md) recommends a setup correlation picture as the next useful pilot, with retained-access overlap second. These are recommendations, not additional authored diagrams or a claim of a new whole-course review.

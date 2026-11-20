@@ -1,10 +1,10 @@
 # ISC Certifications Hands-On register
 
-Version1.48. November20,2026.
+Version1.49. November20,2026.
 
 ## Current position
 
-The [November20 beginner-entry review](../author/BEGINNER_ENTRY_REVIEW_2026-11-20.md) prepares local002 revision1.1,003 revision1.1 and007 revision1.2. It clarifies the extracted-file location and displays the existing two flows as static images. The homepage and57-file download gain clearer starting instructions and portable images. Existing24 lesson IDs, CSV values, procedures and route order remain. These local corrections have not been pushed; the November17 publication records retain their exact historical revision. Tenant maintenance continues, as reported November20.
+The [November20 beginner-entry review](../author/BEGINNER_ENTRY_REVIEW_2026-11-20.md) records published/live-verified002 revision1.1,003 revision1.1 and007 revision1.2: content74dfeac and successful Pages run44735847116. It clarifies the extracted-file location and displays the existing two flows as static images. The homepage and57-file download gain clearer starting instructions and portable images. Existing24 lesson IDs, CSV values, procedures and route order remain. Full24-hands-on/61-theory live checks pass; the November17 publication records retain their exact historical revision. Tenant maintenance continues, as reported November20.
 
 The initial course design, practical teaching rules, environment/baseline contracts, source boundaries and first brief are complete. A separate author design review found no important planning gap.
 
@@ -105,13 +105,13 @@ Planned means no learner file exists yet.
 | ID | Practical task | Writing state | Actual tenant execution |
 |---|---|---|---|
 | CLB-001 | Confirm the training setup | Authored/reviewed1.1 | Not run |
-| CLB-002 | Prepare and prove the small baseline | Local1.1; exact extracted baselineA location clarified | Not run |
-| CLB-003 | Complete one manager review | Local1.1; same flow displayed as portable SVG | Not run |
+| CLB-002 | Prepare and prove the small baseline | Published/live-verified1.1; exact extracted baselineA location clarified | Not run |
+| CLB-003 | Complete one manager review | Published/live-verified1.1; same flow displayed as portable SVG | Not run |
 | CLB-004 | Complete an application/source-owner review | Authored/reviewed1.1; clarified owner/subject/reviewer flow and task/reset checks | Not run |
 | CLB-005 | Build a targeted Search review | Authored/reviewed1.1; clarified A/B selection, record IDs and task/reset checks | Not run |
 | CLB-018 | Complete an Access Owner review; optional governance-group variation | Authored/reviewed1.0; ownership/holder scope, CSV result/reset and team actor evidence | Not run; native routing, group reachability and owner reset unverified |
 | CLB-006 | Apply filters to the correct review object | Authored/reviewed1.1; unstarted previews and temporary profile | Not run |
-| CLB-007 | Reuse templates and prepare a new cycle | Local1.2; same two-path flow displayed as portable SVG | Not run |
+| CLB-007 | Reuse templates and prepare a new cycle | Published/live-verified1.2; same two-path flow displayed as portable SVG | Not run |
 | CLB-008 | Repair missing/unexpected review content | Authored/reviewed1.1; two selection causes and separate repairs | Not run |
 | CLB-009 | Transfer work and handle absence | Authored/reviewed1.1; existing transfer and dated future-work cover | Not run |
 | CLB-010 | Make clear decisions and finalize correctly | Authored/reviewed1.1; unsigned correction, scoped decisions and CSV closure | Not run |
