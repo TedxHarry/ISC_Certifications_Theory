@@ -28,3 +28,11 @@ The [editable definition](../../assets/CLB-002_two_matches.canonical.json) has f
 All22 site tests pass. The image test now verifies all three diagrams' node text, edge endpoints, labels, static markup and alternative text. Fixture checks verify that the new employee and manager keys still match the supplied people/account rows; they reject an account-to-manager shortcut. Local content verification passes24 lessons/3714 units/62 tables/27 answers/29 code blocks/three diagram assets. The two existing SVGs remain unchanged.
 
 The rebuilt59-file kit includes the revised lesson and two new picture/definition files. CRC, exact packaged content and all26 relative Markdown/image references pass. Its SHA-256 is7bd27108553a082ee89439c8fe2c21380eb549c0b5032356f3ff20994082771b. The14 CSVs, 24 lesson IDs and existing URLs remain unchanged. No new topic, fixture, application connection or tenant execution is added.
+
+## Observed publication
+
+Content9864416c2d4855d1a3e42558358bcc91a02b6f0a was pushed to main. [Pages run44741935680](https://github.com/TedxHarry/ISC_Certifications_Theory/actions/runs/44741935680) completed build, report and deployment successfully on November20.
+
+Complete live verification passes24 hands-on learners/3714 units/62 tables/27 closed answers/29 code blocks/three served diagrams/26 fetched reading pages. The new picture is an img element with the exact alternative text and resolved destination; all three served SVG contents match after Git's CRLF/LF normalization. The online59-file kit matches the exact local SHA-256. Author/control/assessor pages remain excluded. Separate theory verification passes61 learners/6819 units/61 diagrams and assets/63 tables/4020 link visits.
+
+These observations establish publication and preserved content. They do not establish actual tenant matches or an independent beginner's understanding. The original authoring folder remains unchanged; this revision belongs to the published repository's learner copy.
